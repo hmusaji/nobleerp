@@ -97,8 +97,8 @@ namespace Xtreme
 			this.lblAnnualBudget = new System.Windows.Forms.Label();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.Frame1.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Frame1
@@ -311,8 +311,8 @@ namespace Xtreme
 			// this.txtAnnualBudget.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtAnnualBudget.Format = "###########0.000";
 			this.txtAnnualBudget.Location = new System.Drawing.Point(90, 74);
-			// this.txtAnnualBudget.MaxValue = 2147483647;
-			// this.txtAnnualBudget.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtAnnualBudget.Name = "txtAnnualBudget";
 			this.txtAnnualBudget.Size = new System.Drawing.Size(99, 19);
 			this.txtAnnualBudget.TabIndex = 1;
@@ -353,7 +353,7 @@ namespace Xtreme
 			this.txtLdgrNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLdgrNo.TabIndex = 0;
 			this.txtLdgrNo.Text = "";
-			// this.this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLdgrNo_DropButtonClick);
+			// this.//this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLdgrNo_DropButtonClick);
 			// this.txtLdgrNo.Leave += new System.EventHandler(this.txtLdgrNo_Leave);
 			// 
 			// txtLdgrName

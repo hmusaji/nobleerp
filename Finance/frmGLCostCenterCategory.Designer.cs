@@ -76,7 +76,7 @@ namespace Xtreme
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.cntMainParameter.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMainParameter
@@ -120,13 +120,13 @@ namespace Xtreme
 			this.txtCatNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCatNo.Location = new System.Drawing.Point(146, 12);
 			this.txtCatNo.MaxLength = 15;
-			// this.txtCatNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCatNo.Name = "txtCatNo";
 			// this.txtCatNo.ShowButton = true;
 			this.txtCatNo.Size = new System.Drawing.Size(101, 19);
 			this.txtCatNo.TabIndex = 0;
 			this.txtCatNo.Text = "";
-			// this.this.txtCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCatNo_DropButtonClick);
+			// this.//this.txtCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCatNo_DropButtonClick);
 			// 
 			// lblLCostName
 			// 
@@ -168,7 +168,7 @@ namespace Xtreme
 			this.txtACatName.BackColor = System.Drawing.Color.White;
 			this.txtACatName.ForeColor = System.Drawing.Color.Black;
 			this.txtACatName.Location = new System.Drawing.Point(146, 54);
-			// this.txtACatName.mArabicEnabled = true;
+			// // = true;
 			this.txtACatName.MaxLength = 50;
 			this.txtACatName.Name = "txtACatName";
 			this.txtACatName.Size = new System.Drawing.Size(201, 19);

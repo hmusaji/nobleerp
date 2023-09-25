@@ -79,7 +79,7 @@ namespace Xtreme
 			this.Label2.Text = "Restore Database Name";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(20, 282);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(117, 13);
 			this.Label2.TabIndex = 7;
 			// 
@@ -87,10 +87,10 @@ namespace Xtreme
 			// 
 			this.txtRestoreDBName.AllowDrop = true;
 			this.txtRestoreDBName.BackColor = System.Drawing.Color.White;
-			// this.txtRestoreDBName.bolAllowDecimal = false;
+			// // = false;
 			this.txtRestoreDBName.ForeColor = System.Drawing.Color.Black;
 			this.txtRestoreDBName.Location = new System.Drawing.Point(144, 278);
-			// this.txtRestoreDBName.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtRestoreDBName.Name = "txtRestoreDBName";
 			this.txtRestoreDBName.Size = new System.Drawing.Size(105, 21);
 			this.txtRestoreDBName.TabIndex = 6;
@@ -102,7 +102,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Select the file to Restore:";
 			this.Label1.Location = new System.Drawing.Point(16, 22);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(119, 13);
 			this.Label1.TabIndex = 5;
 			// 

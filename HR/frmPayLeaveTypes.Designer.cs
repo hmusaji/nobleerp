@@ -4,58 +4,23 @@ namespace Xtreme
 	partial class frmPayLeaveTypes
 	{
 
-		#region "Upgrade Support "
-		private static frmPayLeaveTypes m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmPayLeaveTypes DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
-		#region "Windows Form Designer generated code "
-		public static frmPayLeaveTypes CreateInstance()
-		{
-			frmPayLeaveTypes theInstance = new frmPayLeaveTypes();
-			
-			//The MDI form in the VB6 project had its
-			//AutoShowChildren property set to True
-			//To simulate the VB6 behavior, we need to
-			//automatically Show the form whenever it
-			//is loaded.  If you do not want this behavior
-			//then delete the following line of code
-			//UPGRADE_TODO: (2018) Remove the next line of code to stop form from automatically showing. More Information: https://docs.mobilize.net/vbuc/ewis#2018
-			theInstance.Show();
-			return theInstance;
-		}
+		
+		
 		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_btnFormToolBar_0", "_btnFormToolBar_1", "_btnFormToolBar_5", "_btnFormToolBar_2", "_btnFormToolBar_3", "_btnFormToolBar_6", "_btnFormToolBar_4", "picFormToolbar", "System.Windows.Forms.TextBox2", "System.Windows.Forms.TextBox1", "System.Windows.Forms.ComboBox1", "txtComment", "txtGradeNo", "lblLNatName", "txtLGradeName", "lblANatName", "txtAGradeName", "lblComments", "lblNatNo", "System.Windows.Forms.Label3", "System.Windows.Forms.Label4", "System.Windows.Forms.Label5", "System.Windows.Forms.Label6", "System.Windows.Forms.Label7", "System.Windows.Forms.Label8", "System.Windows.Forms.Label9", "System.Windows.Forms.TextBox1", "System.Windows.Forms.TextBox3", "System.Windows.Forms.TextBox4", "System.Windows.Forms.TextBox5", "cntMainParameter", "btnFormToolBar"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_5;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_2;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_3;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_6;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_4;
+		private System.Windows.Forms.Button _btnFormToolBar_0;
+		private System.Windows.Forms.Button _btnFormToolBar_1;
+		private System.Windows.Forms.Button _btnFormToolBar_5;
+		private System.Windows.Forms.Button _btnFormToolBar_2;
+		private System.Windows.Forms.Button _btnFormToolBar_3;
+		private System.Windows.Forms.Button _btnFormToolBar_6;
+		private System.Windows.Forms.Button _btnFormToolBar_4;
 		public System.Windows.Forms.PictureBox picFormToolbar;
-		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox2;
-		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox1;
-		public System.Windows.Forms.ComboBox System.Windows.Forms.ComboBox1;
+		public System.Windows.Forms.TextBox TextBox2;
+		public System.Windows.Forms.TextBox TextBox1;
+		public System.Windows.Forms.ComboBox ComboBox1;
 		public System.Windows.Forms.TextBox txtComment;
 		public System.Windows.Forms.TextBox txtGradeNo;
 		public System.Windows.Forms.Label lblLNatName;
@@ -71,12 +36,11 @@ namespace Xtreme
 		public System.Windows.Forms.Label Label7;
 		public System.Windows.Forms.Label Label8;
 		public System.Windows.Forms.Label Label9;
-		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox1;
-		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox3;
-		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox4;
-		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox5;
+		public System.Windows.Forms.TextBox TextBox3;
+		public System.Windows.Forms.TextBox TextBox4;
+		public System.Windows.Forms.TextBox TextBox5;
 		public System.Windows.Forms.Panel cntMainParameter;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
+		public System.Windows.Forms.Button[] btnFormToolBar = new System.Windows.Forms.Button[7];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -87,13 +51,13 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayLeaveTypes));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.picFormToolbar = new System.Windows.Forms.PictureBox();
-			this._btnFormToolBar_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_5 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_2 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnFormToolBar_0 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_1 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_5 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_2 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_3 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_6 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_4 = new System.Windows.Forms.Button();
 			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.TextBox2 = new System.Windows.Forms.TextBox();
 			this.TextBox1 = new System.Windows.Forms.TextBox();
@@ -125,8 +89,8 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_6).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_4).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.picFormToolbar.SuspendLayout();
-			this.cntMainParameter.SuspendLayout();
+			//this.picFormToolbar.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// picFormToolbar
@@ -256,7 +220,6 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.Label7);
 			this.cntMainParameter.Controls.Add(this.Label8);
 			this.cntMainParameter.Controls.Add(this.Label9);
-			this.cntMainParameter.Controls.Add(this.TextBox1);
 			this.cntMainParameter.Controls.Add(this.TextBox3);
 			this.cntMainParameter.Controls.Add(this.TextBox4);
 			this.cntMainParameter.Controls.Add(this.TextBox5);
@@ -270,10 +233,10 @@ namespace Xtreme
 			// 
 			this.TextBox2.AllowDrop = true;
 			this.TextBox2.BackColor = System.Drawing.Color.White;
-			this.TextBox2.bolAllowDecimal = false;
+			// = false;
 			this.TextBox2.Location = new System.Drawing.Point(136, 164);
-			this.TextBox2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
-			this.TextBox2.Name = "System.Windows.Forms.TextBox2";
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			this.TextBox2.Name="TextBox2";
 			this.TextBox2.Size = new System.Drawing.Size(101, 19);
 			this.TextBox2.TabIndex = 30;
 			this.TextBox2.Text = "";
@@ -282,9 +245,9 @@ namespace Xtreme
 			// 
 			this.TextBox1.AllowDrop = true;
 			this.TextBox1.Location = new System.Drawing.Point(150, 110);
-			this.TextBox1.MaxValue = 2147483647;
-			this.TextBox1.MinValue = 0;
-			this.TextBox1.Name = "System.Windows.Forms.TextBox1";
+			// = 2147483647;
+			// = 0;
+			this.TextBox1.Name="TextBox1";
 			this.TextBox1.Size = new System.Drawing.Size(107, 19);
 			this.TextBox1.TabIndex = 26;
 			// 
@@ -292,7 +255,7 @@ namespace Xtreme
 			// 
 			this.ComboBox1.AllowDrop = true;
 			this.ComboBox1.Location = new System.Drawing.Point(146, 78);
-			this.ComboBox1.Name = "System.Windows.Forms.ComboBox1";
+			this.ComboBox1.Name="ComboBox1";
 			this.ComboBox1.Size = new System.Drawing.Size(115, 21);
 			this.ComboBox1.TabIndex = 24;
 			// 
@@ -319,13 +282,13 @@ namespace Xtreme
 			// this.txtGradeNo.bolNumericOnly = true;
 			this.txtGradeNo.Location = new System.Drawing.Point(146, 12);
 			this.txtGradeNo.MaxLength = 15;
-			// this.txtGradeNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtGradeNo.Name = "txtGradeNo";
 			// this.txtGradeNo.ShowButton = true;
 			this.txtGradeNo.Size = new System.Drawing.Size(101, 19);
 			this.txtGradeNo.TabIndex = 0;
 			this.txtGradeNo.Text = "";
-			// this.this.txtGradeNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGradeNo_DropButtonClick);
+			// this.//this.txtGradeNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGradeNo_DropButtonClick);
 			// 
 			// lblLNatName
 			// 
@@ -363,7 +326,7 @@ namespace Xtreme
 			this.txtAGradeName.AllowDrop = true;
 			this.txtAGradeName.BackColor = System.Drawing.Color.White;
 			this.txtAGradeName.Location = new System.Drawing.Point(146, 54);
-			// this.txtAGradeName.mArabicEnabled = true;
+			// // = true;
 			this.txtAGradeName.MaxLength = 50;
 			this.txtAGradeName.Name = "txtAGradeName";
 			this.txtAGradeName.Size = new System.Drawing.Size(201, 19);
@@ -396,7 +359,7 @@ namespace Xtreme
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label3.Text = "Grade Name (Arabic)";
 			this.Label3.Location = new System.Drawing.Point(272, 172);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(103, 14);
 			this.Label3.TabIndex = 17;
 			// 
@@ -406,7 +369,7 @@ namespace Xtreme
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label4.Text = "Grade Name (Arabic)";
 			this.Label4.Location = new System.Drawing.Point(14, 164);
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(103, 14);
 			this.Label4.TabIndex = 18;
 			// 
@@ -416,7 +379,7 @@ namespace Xtreme
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label5.Text = "Grade Name (Arabic)";
 			this.Label5.Location = new System.Drawing.Point(268, 142);
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(103, 14);
 			this.Label5.TabIndex = 19;
 			// 
@@ -426,7 +389,7 @@ namespace Xtreme
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label6.Text = "Grade Name (Arabic)";
 			this.Label6.Location = new System.Drawing.Point(266, 82);
-			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Name="Label6";
 			this.Label6.Size = new System.Drawing.Size(103, 14);
 			this.Label6.TabIndex = 20;
 			// 
@@ -436,7 +399,7 @@ namespace Xtreme
 			this.Label7.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label7.Text = "Grade Name (Arabic)";
 			this.Label7.Location = new System.Drawing.Point(262, 116);
-			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Name="Label7";
 			this.Label7.Size = new System.Drawing.Size(103, 14);
 			this.Label7.TabIndex = 21;
 			// 
@@ -446,7 +409,7 @@ namespace Xtreme
 			this.Label8.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label8.Text = "Grade Name (Arabic)";
 			this.Label8.Location = new System.Drawing.Point(4, 138);
-			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Name="Label8";
 			this.Label8.Size = new System.Drawing.Size(103, 14);
 			this.Label8.TabIndex = 22;
 			// 
@@ -456,7 +419,7 @@ namespace Xtreme
 			this.Label9.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label9.Text = "Grade Name (Arabic)";
 			this.Label9.Location = new System.Drawing.Point(12, 114);
-			this.Label9.Name = "System.Windows.Forms.Label9";
+			this.Label9.Name="Label9";
 			this.Label9.Size = new System.Drawing.Size(103, 14);
 			this.Label9.TabIndex = 23;
 			// 
@@ -465,9 +428,9 @@ namespace Xtreme
 			this.TextBox1.AllowDrop = true;
 			this.TextBox1.BackColor = System.Drawing.Color.White;
 			this.TextBox1.Location = new System.Drawing.Point(382, 80);
-			this.TextBox1.mArabicEnabled = true;
+			// = true;
 			this.TextBox1.MaxLength = 50;
-			this.TextBox1.Name = "System.Windows.Forms.TextBox1";
+			this.TextBox1.Name="TextBox1";
 			this.TextBox1.Size = new System.Drawing.Size(111, 19);
 			this.TextBox1.TabIndex = 25;
 			this.TextBox1.Text = "";
@@ -476,9 +439,9 @@ namespace Xtreme
 			// 
 			this.TextBox3.AllowDrop = true;
 			this.TextBox3.Location = new System.Drawing.Point(382, 138);
-			this.TextBox3.MaxValue = 2147483647;
-			this.TextBox3.MinValue = 0;
-			this.TextBox3.Name = "System.Windows.Forms.TextBox3";
+			// = 2147483647;
+			// = 0;
+			this.TextBox3.Name="TextBox3";
 			this.TextBox3.Size = new System.Drawing.Size(107, 19);
 			this.TextBox3.TabIndex = 27;
 			// 
@@ -486,9 +449,9 @@ namespace Xtreme
 			// 
 			this.TextBox4.AllowDrop = true;
 			this.TextBox4.Location = new System.Drawing.Point(380, 112);
-			this.TextBox4.MaxValue = 2147483647;
-			this.TextBox4.MinValue = 0;
-			this.TextBox4.Name = "System.Windows.Forms.TextBox4";
+			// = 2147483647;
+			// = 0;
+			this.TextBox4.Name="TextBox4";
 			this.TextBox4.Size = new System.Drawing.Size(107, 19);
 			this.TextBox4.TabIndex = 28;
 			// 
@@ -496,15 +459,15 @@ namespace Xtreme
 			// 
 			this.TextBox5.AllowDrop = true;
 			this.TextBox5.Location = new System.Drawing.Point(150, 134);
-			this.TextBox5.MaxValue = 2147483647;
-			this.TextBox5.MinValue = 0;
-			this.TextBox5.Name = "System.Windows.Forms.TextBox5";
+			// = 2147483647;
+			// = 0;
+			this.TextBox5.Name="TextBox5";
 			this.TextBox5.Size = new System.Drawing.Size(107, 19);
 			this.TextBox5.TabIndex = 29;
 			// 
 			// frmPayLeaveTypes
 			// 
-			this.'MaxButton = 0;
+			//
 			this.AllowDrop = true;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6, 13);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -541,7 +504,7 @@ namespace Xtreme
 		// 
 		void InitializebtnFormToolBar()
 		{
-			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
+			this.btnFormToolBar = new System.Windows.Forms.Button[7];
 			this.btnFormToolBar[0] = _btnFormToolBar_0;
 			this.btnFormToolBar[1] = _btnFormToolBar_1;
 			this.btnFormToolBar[5] = _btnFormToolBar_5;
@@ -550,6 +513,6 @@ namespace Xtreme
 			this.btnFormToolBar[6] = _btnFormToolBar_6;
 			this.btnFormToolBar[4] = _btnFormToolBar_4;
 		}
-		#endregion
+		
 	}
 }//ENDSHERE

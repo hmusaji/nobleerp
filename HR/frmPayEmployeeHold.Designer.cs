@@ -93,10 +93,10 @@ namespace Xtreme
 			// 
 			this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
-			// this.txtComment.bolAllowDecimal = false;
+			// // = false;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
 			this.txtComment.Location = new System.Drawing.Point(90, 120);
-			// this.txtComment.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtComment.Name = "txtComment";
 			this.txtComment.Size = new System.Drawing.Size(397, 21);
 			this.txtComment.TabIndex = 14;
@@ -147,7 +147,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 3;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_4
@@ -216,7 +216,7 @@ namespace Xtreme
 			// this.txtStartDate.MaxDate = 2958465;
 			// this.txtStartDate.MinDate = -657434;
 			this.txtStartDate.Name = "txtStartDate";
-			this.txtStartDate.PromptChar = "_";
+			//// = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(143, 21);
 			this.txtStartDate.TabIndex = 10;
 			// this.txtStartDate.Text = "09/02/2013";
@@ -243,7 +243,7 @@ namespace Xtreme
 			// this.txtResumeDate.MaxDate = 2958465;
 			// this.txtResumeDate.MinDate = -657434;
 			this.txtResumeDate.Name = "txtResumeDate";
-			this.txtResumeDate.PromptChar = "_";
+			// = "_";
 			this.txtResumeDate.Size = new System.Drawing.Size(141, 21);
 			this.txtResumeDate.TabIndex = 12;
 			// this.txtResumeDate.Text = "09/02/2013";

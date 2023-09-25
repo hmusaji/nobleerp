@@ -1152,6 +1152,9 @@
     <Compile Include="Finance\frmARAPVoucherLinking.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ShapeHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SystemForm\frmSysLogin.Designer.cs">
       <DependentUpon>frmSysLogin.cs</DependentUpon>
     </Compile>
@@ -1709,6 +1712,9 @@
     </Compile>
     <Compile Include="UCOKCancel.Designer.cs">
       <DependentUpon>UCOKCancel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnResolved\AxC1Elastic.cs">
+      <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="frmSysMain.resX">
       <DependentUpon>frmSysMain.cs</DependentUpon>

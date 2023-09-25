@@ -118,8 +118,8 @@ namespace Xtreme
 			// this._txtCommonNumber_0.DisplayFormat = "#,###,##0.000#;;0.000;0.000";
 			// this._txtCommonNumber_0.Format = "#########0.000#";
 			this._txtCommonNumber_0.Location = new System.Drawing.Point(114, 136);
-			// this._txtCommonNumber_0.MaxValue = 2147483647;
-			// this._txtCommonNumber_0.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_0.Name = "_txtCommonNumber_0";
 			this._txtCommonNumber_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_0.TabIndex = 1;
@@ -174,7 +174,7 @@ namespace Xtreme
 			this._txtCommon_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_2.TabIndex = 5;
 			this._txtCommon_2.Text = "";
-			// this.this._txtCommon_2.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_1
 			// 
@@ -201,7 +201,7 @@ namespace Xtreme
 			this._txtCommon_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_1.TabIndex = 7;
 			this._txtCommon_1.Text = "";
-			// this.this._txtCommon_1.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_2
 			// 
@@ -228,7 +228,7 @@ namespace Xtreme
 			this._txtCommon_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_3.TabIndex = 9;
 			this._txtCommon_3.Text = "";
-			// this.this._txtCommon_3.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_9
 			// 
@@ -254,7 +254,7 @@ namespace Xtreme
 			this._txtCommon_5.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_5.TabIndex = 11;
 			this._txtCommon_5.Text = "";
-			// this.this._txtCommon_5.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_10
 			// 

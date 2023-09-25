@@ -44,14 +44,14 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_5;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_2;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_3;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_6;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_4;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_7;
+		private System.Windows.Forms.Button _btnFormToolBar_0;
+		private System.Windows.Forms.Button _btnFormToolBar_1;
+		private System.Windows.Forms.Button _btnFormToolBar_5;
+		private System.Windows.Forms.Button _btnFormToolBar_2;
+		private System.Windows.Forms.Button _btnFormToolBar_3;
+		private System.Windows.Forms.Button _btnFormToolBar_6;
+		private System.Windows.Forms.Button _btnFormToolBar_4;
+		private System.Windows.Forms.Button _btnFormToolBar_7;
 		public System.Windows.Forms.PictureBox picFormToolbar;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_7;
@@ -74,7 +74,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtDisplayLabel_2;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[8];
+		public System.Windows.Forms.Button[] btnFormToolBar = new System.Windows.Forms.Button[8];
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[21];
 		public Syncfusion.WinForms.Input.SfDateTimeEdit[] txtCommonDate = new Syncfusion.WinForms.Input.SfDateTimeEdit[3];
 		public System.Windows.Forms.TextBox[] txtCommonTextBox = new System.Windows.Forms.TextBox[5];
@@ -89,14 +89,14 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayPassport));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.picFormToolbar = new System.Windows.Forms.PictureBox();
-			this._btnFormToolBar_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_5 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_2 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_7 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnFormToolBar_0 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_1 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_5 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_2 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_3 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_6 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_4 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_7 = new System.Windows.Forms.Button();
 			this._txtCommonTextBox_2 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_7 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_5 = new System.Windows.Forms.Label();
@@ -126,7 +126,7 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_6).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_4).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_7).BeginInit();
-			this.picFormToolbar.SuspendLayout();
+			//this.picFormToolbar.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// picFormToolbar
@@ -305,7 +305,7 @@ namespace Xtreme
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(104, 50);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(102, 19);
@@ -352,7 +352,7 @@ namespace Xtreme
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(10, 212);
 			// this.Label12.mLabelId = 135;
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(50, 14);
 			this.Label12.TabIndex = 13;
 			// 
@@ -562,7 +562,7 @@ namespace Xtreme
 		}
 		void InitializebtnFormToolBar()
 		{
-			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[8];
+			this.btnFormToolBar = new System.Windows.Forms.Button[8];
 			this.btnFormToolBar[0] = _btnFormToolBar_0;
 			this.btnFormToolBar[1] = _btnFormToolBar_1;
 			this.btnFormToolBar[5] = _btnFormToolBar_5;

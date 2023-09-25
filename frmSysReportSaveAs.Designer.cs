@@ -77,12 +77,12 @@ namespace Xtreme
 			this.txtArabicName.BackColor = System.Drawing.Color.White;
 			this.txtArabicName.ForeColor = System.Drawing.Color.Black;
 			this.txtArabicName.Location = new System.Drawing.Point(104, 39);
-			// this.txtArabicName.mArabicEnabled = true;
+			// // = true;
 			this.txtArabicName.Name = "txtArabicName";
 			this.txtArabicName.Size = new System.Drawing.Size(290, 19);
 			this.txtArabicName.TabIndex = 1;
 			this.txtArabicName.Text = "";
-			// this.this.txtArabicName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblLocationCode
 			// 
@@ -104,7 +104,7 @@ namespace Xtreme
 			this.txtEngName.Size = new System.Drawing.Size(290, 19);
 			this.txtEngName.TabIndex = 0;
 			this.txtEngName.Text = "";
-			// this.this.txtEngName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCompanyCode
 			// 

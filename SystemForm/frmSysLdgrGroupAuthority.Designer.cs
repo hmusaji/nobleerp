@@ -51,7 +51,7 @@ namespace Xtreme
 		public C1.Win.C1FlexGrid.C1FlexGrid grdUserGroups;
 		public System.Windows.Forms.Label lblGroupName;
 		public System.Windows.Forms.Label Line1;
-		public AxC1SizerLib.AxC1Elastic cntOuterFrame;
+		public AxC1Elastic cntOuterFrame;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -62,7 +62,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysLdgrGroupAuthority));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntOuterFrame = new AxC1SizerLib.AxC1Elastic();
+			this.cntOuterFrame = new AxC1Elastic();
 			this.lblLedgerCode = new System.Windows.Forms.Label();
 			this.txtGroupCode = new System.Windows.Forms.TextBox();
 			this.lblGroup = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@ namespace Xtreme
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.cntOuterFrame).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.cntOuterFrame.SuspendLayout();
+			//this.cntOuterFrame.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntOuterFrame
@@ -114,7 +114,7 @@ namespace Xtreme
 			this.txtGroupCode.Size = new System.Drawing.Size(103, 19);
 			this.txtGroupCode.TabIndex = 2;
 			this.txtGroupCode.Text = "";
-			// this.this.txtGroupCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGroupCode_DropButtonClick);
+			// this.//this.txtGroupCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGroupCode_DropButtonClick);
 			// this.txtGroupCode.Leave += new System.EventHandler(this.txtGroupCode_Leave);
 			// 
 			// lblGroup

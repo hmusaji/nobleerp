@@ -100,14 +100,14 @@ namespace Xtreme
 			this.txtBankNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBankNo.Location = new System.Drawing.Point(158, 38);
 			this.txtBankNo.MaxLength = 15;
-			// this.txtBankNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBankNo.Name = "txtBankNo";
 			// this.txtBankNo.ShowButton = true;
 			this.txtBankNo.Size = new System.Drawing.Size(101, 19);
 			this.txtBankNo.TabIndex = 1;
 			this.txtBankNo.Text = "";
-			// this.this.txtBankNo.Watermark = "";
-			// this.this.txtBankNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBankNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtBankNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBankNo_DropButtonClick);
 			// 
 			// lblLNatName
 			// 
@@ -131,7 +131,7 @@ namespace Xtreme
 			this.txtLBankName.Size = new System.Drawing.Size(201, 19);
 			this.txtLBankName.TabIndex = 3;
 			this.txtLBankName.Text = "";
-			// this.this.txtLBankName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblANatName
 			// 
@@ -150,13 +150,13 @@ namespace Xtreme
 			this.txtABankName.BackColor = System.Drawing.Color.White;
 			this.txtABankName.ForeColor = System.Drawing.Color.Black;
 			this.txtABankName.Location = new System.Drawing.Point(158, 101);
-			// this.txtABankName.mArabicEnabled = true;
+			// // = true;
 			this.txtABankName.MaxLength = 50;
 			this.txtABankName.Name = "txtABankName";
 			this.txtABankName.Size = new System.Drawing.Size(201, 19);
 			this.txtABankName.TabIndex = 5;
 			this.txtABankName.Text = "";
-			// this.this.txtABankName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 
@@ -187,12 +187,12 @@ namespace Xtreme
 			this.txtAccountNo.ForeColor = System.Drawing.Color.Black;
 			this.txtAccountNo.Location = new System.Drawing.Point(158, 59);
 			this.txtAccountNo.MaxLength = 15;
-			// this.txtAccountNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtAccountNo.Name = "txtAccountNo";
 			this.txtAccountNo.Size = new System.Drawing.Size(101, 19);
 			this.txtAccountNo.TabIndex = 8;
 			this.txtAccountNo.Text = "";
-			// this.this.txtAccountNo.Watermark = "";
+			// this.// = "";
 			// 
 			// System.Windows.Forms.Label1
 			// 
@@ -201,7 +201,7 @@ namespace Xtreme
 			this.Label1.Text = "Account No.";
 			this.Label1.Location = new System.Drawing.Point(20, 61);
 			// this.Label1.mLabelId = 1978;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(60, 14);
 			this.Label1.TabIndex = 9;
 			// 

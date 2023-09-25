@@ -96,7 +96,7 @@ namespace Xtreme
 			this.txtAssetsNo.ForeColor = System.Drawing.Color.Black;
 			this.txtAssetsNo.Location = new System.Drawing.Point(138, 60);
 			this.txtAssetsNo.MaxLength = 15;
-			// this.txtAssetsNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtAssetsNo.Name = "txtAssetsNo";
 			// this.txtAssetsNo.ShowButton = true;
 			this.txtAssetsNo.Size = new System.Drawing.Size(101, 19);
@@ -154,7 +154,7 @@ namespace Xtreme
 			this.txtAAssetTypeName.BackColor = System.Drawing.Color.White;
 			this.txtAAssetTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtAAssetTypeName.Location = new System.Drawing.Point(138, 102);
-			// this.txtAAssetTypeName.mArabicEnabled = true;
+			// // = true;
 			this.txtAAssetTypeName.MaxLength = 50;
 			this.txtAAssetTypeName.Name = "txtAAssetTypeName";
 			this.txtAAssetTypeName.Size = new System.Drawing.Size(343, 19);

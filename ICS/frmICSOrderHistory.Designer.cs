@@ -88,7 +88,7 @@ namespace Xtreme
 			this.txtOffer = new System.Windows.Forms.TextBox();
 			this.txtOrder = new System.Windows.Forms.TextBox();
 			this.Label6 = new System.Windows.Forms.Label();
-			this.Frame1.SuspendLayout();
+			//this.Frame1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// grdPurchase
@@ -372,7 +372,7 @@ namespace Xtreme
 			this.Label1.Text = "Customer Enquiry Ref. No.";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label1.Location = new System.Drawing.Point(8, 21);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(146, 15);
 			this.Label1.TabIndex = 1;
 			// 
@@ -383,7 +383,7 @@ namespace Xtreme
 			this.Label2.Text = "P.O. No.";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label2.Location = new System.Drawing.Point(332, 21);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(45, 15);
 			this.Label2.TabIndex = 6;
 			// 
@@ -394,7 +394,7 @@ namespace Xtreme
 			this.Label3.Text = "Sales Inv. No.";
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label3.Location = new System.Drawing.Point(486, 21);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(75, 15);
 			this.Label3.TabIndex = 7;
 			// 
@@ -405,7 +405,7 @@ namespace Xtreme
 			this.Label4.Text = "Offer";
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label4.Location = new System.Drawing.Point(672, 20);
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(26, 15);
 			this.Label4.TabIndex = 8;
 			// 
@@ -416,7 +416,7 @@ namespace Xtreme
 			this.Label5.Text = "Sales Order";
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label5.Location = new System.Drawing.Point(796, 20);
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(66, 15);
 			this.Label5.TabIndex = 9;
 			// 
@@ -424,80 +424,80 @@ namespace Xtreme
 			// 
 			this.txtRefNo.AllowDrop = true;
 			this.txtRefNo.BackColor = System.Drawing.Color.White;
-			// this.txtRefNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtRefNo.ForeColor = System.Drawing.Color.Black;
 			this.txtRefNo.Location = new System.Drawing.Point(160, 18);
-			// this.txtRefNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtRefNo.Name = "txtRefNo";
 			// this.txtRefNo.ShowButton = true;
 			this.txtRefNo.Size = new System.Drawing.Size(103, 20);
 			this.txtRefNo.TabIndex = 10;
 			this.txtRefNo.Text = "";
-			// this.this.txtRefNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtRefNo_DropButtonClick);
+			// this.//this.txtRefNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtRefNo_DropButtonClick);
 			// this.this.txtRefNo.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtRefNo_KeyDown);
 			// 
 			// txtPONo
 			// 
 			this.txtPONo.AllowDrop = true;
 			this.txtPONo.BackColor = System.Drawing.Color.White;
-			// this.txtPONo.bolAllowDecimal = false;
+			// // = false;
 			this.txtPONo.ForeColor = System.Drawing.Color.Black;
 			this.txtPONo.Location = new System.Drawing.Point(380, 18);
-			// this.txtPONo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtPONo.Name = "txtPONo";
 			// this.txtPONo.ShowButton = true;
 			this.txtPONo.Size = new System.Drawing.Size(103, 20);
 			this.txtPONo.TabIndex = 11;
 			this.txtPONo.Text = "";
-			// this.this.txtPONo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtPONo_DropButtonClick);
+			// this.//this.txtPONo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtPONo_DropButtonClick);
 			// this.this.txtPONo.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtPONo_KeyDown);
 			// 
 			// txtSalesInvNo
 			// 
 			this.txtSalesInvNo.AllowDrop = true;
 			this.txtSalesInvNo.BackColor = System.Drawing.Color.White;
-			// this.txtSalesInvNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtSalesInvNo.ForeColor = System.Drawing.Color.Black;
 			this.txtSalesInvNo.Location = new System.Drawing.Point(566, 18);
-			// this.txtSalesInvNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtSalesInvNo.Name = "txtSalesInvNo";
 			// this.txtSalesInvNo.ShowButton = true;
 			this.txtSalesInvNo.Size = new System.Drawing.Size(103, 20);
 			this.txtSalesInvNo.TabIndex = 12;
 			this.txtSalesInvNo.Text = "";
-			// this.this.txtSalesInvNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSalesInvNo_DropButtonClick);
+			// this.//this.txtSalesInvNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSalesInvNo_DropButtonClick);
 			// this.this.txtSalesInvNo.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtSalesInvNo_KeyDown);
 			// 
 			// txtOffer
 			// 
 			this.txtOffer.AllowDrop = true;
 			this.txtOffer.BackColor = System.Drawing.Color.White;
-			// this.txtOffer.bolAllowDecimal = false;
+			// // = false;
 			this.txtOffer.ForeColor = System.Drawing.Color.Black;
 			this.txtOffer.Location = new System.Drawing.Point(702, 18);
-			// this.txtOffer.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtOffer.Name = "txtOffer";
 			// this.txtOffer.ShowButton = true;
 			this.txtOffer.Size = new System.Drawing.Size(91, 20);
 			this.txtOffer.TabIndex = 13;
 			this.txtOffer.Text = "";
-			// this.this.txtOffer.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtOffer_DropButtonClick);
+			// this.//this.txtOffer.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtOffer_DropButtonClick);
 			// this.this.txtOffer.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtOffer_KeyDown);
 			// 
 			// txtOrder
 			// 
 			this.txtOrder.AllowDrop = true;
 			this.txtOrder.BackColor = System.Drawing.Color.White;
-			// this.txtOrder.bolAllowDecimal = false;
+			// // = false;
 			this.txtOrder.ForeColor = System.Drawing.Color.Black;
 			this.txtOrder.Location = new System.Drawing.Point(866, 18);
-			// this.txtOrder.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtOrder.Name = "txtOrder";
 			// this.txtOrder.ShowButton = true;
 			this.txtOrder.Size = new System.Drawing.Size(103, 20);
 			this.txtOrder.TabIndex = 14;
 			this.txtOrder.Text = "";
-			// this.this.txtOrder.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtOrder_DropButtonClick);
+			// this.//this.txtOrder.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtOrder_DropButtonClick);
 			// this.this.txtOrder.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtOrder_KeyDown);
 			// 
 			// System.Windows.Forms.Label6
@@ -507,7 +507,7 @@ namespace Xtreme
 			this.Label6.Text = "Year";
 			this.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label6.Location = new System.Drawing.Point(8, 45);
-			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Name="Label6";
 			this.Label6.Size = new System.Drawing.Size(27, 16);
 			this.Label6.TabIndex = 15;
 			// 

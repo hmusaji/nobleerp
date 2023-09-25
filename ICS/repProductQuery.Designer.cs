@@ -76,15 +76,15 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtLastCommanLabel_3;
 		private System.Windows.Forms.Label _txtLastCommanLabel_6;
 		public System.Windows.Forms.Panel Frame2;
-		public AxXtremeSuiteControls.AxTabControlPage tabTransactions;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabTransactions;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdLocationDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdLocationDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdLocationDetails;
 		private System.Windows.Forms.Label _lblCommon_22;
-		public AxXtremeSuiteControls.AxTabControlPage tabDetails;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabDetails;
 		public AxXtremeChartControl.AxChartControl ChartControl;
-		public AxXtremeSuiteControls.AxTabControlPage tabSummary;
-		public AxXtremeSuiteControls.AxTabControl tabLocation;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabSummary;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabLocation;
 		public System.Windows.Forms.PictureBox imgPicture;
 		public System.Windows.Forms.PictureBox Image1;
 		public System.Windows.Forms.Panel fraProductInformation;
@@ -139,8 +139,8 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(repItemQuery));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.tabLocation = new AxXtremeSuiteControls.AxTabControl();
-			this.tabTransactions = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabLocation = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.tabTransactions = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.Frame2 = new System.Windows.Forms.Panel();
 			this._lblCommon_13 = new System.Windows.Forms.Label();
 			this._lblCommon_12 = new System.Windows.Forms.Label();
@@ -172,12 +172,12 @@ namespace Xtreme
 			this._txtLastCommanLabel_2 = new System.Windows.Forms.Label();
 			this._txtLastCommanLabel_3 = new System.Windows.Forms.Label();
 			this._txtLastCommanLabel_6 = new System.Windows.Forms.Label();
-			this.tabDetails = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabDetails = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.grdLocationDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdLocationDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdLocationDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this._lblCommon_22 = new System.Windows.Forms.Label();
-			this.tabSummary = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabSummary = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.ChartControl = new AxXtremeChartControl.AxChartControl();
 			this.fraProductDetails = new System.Windows.Forms.Panel();
 			this.fraProductInformation = new System.Windows.Forms.Panel();
@@ -225,14 +225,14 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.ChartControl).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabSummary).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabLocation).BeginInit();
-			this.tabLocation.SuspendLayout();
-			this.tabTransactions.SuspendLayout();
-			this.Frame2.SuspendLayout();
-			this.tabDetails.SuspendLayout();
-			this.grdLocationDetails.SuspendLayout();
-			this.tabSummary.SuspendLayout();
-			this.fraProductDetails.SuspendLayout();
-			this.fraProductInformation.SuspendLayout();
+			//this.tabLocation.SuspendLayout();
+			//this.tabTransactions.SuspendLayout();
+			//this.Frame2.SuspendLayout();
+			//this.tabDetails.SuspendLayout();
+			//this.grdLocationDetails.SuspendLayout();
+			//this.tabSummary.SuspendLayout();
+			//this.fraProductDetails.SuspendLayout();
+			//this.fraProductInformation.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabLocation
@@ -994,8 +994,8 @@ namespace Xtreme
 			this.txtPartNo.Size = new System.Drawing.Size(121, 19);
 			this.txtPartNo.TabIndex = 0;
 			this.txtPartNo.Text = "";
-			// this.this.txtPartNo.Watermark = "";
-			// this.this.txtPartNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtPartNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtPartNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtPartNo_DropButtonClick);
 			// this.this.txtPartNo.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtPartNo_KeyDown);
 			// 
 			// _lblCommon_11

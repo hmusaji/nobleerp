@@ -123,7 +123,7 @@ namespace Xtreme
 			this.txtAPListName.BackColor = System.Drawing.Color.White;
 			this.txtAPListName.ForeColor = System.Drawing.Color.Black;
 			this.txtAPListName.Location = new System.Drawing.Point(94, 82);
-			// this.txtAPListName.mArabicEnabled = true;
+			// // = true;
 			this.txtAPListName.MaxLength = 50;
 			this.txtAPListName.Name = "txtAPListName";
 			this.txtAPListName.Size = new System.Drawing.Size(253, 19);
@@ -160,7 +160,7 @@ namespace Xtreme
 			this.txtpListNo.ForeColor = System.Drawing.Color.Black;
 			this.txtpListNo.Location = new System.Drawing.Point(94, 19);
 			this.txtpListNo.MaxLength = 4;
-			// this.txtpListNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtpListNo.Name = "txtpListNo";
 			// this.txtpListNo.ShowButton = true;
 			this.txtpListNo.Size = new System.Drawing.Size(101, 19);
@@ -196,7 +196,7 @@ namespace Xtreme
 			// this.txtDDate.MaxDate = 2958465;
 			// this.txtDDate.MinDate = 32874;
 			this.txtDDate.Name = "txtDDate";
-			this.txtDDate.PromptChar = "_";
+			// = "_";
 			this.txtDDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDDate.TabIndex = 7;
 			// this.txtDDate.Text = "12/1/2005";
@@ -223,7 +223,7 @@ namespace Xtreme
 			// this.txtDEfectStartDate.MaxDate = 2958465;
 			// this.txtDEfectStartDate.MinDate = 32874;
 			this.txtDEfectStartDate.Name = "txtDEfectStartDate";
-			this.txtDEfectStartDate.PromptChar = "_";
+			// = "_";
 			this.txtDEfectStartDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDEfectStartDate.TabIndex = 10;
 			// this.txtDEfectStartDate.Text = "12/1/2005";

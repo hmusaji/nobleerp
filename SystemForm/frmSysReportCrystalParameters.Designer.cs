@@ -54,16 +54,16 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbSearchList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbSearchList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbSearchList;
-		public UpgradeHelpers.Gui.ShapeHelper fraDateRange;
+		public ShapeHelper fraDateRange;
 		public System.Windows.Forms.Panel fraReportOptions;
-		public AxC1SizerLib.AxC1Tab tabReportOptions;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnReportOptions_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnReportOptions_2;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnReportOptions_1;
-		private UpgradeHelpers.Gui.ShapeHelper _cntButtons_0;
-		public AxC1SizerLib.AxC1Elastic cntOuterFrame;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnReportOptions = new AxSmartNetButtonProject.AxSmartNetButton[3];
-		public UpgradeHelpers.Gui.ShapeHelper[] cntButtons = new UpgradeHelpers.Gui.ShapeHelper[1];
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabReportOptions;
+		private System.Windows.Forms.Button _btnReportOptions_0;
+		private System.Windows.Forms.Button _btnReportOptions_2;
+		private System.Windows.Forms.Button _btnReportOptions_1;
+		private ShapeHelper _cntButtons_0;
+		public AxC1Elastic cntOuterFrame;
+		public System.Windows.Forms.Button[] btnReportOptions = new System.Windows.Forms.Button[3];
+		public ShapeHelper[] cntButtons = new ShapeHelper[1];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[4];
 		public System.Windows.Forms.RadioButton[] optPrintGraph = new System.Windows.Forms.RadioButton[3];
 		public Syncfusion.WinForms.Input.SfDateTimeEdit[] txtDateRange = new Syncfusion.WinForms.Input.SfDateTimeEdit[2];
@@ -76,8 +76,8 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysReportCrystalParameters));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntOuterFrame = new AxC1SizerLib.AxC1Elastic();
-			this.tabReportOptions = new AxC1SizerLib.AxC1Tab();
+			this.cntOuterFrame = new AxC1Elastic();
+			this.tabReportOptions = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.fraReportPrintType = new System.Windows.Forms.GroupBox();
 			this._optPrintGraph_2 = new System.Windows.Forms.RadioButton();
@@ -96,23 +96,23 @@ namespace Xtreme
 			this.cmbSearchList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbSearchList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbSearchList = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.fraDateRange = new UpgradeHelpers.Gui.ShapeHelper();
-			this._btnReportOptions_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnReportOptions_2 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnReportOptions_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._cntButtons_0 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.fraDateRange = new ShapeHelper();
+			this._btnReportOptions_0 = new System.Windows.Forms.Button();
+			this._btnReportOptions_2 = new System.Windows.Forms.Button();
+			this._btnReportOptions_1 = new System.Windows.Forms.Button();
+			this._cntButtons_0 = new ShapeHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.tabReportOptions).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnReportOptions_0).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnReportOptions_2).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnReportOptions_1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntOuterFrame).BeginInit();
-			this.cntOuterFrame.SuspendLayout();
-			this.tabReportOptions.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.fraReportPrintType.SuspendLayout();
-			this.fraReportOptions.SuspendLayout();
-			this.grdReportOptions.SuspendLayout();
-			this.cmbSearchList.SuspendLayout();
+			//this.cntOuterFrame.SuspendLayout();
+			//this.tabReportOptions.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.fraReportPrintType.SuspendLayout();
+			//this.fraReportOptions.SuspendLayout();
+			//this.grdReportOptions.SuspendLayout();
+			//this.cmbSearchList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntOuterFrame
@@ -379,7 +379,7 @@ namespace Xtreme
 			// 
 			this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(146, 92, 39);
-			this.fraDateRange.BackStyle = 0;
+			// = 0;
 			this.fraDateRange.BorderColor = System.Drawing.Color.FromArgb(146, 92, 39);
 			this.fraDateRange.BorderStyle = 1;
 			this.fraDateRange.Enabled = false;
@@ -427,7 +427,7 @@ namespace Xtreme
 			// 
 			this._cntButtons_0.AllowDrop = true;
 			this._cntButtons_0.BackColor = System.Drawing.Color.FromArgb(64, 64, 0);
-			this._cntButtons_0.BackStyle = 1;
+			// = 1;
 			this._cntButtons_0.BorderStyle = 0;
 			this._cntButtons_0.Enabled = false;
 			this._cntButtons_0.FillColor = System.Drawing.Color.Black;
@@ -497,12 +497,12 @@ namespace Xtreme
 		}
 		void InitializecntButtons()
 		{
-			this.cntButtons = new UpgradeHelpers.Gui.ShapeHelper[1];
+			this.cntButtons = new ShapeHelper[1];
 			this.cntButtons[0] = _cntButtons_0;
 		}
 		void InitializebtnReportOptions()
 		{
-			this.btnReportOptions = new AxSmartNetButtonProject.AxSmartNetButton[3];
+			this.btnReportOptions = new System.Windows.Forms.Button[3];
 			this.btnReportOptions[0] = _btnReportOptions_0;
 			this.btnReportOptions[2] = _btnReportOptions_2;
 			this.btnReportOptions[1] = _btnReportOptions_1;

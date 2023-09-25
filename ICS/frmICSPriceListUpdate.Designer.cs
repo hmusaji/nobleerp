@@ -56,7 +56,7 @@ namespace Xtreme
 		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.Label Line2;
 		public System.Windows.Forms.Label Line1;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape1;
 		public System.Windows.Forms.GroupBox frameMain;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -79,8 +79,8 @@ namespace Xtreme
 			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
 			this.Line2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
-			this.frameMain.SuspendLayout();
+			this.Shape1 = new ShapeHelper();
+			//this.frameMain.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frameMain
@@ -354,7 +354,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
-			this.Shape1.BackStyle = 0;
+			// = 0;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.Black;

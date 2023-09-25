@@ -120,8 +120,8 @@ namespace Xtreme
 			this.txtCommPercent.AllowDrop = true;
 			// this.txtCommPercent.DisplayFormat = "########0.00###;;0.000;0.00";
 			this.txtCommPercent.Location = new System.Drawing.Point(332, 166);
-			// this.txtCommPercent.MaxValue = 2147483647;
-			// this.txtCommPercent.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCommPercent.Name = "txtCommPercent";
 			this.txtCommPercent.Size = new System.Drawing.Size(93, 19);
 			this.txtCommPercent.TabIndex = 25;
@@ -309,7 +309,7 @@ namespace Xtreme
 			this.txtEmail.Size = new System.Drawing.Size(290, 19);
 			this.txtEmail.TabIndex = 10;
 			this.txtEmail.Text = "";
-			// this.this.txtEmail.Watermark = "";
+			// this.// = "";
 			// 
 			// txtMobile
 			// 
@@ -322,7 +322,7 @@ namespace Xtreme
 			this.txtMobile.Size = new System.Drawing.Size(93, 19);
 			this.txtMobile.TabIndex = 6;
 			this.txtMobile.Text = "";
-			// this.this.txtMobile.Watermark = "";
+			// this.// = "";
 			// 
 			// txtPfNo
 			// 
@@ -335,7 +335,7 @@ namespace Xtreme
 			this.txtPfNo.Size = new System.Drawing.Size(101, 19);
 			this.txtPfNo.TabIndex = 9;
 			this.txtPfNo.Text = "";
-			// this.this.txtPfNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtSmanNo
 			// 
@@ -345,14 +345,14 @@ namespace Xtreme
 			this.txtSmanNo.ForeColor = System.Drawing.Color.Black;
 			this.txtSmanNo.Location = new System.Drawing.Point(135, 19);
 			this.txtSmanNo.MaxLength = 4;
-			// this.txtSmanNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtSmanNo.Name = "txtSmanNo";
 			// this.txtSmanNo.ShowButton = true;
 			this.txtSmanNo.Size = new System.Drawing.Size(101, 19);
 			this.txtSmanNo.TabIndex = 0;
 			this.txtSmanNo.Text = "";
-			// this.this.txtSmanNo.Watermark = "";
-			// this.this.txtSmanNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSmanNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtSmanNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSmanNo_DropButtonClick);
 			// 
 			// txtLSmanName
 			// 
@@ -366,7 +366,7 @@ namespace Xtreme
 			this.txtLSmanName.TabIndex = 1;
 			this.txtLSmanName.Tag = "Salesman Name in English";
 			this.txtLSmanName.Text = "";
-			// this.this.txtLSmanName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtAdd1
 			// 
@@ -379,7 +379,7 @@ namespace Xtreme
 			this.txtAdd1.Size = new System.Drawing.Size(290, 19);
 			this.txtAdd1.TabIndex = 3;
 			this.txtAdd1.Text = "";
-			// this.this.txtAdd1.Watermark = "";
+			// this.// = "";
 			// 
 			// txtPhone
 			// 
@@ -392,7 +392,7 @@ namespace Xtreme
 			this.txtPhone.Size = new System.Drawing.Size(101, 19);
 			this.txtPhone.TabIndex = 5;
 			this.txtPhone.Text = "";
-			// this.this.txtPhone.Watermark = "";
+			// this.// = "";
 			// 
 			// txtFax
 			// 
@@ -405,7 +405,7 @@ namespace Xtreme
 			this.txtFax.Size = new System.Drawing.Size(101, 19);
 			this.txtFax.TabIndex = 7;
 			this.txtFax.Text = "";
-			// this.this.txtFax.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCivilId
 			// 
@@ -418,7 +418,7 @@ namespace Xtreme
 			this.txtCivilId.Size = new System.Drawing.Size(93, 19);
 			this.txtCivilId.TabIndex = 8;
 			this.txtCivilId.Text = "";
-			// this.this.txtCivilId.Watermark = "";
+			// this.// = "";
 			// 
 			// txtASmanName
 			// 
@@ -426,13 +426,13 @@ namespace Xtreme
 			this.txtASmanName.BackColor = System.Drawing.Color.White;
 			this.txtASmanName.ForeColor = System.Drawing.Color.Black;
 			this.txtASmanName.Location = new System.Drawing.Point(135, 61);
-			// this.txtASmanName.mArabicEnabled = true;
+			// // = true;
 			this.txtASmanName.MaxLength = 50;
 			this.txtASmanName.Name = "txtASmanName";
 			this.txtASmanName.Size = new System.Drawing.Size(290, 19);
 			this.txtASmanName.TabIndex = 2;
 			this.txtASmanName.Text = "";
-			// this.this.txtASmanName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtAdd2
 			// 
@@ -445,7 +445,7 @@ namespace Xtreme
 			this.txtAdd2.Size = new System.Drawing.Size(290, 19);
 			this.txtAdd2.TabIndex = 4;
 			this.txtAdd2.Text = "";
-			// this.this.txtAdd2.Watermark = "";
+			// this.// = "";
 			// 
 			// txtLocatCode
 			// 
@@ -460,8 +460,8 @@ namespace Xtreme
 			this.txtLocatCode.Size = new System.Drawing.Size(101, 19);
 			this.txtLocatCode.TabIndex = 26;
 			this.txtLocatCode.Text = "";
-			// this.this.txtLocatCode.Watermark = "";
-			// this.this.txtLocatCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocatCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocatCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocatCode_DropButtonClick);
 			// this.txtLocatCode.Leave += new System.EventHandler(this.txtLocatCode_Leave);
 			// 
 			// _lblCommonLabel_2

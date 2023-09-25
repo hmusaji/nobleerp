@@ -102,8 +102,8 @@ namespace Xtreme
 			this._lblCommon_3 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.fraDetailsInfo).BeginInit();
-			this.fraDetailsInfo.SuspendLayout();
-			this._Frame1_0.SuspendLayout();
+			//this.fraDetailsInfo.SuspendLayout();
+			//this._Frame1_0.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraDetailsInfo
@@ -235,7 +235,7 @@ namespace Xtreme
 			this.txtParentGroupNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentGroupNo.TabIndex = 3;
 			this.txtParentGroupNo.Text = "";
-			// this.this.txtParentGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentGroupNo_DropButtonClick);
+			// this.//this.txtParentGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentGroupNo_DropButtonClick);
 			// this.txtParentGroupNo.Leave += new System.EventHandler(this.txtParentGroupNo_Leave);
 			// 
 			// _lblCommon_6
@@ -291,7 +291,7 @@ namespace Xtreme
 			this.txtTypeCode.Size = new System.Drawing.Size(101, 19);
 			this.txtTypeCode.TabIndex = 4;
 			this.txtTypeCode.Text = "";
-			// this.this.txtTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtTypeCode_DropButtonClick);
+			// this.//this.txtTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtTypeCode_DropButtonClick);
 			// this.txtTypeCode.Leave += new System.EventHandler(this.txtTypeCode_Leave);
 			// 
 			// _lblCommon_0
@@ -314,13 +314,13 @@ namespace Xtreme
 			this.txtGroupNo.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupNo.Location = new System.Drawing.Point(94, 52);
 			this.txtGroupNo.MaxLength = 15;
-			// this.txtGroupNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtGroupNo.Name = "txtGroupNo";
 			// this.txtGroupNo.ShowButton = true;
 			this.txtGroupNo.Size = new System.Drawing.Size(101, 19);
 			this.txtGroupNo.TabIndex = 0;
 			this.txtGroupNo.Text = "";
-			// this.this.txtGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGroupNo_DropButtonClick);
+			// this.//this.txtGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGroupNo_DropButtonClick);
 			// 
 			// _lblCommon_1
 			// 
@@ -364,7 +364,7 @@ namespace Xtreme
 			this.txtAGroupName.BackColor = System.Drawing.Color.White;
 			this.txtAGroupName.ForeColor = System.Drawing.Color.Black;
 			this.txtAGroupName.Location = new System.Drawing.Point(352, 73);
-			// this.txtAGroupName.mArabicEnabled = true;
+			// // = true;
 			this.txtAGroupName.MaxLength = 50;
 			this.txtAGroupName.Name = "txtAGroupName";
 			this.txtAGroupName.Size = new System.Drawing.Size(201, 19);

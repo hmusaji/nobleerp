@@ -80,9 +80,9 @@ namespace Xtreme
 			this.Column_0_cmbMasterList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMasterList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.txtTotalSerialNo = new System.Windows.Forms.Label();
-			this.fraPayments.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbMasterList.SuspendLayout();
+			//this.fraPayments.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMasterList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraPayments
@@ -117,7 +117,7 @@ namespace Xtreme
 			this._txtCommonTextBox_5.TabIndex = 6;
 			this._txtCommonTextBox_5.Text = "";
 			this._txtCommonTextBox_5.Visible = false;
-			// this.this._txtCommonTextBox_5.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCashAmt
 			// 
@@ -125,8 +125,8 @@ namespace Xtreme
 			// this.txtCashAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtCashAmt.Format = "###########0.000";
 			this.txtCashAmt.Location = new System.Drawing.Point(170, 10);
-			// this.txtCashAmt.MaxValue = 2147483647;
-			// this.txtCashAmt.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCashAmt.Name = "txtCashAmt";
 			this.txtCashAmt.Size = new System.Drawing.Size(87, 23);
 			this.txtCashAmt.TabIndex = 7;
@@ -144,7 +144,7 @@ namespace Xtreme
 			this._txtCommonTextBox_6.Size = new System.Drawing.Size(67, 23);
 			this._txtCommonTextBox_6.TabIndex = 8;
 			this._txtCommonTextBox_6.Text = "";
-			// this.this._txtCommonTextBox_6.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCCAmt
 			// 
@@ -152,8 +152,8 @@ namespace Xtreme
 			// this.txtCCAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtCCAmt.Format = "###########0.000";
 			this.txtCCAmt.Location = new System.Drawing.Point(170, 38);
-			// this.txtCCAmt.MaxValue = 2147483647;
-			// this.txtCCAmt.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCCAmt.Name = "txtCCAmt";
 			this.txtCCAmt.Size = new System.Drawing.Size(87, 23);
 			this.txtCCAmt.TabIndex = 9;
@@ -181,11 +181,11 @@ namespace Xtreme
 			// 
 			this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.Label1.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
+			// = VSReport8Lib.BackStyleSettings.vsrTransparent;
 			this.Label1.Text = "Total No.";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label1.Location = new System.Drawing.Point(6, 226);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(42, 14);
 			this.Label1.TabIndex = 4;
 			// 

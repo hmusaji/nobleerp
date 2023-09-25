@@ -52,7 +52,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0__grdVoucherDetails_0;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1__grdVoucherDetails_0;
 		private C1.Win.C1TrueDBGrid.C1TrueDBGrid _grdVoucherDetails_0;
-		public AxSmartNetButtonProject.AxSmartNetButton cmdClose;
+		public System.Windows.Forms.Button cmdClose;
 		public System.Windows.Forms.PictureBox picOkCancel;
 		public System.Windows.Forms.CheckBox chkShowAll;
 		public System.Windows.Forms.Panel cntMasterDetails;
@@ -79,7 +79,7 @@ namespace Xtreme
 			this.Column_0__grdVoucherDetails_0 = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1__grdVoucherDetails_0 = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.picOkCancel = new System.Windows.Forms.PictureBox();
-			this.cmdClose = new AxSmartNetButtonProject.AxSmartNetButton();
+			this.cmdClose = new System.Windows.Forms.Button();
 			this.chkShowAll = new System.Windows.Forms.CheckBox();
 			this.txtLdgrName = new System.Windows.Forms.TextBox();
 			this.txtLdgrNo = new System.Windows.Forms.TextBox();
@@ -87,10 +87,10 @@ namespace Xtreme
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cmdClose).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this._grdVoucherDetails_1.SuspendLayout();
-			this._grdVoucherDetails_0.SuspendLayout();
-			this.picOkCancel.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this._grdVoucherDetails_1.SuspendLayout();
+			//this._grdVoucherDetails_0.SuspendLayout();
+			//this.picOkCancel.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMasterDetails
@@ -245,7 +245,7 @@ namespace Xtreme
 			this.txtLdgrNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLdgrNo.TabIndex = 0;
 			this.txtLdgrNo.Text = "";
-			// this.this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLdgrNo_DropButtonClick);
+			// this.//this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLdgrNo_DropButtonClick);
 			// this.txtLdgrNo.Leave += new System.EventHandler(this.txtLdgrNo_Leave);
 			// 
 			// lblLedgerNo

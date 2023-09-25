@@ -112,8 +112,8 @@ namespace Xtreme
 			this._txtCommonTextBox_5 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdBillingDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdBillingDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkMissingEmpBilling
@@ -238,14 +238,14 @@ namespace Xtreme
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(118, 67);
 			this._txtCommonTextBox_1.MaxLength = 20;
-			// this._txtCommonTextBox_1.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_1.Name = "_txtCommonTextBox_1";
 			// this._txtCommonTextBox_1.ShowButton = true;
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_1.TabIndex = 3;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.Watermark = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_0
@@ -256,15 +256,15 @@ namespace Xtreme
 			this._txtCommonTextBox_0.Enabled = false;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(118, 46);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_0.TabIndex = 1;
 			this._txtCommonTextBox_0.TabStop = false;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.Watermark = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_2
@@ -274,14 +274,14 @@ namespace Xtreme
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(118, 88);
 			this._txtCommonTextBox_2.MaxLength = 20;
-			// this._txtCommonTextBox_2.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_2.Name = "_txtCommonTextBox_2";
 			// this._txtCommonTextBox_2.ShowButton = true;
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_2.TabIndex = 4;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.Watermark = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_1
@@ -311,14 +311,14 @@ namespace Xtreme
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(118, 110);
 			this._txtCommonTextBox_3.MaxLength = 20;
-			// this._txtCommonTextBox_3.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_3.Name = "_txtCommonTextBox_3";
 			// this._txtCommonTextBox_3.ShowButton = true;
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_3.TabIndex = 5;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.Watermark = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_4
@@ -328,14 +328,14 @@ namespace Xtreme
 			this._txtCommonTextBox_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_4.Location = new System.Drawing.Point(118, 132);
 			this._txtCommonTextBox_4.MaxLength = 20;
-			// this._txtCommonTextBox_4.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_4.Name = "_txtCommonTextBox_4";
 			// this._txtCommonTextBox_4.ShowButton = true;
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_4.TabIndex = 6;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.Watermark = "";
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// cmbMastersList
@@ -404,13 +404,13 @@ namespace Xtreme
 			this._txtCommonTextBox_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_5.Location = new System.Drawing.Point(118, 154);
 			this._txtCommonTextBox_5.MaxLength = 20;
-			// this._txtCommonTextBox_5.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_5.Name = "_txtCommonTextBox_5";
 			this._txtCommonTextBox_5.Size = new System.Drawing.Size(491, 19);
 			this._txtCommonTextBox_5.TabIndex = 7;
 			this._txtCommonTextBox_5.Text = "";
-			// this.this._txtCommonTextBox_5.Watermark = "";
-			// this.this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_5.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_2

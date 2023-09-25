@@ -80,10 +80,10 @@ namespace Xtreme
 			this.Dir1 = new UpgradeHelpers.Gui.DirListBoxHelper();
 			this.Drive1 = new UpgradeHelpers.Gui.DriveListBoxHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.ExportProgress).BeginInit();
-			this.Frame3.SuspendLayout();
-			this.Frame4.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.Frame2.SuspendLayout();
+			//this.Frame3.SuspendLayout();
+			//this.Frame4.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.Frame2.SuspendLayout();
 			this.SuspendLayout();
 			this.listBoxHelper1 = new UpgradeHelpers.Gui.ListBoxHelper(this.components);
 			// 
@@ -155,8 +155,8 @@ namespace Xtreme
 			this.txtExportPath.Size = new System.Drawing.Size(331, 19);
 			this.txtExportPath.TabIndex = 8;
 			this.txtExportPath.Text = "";
-			// this.this.txtExportPath.Watermark = "";
-			// this.this.txtExportPath.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtExportPath_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtExportPath.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtExportPath_DropButtonClick);
 			// 
 			// Frame2
 			// 
@@ -226,7 +226,7 @@ namespace Xtreme
 			// 
 			this.Label1.AllowDrop = true;
 			this.Label1.Location = new System.Drawing.Point(6, 396);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(167, 16);
 			this.Label1.TabIndex = 3;
 			this.Label1.Visible = false;

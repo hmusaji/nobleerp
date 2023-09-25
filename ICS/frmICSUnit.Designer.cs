@@ -93,7 +93,7 @@ namespace Xtreme
 			this.txtAUnitName.BackColor = System.Drawing.Color.White;
 			this.txtAUnitName.ForeColor = System.Drawing.Color.Black;
 			this.txtAUnitName.Location = new System.Drawing.Point(112, 86);
-			// this.txtAUnitName.mArabicEnabled = true;
+			// // = true;
 			this.txtAUnitName.MaxLength = 10;
 			this.txtAUnitName.Name = "txtAUnitName";
 			this.txtAUnitName.Size = new System.Drawing.Size(253, 19);
@@ -143,13 +143,13 @@ namespace Xtreme
 			this.txtUnitNo.ForeColor = System.Drawing.Color.Black;
 			this.txtUnitNo.Location = new System.Drawing.Point(112, 23);
 			this.txtUnitNo.MaxLength = 4;
-			// this.txtUnitNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtUnitNo.Name = "txtUnitNo";
 			// this.txtUnitNo.ShowButton = true;
 			this.txtUnitNo.Size = new System.Drawing.Size(101, 19);
 			this.txtUnitNo.TabIndex = 1;
 			this.txtUnitNo.Text = "";
-			// this.this.txtUnitNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtUnitNo_DropButtonClick);
+			// this.//this.txtUnitNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtUnitNo_DropButtonClick);
 			// 
 			// lblUnitNameL
 			// 

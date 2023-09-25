@@ -96,7 +96,7 @@ namespace Xtreme
 			this.txtTrainingNo.ForeColor = System.Drawing.Color.Black;
 			this.txtTrainingNo.Location = new System.Drawing.Point(164, 48);
 			this.txtTrainingNo.MaxLength = 15;
-			// this.txtTrainingNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtTrainingNo.Name = "txtTrainingNo";
 			// this.txtTrainingNo.ShowButton = true;
 			this.txtTrainingNo.Size = new System.Drawing.Size(101, 19);
@@ -143,7 +143,7 @@ namespace Xtreme
 			this.txtATrainingName.BackColor = System.Drawing.Color.White;
 			this.txtATrainingName.ForeColor = System.Drawing.Color.Black;
 			this.txtATrainingName.Location = new System.Drawing.Point(164, 90);
-			// this.txtATrainingName.mArabicEnabled = true;
+			// // = true;
 			this.txtATrainingName.MaxLength = 50;
 			this.txtATrainingName.Name = "txtATrainingName";
 			this.txtATrainingName.Size = new System.Drawing.Size(201, 19);

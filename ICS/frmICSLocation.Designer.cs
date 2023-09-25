@@ -84,7 +84,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAddr_2;
 		public System.Windows.Forms.TextBox txtAdd2;
 		private System.Windows.Forms.Panel _fraMasterInformation_0;
-		public AxC1SizerLib.AxC1Tab tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		private System.Windows.Forms.Label _lblCommon_3;
 		public System.Windows.Forms.Label lblLSmanName;
 		public System.Windows.Forms.Label lblASmanName;
@@ -93,7 +93,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtALocationName;
 		public System.Windows.Forms.Label lblSmanNo;
 		public System.Windows.Forms.Label Line1;
-		public AxC1SizerLib.AxC1Elastic cntOuterFrame;
+		public AxC1Elastic cntOuterFrame;
 		public System.Windows.Forms.Panel[] fraMasterInformation = new System.Windows.Forms.Panel[3];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[4];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -105,8 +105,8 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSLocation));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntOuterFrame = new AxC1SizerLib.AxC1Elastic();
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.cntOuterFrame = new AxC1Elastic();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._fraMasterInformation_2 = new System.Windows.Forms.Panel();
 			this.chkCashType = new System.Windows.Forms.CheckBox();
 			this.lblDefaultLdgrCode = new System.Windows.Forms.Label();
@@ -156,13 +156,13 @@ namespace Xtreme
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntOuterFrame).BeginInit();
-			this.cntOuterFrame.SuspendLayout();
-			this.tabMaster.SuspendLayout();
-			this._fraMasterInformation_2.SuspendLayout();
-			this._fraMasterInformation_1.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbCommon.SuspendLayout();
-			this._fraMasterInformation_0.SuspendLayout();
+			//this.cntOuterFrame.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._fraMasterInformation_2.SuspendLayout();
+			//this._fraMasterInformation_1.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbCommon.SuspendLayout();
+			//this._fraMasterInformation_0.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntOuterFrame
@@ -281,7 +281,7 @@ namespace Xtreme
 			this.lblDefaultLdgrName.TabIndex = 33;
 			this.lblDefaultLdgrName.TabStop = false;
 			this.lblDefaultLdgrName.Text = " ";
-			// this.this.lblDefaultLdgrName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblDefaultCashName
 			// 
@@ -295,7 +295,7 @@ namespace Xtreme
 			this.lblDefaultCashName.TabIndex = 34;
 			this.lblDefaultCashName.TabStop = false;
 			this.lblDefaultCashName.Text = " ";
-			// this.this.lblDefaultCashName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblDefaultTransType
 			// 
@@ -320,8 +320,8 @@ namespace Xtreme
 			this.txtDefaultLdgrNo.Size = new System.Drawing.Size(101, 19);
 			this.txtDefaultLdgrNo.TabIndex = 36;
 			this.txtDefaultLdgrNo.Text = "";
-			// this.this.txtDefaultLdgrNo.Watermark = "";
-			// this.this.txtDefaultLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDefaultLdgrNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtDefaultLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDefaultLdgrNo_DropButtonClick);
 			// this.txtDefaultLdgrNo.Leave += new System.EventHandler(this.txtDefaultLdgrNo_Leave);
 			// 
 			// txtDefaultCashCode
@@ -336,8 +336,8 @@ namespace Xtreme
 			this.txtDefaultCashCode.Size = new System.Drawing.Size(101, 19);
 			this.txtDefaultCashCode.TabIndex = 37;
 			this.txtDefaultCashCode.Text = "";
-			// this.this.txtDefaultCashCode.Watermark = "";
-			// this.this.txtDefaultCashCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDefaultCashCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtDefaultCashCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDefaultCashCode_DropButtonClick);
 			// this.txtDefaultCashCode.Leave += new System.EventHandler(this.txtDefaultCashCode_Leave);
 			// 
 			// txtDataUploadPath
@@ -351,7 +351,7 @@ namespace Xtreme
 			this.txtDataUploadPath.TabIndex = 39;
 			this.txtDataUploadPath.TabStop = false;
 			this.txtDataUploadPath.Text = " ";
-			// this.this.txtDataUploadPath.Watermark = "";
+			// this.// = "";
 			// 
 			// lblDataUploadPath
 			// 
@@ -388,8 +388,8 @@ namespace Xtreme
 			this.txtDefaultSalesmanNo.Size = new System.Drawing.Size(101, 19);
 			this.txtDefaultSalesmanNo.TabIndex = 42;
 			this.txtDefaultSalesmanNo.Text = "";
-			// this.this.txtDefaultSalesmanNo.Watermark = "";
-			// this.this.txtDefaultSalesmanNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDefaultSalesmanNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtDefaultSalesmanNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDefaultSalesmanNo_DropButtonClick);
 			// this.txtDefaultSalesmanNo.Leave += new System.EventHandler(this.txtDefaultSalesmanNo_Leave);
 			// 
 			// lblDefaultsalesmanName
@@ -404,7 +404,7 @@ namespace Xtreme
 			this.lblDefaultsalesmanName.TabIndex = 43;
 			this.lblDefaultsalesmanName.TabStop = false;
 			this.lblDefaultsalesmanName.Text = " ";
-			// this.this.lblDefaultsalesmanName.Watermark = "";
+			// this.// = "";
 			// 
 			// _fraMasterInformation_1
 			// 
@@ -543,7 +543,7 @@ namespace Xtreme
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(8, 16);
 			// this.Label2.mLabelId = 709;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(101, 14);
 			this.Label2.TabIndex = 19;
 			// 
@@ -555,7 +555,7 @@ namespace Xtreme
 			this.Label3.ForeColor = System.Drawing.Color.Black;
 			this.Label3.Location = new System.Drawing.Point(8, 37);
 			// this.Label3.mLabelId = 958;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(99, 14);
 			this.Label3.TabIndex = 20;
 			// 
@@ -571,7 +571,7 @@ namespace Xtreme
 			this.txtLShortName.TabIndex = 3;
 			this.txtLShortName.Tag = "Salesman Name in English";
 			this.txtLShortName.Text = "";
-			// this.this.txtLShortName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtAShortName
 			// 
@@ -579,13 +579,13 @@ namespace Xtreme
 			this.txtAShortName.BackColor = System.Drawing.Color.White;
 			this.txtAShortName.ForeColor = System.Drawing.Color.Black;
 			this.txtAShortName.Location = new System.Drawing.Point(120, 35);
-			// this.txtAShortName.mArabicEnabled = true;
+			// // = true;
 			this.txtAShortName.MaxLength = 20;
 			this.txtAShortName.Name = "txtAShortName";
 			this.txtAShortName.Size = new System.Drawing.Size(127, 19);
 			this.txtAShortName.TabIndex = 4;
 			this.txtAShortName.Text = "";
-			// this.this.txtAShortName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblAddr_1
 			// 
@@ -634,7 +634,7 @@ namespace Xtreme
 			this.txtAdd1.Size = new System.Drawing.Size(201, 19);
 			this.txtAdd1.TabIndex = 5;
 			this.txtAdd1.Text = "";
-			// this.this.txtAdd1.Watermark = "";
+			// this.// = "";
 			// 
 			// lblMobile
 			// 
@@ -659,7 +659,7 @@ namespace Xtreme
 			this.txtPhone.Size = new System.Drawing.Size(133, 19);
 			this.txtPhone.TabIndex = 8;
 			this.txtPhone.Text = "";
-			// this.this.txtPhone.Watermark = "";
+			// this.// = "";
 			// 
 			// txtContactPerson
 			// 
@@ -672,7 +672,7 @@ namespace Xtreme
 			this.txtContactPerson.Size = new System.Drawing.Size(133, 19);
 			this.txtContactPerson.TabIndex = 9;
 			this.txtContactPerson.Text = "";
-			// this.this.txtContactPerson.Watermark = "";
+			// this.// = "";
 			// 
 			// System.Windows.Forms.Label1
 			// 
@@ -682,7 +682,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(8, 100);
 			// this.Label1.mLabelId = 33;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(51, 14);
 			this.Label1.TabIndex = 25;
 			// 
@@ -697,7 +697,7 @@ namespace Xtreme
 			this.txtAdd3.Size = new System.Drawing.Size(201, 19);
 			this.txtAdd3.TabIndex = 7;
 			this.txtAdd3.Text = "";
-			// this.this.txtAdd3.Watermark = "";
+			// this.// = "";
 			// 
 			// lblAddr_2
 			// 
@@ -722,7 +722,7 @@ namespace Xtreme
 			this.txtAdd2.Size = new System.Drawing.Size(201, 19);
 			this.txtAdd2.TabIndex = 6;
 			this.txtAdd2.Text = "";
-			// this.this.txtAdd2.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_3
 			// 
@@ -768,14 +768,14 @@ namespace Xtreme
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLocationNo.Location = new System.Drawing.Point(94, 22);
 			this.txtLocationNo.MaxLength = 4;
-			// this.txtLocationNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtLocationNo.Name = "txtLocationNo";
 			// this.txtLocationNo.ShowButton = true;
 			this.txtLocationNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLocationNo.TabIndex = 0;
 			this.txtLocationNo.Text = "";
-			// this.this.txtLocationNo.Watermark = "";
-			// this.this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationNo_DropButtonClick);
 			// 
 			// txtLLocationName
 			// 
@@ -789,7 +789,7 @@ namespace Xtreme
 			this.txtLLocationName.TabIndex = 1;
 			this.txtLLocationName.Tag = "Salesman Name in English";
 			this.txtLLocationName.Text = "";
-			// this.this.txtLLocationName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtALocationName
 			// 
@@ -797,13 +797,13 @@ namespace Xtreme
 			this.txtALocationName.BackColor = System.Drawing.Color.White;
 			this.txtALocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtALocationName.Location = new System.Drawing.Point(402, 43);
-			// this.txtALocationName.mArabicEnabled = true;
+			// // = true;
 			this.txtALocationName.MaxLength = 50;
 			this.txtALocationName.Name = "txtALocationName";
 			this.txtALocationName.Size = new System.Drawing.Size(201, 19);
 			this.txtALocationName.TabIndex = 2;
 			this.txtALocationName.Text = "";
-			// this.this.txtALocationName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblSmanNo
 			// 

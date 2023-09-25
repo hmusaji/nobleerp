@@ -92,13 +92,13 @@ namespace Xtreme
 			this.txtGovNo.ForeColor = System.Drawing.Color.Black;
 			this.txtGovNo.Location = new System.Drawing.Point(131, 56);
 			this.txtGovNo.MaxLength = 15;
-			// this.txtGovNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtGovNo.Name = "txtGovNo";
 			// this.txtGovNo.ShowButton = true;
 			this.txtGovNo.Size = new System.Drawing.Size(101, 19);
 			this.txtGovNo.TabIndex = 0;
 			this.txtGovNo.Text = "";
-			// this.this.txtGovNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGovNo_DropButtonClick);
+			// this.//this.txtGovNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGovNo_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -142,7 +142,7 @@ namespace Xtreme
 			this.txtAGovName.BackColor = System.Drawing.Color.White;
 			this.txtAGovName.ForeColor = System.Drawing.Color.Black;
 			this.txtAGovName.Location = new System.Drawing.Point(131, 99);
-			// this.txtAGovName.mArabicEnabled = true;
+			// // = true;
 			this.txtAGovName.MaxLength = 50;
 			this.txtAGovName.Name = "txtAGovName";
 			this.txtAGovName.Size = new System.Drawing.Size(201, 19);

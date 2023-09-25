@@ -88,7 +88,7 @@ namespace Xtreme
 			this.txtDlblPenaltyGroupName = new System.Windows.Forms.Label();
 			this.Label2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.grdPenaltySetup.SuspendLayout();
+			//this.grdPenaltySetup.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// lblGroupNo
@@ -132,13 +132,13 @@ namespace Xtreme
 			this.txtPenaltyNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPenaltyNo.Location = new System.Drawing.Point(124, 54);
 			this.txtPenaltyNo.MaxLength = 15;
-			// this.txtPenaltyNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtPenaltyNo.Name = "txtPenaltyNo";
 			// this.txtPenaltyNo.ShowButton = true;
 			this.txtPenaltyNo.Size = new System.Drawing.Size(101, 19);
 			this.txtPenaltyNo.TabIndex = 1;
 			this.txtPenaltyNo.Text = "";
-			// this.this.txtPenaltyNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtPenaltyNo_DropButtonClick);
+			// this.//this.txtPenaltyNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtPenaltyNo_DropButtonClick);
 			// 
 			// txtLPenaltyName
 			// 
@@ -158,7 +158,7 @@ namespace Xtreme
 			this.txtAPenaltyName.BackColor = System.Drawing.Color.White;
 			this.txtAPenaltyName.ForeColor = System.Drawing.Color.Black;
 			this.txtAPenaltyName.Location = new System.Drawing.Point(124, 96);
-			// this.txtAPenaltyName.mArabicEnabled = true;
+			// // = true;
 			this.txtAPenaltyName.MaxLength = 50;
 			this.txtAPenaltyName.Name = "txtAPenaltyName";
 			this.txtAPenaltyName.Size = new System.Drawing.Size(387, 19);
@@ -172,7 +172,7 @@ namespace Xtreme
 			this.Label1.Text = "Bill Code";
 			this.Label1.Location = new System.Drawing.Point(8, 144);
 			// this.Label1.mLabelId = 1041;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(41, 14);
 			this.Label1.TabIndex = 9;
 			// 
@@ -184,13 +184,13 @@ namespace Xtreme
 			this.txtBillNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBillNo.Location = new System.Drawing.Point(123, 142);
 			this.txtBillNo.MaxLength = 15;
-			// this.txtBillNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBillNo.Name = "txtBillNo";
 			// this.txtBillNo.ShowButton = true;
 			this.txtBillNo.Size = new System.Drawing.Size(97, 19);
 			this.txtBillNo.TabIndex = 5;
 			this.txtBillNo.Text = "";
-			// this.this.txtBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBillNo_DropButtonClick);
+			// this.//this.txtBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBillNo_DropButtonClick);
 			// this.txtBillNo.Leave += new System.EventHandler(this.txtBillNo_Leave);
 			// 
 			// txtBillCdName
@@ -245,13 +245,13 @@ namespace Xtreme
 			this.txtPenaltyGroupCd.ForeColor = System.Drawing.Color.Black;
 			this.txtPenaltyGroupCd.Location = new System.Drawing.Point(123, 120);
 			this.txtPenaltyGroupCd.MaxLength = 15;
-			// this.txtPenaltyGroupCd.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtPenaltyGroupCd.Name = "txtPenaltyGroupCd";
 			// this.txtPenaltyGroupCd.ShowButton = true;
 			this.txtPenaltyGroupCd.Size = new System.Drawing.Size(97, 19);
 			this.txtPenaltyGroupCd.TabIndex = 4;
 			this.txtPenaltyGroupCd.Text = "";
-			// this.this.txtPenaltyGroupCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtPenaltyGroupCd_DropButtonClick);
+			// this.//this.txtPenaltyGroupCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtPenaltyGroupCd_DropButtonClick);
 			// this.txtPenaltyGroupCd.Leave += new System.EventHandler(this.txtPenaltyGroupCd_Leave);
 			// 
 			// txtDlblPenaltyGroupName
@@ -270,7 +270,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Penalty Group Code";
 			this.Label2.Location = new System.Drawing.Point(9, 120);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(96, 14);
 			this.Label2.TabIndex = 13;
 			// 

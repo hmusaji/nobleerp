@@ -57,7 +57,7 @@ namespace Xtreme
 			// 
 			// frmPayLeaveEncashment
 			// 
-			this.'MaxButton = 0;
+			//
 			this.AllowDrop = true;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6, 13);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

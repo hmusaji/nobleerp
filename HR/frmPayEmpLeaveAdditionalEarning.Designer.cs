@@ -81,9 +81,9 @@ namespace Xtreme
 			this.lblSystemComponents = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _lblCommonLabel_2

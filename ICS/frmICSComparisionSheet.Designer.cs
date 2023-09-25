@@ -60,7 +60,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_4;
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		public System.Windows.Forms.Label Line1;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape1;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[22];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -87,11 +87,11 @@ namespace Xtreme
 			this._lblCommonLabel_4 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.Shape1 = new ShapeHelper();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.cmbMasterList.SuspendLayout();
-			this.grdComparisionDetails.SuspendLayout();
+			//this.cmbMasterList.SuspendLayout();
+			//this.grdComparisionDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmbMasterList
@@ -187,7 +187,7 @@ namespace Xtreme
 			this.txtComments.Size = new System.Drawing.Size(571, 19);
 			this.txtComments.TabIndex = 5;
 			this.txtComments.Text = "";
-			// this.this.txtComments.Watermark = "";
+			// this.// = "";
 			// 
 			// txtVoucherDate
 			// 
@@ -215,7 +215,7 @@ namespace Xtreme
 			this.txtTransactionNo.Size = new System.Drawing.Size(102, 19);
 			this.txtTransactionNo.TabIndex = 7;
 			this.txtTransactionNo.Text = "";
-			// this.this.txtTransactionNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_4
 			// 
@@ -253,7 +253,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(224, 180, 171);
-			this.Shape1.BackStyle = 0;
+			// = 0;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.FromArgb(153, 164, 154);

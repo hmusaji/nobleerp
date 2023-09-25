@@ -98,13 +98,13 @@ namespace Xtreme
 			this.txtACurrName.BackColor = System.Drawing.Color.White;
 			this.txtACurrName.ForeColor = System.Drawing.Color.Black;
 			this.txtACurrName.Location = new System.Drawing.Point(158, 88);
-			// this.txtACurrName.mArabicEnabled = true;
+			// // = true;
 			this.txtACurrName.MaxLength = 20;
 			this.txtACurrName.Name = "txtACurrName";
 			this.txtACurrName.Size = new System.Drawing.Size(201, 19);
 			this.txtACurrName.TabIndex = 4;
 			this.txtACurrName.Text = "";
-			// this.this.txtACurrName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblDecimal
 			// 
@@ -138,7 +138,7 @@ namespace Xtreme
 			this.txtLCurrName.Size = new System.Drawing.Size(201, 19);
 			this.txtLCurrName.TabIndex = 3;
 			this.txtLCurrName.Text = "";
-			// this.this.txtLCurrName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCurrNo
 			// 
@@ -148,14 +148,14 @@ namespace Xtreme
 			this.txtCurrNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCurrNo.Location = new System.Drawing.Point(158, 25);
 			this.txtCurrNo.MaxLength = 3;
-			// this.txtCurrNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCurrNo.Name = "txtCurrNo";
 			// this.txtCurrNo.ShowButton = true;
 			this.txtCurrNo.Size = new System.Drawing.Size(101, 19);
 			this.txtCurrNo.TabIndex = 0;
 			this.txtCurrNo.Text = "";
-			// this.this.txtCurrNo.Watermark = "";
-			// this.this.txtCurrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCurrNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCurrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCurrNo_DropButtonClick);
 			// 
 			// lblCurrNameL
 			// 
@@ -190,7 +190,7 @@ namespace Xtreme
 			this.txtSymbol.Size = new System.Drawing.Size(61, 19);
 			this.txtSymbol.TabIndex = 1;
 			this.txtSymbol.Text = "";
-			// this.this.txtSymbol.Watermark = "";
+			// this.// = "";
 			// 
 			// txtDecimal
 			// 
@@ -204,7 +204,7 @@ namespace Xtreme
 			this.txtDecimal.Size = new System.Drawing.Size(61, 19);
 			this.txtDecimal.TabIndex = 2;
 			this.txtDecimal.Text = "";
-			// this.this.txtDecimal.Watermark = "";
+			// this.// = "";
 			// 
 			// txtExchangeRate
 			// 
@@ -212,8 +212,8 @@ namespace Xtreme
 			// this.txtExchangeRate.DisplayFormat = "####0.000######;; ; ";
 			// this.txtExchangeRate.Format = "####0.000######";
 			this.txtExchangeRate.Location = new System.Drawing.Point(158, 109);
-			// this.txtExchangeRate.MaxValue = 2147483647;
-			// this.txtExchangeRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtExchangeRate.Name = "txtExchangeRate";
 			this.txtExchangeRate.Size = new System.Drawing.Size(102, 19);
 			this.txtExchangeRate.TabIndex = 5;

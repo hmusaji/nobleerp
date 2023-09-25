@@ -93,7 +93,7 @@ namespace Xtreme
 			this.txtCalendarCd = new System.Windows.Forms.TextBox();
 			this.txtDlblCalendarName = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtHolidayDate).BeginInit();
-			this.grdHolidayDetails.SuspendLayout();
+			//this.grdHolidayDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _txtCommonDate_1
@@ -104,7 +104,7 @@ namespace Xtreme
 			// this._txtCommonDate_1.MaxDate = 2958465;
 			// this._txtCommonDate_1.MinDate = -657434;
 			this._txtCommonDate_1.Name = "_txtCommonDate_1";
-			this._txtCommonDate_1.PromptChar = "_";
+			// = "_";
 			this._txtCommonDate_1.Size = new System.Drawing.Size(100, 19);
 			this._txtCommonDate_1.TabIndex = 5;
 			this._txtCommonDate_1.Text = "05/06/2011";
@@ -118,7 +118,7 @@ namespace Xtreme
 			// this._txtCommonDate_0.MaxDate = 2958465;
 			// this._txtCommonDate_0.MinDate = -657434;
 			this._txtCommonDate_0.Name = "_txtCommonDate_0";
-			this._txtCommonDate_0.PromptChar = "_";
+			// = "_";
 			this._txtCommonDate_0.Size = new System.Drawing.Size(100, 19);
 			this._txtCommonDate_0.TabIndex = 4;
 			this._txtCommonDate_0.Text = "05/06/2011";
@@ -147,7 +147,7 @@ namespace Xtreme
 			this.txtHolidayNo.ForeColor = System.Drawing.Color.Black;
 			this.txtHolidayNo.Location = new System.Drawing.Point(122, 42);
 			this.txtHolidayNo.MaxLength = 15;
-			// this.txtHolidayNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtHolidayNo.Name = "txtHolidayNo";
 			// this.txtHolidayNo.ShowButton = true;
 			this.txtHolidayNo.Size = new System.Drawing.Size(98, 19);
@@ -205,7 +205,7 @@ namespace Xtreme
 			this.txtAHolidayName.BackColor = System.Drawing.Color.White;
 			this.txtAHolidayName.ForeColor = System.Drawing.Color.Black;
 			this.txtAHolidayName.Location = new System.Drawing.Point(122, 84);
-			// this.txtAHolidayName.mArabicEnabled = true;
+			// // = true;
 			this.txtAHolidayName.MaxLength = 50;
 			this.txtAHolidayName.Name = "txtAHolidayName";
 			this.txtAHolidayName.Size = new System.Drawing.Size(273, 19);
@@ -288,7 +288,7 @@ namespace Xtreme
 			this.txtCalendarCd.Size = new System.Drawing.Size(101, 19);
 			this.txtCalendarCd.TabIndex = 3;
 			this.txtCalendarCd.Text = "";
-			// this.this.txtCalendarCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCalendarCd_DropButtonClick);
+			// this.//this.txtCalendarCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCalendarCd_DropButtonClick);
 			// this.txtCalendarCd.Leave += new System.EventHandler(this.txtCalendarCd_Leave);
 			// 
 			// txtDlblCalendarName
@@ -348,7 +348,7 @@ namespace Xtreme
 			this.txtCommonDate[1] = _txtCommonDate_1;
 			this.txtCommonDate[0] = _txtCommonDate_0;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[2];
 			this.Label1[0] = Label1_0;

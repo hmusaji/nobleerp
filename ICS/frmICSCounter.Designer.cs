@@ -161,7 +161,7 @@ namespace Xtreme
 			this.txtCounterNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCounterNo.Location = new System.Drawing.Point(127, 15);
 			this.txtCounterNo.MaxLength = 15;
-			// this.txtCounterNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCounterNo.Name = "txtCounterNo";
 			// this.txtCounterNo.ShowButton = true;
 			this.txtCounterNo.Size = new System.Drawing.Size(101, 19);
@@ -230,7 +230,7 @@ namespace Xtreme
 			this.txtACounterName.BackColor = System.Drawing.Color.White;
 			this.txtACounterName.ForeColor = System.Drawing.Color.Black;
 			this.txtACounterName.Location = new System.Drawing.Point(127, 57);
-			// this.txtACounterName.mArabicEnabled = true;
+			// // = true;
 			this.txtACounterName.MaxLength = 50;
 			this.txtACounterName.Name = "txtACounterName";
 			this.txtACounterName.Size = new System.Drawing.Size(201, 19);
@@ -261,7 +261,7 @@ namespace Xtreme
 			this.txtLocationNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLocationNo.TabIndex = 7;
 			this.txtLocationNo.Text = "";
-			// this.this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationNo_DropButtonClick);
+			// this.//this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationNo_DropButtonClick);
 			// this.txtLocationNo.Leave += new System.EventHandler(this.txtLocationNo_Leave);
 			// 
 			// txtLocationName
@@ -331,7 +331,7 @@ namespace Xtreme
 			this.Label1.Text = "Port No";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(128, 148);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(35, 14);
 			this.Label1.TabIndex = 16;
 			// 

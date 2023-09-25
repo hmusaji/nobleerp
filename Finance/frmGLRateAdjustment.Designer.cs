@@ -70,7 +70,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_2;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape1;
 		public System.Windows.Forms.GroupBox[] fraCommon = new System.Windows.Forms.GroupBox[1];
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[22];
 		public System.Windows.Forms.TextBox[] txtCommonTextBox = new System.Windows.Forms.TextBox[3];
@@ -109,12 +109,12 @@ namespace Xtreme
 			this._lblCommonLabel_3 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_2 = new System.Windows.Forms.Label();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.Shape1 = new ShapeHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this._fraCommon_0.SuspendLayout();
-			this.grdAdjustmentDetails.SuspendLayout();
-			this.grdAccountSelect.SuspendLayout();
-			this.grdRateAdjustment.SuspendLayout();
+			//this._fraCommon_0.SuspendLayout();
+			//this.grdAdjustmentDetails.SuspendLayout();
+			//this.grdAccountSelect.SuspendLayout();
+			//this.grdRateAdjustment.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _lblCommonLabel_0
@@ -223,7 +223,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 0;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_21
@@ -361,7 +361,7 @@ namespace Xtreme
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_2.TabIndex = 2;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_3
@@ -396,7 +396,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(208, 217, 208);
-			this.Shape1.BackStyle = 1;
+			// = 1;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.Black;

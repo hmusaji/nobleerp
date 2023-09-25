@@ -110,7 +110,7 @@ namespace Xtreme
 			this.txtLBatchName.Size = new System.Drawing.Size(201, 19);
 			this.txtLBatchName.TabIndex = 1;
 			this.txtLBatchName.Text = "";
-			// this.this.txtLBatchName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblACostName
 			// 
@@ -129,13 +129,13 @@ namespace Xtreme
 			this.txtABatchName.BackColor = System.Drawing.Color.White;
 			this.txtABatchName.ForeColor = System.Drawing.Color.Black;
 			this.txtABatchName.Location = new System.Drawing.Point(130, 96);
-			// this.txtABatchName.mArabicEnabled = true;
+			// // = true;
 			this.txtABatchName.MaxLength = 50;
 			this.txtABatchName.Name = "txtABatchName";
 			this.txtABatchName.Size = new System.Drawing.Size(201, 19);
 			this.txtABatchName.TabIndex = 2;
 			this.txtABatchName.Text = "";
-			// this.this.txtABatchName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 
@@ -157,14 +157,14 @@ namespace Xtreme
 			this.txtBatchNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBatchNo.Location = new System.Drawing.Point(130, 54);
 			this.txtBatchNo.MaxLength = 15;
-			// this.txtBatchNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBatchNo.Name = "txtBatchNo";
 			// this.txtBatchNo.ShowButton = true;
 			this.txtBatchNo.Size = new System.Drawing.Size(101, 19);
 			this.txtBatchNo.TabIndex = 0;
 			this.txtBatchNo.Text = "";
-			// this.this.txtBatchNo.Watermark = "";
-			// this.this.txtBatchNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBatchNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtBatchNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBatchNo_DropButtonClick);
 			// 
 			// lblCostNo
 			// 

@@ -77,7 +77,7 @@ namespace Xtreme
 			this.txtBudgetCode.Size = new System.Drawing.Size(101, 19);
 			this.txtBudgetCode.TabIndex = 0;
 			this.txtBudgetCode.Text = "";
-			// this.this.txtBudgetCode.Watermark = "";
+			// this.// = "";
 			// 
 			// lblBudgetCode
 			// 

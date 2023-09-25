@@ -71,7 +71,7 @@ namespace Xtreme
 			this.grdDays = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdDays = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdDays = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.grdDays.SuspendLayout();
+			//this.grdDays.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdSelect

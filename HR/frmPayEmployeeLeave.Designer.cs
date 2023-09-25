@@ -163,11 +163,11 @@ namespace Xtreme
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
 			this._Line1_1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this.fraFixedLeaveInfo.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this.fraFixedLeaveInfo.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMasterDetails
@@ -217,7 +217,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label1.Text = "Leave Balance";
 			this.Label1.Location = new System.Drawing.Point(10, 244);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(72, 14);
 			this.Label1.TabIndex = 44;
 			// 
@@ -278,8 +278,8 @@ namespace Xtreme
 			// this._txtCommonNumber_0.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_0.Format = "###########0.000";
 			this._txtCommonNumber_0.Location = new System.Drawing.Point(162, 37);
-			// this._txtCommonNumber_0.MaxValue = 2147483647;
-			// this._txtCommonNumber_0.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_0.Name = "_txtCommonNumber_0";
 			this._txtCommonNumber_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_0.TabIndex = 2;
@@ -292,8 +292,8 @@ namespace Xtreme
 			// this._txtCommonNumber_6.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_6.Format = "###########0.000";
 			this._txtCommonNumber_6.Location = new System.Drawing.Point(162, 16);
-			// this._txtCommonNumber_6.MaxValue = 2147483647;
-			// this._txtCommonNumber_6.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_6.Name = "_txtCommonNumber_6";
 			this._txtCommonNumber_6.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_6.TabIndex = 1;
@@ -447,8 +447,8 @@ namespace Xtreme
 			// this._txtCommonNumber_1.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_1.Format = "###########0.000";
 			this._txtCommonNumber_1.Location = new System.Drawing.Point(188, 294);
-			// this._txtCommonNumber_1.MaxValue = 2147483647;
-			// this._txtCommonNumber_1.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_1.Name = "_txtCommonNumber_1";
 			this._txtCommonNumber_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_1.TabIndex = 7;
@@ -462,8 +462,8 @@ namespace Xtreme
 			// this._txtCommonNumber_2.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_2.Format = "###########0.000";
 			this._txtCommonNumber_2.Location = new System.Drawing.Point(188, 314);
-			// this._txtCommonNumber_2.MaxValue = 2147483647;
-			// this._txtCommonNumber_2.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_2.Name = "_txtCommonNumber_2";
 			this._txtCommonNumber_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_2.TabIndex = 10;
@@ -477,8 +477,8 @@ namespace Xtreme
 			// this._txtCommonNumber_4.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_4.Format = "###########0.000";
 			this._txtCommonNumber_4.Location = new System.Drawing.Point(564, 294);
-			// this._txtCommonNumber_4.MaxValue = 2147483647;
-			// this._txtCommonNumber_4.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_4.Name = "_txtCommonNumber_4";
 			this._txtCommonNumber_4.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_4.TabIndex = 9;
@@ -492,8 +492,8 @@ namespace Xtreme
 			// this._txtCommonNumber_5.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_5.Format = "###########0.000";
 			this._txtCommonNumber_5.Location = new System.Drawing.Point(564, 314);
-			// this._txtCommonNumber_5.MaxValue = 2147483647;
-			// this._txtCommonNumber_5.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_5.Name = "_txtCommonNumber_5";
 			this._txtCommonNumber_5.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_5.TabIndex = 11;
@@ -626,8 +626,8 @@ namespace Xtreme
 			// this._txtCommonNumber_3.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_3.Format = "###########0.000";
 			this._txtCommonNumber_3.Location = new System.Drawing.Point(164, 37);
-			// this._txtCommonNumber_3.MaxValue = 2147483647;
-			// this._txtCommonNumber_3.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_3.Name = "_txtCommonNumber_3";
 			this._txtCommonNumber_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_3.TabIndex = 4;
@@ -640,8 +640,8 @@ namespace Xtreme
 			// this._txtCommonNumber_7.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtCommonNumber_7.Format = "###########0.000";
 			this._txtCommonNumber_7.Location = new System.Drawing.Point(164, 16);
-			// this._txtCommonNumber_7.MaxValue = 2147483647;
-			// this._txtCommonNumber_7.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_7.Name = "_txtCommonNumber_7";
 			this._txtCommonNumber_7.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_7.TabIndex = 3;

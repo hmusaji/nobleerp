@@ -56,7 +56,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtVoucherNo;
 		public System.Windows.Forms.TextBox txtNetAmount;
 		private System.Windows.Forms.Label Label1_0;
-		public AxXtremeSuiteControls.AxGroupBox GroupBox1;
+		public System.Windows.Forms.Panel GroupBox1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
@@ -64,7 +64,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtComment;
 		private System.Windows.Forms.Label Label1_1;
 		public System.Windows.Forms.Panel Frame1;
-		public AxC1SizerLib.AxC1Tab C1Tab1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv C1Tab1;
 		public System.Windows.Forms.Button cmdGenerate;
 		public System.Windows.Forms.TextBox txtRemainingAmount;
 		private System.Windows.Forms.Label Label1_5;
@@ -76,7 +76,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label Label1_6;
 		public System.Windows.Forms.TextBox txtDownPayment;
 		private System.Windows.Forms.Label Label1_3;
-		public AxXtremeSuiteControls.AxGroupBox GroupBox2;
+		public System.Windows.Forms.Panel GroupBox2;
 		public System.Windows.Forms.Label txtCustomerName;
 		public System.Windows.Forms.TextBox txtPercentDiscount;
 		public System.Windows.Forms.TextBox txtCustomerCode;
@@ -97,7 +97,7 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.HScroll1 = new System.Windows.Forms.VScrollBar();
 			this.Frame2 = new System.Windows.Forms.Panel();
-			this.GroupBox1 = new AxXtremeSuiteControls.AxGroupBox();
+			this.GroupBox1 = new System.Windows.Forms.Panel();
 			this.txtVoucherDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtAmount = new System.Windows.Forms.TextBox();
 			this.Label_3 = new System.Windows.Forms.Label();
@@ -108,7 +108,7 @@ namespace Xtreme
 			this.txtVoucherNo = new System.Windows.Forms.TextBox();
 			this.txtNetAmount = new System.Windows.Forms.TextBox();
 			this.Label1_0 = new System.Windows.Forms.Label();
-			this.C1Tab1 = new AxC1SizerLib.AxC1Tab();
+			this.C1Tab1 = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -116,7 +116,7 @@ namespace Xtreme
 			this.txtTempDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.Label1_1 = new System.Windows.Forms.Label();
-			this.GroupBox2 = new AxXtremeSuiteControls.AxGroupBox();
+			this.GroupBox2 = new System.Windows.Forms.Panel();
 			this.cmdGenerate = new System.Windows.Forms.Button();
 			this.txtRemainingAmount = new System.Windows.Forms.TextBox();
 			this.Label1_5 = new System.Windows.Forms.Label();
@@ -138,12 +138,12 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.C1Tab1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.GroupBox2).BeginInit();
-			this.Frame2.SuspendLayout();
-			this.GroupBox1.SuspendLayout();
-			this.C1Tab1.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.GroupBox2.SuspendLayout();
+			//this.Frame2.SuspendLayout();
+			//this.GroupBox1.SuspendLayout();
+			//this.C1Tab1.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.GroupBox2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// HScroll1
@@ -214,7 +214,7 @@ namespace Xtreme
 			// this.txtVoucherDate.MaxDate = 2958465;
 			// this.txtVoucherDate.MinDate = -657434;
 			this.txtVoucherDate.Name = "txtVoucherDate";
-			this.txtVoucherDate.PromptChar = "_";
+			// = "_";
 			this.txtVoucherDate.Size = new System.Drawing.Size(87, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			// this.txtVoucherDate.Text = "10/02/2014";
@@ -291,17 +291,17 @@ namespace Xtreme
 			// 
 			this.txtVoucherNo.AllowDrop = true;
 			this.txtVoucherNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
-			// this.txtVoucherNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtVoucherNo.Enabled = false;
 			this.txtVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtVoucherNo.Location = new System.Drawing.Point(108, 38);
-			// this.txtVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtVoucherNo.Name = "txtVoucherNo";
 			this.txtVoucherNo.Size = new System.Drawing.Size(87, 19);
 			this.txtVoucherNo.TabIndex = 8;
 			this.txtVoucherNo.TabStop = false;
 			this.txtVoucherNo.Text = "";
-			// this.this.txtVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtNetAmount
 			// 
@@ -397,10 +397,10 @@ namespace Xtreme
 			// 
 			this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
-			// this.txtComment.bolAllowDecimal = false;
+			// // = false;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
 			this.txtComment.Location = new System.Drawing.Point(4, 256);
-			// this.txtComment.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtComment.Name = "txtComment";
 			this.txtComment.Size = new System.Drawing.Size(537, 53);
 			this.txtComment.TabIndex = 19;
@@ -506,7 +506,7 @@ namespace Xtreme
 			// this.txtInstallmentStartDate.MaxDate = 2958465;
 			// this.txtInstallmentStartDate.MinDate = -657434;
 			this.txtInstallmentStartDate.Name = "txtInstallmentStartDate";
-			this.txtInstallmentStartDate.PromptChar = "_";
+			// = "_";
 			this.txtInstallmentStartDate.Size = new System.Drawing.Size(87, 19);
 			this.txtInstallmentStartDate.TabIndex = 5;
 			// this.txtInstallmentStartDate.Text = "10/02/2014";
@@ -583,8 +583,8 @@ namespace Xtreme
 			// this.txtPercentDiscount.DisplayFormat = "#####0.######;;; ";
 			// this.txtPercentDiscount.Format = "#####0.######";
 			this.txtPercentDiscount.Location = new System.Drawing.Point(196, 112);
-			// this.txtPercentDiscount.MaxValue = 100;
-			// this.txtPercentDiscount.MinValue = 0;
+			// // = 100;
+			// // = 0;
 			this.txtPercentDiscount.Name = "txtPercentDiscount";
 			this.txtPercentDiscount.Size = new System.Drawing.Size(37, 19);
 			this.txtPercentDiscount.TabIndex = 13;
@@ -595,17 +595,17 @@ namespace Xtreme
 			// 
 			this.txtCustomerCode.AllowDrop = true;
 			this.txtCustomerCode.BackColor = System.Drawing.Color.White;
-			// this.txtCustomerCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtCustomerCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCustomerCode.Location = new System.Drawing.Point(116, 8);
-			// this.txtCustomerCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtCustomerCode.Name = "txtCustomerCode";
 			// this.txtCustomerCode.ShowButton = true;
 			this.txtCustomerCode.Size = new System.Drawing.Size(87, 19);
 			this.txtCustomerCode.TabIndex = 0;
 			this.txtCustomerCode.Text = "";
-			// this.this.txtCustomerCode.Watermark = "";
-			// this.this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCustomerCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCustomerCode_DropButtonClick);
 			// this.txtCustomerCode.Leave += new System.EventHandler(this.txtCustomerCode_Leave);
 			// 
 			// Label_1
@@ -624,17 +624,17 @@ namespace Xtreme
 			// 
 			this.txtContractNo.AllowDrop = true;
 			this.txtContractNo.BackColor = System.Drawing.Color.White;
-			// this.txtContractNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtContractNo.ForeColor = System.Drawing.Color.Black;
 			this.txtContractNo.Location = new System.Drawing.Point(350, 28);
-			// this.txtContractNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtContractNo.Name = "txtContractNo";
 			this.txtContractNo.Size = new System.Drawing.Size(87, 19);
 			this.txtContractNo.TabIndex = 9;
 			this.txtContractNo.TabStop = false;
 			this.txtContractNo.Text = "";
 			this.txtContractNo.Visible = false;
-			// this.this.txtContractNo.Watermark = "";
+			// this.// = "";
 			// 
 			// Label_0
 			// 
@@ -685,7 +685,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[7];
 			this.Label1[4] = Label1_4;
@@ -696,7 +696,7 @@ namespace Xtreme
 			this.Label1[6] = Label1_6;
 			this.Label1[3] = Label1_3;
 		}
-		void InitializeSystem.Windows.Forms.Label()
+		void InitializeSystemWindowsFormsLabel()
 		{
 			this.Label = new System.Windows.Forms.Label[8];
 			this.Label[3] = Label_3;

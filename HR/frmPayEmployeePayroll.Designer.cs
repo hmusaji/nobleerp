@@ -200,8 +200,8 @@ namespace Xtreme
 			this.lblCalendar = new System.Windows.Forms.Label();
 			this._lblCommon_5 = new System.Windows.Forms.Label();
 			this.txtNOTWorkingHrs = new System.Windows.Forms.TextBox();
-			this.frmBank.SuspendLayout();
-			this.Frame1.SuspendLayout();
+			//this.frmBank.SuspendLayout();
+			//this.Frame1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmBank
@@ -313,9 +313,9 @@ namespace Xtreme
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_2.TabIndex = 22;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.Watermark = "";
+			// this.// = "";
 			// this.this._txtCommonTextBox_2.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtCommonTextBox_Change);
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this.this._txtCommonTextBox_2.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommonTextBox_KeyPress);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
@@ -400,9 +400,9 @@ namespace Xtreme
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(276, 19);
 			this._txtCommonTextBox_3.TabIndex = 20;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.Watermark = "";
+			// this.// = "";
 			// this.this._txtCommonTextBox_3.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtCommonTextBox_Change);
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this.this._txtCommonTextBox_3.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommonTextBox_KeyPress);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
@@ -428,9 +428,9 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 19;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.Watermark = "";
+			// this.// = "";
 			// this.this._txtCommonTextBox_1.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtCommonTextBox_Change);
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this.this._txtCommonTextBox_1.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommonTextBox_KeyPress);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
@@ -455,9 +455,9 @@ namespace Xtreme
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_4.TabIndex = 21;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.Watermark = "";
+			// this.// = "";
 			// this.this._txtCommonTextBox_4.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtCommonTextBox_Change);
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this.this._txtCommonTextBox_4.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommonTextBox_KeyPress);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
@@ -487,15 +487,15 @@ namespace Xtreme
 			// 
 			this.txtAccountNo.AllowDrop = true;
 			this.txtAccountNo.BackColor = System.Drawing.Color.White;
-			// this.txtAccountNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtAccountNo.ForeColor = System.Drawing.Color.Black;
 			this.txtAccountNo.Location = new System.Drawing.Point(456, 56);
-			// this.txtAccountNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAccountNo.Name = "txtAccountNo";
 			this.txtAccountNo.Size = new System.Drawing.Size(100, 19);
 			this.txtAccountNo.TabIndex = 67;
 			this.txtAccountNo.Text = "";
-			// this.this.txtAccountNo.Watermark = "";
+			// this.// = "";
 			// 
 			// chkMobileAllowance
 			// 
@@ -670,8 +670,8 @@ namespace Xtreme
 			// this.txtDaysPerMonth.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtDaysPerMonth.Format = "###########0.000";
 			this.txtDaysPerMonth.Location = new System.Drawing.Point(350, 88);
-			// this.txtDaysPerMonth.MaxValue = 2147483647;
-			// this.txtDaysPerMonth.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtDaysPerMonth.Name = "txtDaysPerMonth";
 			this.txtDaysPerMonth.Size = new System.Drawing.Size(101, 19);
 			this.txtDaysPerMonth.TabIndex = 1;
@@ -683,8 +683,8 @@ namespace Xtreme
 			// this.txtHoursPerDay.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtHoursPerDay.Format = "###########0.000";
 			this.txtHoursPerDay.Location = new System.Drawing.Point(632, 88);
-			// this.txtHoursPerDay.MaxValue = 2147483647;
-			// this.txtHoursPerDay.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtHoursPerDay.Name = "txtHoursPerDay";
 			this.txtHoursPerDay.Size = new System.Drawing.Size(101, 19);
 			this.txtHoursPerDay.TabIndex = 2;
@@ -805,8 +805,8 @@ namespace Xtreme
 			// this.txtFridayOT.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtFridayOT.Format = "###########0.000";
 			this.txtFridayOT.Location = new System.Drawing.Point(350, 180);
-			// this.txtFridayOT.MaxValue = 2147483647;
-			// this.txtFridayOT.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtFridayOT.Name = "txtFridayOT";
 			this.txtFridayOT.Size = new System.Drawing.Size(101, 19);
 			this.txtFridayOT.TabIndex = 13;
@@ -829,8 +829,8 @@ namespace Xtreme
 			// this.txtHolidayOT.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtHolidayOT.Format = "###########0.000";
 			this.txtHolidayOT.Location = new System.Drawing.Point(632, 180);
-			// this.txtHolidayOT.MaxValue = 2147483647;
-			// this.txtHolidayOT.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtHolidayOT.Name = "txtHolidayOT";
 			this.txtHolidayOT.Size = new System.Drawing.Size(101, 19);
 			this.txtHolidayOT.TabIndex = 14;
@@ -891,8 +891,8 @@ namespace Xtreme
 			// this.txtRatePerHours.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtRatePerHours.Format = "###########0.000";
 			this.txtRatePerHours.Location = new System.Drawing.Point(350, 110);
-			// this.txtRatePerHours.MaxValue = 2147483647;
-			// this.txtRatePerHours.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtRatePerHours.Name = "txtRatePerHours";
 			this.txtRatePerHours.ReadOnly = true;
 			this.txtRatePerHours.Size = new System.Drawing.Size(101, 19);
@@ -910,9 +910,9 @@ namespace Xtreme
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_0.TabIndex = 6;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.Watermark = "";
+			// this.// = "";
 			// this.this._txtCommonTextBox_0.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtCommonTextBox_Change);
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this.this._txtCommonTextBox_0.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommonTextBox_KeyPress);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
@@ -931,8 +931,8 @@ namespace Xtreme
 			// this.txtNormalOT.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNormalOT.Format = "###########0.000";
 			this.txtNormalOT.Location = new System.Drawing.Point(106, 180);
-			// this.txtNormalOT.MaxValue = 2147483647;
-			// this.txtNormalOT.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtNormalOT.Name = "txtNormalOT";
 			this.txtNormalOT.Size = new System.Drawing.Size(101, 19);
 			this.txtNormalOT.TabIndex = 12;
@@ -962,8 +962,8 @@ namespace Xtreme
 			// this.txtMobileAllowance.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtMobileAllowance.Format = "###########0.000";
 			this.txtMobileAllowance.Location = new System.Drawing.Point(634, 264);
-			// this.txtMobileAllowance.MaxValue = 2147483647;
-			// this.txtMobileAllowance.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtMobileAllowance.Name = "txtMobileAllowance";
 			this.txtMobileAllowance.Size = new System.Drawing.Size(101, 19);
 			this.txtMobileAllowance.TabIndex = 26;
@@ -976,8 +976,8 @@ namespace Xtreme
 			// this.txtRatePerDay.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtRatePerDay.Format = "###########0.000";
 			this.txtRatePerDay.Location = new System.Drawing.Point(632, 110);
-			// this.txtRatePerDay.MaxValue = 2147483647;
-			// this.txtRatePerDay.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtRatePerDay.Name = "txtRatePerDay";
 			this.txtRatePerDay.Size = new System.Drawing.Size(101, 19);
 			this.txtRatePerDay.TabIndex = 5;
@@ -1010,8 +1010,8 @@ namespace Xtreme
 			// this.txtNGeneralOTAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNGeneralOTAmt.Format = "###########0.000";
 			this.txtNGeneralOTAmt.Location = new System.Drawing.Point(106, 200);
-			// this.txtNGeneralOTAmt.MaxValue = 2147483647;
-			// this.txtNGeneralOTAmt.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtNGeneralOTAmt.Name = "txtNGeneralOTAmt";
 			this.txtNGeneralOTAmt.Size = new System.Drawing.Size(101, 19);
 			this.txtNGeneralOTAmt.TabIndex = 15;
@@ -1030,8 +1030,8 @@ namespace Xtreme
 			this.txtCalendarCd.Size = new System.Drawing.Size(101, 19);
 			this.txtCalendarCd.TabIndex = 16;
 			this.txtCalendarCd.Text = "";
-			// this.this.txtCalendarCd.Watermark = "";
-			// this.this.txtCalendarCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCalendarCd_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCalendarCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCalendarCd_DropButtonClick);
 			// this.txtCalendarCd.Leave += new System.EventHandler(this.txtCalendarCd_Leave);
 			// 
 			// txtDlblCalendarName
@@ -1069,8 +1069,8 @@ namespace Xtreme
 			// this.txtNOTWorkingHrs.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNOTWorkingHrs.Format = "###########0.000";
 			this.txtNOTWorkingHrs.Location = new System.Drawing.Point(350, 201);
-			// this.txtNOTWorkingHrs.MaxValue = 2147483647;
-			// this.txtNOTWorkingHrs.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtNOTWorkingHrs.Name = "txtNOTWorkingHrs";
 			this.txtNOTWorkingHrs.Size = new System.Drawing.Size(101, 19);
 			this.txtNOTWorkingHrs.TabIndex = 69;
@@ -1207,7 +1207,7 @@ namespace Xtreme
 			this.cmbCommon[7] = _cmbCommon_7;
 			this.cmbCommon[5] = _cmbCommon_5;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[11];
 			this.Label1[9] = Label1_9;

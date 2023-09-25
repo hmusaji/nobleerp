@@ -143,7 +143,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 0;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_4
@@ -235,7 +235,7 @@ namespace Xtreme
 			// this.txtContractStartDate.MaxDate = 2958465;
 			// this.txtContractStartDate.MinDate = -657434;
 			this.txtContractStartDate.Name = "txtContractStartDate";
-			this.txtContractStartDate.PromptChar = "_";
+			// = "_";
 			this.txtContractStartDate.Size = new System.Drawing.Size(123, 21);
 			this.txtContractStartDate.TabIndex = 12;
 			// this.txtContractStartDate.Text = "09/02/2013";
@@ -249,7 +249,7 @@ namespace Xtreme
 			// this.txtContractEndDate.MaxDate = 2958465;
 			// this.txtContractEndDate.MinDate = -657434;
 			this.txtContractEndDate.Name = "txtContractEndDate";
-			this.txtContractEndDate.PromptChar = "_";
+			// = "_";
 			this.txtContractEndDate.Size = new System.Drawing.Size(143, 21);
 			this.txtContractEndDate.TabIndex = 13;
 			// this.txtContractEndDate.Text = "09/02/2013";

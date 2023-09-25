@@ -150,10 +150,10 @@ namespace Xtreme
 			this.cmdPostMode = new UCOkCancel();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.fraOptions.SuspendLayout();
-			this.cntMainParameter.SuspendLayout();
-			this.fraVoucherRange.SuspendLayout();
-			this.fraDateRange.SuspendLayout();
+			//this.fraOptions.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
+			//this.fraVoucherRange.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraOptions
@@ -222,36 +222,36 @@ namespace Xtreme
 			// 
 			this.txtAnalysisCode2.AllowDrop = true;
 			this.txtAnalysisCode2.BackColor = System.Drawing.Color.White;
-			// this.txtAnalysisCode2.bolAllowDecimal = false;
+			// // = false;
 			this.txtAnalysisCode2.ForeColor = System.Drawing.Color.Black;
 			this.txtAnalysisCode2.Location = new System.Drawing.Point(103, 73);
 			this.txtAnalysisCode2.MaxLength = 12;
-			// this.txtAnalysisCode2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAnalysisCode2.Name = "txtAnalysisCode2";
 			// this.txtAnalysisCode2.ShowButton = true;
 			this.txtAnalysisCode2.Size = new System.Drawing.Size(101, 19);
 			this.txtAnalysisCode2.TabIndex = 11;
 			this.txtAnalysisCode2.Text = "";
-			// this.this.txtAnalysisCode2.Watermark = "";
-			// this.this.txtAnalysisCode2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtAnalysisCode2_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtAnalysisCode2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtAnalysisCode2_DropButtonClick);
 			// this.txtAnalysisCode2.Leave += new System.EventHandler(this.txtAnalysisCode2_Leave);
 			// 
 			// txtAnalysisCode1
 			// 
 			this.txtAnalysisCode1.AllowDrop = true;
 			this.txtAnalysisCode1.BackColor = System.Drawing.Color.White;
-			// this.txtAnalysisCode1.bolAllowDecimal = false;
+			// // = false;
 			this.txtAnalysisCode1.ForeColor = System.Drawing.Color.Black;
 			this.txtAnalysisCode1.Location = new System.Drawing.Point(103, 52);
 			this.txtAnalysisCode1.MaxLength = 12;
-			// this.txtAnalysisCode1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAnalysisCode1.Name = "txtAnalysisCode1";
 			// this.txtAnalysisCode1.ShowButton = true;
 			this.txtAnalysisCode1.Size = new System.Drawing.Size(101, 19);
 			this.txtAnalysisCode1.TabIndex = 10;
 			this.txtAnalysisCode1.Text = "";
-			// this.this.txtAnalysisCode1.Watermark = "";
-			// this.this.txtAnalysisCode1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtAnalysisCode1_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtAnalysisCode1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtAnalysisCode1_DropButtonClick);
 			// this.txtAnalysisCode1.Leave += new System.EventHandler(this.txtAnalysisCode1_Leave);
 			// 
 			// lblAnalysisCode2
@@ -427,8 +427,8 @@ namespace Xtreme
 			this.txtProjectCode.Size = new System.Drawing.Size(101, 19);
 			this.txtProjectCode.TabIndex = 9;
 			this.txtProjectCode.Text = "";
-			// this.this.txtProjectCode.Watermark = "";
-			// this.this.txtProjectCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtProjectCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtProjectCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtProjectCode_DropButtonClick);
 			// this.txtProjectCode.Leave += new System.EventHandler(this.txtProjectCode_Leave);
 			// 
 			// lblProjectCode
@@ -462,8 +462,8 @@ namespace Xtreme
 			this.txtCostCenterCode.Size = new System.Drawing.Size(101, 19);
 			this.txtCostCenterCode.TabIndex = 8;
 			this.txtCostCenterCode.Text = "";
-			// this.this.txtCostCenterCode.Watermark = "";
-			// this.this.txtCostCenterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCostCenterCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCostCenterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCostCenterCode_DropButtonClick);
 			// this.txtCostCenterCode.Leave += new System.EventHandler(this.txtCostCenterCode_Leave);
 			// 
 			// lblCostCenterCode
@@ -490,8 +490,8 @@ namespace Xtreme
 			// 
 			this.txtTabSpaceInTree.AllowDrop = true;
 			this.txtTabSpaceInTree.Location = new System.Drawing.Point(103, 159);
-			// this.txtTabSpaceInTree.MaxValue = 50;
-			// this.txtTabSpaceInTree.MinValue = 0;
+			// // = 50;
+			// // = 0;
 			this.txtTabSpaceInTree.Name = "txtTabSpaceInTree";
 			this.txtTabSpaceInTree.Size = new System.Drawing.Size(101, 19);
 			this.txtTabSpaceInTree.TabIndex = 15;
@@ -514,12 +514,12 @@ namespace Xtreme
 			this.txtGroupPrefix.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupPrefix.Location = new System.Drawing.Point(103, 117);
 			this.txtGroupPrefix.MaxLength = 12;
-			// this.txtGroupPrefix.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtGroupPrefix.Name = "txtGroupPrefix";
 			this.txtGroupPrefix.Size = new System.Drawing.Size(101, 19);
 			this.txtGroupPrefix.TabIndex = 13;
 			this.txtGroupPrefix.Text = "";
-			// this.this.txtGroupPrefix.Watermark = "";
+			// this.// = "";
 			// 
 			// lblGroupPrefix
 			// 
@@ -539,12 +539,12 @@ namespace Xtreme
 			this.txtGroupSuffix.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupSuffix.Location = new System.Drawing.Point(103, 138);
 			this.txtGroupSuffix.MaxLength = 12;
-			// this.txtGroupSuffix.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtGroupSuffix.Name = "txtGroupSuffix";
 			this.txtGroupSuffix.Size = new System.Drawing.Size(101, 19);
 			this.txtGroupSuffix.TabIndex = 14;
 			this.txtGroupSuffix.Text = "";
-			// this.this.txtGroupSuffix.Watermark = "";
+			// this.// = "";
 			// 
 			// lblGroupSuffix
 			// 
@@ -645,12 +645,12 @@ namespace Xtreme
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtToVoucherNo.Location = new System.Drawing.Point(108, 43);
 			this.txtToVoucherNo.MaxLength = 12;
-			// this.txtToVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtToVoucherNo.Name = "txtToVoucherNo";
 			this.txtToVoucherNo.Size = new System.Drawing.Size(88, 19);
 			this.txtToVoucherNo.TabIndex = 5;
 			this.txtToVoucherNo.Text = "";
-			// this.this.txtToVoucherNo.Watermark = "";
+			// this.// = "";
 			// this.txtToVoucherNo.Leave += new System.EventHandler(this.txtToVoucherNo_Leave);
 			// 
 			// lblToVoucherNo
@@ -672,12 +672,12 @@ namespace Xtreme
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtFromVoucherNo.Location = new System.Drawing.Point(108, 22);
 			this.txtFromVoucherNo.MaxLength = 12;
-			// this.txtFromVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtFromVoucherNo.Name = "txtFromVoucherNo";
 			this.txtFromVoucherNo.Size = new System.Drawing.Size(88, 19);
 			this.txtFromVoucherNo.TabIndex = 4;
 			this.txtFromVoucherNo.Text = "";
-			// this.this.txtFromVoucherNo.Watermark = "";
+			// this.// = "";
 			// this.txtFromVoucherNo.Leave += new System.EventHandler(this.txtFromVoucherNo_Leave);
 			// 
 			// lblFromVoucherNo
@@ -703,8 +703,8 @@ namespace Xtreme
 			this.txtLocationCode.TabIndex = 1;
 			this.txtLocationCode.Text = "";
 			this.txtLocationCode.Visible = false;
-			// this.this.txtLocationCode.Watermark = "";
-			// this.this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationCode_DropButtonClick);
 			// this.txtLocationCode.Leave += new System.EventHandler(this.txtLocationCode_Leave);
 			// 
 			// lblLocationCode
@@ -820,8 +820,8 @@ namespace Xtreme
 			this.txtMasterCode.Size = new System.Drawing.Size(101, 19);
 			this.txtMasterCode.TabIndex = 0;
 			this.txtMasterCode.Text = "";
-			// this.this.txtMasterCode.Watermark = "";
-			// this.this.txtMasterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtMasterCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtMasterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtMasterCode_DropButtonClick);
 			// this.txtMasterCode.Leave += new System.EventHandler(this.txtMasterCode_Leave);
 			// 
 			// txtLocationName

@@ -53,9 +53,9 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtImportToDate;
 		private System.Windows.Forms.Label Label_4;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		//public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.GroupBox frmImport1;
-		public AxXtremeSuiteControls.AxTabControlPage tbExport;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tbExport;
 		public System.Windows.Forms.Button cmdExport;
 		public System.Windows.Forms.TextBox txtExportPath;
 		public System.Windows.Forms.Label lblPath;
@@ -71,9 +71,9 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtExportToDate;
 		private System.Windows.Forms.Label Label_1;
 		public System.Windows.Forms.GroupBox Frame;
-		public AxXtremeSuiteControls.AxTabControlPage tbImport;
-		public AxXtremeSuiteControls.AxTabControlPage TabControlPage1;
-		public AxXtremeSuiteControls.AxTabControl tbTabControl;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tbImport;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv TabControlPage1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tbTabControl;
 		public System.Windows.Forms.Label[] Label = new System.Windows.Forms.Label[8];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -84,8 +84,8 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysSyncronize));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.tbTabControl = new AxXtremeSuiteControls.AxTabControl();
-			this.tbExport = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tbTabControl = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.tbExport = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.frmImport2 = new System.Windows.Forms.GroupBox();
 			this.chkPostTransactions = new System.Windows.Forms.CheckBox();
 			this.txtImportPath = new System.Windows.Forms.TextBox();
@@ -103,8 +103,8 @@ namespace Xtreme
 			this.txtImportToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.Label_4 = new System.Windows.Forms.Label();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
-			this.tbImport = new AxXtremeSuiteControls.AxTabControlPage();
+			//this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.tbImport = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.cmdExport = new System.Windows.Forms.Button();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.txtExportPath = new System.Windows.Forms.TextBox();
@@ -120,20 +120,20 @@ namespace Xtreme
 			this.Label_7 = new System.Windows.Forms.Label();
 			this.txtExportToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.Label_1 = new System.Windows.Forms.Label();
-			this.TabControlPage1 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.TabControlPage1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			// //((System.ComponentModel.ISupportInitialize) this.ImportProgress).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tbExport).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.ExportProgress).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tbImport).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.TabControlPage1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tbTabControl).BeginInit();
-			this.tbTabControl.SuspendLayout();
-			this.tbExport.SuspendLayout();
-			this.frmImport2.SuspendLayout();
-			this.frmImport1.SuspendLayout();
-			this.tbImport.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.Frame.SuspendLayout();
+			//this.tbTabControl.SuspendLayout();
+			//this.tbExport.SuspendLayout();
+			//this.frmImport2.SuspendLayout();
+			//this.frmImport1.SuspendLayout();
+			//this.tbImport.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.Frame.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tbTabControl
@@ -203,17 +203,17 @@ namespace Xtreme
 			// 
 			this.txtImportPath.AllowDrop = true;
 			this.txtImportPath.BackColor = System.Drawing.Color.White;
-			// this.txtImportPath.bolAllowDecimal = false;
+			// // = false;
 			this.txtImportPath.ForeColor = System.Drawing.Color.Black;
 			this.txtImportPath.Location = new System.Drawing.Point(78, 12);
-			// this.txtImportPath.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtImportPath.Name = "txtImportPath";
 			// this.txtImportPath.ShowButton = true;
 			this.txtImportPath.Size = new System.Drawing.Size(321, 19);
 			this.txtImportPath.TabIndex = 29;
 			this.txtImportPath.Text = "";
-			// this.this.txtImportPath.Watermark = "";
-			// this.this.txtImportPath.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtImportPath_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtImportPath.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtImportPath_DropButtonClick);
 			// 
 			// System.Windows.Forms.Label2
 			// 
@@ -222,7 +222,7 @@ namespace Xtreme
 			this.Label2.Text = "File Path";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label2.Location = new System.Drawing.Point(10, 14);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(40, 14);
 			this.Label2.TabIndex = 30;
 			// 
@@ -295,7 +295,7 @@ namespace Xtreme
 			// 
 			this.Label_2.AllowDrop = true;
 			this.Label_2.BackColor = System.Drawing.SystemColors.Window;
-			this.Label_2.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
+			// = VSReport8Lib.BackStyleSettings.vsrTransparent;
 			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label_2.Location = new System.Drawing.Point(12, 44);
 			this.Label_2.Name = "Label_2";
@@ -317,17 +317,17 @@ namespace Xtreme
 			// 
 			this.txtImportLocationCode.AllowDrop = true;
 			this.txtImportLocationCode.BackColor = System.Drawing.Color.White;
-			// this.txtImportLocationCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtImportLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.txtImportLocationCode.Location = new System.Drawing.Point(80, 12);
-			// this.txtImportLocationCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtImportLocationCode.Name = "txtImportLocationCode";
 			// this.txtImportLocationCode.ShowButton = true;
 			this.txtImportLocationCode.Size = new System.Drawing.Size(89, 19);
 			this.txtImportLocationCode.TabIndex = 21;
 			this.txtImportLocationCode.Text = "";
-			// this.this.txtImportLocationCode.Watermark = "";
-			// this.this.txtImportLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtImportLocationCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtImportLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtImportLocationCode_DropButtonClick);
 			// this.txtImportLocationCode.Leave += new System.EventHandler(this.txtImportLocationCode_Leave);
 			// 
 			// txtImportFromDate
@@ -338,7 +338,7 @@ namespace Xtreme
 			// this.txtImportFromDate.MaxDate = 2958465;
 			// this.txtImportFromDate.MinDate = -657434;
 			this.txtImportFromDate.Name = "txtImportFromDate";
-			this.txtImportFromDate.PromptChar = "_";
+			// = "_";
 			this.txtImportFromDate.Size = new System.Drawing.Size(89, 19);
 			this.txtImportFromDate.TabIndex = 22;
 			// this.txtImportFromDate.Text = "31-Aug-2015";
@@ -362,7 +362,7 @@ namespace Xtreme
 			// this.txtImportToDate.MaxDate = 2958465;
 			// this.txtImportToDate.MinDate = -657434;
 			this.txtImportToDate.Name = "txtImportToDate";
-			this.txtImportToDate.PromptChar = "_";
+			// = "_";
 			this.txtImportToDate.Size = new System.Drawing.Size(89, 19);
 			this.txtImportToDate.TabIndex = 24;
 			// this.txtImportToDate.Text = "31-Aug-2015";
@@ -426,17 +426,17 @@ namespace Xtreme
 			// 
 			this.txtExportPath.AllowDrop = true;
 			this.txtExportPath.BackColor = System.Drawing.Color.White;
-			// this.txtExportPath.bolAllowDecimal = false;
+			// // = false;
 			this.txtExportPath.ForeColor = System.Drawing.Color.Black;
 			this.txtExportPath.Location = new System.Drawing.Point(78, 12);
-			// this.txtExportPath.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtExportPath.Name = "txtExportPath";
 			// this.txtExportPath.ShowButton = true;
 			this.txtExportPath.Size = new System.Drawing.Size(319, 19);
 			this.txtExportPath.TabIndex = 14;
 			this.txtExportPath.Text = "";
-			// this.this.txtExportPath.Watermark = "";
-			// this.this.txtExportPath.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtExportPath_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtExportPath.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtExportPath_DropButtonClick);
 			// 
 			// lblPath
 			// 
@@ -503,7 +503,7 @@ namespace Xtreme
 			// 
 			this.Label_0.AllowDrop = true;
 			this.Label_0.BackColor = System.Drawing.SystemColors.Window;
-			this.Label_0.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
+			// = VSReport8Lib.BackStyleSettings.vsrTransparent;
 			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label_0.Location = new System.Drawing.Point(12, 44);
 			this.Label_0.Name = "Label_0";
@@ -525,17 +525,17 @@ namespace Xtreme
 			// 
 			this.txtExportLocationCode.AllowDrop = true;
 			this.txtExportLocationCode.BackColor = System.Drawing.Color.White;
-			// this.txtExportLocationCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtExportLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.txtExportLocationCode.Location = new System.Drawing.Point(80, 12);
-			// this.txtExportLocationCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtExportLocationCode.Name = "txtExportLocationCode";
 			// this.txtExportLocationCode.ShowButton = true;
 			this.txtExportLocationCode.Size = new System.Drawing.Size(89, 19);
 			this.txtExportLocationCode.TabIndex = 8;
 			this.txtExportLocationCode.Text = "";
-			// this.this.txtExportLocationCode.Watermark = "";
-			// this.this.txtExportLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtExportLocationCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtExportLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtExportLocationCode_DropButtonClick);
 			// this.txtExportLocationCode.Leave += new System.EventHandler(this.txtExportLocationCode_Leave);
 			// 
 			// txtExportFromDate
@@ -546,7 +546,7 @@ namespace Xtreme
 			// this.txtExportFromDate.MaxDate = 2958465;
 			// this.txtExportFromDate.MinDate = -657434;
 			this.txtExportFromDate.Name = "txtExportFromDate";
-			this.txtExportFromDate.PromptChar = "_";
+			// = "_";
 			this.txtExportFromDate.Size = new System.Drawing.Size(89, 19);
 			this.txtExportFromDate.TabIndex = 9;
 			// this.txtExportFromDate.Text = "31-Aug-2015";
@@ -570,7 +570,7 @@ namespace Xtreme
 			// this.txtExportToDate.MaxDate = 2958465;
 			// this.txtExportToDate.MinDate = -657434;
 			this.txtExportToDate.Name = "txtExportToDate";
-			this.txtExportToDate.PromptChar = "_";
+			// = "_";
 			this.txtExportToDate.Size = new System.Drawing.Size(89, 19);
 			this.txtExportToDate.TabIndex = 11;
 			// this.txtExportToDate.Text = "31-Aug-2015";
@@ -633,7 +633,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label()
+		void InitializeSystemWindowsFormsLabel()
 		{
 			this.Label = new System.Windows.Forms.Label[8];
 			this.Label[2] = Label_2;

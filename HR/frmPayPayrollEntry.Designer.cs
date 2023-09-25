@@ -122,8 +122,8 @@ namespace Xtreme
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdRefresh
@@ -163,47 +163,47 @@ namespace Xtreme
 			// 
 			this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
-			// this.txtComments.bolAllowDecimal = false;
+			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(100, 99);
-			// this.txtComments.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtComments.Name = "txtComments";
 			this.txtComments.Size = new System.Drawing.Size(597, 21);
 			this.txtComments.TabIndex = 16;
 			this.txtComments.Text = "";
-			// this.this.txtComments.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtCommonTextBox_0
 			// 
 			this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
-			// this._txtCommonTextBox_0.bolAllowDecimal = false;
+			// // = false;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(498, 9);
-			// this._txtCommonTextBox_0.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(53, 19);
 			this._txtCommonTextBox_0.TabIndex = 13;
 			this._txtCommonTextBox_0.Text = "";
 			this._txtCommonTextBox_0.Visible = false;
-			// this.this._txtCommonTextBox_0.Watermark = "";
+			// this.// = "";
 			// 
 			// txtEmployeeCode
 			// 
 			this.txtEmployeeCode.AllowDrop = true;
 			this.txtEmployeeCode.BackColor = System.Drawing.Color.White;
-			// this.txtEmployeeCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtEmployeeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtEmployeeCode.Location = new System.Drawing.Point(616, 14);
-			// this.txtEmployeeCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtEmployeeCode.Name = "txtEmployeeCode";
 			// this.txtEmployeeCode.ShowButton = true;
 			this.txtEmployeeCode.Size = new System.Drawing.Size(107, 19);
 			this.txtEmployeeCode.TabIndex = 12;
 			this.txtEmployeeCode.Text = "";
 			this.txtEmployeeCode.Visible = false;
-			// this.this.txtEmployeeCode.Watermark = "";
-			// this.this.txtEmployeeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmployeeCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtEmployeeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmployeeCode_DropButtonClick);
 			// this.txtEmployeeCode.Leave += new System.EventHandler(this.txtEmployeeCode_Leave);
 			// 
 			// lblSystemComponents
@@ -328,16 +328,16 @@ namespace Xtreme
 			// 
 			this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
-			// this._txtCommonTextBox_1.bolAllowDecimal = false;
+			// // = false;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(528, 9);
-			// this._txtCommonTextBox_1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtCommonTextBox_1.Name = "_txtCommonTextBox_1";
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(59, 19);
 			this._txtCommonTextBox_1.TabIndex = 14;
 			this._txtCommonTextBox_1.Text = "";
 			this._txtCommonTextBox_1.Visible = false;
-			// this.this._txtCommonTextBox_1.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 

@@ -49,8 +49,8 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdCommon;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdCommon;
 		public System.Windows.Forms.Panel fraMain;
-		public AxC1SizerLib.AxC1Tab tabMaster;
-		public AxC1SizerLib.AxC1Elastic cntOuterFrame;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
+		public AxC1Elastic cntOuterFrame;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -60,18 +60,18 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysMenus));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntOuterFrame = new AxC1SizerLib.AxC1Elastic();
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.cntOuterFrame = new AxC1Elastic();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.fraMain = new System.Windows.Forms.Panel();
 			this.grdCommon = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntOuterFrame).BeginInit();
-			this.cntOuterFrame.SuspendLayout();
-			this.tabMaster.SuspendLayout();
-			this.fraMain.SuspendLayout();
-			this.grdCommon.SuspendLayout();
+			//this.cntOuterFrame.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this.fraMain.SuspendLayout();
+			//this.grdCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntOuterFrame

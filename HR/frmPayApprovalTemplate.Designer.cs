@@ -88,8 +88,8 @@ namespace Xtreme
 			this.txtApprovalTypeCode = new System.Windows.Forms.TextBox();
 			this.Label1_1 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdApprovalTemplate.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdApprovalTemplate.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// txtDlblApprovalTypeNAme
@@ -155,10 +155,10 @@ namespace Xtreme
 			// 
 			this._txtTextBox_0.AllowDrop = true;
 			this._txtTextBox_0.BackColor = System.Drawing.Color.White;
-			// this._txtTextBox_0.bolAllowDecimal = false;
+			// // = false;
 			this._txtTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtTextBox_0.Location = new System.Drawing.Point(120, 77);
-			// this._txtTextBox_0.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtTextBox_0.Name = "_txtTextBox_0";
 			// this._txtTextBox_0.ShowButton = true;
 			this._txtTextBox_0.Size = new System.Drawing.Size(113, 19);
@@ -171,7 +171,7 @@ namespace Xtreme
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Template Name(ARB)";
 			this.Label3.Location = new System.Drawing.Point(7, 144);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(103, 14);
 			this.Label3.TabIndex = 6;
 			// 
@@ -181,7 +181,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Template Name(ENG)";
 			this.Label2.Location = new System.Drawing.Point(7, 121);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(102, 14);
 			this.Label2.TabIndex = 7;
 			// 
@@ -199,10 +199,10 @@ namespace Xtreme
 			// 
 			this._txtTextBox_1.AllowDrop = true;
 			this._txtTextBox_1.BackColor = System.Drawing.Color.White;
-			// this._txtTextBox_1.bolAllowDecimal = false;
+			// // = false;
 			this._txtTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtTextBox_1.Location = new System.Drawing.Point(120, 118);
-			// this._txtTextBox_1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtTextBox_1.Name = "_txtTextBox_1";
 			this._txtTextBox_1.Size = new System.Drawing.Size(381, 19);
 			this._txtTextBox_1.TabIndex = 2;
@@ -212,10 +212,10 @@ namespace Xtreme
 			// 
 			this._txtTextBox_2.AllowDrop = true;
 			this._txtTextBox_2.BackColor = System.Drawing.Color.White;
-			// this._txtTextBox_2.bolAllowDecimal = false;
+			// // = false;
 			this._txtTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtTextBox_2.Location = new System.Drawing.Point(120, 141);
-			// this._txtTextBox_2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtTextBox_2.Name = "_txtTextBox_2";
 			this._txtTextBox_2.Size = new System.Drawing.Size(381, 19);
 			this._txtTextBox_2.TabIndex = 3;
@@ -225,16 +225,16 @@ namespace Xtreme
 			// 
 			this.txtApprovalTypeCode.AllowDrop = true;
 			this.txtApprovalTypeCode.BackColor = System.Drawing.Color.White;
-			// this.txtApprovalTypeCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtApprovalTypeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtApprovalTypeCode.Location = new System.Drawing.Point(120, 97);
-			// this.txtApprovalTypeCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtApprovalTypeCode.Name = "txtApprovalTypeCode";
 			// this.txtApprovalTypeCode.ShowButton = true;
 			this.txtApprovalTypeCode.Size = new System.Drawing.Size(113, 19);
 			this.txtApprovalTypeCode.TabIndex = 1;
 			this.txtApprovalTypeCode.Text = "";
-			// this.this.txtApprovalTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtApprovalTypeCode_DropButtonClick);
+			// this.//this.txtApprovalTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtApprovalTypeCode_DropButtonClick);
 			// this.txtApprovalTypeCode.Leave += new System.EventHandler(this.txtApprovalTypeCode_Leave);
 			// 
 			// Label1_1
@@ -302,7 +302,7 @@ namespace Xtreme
 			this.txtTextBox[1] = _txtTextBox_1;
 			this.txtTextBox[2] = _txtTextBox_2;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[2];
 			this.Label1[0] = Label1_0;

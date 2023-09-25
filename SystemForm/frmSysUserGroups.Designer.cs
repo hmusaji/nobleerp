@@ -51,13 +51,13 @@ namespace Xtreme
 		private C1.Win.C1FlexGrid.C1FlexGrid _grdUserGroups_2;
 		private C1.Win.C1FlexGrid.C1FlexGrid _grdUserGroups_3;
 		private C1.Win.C1FlexGrid.C1FlexGrid _grdUserGroups_4;
-		public AxC1SizerLib.AxC1Tab tabUserGroups;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabUserGroups;
 		public System.Windows.Forms.TextBox txtGroupName;
 		public System.Windows.Forms.Label lblGroupName;
 		public System.Windows.Forms.Label lblBasicGroupName;
 		public System.Windows.Forms.TextBox txtBasicGroupName;
 		public System.Windows.Forms.Label Line1;
-		public AxC1SizerLib.AxC1Elastic cntOuterFrame;
+		public AxC1Elastic cntOuterFrame;
 		public C1.Win.C1FlexGrid.C1FlexGrid[] grdUserGroups = new C1.Win.C1FlexGrid.C1FlexGrid[5];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -68,9 +68,9 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysUserGroups));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntOuterFrame = new AxC1SizerLib.AxC1Elastic();
+			this.cntOuterFrame = new AxC1Elastic();
 			this.lblSystemComponents = new System.Windows.Forms.Label();
-			this.tabUserGroups = new AxC1SizerLib.AxC1Tab();
+			this.tabUserGroups = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._grdUserGroups_0 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this._grdUserGroups_1 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this._grdUserGroups_2 = new C1.Win.C1FlexGrid.C1FlexGrid();
@@ -83,8 +83,8 @@ namespace Xtreme
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabUserGroups).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntOuterFrame).BeginInit();
-			this.cntOuterFrame.SuspendLayout();
-			this.tabUserGroups.SuspendLayout();
+			//this.cntOuterFrame.SuspendLayout();
+			//this.tabUserGroups.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntOuterFrame
@@ -545,7 +545,7 @@ namespace Xtreme
 			this.txtBasicGroupName.Size = new System.Drawing.Size(195, 19);
 			this.txtBasicGroupName.TabIndex = 1;
 			this.txtBasicGroupName.Text = "";
-			// this.this.txtBasicGroupName.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBasicGroupName_DropButtonClick);
+			// this.//this.txtBasicGroupName.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBasicGroupName_DropButtonClick);
 			// 
 			// Line1
 			// 

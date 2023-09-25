@@ -147,8 +147,8 @@ namespace Xtreme
 			this.txtPrice.Size = new System.Drawing.Size(101, 19);
 			this.txtPrice.TabIndex = 1;
 			this.txtPrice.Text = "";
-			// this.this.txtPrice.Watermark = "";
-			// this.this.txtPrice.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtPrice_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtPrice.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtPrice_DropButtonClick);
 			// this.txtPrice.Leave += new System.EventHandler(this.txtPrice_Leave);
 			// 
 			// txtPriceName
@@ -163,7 +163,7 @@ namespace Xtreme
 			this.txtPriceName.TabIndex = 2;
 			this.txtPriceName.TabStop = false;
 			this.txtPriceName.Text = " ";
-			// this.this.txtPriceName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblPriceList
 			// 

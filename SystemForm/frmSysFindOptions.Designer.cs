@@ -39,7 +39,7 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.CheckBox chkAdvancedOptions;
 		public System.Windows.Forms.Panel fraReportOptions;
-		public AxC1SizerLib.AxC1Tab tabReportOptions;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabReportOptions;
 		private System.Windows.Forms.Label _lblCommon_3;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdReportOptions;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdReportOptions;
@@ -59,7 +59,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysFindOptions));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.chkAdvancedOptions = new System.Windows.Forms.CheckBox();
-			this.tabReportOptions = new AxC1SizerLib.AxC1Tab();
+			this.tabReportOptions = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.fraReportOptions = new System.Windows.Forms.Panel();
 			this._lblCommon_3 = new System.Windows.Forms.Label();
 			this.grdReportOptions = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -71,9 +71,9 @@ namespace Xtreme
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.tabReportOptions).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.tabReportOptions.SuspendLayout();
-			this.grdReportOptions.SuspendLayout();
-			this.cmbSearchList.SuspendLayout();
+			//this.tabReportOptions.SuspendLayout();
+			//this.grdReportOptions.SuspendLayout();
+			//this.cmbSearchList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkAdvancedOptions

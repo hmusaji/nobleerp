@@ -40,7 +40,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblApprove;
 		public System.Windows.Forms.GroupBox fraPosting;
 		public UCOkCancel cmdOKCancel;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -53,8 +53,8 @@ namespace Xtreme
 			this.fraPosting = new System.Windows.Forms.GroupBox();
 			this.lblApprove = new System.Windows.Forms.Label();
 			this.cmdOKCancel = new UCOkCancel();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
-			this.fraPosting.SuspendLayout();
+			this.Shape1 = new ShapeHelper();
+			//this.fraPosting.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraPosting
@@ -97,7 +97,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
-			this.Shape1.BackStyle = 0;
+			// = 0;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.Black;

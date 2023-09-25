@@ -70,7 +70,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_24;
 		public System.Windows.Forms.GroupBox frm;
 		public System.Windows.Forms.Panel Frame1;
-		public AxC1SizerLib.AxC1Tab tabResume;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabResume;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_7;
 		private System.Windows.Forms.Label _lblCommonLabel_5;
@@ -129,7 +129,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayLeaveResume));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.tabResume = new AxC1SizerLib.AxC1Tab();
+			this.tabResume = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.Frame2 = new System.Windows.Forms.Panel();
 			this.cmdSubmmitApproval = new System.Windows.Forms.Button();
 			this.txtDlblAppTemplateName = new System.Windows.Forms.Label();
@@ -200,10 +200,10 @@ namespace Xtreme
 			this.txtJoiningDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this._lblCommonLabel_29 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabResume).BeginInit();
-			this.tabResume.SuspendLayout();
-			this.Frame2.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.frm.SuspendLayout();
+			//this.tabResume.SuspendLayout();
+			//this.Frame2.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.frm.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabResume
@@ -265,17 +265,17 @@ namespace Xtreme
 			// 
 			this.txtApprovalTemplate.AllowDrop = true;
 			this.txtApprovalTemplate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
-			// this.txtApprovalTemplate.bolAllowDecimal = false;
+			// // = false;
 			this.txtApprovalTemplate.Enabled = false;
 			this.txtApprovalTemplate.ForeColor = System.Drawing.Color.Black;
 			this.txtApprovalTemplate.Location = new System.Drawing.Point(117, 18);
-			// this.txtApprovalTemplate.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtApprovalTemplate.Name = "txtApprovalTemplate";
 			// this.txtApprovalTemplate.ShowButton = true;
 			this.txtApprovalTemplate.Size = new System.Drawing.Size(106, 19);
 			this.txtApprovalTemplate.TabIndex = 66;
 			// this.txtApprovalTemplate.Text = "";
-			// this.this.txtApprovalTemplate.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_28
 			// 
@@ -353,7 +353,7 @@ namespace Xtreme
 			this.Label2.Text = "Encashment Days";
 			this.Label2.Location = new System.Drawing.Point(409, 42);
 			// this.Label2.mLabelId = 2145;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(87, 14);
 			this.Label2.TabIndex = 47;
 			// 
@@ -363,7 +363,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label1.Text = "Variation Days";
 			this.Label1.Location = new System.Drawing.Point(218, 23);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(71, 14);
 			this.Label1.TabIndex = 48;
 			// 
@@ -426,7 +426,7 @@ namespace Xtreme
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(1, 84);
 			// this.Label12.mLabelId = 1851;
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(50, 14);
 			this.Label12.TabIndex = 53;
 			// 
@@ -441,7 +441,7 @@ namespace Xtreme
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(500, 19);
 			this._txtCommonTextBox_4.TabIndex = 54;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_11
 			// 
@@ -566,7 +566,7 @@ namespace Xtreme
 			this._txtCommonTextBox_2.TabIndex = 1;
 			this._txtCommonTextBox_2.TabStop = false;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_7
 			// 
@@ -609,14 +609,14 @@ namespace Xtreme
 			this._txtCommonTextBox_0.Enabled = false;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(104, 50);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_0.TabIndex = 5;
 			this._txtCommonTextBox_0.TabStop = false;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_2
 			// 
@@ -670,8 +670,8 @@ namespace Xtreme
 			this._txtCommonNumber_0.Enabled = false;
 			// this._txtCommonNumber_0.Format = "###########0.000";
 			this._txtCommonNumber_0.Location = new System.Drawing.Point(104, 223);
-			// this._txtCommonNumber_0.MaxValue = 2147483647;
-			// this._txtCommonNumber_0.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_0.Name = "_txtCommonNumber_0";
 			this._txtCommonNumber_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_0.TabIndex = 10;
@@ -697,8 +697,8 @@ namespace Xtreme
 			this._txtCommonNumber_1.Enabled = false;
 			// this._txtCommonNumber_1.Format = "###########0.000";
 			this._txtCommonNumber_1.Location = new System.Drawing.Point(104, 244);
-			// this._txtCommonNumber_1.MaxValue = 2147483647;
-			// this._txtCommonNumber_1.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_1.Name = "_txtCommonNumber_1";
 			this._txtCommonNumber_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_1.TabIndex = 12;
@@ -742,7 +742,7 @@ namespace Xtreme
 			this._txtCommonTextBox_3.TabIndex = 15;
 			this._txtCommonTextBox_3.TabStop = false;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_18
 			// 
@@ -785,8 +785,8 @@ namespace Xtreme
 			this._txtCommonNumber_2.Enabled = false;
 			// this._txtCommonNumber_2.Format = "###########0.000";
 			this._txtCommonNumber_2.Location = new System.Drawing.Point(306, 223);
-			// this._txtCommonNumber_2.MaxValue = 2147483647;
-			// this._txtCommonNumber_2.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_2.Name = "_txtCommonNumber_2";
 			this._txtCommonNumber_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_2.TabIndex = 19;
@@ -812,8 +812,8 @@ namespace Xtreme
 			this._txtCommonNumber_3.Enabled = false;
 			// this._txtCommonNumber_3.Format = "###########0.000";
 			this._txtCommonNumber_3.Location = new System.Drawing.Point(519, 223);
-			// this._txtCommonNumber_3.MaxValue = 2147483647;
-			// this._txtCommonNumber_3.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_3.Name = "_txtCommonNumber_3";
 			this._txtCommonNumber_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_3.TabIndex = 21;
@@ -845,7 +845,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.TabIndex = 23;
 			this._txtCommonTextBox_1.TabStop = false;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_9
 			// 
@@ -1052,8 +1052,8 @@ namespace Xtreme
 			this._txtCommonNumber_4.Enabled = false;
 			// this._txtCommonNumber_4.Format = "###########0.000";
 			this._txtCommonNumber_4.Location = new System.Drawing.Point(306, 244);
-			// this._txtCommonNumber_4.MaxValue = 2147483647;
-			// this._txtCommonNumber_4.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_4.Name = "_txtCommonNumber_4";
 			this._txtCommonNumber_4.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_4.TabIndex = 41;

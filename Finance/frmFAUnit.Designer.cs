@@ -59,14 +59,14 @@ namespace Xtreme
 			this.txtUnitNo.ForeColor = System.Drawing.Color.Black;
 			this.txtUnitNo.Location = new System.Drawing.Point(152, 51);
 			this.txtUnitNo.MaxLength = 4;
-			// this.txtUnitNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtUnitNo.Name = "txtUnitNo";
 			// this.txtUnitNo.ShowButton = true;
 			this.txtUnitNo.Size = new System.Drawing.Size(101, 19);
 			this.txtUnitNo.TabIndex = 0;
 			this.txtUnitNo.Text = "";
-			// this.this.txtUnitNo.Watermark = "";
-			// this.this.txtUnitNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtUnitNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtUnitNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtUnitNo_DropButtonClick);
 			// 
 			// lblUnitNo
 			// 
@@ -116,7 +116,7 @@ namespace Xtreme
 			this.txtLUnitName.TabIndex = 2;
 			this.txtLUnitName.Tag = "Salesman Name in English";
 			this.txtLUnitName.Text = "";
-			// this.this.txtLUnitName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtAUnitName
 			// 
@@ -124,13 +124,13 @@ namespace Xtreme
 			this.txtAUnitName.BackColor = System.Drawing.Color.White;
 			this.txtAUnitName.ForeColor = System.Drawing.Color.Black;
 			this.txtAUnitName.Location = new System.Drawing.Point(152, 114);
-			// this.txtAUnitName.mArabicEnabled = true;
+			// // = true;
 			this.txtAUnitName.MaxLength = 50;
 			this.txtAUnitName.Name = "txtAUnitName";
 			this.txtAUnitName.Size = new System.Drawing.Size(241, 19);
 			this.txtAUnitName.TabIndex = 3;
 			this.txtAUnitName.Text = "";
-			// this.this.txtAUnitName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblSymbol
 			// 
@@ -155,7 +155,7 @@ namespace Xtreme
 			this.txtSymbol.Size = new System.Drawing.Size(101, 19);
 			this.txtSymbol.TabIndex = 1;
 			this.txtSymbol.Text = "";
-			// this.this.txtSymbol.Watermark = "";
+			// this.// = "";
 			// 
 			// frmFAUnit
 			// 

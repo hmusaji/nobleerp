@@ -114,7 +114,7 @@ namespace Xtreme
 			this.Label1.Text = "Employee Code";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label1.Location = new System.Drawing.Point(4, 117);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(74, 14);
 			this.Label1.TabIndex = 0;
 			this.Label1.Visible = false;
@@ -126,7 +126,7 @@ namespace Xtreme
 			this.Label2.Text = "Log For";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label2.Location = new System.Drawing.Point(8, 43);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(37, 14);
 			this.Label2.TabIndex = 1;
 			// 
@@ -156,17 +156,17 @@ namespace Xtreme
 			// 
 			this._txtcommontextbox_0.AllowDrop = true;
 			this._txtcommontextbox_0.BackColor = System.Drawing.Color.White;
-			// this._txtcommontextbox_0.bolAllowDecimal = false;
+			// // = false;
 			this._txtcommontextbox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtcommontextbox_0.Location = new System.Drawing.Point(84, 114);
-			// this._txtcommontextbox_0.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtcommontextbox_0.Name = "_txtcommontextbox_0";
 			// this._txtcommontextbox_0.ShowButton = true;
 			this._txtcommontextbox_0.Size = new System.Drawing.Size(79, 19);
 			this._txtcommontextbox_0.TabIndex = 6;
 			this._txtcommontextbox_0.Text = "";
 			this._txtcommontextbox_0.Visible = false;
-			// this.this._txtcommontextbox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtcommontextbox_DropButtonClick);
+			// this.//this._txtcommontextbox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtcommontextbox_DropButtonClick);
 			// this._txtcommontextbox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// txtFromDate

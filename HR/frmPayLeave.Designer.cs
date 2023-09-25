@@ -98,8 +98,8 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdLeaveEarningDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdLeaveEarningDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdLeaveEarningDetails;
-		public AxC1SizerLib.AxC1Elastic frmLeaveEarnings;
-		public AxC1SizerLib.AxC1Tab tabLeaveDetails;
+		public AxC1Elastic frmLeaveEarnings;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabLeaveDetails;
 		public System.Windows.Forms.RadioButton[] optValidity = new System.Windows.Forms.RadioButton[3];
 		public System.Windows.Forms.TextBox[] txtCommonTextBox = new System.Windows.Forms.TextBox[2];
 		public System.Windows.Forms.Label[] txtDisplayLabel = new System.Windows.Forms.Label[2];
@@ -151,7 +151,7 @@ namespace Xtreme
 			this.Label11 = new System.Windows.Forms.Label();
 			this.cmbDeductPaidDays = new System.Windows.Forms.ComboBox();
 			this.cmbDeductAbsentDays = new System.Windows.Forms.ComboBox();
-			this.tabLeaveDetails = new AxC1SizerLib.AxC1Tab();
+			this.tabLeaveDetails = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.frmvalidityPeriod = new System.Windows.Forms.GroupBox();
 			this._optValidity_0 = new System.Windows.Forms.RadioButton();
 			this._optValidity_1 = new System.Windows.Forms.RadioButton();
@@ -160,7 +160,7 @@ namespace Xtreme
 			this.Label12 = new System.Windows.Forms.Label();
 			this.txtEligibilityDays = new System.Windows.Forms.TextBox();
 			this.Label13 = new System.Windows.Forms.Label();
-			this.frmLeaveEarnings = new AxC1SizerLib.AxC1Elastic();
+			this.frmLeaveEarnings = new AxC1Elastic();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -169,14 +169,14 @@ namespace Xtreme
 			this.Column_1_grdLeaveEarningDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			// //((System.ComponentModel.ISupportInitialize) this.frmLeaveEarnings).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabLeaveDetails).BeginInit();
-			this.Frame2.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.Frame3.SuspendLayout();
-			this.tabLeaveDetails.SuspendLayout();
-			this.frmvalidityPeriod.SuspendLayout();
-			this.frmLeaveEarnings.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdLeaveEarningDetails.SuspendLayout();
+			//this.Frame2.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.Frame3.SuspendLayout();
+			//this.tabLeaveDetails.SuspendLayout();
+			//this.frmvalidityPeriod.SuspendLayout();
+			//this.frmLeaveEarnings.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdLeaveEarningDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Frame2
@@ -203,8 +203,8 @@ namespace Xtreme
 			// this.txtLeaveDaysAfterSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtLeaveDaysAfterSOP.Format = "###########0.000";
 			this.txtLeaveDaysAfterSOP.Location = new System.Drawing.Point(134, 16);
-			// this.txtLeaveDaysAfterSOP.MaxValue = 2147483647;
-			// this.txtLeaveDaysAfterSOP.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtLeaveDaysAfterSOP.Name = "txtLeaveDaysAfterSOP";
 			this.txtLeaveDaysAfterSOP.Size = new System.Drawing.Size(95, 19);
 			this.txtLeaveDaysAfterSOP.TabIndex = 18;
@@ -217,7 +217,7 @@ namespace Xtreme
 			this.Label2.Text = "Working Days Per Month";
 			this.Label2.Location = new System.Drawing.Point(12, 39);
 			// this.Label2.mLabelId = 1093;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(118, 14);
 			this.Label2.TabIndex = 19;
 			// 
@@ -228,7 +228,7 @@ namespace Xtreme
 			this.Label3.Text = "Leave Days";
 			this.Label3.Location = new System.Drawing.Point(12, 18);
 			// this.Label3.mLabelId = 369;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(58, 14);
 			this.Label3.TabIndex = 20;
 			// 
@@ -238,8 +238,8 @@ namespace Xtreme
 			// this.txtWDPerMonthAfterSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtWDPerMonthAfterSOP.Format = "###########0.000";
 			this.txtWDPerMonthAfterSOP.Location = new System.Drawing.Point(134, 37);
-			// this.txtWDPerMonthAfterSOP.MaxValue = 2147483647;
-			// this.txtWDPerMonthAfterSOP.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtWDPerMonthAfterSOP.Name = "txtWDPerMonthAfterSOP";
 			this.txtWDPerMonthAfterSOP.Size = new System.Drawing.Size(95, 19);
 			this.txtWDPerMonthAfterSOP.TabIndex = 21;
@@ -269,8 +269,8 @@ namespace Xtreme
 			// this.txtLeaveDaysBeforeSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtLeaveDaysBeforeSOP.Format = "###########0.000";
 			this.txtLeaveDaysBeforeSOP.Location = new System.Drawing.Point(138, 16);
-			// this.txtLeaveDaysBeforeSOP.MaxValue = 2147483647;
-			// this.txtLeaveDaysBeforeSOP.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtLeaveDaysBeforeSOP.Name = "txtLeaveDaysBeforeSOP";
 			this.txtLeaveDaysBeforeSOP.Size = new System.Drawing.Size(95, 19);
 			this.txtLeaveDaysBeforeSOP.TabIndex = 13;
@@ -283,7 +283,7 @@ namespace Xtreme
 			this.Label8.Text = "Working Days Per Month";
 			this.Label8.Location = new System.Drawing.Point(8, 39);
 			// this.Label8.mLabelId = 1093;
-			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Name="Label8";
 			this.Label8.Size = new System.Drawing.Size(118, 14);
 			this.Label8.TabIndex = 14;
 			// 
@@ -294,7 +294,7 @@ namespace Xtreme
 			this.Label9.Text = "Leave Days";
 			this.Label9.Location = new System.Drawing.Point(8, 18);
 			// this.Label9.mLabelId = 369;
-			this.Label9.Name = "System.Windows.Forms.Label9";
+			this.Label9.Name="Label9";
 			this.Label9.Size = new System.Drawing.Size(58, 14);
 			this.Label9.TabIndex = 15;
 			// 
@@ -304,8 +304,8 @@ namespace Xtreme
 			// this.txtWDPerMonthBeforeSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtWDPerMonthBeforeSOP.Format = "###########0.000";
 			this.txtWDPerMonthBeforeSOP.Location = new System.Drawing.Point(138, 37);
-			// this.txtWDPerMonthBeforeSOP.MaxValue = 2147483647;
-			// this.txtWDPerMonthBeforeSOP.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtWDPerMonthBeforeSOP.Name = "txtWDPerMonthBeforeSOP";
 			this.txtWDPerMonthBeforeSOP.Size = new System.Drawing.Size(95, 19);
 			this.txtWDPerMonthBeforeSOP.TabIndex = 16;
@@ -394,8 +394,8 @@ namespace Xtreme
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_0.TabIndex = 3;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.Watermark = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_0
@@ -414,7 +414,7 @@ namespace Xtreme
 			this.Label7.Text = "Earning";
 			this.Label7.Location = new System.Drawing.Point(10, 25);
 			// this.Label7.mLabelId = 1995;
-			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Name="Label7";
 			this.Label7.Size = new System.Drawing.Size(36, 14);
 			this.Label7.TabIndex = 5;
 			// 
@@ -425,7 +425,7 @@ namespace Xtreme
 			this.Label10.Text = "Deduction";
 			this.Label10.Location = new System.Drawing.Point(10, 44);
 			// this.Label10.mLabelId = 1997;
-			this.Label10.Name = "System.Windows.Forms.Label10";
+			this.Label10.Name="Label10";
 			this.Label10.Size = new System.Drawing.Size(48, 14);
 			this.Label10.TabIndex = 6;
 			// 
@@ -441,8 +441,8 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 7;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.Watermark = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_1
@@ -510,14 +510,14 @@ namespace Xtreme
 			this.txtLeaveNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLeaveNo.Location = new System.Drawing.Point(149, 38);
 			this.txtLeaveNo.MaxLength = 15;
-			// this.txtLeaveNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtLeaveNo.Name = "txtLeaveNo";
 			// this.txtLeaveNo.ShowButton = true;
 			this.txtLeaveNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLeaveNo.TabIndex = 23;
 			this.txtLeaveNo.Text = "";
-			// this.this.txtLeaveNo.Watermark = "";
-			// this.this.txtLeaveNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLeaveNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLeaveNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLeaveNo_DropButtonClick);
 			// 
 			// lblLeaveName
 			// 
@@ -541,7 +541,7 @@ namespace Xtreme
 			this.txtLLeaveName.Size = new System.Drawing.Size(201, 19);
 			this.txtLLeaveName.TabIndex = 25;
 			this.txtLLeaveName.Text = "";
-			// this.this.txtLLeaveName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblALeaveName
 			// 
@@ -560,13 +560,13 @@ namespace Xtreme
 			this.txtALeaveName.BackColor = System.Drawing.Color.White;
 			this.txtALeaveName.ForeColor = System.Drawing.Color.Black;
 			this.txtALeaveName.Location = new System.Drawing.Point(149, 80);
-			// this.txtALeaveName.mArabicEnabled = true;
+			// // = true;
 			this.txtALeaveName.MaxLength = 50;
 			this.txtALeaveName.Name = "txtALeaveName";
 			this.txtALeaveName.Size = new System.Drawing.Size(201, 19);
 			this.txtALeaveName.TabIndex = 27;
 			this.txtALeaveName.Text = "";
-			// this.this.txtALeaveName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 
@@ -597,7 +597,7 @@ namespace Xtreme
 			this.Label6.Text = "Leave Switch Over Period";
 			this.Label6.Location = new System.Drawing.Point(11, 143);
 			// this.Label6.mLabelId = 1128;
-			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Name="Label6";
 			this.Label6.Size = new System.Drawing.Size(127, 14);
 			this.Label6.TabIndex = 30;
 			// 
@@ -608,7 +608,7 @@ namespace Xtreme
 			this.Label1.Text = "Leave Type";
 			this.Label1.Location = new System.Drawing.Point(11, 104);
 			// this.Label1.mLabelId = 1127;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(57, 14);
 			this.Label1.TabIndex = 31;
 			// 
@@ -619,7 +619,7 @@ namespace Xtreme
 			this.Label4.Text = "Deduct Paid Days";
 			this.Label4.Location = new System.Drawing.Point(8, 243);
 			// this.Label4.mLabelId = 1089;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(85, 14);
 			this.Label4.TabIndex = 32;
 			// 
@@ -638,7 +638,7 @@ namespace Xtreme
 			this.Label5.Text = "Deduct Unpaid Days";
 			this.Label5.Location = new System.Drawing.Point(258, 241);
 			// this.Label5.mLabelId = 1095;
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(98, 14);
 			this.Label5.TabIndex = 34;
 			// 
@@ -647,8 +647,8 @@ namespace Xtreme
 			this.txtLeaveSwitchOverPeriod.AllowDrop = true;
 			// this.txtLeaveSwitchOverPeriod.DisplayFormat = "####0;;0";
 			this.txtLeaveSwitchOverPeriod.Location = new System.Drawing.Point(149, 140);
-			// this.txtLeaveSwitchOverPeriod.MaxValue = 2147483647;
-			// this.txtLeaveSwitchOverPeriod.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtLeaveSwitchOverPeriod.Name = "txtLeaveSwitchOverPeriod";
 			this.txtLeaveSwitchOverPeriod.Size = new System.Drawing.Size(75, 21);
 			this.txtLeaveSwitchOverPeriod.TabIndex = 35;
@@ -660,7 +660,7 @@ namespace Xtreme
 			this.Label11.Text = "Deduct Absent Days";
 			this.Label11.Location = new System.Drawing.Point(8, 266);
 			// this.Label11.mLabelId = 2174;
-			this.Label11.Name = "System.Windows.Forms.Label11";
+			this.Label11.Name="Label11";
 			this.Label11.Size = new System.Drawing.Size(100, 14);
 			this.Label11.TabIndex = 36;
 			// 
@@ -789,7 +789,7 @@ namespace Xtreme
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Month";
 			this.Label12.Location = new System.Drawing.Point(54, 41);
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(29, 14);
 			this.Label12.TabIndex = 45;
 			// 
@@ -809,7 +809,7 @@ namespace Xtreme
 			this.Label13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label13.Text = "Eligbility Days";
 			this.Label13.Location = new System.Drawing.Point(240, 26);
-			this.Label13.Name = "System.Windows.Forms.Label13";
+			this.Label13.Name="Label13";
 			this.Label13.Size = new System.Drawing.Size(65, 14);
 			this.Label13.TabIndex = 47;
 			// 

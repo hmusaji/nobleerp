@@ -102,13 +102,13 @@ namespace Xtreme
 			this.txtBranchNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBranchNo.Location = new System.Drawing.Point(134, 40);
 			this.txtBranchNo.MaxLength = 15;
-			// this.txtBranchNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBranchNo.Name = "txtBranchNo";
 			// this.txtBranchNo.ShowButton = true;
 			this.txtBranchNo.Size = new System.Drawing.Size(101, 19);
 			this.txtBranchNo.TabIndex = 1;
 			this.txtBranchNo.Text = "";
-			// this.this.txtBranchNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBranchNo_DropButtonClick);
+			// this.//this.txtBranchNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBranchNo_DropButtonClick);
 			// 
 			// lblGroupNo
 			// 
@@ -172,7 +172,7 @@ namespace Xtreme
 			this.txtABranchName.BackColor = System.Drawing.Color.White;
 			this.txtABranchName.ForeColor = System.Drawing.Color.Black;
 			this.txtABranchName.Location = new System.Drawing.Point(134, 82);
-			// this.txtABranchName.mArabicEnabled = true;
+			// // = true;
 			this.txtABranchName.MaxLength = 50;
 			this.txtABranchName.Name = "txtABranchName";
 			this.txtABranchName.Size = new System.Drawing.Size(201, 19);
@@ -203,7 +203,7 @@ namespace Xtreme
 			this.txtParentBankNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentBankNo.TabIndex = 9;
 			this.txtParentBankNo.Text = "";
-			// this.this.txtParentBankNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentBankNo_DropButtonClick);
+			// this.//this.txtParentBankNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentBankNo_DropButtonClick);
 			// this.txtParentBankNo.Leave += new System.EventHandler(this.txtParentBankNo_Leave);
 			// 
 			// txtParentBranchName

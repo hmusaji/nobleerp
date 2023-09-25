@@ -78,8 +78,8 @@ namespace Xtreme
 			this.cmbCommon = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbCommon.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// lblTransactionDate
@@ -141,7 +141,7 @@ namespace Xtreme
 			this.txtComments.Size = new System.Drawing.Size(397, 19);
 			this.txtComments.TabIndex = 1;
 			this.txtComments.Text = "";
-			// this.this.txtComments.Watermark = "";
+			// this.// = "";
 			// 
 			// txtVoucherNo
 			// 
@@ -156,7 +156,7 @@ namespace Xtreme
 			this.txtVoucherNo.Size = new System.Drawing.Size(97, 19);
 			this.txtVoucherNo.TabIndex = 6;
 			this.txtVoucherNo.Text = "";
-			// this.this.txtVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// grdVoucherDetails
 			// 

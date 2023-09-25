@@ -76,7 +76,7 @@ namespace Xtreme
 			this.txtVisaTypeNo.ForeColor = System.Drawing.Color.Black;
 			this.txtVisaTypeNo.Location = new System.Drawing.Point(160, 50);
 			this.txtVisaTypeNo.MaxLength = 15;
-			// this.txtVisaTypeNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtVisaTypeNo.Name = "txtVisaTypeNo";
 			this.txtVisaTypeNo.Size = new System.Drawing.Size(101, 19);
 			this.txtVisaTypeNo.TabIndex = 0;
@@ -122,7 +122,7 @@ namespace Xtreme
 			this.txtAVisaTypeName.BackColor = System.Drawing.Color.White;
 			this.txtAVisaTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtAVisaTypeName.Location = new System.Drawing.Point(160, 92);
-			// this.txtAVisaTypeName.mArabicEnabled = true;
+			// // = true;
 			this.txtAVisaTypeName.MaxLength = 100;
 			this.txtAVisaTypeName.Name = "txtAVisaTypeName";
 			this.txtAVisaTypeName.Size = new System.Drawing.Size(201, 19);

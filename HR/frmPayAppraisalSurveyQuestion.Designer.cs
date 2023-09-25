@@ -129,13 +129,13 @@ namespace Xtreme
 			this.txtQuestionCode.ForeColor = System.Drawing.Color.Black;
 			this.txtQuestionCode.Location = new System.Drawing.Point(130, 63);
 			this.txtQuestionCode.MaxLength = 15;
-			// this.txtQuestionCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtQuestionCode.Name = "txtQuestionCode";
 			// this.txtQuestionCode.ShowButton = true;
 			this.txtQuestionCode.Size = new System.Drawing.Size(134, 19);
 			this.txtQuestionCode.TabIndex = 0;
 			this.txtQuestionCode.Text = "";
-			// this.this.txtQuestionCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtQuestionCode_DropButtonClick);
+			// this.//this.txtQuestionCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtQuestionCode_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -174,7 +174,7 @@ namespace Xtreme
 			this.Label1.Text = "Question Type";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(6, 90);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(70, 14);
 			this.Label1.TabIndex = 7;
 			// 
@@ -197,13 +197,13 @@ namespace Xtreme
 			this.txtCategoryCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCategoryCode.Location = new System.Drawing.Point(130, 111);
 			this.txtCategoryCode.MaxLength = 15;
-			// this.txtCategoryCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCategoryCode.Name = "txtCategoryCode";
 			// this.txtCategoryCode.ShowButton = true;
 			this.txtCategoryCode.Size = new System.Drawing.Size(137, 19);
 			this.txtCategoryCode.TabIndex = 2;
 			this.txtCategoryCode.Text = "";
-			// this.this.txtCategoryCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCategoryCode_DropButtonClick);
+			// this.//this.txtCategoryCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCategoryCode_DropButtonClick);
 			// this.txtCategoryCode.Leave += new System.EventHandler(this.txtCategoryCode_Leave);
 			// 
 			// System.Windows.Forms.Label2
@@ -213,7 +213,7 @@ namespace Xtreme
 			this.Label2.Text = "Category Code";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(6, 113);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(72, 14);
 			this.Label2.TabIndex = 9;
 			// 

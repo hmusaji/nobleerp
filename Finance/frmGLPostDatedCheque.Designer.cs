@@ -94,9 +94,9 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
 			this.SuspendLayout();
 			//this.commandButtonHelper1 = new UpgradeHelpers.Gui.CommandButtonHelper(this.components);
 			// 
@@ -213,10 +213,10 @@ namespace Xtreme
 			// 
 			this.txtChequeNo.AllowDrop = true;
 			this.txtChequeNo.BackColor = System.Drawing.Color.White;
-			// this.txtChequeNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtChequeNo.ForeColor = System.Drawing.Color.Black;
 			this.txtChequeNo.Location = new System.Drawing.Point(89, 102);
-			// this.txtChequeNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtChequeNo.Name = "txtChequeNo";
 			this.txtChequeNo.Size = new System.Drawing.Size(101, 19);
 			this.txtChequeNo.TabIndex = 2;
@@ -256,7 +256,7 @@ namespace Xtreme
 			this.txtVoucherType.Size = new System.Drawing.Size(101, 19);
 			this.txtVoucherType.TabIndex = 1;
 			this.txtVoucherType.Text = "";
-			// this.this.txtVoucherType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtVoucherType_DropButtonClick);
+			// this.//this.txtVoucherType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtVoucherType_DropButtonClick);
 			// this.txtVoucherType.Leave += new System.EventHandler(this.txtVoucherType_Leave);
 			// 
 			// txtVoucherName

@@ -87,12 +87,12 @@ namespace Xtreme
 			this.txtSmanNo.ForeColor = System.Drawing.Color.Black;
 			this.txtSmanNo.Location = new System.Drawing.Point(135, 36);
 			this.txtSmanNo.MaxLength = 4;
-			// this.txtSmanNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtSmanNo.Name = "txtSmanNo";
 			this.txtSmanNo.Size = new System.Drawing.Size(101, 19);
 			this.txtSmanNo.TabIndex = 1;
 			this.txtSmanNo.Text = "";
-			// this.this.txtSmanNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblLSmanName
 			// 
@@ -128,7 +128,7 @@ namespace Xtreme
 			this.txtLSmanName.TabIndex = 4;
 			this.txtLSmanName.Tag = "Salesman Name in English";
 			this.txtLSmanName.Text = "";
-			// this.this.txtLSmanName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtASmanName
 			// 
@@ -136,13 +136,13 @@ namespace Xtreme
 			this.txtASmanName.BackColor = System.Drawing.Color.White;
 			this.txtASmanName.ForeColor = System.Drawing.Color.Black;
 			this.txtASmanName.Location = new System.Drawing.Point(135, 92);
-			// this.txtASmanName.mArabicEnabled = true;
+			// // = true;
 			this.txtASmanName.MaxLength = 50;
 			this.txtASmanName.Name = "txtASmanName";
 			this.txtASmanName.Size = new System.Drawing.Size(290, 19);
 			this.txtASmanName.TabIndex = 5;
 			this.txtASmanName.Text = "";
-			// this.this.txtASmanName.Watermark = "";
+			// this.// = "";
 			// 
 			// frmREExpenseType
 			// 

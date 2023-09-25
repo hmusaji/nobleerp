@@ -51,7 +51,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdActivityDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdActivityDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdActivityDetails;
-		private AxXtremeSuiteControls.AxTabControlPage _fraLedgerInformation_3;
+		private Syncfusion.Windows.Forms.Tools.TabPageAdv _fraLedgerInformation_3;
 		private System.Windows.Forms.Label _lblCommon_40;
 		public System.Windows.Forms.TextBox txtWIPCd;
 		public System.Windows.Forms.Label txtBillingCodeName;
@@ -61,7 +61,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_4;
 		public System.Windows.Forms.Label txtReceivableCodeName;
 		public System.Windows.Forms.TextBox txtBillingCd;
-		private AxXtremeSuiteControls.AxTabControlPage _fraLedgerInformation_2;
+		private Syncfusion.Windows.Forms.Tools.TabPageAdv _fraLedgerInformation_2;
 		public System.Windows.Forms.TextBox txtWeb;
 		public System.Windows.Forms.TextBox txtEmailAddress;
 		public System.Windows.Forms.TextBox txtFax;
@@ -90,7 +90,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_34;
 		private System.Windows.Forms.Label _lblCommon_35;
 		private System.Windows.Forms.Label _lblCommon_39;
-		private AxXtremeSuiteControls.AxTabControlPage _fraLedgerInformation_1;
+		private Syncfusion.Windows.Forms.Tools.TabPageAdv _fraLedgerInformation_1;
 		public System.Windows.Forms.TextBox txtComment;
 		private System.Windows.Forms.Label _lblCommon_9;
 		private System.Windows.Forms.Label _lblCommon_24;
@@ -112,8 +112,8 @@ namespace Xtreme
 		public System.Windows.Forms.Label txtParentProjectName;
 		public System.Windows.Forms.Label txtProjectTypeName;
 		public System.Windows.Forms.Label Label2;
-		private AxXtremeSuiteControls.AxTabControlPage _fraLedgerInformation_0;
-		public AxXtremeSuiteControls.AxTabControl tabMaster;
+		private Syncfusion.Windows.Forms.Tools.TabPageAdv _fraLedgerInformation_0;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		public System.Windows.Forms.TextBox txtLProjectName;
 		public System.Windows.Forms.TextBox txtAprojectName;
 		private System.Windows.Forms.Label _lblCommon_0;
@@ -122,7 +122,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_2;
 		private System.Windows.Forms.Label _lblCommon_3;
 		public System.Windows.Forms.Label Line1;
-		public AxXtremeSuiteControls.AxTabControlPage[] fraLedgerInformation = new AxXtremeSuiteControls.AxTabControlPage[4];
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv[] fraLedgerInformation = new Syncfusion.Windows.Forms.Tools.TabPageAdv[4];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[43];
 		public System.Windows.Forms.Label[] txt = new System.Windows.Forms.Label[3];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -134,15 +134,15 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGLProjects));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.tabMaster = new AxXtremeSuiteControls.AxTabControl();
-			this._fraLedgerInformation_3 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this._fraLedgerInformation_3 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.cmbPriceList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbPriceList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbPriceList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.grdActivityDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdActivityDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdActivityDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this._fraLedgerInformation_2 = new AxXtremeSuiteControls.AxTabControlPage();
+			this._fraLedgerInformation_2 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this._lblCommon_40 = new System.Windows.Forms.Label();
 			this.txtWIPCd = new System.Windows.Forms.TextBox();
 			this.txtBillingCodeName = new System.Windows.Forms.Label();
@@ -152,7 +152,7 @@ namespace Xtreme
 			this._lblCommon_4 = new System.Windows.Forms.Label();
 			this.txtReceivableCodeName = new System.Windows.Forms.Label();
 			this.txtBillingCd = new System.Windows.Forms.TextBox();
-			this._fraLedgerInformation_1 = new AxXtremeSuiteControls.AxTabControlPage();
+			this._fraLedgerInformation_1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.txtWeb = new System.Windows.Forms.TextBox();
 			this.txtEmailAddress = new System.Windows.Forms.TextBox();
 			this.txtFax = new System.Windows.Forms.TextBox();
@@ -181,7 +181,7 @@ namespace Xtreme
 			this._lblCommon_34 = new System.Windows.Forms.Label();
 			this._lblCommon_35 = new System.Windows.Forms.Label();
 			this._lblCommon_39 = new System.Windows.Forms.Label();
-			this._fraLedgerInformation_0 = new AxXtremeSuiteControls.AxTabControlPage();
+			this._fraLedgerInformation_0 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.fraProjectCompletedDetails = new System.Windows.Forms.GroupBox();
 			this._lblCommon_9 = new System.Windows.Forms.Label();
@@ -216,14 +216,14 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._fraLedgerInformation_1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._fraLedgerInformation_0).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
-			this.tabMaster.SuspendLayout();
-			this._fraLedgerInformation_3.SuspendLayout();
-			this.cmbPriceList.SuspendLayout();
-			this.grdActivityDetails.SuspendLayout();
-			this._fraLedgerInformation_2.SuspendLayout();
-			this._fraLedgerInformation_1.SuspendLayout();
-			this._fraLedgerInformation_0.SuspendLayout();
-			this.fraProjectCompletedDetails.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._fraLedgerInformation_3.SuspendLayout();
+			//this.cmbPriceList.SuspendLayout();
+			//this.grdActivityDetails.SuspendLayout();
+			//this._fraLedgerInformation_2.SuspendLayout();
+			//this._fraLedgerInformation_1.SuspendLayout();
+			//this._fraLedgerInformation_0.SuspendLayout();
+			//this.fraProjectCompletedDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabMaster
@@ -341,7 +341,7 @@ namespace Xtreme
 			this.txtWIPCd.Size = new System.Drawing.Size(101, 19);
 			this.txtWIPCd.TabIndex = 62;
 			this.txtWIPCd.Text = "";
-			// this.this.txtWIPCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtWIPCd_DropButtonClick);
+			// this.//this.txtWIPCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtWIPCd_DropButtonClick);
 			// this.txtWIPCd.Leave += new System.EventHandler(this.txtWIPCd_Leave);
 			// 
 			// txtBillingCodeName
@@ -381,7 +381,7 @@ namespace Xtreme
 			this.txtReceivableCd.Size = new System.Drawing.Size(101, 19);
 			this.txtReceivableCd.TabIndex = 66;
 			this.txtReceivableCd.Text = "";
-			// this.this.txtReceivableCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtReceivableCd_DropButtonClick);
+			// this.//this.txtReceivableCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtReceivableCd_DropButtonClick);
 			// this.txtReceivableCd.Leave += new System.EventHandler(this.txtReceivableCd_Leave);
 			// 
 			// _lblCommon_4
@@ -414,7 +414,7 @@ namespace Xtreme
 			this.txtBillingCd.Size = new System.Drawing.Size(101, 19);
 			this.txtBillingCd.TabIndex = 69;
 			this.txtBillingCd.Text = "";
-			// this.this.txtBillingCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBillingCd_DropButtonClick);
+			// this.//this.txtBillingCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBillingCd_DropButtonClick);
 			// this.txtBillingCd.Leave += new System.EventHandler(this.txtBillingCd_Leave);
 			// 
 			// _fraLedgerInformation_1
@@ -525,11 +525,11 @@ namespace Xtreme
 			// 
 			this.txtAAdd3.AllowDrop = true;
 			this.txtAAdd3.BackColor = System.Drawing.Color.White;
-			// this.txtAAdd3.bolAllowDecimal = false;
+			// // = false;
 			this.txtAAdd3.ForeColor = System.Drawing.Color.Black;
 			this.txtAAdd3.Location = new System.Drawing.Point(126, 129);
-			// this.txtAAdd3.mArabicEnabled = true;
-			// this.txtAAdd3.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = true;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAAdd3.Name = "txtAAdd3";
 			this.txtAAdd3.Size = new System.Drawing.Size(173, 19);
 			this.txtAAdd3.TabIndex = 37;
@@ -539,11 +539,11 @@ namespace Xtreme
 			// 
 			this.txtAAdd2.AllowDrop = true;
 			this.txtAAdd2.BackColor = System.Drawing.Color.White;
-			// this.txtAAdd2.bolAllowDecimal = false;
+			// // = false;
 			this.txtAAdd2.ForeColor = System.Drawing.Color.Black;
 			this.txtAAdd2.Location = new System.Drawing.Point(126, 106);
-			// this.txtAAdd2.mArabicEnabled = true;
-			// this.txtAAdd2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = true;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAAdd2.Name = "txtAAdd2";
 			this.txtAAdd2.Size = new System.Drawing.Size(173, 19);
 			this.txtAAdd2.TabIndex = 38;
@@ -553,11 +553,11 @@ namespace Xtreme
 			// 
 			this.txtAAdd1.AllowDrop = true;
 			this.txtAAdd1.BackColor = System.Drawing.Color.White;
-			// this.txtAAdd1.bolAllowDecimal = false;
+			// // = false;
 			this.txtAAdd1.ForeColor = System.Drawing.Color.Black;
 			this.txtAAdd1.Location = new System.Drawing.Point(126, 81);
-			// this.txtAAdd1.mArabicEnabled = true;
-			// this.txtAAdd1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = true;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAAdd1.Name = "txtAAdd1";
 			this.txtAAdd1.Size = new System.Drawing.Size(173, 19);
 			this.txtAAdd1.TabIndex = 39;
@@ -567,10 +567,10 @@ namespace Xtreme
 			// 
 			this.txtLAdd3.AllowDrop = true;
 			this.txtLAdd3.BackColor = System.Drawing.Color.White;
-			// this.txtLAdd3.bolAllowDecimal = false;
+			// // = false;
 			this.txtLAdd3.ForeColor = System.Drawing.Color.Black;
 			this.txtLAdd3.Location = new System.Drawing.Point(126, 58);
-			// this.txtLAdd3.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtLAdd3.Name = "txtLAdd3";
 			this.txtLAdd3.Size = new System.Drawing.Size(173, 19);
 			this.txtLAdd3.TabIndex = 40;
@@ -912,7 +912,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Start Date";
 			this.Label1.Location = new System.Drawing.Point(4, 63);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(50, 13);
 			this.Label1.TabIndex = 21;
 			// 
@@ -922,8 +922,8 @@ namespace Xtreme
 			// this.txtEstimatedIncome.DisplayFormat = "########0.000###;;0.000;0.000";
 			// this.txtEstimatedIncome.Format = "###########0.000";
 			this.txtEstimatedIncome.Location = new System.Drawing.Point(297, 81);
-			// this.txtEstimatedIncome.MaxValue = 2147483647;
-			// this.txtEstimatedIncome.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtEstimatedIncome.Name = "txtEstimatedIncome";
 			this.txtEstimatedIncome.Size = new System.Drawing.Size(101, 19);
 			this.txtEstimatedIncome.TabIndex = 22;
@@ -942,7 +942,7 @@ namespace Xtreme
 			this.txtParentProjectNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentProjectNo.TabIndex = 23;
 			this.txtParentProjectNo.Text = "";
-			// this.this.txtParentProjectNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentProjectNo_DropButtonClick);
+			// this.//this.txtParentProjectNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentProjectNo_DropButtonClick);
 			// this.txtParentProjectNo.Leave += new System.EventHandler(this.txtParentProjectNo_Leave);
 			// 
 			// txtExtimatedExp
@@ -952,8 +952,8 @@ namespace Xtreme
 			// this.txtExtimatedExp.DisplayFormat = "########0.000###;;0.000;0.000";
 			// this.txtExtimatedExp.Format = "###########0.000";
 			this.txtExtimatedExp.Location = new System.Drawing.Point(94, 81);
-			// this.txtExtimatedExp.MaxValue = 2147483647;
-			// this.txtExtimatedExp.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtExtimatedExp.Name = "txtExtimatedExp";
 			this.txtExtimatedExp.Size = new System.Drawing.Size(101, 19);
 			this.txtExtimatedExp.TabIndex = 24;
@@ -971,7 +971,7 @@ namespace Xtreme
 			this.txtProjectType.Size = new System.Drawing.Size(101, 19);
 			this.txtProjectType.TabIndex = 25;
 			this.txtProjectType.Text = "";
-			// this.this.txtProjectType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtProjectType_DropButtonClick);
+			// this.//this.txtProjectType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtProjectType_DropButtonClick);
 			// this.txtProjectType.Leave += new System.EventHandler(this.txtProjectType_Leave);
 			// 
 			// txtEndDate
@@ -1022,7 +1022,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "End Date";
 			this.Label2.Location = new System.Drawing.Point(234, 62);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(44, 13);
 			this.Label2.TabIndex = 30;
 			// 
@@ -1044,7 +1044,7 @@ namespace Xtreme
 			this.txtAprojectName.BackColor = System.Drawing.Color.White;
 			this.txtAprojectName.ForeColor = System.Drawing.Color.Black;
 			this.txtAprojectName.Location = new System.Drawing.Point(374, 65);
-			// this.txtAprojectName.mArabicEnabled = true;
+			// // = true;
 			this.txtAprojectName.MaxLength = 50;
 			this.txtAprojectName.Name = "txtAprojectName";
 			this.txtAprojectName.Size = new System.Drawing.Size(201, 19);
@@ -1065,17 +1065,17 @@ namespace Xtreme
 			// 
 			this.txtProjectNo.AllowDrop = true;
 			this.txtProjectNo.BackColor = System.Drawing.Color.White;
-			// this.txtProjectNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtProjectNo.ForeColor = System.Drawing.Color.Black;
 			this.txtProjectNo.Location = new System.Drawing.Point(86, 44);
 			this.txtProjectNo.MaxLength = 15;
-			// this.txtProjectNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtProjectNo.Name = "txtProjectNo";
 			// this.txtProjectNo.ShowButton = true;
 			this.txtProjectNo.Size = new System.Drawing.Size(101, 19);
 			this.txtProjectNo.TabIndex = 0;
 			this.txtProjectNo.Text = "";
-			// this.this.txtProjectNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtProjectNo_DropButtonClick);
+			// this.//this.txtProjectNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtProjectNo_DropButtonClick);
 			// 
 			// _lblCommon_1
 			// 
@@ -1201,7 +1201,7 @@ namespace Xtreme
 		}
 		void InitializefraLedgerInformation()
 		{
-			this.fraLedgerInformation = new AxXtremeSuiteControls.AxTabControlPage[4];
+			this.fraLedgerInformation = new Syncfusion.Windows.Forms.Tools.TabPageAdv[4];
 			this.fraLedgerInformation[3] = _fraLedgerInformation_3;
 			this.fraLedgerInformation[2] = _fraLedgerInformation_2;
 			this.fraLedgerInformation[1] = _fraLedgerInformation_1;

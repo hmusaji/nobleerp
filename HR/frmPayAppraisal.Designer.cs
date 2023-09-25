@@ -115,9 +115,9 @@ namespace Xtreme
 			this.grdSurveyDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdSurveyDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdSurveyDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.frmRatee.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdSurveyDetails.SuspendLayout();
+			//this.frmRatee.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdSurveyDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmRatee
@@ -170,17 +170,17 @@ namespace Xtreme
 			// 
 			this.txtRateeCode.AllowDrop = true;
 			this.txtRateeCode.BackColor = System.Drawing.Color.White;
-			// this.txtRateeCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtRateeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtRateeCode.Location = new System.Drawing.Point(105, 21);
-			// this.txtRateeCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtRateeCode.Name = "txtRateeCode";
 			// this.txtRateeCode.ShowButton = true;
 			this.txtRateeCode.Size = new System.Drawing.Size(118, 19);
 			this.txtRateeCode.TabIndex = 12;
 			this.txtRateeCode.Text = "";
-			// this.this.txtRateeCode.Watermark = "";
-			// this.this.txtRateeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtRateeCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtRateeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtRateeCode_DropButtonClick);
 			// this.txtRateeCode.Leave += new System.EventHandler(this.txtRateeCode_Leave);
 			// 
 			// System.Windows.Forms.Label3
@@ -189,7 +189,7 @@ namespace Xtreme
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Ratee Code";
 			this.Label3.Location = new System.Drawing.Point(9, 21);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(56, 14);
 			this.Label3.TabIndex = 9;
 			// 
@@ -199,7 +199,7 @@ namespace Xtreme
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "Department";
 			this.Label4.Location = new System.Drawing.Point(9, 44);
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(55, 14);
 			this.Label4.TabIndex = 10;
 			// 
@@ -209,7 +209,7 @@ namespace Xtreme
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "Designation";
 			this.Label5.Location = new System.Drawing.Point(9, 65);
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(56, 14);
 			this.Label5.TabIndex = 11;
 			// 
@@ -249,7 +249,7 @@ namespace Xtreme
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label6.Text = "Requested By";
 			this.Label6.Location = new System.Drawing.Point(9, 87);
-			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Name="Label6";
 			this.Label6.Size = new System.Drawing.Size(68, 14);
 			this.Label6.TabIndex = 18;
 			// 
@@ -267,17 +267,17 @@ namespace Xtreme
 			// 
 			this.txtRequestedBy.AllowDrop = true;
 			this.txtRequestedBy.BackColor = System.Drawing.Color.White;
-			// this.txtRequestedBy.bolAllowDecimal = false;
+			// // = false;
 			this.txtRequestedBy.ForeColor = System.Drawing.Color.Black;
 			this.txtRequestedBy.Location = new System.Drawing.Point(105, 84);
-			// this.txtRequestedBy.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtRequestedBy.Name = "txtRequestedBy";
 			// this.txtRequestedBy.ShowButton = true;
 			this.txtRequestedBy.Size = new System.Drawing.Size(118, 19);
 			this.txtRequestedBy.TabIndex = 25;
 			this.txtRequestedBy.Text = "";
-			// this.this.txtRequestedBy.Watermark = "";
-			// this.this.txtRequestedBy.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtRequestedBy_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtRequestedBy.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtRequestedBy_DropButtonClick);
 			// this.txtRequestedBy.Leave += new System.EventHandler(this.txtRequestedBy_Leave);
 			// 
 			// txtEndDate
@@ -288,7 +288,7 @@ namespace Xtreme
 			// this.txtEndDate.MaxDate = 2958465;
 			// this.txtEndDate.MinDate = 32874;
 			this.txtEndDate.Name = "txtEndDate";
-			this.txtEndDate.PromptChar = "_";
+			// = "_";
 			this.txtEndDate.Size = new System.Drawing.Size(116, 19);
 			this.txtEndDate.TabIndex = 7;
 			// this.txtEndDate.Text = "05/08/2010";
@@ -302,7 +302,7 @@ namespace Xtreme
 			// this.txtStartDate.MaxDate = 2958465;
 			// this.txtStartDate.MinDate = 32874;
 			this.txtStartDate.Name = "txtStartDate";
-			this.txtStartDate.PromptChar = "_";
+			//// = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(116, 19);
 			this.txtStartDate.TabIndex = 6;
 			// this.txtStartDate.Text = "05/08/2010";
@@ -316,13 +316,13 @@ namespace Xtreme
 			this.txtAppraisal.ForeColor = System.Drawing.Color.Black;
 			this.txtAppraisal.Location = new System.Drawing.Point(109, 57);
 			this.txtAppraisal.MaxLength = 15;
-			// this.txtAppraisal.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtAppraisal.Name = "txtAppraisal";
 			// this.txtAppraisal.ShowButton = true;
 			this.txtAppraisal.Size = new System.Drawing.Size(116, 19);
 			this.txtAppraisal.TabIndex = 0;
 			this.txtAppraisal.Text = "";
-			// this.this.txtAppraisal.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCategoryNo
 			// 
@@ -364,7 +364,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "End Date";
 			this.Label1.Location = new System.Drawing.Point(6, 107);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(43, 14);
 			this.Label1.TabIndex = 4;
 			// 
@@ -374,7 +374,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Start Date";
 			this.Label2.Location = new System.Drawing.Point(6, 83);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(48, 14);
 			this.Label2.TabIndex = 5;
 			// 
@@ -384,7 +384,7 @@ namespace Xtreme
 			this.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label7.Text = "Survey Template";
 			this.Label7.Location = new System.Drawing.Point(9, 252);
-			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Name="Label7";
 			this.Label7.Size = new System.Drawing.Size(81, 14);
 			this.Label7.TabIndex = 20;
 			// 
@@ -392,17 +392,17 @@ namespace Xtreme
 			// 
 			this.txtSuveyTemplate.AllowDrop = true;
 			this.txtSuveyTemplate.BackColor = System.Drawing.Color.White;
-			// this.txtSuveyTemplate.bolAllowDecimal = false;
+			// // = false;
 			this.txtSuveyTemplate.ForeColor = System.Drawing.Color.Black;
 			this.txtSuveyTemplate.Location = new System.Drawing.Point(108, 249);
-			// this.txtSuveyTemplate.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtSuveyTemplate.Name = "txtSuveyTemplate";
 			// this.txtSuveyTemplate.ShowButton = true;
 			this.txtSuveyTemplate.Size = new System.Drawing.Size(118, 19);
 			this.txtSuveyTemplate.TabIndex = 21;
 			// this.txtSuveyTemplate.Text = "";
-			// this.this.txtSuveyTemplate.Watermark = "";
-			// this.this.txtSuveyTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSuveyTemplate_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtSuveyTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSuveyTemplate_DropButtonClick);
 			// this.txtSuveyTemplate.Leave += new System.EventHandler(this.txtSuveyTemplate_Leave);
 			// 
 			// txtDlBLSurveyTemplateName

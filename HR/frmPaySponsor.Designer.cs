@@ -188,7 +188,7 @@ namespace Xtreme
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(304, 19);
 			this._txtCommonTextBox_4.TabIndex = 28;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// System.Windows.Forms.Label12
@@ -198,7 +198,7 @@ namespace Xtreme
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(7, 387);
 			// this.Label12.mLabelId = 1851;
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(50, 14);
 			this.Label12.TabIndex = 29;
 			// 
@@ -215,7 +215,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 9;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_2
@@ -264,7 +264,7 @@ namespace Xtreme
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_2.TabIndex = 11;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_3
@@ -280,7 +280,7 @@ namespace Xtreme
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_3.TabIndex = 10;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_0
@@ -295,7 +295,7 @@ namespace Xtreme
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_0.TabIndex = 0;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_0
@@ -347,7 +347,7 @@ namespace Xtreme
 			this._txtCommonTextBox_6.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_6.TabIndex = 1;
 			this._txtCommonTextBox_6.Text = "";
-			// this.this._txtCommonTextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_6.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_3
@@ -427,7 +427,7 @@ namespace Xtreme
 			this._txtCommonTextBox_7.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_7.TabIndex = 2;
 			this._txtCommonTextBox_7.Text = "";
-			// this.this._txtCommonTextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_7.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_8
@@ -441,7 +441,7 @@ namespace Xtreme
 			this._txtCommonTextBox_8.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_8.TabIndex = 3;
 			this._txtCommonTextBox_8.Text = "";
-			// this.this._txtCommonTextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_8.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_9
@@ -455,7 +455,7 @@ namespace Xtreme
 			this._txtCommonTextBox_9.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_9.TabIndex = 4;
 			this._txtCommonTextBox_9.Text = "";
-			// this.this._txtCommonTextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_9.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_10
@@ -469,7 +469,7 @@ namespace Xtreme
 			this._txtCommonTextBox_10.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_10.TabIndex = 5;
 			this._txtCommonTextBox_10.Text = "";
-			// this.this._txtCommonTextBox_10.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_10.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_10.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_11
@@ -483,7 +483,7 @@ namespace Xtreme
 			this._txtCommonTextBox_11.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_11.TabIndex = 6;
 			this._txtCommonTextBox_11.Text = "";
-			// this.this._txtCommonTextBox_11.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_11.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_11.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_12
@@ -497,7 +497,7 @@ namespace Xtreme
 			this._txtCommonTextBox_12.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_12.TabIndex = 7;
 			this._txtCommonTextBox_12.Text = "";
-			// this.this._txtCommonTextBox_12.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_12.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_12.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_13
@@ -511,7 +511,7 @@ namespace Xtreme
 			this._txtCommonTextBox_13.Size = new System.Drawing.Size(94, 19);
 			this._txtCommonTextBox_13.TabIndex = 8;
 			this._txtCommonTextBox_13.Text = "";
-			// this.this._txtCommonTextBox_13.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_13.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_13.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_1
@@ -536,7 +536,7 @@ namespace Xtreme
 			this._txtCommonTextBox_14.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_14.TabIndex = 12;
 			this._txtCommonTextBox_14.Text = "";
-			// this.this._txtCommonTextBox_14.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_14.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_14.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_14
@@ -561,7 +561,7 @@ namespace Xtreme
 			this._txtCommonTextBox_15.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_15.TabIndex = 13;
 			this._txtCommonTextBox_15.Text = "";
-			// this.this._txtCommonTextBox_15.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_15.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_15.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_15
@@ -586,7 +586,7 @@ namespace Xtreme
 			this._txtCommonTextBox_16.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_16.TabIndex = 14;
 			this._txtCommonTextBox_16.Text = "";
-			// this.this._txtCommonTextBox_16.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_16.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_16.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_17
@@ -600,7 +600,7 @@ namespace Xtreme
 			this._txtCommonTextBox_17.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_17.TabIndex = 15;
 			this._txtCommonTextBox_17.Text = "";
-			// this.this._txtCommonTextBox_17.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_17.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_17.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_16
@@ -636,7 +636,7 @@ namespace Xtreme
 			this._txtCommonTextBox_18.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_18.TabIndex = 16;
 			this._txtCommonTextBox_18.Text = "";
-			// this.this._txtCommonTextBox_18.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_18.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_18.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_20
@@ -661,7 +661,7 @@ namespace Xtreme
 			this._txtCommonTextBox_19.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_19.TabIndex = 17;
 			this._txtCommonTextBox_19.Text = "";
-			// this.this._txtCommonTextBox_19.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_19.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_19.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_21
@@ -686,7 +686,7 @@ namespace Xtreme
 			this._txtCommonTextBox_20.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_20.TabIndex = 19;
 			this._txtCommonTextBox_20.Text = "";
-			// this.this._txtCommonTextBox_20.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_20.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_20.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_21
@@ -700,7 +700,7 @@ namespace Xtreme
 			this._txtCommonTextBox_21.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_21.TabIndex = 20;
 			this._txtCommonTextBox_21.Text = "";
-			// this.this._txtCommonTextBox_21.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_21.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_21.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_22
@@ -725,7 +725,7 @@ namespace Xtreme
 			this._txtCommonTextBox_22.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_22.TabIndex = 21;
 			this._txtCommonTextBox_22.Text = "";
-			// this.this._txtCommonTextBox_22.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_22.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_22.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_23
@@ -750,7 +750,7 @@ namespace Xtreme
 			this._txtCommonTextBox_23.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_23.TabIndex = 22;
 			this._txtCommonTextBox_23.Text = "";
-			// this.this._txtCommonTextBox_23.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_23.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_23.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_24
@@ -786,7 +786,7 @@ namespace Xtreme
 			this._txtCommonTextBox_24.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_24.TabIndex = 23;
 			this._txtCommonTextBox_24.Text = "";
-			// this.this._txtCommonTextBox_24.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_24.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_24.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_25
@@ -800,7 +800,7 @@ namespace Xtreme
 			this._txtCommonTextBox_25.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_25.TabIndex = 24;
 			this._txtCommonTextBox_25.Text = "";
-			// this.this._txtCommonTextBox_25.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_25.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_25.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_26
@@ -825,7 +825,7 @@ namespace Xtreme
 			this._txtCommonTextBox_26.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_26.TabIndex = 25;
 			this._txtCommonTextBox_26.Text = "";
-			// this.this._txtCommonTextBox_26.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_26.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_26.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_27
@@ -850,7 +850,7 @@ namespace Xtreme
 			this._txtCommonTextBox_27.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_27.TabIndex = 26;
 			this._txtCommonTextBox_27.Text = "";
-			// this.this._txtCommonTextBox_27.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_27.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_27.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_28
@@ -875,7 +875,7 @@ namespace Xtreme
 			this._txtCommonTextBox_28.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_28.TabIndex = 27;
 			this._txtCommonTextBox_28.Text = "";
-			// this.this._txtCommonTextBox_28.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_28.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_28.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_29
@@ -900,7 +900,7 @@ namespace Xtreme
 			this._txtCommonTextBox_5.Size = new System.Drawing.Size(157, 19);
 			this._txtCommonTextBox_5.TabIndex = 18;
 			this._txtCommonTextBox_5.Text = "";
-			// this.this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_5.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_4

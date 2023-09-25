@@ -99,7 +99,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Enabled = false;
 			this.Label1.Location = new System.Drawing.Point(12, 9);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(76, 22);
 			this.Label1.TabIndex = 6;
 			this.Label1.Text = "Current Period";
@@ -114,7 +114,7 @@ namespace Xtreme
 			// this.txtDMonthDate.MaxDate = 2958465;
 			// this.txtDMonthDate.MinDate = -657434;
 			this.txtDMonthDate.Name = "txtDMonthDate";
-			this.txtDMonthDate.PromptChar = "_";
+			// = "_";
 			this.txtDMonthDate.ReadOnly = true;
 			this.txtDMonthDate.Size = new System.Drawing.Size(124, 22);
 			this.txtDMonthDate.TabIndex = 5;

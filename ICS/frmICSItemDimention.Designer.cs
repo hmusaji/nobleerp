@@ -45,7 +45,7 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public AxXtremeSuiteControls.AxTabControlPage TabControlPage2;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv TabControlPage2;
 		private System.Windows.Forms.Button _cmdCommon_0;
 		private System.Windows.Forms.Button _cmdCommon_2;
 		private System.Windows.Forms.Button _cmdCommon_1;
@@ -63,8 +63,8 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommon_3;
 		private System.Windows.Forms.Label _lblCommon_50;
 		private System.Windows.Forms.Label _txtCommonDisplay_5;
-		public AxXtremeSuiteControls.AxTabControlPage TabControlPage1;
-		public AxXtremeSuiteControls.AxTabControl TabControl1;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv TabControlPage1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv TabControl1;
 		public System.Windows.Forms.TextBox txtProdDesc;
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		private System.Windows.Forms.TextBox _txtCommon_0;
@@ -89,9 +89,9 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSItemDimention));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.TabControl1 = new AxXtremeSuiteControls.AxTabControl();
-			this.TabControlPage2 = new AxXtremeSuiteControls.AxTabControlPage();
-			this.TabControlPage1 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.TabControl1 = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.TabControlPage2 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
+			this.TabControlPage1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this._cmdCommon_0 = new System.Windows.Forms.Button();
 			this._cmdCommon_2 = new System.Windows.Forms.Button();
 			this._cmdCommon_1 = new System.Windows.Forms.Button();
@@ -122,8 +122,8 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.TabControlPage2).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.TabControlPage1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.TabControl1).BeginInit();
-			this.TabControl1.SuspendLayout();
-			this.TabControlPage1.SuspendLayout();
+			//this.TabControl1.SuspendLayout();
+			//this.TabControlPage1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// TabControl1
@@ -223,10 +223,10 @@ namespace Xtreme
 			// 
 			this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
-			// this.txtComment.bolAllowDecimal = false;
+			// // = false;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
 			this.txtComment.Location = new System.Drawing.Point(94, 100);
-			// this.txtComment.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtComment.Name = "txtComment";
 			this.txtComment.Size = new System.Drawing.Size(364, 75);
 			this.txtComment.TabIndex = 13;
@@ -247,7 +247,7 @@ namespace Xtreme
 			this._txtCommon_6.TabIndex = 17;
 			this._txtCommon_6.Text = "";
 			this._txtCommon_6.Visible = false;
-			// this.this._txtCommon_6.Watermark = "Category";
+			// this.// = "Category";
 			// 
 			// _txtCommon_5
 			// 
@@ -264,7 +264,7 @@ namespace Xtreme
 			this._txtCommon_5.TabIndex = 18;
 			this._txtCommon_5.Text = "";
 			this._txtCommon_5.Visible = false;
-			// this.this._txtCommon_5.Watermark = "Group";
+			// this.// = "Group";
 			// 
 			// _lblCommon_6
 			// 
@@ -339,7 +339,7 @@ namespace Xtreme
 			this._txtCommon_4.TabIndex = 24;
 			this._txtCommon_4.Text = "";
 			this._txtCommon_4.Visible = false;
-			// this.this._txtCommon_4.Watermark = "UOM";
+			// this.// = "UOM";
 			// 
 			// _lblCommon_5
 			// 
@@ -379,7 +379,7 @@ namespace Xtreme
 			this._txtCommon_3.TabIndex = 27;
 			this._txtCommon_3.Text = "";
 			this._txtCommon_3.Visible = false;
-			// this.this._txtCommon_3.Watermark = "Report UOM";
+			// this.// = "Report UOM";
 			// 
 			// _lblCommon_50
 			// 
@@ -408,10 +408,10 @@ namespace Xtreme
 			// 
 			this.txtProdDesc.AllowDrop = true;
 			this.txtProdDesc.BackColor = System.Drawing.Color.White;
-			// this.txtProdDesc.bolAllowDecimal = false;
+			// // = false;
 			this.txtProdDesc.ForeColor = System.Drawing.Color.Black;
 			this.txtProdDesc.Location = new System.Drawing.Point(122, 106);
-			// this.txtProdDesc.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtProdDesc.Name = "txtProdDesc";
 			this.txtProdDesc.Size = new System.Drawing.Size(617, 69);
 			this.txtProdDesc.TabIndex = 0;
@@ -423,13 +423,13 @@ namespace Xtreme
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(122, 83);
-			// this._txtCommon_2.mArabicEnabled = true;
+			// // = true;
 			this._txtCommon_2.MaxLength = 200;
 			this._txtCommon_2.Name = "_txtCommon_2";
 			this._txtCommon_2.Size = new System.Drawing.Size(351, 19);
 			this._txtCommon_2.TabIndex = 1;
 			this._txtCommon_2.Text = "";
-			// this.this._txtCommon_2.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtCommon_0
 			// 
@@ -439,12 +439,12 @@ namespace Xtreme
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(122, 38);
 			this._txtCommon_0.MaxLength = 20;
-			// this._txtCommon_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommon_0.Name = "_txtCommon_0";
 			this._txtCommon_0.Size = new System.Drawing.Size(133, 19);
 			this._txtCommon_0.TabIndex = 2;
 			this._txtCommon_0.Text = "";
-			// this.this._txtCommon_0.Watermark = "Item Code";
+			// this.// = "Item Code";
 			// 
 			// _lblCommon_3
 			// 
@@ -482,7 +482,7 @@ namespace Xtreme
 			this._txtCommon_1.Size = new System.Drawing.Size(351, 19);
 			this._txtCommon_1.TabIndex = 5;
 			this._txtCommon_1.Text = "";
-			// this.this._txtCommon_1.Watermark = "Item Name";
+			// this.// = "Item Name";
 			// 
 			// _lblCommon_2
 			// 

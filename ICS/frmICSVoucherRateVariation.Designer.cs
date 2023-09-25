@@ -91,9 +91,9 @@ namespace Xtreme
 			this.txtProductName = new System.Windows.Forms.Label();
 			this.txtLedgerName = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.cntMainParameter.SuspendLayout();
-			this.fraDateRange.SuspendLayout();
-			this.Frame1.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
+			//this.Frame1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdOKCancel
@@ -189,7 +189,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(12, 15);
 			// this.Label1.mLabelId = 948;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(50, 13);
 			this.Label1.TabIndex = 15;
 			// 
@@ -220,8 +220,8 @@ namespace Xtreme
 			this.txtCurrentRate.Enabled = false;
 			// this.txtCurrentRate.Format = "###########0.000";
 			this.txtCurrentRate.Location = new System.Drawing.Point(90, 9);
-			// this.txtCurrentRate.MaxValue = 2147483647;
-			// this.txtCurrentRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCurrentRate.Name = "txtCurrentRate";
 			this.txtCurrentRate.Size = new System.Drawing.Size(96, 19);
 			this.txtCurrentRate.TabIndex = 4;
@@ -234,7 +234,7 @@ namespace Xtreme
 			this.Label2.Text = "New Rate";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(21, 33);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(47, 13);
 			this.Label2.TabIndex = 11;
 			// 
@@ -246,7 +246,7 @@ namespace Xtreme
 			this.Label3.ForeColor = System.Drawing.Color.Black;
 			this.Label3.Location = new System.Drawing.Point(21, 12);
 			// this.Label3.mLabelId = 948;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(63, 13);
 			this.Label3.TabIndex = 12;
 			// 
@@ -256,8 +256,8 @@ namespace Xtreme
 			// this.txtNewRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNewRate.Format = "###########0.000";
 			this.txtNewRate.Location = new System.Drawing.Point(90, 30);
-			// this.txtNewRate.MaxValue = 2147483647;
-			// this.txtNewRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtNewRate.Name = "txtNewRate";
 			this.txtNewRate.Size = new System.Drawing.Size(96, 19);
 			this.txtNewRate.TabIndex = 5;
@@ -274,7 +274,7 @@ namespace Xtreme
 			this.txtProductCd.Size = new System.Drawing.Size(101, 19);
 			this.txtProductCd.TabIndex = 1;
 			this.txtProductCd.Text = "";
-			// this.this.txtProductCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtProductCd_DropButtonClick);
+			// this.//this.txtProductCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtProductCd_DropButtonClick);
 			// this.txtProductCd.Leave += new System.EventHandler(this.txtProductCd_Leave);
 			// 
 			// txtLedgerCd
@@ -288,7 +288,7 @@ namespace Xtreme
 			this.txtLedgerCd.Size = new System.Drawing.Size(101, 19);
 			this.txtLedgerCd.TabIndex = 0;
 			this.txtLedgerCd.Text = "";
-			// this.this.txtLedgerCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLedgerCd_DropButtonClick);
+			// this.//this.txtLedgerCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLedgerCd_DropButtonClick);
 			// this.txtLedgerCd.Leave += new System.EventHandler(this.txtLedgerCd_Leave);
 			// 
 			// lblLocationCode

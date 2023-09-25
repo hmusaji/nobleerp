@@ -73,7 +73,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_65;
 		private System.Windows.Forms.Label _lblCommon_0;
 		private System.Windows.Forms.Label _lblCommon_1;
-		public UpgradeHelpers.Gui.ShapeHelper Shape3;
+		public ShapeHelper Shape3;
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[1];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[103];
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[3];
@@ -114,7 +114,7 @@ namespace Xtreme
 			this._lblCommon_65 = new System.Windows.Forms.Label();
 			this._lblCommon_0 = new System.Windows.Forms.Label();
 			this._lblCommon_1 = new System.Windows.Forms.Label();
-			this.Shape3 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.Shape3 = new ShapeHelper();
 			this.SuspendLayout();
 			// 
 			// txtNTotalSalary
@@ -137,7 +137,7 @@ namespace Xtreme
 			// this.txtStartDate.MaxDate = 2958465;
 			// this.txtStartDate.MinDate = -657434;
 			this.txtStartDate.Name = "txtStartDate";
-			this.txtStartDate.PromptChar = "_";
+			//// = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDate.TabIndex = 26;
 			// this.txtStartDate.Text = "06/02/2013";
@@ -186,7 +186,7 @@ namespace Xtreme
 			this.txtHeadcountCode.ForeColor = System.Drawing.Color.Black;
 			this.txtHeadcountCode.Location = new System.Drawing.Point(137, 75);
 			this.txtHeadcountCode.MaxLength = 15;
-			// this.txtHeadcountCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtHeadcountCode.Name = "txtHeadcountCode";
 			// this.txtHeadcountCode.ShowButton = true;
 			this.txtHeadcountCode.Size = new System.Drawing.Size(101, 19);
@@ -216,7 +216,7 @@ namespace Xtreme
 			this.txtHCCategoryNo.Size = new System.Drawing.Size(101, 19);
 			this.txtHCCategoryNo.TabIndex = 3;
 			this.txtHCCategoryNo.Text = "";
-			// this.this.txtHCCategoryNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtHCCategoryNo_DropButtonClick);
+			// this.//this.txtHCCategoryNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtHCCategoryNo_DropButtonClick);
 			// this.txtHCCategoryNo.Leave += new System.EventHandler(this.txtHCCategoryNo_Leave);
 			// 
 			// lblDeptCode
@@ -444,21 +444,21 @@ namespace Xtreme
 			// 
 			// Shape3
 			// 
-			this.Shape3.AllowDrop = true;
-			this.Shape3.BackColor = System.Drawing.SystemColors.Window;
-			this.Shape3.BackStyle = 0;
-			this.Shape3.BorderStyle = 1;
-			this.Shape3.Enabled = false;
-			this.Shape3.FillColor = System.Drawing.Color.Black;
-			this.Shape3.FillStyle = 1;
-			this.Shape3.Location = new System.Drawing.Point(6, 252);
-			this.Shape3.Name = "Shape3";
-			this.Shape3.Size = new System.Drawing.Size(472, 62);
-			this.Shape3.Visible = true;
+			//this.Shape3.AllowDrop = true;
+			//this.Shape3.BackColor = System.Drawing.SystemColors.Window;
+			//// = 0;
+			//this.Shape3.BorderStyle = 1;
+			//this.Shape3.Enabled = false;
+			//this.Shape3.FillColor = System.Drawing.Color.Black;
+			//this.Shape3.FillStyle = 1;
+			//this.Shape3.Location = new System.Drawing.Point(6, 252);
+			//this.Shape3.Name = "Shape3";
+			//this.Shape3.Size = new System.Drawing.Size(472, 62);
+			//this.Shape3.Visible = true;
 			// 
 			// frmPayHeadCount
 			// 
-			this.'MaxButton = 0;
+			//
 			this.AllowDrop = true;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6, 13);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

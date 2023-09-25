@@ -82,7 +82,7 @@ namespace Xtreme
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_3 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// txtPayDate
@@ -93,7 +93,7 @@ namespace Xtreme
 			// this.txtPayDate.MaxDate = 2958465;
 			// this.txtPayDate.MinDate = -657434;
 			this.txtPayDate.Name = "txtPayDate";
-			this.txtPayDate.PromptChar = "_";
+			// = "_";
 			this.txtPayDate.Size = new System.Drawing.Size(105, 19);
 			this.txtPayDate.TabIndex = 1;
 			// this.txtPayDate.Text = "01/07/2011";
@@ -124,17 +124,17 @@ namespace Xtreme
 			// 
 			this.txtEmployeeCode.AllowDrop = true;
 			this.txtEmployeeCode.BackColor = System.Drawing.Color.White;
-			// this.txtEmployeeCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtEmployeeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtEmployeeCode.Location = new System.Drawing.Point(98, 68);
-			// this.txtEmployeeCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtEmployeeCode.Name = "txtEmployeeCode";
 			// this.txtEmployeeCode.ShowButton = true;
 			this.txtEmployeeCode.Size = new System.Drawing.Size(105, 19);
 			this.txtEmployeeCode.TabIndex = 0;
 			this.txtEmployeeCode.Text = "";
-			// this.this.txtEmployeeCode.Watermark = "";
-			// this.this.txtEmployeeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmployeeCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtEmployeeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmployeeCode_DropButtonClick);
 			// this.txtEmployeeCode.Leave += new System.EventHandler(this.txtEmployeeCode_Leave);
 			// 
 			// _lblCommonLabel_3

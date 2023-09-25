@@ -48,7 +48,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblTips1;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController mnuColors;
-		public UpgradeHelpers.Gui.ShapeHelper fraOuterShadow;
+		public ShapeHelper fraOuterShadow;
 		public System.Windows.Forms.Button[] btnReportOptions = new System.Windows.Forms.Button[6];
 		public System.Windows.Forms.CheckBox[] chkCommonSettings = new System.Windows.Forms.CheckBox[2];
 		//public UpgradeHelpers.Gui.CommandButtonHelper commandButtonHelper1;
@@ -72,7 +72,7 @@ namespace Xtreme
 			this.lblTips1 = new System.Windows.Forms.Label();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			this.mnuColors = new Syncfusion.Windows.Forms.Tools.CommandBarController();
-			this.fraOuterShadow = new UpgradeHelpers.Gui.ShapeHelper();
+			this.fraOuterShadow = new ShapeHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.mnuColors).BeginInit();
 			this.SuspendLayout();
@@ -354,7 +354,7 @@ namespace Xtreme
 			// 
 			this.fraOuterShadow.AllowDrop = true;
 			this.fraOuterShadow.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.fraOuterShadow.BackStyle = 1;
+			// = 1;
 			this.fraOuterShadow.BorderColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraOuterShadow.BorderStyle = 1;
 			this.fraOuterShadow.Enabled = false;

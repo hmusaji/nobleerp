@@ -59,7 +59,7 @@ namespace Xtreme
 			this.txtHCCategoryNo = new System.Windows.Forms.TextBox();
 			this.lblDeptCode = new System.Windows.Forms.Label();
 			this.txtHCCategoryName = new System.Windows.Forms.Label();
-			this.grdAddHeadcountDetails.SuspendLayout();
+			//this.grdAddHeadcountDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdGetRecords
@@ -90,7 +90,7 @@ namespace Xtreme
 			this.txtBudgetCode.Size = new System.Drawing.Size(101, 19);
 			this.txtBudgetCode.TabIndex = 1;
 			this.txtBudgetCode.Text = "";
-			// this.this.txtBudgetCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBudgetCode_DropButtonClick);
+			// this.//this.txtBudgetCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBudgetCode_DropButtonClick);
 			// this.txtBudgetCode.Leave += new System.EventHandler(this.txtBudgetCode_Leave);
 			// 
 			// lblBudgetCode
@@ -125,7 +125,7 @@ namespace Xtreme
 			this.txtDeptCode.Size = new System.Drawing.Size(101, 19);
 			this.txtDeptCode.TabIndex = 2;
 			this.txtDeptCode.Text = "";
-			// this.this.txtDeptCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDeptCode_DropButtonClick);
+			// this.//this.txtDeptCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDeptCode_DropButtonClick);
 			// this.txtDeptCode.Leave += new System.EventHandler(this.txtDeptCode_Leave);
 			// 
 			// lblSectionCode
@@ -183,7 +183,7 @@ namespace Xtreme
 			this.txtHCCategoryNo.Size = new System.Drawing.Size(101, 19);
 			this.txtHCCategoryNo.TabIndex = 3;
 			this.txtHCCategoryNo.Text = "";
-			// this.this.txtHCCategoryNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtHCCategoryNo_DropButtonClick);
+			// this.//this.txtHCCategoryNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtHCCategoryNo_DropButtonClick);
 			// this.txtHCCategoryNo.Leave += new System.EventHandler(this.txtHCCategoryNo_Leave);
 			// 
 			// lblDeptCode

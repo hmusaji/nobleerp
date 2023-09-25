@@ -71,7 +71,7 @@ namespace Xtreme
 		public System.Windows.Forms.Panel frameBottom;
 		public UCRichTextBox txtNarration2;
 		public System.Windows.Forms.GroupBox Frame1;
-		public AxXtremeSuiteControls.AxTabControlPage tabOtherInfo;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabOtherInfo;
 		private System.Windows.Forms.ComboBox _comCommon_2;
 		private System.Windows.Forms.Label _lblCommonLabel_37;
 		public System.Windows.Forms.Label Label2;
@@ -130,24 +130,24 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtAdd1;
 		public System.Windows.Forms.TextBox txtAdd2;
 		public System.Windows.Forms.GroupBox fraContactDetail;
-		public AxXtremeSuiteControls.AxTabControlPage tabAdditionalInfo;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabAdditionalInfo;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdSupplierDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdSupplierDetails;
-		private AxXtremeSuiteControls.AxTabControlPage _TabControlPage3_2;
+		private Syncfusion.Windows.Forms.Tools.TabPageAdv _TabControlPage3_2;
 		public System.Windows.Forms.Button cmdPull;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbSupplierList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbSupplierList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbSupplierList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdImportVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdImportVoucherDetails;
-		private AxXtremeSuiteControls.AxTabControlPage _TabControlPage2_1;
+		private Syncfusion.Windows.Forms.Tools.TabPageAdv _TabControlPage2_1;
 		public System.Windows.Forms.CheckBox Check1;
 		public System.Windows.Forms.CheckBox chkSortOnProduct;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTempDate;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxXtremeSuiteControls.AxTabControlPage fraMasterInformation;
-		public AxXtremeSuiteControls.AxTabControl tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv fraMasterInformation;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		public System.Windows.Forms.CheckBox chkProcessed;
 		private System.Windows.Forms.RadioButton _optVoucherType_1;
 		private System.Windows.Forms.RadioButton _optVoucherType_0;
@@ -221,17 +221,17 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtDisplayLabel_13;
 		public System.Windows.Forms.GroupBox fraProject;
 		public System.Windows.Forms.Label lblVoucherName;
-		public UpgradeHelpers.Gui.ShapeHelper fraVoucherName;
-		public UpgradeHelpers.Gui.ShapeHelper fraVoucherImport;
-		public UpgradeHelpers.Gui.ShapeHelper fraVoucherType;
-		public UpgradeHelpers.Gui.ShapeHelper fraCustomerDetails;
-		public UpgradeHelpers.Gui.ShapeHelper frmHeader;
-		public UpgradeHelpers.Gui.ShapeHelper fraTransactionHeader;
-		public AxXtremeSuiteControls.AxTabControlPage tabGeneral;
-		public AxXtremeSuiteControls.AxTabControl tabMain;
+		public ShapeHelper fraVoucherName;
+		public ShapeHelper fraVoucherImport;
+		public ShapeHelper fraVoucherType;
+		public ShapeHelper fraCustomerDetails;
+		public ShapeHelper frmHeader;
+		public ShapeHelper fraTransactionHeader;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabGeneral;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMain;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController CommandBars;
-		public AxXtremeSuiteControls.AxTabControlPage[] TabControlPage2 = new AxXtremeSuiteControls.AxTabControlPage[2];
-		public AxXtremeSuiteControls.AxTabControlPage[] TabControlPage3 = new AxXtremeSuiteControls.AxTabControlPage[3];
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv[] TabControlPage2 = new Syncfusion.Windows.Forms.Tools.TabPageAdv[2];
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv[] TabControlPage3 = new Syncfusion.Windows.Forms.Tools.TabPageAdv[3];
 		public System.Windows.Forms.ComboBox[] comCommon = new System.Windows.Forms.ComboBox[6];
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[54];
 		public System.Windows.Forms.RadioButton[] optVoucherType = new System.Windows.Forms.RadioButton[2];
@@ -270,11 +270,11 @@ namespace Xtreme
 			this._lblCommonLabel_53 = new System.Windows.Forms.Label();
 			this.lblSave = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.tabMain = new AxXtremeSuiteControls.AxTabControl();
-			this.tabOtherInfo = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabMain = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.tabOtherInfo = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.txtNarration2 = new UCRichTextBox();
-			this.tabAdditionalInfo = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabAdditionalInfo = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.farDeliveryDeetail = new System.Windows.Forms.GroupBox();
 			this._comCommon_2 = new System.Windows.Forms.ComboBox();
 			this._lblCommonLabel_37 = new System.Windows.Forms.Label();
@@ -333,19 +333,19 @@ namespace Xtreme
 			this.txtCity = new System.Windows.Forms.TextBox();
 			this.txtAdd1 = new System.Windows.Forms.TextBox();
 			this.txtAdd2 = new System.Windows.Forms.TextBox();
-			this.tabGeneral = new AxXtremeSuiteControls.AxTabControlPage();
-			this.tabMaster = new AxXtremeSuiteControls.AxTabControl();
-			this._TabControlPage3_2 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabGeneral = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this._TabControlPage3_2 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.grdSupplierDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdSupplierDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this._TabControlPage2_1 = new AxXtremeSuiteControls.AxTabControlPage();
+			this._TabControlPage2_1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.cmdPull = new System.Windows.Forms.Button();
 			this.cmbSupplierList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbSupplierList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbSupplierList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.grdImportVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdImportVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.fraMasterInformation = new AxXtremeSuiteControls.AxTabControlPage();
+			this.fraMasterInformation = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.Check1 = new System.Windows.Forms.CheckBox();
 			this.chkSortOnProduct = new System.Windows.Forms.CheckBox();
 			this.txtTempDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
@@ -424,12 +424,12 @@ namespace Xtreme
 			this._txtCommonTextBox_26 = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_13 = new System.Windows.Forms.Label();
 			this.lblVoucherName = new System.Windows.Forms.Label();
-			this.fraVoucherName = new UpgradeHelpers.Gui.ShapeHelper();
-			this.fraVoucherImport = new UpgradeHelpers.Gui.ShapeHelper();
-			this.fraVoucherType = new UpgradeHelpers.Gui.ShapeHelper();
-			this.fraCustomerDetails = new UpgradeHelpers.Gui.ShapeHelper();
-			this.frmHeader = new UpgradeHelpers.Gui.ShapeHelper();
-			this.fraTransactionHeader = new UpgradeHelpers.Gui.ShapeHelper();
+			this.fraVoucherName = new ShapeHelper();
+			this.fraVoucherImport = new ShapeHelper();
+			this.fraVoucherType = new ShapeHelper();
+			this.fraCustomerDetails = new ShapeHelper();
+			this.frmHeader = new ShapeHelper();
+			this.fraTransactionHeader = new ShapeHelper();
 			this.CommandBars = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.tabOtherInfo).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabAdditionalInfo).BeginInit();
@@ -442,29 +442,29 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.tabGeneral).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMain).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.CommandBars).BeginInit();
-			this.frameBottom.SuspendLayout();
-			this.fraPayments.SuspendLayout();
-			this.tabMain.SuspendLayout();
-			this.tabOtherInfo.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.tabAdditionalInfo.SuspendLayout();
-			this.farDeliveryDeetail.SuspendLayout();
-			this.fraPaymentDetail.SuspendLayout();
-			this.fraOrderDetail.SuspendLayout();
-			this.fraContactDetail.SuspendLayout();
-			this.tabGeneral.SuspendLayout();
-			this.tabMaster.SuspendLayout();
-			this._TabControlPage3_2.SuspendLayout();
-			this.grdSupplierDetails.SuspendLayout();
-			this._TabControlPage2_1.SuspendLayout();
-			this.cmbSupplierList.SuspendLayout();
-			this.grdImportVoucherDetails.SuspendLayout();
-			this.fraMasterInformation.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbImportVoucherList.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.fraRental.SuspendLayout();
-			this.fraProject.SuspendLayout();
+			//this.frameBottom.SuspendLayout();
+			//this.fraPayments.SuspendLayout();
+			//this.tabMain.SuspendLayout();
+			//this.tabOtherInfo.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.tabAdditionalInfo.SuspendLayout();
+			//this.farDeliveryDeetail.SuspendLayout();
+			//this.fraPaymentDetail.SuspendLayout();
+			//this.fraOrderDetail.SuspendLayout();
+			//this.fraContactDetail.SuspendLayout();
+			//this.tabGeneral.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._TabControlPage3_2.SuspendLayout();
+			//this.grdSupplierDetails.SuspendLayout();
+			//this._TabControlPage2_1.SuspendLayout();
+			//this.cmbSupplierList.SuspendLayout();
+			//this.grdImportVoucherDetails.SuspendLayout();
+			//this.fraMasterInformation.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbImportVoucherList.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.fraRental.SuspendLayout();
+			//this.fraProject.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frameBottom
@@ -530,8 +530,8 @@ namespace Xtreme
 			this._txtCommonTextBox_5.TabIndex = 162;
 			this._txtCommonTextBox_5.Text = "";
 			this._txtCommonTextBox_5.Visible = false;
-			// this.this._txtCommonTextBox_5.Watermark = "";
-			// this.this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_5.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// txtCashAmt
@@ -540,8 +540,8 @@ namespace Xtreme
 			// this.txtCashAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtCashAmt.Format = "###########0.000";
 			this.txtCashAmt.Location = new System.Drawing.Point(170, 10);
-			// this.txtCashAmt.MaxValue = 2147483647;
-			// this.txtCashAmt.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCashAmt.Name = "txtCashAmt";
 			this.txtCashAmt.Size = new System.Drawing.Size(87, 23);
 			this.txtCashAmt.TabIndex = 163;
@@ -560,8 +560,8 @@ namespace Xtreme
 			this._txtCommonTextBox_6.Size = new System.Drawing.Size(67, 23);
 			this._txtCommonTextBox_6.TabIndex = 164;
 			this._txtCommonTextBox_6.Text = "";
-			// this.this._txtCommonTextBox_6.Watermark = "";
-			// this.this._txtCommonTextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_6.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// txtCCAmt
@@ -570,8 +570,8 @@ namespace Xtreme
 			// this.txtCCAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtCCAmt.Format = "###########0.000";
 			this.txtCCAmt.Location = new System.Drawing.Point(170, 38);
-			// this.txtCCAmt.MaxValue = 2147483647;
-			// this.txtCCAmt.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCCAmt.Name = "txtCCAmt";
 			this.txtCCAmt.Size = new System.Drawing.Size(87, 23);
 			this.txtCCAmt.TabIndex = 165;
@@ -600,10 +600,10 @@ namespace Xtreme
 			// 
 			this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
-			// this.txtComment.bolAllowDecimal = false;
+			// // = false;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
 			this.txtComment.Location = new System.Drawing.Point(60, 4);
-			// this.txtComment.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtComment.Name = "txtComment";
 			this.txtComment.Size = new System.Drawing.Size(339, 55);
 			this.txtComment.TabIndex = 20;
@@ -635,8 +635,8 @@ namespace Xtreme
 			this.txtExpenses.Enabled = false;
 			// this.txtExpenses.Format = "#########0.000";
 			this.txtExpenses.Location = new System.Drawing.Point(496, 33);
-			// this.txtExpenses.MaxValue = 2147483647;
-			// this.txtExpenses.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtExpenses.Name = "txtExpenses";
 			this.txtExpenses.Size = new System.Drawing.Size(80, 23);
 			this.txtExpenses.TabIndex = 38;
@@ -662,8 +662,8 @@ namespace Xtreme
 			// this.txtPercentDiscount.DisplayFormat = "#####0.######;;; ";
 			// this.txtPercentDiscount.Format = "#####0.######";
 			this.txtPercentDiscount.Location = new System.Drawing.Point(686, 2);
-			// this.txtPercentDiscount.MaxValue = 100;
-			// this.txtPercentDiscount.MinValue = 0;
+			// // = 100;
+			// // = 0;
 			this.txtPercentDiscount.Name = "txtPercentDiscount";
 			this.txtPercentDiscount.Size = new System.Drawing.Size(49, 23);
 			this.txtPercentDiscount.TabIndex = 17;
@@ -678,8 +678,8 @@ namespace Xtreme
 			// this.txtDiscount.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtDiscount.Format = "###########0.000";
 			this.txtDiscount.Location = new System.Drawing.Point(736, 2);
-			// this.txtDiscount.MaxValue = 2147483647;
-			// this.txtDiscount.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtDiscount.Name = "txtDiscount";
 			this.txtDiscount.Size = new System.Drawing.Size(87, 23);
 			this.txtDiscount.TabIndex = 18;
@@ -706,8 +706,8 @@ namespace Xtreme
 			this.txtNetAmount.Enabled = false;
 			// this.txtNetAmount.Format = "###########0.000";
 			this.txtNetAmount.Location = new System.Drawing.Point(736, 32);
-			// this.txtNetAmount.MaxValue = 2147483647;
-			// this.txtNetAmount.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtNetAmount.Name = "txtNetAmount";
 			this.txtNetAmount.Size = new System.Drawing.Size(87, 23);
 			this.txtNetAmount.TabIndex = 19;
@@ -758,8 +758,8 @@ namespace Xtreme
 			// this.txtDiscount2Percent.DisplayFormat = "#####0.######;;; ";
 			// this.txtDiscount2Percent.Format = "#####0.######";
 			this.txtDiscount2Percent.Location = new System.Drawing.Point(1092, 32);
-			// this.txtDiscount2Percent.MaxValue = 100;
-			// this.txtDiscount2Percent.MinValue = 0;
+			// // = 100;
+			// // = 0;
 			this.txtDiscount2Percent.Name = "txtDiscount2Percent";
 			this.txtDiscount2Percent.Size = new System.Drawing.Size(49, 23);
 			this.txtDiscount2Percent.TabIndex = 158;
@@ -772,8 +772,8 @@ namespace Xtreme
 			// this.txtDiscount2.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtDiscount2.Format = "###########0.000";
 			this.txtDiscount2.Location = new System.Drawing.Point(1142, 32);
-			// this.txtDiscount2.MaxValue = 2147483647;
-			// this.txtDiscount2.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtDiscount2.Name = "txtDiscount2";
 			this.txtDiscount2.Size = new System.Drawing.Size(87, 23);
 			this.txtDiscount2.TabIndex = 159;
@@ -864,10 +864,10 @@ namespace Xtreme
 			// txtNarration2
 			// 
 			this.txtNarration2.AllowDrop = true;
-			// this.txtNarration2.bolAllowDecimal = false;
+			// // = false;
 			this.txtNarration2.BorderStyle = 0;
 			this.txtNarration2.Location = new System.Drawing.Point(6, 20);
-			// this.txtNarration2.mDropDownType = (UCRichTextBox.RichTextBoxDropDownTypes) 0;
+			// // = (UCRichTextBox.RichTextBoxDropDownTypes) 0;
 			this.txtNarration2.Name = "txtNarration2";
 			this.txtNarration2.Size = new System.Drawing.Size(953, 435);
 			this.txtNarration2.TabIndex = 66;
@@ -948,7 +948,7 @@ namespace Xtreme
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(237, 19);
 			// this.Label2.mLabelId = 2034;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(63, 14);
 			this.Label2.TabIndex = 124;
 			// 
@@ -963,7 +963,7 @@ namespace Xtreme
 			this.txtShipmentNo.Size = new System.Drawing.Size(119, 19);
 			this.txtShipmentNo.TabIndex = 56;
 			this.txtShipmentNo.Text = "";
-			// this.this.txtShipmentNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _comCommon_3
 			// 
@@ -1028,7 +1028,7 @@ namespace Xtreme
 			this.txtDeliveryTerms.Size = new System.Drawing.Size(344, 19);
 			this.txtDeliveryTerms.TabIndex = 59;
 			this.txtDeliveryTerms.Text = "";
-			// this.this.txtDeliveryTerms.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_42
 			// 
@@ -1053,7 +1053,7 @@ namespace Xtreme
 			this.txtPackingListNo.Size = new System.Drawing.Size(101, 19);
 			this.txtPackingListNo.TabIndex = 60;
 			this.txtPackingListNo.Text = "";
-			// this.this.txtPackingListNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_43
 			// 
@@ -1078,7 +1078,7 @@ namespace Xtreme
 			this.txtDeliveryLocation.Size = new System.Drawing.Size(119, 19);
 			this.txtDeliveryLocation.TabIndex = 61;
 			this.txtDeliveryLocation.Text = "";
-			// this.this.txtDeliveryLocation.Watermark = "";
+			// this.// = "";
 			// 
 			// _comCommon_5
 			// 
@@ -1126,8 +1126,8 @@ namespace Xtreme
 			this._txtCommonTextBox_0.TabIndex = 63;
 			this._txtCommonTextBox_0.Text = "";
 			this._txtCommonTextBox_0.Visible = false;
-			// this.this._txtCommonTextBox_0.Watermark = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// fraPaymentDetail
@@ -1175,7 +1175,7 @@ namespace Xtreme
 			this.txtPaymentTerms.Size = new System.Drawing.Size(344, 19);
 			this.txtPaymentTerms.TabIndex = 51;
 			this.txtPaymentTerms.Text = "";
-			// this.this.txtPaymentTerms.Watermark = "";
+			// this.// = "";
 			// 
 			// _comCommon_1
 			// 
@@ -1205,7 +1205,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(239, 68);
 			// this.Label1.mLabelId = 947;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(75, 14);
 			this.Label1.TabIndex = 120;
 			// 
@@ -1220,7 +1220,7 @@ namespace Xtreme
 			this.txtDrawnOnBank.Size = new System.Drawing.Size(119, 19);
 			this.txtDrawnOnBank.TabIndex = 53;
 			this.txtDrawnOnBank.Text = "";
-			// this.this.txtDrawnOnBank.Watermark = "";
+			// this.// = "";
 			// 
 			// txtNAdditionalExpenses
 			// 
@@ -1228,8 +1228,8 @@ namespace Xtreme
 			// this.txtNAdditionalExpenses.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNAdditionalExpenses.Format = "###########0.000";
 			this.txtNAdditionalExpenses.Location = new System.Drawing.Point(103, 66);
-			// this.txtNAdditionalExpenses.MaxValue = 2147483647;
-			// this.txtNAdditionalExpenses.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtNAdditionalExpenses.Name = "txtNAdditionalExpenses";
 			this.txtNAdditionalExpenses.Size = new System.Drawing.Size(101, 19);
 			this.txtNAdditionalExpenses.TabIndex = 54;
@@ -1358,7 +1358,7 @@ namespace Xtreme
 			this.txtCreditCardNo.Size = new System.Drawing.Size(101, 19);
 			this.txtCreditCardNo.TabIndex = 48;
 			this.txtCreditCardNo.Text = "";
-			// this.this.txtCreditCardNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtRefOrderNo
 			// 
@@ -1371,7 +1371,7 @@ namespace Xtreme
 			this.txtRefOrderNo.Size = new System.Drawing.Size(101, 19);
 			this.txtRefOrderNo.TabIndex = 49;
 			this.txtRefOrderNo.Text = "";
-			// this.this.txtRefOrderNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtChequeNo
 			// 
@@ -1384,7 +1384,7 @@ namespace Xtreme
 			this.txtChequeNo.Size = new System.Drawing.Size(101, 19);
 			this.txtChequeNo.TabIndex = 50;
 			this.txtChequeNo.Text = "";
-			// this.this.txtChequeNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_32
 			// 
@@ -1476,7 +1476,7 @@ namespace Xtreme
 			this.txtLdgrName.TabIndex = 39;
 			this.txtLdgrName.Tag = "Salesman Name in English";
 			this.txtLdgrName.Text = "";
-			// this.this.txtLdgrName.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_30
 			// 
@@ -1513,7 +1513,7 @@ namespace Xtreme
 			this.txtPhone.Size = new System.Drawing.Size(101, 19);
 			this.txtPhone.TabIndex = 40;
 			this.txtPhone.Text = "";
-			// this.this.txtPhone.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_31
 			// 
@@ -1574,7 +1574,7 @@ namespace Xtreme
 			this.txtBlockNo.Size = new System.Drawing.Size(119, 19);
 			this.txtBlockNo.TabIndex = 41;
 			this.txtBlockNo.Text = "";
-			// this.this.txtBlockNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCountry
 			// 
@@ -1587,7 +1587,7 @@ namespace Xtreme
 			this.txtCountry.Size = new System.Drawing.Size(119, 19);
 			this.txtCountry.TabIndex = 42;
 			this.txtCountry.Text = "";
-			// this.this.txtCountry.Watermark = "";
+			// this.// = "";
 			// 
 			// txtStreetNo
 			// 
@@ -1600,7 +1600,7 @@ namespace Xtreme
 			this.txtStreetNo.Size = new System.Drawing.Size(101, 19);
 			this.txtStreetNo.TabIndex = 43;
 			this.txtStreetNo.Text = "";
-			// this.this.txtStreetNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_16
 			// 
@@ -1625,16 +1625,16 @@ namespace Xtreme
 			this.txtCity.Size = new System.Drawing.Size(101, 19);
 			this.txtCity.TabIndex = 44;
 			this.txtCity.Text = "";
-			// this.this.txtCity.Watermark = "";
+			// this.// = "";
 			// 
 			// txtAdd1
 			// 
 			this.txtAdd1.AllowDrop = true;
 			this.txtAdd1.BackColor = System.Drawing.Color.White;
-			// this.txtAdd1.bolAllowDecimal = false;
+			// // = false;
 			this.txtAdd1.ForeColor = System.Drawing.Color.Black;
 			this.txtAdd1.Location = new System.Drawing.Point(103, 42);
-			// this.txtAdd1.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtAdd1.Name = "txtAdd1";
 			this.txtAdd1.Size = new System.Drawing.Size(344, 69);
 			this.txtAdd1.TabIndex = 64;
@@ -1644,10 +1644,10 @@ namespace Xtreme
 			// 
 			this.txtAdd2.AllowDrop = true;
 			this.txtAdd2.BackColor = System.Drawing.Color.White;
-			// this.txtAdd2.bolAllowDecimal = false;
+			// // = false;
 			this.txtAdd2.ForeColor = System.Drawing.Color.Black;
 			this.txtAdd2.Location = new System.Drawing.Point(103, 114);
-			// this.txtAdd2.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtAdd2.Name = "txtAdd2";
 			this.txtAdd2.Size = new System.Drawing.Size(344, 69);
 			this.txtAdd2.TabIndex = 65;
@@ -1995,8 +1995,8 @@ namespace Xtreme
 			this.txtExchangeRate.Enabled = false;
 			// this.txtExchangeRate.Format = "####0.000######";
 			this.txtExchangeRate.Location = new System.Drawing.Point(410, 154);
-			// this.txtExchangeRate.MaxValue = 2147483647;
-			// this.txtExchangeRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtExchangeRate.Name = "txtExchangeRate";
 			this.txtExchangeRate.Size = new System.Drawing.Size(103, 23);
 			this.txtExchangeRate.TabIndex = 9;
@@ -2044,8 +2044,8 @@ namespace Xtreme
 			this._txtCommonTextBox_3.TabIndex = 6;
 			this._txtCommonTextBox_3.Text = "";
 			this._txtCommonTextBox_3.Visible = false;
-			// this.this._txtCommonTextBox_3.Watermark = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_1
@@ -2062,8 +2062,8 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 23);
 			this._txtCommonTextBox_1.TabIndex = 0;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.Watermark = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_19
@@ -2140,8 +2140,8 @@ namespace Xtreme
 			this._txtCommonTextBox_7.Size = new System.Drawing.Size(103, 23);
 			this._txtCommonTextBox_7.TabIndex = 1;
 			this._txtCommonTextBox_7.Text = "";
-			// this.this._txtCommonTextBox_7.Watermark = "";
-			// this.this._txtCommonTextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_7.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_24
@@ -2171,8 +2171,8 @@ namespace Xtreme
 			this._txtCommonTextBox_15.TabIndex = 4;
 			this._txtCommonTextBox_15.Text = "";
 			this._txtCommonTextBox_15.Visible = false;
-			// this.this._txtCommonTextBox_15.Watermark = "";
-			// this.this._txtCommonTextBox_15.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_15.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_15.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_17
@@ -2200,8 +2200,8 @@ namespace Xtreme
 			this._txtCommonTextBox_8.TabIndex = 2;
 			this._txtCommonTextBox_8.Text = "";
 			this._txtCommonTextBox_8.Visible = false;
-			// this.this._txtCommonTextBox_8.Watermark = "";
-			// this.this._txtCommonTextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_8.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_7
@@ -2256,8 +2256,8 @@ namespace Xtreme
 			this._txtCommonTextBox_13.Size = new System.Drawing.Size(57, 23);
 			this._txtCommonTextBox_13.TabIndex = 8;
 			this._txtCommonTextBox_13.Text = "";
-			// this.this._txtCommonTextBox_13.Watermark = "";
-			// this.this._txtCommonTextBox_13.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_13.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_13.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_23
@@ -2272,8 +2272,8 @@ namespace Xtreme
 			this._txtCommonTextBox_23.TabIndex = 25;
 			this._txtCommonTextBox_23.Text = "";
 			this._txtCommonTextBox_23.Visible = false;
-			// this.this._txtCommonTextBox_23.Watermark = "";
-			// this.this._txtCommonTextBox_23.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_23.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_23.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_28
@@ -2299,8 +2299,8 @@ namespace Xtreme
 			this._txtCommonTextBox_24.Size = new System.Drawing.Size(101, 23);
 			this._txtCommonTextBox_24.TabIndex = 14;
 			this._txtCommonTextBox_24.Text = "";
-			// this.this._txtCommonTextBox_24.Watermark = "";
-			// this.this._txtCommonTextBox_24.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_24.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_24.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_29
@@ -2352,8 +2352,8 @@ namespace Xtreme
 			this._txtCommonTextBox_9.TabIndex = 5;
 			this._txtCommonTextBox_9.Text = "";
 			this._txtCommonTextBox_9.Visible = false;
-			// this.this._txtCommonTextBox_9.Watermark = "";
-			// this.this._txtCommonTextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_9.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_6
@@ -2379,8 +2379,8 @@ namespace Xtreme
 			this._txtCommonTextBox_19.TabIndex = 28;
 			this._txtCommonTextBox_19.Text = "";
 			this._txtCommonTextBox_19.Visible = false;
-			// this.this._txtCommonTextBox_19.Watermark = "";
-			// this.this._txtCommonTextBox_19.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_19.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_19.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_18
@@ -2396,8 +2396,8 @@ namespace Xtreme
 			this._txtCommonTextBox_18.TabIndex = 29;
 			this._txtCommonTextBox_18.Text = "";
 			this._txtCommonTextBox_18.Visible = false;
-			// this.this._txtCommonTextBox_18.Watermark = "";
-			// this.this._txtCommonTextBox_18.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_18.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_18.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_20
@@ -2426,8 +2426,8 @@ namespace Xtreme
 			this._txtCommonTextBox_17.TabIndex = 30;
 			this._txtCommonTextBox_17.Text = "";
 			this._txtCommonTextBox_17.Visible = false;
-			// this.this._txtCommonTextBox_17.Watermark = "";
-			// this.this._txtCommonTextBox_17.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_17.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_17.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_23
@@ -2491,8 +2491,8 @@ namespace Xtreme
 			this._txtCommonTextBox_4.TabIndex = 7;
 			this._txtCommonTextBox_4.Text = "";
 			this._txtCommonTextBox_4.Visible = false;
-			// this.this._txtCommonTextBox_4.Watermark = "";
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_20
@@ -2508,8 +2508,8 @@ namespace Xtreme
 			this._txtCommonTextBox_20.TabIndex = 32;
 			this._txtCommonTextBox_20.Text = "";
 			this._txtCommonTextBox_20.Visible = false;
-			// this.this._txtCommonTextBox_20.Watermark = "";
-			// this.this._txtCommonTextBox_20.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_20.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_20.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_25
@@ -2587,8 +2587,8 @@ namespace Xtreme
 			this._txtCommonTextBox_22.TabIndex = 35;
 			this._txtCommonTextBox_22.Text = "";
 			this._txtCommonTextBox_22.Visible = false;
-			// this.this._txtCommonTextBox_22.Watermark = "";
-			// this.this._txtCommonTextBox_22.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_22.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_22.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// cmbMastersList
@@ -2618,8 +2618,8 @@ namespace Xtreme
 			this.txtCreditDays.AllowDrop = true;
 			// this.txtCreditDays.DisplayFormat = "####0;;0;0";
 			this.txtCreditDays.Location = new System.Drawing.Point(108, 178);
-			// this.txtCreditDays.MaxValue = 2147483647;
-			// this.txtCreditDays.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtCreditDays.Name = "txtCreditDays";
 			this.txtCreditDays.Size = new System.Drawing.Size(36, 25);
 			this.txtCreditDays.TabIndex = 137;
@@ -2791,8 +2791,8 @@ namespace Xtreme
 			this._txtCommonTextBox_25.TabIndex = 10;
 			this._txtCommonTextBox_25.Text = "";
 			this._txtCommonTextBox_25.Visible = false;
-			// this.this._txtCommonTextBox_25.Watermark = "";
-			// this.this._txtCommonTextBox_25.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_25.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_25.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_12
@@ -2828,8 +2828,8 @@ namespace Xtreme
 			this._txtCommonTextBox_21.TabIndex = 67;
 			this._txtCommonTextBox_21.Text = "";
 			this._txtCommonTextBox_21.Visible = false;
-			// this.this._txtCommonTextBox_21.Watermark = "";
-			// this.this._txtCommonTextBox_21.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_21.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_21.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_11
@@ -2865,8 +2865,8 @@ namespace Xtreme
 			this._txtCommonTextBox_26.TabIndex = 11;
 			this._txtCommonTextBox_26.Text = "";
 			this._txtCommonTextBox_26.Visible = false;
-			// this.this._txtCommonTextBox_26.Watermark = "";
-			// this.this._txtCommonTextBox_26.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_26.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_26.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_13
@@ -2897,7 +2897,7 @@ namespace Xtreme
 			// 
 			this.fraVoucherName.AllowDrop = true;
 			this.fraVoucherName.BackColor = System.Drawing.Color.Black;
-			this.fraVoucherName.BackStyle = 0;
+			// = 0;
 			this.fraVoucherName.BorderColor = System.Drawing.Color.Black;
 			this.fraVoucherName.BorderStyle = 1;
 			this.fraVoucherName.Enabled = false;
@@ -2912,7 +2912,7 @@ namespace Xtreme
 			// 
 			this.fraVoucherImport.AllowDrop = true;
 			this.fraVoucherImport.BackColor = System.Drawing.Color.White;
-			this.fraVoucherImport.BackStyle = 0;
+			// = 0;
 			this.fraVoucherImport.BorderColor = System.Drawing.Color.Black;
 			this.fraVoucherImport.BorderStyle = 1;
 			this.fraVoucherImport.Enabled = false;
@@ -2927,7 +2927,7 @@ namespace Xtreme
 			// 
 			this.fraVoucherType.AllowDrop = true;
 			this.fraVoucherType.BackColor = System.Drawing.Color.Black;
-			this.fraVoucherType.BackStyle = 0;
+			// = 0;
 			this.fraVoucherType.BorderColor = System.Drawing.Color.Black;
 			this.fraVoucherType.BorderStyle = 1;
 			this.fraVoucherType.Enabled = false;
@@ -2942,7 +2942,7 @@ namespace Xtreme
 			// 
 			this.fraCustomerDetails.AllowDrop = true;
 			this.fraCustomerDetails.BackColor = System.Drawing.Color.Black;
-			this.fraCustomerDetails.BackStyle = 0;
+			// = 0;
 			this.fraCustomerDetails.BorderColor = System.Drawing.Color.Black;
 			this.fraCustomerDetails.BorderStyle = 1;
 			this.fraCustomerDetails.Enabled = false;
@@ -2957,7 +2957,7 @@ namespace Xtreme
 			// 
 			this.frmHeader.AllowDrop = true;
 			this.frmHeader.BackColor = System.Drawing.Color.Black;
-			this.frmHeader.BackStyle = 0;
+			// = 0;
 			this.frmHeader.BorderColor = System.Drawing.Color.Black;
 			this.frmHeader.BorderStyle = 1;
 			this.frmHeader.Enabled = false;
@@ -2972,7 +2972,7 @@ namespace Xtreme
 			// 
 			this.fraTransactionHeader.AllowDrop = true;
 			this.fraTransactionHeader.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.fraTransactionHeader.BackStyle = 1;
+			// = 1;
 			this.fraTransactionHeader.BorderStyle = 0;
 			this.fraTransactionHeader.Enabled = false;
 			this.fraTransactionHeader.FillColor = System.Drawing.Color.Black;
@@ -3166,12 +3166,12 @@ namespace Xtreme
 		}
 		void InitializeTabControlPage3()
 		{
-			this.TabControlPage3 = new AxXtremeSuiteControls.AxTabControlPage[3];
+			this.TabControlPage3 = new Syncfusion.Windows.Forms.Tools.TabPageAdv[3];
 			this.TabControlPage3[2] = _TabControlPage3_2;
 		}
 		void InitializeTabControlPage2()
 		{
-			this.TabControlPage2 = new AxXtremeSuiteControls.AxTabControlPage[2];
+			this.TabControlPage2 = new Syncfusion.Windows.Forms.Tools.TabPageAdv[2];
 			this.TabControlPage2[1] = _TabControlPage2_1;
 		}
 		#endregion

@@ -73,8 +73,8 @@ namespace Xtreme
 			this.txtProductName = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this.cmbCommon.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this.cmbCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMasterDetails
@@ -112,7 +112,7 @@ namespace Xtreme
 			this.txtProductCode.Size = new System.Drawing.Size(101, 19);
 			this.txtProductCode.TabIndex = 0;
 			this.txtProductCode.Text = "";
-			// this.this.txtProductCode.Watermark = "";
+			// this.// = "";
 			// this.txtProductCode.Leave += new System.EventHandler(this.txtProductCode_Leave);
 			// 
 			// lblLedgerNo

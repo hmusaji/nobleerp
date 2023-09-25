@@ -121,10 +121,10 @@ namespace Xtreme
 			// 
 			this.txtSupplier.AllowDrop = true;
 			this.txtSupplier.BackColor = System.Drawing.Color.White;
-			// this.txtSupplier.bolAllowDecimal = false;
+			// // = false;
 			this.txtSupplier.ForeColor = System.Drawing.Color.Black;
 			this.txtSupplier.Location = new System.Drawing.Point(135, 219);
-			// this.txtSupplier.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtSupplier.Name = "txtSupplier";
 			this.txtSupplier.Size = new System.Drawing.Size(367, 19);
 			this.txtSupplier.TabIndex = 9;
@@ -134,10 +134,10 @@ namespace Xtreme
 			// 
 			this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
-			// this.txtComments.bolAllowDecimal = false;
+			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(135, 261);
-			// this.txtComments.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtComments.Name = "txtComments";
 			this.txtComments.Size = new System.Drawing.Size(367, 43);
 			this.txtComments.TabIndex = 11;
@@ -173,7 +173,7 @@ namespace Xtreme
 			this.txtAssetNo.ForeColor = System.Drawing.Color.Black;
 			this.txtAssetNo.Location = new System.Drawing.Point(136, 60);
 			this.txtAssetNo.MaxLength = 15;
-			// this.txtAssetNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtAssetNo.Name = "txtAssetNo";
 			// this.txtAssetNo.ShowButton = true;
 			this.txtAssetNo.Size = new System.Drawing.Size(103, 19);
@@ -231,7 +231,7 @@ namespace Xtreme
 			this.txtAAssetName.BackColor = System.Drawing.Color.White;
 			this.txtAAssetName.ForeColor = System.Drawing.Color.Black;
 			this.txtAAssetName.Location = new System.Drawing.Point(135, 102);
-			// this.txtAAssetName.mArabicEnabled = true;
+			// // = true;
 			this.txtAAssetName.MaxLength = 50;
 			this.txtAAssetName.Name = "txtAAssetName";
 			this.txtAAssetName.Size = new System.Drawing.Size(367, 19);
@@ -245,7 +245,7 @@ namespace Xtreme
 			this.Label1.Text = "Asset Type Code";
 			this.Label1.Location = new System.Drawing.Point(7, 126);
 			// // this.Label1.mLabelId = 2105;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(84, 14);
 			this.Label1.TabIndex = 14;
 			// 
@@ -257,13 +257,13 @@ namespace Xtreme
 			this.txtAssetTypeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtAssetTypeCode.Location = new System.Drawing.Point(136, 124);
 			this.txtAssetTypeCode.MaxLength = 15;
-			// this.txtAssetTypeCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtAssetTypeCode.Name = "txtAssetTypeCode";
 			// this.txtAssetTypeCode.ShowButton = true;
 			this.txtAssetTypeCode.Size = new System.Drawing.Size(101, 19);
 			this.txtAssetTypeCode.TabIndex = 5;
 			this.txtAssetTypeCode.Text = "";
-			// this.this.txtAssetTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtAssetTypeCode_DropButtonClick);
+			// this.//this.txtAssetTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtAssetTypeCode_DropButtonClick);
 			// this.txtAssetTypeCode.Leave += new System.EventHandler(this.txtAssetTypeCode_Leave);
 			// 
 			// System.Windows.Forms.Label2
@@ -273,7 +273,7 @@ namespace Xtreme
 			this.Label2.Text = "Asset Value";
 			this.Label2.Location = new System.Drawing.Point(7, 152);
 			// // this.Label2.mLabelId = 2104;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(60, 14);
 			this.Label2.TabIndex = 16;
 			// 
@@ -284,7 +284,7 @@ namespace Xtreme
 			this.Label3.Text = "Asset Quantity";
 			this.Label3.Location = new System.Drawing.Point(267, 152);
 			// // this.Label3.mLabelId = 2109;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(72, 14);
 			this.Label3.TabIndex = 17;
 			// 
@@ -295,7 +295,7 @@ namespace Xtreme
 			this.Label4.Text = "Issued Quantity";
 			this.Label4.Location = new System.Drawing.Point(7, 174);
 			// // this.Label4.mLabelId = 2110;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(75, 14);
 			this.Label4.TabIndex = 18;
 			// 
@@ -317,7 +317,7 @@ namespace Xtreme
 			this.Label6.Text = "Balance Quantity";
 			this.Label6.Location = new System.Drawing.Point(267, 198);
 			// // this.Label6.mLabelId = 2112;
-			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Name="Label6";
 			this.Label6.Size = new System.Drawing.Size(82, 14);
 			this.Label6.TabIndex = 20;
 			// 
@@ -386,7 +386,7 @@ namespace Xtreme
 			this.Label8.Text = "Comments";
 			this.Label8.Location = new System.Drawing.Point(7, 267);
 			// // this.Label8.mLabelId = 1851;
-			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Name="Label8";
 			this.Label8.Size = new System.Drawing.Size(50, 14);
 			this.Label8.TabIndex = 25;
 			// 
@@ -453,10 +453,10 @@ namespace Xtreme
 			// 
 			this.txtSpecification.AllowDrop = true;
 			this.txtSpecification.BackColor = System.Drawing.Color.White;
-			// this.txtSpecification.bolAllowDecimal = false;
+			// // = false;
 			this.txtSpecification.ForeColor = System.Drawing.Color.Black;
 			this.txtSpecification.Location = new System.Drawing.Point(135, 240);
-			// this.txtSpecification.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtSpecification.Name = "txtSpecification";
 			this.txtSpecification.Size = new System.Drawing.Size(367, 19);
 			this.txtSpecification.TabIndex = 10;
@@ -524,13 +524,13 @@ namespace Xtreme
 		//	this.txtCommonNumber[4] = _txtCommonNumber_4;
 		//	this.txtCommonNumber[1] = _txtCommonNumber_1;
 		//}
-		//void InitializeSystem.Windows.Forms.Label7()
+		//void InitializeSystemWindowsFormsLabel7()
 		//{
 		//	this.Label7 = new System.Windows.Forms.Label[2];
 		//	this.Label7[0] = Label7_0;
 		//	this.Label7[1] = Label7_1;
 		//}
-		//void InitializeSystem.Windows.Forms.Label5()
+		//void InitializeSystemWindowsFormsLabel5()
 		//{
 		//	this.Label5 = new System.Windows.Forms.Label[3];
 		//	this.Label5[0] = Label5_0;

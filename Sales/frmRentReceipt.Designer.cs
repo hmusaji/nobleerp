@@ -53,7 +53,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTempDate;
 		public System.Windows.Forms.Panel Frame1;
-		public AxC1SizerLib.AxC1Tab C1Tab1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv C1Tab1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDate;
 		private System.Windows.Forms.Label Label_0;
 		public System.Windows.Forms.TextBox txtBuildingNo;
@@ -70,7 +70,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRentReceipt));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.C1Tab1 = new AxC1SizerLib.AxC1Tab();
+			this.C1Tab1 = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -87,10 +87,10 @@ namespace Xtreme
 			this.Label_2 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.C1Tab1).BeginInit();
-			this.C1Tab1.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.C1Tab1.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// C1Tab1
@@ -187,7 +187,7 @@ namespace Xtreme
 			// this.txtDate.MaxDate = 2958465;
 			// this.txtDate.MinDate = -657434;
 			this.txtDate.Name = "txtDate";
-			this.txtDate.PromptChar = "_";
+			// = "_";
 			this.txtDate.Size = new System.Drawing.Size(89, 19);
 			this.txtDate.TabIndex = 5;
 			// this.txtDate.Text = "23/02/2014";
@@ -207,15 +207,15 @@ namespace Xtreme
 			// 
 			this.txtBuildingNo.AllowDrop = true;
 			this.txtBuildingNo.BackColor = System.Drawing.Color.White;
-			// this.txtBuildingNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtBuildingNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBuildingNo.Location = new System.Drawing.Point(106, 34);
-			// this.txtBuildingNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtBuildingNo.Name = "txtBuildingNo";
 			this.txtBuildingNo.Size = new System.Drawing.Size(87, 19);
 			this.txtBuildingNo.TabIndex = 7;
 			this.txtBuildingNo.Text = "";
-			// this.this.txtBuildingNo.Watermark = "";
+			// this.// = "";
 			// 
 			// Label_1
 			// 
@@ -232,15 +232,15 @@ namespace Xtreme
 			// 
 			this.txtDescription.AllowDrop = true;
 			this.txtDescription.BackColor = System.Drawing.Color.White;
-			// this.txtDescription.bolAllowDecimal = false;
+			// // = false;
 			this.txtDescription.ForeColor = System.Drawing.Color.Black;
 			this.txtDescription.Location = new System.Drawing.Point(106, 56);
-			// this.txtDescription.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtDescription.Name = "txtDescription";
 			this.txtDescription.Size = new System.Drawing.Size(331, 19);
 			this.txtDescription.TabIndex = 9;
 			this.txtDescription.Text = "";
-			// this.this.txtDescription.Watermark = "";
+			// this.// = "";
 			// 
 			// Label_2
 			// 
@@ -291,7 +291,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label()
+		void InitializeSystemWindowsFormsLabel()
 		{
 			this.Label = new System.Windows.Forms.Label[3];
 			this.Label[0] = Label_0;

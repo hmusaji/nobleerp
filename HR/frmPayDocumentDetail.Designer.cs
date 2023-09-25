@@ -106,10 +106,10 @@ namespace Xtreme
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtIssueDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.txtExpireDate).BeginInit();
-			this.cmbMastersList.SuspendLayout();
-			this.cmbMastersList1.SuspendLayout();
-			this.cmbMastersList2.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.cmbMastersList1.SuspendLayout();
+			//this.cmbMastersList2.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _txtCommonTextBox_5

@@ -96,13 +96,13 @@ namespace Xtreme
 			this.txtQalfnNo.ForeColor = System.Drawing.Color.Black;
 			this.txtQalfnNo.Location = new System.Drawing.Point(150, 36);
 			this.txtQalfnNo.MaxLength = 15;
-			// this.txtQalfnNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtQalfnNo.Name = "txtQalfnNo";
 			// this.txtQalfnNo.ShowButton = true;
 			this.txtQalfnNo.Size = new System.Drawing.Size(101, 19);
 			this.txtQalfnNo.TabIndex = 1;
 			this.txtQalfnNo.Text = "";
-			// this.this.txtQalfnNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtQalfnNo_DropButtonClick);
+			// this.//this.txtQalfnNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtQalfnNo_DropButtonClick);
 			// 
 			// lblLNatName
 			// 
@@ -144,7 +144,7 @@ namespace Xtreme
 			this.txtAQalfnName.BackColor = System.Drawing.Color.White;
 			this.txtAQalfnName.ForeColor = System.Drawing.Color.Black;
 			this.txtAQalfnName.Location = new System.Drawing.Point(150, 78);
-			// this.txtAQalfnName.mArabicEnabled = true;
+			// // = true;
 			this.txtAQalfnName.MaxLength = 50;
 			this.txtAQalfnName.Name = "txtAQalfnName";
 			this.txtAQalfnName.Size = new System.Drawing.Size(201, 19);

@@ -85,8 +85,8 @@ namespace Xtreme
 			this.txtLocationName = new System.Windows.Forms.Label();
 			this.txtVoucherName = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.cntMainParameter.SuspendLayout();
-			this.fraDateRange.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdOKCancel
@@ -205,7 +205,7 @@ namespace Xtreme
 			this.txtLocationCode.Size = new System.Drawing.Size(101, 19);
 			this.txtLocationCode.TabIndex = 1;
 			this.txtLocationCode.Text = "";
-			// this.this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationCode_DropButtonClick);
+			// this.//this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationCode_DropButtonClick);
 			// this.txtLocationCode.Leave += new System.EventHandler(this.txtLocationCode_Leave);
 			// 
 			// txtVoucherType
@@ -219,7 +219,7 @@ namespace Xtreme
 			this.txtVoucherType.Size = new System.Drawing.Size(101, 19);
 			this.txtVoucherType.TabIndex = 0;
 			this.txtVoucherType.Text = "";
-			// this.this.txtVoucherType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtVoucherType_DropButtonClick);
+			// this.//this.txtVoucherType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtVoucherType_DropButtonClick);
 			// this.txtVoucherType.Leave += new System.EventHandler(this.txtVoucherType_Leave);
 			// 
 			// txtTransactionDate
@@ -243,7 +243,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(10, 56);
 			// this.Label1.mLabelId = 948;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(82, 13);
 			this.Label1.TabIndex = 9;
 			// 

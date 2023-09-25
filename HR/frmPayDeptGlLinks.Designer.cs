@@ -77,8 +77,8 @@ namespace Xtreme
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdUpdateEmpGLLink

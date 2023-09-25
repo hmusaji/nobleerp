@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			this.txtNotifyPeriod.AllowDrop = true;
 			this.txtNotifyPeriod.Location = new System.Drawing.Point(142, 141);
-			// this.txtNotifyPeriod.MinValue = 0;
+			// // = 0;
 			this.txtNotifyPeriod.Name = "txtNotifyPeriod";
 			this.txtNotifyPeriod.Size = new System.Drawing.Size(101, 19);
 			this.txtNotifyPeriod.TabIndex = 4;
@@ -111,13 +111,13 @@ namespace Xtreme
 			this.txtDocNo.ForeColor = System.Drawing.Color.Black;
 			this.txtDocNo.Location = new System.Drawing.Point(142, 57);
 			this.txtDocNo.MaxLength = 15;
-			// this.txtDocNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtDocNo.Name = "txtDocNo";
 			// this.txtDocNo.ShowButton = true;
 			this.txtDocNo.Size = new System.Drawing.Size(101, 19);
 			this.txtDocNo.TabIndex = 0;
 			this.txtDocNo.Text = "";
-			// this.this.txtDocNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDocNo_DropButtonClick);
+			// this.//this.txtDocNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDocNo_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.txtADocName.BackColor = System.Drawing.Color.White;
 			this.txtADocName.ForeColor = System.Drawing.Color.Black;
 			this.txtADocName.Location = new System.Drawing.Point(142, 99);
-			// this.txtADocName.mArabicEnabled = true;
+			// // = true;
 			this.txtADocName.MaxLength = 50;
 			this.txtADocName.Name = "txtADocName";
 			this.txtADocName.Size = new System.Drawing.Size(201, 19);
@@ -206,7 +206,7 @@ namespace Xtreme
 			this.txtDocumentTypeCd.Size = new System.Drawing.Size(101, 19);
 			this.txtDocumentTypeCd.TabIndex = 3;
 			this.txtDocumentTypeCd.Text = "";
-			// this.this.txtDocumentTypeCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDocumentTypeCd_DropButtonClick);
+			// this.//this.txtDocumentTypeCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDocumentTypeCd_DropButtonClick);
 			// this.txtDocumentTypeCd.Leave += new System.EventHandler(this.txtDocumentTypeCd_Leave);
 			// 
 			// lblComments
@@ -241,7 +241,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(6, 144);
 			// this.Label1.mLabelId = 2029;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(132, 14);
 			this.Label1.TabIndex = 12;
 			// 

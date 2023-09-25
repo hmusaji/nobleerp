@@ -66,7 +66,7 @@ namespace Xtreme
 			this.Column_0_grdSocialSecurityDet = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdSocialSecurityDet = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.grdSocialSecurityDet.SuspendLayout();
+			//this.grdSocialSecurityDet.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdGenerate

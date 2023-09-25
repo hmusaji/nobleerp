@@ -96,13 +96,13 @@ namespace Xtreme
 			this.txtJobTypeNo.ForeColor = System.Drawing.Color.Black;
 			this.txtJobTypeNo.Location = new System.Drawing.Point(145, 54);
 			this.txtJobTypeNo.MaxLength = 15;
-			// this.txtJobTypeNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtJobTypeNo.Name = "txtJobTypeNo";
 			// this.txtJobTypeNo.ShowButton = true;
 			this.txtJobTypeNo.Size = new System.Drawing.Size(101, 19);
 			this.txtJobTypeNo.TabIndex = 1;
 			this.txtJobTypeNo.Text = "";
-			// this.this.txtJobTypeNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblDesgNo
 			// 
@@ -137,7 +137,7 @@ namespace Xtreme
 			this.txtLJobTypeName.Size = new System.Drawing.Size(294, 19);
 			this.txtLJobTypeName.TabIndex = 4;
 			this.txtLJobTypeName.Text = "";
-			// this.this.txtLJobTypeName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblAGroupName
 			// 
@@ -156,13 +156,13 @@ namespace Xtreme
 			this.txtAJobTypeName.BackColor = System.Drawing.Color.White;
 			this.txtAJobTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtAJobTypeName.Location = new System.Drawing.Point(145, 96);
-			// this.txtAJobTypeName.mArabicEnabled = true;
+			// // = true;
 			this.txtAJobTypeName.MaxLength = 50;
 			this.txtAJobTypeName.Name = "txtAJobTypeName";
 			this.txtAJobTypeName.Size = new System.Drawing.Size(294, 19);
 			this.txtAJobTypeName.TabIndex = 6;
 			this.txtAJobTypeName.Text = "";
-			// this.this.txtAJobTypeName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 

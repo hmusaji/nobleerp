@@ -102,14 +102,14 @@ namespace Xtreme
 			this.txtGroupNo.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupNo.Location = new System.Drawing.Point(142, 60);
 			this.txtGroupNo.MaxLength = 15;
-			// this.txtGroupNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtGroupNo.Name = "txtGroupNo";
 			// this.txtGroupNo.ShowButton = true;
 			this.txtGroupNo.Size = new System.Drawing.Size(101, 19);
 			this.txtGroupNo.TabIndex = 0;
 			this.txtGroupNo.Text = "";
-			// this.this.txtGroupNo.Watermark = "";
-			// this.this.txtGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGroupNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGroupNo_DropButtonClick);
 			// 
 			// lblGroupNo
 			// 
@@ -146,7 +146,7 @@ namespace Xtreme
 			this.txtLGroupName.Size = new System.Drawing.Size(201, 19);
 			this.txtLGroupName.TabIndex = 1;
 			this.txtLGroupName.Text = "";
-			// this.this.txtLGroupName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblParentGroup
 			// 
@@ -178,13 +178,13 @@ namespace Xtreme
 			this.txtAGroupName.BackColor = System.Drawing.Color.White;
 			this.txtAGroupName.ForeColor = System.Drawing.Color.Black;
 			this.txtAGroupName.Location = new System.Drawing.Point(142, 102);
-			// this.txtAGroupName.mArabicEnabled = true;
+			// // = true;
 			this.txtAGroupName.MaxLength = 50;
 			this.txtAGroupName.Name = "txtAGroupName";
 			this.txtAGroupName.Size = new System.Drawing.Size(201, 19);
 			this.txtAGroupName.TabIndex = 2;
 			this.txtAGroupName.Text = "";
-			// this.this.txtAGroupName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 
@@ -211,8 +211,8 @@ namespace Xtreme
 			this.txtParentGroupNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentGroupNo.TabIndex = 3;
 			this.txtParentGroupNo.Text = "";
-			// this.this.txtParentGroupNo.Watermark = "";
-			// this.this.txtParentGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentGroupNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtParentGroupNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentGroupNo_DropButtonClick);
 			// this.txtParentGroupNo.Leave += new System.EventHandler(this.txtParentGroupNo_Leave);
 			// 
 			// txtParentGroupName
@@ -227,7 +227,7 @@ namespace Xtreme
 			this.txtParentGroupName.TabIndex = 10;
 			this.txtParentGroupName.TabStop = false;
 			this.txtParentGroupName.Text = " ";
-			// this.this.txtParentGroupName.Watermark = "";
+			// this.// = "";
 			// 
 			// frmFAGroup
 			// 

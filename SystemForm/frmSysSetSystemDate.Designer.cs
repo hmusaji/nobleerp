@@ -86,7 +86,7 @@ namespace Xtreme
 			this.Label1.Text = "Date";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(74, 40);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(22, 14);
 			this.Label1.TabIndex = 2;
 			this.Label1.Visible = false;

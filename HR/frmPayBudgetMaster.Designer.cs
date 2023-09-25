@@ -139,7 +139,7 @@ namespace Xtreme
 			this.txtBudgetCode.ForeColor = System.Drawing.Color.Black;
 			this.txtBudgetCode.Location = new System.Drawing.Point(138, 78);
 			this.txtBudgetCode.MaxLength = 15;
-			// this.txtBudgetCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBudgetCode.Name = "txtBudgetCode";
 			// this.txtBudgetCode.ShowButton = true;
 			this.txtBudgetCode.Size = new System.Drawing.Size(110, 19);
@@ -194,7 +194,7 @@ namespace Xtreme
 			this.txtABudgetName.BackColor = System.Drawing.Color.White;
 			this.txtABudgetName.ForeColor = System.Drawing.Color.Black;
 			this.txtABudgetName.Location = new System.Drawing.Point(138, 120);
-			// this.txtABudgetName.mArabicEnabled = true;
+			// // = true;
 			this.txtABudgetName.MaxLength = 50;
 			this.txtABudgetName.Name = "txtABudgetName";
 			this.txtABudgetName.Size = new System.Drawing.Size(343, 19);
@@ -207,7 +207,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "End Date";
 			this.Label2.Location = new System.Drawing.Point(10, 168);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(44, 13);
 			this.Label2.TabIndex = 12;
 			// 
@@ -217,7 +217,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Start Date";
 			this.Label1.Location = new System.Drawing.Point(10, 147);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(50, 13);
 			this.Label1.TabIndex = 13;
 			// 

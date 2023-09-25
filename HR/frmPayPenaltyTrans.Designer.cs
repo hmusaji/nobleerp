@@ -213,8 +213,8 @@ namespace Xtreme
 			// this.txtMonthPercent.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtMonthPercent.Format = "###########0.000";
 			this.txtMonthPercent.Location = new System.Drawing.Point(132, 174);
-			// this.txtMonthPercent.MaxValue = 2147483647;
-			// this.txtMonthPercent.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtMonthPercent.Name = "txtMonthPercent";
 			this.txtMonthPercent.Size = new System.Drawing.Size(101, 19);
 			this.txtMonthPercent.TabIndex = 6;
@@ -240,8 +240,8 @@ namespace Xtreme
 			this.txtPenaltyDeductionAmount.Enabled = false;
 			// this.txtPenaltyDeductionAmount.Format = "###########0.000";
 			this.txtPenaltyDeductionAmount.Location = new System.Drawing.Point(380, 216);
-			// this.txtPenaltyDeductionAmount.MaxValue = 2147483647;
-			// this.txtPenaltyDeductionAmount.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtPenaltyDeductionAmount.Name = "txtPenaltyDeductionAmount";
 			this.txtPenaltyDeductionAmount.Size = new System.Drawing.Size(101, 19);
 			this.txtPenaltyDeductionAmount.TabIndex = 14;
@@ -303,7 +303,7 @@ namespace Xtreme
 			this.Label12.Text = "Comments  ";
 			this.Label12.Location = new System.Drawing.Point(6, 282);
 			// this.Label12.mLabelId = 1851;
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(56, 14);
 			this.Label12.TabIndex = 25;
 			// 
@@ -318,7 +318,7 @@ namespace Xtreme
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(351, 19);
 			this._txtCommonTextBox_3.TabIndex = 13;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_5
@@ -398,7 +398,7 @@ namespace Xtreme
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_4.TabIndex = 3;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_14
@@ -417,7 +417,7 @@ namespace Xtreme
 			this.Label1.Text = "Penalty Action ";
 			this.Label1.Location = new System.Drawing.Point(6, 261);
 			// this.Label1.mLabelId = 2069;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(72, 14);
 			this.Label1.TabIndex = 33;
 			// 
@@ -432,7 +432,7 @@ namespace Xtreme
 			this._txtCommonTextBox_5.Size = new System.Drawing.Size(351, 19);
 			this._txtCommonTextBox_5.TabIndex = 12;
 			this._txtCommonTextBox_5.Text = "";
-			// this.this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_5.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_0
@@ -442,13 +442,13 @@ namespace Xtreme
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(132, 48);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_0.TabIndex = 0;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_1
@@ -463,7 +463,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 2;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// txtPenaltyDays
@@ -472,8 +472,8 @@ namespace Xtreme
 			// this.txtPenaltyDays.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtPenaltyDays.Format = "###########0.000";
 			this.txtPenaltyDays.Location = new System.Drawing.Point(132, 195);
-			// this.txtPenaltyDays.MaxValue = 2147483647;
-			// this.txtPenaltyDays.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtPenaltyDays.Name = "txtPenaltyDays";
 			this.txtPenaltyDays.Size = new System.Drawing.Size(101, 19);
 			this.txtPenaltyDays.TabIndex = 7;
@@ -497,8 +497,8 @@ namespace Xtreme
 			// this.txtPenaltyAmount.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtPenaltyAmount.Format = "###########0.000";
 			this.txtPenaltyAmount.Location = new System.Drawing.Point(132, 217);
-			// this.txtPenaltyAmount.MaxValue = 2147483647;
-			// this.txtPenaltyAmount.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtPenaltyAmount.Name = "txtPenaltyAmount";
 			this.txtPenaltyAmount.Size = new System.Drawing.Size(101, 19);
 			this.txtPenaltyAmount.TabIndex = 8;
@@ -546,8 +546,8 @@ namespace Xtreme
 			// this.txtNRepeatDeductPer.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNRepeatDeductPer.Format = "###########0.000";
 			this.txtNRepeatDeductPer.Location = new System.Drawing.Point(380, 195);
-			// this.txtNRepeatDeductPer.MaxValue = 2147483647;
-			// this.txtNRepeatDeductPer.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtNRepeatDeductPer.Name = "txtNRepeatDeductPer";
 			this.txtNRepeatDeductPer.ReadOnly = true;
 			this.txtNRepeatDeductPer.Size = new System.Drawing.Size(101, 19);

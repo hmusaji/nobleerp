@@ -100,8 +100,8 @@ namespace Xtreme
 			this.grdSurveyDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdSurveyDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdSurveyDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.cmbMastersList.SuspendLayout();
-			this.grdSurveyDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdSurveyDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// txtAPurpose
@@ -176,13 +176,13 @@ namespace Xtreme
 			this.txtSurveyDefinationCode.ForeColor = System.Drawing.Color.Black;
 			this.txtSurveyDefinationCode.Location = new System.Drawing.Point(109, 54);
 			this.txtSurveyDefinationCode.MaxLength = 15;
-			// this.txtSurveyDefinationCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtSurveyDefinationCode.Name = "txtSurveyDefinationCode";
 			// this.txtSurveyDefinationCode.ShowButton = true;
 			this.txtSurveyDefinationCode.Size = new System.Drawing.Size(110, 19);
 			this.txtSurveyDefinationCode.TabIndex = 1;
 			this.txtSurveyDefinationCode.Text = "";
-			// this.this.txtSurveyDefinationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSurveyDefinationCode_DropButtonClick);
+			// this.//this.txtSurveyDefinationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSurveyDefinationCode_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -235,7 +235,7 @@ namespace Xtreme
 			this.txtASurveyDefination.BackColor = System.Drawing.Color.White;
 			this.txtASurveyDefination.ForeColor = System.Drawing.Color.Black;
 			this.txtASurveyDefination.Location = new System.Drawing.Point(109, 99);
-			// this.txtASurveyDefination.mArabicEnabled = true;
+			// // = true;
 			this.txtASurveyDefination.MaxLength = 50;
 			this.txtASurveyDefination.Name = "txtASurveyDefination";
 			this.txtASurveyDefination.Size = new System.Drawing.Size(441, 19);
@@ -282,13 +282,13 @@ namespace Xtreme
 			this.txtRatingType.ForeColor = System.Drawing.Color.Black;
 			this.txtRatingType.Location = new System.Drawing.Point(109, 123);
 			this.txtRatingType.MaxLength = 15;
-			// this.txtRatingType.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtRatingType.Name = "txtRatingType";
 			// this.txtRatingType.ShowButton = true;
 			this.txtRatingType.Size = new System.Drawing.Size(110, 19);
 			this.txtRatingType.TabIndex = 4;
 			this.txtRatingType.Text = "";
-			// this.this.txtRatingType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtRatingType_DropButtonClick);
+			// this.//this.txtRatingType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtRatingType_DropButtonClick);
 			// this.txtRatingType.Leave += new System.EventHandler(this.txtRatingType_Leave);
 			// 
 			// System.Windows.Forms.Label2
@@ -298,7 +298,7 @@ namespace Xtreme
 			this.Label2.Text = "Rating Type Code";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(6, 125);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(85, 14);
 			this.Label2.TabIndex = 15;
 			// 
@@ -309,7 +309,7 @@ namespace Xtreme
 			this.Label1.Text = "Purpose (Arb)";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(6, 366);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(69, 14);
 			this.Label1.TabIndex = 16;
 			// 
@@ -320,7 +320,7 @@ namespace Xtreme
 			this.Label3.Text = "Purpose (Eng)";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
 			this.Label3.Location = new System.Drawing.Point(6, 318);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(69, 14);
 			this.Label3.TabIndex = 17;
 			// 

@@ -88,14 +88,14 @@ namespace Xtreme
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(146, 50);
 			this._txtCommon_0.MaxLength = 15;
-			// this._txtCommon_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommon_0.Name = "_txtCommon_0";
 			// this._txtCommon_0.ShowButton = true;
 			this._txtCommon_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_0.TabIndex = 0;
 			this._txtCommon_0.Text = "";
-			// this.this._txtCommon_0.Watermark = "";
-			// this.this._txtCommon_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommon_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// 
 			// _txtCommon_1
 			// 
@@ -108,8 +108,8 @@ namespace Xtreme
 			this._txtCommon_1.Size = new System.Drawing.Size(201, 19);
 			this._txtCommon_1.TabIndex = 3;
 			this._txtCommon_1.Text = "";
-			// this.this._txtCommon_1.Watermark = "";
-			// this.this._txtCommon_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommon_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// 
 			// _txtCommon_2
 			// 
@@ -117,14 +117,14 @@ namespace Xtreme
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(146, 134);
-			// this._txtCommon_2.mArabicEnabled = true;
+			// // = true;
 			this._txtCommon_2.MaxLength = 250;
 			this._txtCommon_2.Name = "_txtCommon_2";
 			this._txtCommon_2.Size = new System.Drawing.Size(201, 19);
 			this._txtCommon_2.TabIndex = 4;
 			this._txtCommon_2.Text = "";
-			// this.this._txtCommon_2.Watermark = "";
-			// this.this._txtCommon_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommon_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// 
 			// lblAssetsCode
 			// 
@@ -158,7 +158,7 @@ namespace Xtreme
 			this.Label4.ForeColor = System.Drawing.Color.Black;
 			this.Label4.Location = new System.Drawing.Point(8, 137);
 			// this.Label4.mLabelId = 1154;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(97, 14);
 			this.Label4.TabIndex = 8;
 			// 
@@ -170,7 +170,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(8, 155);
 			// this.Label1.mLabelId = 135;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(49, 13);
 			this.Label1.TabIndex = 9;
 			// 
@@ -185,8 +185,8 @@ namespace Xtreme
 			this._txtCommon_5.Size = new System.Drawing.Size(201, 38);
 			this._txtCommon_5.TabIndex = 5;
 			this._txtCommon_5.Text = "";
-			// this.this._txtCommon_5.Watermark = "";
-			// this.this._txtCommon_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommon_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// 
 			// _txtCommon_3
 			// 
@@ -199,8 +199,8 @@ namespace Xtreme
 			this._txtCommon_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_3.TabIndex = 1;
 			this._txtCommon_3.Text = "";
-			// this.this._txtCommon_3.Watermark = "";
-			// this.this._txtCommon_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommon_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// 
 			// _txtCommon_4
 			// 
@@ -208,14 +208,14 @@ namespace Xtreme
 			this._txtCommon_4.BackColor = System.Drawing.Color.White;
 			this._txtCommon_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_4.Location = new System.Drawing.Point(146, 92);
-			// this._txtCommon_4.mArabicEnabled = true;
+			// // = true;
 			this._txtCommon_4.MaxLength = 4;
 			this._txtCommon_4.Name = "_txtCommon_4";
 			this._txtCommon_4.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_4.TabIndex = 2;
 			this._txtCommon_4.Text = "";
-			// this.this._txtCommon_4.Watermark = "";
-			// this.this._txtCommon_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommon_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// 
 			// System.Windows.Forms.Label2
 			// 
@@ -225,7 +225,7 @@ namespace Xtreme
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(8, 74);
 			// this.Label2.mLabelId = 1152;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(101, 14);
 			this.Label2.TabIndex = 10;
 			// 
@@ -237,7 +237,7 @@ namespace Xtreme
 			this.Label3.ForeColor = System.Drawing.Color.Black;
 			this.Label3.Location = new System.Drawing.Point(8, 95);
 			// this.Label3.mLabelId = 958;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(99, 14);
 			this.Label3.TabIndex = 11;
 			// 

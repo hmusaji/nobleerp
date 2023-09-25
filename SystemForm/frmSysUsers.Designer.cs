@@ -105,7 +105,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblDefaultSmanNo;
 		public System.Windows.Forms.TextBox txtDefaultSmanNo;
 		private System.Windows.Forms.Panel _fraLedgerInformation_0;
-		public AxC1SizerLib.AxC1Tab tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		private System.Windows.Forms.Label _lblCommon_3;
 		private System.Windows.Forms.Label _lblCommon_1;
 		public System.Windows.Forms.TextBox txtUserName;
@@ -136,7 +136,7 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.fraMainInformation = new System.Windows.Forms.Panel();
 			this.chkDisable = new System.Windows.Forms.CheckBox();
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._fraLedgerInformation_3 = new System.Windows.Forms.Panel();
 			this.cmbPriceList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbPriceList = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -210,14 +210,14 @@ namespace Xtreme
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.fraMainInformation).BeginInit();
-			this.fraMainInformation.SuspendLayout();
-			this.tabMaster.SuspendLayout();
-			this._fraLedgerInformation_3.SuspendLayout();
-			this.cmbPriceList.SuspendLayout();
-			this.grdPriceDetails.SuspendLayout();
-			this.fraPurchase.SuspendLayout();
-			this.fraSales.SuspendLayout();
-			this._fraLedgerInformation_0.SuspendLayout();
+			//this.fraMainInformation.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._fraLedgerInformation_3.SuspendLayout();
+			//this.cmbPriceList.SuspendLayout();
+			//this.grdPriceDetails.SuspendLayout();
+			//this.fraPurchase.SuspendLayout();
+			//this.fraSales.SuspendLayout();
+			//this._fraLedgerInformation_0.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraMainInformation
@@ -430,8 +430,8 @@ namespace Xtreme
 			// 
 			this._txtCommonNumber_3.AllowDrop = true;
 			this._txtCommonNumber_3.Location = new System.Drawing.Point(133, 152);
-			// this._txtCommonNumber_3.MaxValue = 2147483647;
-			// this._txtCommonNumber_3.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_3.Name = "_txtCommonNumber_3";
 			this._txtCommonNumber_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_3.TabIndex = 26;
@@ -499,8 +499,8 @@ namespace Xtreme
 			// 
 			this._txtCommonNumber_2.AllowDrop = true;
 			this._txtCommonNumber_2.Location = new System.Drawing.Point(133, 135);
-			// this._txtCommonNumber_2.MaxValue = 2147483647;
-			// this._txtCommonNumber_2.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_2.Name = "_txtCommonNumber_2";
 			this._txtCommonNumber_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_2.TabIndex = 25;
@@ -576,8 +576,8 @@ namespace Xtreme
 			// 
 			this._txtCommonNumber_1.AllowDrop = true;
 			this._txtCommonNumber_1.Location = new System.Drawing.Point(131, 152);
-			// this._txtCommonNumber_1.MaxValue = 2147483647;
-			// this._txtCommonNumber_1.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_1.Name = "_txtCommonNumber_1";
 			this._txtCommonNumber_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_1.TabIndex = 19;
@@ -586,8 +586,8 @@ namespace Xtreme
 			// 
 			this._txtCommonNumber_0.AllowDrop = true;
 			this._txtCommonNumber_0.Location = new System.Drawing.Point(131, 135);
-			// this._txtCommonNumber_0.MaxValue = 2147483647;
-			// this._txtCommonNumber_0.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_0.Name = "_txtCommonNumber_0";
 			this._txtCommonNumber_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_0.TabIndex = 18;
@@ -1085,7 +1085,7 @@ namespace Xtreme
 			this.txtDefaultSmanNo.Size = new System.Drawing.Size(101, 19);
 			this.txtDefaultSmanNo.TabIndex = 11;
 			this.txtDefaultSmanNo.Text = "";
-			// this.this.txtDefaultSmanNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDefaultSmanNo_DropButtonClick);
+			// this.//this.txtDefaultSmanNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDefaultSmanNo_DropButtonClick);
 			// this.txtDefaultSmanNo.Leave += new System.EventHandler(this.txtDefaultSmanNo_Leave);
 			// 
 			// _lblCommon_3

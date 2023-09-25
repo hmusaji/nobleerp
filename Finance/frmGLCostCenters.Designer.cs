@@ -85,7 +85,7 @@ namespace Xtreme
 			this.txtCostCategoryName = new System.Windows.Forms.Label();
 			this.txtParentCostName = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.cntMainParameter.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMainParameter
@@ -135,13 +135,13 @@ namespace Xtreme
 			this.txtCostNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCostNo.Location = new System.Drawing.Point(146, 12);
 			this.txtCostNo.MaxLength = 15;
-			// this.txtCostNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCostNo.Name = "txtCostNo";
 			// this.txtCostNo.ShowButton = true;
 			this.txtCostNo.Size = new System.Drawing.Size(101, 19);
 			this.txtCostNo.TabIndex = 0;
 			this.txtCostNo.Text = "";
-			// this.this.txtCostNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCostNo_DropButtonClick);
+			// this.//this.txtCostNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCostNo_DropButtonClick);
 			// 
 			// lblLCostName
 			// 
@@ -185,7 +185,7 @@ namespace Xtreme
 			this.txtACostName.BackColor = System.Drawing.Color.White;
 			this.txtACostName.ForeColor = System.Drawing.Color.Black;
 			this.txtACostName.Location = new System.Drawing.Point(146, 54);
-			// this.txtACostName.mArabicEnabled = true;
+			// // = true;
 			this.txtACostName.MaxLength = 50;
 			this.txtACostName.Name = "txtACostName";
 			this.txtACostName.Size = new System.Drawing.Size(201, 19);
@@ -217,7 +217,7 @@ namespace Xtreme
 			this.txtParentCostNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentCostNo.TabIndex = 3;
 			this.txtParentCostNo.Text = "";
-			// this.this.txtParentCostNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentCostNo_DropButtonClick);
+			// this.//this.txtParentCostNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentCostNo_DropButtonClick);
 			// this.txtParentCostNo.Leave += new System.EventHandler(this.txtParentCostNo_Leave);
 			// 
 			// lblComments
@@ -271,7 +271,7 @@ namespace Xtreme
 			this.txtCostCategoryNo.TabIndex = 4;
 			this.txtCostCategoryNo.Text = "";
 			this.txtCostCategoryNo.Visible = false;
-			// this.this.txtCostCategoryNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCostCategoryNo_DropButtonClick);
+			// this.//this.txtCostCategoryNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCostCategoryNo_DropButtonClick);
 			// this.txtCostCategoryNo.Leave += new System.EventHandler(this.txtCostCategoryNo_Leave);
 			// 
 			// txtCostCategoryName

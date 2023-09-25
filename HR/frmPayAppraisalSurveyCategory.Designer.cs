@@ -95,13 +95,13 @@ namespace Xtreme
 			this.txtCategoryCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCategoryCode.Location = new System.Drawing.Point(130, 60);
 			this.txtCategoryCode.MaxLength = 15;
-			// this.txtCategoryCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCategoryCode.Name = "txtCategoryCode";
 			// this.txtCategoryCode.ShowButton = true;
 			this.txtCategoryCode.Size = new System.Drawing.Size(101, 19);
 			this.txtCategoryCode.TabIndex = 1;
 			this.txtCategoryCode.Text = "";
-			// this.this.txtCategoryCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCategoryCode_DropButtonClick);
+			// this.//this.txtCategoryCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCategoryCode_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -143,7 +143,7 @@ namespace Xtreme
 			this.txtACategoryName.BackColor = System.Drawing.Color.White;
 			this.txtACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.txtACategoryName.Location = new System.Drawing.Point(130, 102);
-			// this.txtACategoryName.mArabicEnabled = true;
+			// // = true;
 			this.txtACategoryName.MaxLength = 50;
 			this.txtACategoryName.Name = "txtACategoryName";
 			this.txtACategoryName.Size = new System.Drawing.Size(312, 19);

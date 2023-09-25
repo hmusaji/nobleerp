@@ -58,7 +58,7 @@ namespace Xtreme
 			this.lblCommon = new System.Windows.Forms.Label();
 			this.cmdOKCancel = new UCOkCancel();
 			this.txtTotalQty = new System.Windows.Forms.Label();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// grdVoucherDetails

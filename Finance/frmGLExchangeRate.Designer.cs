@@ -82,7 +82,7 @@ namespace Xtreme
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.fraMainInformation).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.fraMainInformation.SuspendLayout();
+			//this.fraMainInformation.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraMainInformation
@@ -111,8 +111,8 @@ namespace Xtreme
 			// this.txtSaleRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtSaleRate.Format = "###########0.000";
 			this.txtSaleRate.Location = new System.Drawing.Point(103, 100);
-			// this.txtSaleRate.MaxValue = 2147483647;
-			// this.txtSaleRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtSaleRate.Name = "txtSaleRate";
 			this.txtSaleRate.Size = new System.Drawing.Size(103, 19);
 			this.txtSaleRate.TabIndex = 5;
@@ -124,8 +124,8 @@ namespace Xtreme
 			// this.txtBuyRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtBuyRate.Format = "###########0.000";
 			this.txtBuyRate.Location = new System.Drawing.Point(103, 79);
-			// this.txtBuyRate.MaxValue = 2147483647;
-			// this.txtBuyRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtBuyRate.Name = "txtBuyRate";
 			this.txtBuyRate.Size = new System.Drawing.Size(103, 19);
 			this.txtBuyRate.TabIndex = 4;
@@ -137,8 +137,8 @@ namespace Xtreme
 			// this.txtStdRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtStdRate.Format = "###########0.000";
 			this.txtStdRate.Location = new System.Drawing.Point(103, 58);
-			// this.txtStdRate.MaxValue = 2147483647;
-			// this.txtStdRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtStdRate.Name = "txtStdRate";
 			this.txtStdRate.Size = new System.Drawing.Size(103, 19);
 			this.txtStdRate.TabIndex = 3;
@@ -219,7 +219,7 @@ namespace Xtreme
 			this.txtCurrNo.Size = new System.Drawing.Size(67, 19);
 			this.txtCurrNo.TabIndex = 1;
 			this.txtCurrNo.Text = "";
-			// this.this.txtCurrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCurrNo_DropButtonClick);
+			// this.//this.txtCurrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCurrNo_DropButtonClick);
 			// this.txtCurrNo.Leave += new System.EventHandler(this.txtCurrNo_Leave);
 			// 
 			// System.Windows.Forms.Label1
@@ -228,7 +228,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Currency Code";
 			this.Label1.Location = new System.Drawing.Point(12, 39);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(73, 14);
 			this.Label1.TabIndex = 11;
 			// 

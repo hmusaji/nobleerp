@@ -168,7 +168,7 @@ namespace Xtreme
 			this.txtACompName.BackColor = System.Drawing.Color.White;
 			this.txtACompName.ForeColor = System.Drawing.Color.Black;
 			this.txtACompName.Location = new System.Drawing.Point(359, 25);
-			// this.txtACompName.mArabicEnabled = true;
+			// // = true;
 			this.txtACompName.MaxLength = 50;
 			this.txtACompName.Name = "txtACompName";
 			this.txtACompName.Size = new System.Drawing.Size(91, 19);
@@ -267,13 +267,13 @@ namespace Xtreme
 			this.txtCompNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCompNo.Location = new System.Drawing.Point(142, 47);
 			this.txtCompNo.MaxLength = 15;
-			// this.txtCompNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCompNo.Name = "txtCompNo";
 			// this.txtCompNo.ShowButton = true;
 			this.txtCompNo.Size = new System.Drawing.Size(91, 19);
 			this.txtCompNo.TabIndex = 0;
 			this.txtCompNo.Text = "";
-			// this.this.txtCompNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCompNo_DropButtonClick);
+			// this.//this.txtCompNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCompNo_DropButtonClick);
 			// 
 			// txtLFirstName
 			// 
@@ -294,7 +294,7 @@ namespace Xtreme
 			this.Label1.Text = "First Name";
 			this.Label1.Location = new System.Drawing.Point(158, 84);
 			// this.Label1.mLabelId = 1974;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(51, 14);
 			this.Label1.TabIndex = 17;
 			// 
@@ -305,7 +305,7 @@ namespace Xtreme
 			this.Label3.Text = "Third Name";
 			this.Label3.Location = new System.Drawing.Point(345, 84);
 			// this.Label3.mLabelId = 1977;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(54, 14);
 			this.Label3.TabIndex = 18;
 			// 
@@ -316,7 +316,7 @@ namespace Xtreme
 			this.Label4.Text = "Fourth Name";
 			this.Label4.Location = new System.Drawing.Point(434, 84);
 			// this.Label4.mLabelId = 1975;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(61, 14);
 			this.Label4.TabIndex = 19;
 			// 
@@ -339,7 +339,7 @@ namespace Xtreme
 			this.Label2.Text = "Second Name";
 			this.Label2.Location = new System.Drawing.Point(247, 84);
 			// this.Label2.mLabelId = 1976;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(67, 14);
 			this.Label2.TabIndex = 20;
 			// 
@@ -350,7 +350,7 @@ namespace Xtreme
 			this.Label5.Text = "License No.";
 			this.Label5.Location = new System.Drawing.Point(10, 149);
 			// this.Label5.mLabelId = 1851;
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(57, 14);
 			this.Label5.TabIndex = 21;
 			// 

@@ -76,8 +76,8 @@ namespace Xtreme
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_1 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmbMastersList

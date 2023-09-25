@@ -72,16 +72,16 @@ namespace Xtreme
 			// 
 			this.txtRemarkNo.AllowDrop = true;
 			this.txtRemarkNo.BackColor = System.Drawing.Color.White;
-			// this.txtRemarkNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtRemarkNo.ForeColor = System.Drawing.Color.Black;
 			this.txtRemarkNo.Location = new System.Drawing.Point(114, 16);
-			// this.txtRemarkNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtRemarkNo.Name = "txtRemarkNo";
 			// this.txtRemarkNo.ShowButton = true;
 			this.txtRemarkNo.Size = new System.Drawing.Size(81, 19);
 			this.txtRemarkNo.TabIndex = 0;
 			this.txtRemarkNo.Text = "";
-			// this.this.txtRemarkNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtRemarkNo_DropButtonClick);
+			// this.//this.txtRemarkNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtRemarkNo_DropButtonClick);
 			// 
 			// lblCurrNameA
 			// 
@@ -99,7 +99,7 @@ namespace Xtreme
 			this.txtARemarkName.BackColor = System.Drawing.Color.White;
 			this.txtARemarkName.ForeColor = System.Drawing.Color.Black;
 			this.txtARemarkName.Location = new System.Drawing.Point(114, 58);
-			// this.txtARemarkName.mArabicEnabled = true;
+			// // = true;
 			this.txtARemarkName.MaxLength = 200;
 			this.txtARemarkName.Name = "txtARemarkName";
 			this.txtARemarkName.Size = new System.Drawing.Size(201, 19);
@@ -134,7 +134,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Remark No";
 			this.Label1.Location = new System.Drawing.Point(9, 18);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(52, 14);
 			this.Label1.TabIndex = 5;
 			// 

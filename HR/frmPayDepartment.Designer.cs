@@ -109,13 +109,13 @@ namespace Xtreme
 			this.txtDeptNo.ForeColor = System.Drawing.Color.Black;
 			this.txtDeptNo.Location = new System.Drawing.Point(145, 57);
 			this.txtDeptNo.MaxLength = 15;
-			// this.txtDeptNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtDeptNo.Name = "txtDeptNo";
 			// this.txtDeptNo.ShowButton = true;
 			this.txtDeptNo.Size = new System.Drawing.Size(101, 19);
 			this.txtDeptNo.TabIndex = 0;
 			this.txtDeptNo.Text = "";
-			// this.this.txtDeptNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDeptNo_DropButtonClick);
+			// this.//this.txtDeptNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDeptNo_DropButtonClick);
 			// 
 			// lblGroupNo
 			// 
@@ -179,7 +179,7 @@ namespace Xtreme
 			this.txtADeptName.BackColor = System.Drawing.Color.White;
 			this.txtADeptName.ForeColor = System.Drawing.Color.Black;
 			this.txtADeptName.Location = new System.Drawing.Point(145, 99);
-			// this.txtADeptName.mArabicEnabled = true;
+			// // = true;
 			this.txtADeptName.MaxLength = 50;
 			this.txtADeptName.Name = "txtADeptName";
 			this.txtADeptName.Size = new System.Drawing.Size(201, 19);
@@ -210,7 +210,7 @@ namespace Xtreme
 			this.txtParentDeptNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentDeptNo.TabIndex = 3;
 			this.txtParentDeptNo.Text = "";
-			// this.this.txtParentDeptNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentDeptNo_DropButtonClick);
+			// this.//this.txtParentDeptNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentDeptNo_DropButtonClick);
 			// this.txtParentDeptNo.Leave += new System.EventHandler(this.txtParentDeptNo_Leave);
 			// 
 			// txtParentDeptName
@@ -240,17 +240,17 @@ namespace Xtreme
 			// 
 			this.txtApprovalTemplate.AllowDrop = true;
 			this.txtApprovalTemplate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
-			// this.txtApprovalTemplate.bolAllowDecimal = false;
+			// // = false;
 			this.txtApprovalTemplate.Enabled = false;
 			this.txtApprovalTemplate.ForeColor = System.Drawing.Color.Black;
 			this.txtApprovalTemplate.Location = new System.Drawing.Point(145, 201);
-			// this.txtApprovalTemplate.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtApprovalTemplate.Name = "txtApprovalTemplate";
 			// this.txtApprovalTemplate.ShowButton = true;
 			this.txtApprovalTemplate.Size = new System.Drawing.Size(101, 19);
 			this.txtApprovalTemplate.TabIndex = 4;
 			// this.txtApprovalTemplate.Text = "";
-			// this.this.txtApprovalTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtApprovalTemplate_DropButtonClick);
+			// this.//this.txtApprovalTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtApprovalTemplate_DropButtonClick);
 			// this.txtApprovalTemplate.Leave += new System.EventHandler(this.txtApprovalTemplate_Leave);
 			// 
 			// _lblApprovalTemplate_28

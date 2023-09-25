@@ -102,7 +102,7 @@ namespace Xtreme
 			this.txtComments.Size = new System.Drawing.Size(379, 51);
 			this.txtComments.TabIndex = 2;
 			this.txtComments.Text = "";
-			// this.this.txtComments.Watermark = "";
+			// this.// = "";
 			// 
 			// txtDepreciationNo
 			// 
@@ -113,12 +113,12 @@ namespace Xtreme
 			this.txtDepreciationNo.ForeColor = System.Drawing.Color.Black;
 			this.txtDepreciationNo.Location = new System.Drawing.Point(98, 49);
 			this.txtDepreciationNo.MaxLength = 3;
-			// this.txtDepreciationNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtDepreciationNo.Name = "txtDepreciationNo";
 			this.txtDepreciationNo.Size = new System.Drawing.Size(101, 19);
 			this.txtDepreciationNo.TabIndex = 0;
 			this.txtDepreciationNo.Text = "";
-			// this.this.txtDepreciationNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 

@@ -99,8 +99,8 @@ namespace Xtreme
 			this.txtCompanyName = new System.Windows.Forms.Label();
 			this.txtCompanyCode = new System.Windows.Forms.TextBox();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// ChkGenerateSeprateJv
@@ -227,7 +227,7 @@ namespace Xtreme
 			// this.txtDPayrollDate.MaxDate = 2958465;
 			// this.txtDPayrollDate.MinDate = -657434;
 			this.txtDPayrollDate.Name = "txtDPayrollDate";
-			this.txtDPayrollDate.PromptChar = "_";
+			// = "_";
 			this.txtDPayrollDate.Size = new System.Drawing.Size(97, 19);
 			this.txtDPayrollDate.TabIndex = 1;
 			// this.txtDPayrollDate.Text = "30/06/2011";
@@ -248,15 +248,15 @@ namespace Xtreme
 			// 
 			this.txtDocType.AllowDrop = true;
 			this.txtDocType.BackColor = System.Drawing.Color.White;
-			// this.txtDocType.bolAllowDecimal = false;
+			// // = false;
 			this.txtDocType.ForeColor = System.Drawing.Color.Black;
 			this.txtDocType.Location = new System.Drawing.Point(84, 98);
-			// this.txtDocType.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtDocType.Name = "txtDocType";
 			this.txtDocType.Size = new System.Drawing.Size(100, 19);
 			this.txtDocType.TabIndex = 2;
 			this.txtDocType.Text = "";
-			// this.this.txtDocType.Watermark = "";
+			// this.// = "";
 			// 
 			// txtDocDate
 			// 
@@ -265,7 +265,7 @@ namespace Xtreme
 			// this.txtDocDate.MaxDate = 2958465;
 			// this.txtDocDate.MinDate = -657434;
 			this.txtDocDate.Name = "txtDocDate";
-			this.txtDocDate.PromptChar = "_";
+			// = "_";
 			this.txtDocDate.Size = new System.Drawing.Size(117, 19);
 			this.txtDocDate.TabIndex = 4;
 			// this.txtDocDate.Text = "25/03/2004";
@@ -298,15 +298,15 @@ namespace Xtreme
 			// 
 			this.txtDocNo.AllowDrop = true;
 			this.txtDocNo.BackColor = System.Drawing.Color.White;
-			// this.txtDocNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtDocNo.ForeColor = System.Drawing.Color.Black;
 			this.txtDocNo.Location = new System.Drawing.Point(260, 98);
-			// this.txtDocNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtDocNo.Name = "txtDocNo";
 			this.txtDocNo.Size = new System.Drawing.Size(100, 19);
 			this.txtDocNo.TabIndex = 3;
 			this.txtDocNo.Text = "";
-			// this.this.txtDocNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_37
 			// 
@@ -343,8 +343,8 @@ namespace Xtreme
 			this.txtCompanyCode.Size = new System.Drawing.Size(101, 19);
 			this.txtCompanyCode.TabIndex = 16;
 			this.txtCompanyCode.Text = "";
-			// this.this.txtCompanyCode.Watermark = "";
-			// this.this.txtCompanyCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCompanyCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCompanyCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCompanyCode_DropButtonClick);
 			// this.txtCompanyCode.Leave += new System.EventHandler(this.txtCompanyCode_Leave);
 			// 
 			// Line1

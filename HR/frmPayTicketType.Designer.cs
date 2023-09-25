@@ -100,10 +100,10 @@ namespace Xtreme
 			// 
 			this.txtATicketTypeName.AllowDrop = true;
 			this.txtATicketTypeName.BackColor = System.Drawing.Color.White;
-			// this.txtATicketTypeName.bolAllowDecimal = false;
+			// // = false;
 			this.txtATicketTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtATicketTypeName.Location = new System.Drawing.Point(132, 109);
-			// this.txtATicketTypeName.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtATicketTypeName.Name = "txtATicketTypeName";
 			this.txtATicketTypeName.Size = new System.Drawing.Size(291, 21);
 			this.txtATicketTypeName.TabIndex = 3;
@@ -113,10 +113,10 @@ namespace Xtreme
 			// 
 			this.txtLTicketTypeName.AllowDrop = true;
 			this.txtLTicketTypeName.BackColor = System.Drawing.Color.White;
-			// this.txtLTicketTypeName.bolAllowDecimal = false;
+			// // = false;
 			this.txtLTicketTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtLTicketTypeName.Location = new System.Drawing.Point(132, 86);
-			// this.txtLTicketTypeName.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtLTicketTypeName.Name = "txtLTicketTypeName";
 			this.txtLTicketTypeName.Size = new System.Drawing.Size(291, 21);
 			this.txtLTicketTypeName.TabIndex = 2;
@@ -129,7 +129,7 @@ namespace Xtreme
 			this.Label1.Text = "Ticket Type Name (ENG)";
 			this.Label1.Location = new System.Drawing.Point(8, 89);
 			// this.Label1.mLabelId = 2094;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(117, 14);
 			this.Label1.TabIndex = 0;
 			// 
@@ -140,7 +140,7 @@ namespace Xtreme
 			this.Label2.Text = "Ticket Type Name (ARB) ";
 			this.Label2.Location = new System.Drawing.Point(8, 112);
 			// this.Label2.mLabelId = 2095;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(121, 14);
 			this.Label2.TabIndex = 7;
 			// 
@@ -151,7 +151,7 @@ namespace Xtreme
 			this.Label3.Text = "Ticket Type Name ENG ";
 			this.Label3.Location = new System.Drawing.Point(4, 181);
 			// this.Label3.mLabelId = 2096;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(112, 14);
 			this.Label3.TabIndex = 8;
 			// 
@@ -162,7 +162,7 @@ namespace Xtreme
 			this.Label5.Text = "Ticket Type Code";
 			this.Label5.Location = new System.Drawing.Point(8, 65);
 			// this.Label5.mLabelId = 2093;
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(83, 14);
 			this.Label5.TabIndex = 9;
 			// 
@@ -170,16 +170,16 @@ namespace Xtreme
 			// 
 			this.txtTicketTypeCode.AllowDrop = true;
 			this.txtTicketTypeCode.BackColor = System.Drawing.Color.White;
-			// this.txtTicketTypeCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtTicketTypeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtTicketTypeCode.Location = new System.Drawing.Point(132, 62);
-			// this.txtTicketTypeCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtTicketTypeCode.Name = "txtTicketTypeCode";
 			// this.txtTicketTypeCode.ShowButton = true;
 			this.txtTicketTypeCode.Size = new System.Drawing.Size(115, 21);
 			this.txtTicketTypeCode.TabIndex = 1;
 			this.txtTicketTypeCode.Text = "";
-			// this.this.txtTicketTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtTicketTypeCode_DropButtonClick);
+			// this.//this.txtTicketTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtTicketTypeCode_DropButtonClick);
 			// 
 			// lblEarBillName
 			// 
@@ -200,13 +200,13 @@ namespace Xtreme
 			this.txtEarBillNo.ForeColor = System.Drawing.Color.Black;
 			this.txtEarBillNo.Location = new System.Drawing.Point(132, 132);
 			this.txtEarBillNo.MaxLength = 15;
-			// this.txtEarBillNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtEarBillNo.Name = "txtEarBillNo";
 			// this.txtEarBillNo.ShowButton = true;
 			this.txtEarBillNo.Size = new System.Drawing.Size(97, 19);
 			this.txtEarBillNo.TabIndex = 4;
 			this.txtEarBillNo.Text = "";
-			// this.this.txtEarBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEarBillNo_DropButtonClick);
+			// this.//this.txtEarBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEarBillNo_DropButtonClick);
 			// this.txtEarBillNo.Leave += new System.EventHandler(this.txtEarBillNo_Leave);
 			// 
 			// txtEarBillCdName
@@ -238,13 +238,13 @@ namespace Xtreme
 			this.txtDedBillNo.ForeColor = System.Drawing.Color.Black;
 			this.txtDedBillNo.Location = new System.Drawing.Point(132, 154);
 			this.txtDedBillNo.MaxLength = 15;
-			// this.txtDedBillNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtDedBillNo.Name = "txtDedBillNo";
 			// this.txtDedBillNo.ShowButton = true;
 			this.txtDedBillNo.Size = new System.Drawing.Size(97, 19);
 			this.txtDedBillNo.TabIndex = 5;
 			this.txtDedBillNo.Text = "";
-			// this.this.txtDedBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDedBillNo_DropButtonClick);
+			// this.//this.txtDedBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDedBillNo_DropButtonClick);
 			// this.txtDedBillNo.Leave += new System.EventHandler(this.txtDedBillNo_Leave);
 			// 
 			// txtDedBillCdName

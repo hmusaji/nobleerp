@@ -75,8 +75,8 @@ namespace Xtreme
 			this.lblMasterCode = new System.Windows.Forms.Label();
 			this.txtGroupName = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.cntMainParameter.SuspendLayout();
-			this.fraDateRange.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdOKCancel
@@ -189,7 +189,7 @@ namespace Xtreme
 			this.txtGroupType.Size = new System.Drawing.Size(101, 19);
 			this.txtGroupType.TabIndex = 0;
 			this.txtGroupType.Text = "";
-			// this.this.txtGroupType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGroupType_DropButtonClick);
+			// this.//this.txtGroupType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGroupType_DropButtonClick);
 			// this.txtGroupType.Leave += new System.EventHandler(this.txtGroupType_Leave);
 			// 
 			// lblMasterCode

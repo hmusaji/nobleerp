@@ -90,9 +90,9 @@ namespace Xtreme
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_1 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
-			this.cmbMastersList1.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdProjectAttendance.SuspendLayout();
+			//this.cmbMastersList1.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdProjectAttendance.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmbMastersList1
@@ -184,7 +184,7 @@ namespace Xtreme
 			this.txtProjectNo.Size = new System.Drawing.Size(100, 19);
 			this.txtProjectNo.TabIndex = 1;
 			this.txtProjectNo.Text = "";
-			// this.this.txtProjectNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtProjectNo_DropButtonClick);
+			// this.//this.txtProjectNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtProjectNo_DropButtonClick);
 			// this.txtProjectNo.Leave += new System.EventHandler(this.txtProjectNo_Leave);
 			// 
 			// txtDAttandanceDate

@@ -100,7 +100,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label txtMasterName;
 		public System.Windows.Forms.Label lblReportFilter;
 		public System.Windows.Forms.Panel fraLedgerInformation;
-		public AxC1SizerLib.AxC1Tab tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		public System.Windows.Forms.ImageList imlShortcutBarIcons;
 		public UpgradeHelpers.Gui.ListViewHelper listViewHelper1;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -113,7 +113,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysReportingModule));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.imlShortcutBarIconsBig = new System.Windows.Forms.ImageList();
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.fraLedgerInformation = new System.Windows.Forms.Panel();
 			this.fraCostCenter = new System.Windows.Forms.Panel();
 			this.txtAdvanceCostCode = new System.Windows.Forms.TextBox();
@@ -171,14 +171,14 @@ namespace Xtreme
 			this.imlShortcutBarIcons = new System.Windows.Forms.ImageList();
 			// //((System.ComponentModel.ISupportInitialize) this.rptLevelSlider).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
-			this.tabMaster.SuspendLayout();
-			this.fraLedgerInformation.SuspendLayout();
-			this.fraCostCenter.SuspendLayout();
-			this.fraOptions.SuspendLayout();
-			this.fraDateRange.SuspendLayout();
-			this.lstGroup.SuspendLayout();
-			this.lstReport.SuspendLayout();
-			this.fraVoucherRange.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this.fraLedgerInformation.SuspendLayout();
+			//this.fraCostCenter.SuspendLayout();
+			//this.fraOptions.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
+			//this.lstGroup.SuspendLayout();
+			//this.lstReport.SuspendLayout();
+			//this.fraVoucherRange.SuspendLayout();
 			this.SuspendLayout();
 			this.listViewHelper1 = new UpgradeHelpers.Gui.ListViewHelper(this.components);
 			// //((System.ComponentModel.ISupportInitialize) this.listViewHelper1).BeginInit();
@@ -273,8 +273,8 @@ namespace Xtreme
 			this.txtAdvanceCostCode.Size = new System.Drawing.Size(101, 19);
 			this.txtAdvanceCostCode.TabIndex = 49;
 			this.txtAdvanceCostCode.Text = "";
-			// this.this.txtAdvanceCostCode.Watermark = "";
-			// this.this.txtAdvanceCostCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtAdvanceCostCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtAdvanceCostCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtAdvanceCostCode_DropButtonClick);
 			// this.txtAdvanceCostCode.Leave += new System.EventHandler(this.txtAdvanceCostCode_Leave);
 			// 
 			// lblAdvanceCostCode
@@ -308,7 +308,7 @@ namespace Xtreme
 			this.txtFromVoucherNo.Size = new System.Drawing.Size(101, 19);
 			this.txtFromVoucherNo.TabIndex = 12;
 			this.txtFromVoucherNo.Text = "";
-			// this.this.txtFromVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// fraOptions
 			// 
@@ -514,33 +514,33 @@ namespace Xtreme
 			// 
 			this.txtAnalysisCode2.AllowDrop = true;
 			this.txtAnalysisCode2.BackColor = System.Drawing.Color.White;
-			// this.txtAnalysisCode2.bolAllowDecimal = false;
+			// // = false;
 			this.txtAnalysisCode2.ForeColor = System.Drawing.Color.Black;
 			this.txtAnalysisCode2.Location = new System.Drawing.Point(138, 43);
 			this.txtAnalysisCode2.MaxLength = 12;
-			// this.txtAnalysisCode2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAnalysisCode2.Name = "txtAnalysisCode2";
 			// this.txtAnalysisCode2.ShowButton = true;
 			this.txtAnalysisCode2.Size = new System.Drawing.Size(101, 19);
 			this.txtAnalysisCode2.TabIndex = 18;
 			this.txtAnalysisCode2.Text = "";
-			// this.this.txtAnalysisCode2.Watermark = "";
+			// this.// = "";
 			// 
 			// txtAnalysisCode1
 			// 
 			this.txtAnalysisCode1.AllowDrop = true;
 			this.txtAnalysisCode1.BackColor = System.Drawing.Color.White;
-			// this.txtAnalysisCode1.bolAllowDecimal = false;
+			// // = false;
 			this.txtAnalysisCode1.ForeColor = System.Drawing.Color.Black;
 			this.txtAnalysisCode1.Location = new System.Drawing.Point(138, 22);
 			this.txtAnalysisCode1.MaxLength = 12;
-			// this.txtAnalysisCode1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtAnalysisCode1.Name = "txtAnalysisCode1";
 			// this.txtAnalysisCode1.ShowButton = true;
 			this.txtAnalysisCode1.Size = new System.Drawing.Size(101, 19);
 			this.txtAnalysisCode1.TabIndex = 17;
 			this.txtAnalysisCode1.Text = "";
-			// this.this.txtAnalysisCode1.Watermark = "";
+			// this.// = "";
 			// 
 			// lblAnalysisCode2
 			// 
@@ -575,7 +575,7 @@ namespace Xtreme
 			this.txtProjectCode.Size = new System.Drawing.Size(101, 19);
 			this.txtProjectCode.TabIndex = 16;
 			this.txtProjectCode.Text = "";
-			// this.this.txtProjectCode.Watermark = "";
+			// this.// = "";
 			// 
 			// lblProjectCode
 			// 
@@ -602,8 +602,8 @@ namespace Xtreme
 			// 
 			this.txtTabSpaceInTree.AllowDrop = true;
 			this.txtTabSpaceInTree.Location = new System.Drawing.Point(138, 87);
-			// this.txtTabSpaceInTree.MaxValue = 50;
-			// this.txtTabSpaceInTree.MinValue = 0;
+			// // = 50;
+			// // = 0;
 			this.txtTabSpaceInTree.Name = "txtTabSpaceInTree";
 			this.txtTabSpaceInTree.Size = new System.Drawing.Size(101, 19);
 			this.txtTabSpaceInTree.TabIndex = 21;
@@ -626,12 +626,12 @@ namespace Xtreme
 			this.txtGroupPrefix.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupPrefix.Location = new System.Drawing.Point(138, 66);
 			this.txtGroupPrefix.MaxLength = 12;
-			// this.txtGroupPrefix.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtGroupPrefix.Name = "txtGroupPrefix";
 			this.txtGroupPrefix.Size = new System.Drawing.Size(49, 19);
 			this.txtGroupPrefix.TabIndex = 19;
 			this.txtGroupPrefix.Text = "";
-			// this.this.txtGroupPrefix.Watermark = "";
+			// this.// = "";
 			// 
 			// lblGroupPrefix
 			// 
@@ -651,12 +651,12 @@ namespace Xtreme
 			this.txtGroupSuffix.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupSuffix.Location = new System.Drawing.Point(190, 65);
 			this.txtGroupSuffix.MaxLength = 12;
-			// this.txtGroupSuffix.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtGroupSuffix.Name = "txtGroupSuffix";
 			this.txtGroupSuffix.Size = new System.Drawing.Size(49, 19);
 			this.txtGroupSuffix.TabIndex = 20;
 			this.txtGroupSuffix.Text = "";
-			// this.this.txtGroupSuffix.Watermark = "";
+			// this.// = "";
 			// 
 			// lblTabSpaceInTree
 			// 
@@ -822,8 +822,8 @@ namespace Xtreme
 			this.txtLocationCode.TabIndex = 9;
 			this.txtLocationCode.Text = "";
 			this.txtLocationCode.Visible = false;
-			// this.this.txtLocationCode.Watermark = "";
-			// this.this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationCode_DropButtonClick);
 			// this.txtLocationCode.Leave += new System.EventHandler(this.txtLocationCode_Leave);
 			// 
 			// lblLocationCode
@@ -860,8 +860,8 @@ namespace Xtreme
 			this.txtMasterCode.TabIndex = 8;
 			this.txtMasterCode.Text = "";
 			this.txtMasterCode.Visible = false;
-			// this.this.txtMasterCode.Watermark = "";
-			// this.this.txtMasterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtMasterCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtMasterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtMasterCode_DropButtonClick);
 			// this.txtMasterCode.Leave += new System.EventHandler(this.txtMasterCode_Leave);
 			// 
 			// fraVoucherRange
@@ -892,7 +892,7 @@ namespace Xtreme
 			this.txtToVoucherNo.Size = new System.Drawing.Size(101, 19);
 			this.txtToVoucherNo.TabIndex = 14;
 			this.txtToVoucherNo.Text = "";
-			// this.this.txtToVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblToVoucherNo
 			// 
@@ -926,7 +926,7 @@ namespace Xtreme
 			this.txtCostCenterCode.TabIndex = 15;
 			this.txtCostCenterCode.Text = "";
 			this.txtCostCenterCode.Visible = false;
-			// this.this.txtCostCenterCode.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCostCenterCode
 			// 

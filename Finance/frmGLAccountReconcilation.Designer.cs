@@ -133,7 +133,7 @@ namespace Xtreme
 			this.txtComments = new System.Windows.Forms.TextBox();
 			this.Line = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkShowReconciled
@@ -168,7 +168,7 @@ namespace Xtreme
 			this.txtLdgrName.Size = new System.Drawing.Size(201, 19);
 			this.txtLdgrName.TabIndex = 2;
 			this.txtLdgrName.Text = "";
-			// this.this.txtLdgrName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtLdgrNo
 			// 
@@ -181,8 +181,8 @@ namespace Xtreme
 			this.txtLdgrNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLdgrNo.TabIndex = 0;
 			this.txtLdgrNo.Text = "";
-			// this.this.txtLdgrNo.Watermark = "";
-			// this.this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLdgrNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLdgrNo_DropButtonClick);
 			// this.txtLdgrNo.Leave += new System.EventHandler(this.txtLdgrNo_Leave);
 			// 
 			// lblLedgerNo
@@ -331,8 +331,8 @@ namespace Xtreme
 			this.txtUnreconciledDebitAmount.Enabled = false;
 			// this.txtUnreconciledDebitAmount.Format = "###########0.000";
 			this.txtUnreconciledDebitAmount.Location = new System.Drawing.Point(619, 148);
-			// this.txtUnreconciledDebitAmount.MaxValue = 2147483647;
-			// this.txtUnreconciledDebitAmount.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtUnreconciledDebitAmount.Name = "txtUnreconciledDebitAmount";
 			this.txtUnreconciledDebitAmount.Size = new System.Drawing.Size(102, 19);
 			this.txtUnreconciledDebitAmount.TabIndex = 13;
@@ -358,8 +358,8 @@ namespace Xtreme
 			this.txtAccountReconcilationDiff.Enabled = false;
 			// this.txtAccountReconcilationDiff.Format = "###########0.000";
 			this.txtAccountReconcilationDiff.Location = new System.Drawing.Point(619, 193);
-			// this.txtAccountReconcilationDiff.MaxValue = 2147483647;
-			// this.txtAccountReconcilationDiff.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtAccountReconcilationDiff.Name = "txtAccountReconcilationDiff";
 			this.txtAccountReconcilationDiff.Size = new System.Drawing.Size(102, 19);
 			this.txtAccountReconcilationDiff.TabIndex = 15;
@@ -409,8 +409,8 @@ namespace Xtreme
 			this.txtGLSystemBalance.Enabled = false;
 			// this.txtGLSystemBalance.Format = "###########0.000";
 			this.txtGLSystemBalance.Location = new System.Drawing.Point(619, 166);
-			// this.txtGLSystemBalance.MaxValue = 2147483647;
-			// this.txtGLSystemBalance.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtGLSystemBalance.Name = "txtGLSystemBalance";
 			this.txtGLSystemBalance.Size = new System.Drawing.Size(102, 19);
 			this.txtGLSystemBalance.TabIndex = 19;
@@ -424,8 +424,8 @@ namespace Xtreme
 			this.txtUnreconciledCreditAmount.Enabled = false;
 			// this.txtUnreconciledCreditAmount.Format = "###########0.000";
 			this.txtUnreconciledCreditAmount.Location = new System.Drawing.Point(619, 130);
-			// this.txtUnreconciledCreditAmount.MaxValue = 2147483647;
-			// this.txtUnreconciledCreditAmount.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtUnreconciledCreditAmount.Name = "txtUnreconciledCreditAmount";
 			this.txtUnreconciledCreditAmount.Size = new System.Drawing.Size(102, 19);
 			this.txtUnreconciledCreditAmount.TabIndex = 20;
@@ -450,8 +450,8 @@ namespace Xtreme
 			// this.txtStatementEndingBalance.DisplayFormat = "#######0.000###;; ; ";
 			// this.txtStatementEndingBalance.Format = "#######0.000###";
 			this.txtStatementEndingBalance.Location = new System.Drawing.Point(619, 112);
-			// this.txtStatementEndingBalance.MaxValue = 2147483647;
-			// this.txtStatementEndingBalance.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtStatementEndingBalance.Name = "txtStatementEndingBalance";
 			this.txtStatementEndingBalance.Size = new System.Drawing.Size(102, 19);
 			this.txtStatementEndingBalance.TabIndex = 22;
@@ -555,10 +555,10 @@ namespace Xtreme
 			// 
 			this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
-			// this.txtComments.bolAllowDecimal = false;
+			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(78, 522);
-			// this.txtComments.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtComments.Name = "txtComments";
 			this.txtComments.Size = new System.Drawing.Size(645, 55);
 			this.txtComments.TabIndex = 33;

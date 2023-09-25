@@ -96,13 +96,13 @@ namespace Xtreme
 			this.txtReligionNo.ForeColor = System.Drawing.Color.Black;
 			this.txtReligionNo.Location = new System.Drawing.Point(152, 38);
 			this.txtReligionNo.MaxLength = 15;
-			// this.txtReligionNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtReligionNo.Name = "txtReligionNo";
 			// this.txtReligionNo.ShowButton = true;
 			this.txtReligionNo.Size = new System.Drawing.Size(101, 19);
 			this.txtReligionNo.TabIndex = 1;
 			this.txtReligionNo.Text = "";
-			// this.this.txtReligionNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtReligionNo_DropButtonClick);
+			// this.//this.txtReligionNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtReligionNo_DropButtonClick);
 			// 
 			// lblLReligionName
 			// 
@@ -144,7 +144,7 @@ namespace Xtreme
 			this.txtAReligionName.BackColor = System.Drawing.Color.White;
 			this.txtAReligionName.ForeColor = System.Drawing.Color.Black;
 			this.txtAReligionName.Location = new System.Drawing.Point(152, 80);
-			// this.txtAReligionName.mArabicEnabled = true;
+			// // = true;
 			this.txtAReligionName.MaxLength = 50;
 			this.txtAReligionName.Name = "txtAReligionName";
 			this.txtAReligionName.Size = new System.Drawing.Size(201, 19);

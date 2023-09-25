@@ -64,8 +64,8 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbCommon;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbCommon;
 		private System.Windows.Forms.Panel _fraLedgerInformation_3;
-		public AxC1SizerLib.AxC1Tab tabMaster;
-		public AxC1SizerLib.AxC1Elastic ElasticOne1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
+		public AxC1Elastic ElasticOne1;
 		public System.Windows.Forms.Panel[] fraLedgerInformation = new System.Windows.Forms.Panel[4];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFACategory));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._fraLedgerInformation_0 = new System.Windows.Forms.Panel();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.txtCatNo = new System.Windows.Forms.TextBox();
@@ -96,14 +96,14 @@ namespace Xtreme
 			this.cmbCommon = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.ElasticOne1 = new AxC1SizerLib.AxC1Elastic();
+			this.ElasticOne1 = new AxC1Elastic();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.ElasticOne1).BeginInit();
-			this.tabMaster.SuspendLayout();
-			this._fraLedgerInformation_0.SuspendLayout();
-			this._fraLedgerInformation_3.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbCommon.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._fraLedgerInformation_0.SuspendLayout();
+			//this._fraLedgerInformation_3.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabMaster
@@ -168,14 +168,14 @@ namespace Xtreme
 			this.txtCatNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCatNo.Location = new System.Drawing.Point(150, 18);
 			this.txtCatNo.MaxLength = 15;
-			// this.txtCatNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCatNo.Name = "txtCatNo";
 			// this.txtCatNo.ShowButton = true;
 			this.txtCatNo.Size = new System.Drawing.Size(101, 19);
 			this.txtCatNo.TabIndex = 0;
 			this.txtCatNo.Text = "";
-			// this.this.txtCatNo.Watermark = "";
-			// this.this.txtCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCatNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCatNo_DropButtonClick);
 			// 
 			// lblGroupNo
 			// 
@@ -212,7 +212,7 @@ namespace Xtreme
 			this.txtLCatName.Size = new System.Drawing.Size(201, 19);
 			this.txtLCatName.TabIndex = 1;
 			this.txtLCatName.Text = "";
-			// this.this.txtLCatName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblParentGroup
 			// 
@@ -244,13 +244,13 @@ namespace Xtreme
 			this.txtACatName.BackColor = System.Drawing.Color.White;
 			this.txtACatName.ForeColor = System.Drawing.Color.Black;
 			this.txtACatName.Location = new System.Drawing.Point(150, 60);
-			// this.txtACatName.mArabicEnabled = true;
+			// // = true;
 			this.txtACatName.MaxLength = 50;
 			this.txtACatName.Name = "txtACatName";
 			this.txtACatName.Size = new System.Drawing.Size(201, 19);
 			this.txtACatName.TabIndex = 2;
 			this.txtACatName.Text = "";
-			// this.this.txtACatName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 
@@ -277,8 +277,8 @@ namespace Xtreme
 			this.txtParentCatNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentCatNo.TabIndex = 3;
 			this.txtParentCatNo.Text = "";
-			// this.this.txtParentCatNo.Watermark = "";
-			// this.this.txtParentCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentCatNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtParentCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentCatNo_DropButtonClick);
 			// this.txtParentCatNo.Leave += new System.EventHandler(this.txtParentCatNo_Leave);
 			// 
 			// txtParentCatName
@@ -293,7 +293,7 @@ namespace Xtreme
 			this.txtParentCatName.TabIndex = 15;
 			this.txtParentCatName.TabStop = false;
 			this.txtParentCatName.Text = " ";
-			// this.this.txtParentCatName.Watermark = "";
+			// this.// = "";
 			// 
 			// _fraLedgerInformation_3
 			// 

@@ -143,13 +143,13 @@ namespace Xtreme
 			// this.txtVehicleTransNo.bolNumericOnly = true;
 			this.txtVehicleTransNo.ForeColor = System.Drawing.Color.Black;
 			this.txtVehicleTransNo.Location = new System.Drawing.Point(122, 50);
-			// this.txtVehicleTransNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtVehicleTransNo.Name = "txtVehicleTransNo";
 			// this.txtVehicleTransNo.ShowButton = true;
 			this.txtVehicleTransNo.Size = new System.Drawing.Size(102, 19);
 			this.txtVehicleTransNo.TabIndex = 0;
 			this.txtVehicleTransNo.Text = "";
-			// this.this.txtVehicleTransNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtVehicleTransNo_DropButtonClick);
+			// this.//this.txtVehicleTransNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtVehicleTransNo_DropButtonClick);
 			// 
 			// _lblCommonLabel_0
 			// 
@@ -168,13 +168,13 @@ namespace Xtreme
 			this.txtVehicleCode.BackColor = System.Drawing.Color.White;
 			this.txtVehicleCode.ForeColor = System.Drawing.Color.Black;
 			this.txtVehicleCode.Location = new System.Drawing.Point(122, 71);
-			// this.txtVehicleCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtVehicleCode.Name = "txtVehicleCode";
 			// this.txtVehicleCode.ShowButton = true;
 			this.txtVehicleCode.Size = new System.Drawing.Size(102, 19);
 			this.txtVehicleCode.TabIndex = 2;
 			this.txtVehicleCode.Text = "";
-			// this.this.txtVehicleCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtVehicleCode_DropButtonClick);
+			// this.//this.txtVehicleCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtVehicleCode_DropButtonClick);
 			// this.txtVehicleCode.Leave += new System.EventHandler(this.txtVehicleCode_Leave);
 			// 
 			// System.Windows.Forms.Label12
@@ -184,7 +184,7 @@ namespace Xtreme
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(4, 163);
 			// this.Label12.mLabelId = 1851;
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(50, 14);
 			this.Label12.TabIndex = 9;
 			// 
@@ -224,7 +224,7 @@ namespace Xtreme
 			this.txtEmpCode.TabIndex = 3;
 			this.txtEmpCode.TabStop = false;
 			this.txtEmpCode.Text = "";
-			// this.this.txtEmpCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmpCode_DropButtonClick);
+			// this.//this.txtEmpCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmpCode_DropButtonClick);
 			// 
 			// txtEmpName
 			// 
@@ -259,7 +259,7 @@ namespace Xtreme
 			this.txtEmpCodeNew.Size = new System.Drawing.Size(101, 19);
 			this.txtEmpCodeNew.TabIndex = 4;
 			this.txtEmpCodeNew.Text = "";
-			// this.this.txtEmpCodeNew.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmpCodeNew_DropButtonClick);
+			// this.//this.txtEmpCodeNew.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmpCodeNew_DropButtonClick);
 			// 
 			// txtEmpNameNew
 			// 
@@ -277,7 +277,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Kilometer";
 			this.Label1.Location = new System.Drawing.Point(3, 140);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(44, 14);
 			this.Label1.TabIndex = 14;
 			// 

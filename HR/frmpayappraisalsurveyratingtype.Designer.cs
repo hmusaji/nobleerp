@@ -72,7 +72,7 @@ namespace Xtreme
 			this.lblLCategoryName = new System.Windows.Forms.Label();
 			this.txtLRatingTypeName = new System.Windows.Forms.TextBox();
 			this.txtARatingTypeName = new System.Windows.Forms.TextBox();
-			this.grdRatingDetails.SuspendLayout();
+			//this.grdRatingDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// grdRatingDetails
@@ -108,13 +108,13 @@ namespace Xtreme
 			this.txtRatingTypeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtRatingTypeCode.Location = new System.Drawing.Point(106, 57);
 			this.txtRatingTypeCode.MaxLength = 15;
-			// this.txtRatingTypeCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtRatingTypeCode.Name = "txtRatingTypeCode";
 			// this.txtRatingTypeCode.ShowButton = true;
 			this.txtRatingTypeCode.Size = new System.Drawing.Size(110, 19);
 			this.txtRatingTypeCode.TabIndex = 1;
 			this.txtRatingTypeCode.Text = "";
-			// this.this.txtRatingTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtRatingTypeCode_DropButtonClick);
+			// this.//this.txtRatingTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtRatingTypeCode_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -167,7 +167,7 @@ namespace Xtreme
 			this.txtARatingTypeName.BackColor = System.Drawing.Color.White;
 			this.txtARatingTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtARatingTypeName.Location = new System.Drawing.Point(106, 102);
-			// this.txtARatingTypeName.mArabicEnabled = true;
+			// // = true;
 			this.txtARatingTypeName.MaxLength = 50;
 			this.txtARatingTypeName.Name = "txtARatingTypeName";
 			this.txtARatingTypeName.Size = new System.Drawing.Size(330, 19);

@@ -160,7 +160,7 @@ namespace Xtreme
 			this.txtPassword.Size = new System.Drawing.Size(237, 19);
 			this.txtPassword.TabIndex = 3;
 			this.txtPassword.Text = "";
-			// this.this.txtPassword.Watermark = "Password";
+			// this.// = "Password";
 			// this.this.txtPassword.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtPassword_Change);
 			// this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
 			// this.this.txtPassword.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtPassword_KeyDown);
@@ -177,7 +177,7 @@ namespace Xtreme
 			this.txtUserID.Size = new System.Drawing.Size(237, 19);
 			this.txtUserID.TabIndex = 2;
 			this.txtUserID.Text = "";
-			// this.this.txtUserID.Watermark = "User Name";
+			// this.// = "User Name";
 			// this.txtUserID.Enter += new System.EventHandler(this.txtUserID_Enter);
 			// this.this.txtUserID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUserID_KeyPress);
 			// 
@@ -192,8 +192,8 @@ namespace Xtreme
 			this.txtLocationNo.Size = new System.Drawing.Size(67, 19);
 			this.txtLocationNo.TabIndex = 4;
 			this.txtLocationNo.Text = "";
-			// this.this.txtLocationNo.Watermark = "";
-			// this.this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationNo_DropButtonClick);
 			// this.txtLocationNo.Enter += new System.EventHandler(this.txtLocationNo_Enter);
 			// this.txtLocationNo.Leave += new System.EventHandler(this.txtLocationNo_Leave);
 			// 

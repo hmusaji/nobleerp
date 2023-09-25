@@ -51,7 +51,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblTotalCr;
 		public System.Windows.Forms.Label lblTotalDr;
 		public System.Windows.Forms.TextBox txtComments;
-		public AxXtremeSuiteControls.AxGroupBox frmFooter;
+		public System.Windows.Forms.Panel frmFooter;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
@@ -84,7 +84,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		public System.Windows.Forms.Label Label1;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController CommandBars;
-		public UpgradeHelpers.Gui.ShapeHelper fraCashLedgerDetails;
+		public ShapeHelper fraCashLedgerDetails;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -94,7 +94,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGLTransaction));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.frmFooter = new AxXtremeSuiteControls.AxGroupBox();
+			this.frmFooter = new System.Windows.Forms.Panel();
 			this.lblComments = new System.Windows.Forms.Label();
 			this.txtTotalDR = new System.Windows.Forms.Label();
 			this.txtTotalCR = new System.Windows.Forms.Label();
@@ -133,12 +133,12 @@ namespace Xtreme
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Label1 = new System.Windows.Forms.Label();
 			this.CommandBars = new Syncfusion.Windows.Forms.Tools.CommandBarController();
-			this.fraCashLedgerDetails = new UpgradeHelpers.Gui.ShapeHelper();
+			this.fraCashLedgerDetails = new ShapeHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.frmFooter).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.CommandBars).BeginInit();
-			this.frmFooter.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.frmFooter.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmFooter
@@ -214,10 +214,10 @@ namespace Xtreme
 			// 
 			this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
-			// this.txtComments.bolAllowDecimal = false;
+			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(66, 4);
-			// this.txtComments.mDropDownType = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.FormatBoxDropDownTypes) 0;
 			this.txtComments.Name = "txtComments";
 			this.txtComments.Size = new System.Drawing.Size(513, 55);
 			this.txtComments.TabIndex = 33;
@@ -249,16 +249,16 @@ namespace Xtreme
 			// 
 			this.txtChequeNo.AllowDrop = true;
 			this.txtChequeNo.BackColor = System.Drawing.Color.White;
-			// this.txtChequeNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtChequeNo.ForeColor = System.Drawing.Color.Black;
 			this.txtChequeNo.Location = new System.Drawing.Point(695, 116);
-			// this.txtChequeNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtChequeNo.Name = "txtChequeNo";
 			this.txtChequeNo.Size = new System.Drawing.Size(101, 23);
 			this.txtChequeNo.TabIndex = 9;
 			this.txtChequeNo.Text = "";
 			this.txtChequeNo.Visible = false;
-			// this.this.txtChequeNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblChequeNo
 			// 
@@ -346,7 +346,7 @@ namespace Xtreme
 			this.txtVoucherNo.Size = new System.Drawing.Size(102, 23);
 			this.txtVoucherNo.TabIndex = 2;
 			this.txtVoucherNo.Text = "";
-			// this.this.txtVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblVoucherNo
 			// 
@@ -398,7 +398,7 @@ namespace Xtreme
 			this.txtReferenceNo.Size = new System.Drawing.Size(102, 23);
 			this.txtReferenceNo.TabIndex = 4;
 			this.txtReferenceNo.Text = "";
-			// this.this.txtReferenceNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCashLedgerCode
 			// 
@@ -411,8 +411,8 @@ namespace Xtreme
 			this.txtCashLedgerCode.Size = new System.Drawing.Size(101, 23);
 			this.txtCashLedgerCode.TabIndex = 6;
 			this.txtCashLedgerCode.Text = "";
-			// this.this.txtCashLedgerCode.Watermark = "";
-			// this.this.txtCashLedgerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCashLedgerCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCashLedgerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCashLedgerCode_DropButtonClick);
 			// this.txtCashLedgerCode.Leave += new System.EventHandler(this.txtCashLedgerCode_Leave);
 			// 
 			// lblReference
@@ -450,7 +450,7 @@ namespace Xtreme
 			this.txtCashLedgerName.Size = new System.Drawing.Size(201, 23);
 			this.txtCashLedgerName.TabIndex = 20;
 			this.txtCashLedgerName.Text = "";
-			// this.this.txtCashLedgerName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCostCenterCode
 			// 
@@ -476,8 +476,8 @@ namespace Xtreme
 			this.txtCostCenterCode.Size = new System.Drawing.Size(101, 23);
 			this.txtCostCenterCode.TabIndex = 7;
 			this.txtCostCenterCode.Text = "";
-			// this.this.txtCostCenterCode.Watermark = "";
-			// this.this.txtCostCenterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCostCenterCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCostCenterCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCostCenterCode_DropButtonClick);
 			// this.txtCostCenterCode.Leave += new System.EventHandler(this.txtCostCenterCode_Leave);
 			// 
 			// txtCostCenterName
@@ -491,7 +491,7 @@ namespace Xtreme
 			this.txtCostCenterName.Size = new System.Drawing.Size(201, 23);
 			this.txtCostCenterName.TabIndex = 22;
 			this.txtCostCenterName.Text = "";
-			// this.this.txtCostCenterName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblFlex01
 			// 
@@ -517,8 +517,8 @@ namespace Xtreme
 			this.txtFlex01.Size = new System.Drawing.Size(559, 23);
 			this.txtFlex01.TabIndex = 5;
 			this.txtFlex01.Text = "";
-			// this.this.txtFlex01.Watermark = "";
-			// this.this.txtFlex01.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtFlex01_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtFlex01.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtFlex01_DropButtonClick);
 			// 
 			// lblBranchCode
 			// 
@@ -542,8 +542,8 @@ namespace Xtreme
 			this.txtBranchCode.Size = new System.Drawing.Size(101, 23);
 			this.txtBranchCode.TabIndex = 1;
 			this.txtBranchCode.Text = "";
-			// this.this.txtBranchCode.Watermark = "";
-			// this.this.txtBranchCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBranchCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtBranchCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBranchCode_DropButtonClick);
 			// this.txtBranchCode.Leave += new System.EventHandler(this.txtBranchCode_Leave);
 			// 
 			// txtBranchName
@@ -557,7 +557,7 @@ namespace Xtreme
 			this.txtBranchName.Size = new System.Drawing.Size(201, 23);
 			this.txtBranchName.TabIndex = 25;
 			this.txtBranchName.Text = "";
-			// this.this.txtBranchName.Watermark = "";
+			// this.// = "";
 			// 
 			// grdVoucherDetails
 			// 
@@ -597,7 +597,7 @@ namespace Xtreme
 			this.Label1.Text = "T";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(602, 416);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(6, 13);
 			this.Label1.TabIndex = 26;
 			// 
@@ -612,7 +612,7 @@ namespace Xtreme
 			// 
 			this.fraCashLedgerDetails.AllowDrop = true;
 			this.fraCashLedgerDetails.BackColor = System.Drawing.SystemColors.Window;
-			this.fraCashLedgerDetails.BackStyle = 0;
+			// = 0;
 			this.fraCashLedgerDetails.BorderColor = System.Drawing.Color.FromArgb(64, 64, 64);
 			this.fraCashLedgerDetails.BorderStyle = 1;
 			this.fraCashLedgerDetails.Enabled = false;

@@ -81,7 +81,7 @@ namespace Xtreme
 			this.txtDlblBudgetName = new System.Windows.Forms.Label();
 			this.txtBudgetCode = new System.Windows.Forms.TextBox();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Command1
@@ -118,7 +118,7 @@ namespace Xtreme
 			// this.txtDPayrollDate.MaxDate = 2958465;
 			// this.txtDPayrollDate.MinDate = -657434;
 			this.txtDPayrollDate.Name = "txtDPayrollDate";
-			this.txtDPayrollDate.PromptChar = "_";
+			// = "_";
 			this.txtDPayrollDate.Size = new System.Drawing.Size(101, 19);
 			this.txtDPayrollDate.TabIndex = 2;
 			// this.txtDPayrollDate.Text = "31/01/2012";
@@ -159,8 +159,8 @@ namespace Xtreme
 			this.txtCompanyCode.Size = new System.Drawing.Size(101, 19);
 			this.txtCompanyCode.TabIndex = 5;
 			this.txtCompanyCode.Text = "";
-			// this.this.txtCompanyCode.Watermark = "";
-			// this.this.txtCompanyCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCompanyCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCompanyCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCompanyCode_DropButtonClick);
 			// this.txtCompanyCode.Leave += new System.EventHandler(this.txtCompanyCode_Leave);
 			// 
 			// grdVoucherDetails
@@ -221,8 +221,8 @@ namespace Xtreme
 			this.txtBudgetCode.Size = new System.Drawing.Size(101, 19);
 			this.txtBudgetCode.TabIndex = 9;
 			this.txtBudgetCode.Text = "";
-			// this.this.txtBudgetCode.Watermark = "";
-			// this.this.txtBudgetCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBudgetCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtBudgetCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBudgetCode_DropButtonClick);
 			// this.txtBudgetCode.Leave += new System.EventHandler(this.txtBudgetCode_Leave);
 			// 
 			// Line1

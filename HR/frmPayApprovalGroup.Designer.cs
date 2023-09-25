@@ -81,8 +81,8 @@ namespace Xtreme
 			this.Column_0_grdApprovalGroup = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdApprovalGroup = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdApprovalGroup.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdApprovalGroup.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmbMastersList
@@ -111,16 +111,16 @@ namespace Xtreme
 			// 
 			this._txtTextBox_0.AllowDrop = true;
 			this._txtTextBox_0.BackColor = System.Drawing.Color.White;
-			// this._txtTextBox_0.bolAllowDecimal = false;
+			// // = false;
 			this._txtTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtTextBox_0.Location = new System.Drawing.Point(120, 72);
-			// this._txtTextBox_0.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtTextBox_0.Name = "_txtTextBox_0";
 			// this._txtTextBox_0.ShowButton = true;
 			this._txtTextBox_0.Size = new System.Drawing.Size(113, 21);
 			this._txtTextBox_0.TabIndex = 0;
 			this._txtTextBox_0.Text = "";
-			// this.this._txtTextBox_0.Watermark = "";
+			// this.// = "";
 			// 
 			// System.Windows.Forms.Label3
 			// 
@@ -128,7 +128,7 @@ namespace Xtreme
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Group Name(ARB)";
 			this.Label3.Location = new System.Drawing.Point(4, 123);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(90, 14);
 			this.Label3.TabIndex = 5;
 			// 
@@ -138,7 +138,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Group Name(ENG)";
 			this.Label2.Location = new System.Drawing.Point(4, 99);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(89, 14);
 			this.Label2.TabIndex = 4;
 			// 
@@ -148,7 +148,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Group Code";
 			this.Label1.Location = new System.Drawing.Point(4, 75);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(58, 14);
 			this.Label1.TabIndex = 3;
 			// 
@@ -156,29 +156,29 @@ namespace Xtreme
 			// 
 			this._txtTextBox_1.AllowDrop = true;
 			this._txtTextBox_1.BackColor = System.Drawing.Color.White;
-			// this._txtTextBox_1.bolAllowDecimal = false;
+			// // = false;
 			this._txtTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtTextBox_1.Location = new System.Drawing.Point(120, 96);
-			// this._txtTextBox_1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtTextBox_1.Name = "_txtTextBox_1";
 			this._txtTextBox_1.Size = new System.Drawing.Size(381, 21);
 			this._txtTextBox_1.TabIndex = 1;
 			this._txtTextBox_1.Text = "";
-			// this.this._txtTextBox_1.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtTextBox_2
 			// 
 			this._txtTextBox_2.AllowDrop = true;
 			this._txtTextBox_2.BackColor = System.Drawing.Color.White;
-			// this._txtTextBox_2.bolAllowDecimal = false;
+			// // = false;
 			this._txtTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtTextBox_2.Location = new System.Drawing.Point(120, 120);
-			// this._txtTextBox_2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtTextBox_2.Name = "_txtTextBox_2";
 			this._txtTextBox_2.Size = new System.Drawing.Size(381, 21);
 			this._txtTextBox_2.TabIndex = 2;
 			this._txtTextBox_2.Text = "";
-			// this.this._txtTextBox_2.Watermark = "";
+			// this.// = "";
 			// 
 			// grdApprovalGroup
 			// 

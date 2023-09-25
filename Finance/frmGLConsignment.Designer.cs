@@ -75,13 +75,13 @@ namespace Xtreme
 			this.txtConsignmentNo.ForeColor = System.Drawing.Color.Black;
 			this.txtConsignmentNo.Location = new System.Drawing.Point(146, 10);
 			this.txtConsignmentNo.MaxLength = 15;
-			// this.txtConsignmentNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtConsignmentNo.Name = "txtConsignmentNo";
 			// this.txtConsignmentNo.ShowButton = true;
 			this.txtConsignmentNo.Size = new System.Drawing.Size(101, 19);
 			this.txtConsignmentNo.TabIndex = 0;
 			this.txtConsignmentNo.Text = "";
-			// this.this.txtConsignmentNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtConsignmentNo_DropButtonClick);
+			// this.//this.txtConsignmentNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtConsignmentNo_DropButtonClick);
 			// 
 			// lblLNatName
 			// 
@@ -123,7 +123,7 @@ namespace Xtreme
 			this.txtAConsignmentName.BackColor = System.Drawing.Color.White;
 			this.txtAConsignmentName.ForeColor = System.Drawing.Color.Black;
 			this.txtAConsignmentName.Location = new System.Drawing.Point(146, 56);
-			// this.txtAConsignmentName.mArabicEnabled = true;
+			// // = true;
 			this.txtAConsignmentName.MaxLength = 50;
 			this.txtAConsignmentName.Name = "txtAConsignmentName";
 			this.txtAConsignmentName.Size = new System.Drawing.Size(201, 19);

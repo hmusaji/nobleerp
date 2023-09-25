@@ -85,8 +85,8 @@ namespace Xtreme
 			this.Column_1__grdVoucherDetails_1 = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.lblAdjustmentDetails = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this._grdVoucherDetails_0.SuspendLayout();
-			this._grdVoucherDetails_1.SuspendLayout();
+			//this._grdVoucherDetails_0.SuspendLayout();
+			//this._grdVoucherDetails_1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdFind
@@ -152,7 +152,7 @@ namespace Xtreme
 			this.txtLdgrNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLdgrNo.TabIndex = 0;
 			this.txtLdgrNo.Text = "";
-			// this.this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLdgrNo_DropButtonClick);
+			// this.//this.txtLdgrNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLdgrNo_DropButtonClick);
 			// this.txtLdgrNo.Leave += new System.EventHandler(this.txtLdgrNo_Leave);
 			// 
 			// lblLedgerNo
@@ -173,7 +173,7 @@ namespace Xtreme
 			this.Label1.Text = "Header Type";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(13, 37);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(62, 14);
 			this.Label1.TabIndex = 5;
 			// 

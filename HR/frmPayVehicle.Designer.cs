@@ -143,10 +143,10 @@ namespace Xtreme
 			// 
 			this.txtPlatNo.AllowDrop = true;
 			this.txtPlatNo.BackColor = System.Drawing.Color.White;
-			// this.txtPlatNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtPlatNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPlatNo.Location = new System.Drawing.Point(142, 156);
-			// this.txtPlatNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtPlatNo.Name = "txtPlatNo";
 			this.txtPlatNo.Size = new System.Drawing.Size(102, 19);
 			this.txtPlatNo.TabIndex = 1;
@@ -180,13 +180,13 @@ namespace Xtreme
 			this.txtVehicleCode.BackColor = System.Drawing.Color.White;
 			this.txtVehicleCode.ForeColor = System.Drawing.Color.Black;
 			this.txtVehicleCode.Location = new System.Drawing.Point(142, 71);
-			// this.txtVehicleCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtVehicleCode.Name = "txtVehicleCode";
 			// this.txtVehicleCode.ShowButton = true;
 			this.txtVehicleCode.Size = new System.Drawing.Size(102, 19);
 			this.txtVehicleCode.TabIndex = 0;
 			this.txtVehicleCode.Text = "";
-			// this.this.txtVehicleCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtVehicleCode_DropButtonClick);
+			// this.//this.txtVehicleCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtVehicleCode_DropButtonClick);
 			// 
 			// _lblCommonLabel_2
 			// 
@@ -228,7 +228,7 @@ namespace Xtreme
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(8, 347);
 			// this.Label12.mLabelId = 1851;
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(50, 14);
 			this.Label12.TabIndex = 22;
 			// 
@@ -327,7 +327,7 @@ namespace Xtreme
 			this.txtEmpCode.Size = new System.Drawing.Size(101, 19);
 			this.txtEmpCode.TabIndex = 16;
 			this.txtEmpCode.Text = "";
-			// this.this.txtEmpCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmpCode_DropButtonClick);
+			// this.//this.txtEmpCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmpCode_DropButtonClick);
 			// this.txtEmpCode.Leave += new System.EventHandler(this.txtEmpCode_Leave);
 			// 
 			// txtChasisNo

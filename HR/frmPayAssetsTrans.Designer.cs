@@ -92,8 +92,8 @@ namespace Xtreme
 			this.grdAssetTransDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdAssetTransDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdAssetTransDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.cmbMastersList.SuspendLayout();
-			this.grdAssetTransDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdAssetTransDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _txtDisplayLabel_0
@@ -149,14 +149,14 @@ namespace Xtreme
 			this._txtCommonTextBox_0.CausesValidation = false;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(90, 50);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_0.TabIndex = 0;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.Watermark = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_1
@@ -176,15 +176,15 @@ namespace Xtreme
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(90, 96);
-			// this._txtCommonTextBox_2.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_2.Name = "_txtCommonTextBox_2";
 			// this._txtCommonTextBox_2.ShowButton = true;
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(107, 19);
 			this._txtCommonTextBox_2.TabIndex = 3;
 			this._txtCommonTextBox_2.TabStop = false;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.Watermark = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_3
@@ -193,14 +193,14 @@ namespace Xtreme
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(90, 118);
-			// this._txtCommonTextBox_3.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_3.Name = "_txtCommonTextBox_3";
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(445, 19);
 			this._txtCommonTextBox_3.TabIndex = 4;
 			this._txtCommonTextBox_3.TabStop = false;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.Watermark = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_0

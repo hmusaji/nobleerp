@@ -94,8 +94,8 @@ namespace Xtreme
 			this.lblMasterCode = new System.Windows.Forms.Label();
 			this.txtBatchName = new System.Windows.Forms.Label();
 			this.txtLocationName = new System.Windows.Forms.Label();
-			this.fraDateRange.SuspendLayout();
-			this.fraVoucherRange.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
+			//this.fraVoucherRange.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraDateRange
@@ -134,7 +134,7 @@ namespace Xtreme
 			this.Label2.Text = "To Date";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(9, 44);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(38, 13);
 			this.Label2.TabIndex = 9;
 			// 
@@ -190,12 +190,12 @@ namespace Xtreme
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtToVoucherNo.Location = new System.Drawing.Point(108, 43);
 			this.txtToVoucherNo.MaxLength = 12;
-			// this.txtToVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtToVoucherNo.Name = "txtToVoucherNo";
 			this.txtToVoucherNo.Size = new System.Drawing.Size(88, 19);
 			this.txtToVoucherNo.TabIndex = 3;
 			this.txtToVoucherNo.Text = "";
-			// this.this.txtToVoucherNo.Watermark = "";
+			// this.// = "";
 			// this.txtToVoucherNo.Leave += new System.EventHandler(this.txtToVoucherNo_Leave);
 			// 
 			// lblToVoucherNo
@@ -218,12 +218,12 @@ namespace Xtreme
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtFromVoucherNo.Location = new System.Drawing.Point(108, 22);
 			this.txtFromVoucherNo.MaxLength = 12;
-			// this.txtFromVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtFromVoucherNo.Name = "txtFromVoucherNo";
 			this.txtFromVoucherNo.Size = new System.Drawing.Size(88, 19);
 			this.txtFromVoucherNo.TabIndex = 5;
 			this.txtFromVoucherNo.Text = "";
-			// this.this.txtFromVoucherNo.Watermark = "";
+			// this.// = "";
 			// this.txtFromVoucherNo.Leave += new System.EventHandler(this.txtFromVoucherNo_Leave);
 			// 
 			// lblFromVoucherNo
@@ -281,8 +281,8 @@ namespace Xtreme
 			this.txtLocationCode.Size = new System.Drawing.Size(101, 19);
 			this.txtLocationCode.TabIndex = 12;
 			this.txtLocationCode.Text = "";
-			// this.this.txtLocationCode.Watermark = "";
-			// this.this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocationCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationCode_DropButtonClick);
 			// this.txtLocationCode.Leave += new System.EventHandler(this.txtLocationCode_Leave);
 			// 
 			// txtBatchCode
@@ -296,8 +296,8 @@ namespace Xtreme
 			this.txtBatchCode.Size = new System.Drawing.Size(101, 19);
 			this.txtBatchCode.TabIndex = 13;
 			this.txtBatchCode.Text = "";
-			// this.this.txtBatchCode.Watermark = "";
-			// this.this.txtBatchCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBatchCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtBatchCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBatchCode_DropButtonClick);
 			// this.txtBatchCode.Leave += new System.EventHandler(this.txtBatchCode_Leave);
 			// 
 			// txtTransactionDate
@@ -321,7 +321,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(29, 57);
 			// this.Label1.mLabelId = 948;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(82, 13);
 			this.Label1.TabIndex = 15;
 			// 

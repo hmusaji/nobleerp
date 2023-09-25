@@ -64,13 +64,13 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
 		public System.Windows.Forms.GroupBox frmDepartment;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_5;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_2;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_3;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_6;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_4;
+		private System.Windows.Forms.Button _btnFormToolBar_0;
+		private System.Windows.Forms.Button _btnFormToolBar_1;
+		private System.Windows.Forms.Button _btnFormToolBar_5;
+		private System.Windows.Forms.Button _btnFormToolBar_2;
+		private System.Windows.Forms.Button _btnFormToolBar_3;
+		private System.Windows.Forms.Button _btnFormToolBar_6;
+		private System.Windows.Forms.Button _btnFormToolBar_4;
 		public System.Windows.Forms.PictureBox picFormToolbar;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_7;
@@ -83,7 +83,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_5;
 		private System.Windows.Forms.Label _txtDisplayLabel_7;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
+		public System.Windows.Forms.Button[] btnFormToolBar = new System.Windows.Forms.Button[7];
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[10];
 		public System.Windows.Forms.TextBox[] txtCommonTextBox = new System.Windows.Forms.TextBox[6];
 		public System.Windows.Forms.Label[] txtDisplayLabel = new System.Windows.Forms.Label[8];
@@ -116,13 +116,13 @@ namespace Xtreme
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_1 = new System.Windows.Forms.Label();
 			this.picFormToolbar = new System.Windows.Forms.PictureBox();
-			this._btnFormToolBar_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_5 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_2 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnFormToolBar_0 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_1 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_5 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_2 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_3 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_6 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_4 = new System.Windows.Forms.Button();
 			this._txtCommonTextBox_2 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_7 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_5 = new System.Windows.Forms.Label();
@@ -141,10 +141,10 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_3).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_6).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_4).BeginInit();
-			this.frmBasicSalary.SuspendLayout();
-			this.frmDesignation.SuspendLayout();
-			this.frmDepartment.SuspendLayout();
-			this.picFormToolbar.SuspendLayout();
+			//this.frmBasicSalary.SuspendLayout();
+			//this.frmDesignation.SuspendLayout();
+			//this.frmDepartment.SuspendLayout();
+			//this.picFormToolbar.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmBasicSalary
@@ -181,8 +181,8 @@ namespace Xtreme
 			// this.txtNewBasicSalary.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNewBasicSalary.Format = "###########0.000";
 			this.txtNewBasicSalary.Location = new System.Drawing.Point(362, 12);
-			// this.txtNewBasicSalary.MaxValue = 2147483647;
-			// this.txtNewBasicSalary.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtNewBasicSalary.Name = "txtNewBasicSalary";
 			this.txtNewBasicSalary.Size = new System.Drawing.Size(101, 19);
 			this.txtNewBasicSalary.TabIndex = 6;
@@ -248,7 +248,7 @@ namespace Xtreme
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_4.TabIndex = 5;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_9
@@ -324,7 +324,7 @@ namespace Xtreme
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_3.TabIndex = 4;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_8
@@ -474,7 +474,7 @@ namespace Xtreme
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_2.TabIndex = 2;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_7
@@ -526,13 +526,13 @@ namespace Xtreme
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(134, 50);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_0.TabIndex = 0;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_0.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_1
@@ -547,7 +547,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 3;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommonLabel_2
@@ -566,7 +566,7 @@ namespace Xtreme
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label12.Text = "Description";
 			this.Label12.Location = new System.Drawing.Point(8, 278);
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(54, 14);
 			this.Label12.TabIndex = 20;
 			// 
@@ -581,7 +581,7 @@ namespace Xtreme
 			this._txtCommonTextBox_5.Size = new System.Drawing.Size(350, 19);
 			this._txtCommonTextBox_5.TabIndex = 7;
 			this._txtCommonTextBox_5.Text = "";
-			// this.this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_5.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_7
@@ -593,7 +593,7 @@ namespace Xtreme
 			// 
 			// frmPayDepartmentTransfer
 			// 
-			this.'MaxButton = 0;
+			//
 			this.AllowDrop = true;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6, 13);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -680,7 +680,7 @@ namespace Xtreme
 		}
 		void InitializebtnFormToolBar()
 		{
-			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
+			this.btnFormToolBar = new System.Windows.Forms.Button[7];
 			this.btnFormToolBar[0] = _btnFormToolBar_0;
 			this.btnFormToolBar[1] = _btnFormToolBar_1;
 			this.btnFormToolBar[5] = _btnFormToolBar_5;

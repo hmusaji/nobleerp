@@ -118,7 +118,7 @@ namespace Xtreme
 			this.txtCategoryCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCategoryCode.Location = new System.Drawing.Point(138, 66);
 			this.txtCategoryCode.MaxLength = 15;
-			// this.txtCategoryCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCategoryCode.Name = "txtCategoryCode";
 			// this.txtCategoryCode.ShowButton = true;
 			this.txtCategoryCode.Size = new System.Drawing.Size(101, 19);
@@ -173,7 +173,7 @@ namespace Xtreme
 			this.txtACategoryName.BackColor = System.Drawing.Color.White;
 			this.txtACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.txtACategoryName.Location = new System.Drawing.Point(138, 108);
-			// this.txtACategoryName.mArabicEnabled = true;
+			// // = true;
 			this.txtACategoryName.MaxLength = 50;
 			this.txtACategoryName.Name = "txtACategoryName";
 			this.txtACategoryName.Size = new System.Drawing.Size(343, 19);
@@ -193,7 +193,7 @@ namespace Xtreme
 			this.txtDeptCode.Size = new System.Drawing.Size(101, 19);
 			this.txtDeptCode.TabIndex = 3;
 			this.txtDeptCode.Text = "";
-			// this.this.txtDeptCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDeptCode_DropButtonClick);
+			// this.//this.txtDeptCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDeptCode_DropButtonClick);
 			// this.txtDeptCode.Leave += new System.EventHandler(this.txtDeptCode_Leave);
 			// 
 			// lblDeptCode
@@ -222,7 +222,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "End Date";
 			this.Label2.Location = new System.Drawing.Point(279, 204);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(44, 13);
 			this.Label2.TabIndex = 12;
 			// 
@@ -232,7 +232,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Start Date";
 			this.Label1.Location = new System.Drawing.Point(9, 204);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(50, 13);
 			this.Label1.TabIndex = 13;
 			// 
@@ -275,7 +275,7 @@ namespace Xtreme
 			this.txtDesgCode.Size = new System.Drawing.Size(101, 19);
 			this.txtDesgCode.TabIndex = 14;
 			this.txtDesgCode.Text = "";
-			// this.this.txtDesgCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDesgCode_DropButtonClick);
+			// this.//this.txtDesgCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDesgCode_DropButtonClick);
 			// this.txtDesgCode.Leave += new System.EventHandler(this.txtDesgCode_Leave);
 			// 
 			// System.Windows.Forms.Label3
@@ -285,7 +285,7 @@ namespace Xtreme
 			this.Label3.Text = "Designation Code";
 			this.Label3.Location = new System.Drawing.Point(8, 155);
 			// this.Label3.mLabelId = 1049;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(84, 14);
 			this.Label3.TabIndex = 15;
 			// 

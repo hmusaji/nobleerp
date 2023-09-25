@@ -62,8 +62,8 @@ namespace Xtreme
 			this._txtCommonNumber_2 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_8 = new System.Windows.Forms.Label();
 			this.cmdOKCancel = new UCOkCancel();
-			this.frmLeaveAmount.SuspendLayout();
-			this.grdLeaveAmountDetails.SuspendLayout();
+			//this.frmLeaveAmount.SuspendLayout();
+			//this.grdLeaveAmountDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmLeaveAmount
@@ -112,8 +112,8 @@ namespace Xtreme
 			this._txtCommonNumber_2.Enabled = false;
 			// this._txtCommonNumber_2.Format = "###########0.000";
 			this._txtCommonNumber_2.Location = new System.Drawing.Point(66, 8);
-			// this._txtCommonNumber_2.MaxValue = 2147483647;
-			// this._txtCommonNumber_2.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this._txtCommonNumber_2.Name = "_txtCommonNumber_2";
 			this._txtCommonNumber_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_2.TabIndex = 2;

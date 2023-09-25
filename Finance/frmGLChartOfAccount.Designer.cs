@@ -4,72 +4,10 @@ namespace Xtreme
 	partial class frmGLChartOfAccount
 	{
 
-		#region "Upgrade Support "
-		private static frmGLChartOfAccount m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmGLChartOfAccount DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
+	
 		#region "Windows Form Designer generated code "
-		public static frmGLChartOfAccount CreateInstance()
-		{
-			frmGLChartOfAccount theInstance = new frmGLChartOfAccount();
-			
-			//The MDI form in the VB6 project had its
-			//AutoShowChildren property set to True
-			//To simulate the VB6 behavior, we need to
-			//automatically Show the form whenever it
-			//is loaded.  If you do not want this behavior
-			//then delete the following line of code
-			//UPGRADE_TODO: (2018) Remove the next line of code to stop form from automatically showing. More Information: https://docs.mobilize.net/vbuc/ewis#2018
-			theInstance.Show();
-			return theInstance;
-		}
-		private void Ctx_~virtual_@ControlArray_Item_Opening(object sender, System.ComponentModel.CancelEventArgs e)
-		{
-			System.Collections.Generic.List<System.Windows.Forms.ToolStripItem> list = new System.Collections.Generic.List<System.Windows.Forms.ToolStripItem>();
-			Ctx_~virtual_@ControlArray_Item.Items.Clear();
-			//We are moving the submenus from original menu to the context menu before displaying it
-			foreach (System.Windows.Forms.ToolStripItem item in mnuChartOfAccount[0].DropDownItems)
-			{
-				list.Add(item);
-			}
-			foreach (System.Windows.Forms.ToolStripItem item in list)
-			{
-				Ctx_~virtual_@ControlArray_Item.Items.Add(item);
-			}
-			e.Cancel = false;
-		}
-		private void Ctx_~virtual_@ControlArray_Item_Closed(object sender, System.Windows.Forms.ToolStripDropDownClosedEventArgs e)
-		{
-			System.Collections.Generic.List<System.Windows.Forms.ToolStripItem> list = new System.Collections.Generic.List<System.Windows.Forms.ToolStripItem>();
-			//We are moving the submenus the context menu back to the original menu after displaying
-			foreach (System.Windows.Forms.ToolStripItem item in Ctx_~virtual_@ControlArray_Item.Items)
-			{
-				list.Add(item);
-			}
-			foreach (System.Windows.Forms.ToolStripItem item in list)
-			{
-				mnuChartOfAccount[0].DropDownItems.Add(item);
-			}
-		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_mnuChartOfAccount1_0", "_mnuChartOfAccount1_1", "_mnuChartOfAccount1_2", "_mnuChartOfAccount1_3", "_mnuChartOfAccount1_4", "_mnuChartOfAccount_0", "MainMenu1", "fg", "ImgOpenFolder", "imgFolder", "mnuChartOfAccount", "mnuChartOfAccount1", "Ctx_~virtual_@ControlArray_Item"};
+		
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_mnuChartOfAccount1_0", "_mnuChartOfAccount1_1", "_mnuChartOfAccount1_2", "_mnuChartOfAccount1_3", "_mnuChartOfAccount1_4", "_mnuChartOfAccount_0", "MainMenu1", "fg", "ImgOpenFolder", "imgFolder", "mnuChartOfAccount", "mnuChartOfAccount1", "ControlArray_Item"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -85,7 +23,7 @@ namespace Xtreme
 		public System.Windows.Forms.PictureBox imgFolder;
 		public System.Windows.Forms.ToolStripItem[] mnuChartOfAccount = new System.Windows.Forms.ToolStripItem[1];
 		public System.Windows.Forms.ToolStripItem[] mnuChartOfAccount1 = new System.Windows.Forms.ToolStripItem[5];
-		public System.Windows.Forms.ContextMenuStrip Ctx_~virtual_@ControlArray_Item;
+		public System.Windows.Forms.ContextMenuStrip ControlArray_Item;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -106,11 +44,11 @@ namespace Xtreme
 			this.ImgOpenFolder = new System.Windows.Forms.PictureBox();
 			this.imgFolder = new System.Windows.Forms.PictureBox();
 			this.SuspendLayout();
-			//Ctx_~virtual_@ControlArray_Item
-			this.Ctx_~virtual_@ControlArray_Item = new System.Windows.Forms.ContextMenuStrip(this.components);
-			this.Ctx_~virtual_@ControlArray_Item.Size = new System.Drawing.Size(153, 26);
-			this.Ctx_~virtual_@ControlArray_Item.Opening += new System.ComponentModel.CancelEventHandler(this.Ctx_~virtual_@ControlArray_Item_Opening);
-			this.Ctx_~virtual_@ControlArray_Item.Closed += new System.Windows.Forms.ToolStripDropDownClosedEventHandler(this.Ctx_~virtual_@ControlArray_Item_Closed);
+			//ControlArray_Item
+			this.ControlArray_Item = new System.Windows.Forms.ContextMenuStrip(this.components);
+			this.ControlArray_Item.Size = new System.Drawing.Size(153, 26);
+			//this.ControlArray_Item.Opening += new System.ComponentModel.CancelEventHandler(this.ControlArray_Item_Opening);
+			//this.ControlArray_Item.Closed += new System.Windows.Forms.ToolStripDropDownClosedEventHandler(this.ControlArray_Item_Closed);
 			// 
 			// MainMenu1
 			// 
@@ -239,12 +177,12 @@ namespace Xtreme
 			this.fg.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.fg.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
 			// this.this.fg.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fg_KeyDown);
-			this.fg.KeyUp += new System.Windows.Forms.KeyEventHandler(this.fg_KeyUp);
-			this.fg.MouseDown += new System.Windows.Forms.MouseEventHandler(this.fg_MouseDown);
-			this.fg.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fg_MouseMove);
-			this.fg.MouseUp += new System.Windows.Forms.MouseEventHandler(this.fg_MouseUp);
-			this.fg.RowColChange += new System.EventHandler(this.fg_RowColChange);
-			this.fg.SelChange += new System.EventHandler(this.fg_SelChange);
+			//this.fg.KeyUp += new System.Windows.Forms.KeyEventHandler(this.fg_KeyUp);
+			//this.fg.MouseDown += new System.Windows.Forms.MouseEventHandler(this.fg_MouseDown);
+			//this.fg.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fg_MouseMove);
+			//this.fg.MouseUp += new System.Windows.Forms.MouseEventHandler(this.fg_MouseUp);
+			//this.fg.RowColChange += new System.EventHandler(this.fg_RowColChange);
+			//this.fg.SelChange += new System.EventHandler(this.fg_SelChange);
 			// 
 			// ImgOpenFolder
 			// 

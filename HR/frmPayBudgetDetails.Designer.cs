@@ -90,9 +90,9 @@ namespace Xtreme
 			this.grdCurrentPayroll = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdCurrentPayroll = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdCurrentPayroll = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.grdHeadcountSummary.SuspendLayout();
-			this.grdAddHeadcountDetails.SuspendLayout();
-			this.grdCurrentPayroll.SuspendLayout();
+			//this.grdHeadcountSummary.SuspendLayout();
+			//this.grdAddHeadcountDetails.SuspendLayout();
+			//this.grdCurrentPayroll.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// txtBudgetCode
@@ -108,7 +108,7 @@ namespace Xtreme
 			this.txtBudgetCode.Size = new System.Drawing.Size(101, 19);
 			this.txtBudgetCode.TabIndex = 0;
 			this.txtBudgetCode.Text = "";
-			// this.this.txtBudgetCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBudgetCode_DropButtonClick);
+			// this.//this.txtBudgetCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBudgetCode_DropButtonClick);
 			// this.txtBudgetCode.Leave += new System.EventHandler(this.txtBudgetCode_Leave);
 			// 
 			// lblBudgetCode
@@ -143,7 +143,7 @@ namespace Xtreme
 			this.txtDeptCode.Size = new System.Drawing.Size(101, 19);
 			this.txtDeptCode.TabIndex = 1;
 			this.txtDeptCode.Text = "";
-			// this.this.txtDeptCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDeptCode_DropButtonClick);
+			// this.//this.txtDeptCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDeptCode_DropButtonClick);
 			// this.txtDeptCode.Leave += new System.EventHandler(this.txtDeptCode_Leave);
 			// 
 			// lblSectionCode
@@ -171,7 +171,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.Label1.Text = "Current Payroll Details";
 			this.Label1.Location = new System.Drawing.Point(557, 358);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(106, 14);
 			this.Label1.TabIndex = 9;
 			// 
@@ -181,7 +181,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Additional Headcount Details";
 			this.Label2.Location = new System.Drawing.Point(16, 358);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(137, 14);
 			this.Label2.TabIndex = 10;
 			// 
@@ -191,7 +191,7 @@ namespace Xtreme
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Headcount Summary";
 			this.Label3.Location = new System.Drawing.Point(18, 154);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(100, 14);
 			this.Label3.TabIndex = 11;
 			// 

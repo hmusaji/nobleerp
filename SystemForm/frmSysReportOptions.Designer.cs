@@ -49,14 +49,14 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdColor;
 		public System.Windows.Forms.Button cmdUnderline;
 		public System.Windows.Forms.RichTextBox rtbFooter;
-		public AxXtremeSuiteControls.AxTabControlPage TabControlPage1;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv TabControlPage1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdReportFormats;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdReportFormats;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdReportFormats;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbFormatList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbFormatList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbFormatList;
-		public AxXtremeSuiteControls.AxTabControlPage tabFormat;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabFormat;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtDateRange_0;
 		private System.Windows.Forms.Label _lblCommon_1;
 		private System.Windows.Forms.Label _lblCommon_2;
@@ -68,7 +68,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbFilterList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbFilterList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbFilterList;
-		public AxXtremeSuiteControls.AxTabControlPage tabFilters;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabFilters;
 		public System.Windows.Forms.CheckBox chkShowAll;
 		public System.Windows.Forms.CheckBox chkAdvancedOptions;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdReportFields;
@@ -78,8 +78,8 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbFieldList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbFieldList;
 		public AxXtremeSuiteControls.AxUpDown UpDown;
-		public AxXtremeSuiteControls.AxTabControlPage tabFields;
-		public AxXtremeSuiteControls.AxTabControl tabReportOptions;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabFields;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabReportOptions;
 		public System.Windows.Forms.FontDialog cdgGetFontWindowFont;
 		public System.Windows.Forms.ColorDialog cdgGetFontWindowColor;
 		public UpgradeStubs.AxMSComDlg_AxCommonDialog cdgGetFontWindow;
@@ -106,21 +106,21 @@ namespace Xtreme
 			this.chkShowVerticleLine = new System.Windows.Forms.CheckBox();
 			this.chkShowDoubleReportHeader = new System.Windows.Forms.CheckBox();
 			this.chkShowDoubleCoumnHeader = new System.Windows.Forms.CheckBox();
-			this.tabReportOptions = new AxXtremeSuiteControls.AxTabControl();
-			this.TabControlPage1 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabReportOptions = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.TabControlPage1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.cmdItalic = new System.Windows.Forms.Button();
 			this.cmdBold = new System.Windows.Forms.Button();
 			this.cmdColor = new System.Windows.Forms.Button();
 			this.cmdUnderline = new System.Windows.Forms.Button();
 			this.rtbFooter = new System.Windows.Forms.RichTextBox();
-			this.tabFormat = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabFormat = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.grdReportFormats = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdReportFormats = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdReportFormats = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.cmbFormatList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbFormatList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbFormatList = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.tabFilters = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabFilters = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.fraDateRange = new System.Windows.Forms.GroupBox();
 			this._txtDateRange_0 = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this._lblCommon_1 = new System.Windows.Forms.Label();
@@ -132,7 +132,7 @@ namespace Xtreme
 			this.cmbFilterList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbFilterList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbFilterList = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.tabFields = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabFields = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.chkShowAll = new System.Windows.Forms.CheckBox();
 			this.chkAdvancedOptions = new System.Windows.Forms.CheckBox();
 			this.grdReportFields = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -158,19 +158,19 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.tabReportOptions).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.frmHeader.SuspendLayout();
-			this.tabReportOptions.SuspendLayout();
-			this.TabControlPage1.SuspendLayout();
-			this.tabFormat.SuspendLayout();
-			this.grdReportFormats.SuspendLayout();
-			this.cmbFormatList.SuspendLayout();
-			this.tabFilters.SuspendLayout();
-			this.fraDateRange.SuspendLayout();
-			this.grdReportFilters.SuspendLayout();
-			this.cmbFilterList.SuspendLayout();
-			this.tabFields.SuspendLayout();
-			this.grdReportFields.SuspendLayout();
-			this.cmbFieldList.SuspendLayout();
+			//this.frmHeader.SuspendLayout();
+			//this.tabReportOptions.SuspendLayout();
+			//this.TabControlPage1.SuspendLayout();
+			//this.tabFormat.SuspendLayout();
+			//this.grdReportFormats.SuspendLayout();
+			//this.cmbFormatList.SuspendLayout();
+			//this.tabFilters.SuspendLayout();
+			//this.fraDateRange.SuspendLayout();
+			//this.grdReportFilters.SuspendLayout();
+			//this.cmbFilterList.SuspendLayout();
+			//this.tabFields.SuspendLayout();
+			//this.grdReportFields.SuspendLayout();
+			//this.cmbFieldList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmHeader
@@ -729,7 +729,7 @@ namespace Xtreme
 			this.txtReportName.Size = new System.Drawing.Size(259, 19);
 			this.txtReportName.TabIndex = 0;
 			this.txtReportName.Text = "";
-			// this.this.txtReportName.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_0
 			// 

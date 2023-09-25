@@ -37,7 +37,7 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public UpgradeHelpers.Gui.ShapeHelper shpBorder;
+		public ShapeHelper shpBorder;
 		public System.Windows.Forms.Label lblLicensedToCompnayName;
 		public System.Windows.Forms.Label lblApplicationStatus;
 		public System.Windows.Forms.Label lblCopyright;
@@ -51,7 +51,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysSplash));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.shpBorder = new UpgradeHelpers.Gui.ShapeHelper();
+			this.shpBorder = new ShapeHelper();
 			this.lblLicensedToCompnayName = new System.Windows.Forms.Label();
 			this.lblApplicationStatus = new System.Windows.Forms.Label();
 			this.lblCopyright = new System.Windows.Forms.Label();
@@ -62,7 +62,7 @@ namespace Xtreme
 			// 
 			this.shpBorder.AllowDrop = true;
 			this.shpBorder.BackColor = System.Drawing.SystemColors.Window;
-			this.shpBorder.BackStyle = 0;
+			// = 0;
 			this.shpBorder.BorderColor = System.Drawing.Color.Navy;
 			this.shpBorder.BorderStyle = 1;
 			this.shpBorder.BorderWidth = 2;

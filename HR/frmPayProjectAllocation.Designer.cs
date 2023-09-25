@@ -116,9 +116,9 @@ namespace Xtreme
 			this._lblCommonLabel_5 = new System.Windows.Forms.Label();
 			this.Line2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.grdTADetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.grdTADetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdPayroll
@@ -349,7 +349,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Payroll Details";
 			this.Label1.Location = new System.Drawing.Point(16, 86);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(81, 13);
 			this.Label1.TabIndex = 16;
 			// 

@@ -113,7 +113,7 @@ namespace Xtreme
 			this.Label2 = new System.Windows.Forms.Label();
 			this.Label1 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.frmDetail.SuspendLayout();
+			//this.frmDetail.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkPayrollEarning
@@ -181,8 +181,8 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 1;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.Watermark = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_4
@@ -255,7 +255,7 @@ namespace Xtreme
 			// this.txtStartDate.MaxDate = 2958465;
 			// this.txtStartDate.MinDate = -657434;
 			this.txtStartDate.Name = "txtStartDate";
-			this.txtStartDate.PromptChar = "_";
+			//// = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(143, 21);
 			this.txtStartDate.TabIndex = 2;
 			// this.txtStartDate.Text = "13/04/2010";
@@ -281,7 +281,7 @@ namespace Xtreme
 			// this.txtResumeDate.MaxDate = 2958465;
 			// this.txtResumeDate.MinDate = -657434;
 			this.txtResumeDate.Name = "txtResumeDate";
-			this.txtResumeDate.PromptChar = "_";
+			// = "_";
 			this.txtResumeDate.Size = new System.Drawing.Size(143, 21);
 			this.txtResumeDate.TabIndex = 3;
 			// this.txtResumeDate.Text = "13/04/2010";
@@ -403,16 +403,16 @@ namespace Xtreme
 			// 
 			this.txtNewEmpNo.AllowDrop = true;
 			this.txtNewEmpNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
-			// this.txtNewEmpNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtNewEmpNo.Enabled = false;
 			this.txtNewEmpNo.ForeColor = System.Drawing.Color.Black;
 			this.txtNewEmpNo.Location = new System.Drawing.Point(342, 38);
-			// this.txtNewEmpNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtNewEmpNo.Name = "txtNewEmpNo";
 			this.txtNewEmpNo.Size = new System.Drawing.Size(83, 19);
 			this.txtNewEmpNo.TabIndex = 21;
 			this.txtNewEmpNo.Text = "";
-			// this.this.txtNewEmpNo.Watermark = "";
+			// this.// = "";
 			// 
 			// System.Windows.Forms.Label4
 			// 
@@ -421,7 +421,7 @@ namespace Xtreme
 			this.Label4.Text = "Employee No";
 			this.Label4.Location = new System.Drawing.Point(234, 41);
 			// this.Label4.mLabelId = 1394;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(62, 14);
 			this.Label4.TabIndex = 20;
 			// 
@@ -446,7 +446,7 @@ namespace Xtreme
 			// this.txtLastAccrualDate.MaxDate = 2958465;
 			// this.txtLastAccrualDate.MinDate = -657434;
 			this.txtLastAccrualDate.Name = "txtLastAccrualDate";
-			this.txtLastAccrualDate.PromptChar = "_";
+			// = "_";
 			this.txtLastAccrualDate.Size = new System.Drawing.Size(139, 19);
 			this.txtLastAccrualDate.TabIndex = 5;
 			// this.txtLastAccrualDate.Text = "13/04/2010";
@@ -463,7 +463,7 @@ namespace Xtreme
 			// this.txtDateOfJoining.MaxDate = 2958465;
 			// this.txtDateOfJoining.MinDate = -657434;
 			this.txtDateOfJoining.Name = "txtDateOfJoining";
-			this.txtDateOfJoining.PromptChar = "_";
+			// = "_";
 			this.txtDateOfJoining.Size = new System.Drawing.Size(139, 19);
 			this.txtDateOfJoining.TabIndex = 4;
 			this.txtDateOfJoining.Text = "13/04/2010";
@@ -476,7 +476,7 @@ namespace Xtreme
 			this.Label3.Text = "No PayDays";
 			this.Label3.Location = new System.Drawing.Point(234, 93);
 			// this.Label3.mLabelId = 1922;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(59, 14);
 			this.Label3.TabIndex = 19;
 			// 
@@ -487,7 +487,7 @@ namespace Xtreme
 			this.Label2.Text = "Last Accrual Date";
 			this.Label2.Location = new System.Drawing.Point(234, 70);
 			// this.Label2.mLabelId = 2078;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(87, 14);
 			this.Label2.TabIndex = 18;
 			// 
@@ -498,7 +498,7 @@ namespace Xtreme
 			this.Label1.Text = "Date Of Joining";
 			this.Label1.Location = new System.Drawing.Point(236, 19);
 			// this.Label1.mLabelId = 192;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(73, 14);
 			this.Label1.TabIndex = 17;
 			// 

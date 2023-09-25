@@ -64,8 +64,8 @@ namespace Xtreme
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			// //((System.ComponentModel.ISupportInitialize) this.fraLoadDocument).BeginInit();
-			this.fraLoadDocument.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.fraLoadDocument.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraLoadDocument

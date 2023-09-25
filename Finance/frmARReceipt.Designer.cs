@@ -108,7 +108,7 @@ namespace Xtreme
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdAutoAdjust
@@ -141,15 +141,15 @@ namespace Xtreme
 			// 
 			this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
-			// this.txtComments.bolAllowDecimal = false;
+			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(94, 136);
-			// this.txtComments.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtComments.Name = "txtComments";
 			this.txtComments.Size = new System.Drawing.Size(401, 19);
 			this.txtComments.TabIndex = 8;
 			this.txtComments.Text = "";
-			// this.this.txtComments.Watermark = "";
+			// this.// = "";
 			// 
 			// txtVoucherDate
 			// 
@@ -158,7 +158,7 @@ namespace Xtreme
 			// this.txtVoucherDate.MaxDate = 2958465;
 			// this.txtVoucherDate.MinDate = -657434;
 			this.txtVoucherDate.Name = "txtVoucherDate";
-			this.txtVoucherDate.PromptChar = "_";
+			// = "_";
 			this.txtVoucherDate.Size = new System.Drawing.Size(75, 19);
 			this.txtVoucherDate.TabIndex = 2;
 			// this.txtVoucherDate.Text = "29-Jul-2019";
@@ -232,17 +232,17 @@ namespace Xtreme
 			// 
 			this.txtCashBankCD.AllowDrop = true;
 			this.txtCashBankCD.BackColor = System.Drawing.Color.White;
-			// this.txtCashBankCD.bolAllowDecimal = false;
+			// // = false;
 			this.txtCashBankCD.ForeColor = System.Drawing.Color.Black;
 			this.txtCashBankCD.Location = new System.Drawing.Point(94, 78);
-			// this.txtCashBankCD.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtCashBankCD.Name = "txtCashBankCD";
 			// this.txtCashBankCD.ShowButton = true;
 			this.txtCashBankCD.Size = new System.Drawing.Size(75, 19);
 			this.txtCashBankCD.TabIndex = 4;
 			this.txtCashBankCD.Text = "";
-			// this.this.txtCashBankCD.Watermark = "";
-			// this.this.txtCashBankCD.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCashBankCD_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCashBankCD.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCashBankCD_DropButtonClick);
 			// this.this.txtCashBankCD.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtCashBankCD_KeyDown);
 			// this.txtCashBankCD.Leave += new System.EventHandler(this.txtCashBankCD_Leave);
 			// 
@@ -315,17 +315,17 @@ namespace Xtreme
 			// 
 			this.txtDiscountCD.AllowDrop = true;
 			this.txtDiscountCD.BackColor = System.Drawing.Color.White;
-			// this.txtDiscountCD.bolAllowDecimal = false;
+			// // = false;
 			this.txtDiscountCD.ForeColor = System.Drawing.Color.Black;
 			this.txtDiscountCD.Location = new System.Drawing.Point(94, 100);
-			// this.txtDiscountCD.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtDiscountCD.Name = "txtDiscountCD";
 			// this.txtDiscountCD.ShowButton = true;
 			this.txtDiscountCD.Size = new System.Drawing.Size(75, 19);
 			this.txtDiscountCD.TabIndex = 6;
 			this.txtDiscountCD.Text = "";
-			// this.this.txtDiscountCD.Watermark = "";
-			// this.this.txtDiscountCD.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDiscountCD_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtDiscountCD.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDiscountCD_DropButtonClick);
 			// this.this.txtDiscountCD.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtDiscountCD_KeyDown);
 			// this.txtDiscountCD.Leave += new System.EventHandler(this.txtDiscountCD_Leave);
 			// 
@@ -345,8 +345,8 @@ namespace Xtreme
 			// this.txtPercentDiscount.DisplayFormat = "#####0.######;;; ";
 			// this.txtPercentDiscount.Format = "#####0.######";
 			this.txtPercentDiscount.Location = new System.Drawing.Point(426, 118);
-			// this.txtPercentDiscount.MaxValue = 100;
-			// this.txtPercentDiscount.MinValue = 0;
+			// // = 100;
+			// // = 0;
 			this.txtPercentDiscount.Name = "txtPercentDiscount";
 			this.txtPercentDiscount.Size = new System.Drawing.Size(37, 19);
 			this.txtPercentDiscount.TabIndex = 22;
@@ -367,31 +367,31 @@ namespace Xtreme
 			// 
 			this.txtVoucherNo.AllowDrop = true;
 			this.txtVoucherNo.BackColor = System.Drawing.Color.White;
-			// this.txtVoucherNo.bolAllowDecimal = false;
+			// // = false;
 			this.txtVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtVoucherNo.Location = new System.Drawing.Point(94, 56);
-			// this.txtVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtVoucherNo.Name = "txtVoucherNo";
 			this.txtVoucherNo.Size = new System.Drawing.Size(75, 19);
 			this.txtVoucherNo.TabIndex = 3;
 			this.txtVoucherNo.Text = "";
-			// this.this.txtVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtCustomerCode
 			// 
 			this.txtCustomerCode.AllowDrop = true;
 			this.txtCustomerCode.BackColor = System.Drawing.Color.White;
-			// this.txtCustomerCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtCustomerCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCustomerCode.Location = new System.Drawing.Point(94, 12);
-			// this.txtCustomerCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtCustomerCode.Name = "txtCustomerCode";
 			// this.txtCustomerCode.ShowButton = true;
 			this.txtCustomerCode.Size = new System.Drawing.Size(75, 19);
 			this.txtCustomerCode.TabIndex = 1;
 			this.txtCustomerCode.Text = "";
-			// this.this.txtCustomerCode.Watermark = "";
-			// this.this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCustomerCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCustomerCode_DropButtonClick);
 			// this.txtCustomerCode.Leave += new System.EventHandler(this.txtCustomerCode_Leave);
 			// 
 			// grdVoucherDetails
@@ -469,14 +469,14 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[6];
 			this.Label1[1] = Label1_1;
 			this.Label1[4] = Label1_4;
 			this.Label1[5] = Label1_5;
 		}
-		void InitializeSystem.Windows.Forms.Label()
+		void InitializeSystemWindowsFormsLabel()
 		{
 			this.Label = new System.Windows.Forms.Label[8];
 			this.Label[0] = Label_0;

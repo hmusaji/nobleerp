@@ -60,7 +60,7 @@ namespace Xtreme
 			this.grdCommon = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.grdCommon.SuspendLayout();
+			//this.grdCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// grdCommon

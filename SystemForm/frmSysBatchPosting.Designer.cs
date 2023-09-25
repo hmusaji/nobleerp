@@ -157,16 +157,16 @@ namespace Xtreme
 			this._Label3_0 = new System.Windows.Forms.Label();
 			this._lblStep_2 = new System.Windows.Forms.Label();
 			this._imgStep_2 = new System.Windows.Forms.PictureBox();
-			this.picNav.SuspendLayout();
-			this._fraStep_2.SuspendLayout();
-			this.AdvanceOptionFrame.SuspendLayout();
-			this._fraStep_1.SuspendLayout();
-			this.VoucherRange.SuspendLayout();
-			this.DateRangeFrame.SuspendLayout();
-			this._fraStep_0.SuspendLayout();
-			this.VoucherFrame.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this._fraStep_3.SuspendLayout();
+			//this.picNav.SuspendLayout();
+			//this._fraStep_2.SuspendLayout();
+			//this.AdvanceOptionFrame.SuspendLayout();
+			//this._fraStep_1.SuspendLayout();
+			//this.VoucherRange.SuspendLayout();
+			//this.DateRangeFrame.SuspendLayout();
+			//this._fraStep_0.SuspendLayout();
+			//this.VoucherFrame.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this._fraStep_3.SuspendLayout();
 			this.SuspendLayout();
 			//this.commandButtonHelper1 = new UpgradeHelpers.Gui.CommandButtonHelper(this.components);
 			// 
@@ -518,12 +518,12 @@ namespace Xtreme
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtToVoucherNo.Location = new System.Drawing.Point(114, 63);
 			this.txtToVoucherNo.MaxLength = 12;
-			// this.txtToVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtToVoucherNo.Name = "txtToVoucherNo";
 			this.txtToVoucherNo.Size = new System.Drawing.Size(101, 19);
 			this.txtToVoucherNo.TabIndex = 28;
 			this.txtToVoucherNo.Text = "";
-			// this.this.txtToVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtFromVoucherNo
 			// 
@@ -533,12 +533,12 @@ namespace Xtreme
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtFromVoucherNo.Location = new System.Drawing.Point(114, 28);
 			this.txtFromVoucherNo.MaxLength = 12;
-			// this.txtFromVoucherNo.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtFromVoucherNo.Name = "txtFromVoucherNo";
 			this.txtFromVoucherNo.Size = new System.Drawing.Size(101, 19);
 			this.txtFromVoucherNo.TabIndex = 29;
 			this.txtFromVoucherNo.Text = "";
-			// this.this.txtFromVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_5
 			// 
@@ -759,7 +759,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Select Location";
 			this.Label2.Location = new System.Drawing.Point(10, 72);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(74, 13);
 			this.Label2.TabIndex = 16;
 			// 
@@ -1025,7 +1025,7 @@ namespace Xtreme
 			this.chkCommonInclude[1] = _chkCommonInclude_1;
 			this.chkCommonInclude[0] = _chkCommonInclude_0;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[2];
 			this.Label1[0] = Label1_0;

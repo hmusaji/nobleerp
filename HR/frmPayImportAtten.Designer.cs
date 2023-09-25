@@ -91,7 +91,7 @@ namespace Xtreme
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
 			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
 			this.lblmsg = new System.Windows.Forms.Label();
-			this.Frame1.SuspendLayout();
+			//this.Frame1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkIncludeLeaveEmployee
@@ -128,15 +128,15 @@ namespace Xtreme
 			// 
 			this.txtErrorFilePAth.AllowDrop = true;
 			this.txtErrorFilePAth.BackColor = System.Drawing.Color.White;
-			// this.txtErrorFilePAth.bolAllowDecimal = false;
+			// // = false;
 			this.txtErrorFilePAth.ForeColor = System.Drawing.Color.Black;
 			this.txtErrorFilePAth.Location = new System.Drawing.Point(201, 12);
-			// this.txtErrorFilePAth.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtErrorFilePAth.Name = "txtErrorFilePAth";
 			this.txtErrorFilePAth.Size = new System.Drawing.Size(322, 19);
 			this.txtErrorFilePAth.TabIndex = 12;
 			this.txtErrorFilePAth.Text = "";
-			// this.this.txtErrorFilePAth.Watermark = "";
+			// this.// = "";
 			// 
 			// Frame1
 			// 
@@ -186,7 +186,7 @@ namespace Xtreme
 			// this.txtDate.MaxDate = 2958465;
 			// this.txtDate.MinDate = -657434;
 			this.txtDate.Name = "txtDate";
-			this.txtDate.PromptChar = "_";
+			// = "_";
 			this.txtDate.Size = new System.Drawing.Size(105, 19);
 			this.txtDate.TabIndex = 11;
 			// this.txtDate.Text = "31-Oct-2011";

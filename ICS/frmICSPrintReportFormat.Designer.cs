@@ -56,7 +56,7 @@ namespace Xtreme
 			this.rptGrid = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_rptGrid = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_rptGrid = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.rptGrid.SuspendLayout();
+			//this.rptGrid.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdOK

@@ -66,16 +66,16 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_0;
 		private System.Windows.Forms.Label _lblCommon_2;
 		private System.Windows.Forms.Label _lblCommon_3;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnReportOptions_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnReportOptions_2;
+		private System.Windows.Forms.Button _btnReportOptions_1;
+		private System.Windows.Forms.Button _btnReportOptions_2;
 		private System.Windows.Forms.Label _txtCommon_2;
 		private System.Windows.Forms.Label _txtCommon_1;
 		private System.Windows.Forms.Label _txtCommon_0;
-		private UpgradeHelpers.Gui.ShapeHelper _cntButtons_1;
+		private ShapeHelper _cntButtons_1;
 		private System.Windows.Forms.Label _Line1_0;
 		public System.Windows.Forms.Label[] Line1 = new System.Windows.Forms.Label[3];
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnReportOptions = new AxSmartNetButtonProject.AxSmartNetButton[3];
-		public UpgradeHelpers.Gui.ShapeHelper[] cntButtons = new UpgradeHelpers.Gui.ShapeHelper[2];
+		public System.Windows.Forms.Button[] btnReportOptions = new System.Windows.Forms.Button[3];
+		public ShapeHelper[] cntButtons = new ShapeHelper[2];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[11];
 		public System.Windows.Forms.Label[] txtCommon = new System.Windows.Forms.Label[8];
 		public System.Windows.Forms.TextBox[] txtCommonSearch = new System.Windows.Forms.TextBox[8];
@@ -109,17 +109,17 @@ namespace Xtreme
 			this._lblCommon_0 = new System.Windows.Forms.Label();
 			this._lblCommon_2 = new System.Windows.Forms.Label();
 			this._lblCommon_3 = new System.Windows.Forms.Label();
-			this._btnReportOptions_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnReportOptions_2 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnReportOptions_1 = new System.Windows.Forms.Button();
+			this._btnReportOptions_2 = new System.Windows.Forms.Button();
 			this._txtCommon_2 = new System.Windows.Forms.Label();
 			this._txtCommon_1 = new System.Windows.Forms.Label();
 			this._txtCommon_0 = new System.Windows.Forms.Label();
-			this._cntButtons_1 = new UpgradeHelpers.Gui.ShapeHelper();
+			this._cntButtons_1 = new ShapeHelper();
 			this._Line1_0 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnReportOptions_1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnReportOptions_2).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMasterDetails
@@ -204,8 +204,8 @@ namespace Xtreme
 			this._txtCommonSearch_7.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonSearch_7.TabIndex = 0;
 			this._txtCommonSearch_7.Text = "";
-			// this.this._txtCommonSearch_7.Watermark = "";
-			// this.this._txtCommonSearch_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonSearch_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonSearch_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonSearch_DropButtonClick);
 			// this._txtCommonSearch_7.Leave += new System.EventHandler(this.txtCommonSearch_Leave);
 			// 
 			// _lblCommon_6
@@ -249,8 +249,8 @@ namespace Xtreme
 			this._txtCommonSearch_5.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonSearch_5.TabIndex = 1;
 			this._txtCommonSearch_5.Text = "";
-			// this.this._txtCommonSearch_5.Watermark = "";
-			// this.this._txtCommonSearch_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonSearch_DropButtonClick);
+			// this.// = "";
+			// this.//this._txtCommonSearch_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonSearch_DropButtonClick);
 			// this._txtCommonSearch_5.Leave += new System.EventHandler(this.txtCommonSearch_Leave);
 			// 
 			// _lblCommon_10
@@ -408,7 +408,7 @@ namespace Xtreme
 			// 
 			this._cntButtons_1.AllowDrop = true;
 			this._cntButtons_1.BackColor = System.Drawing.Color.FromArgb(64, 64, 0);
-			this._cntButtons_1.BackStyle = 1;
+			// = 1;
 			this._cntButtons_1.BorderStyle = 0;
 			this._cntButtons_1.Enabled = false;
 			this._cntButtons_1.FillColor = System.Drawing.Color.Black;
@@ -500,12 +500,12 @@ namespace Xtreme
 		}
 		void InitializecntButtons()
 		{
-			this.cntButtons = new UpgradeHelpers.Gui.ShapeHelper[2];
+			this.cntButtons = new ShapeHelper[2];
 			this.cntButtons[1] = _cntButtons_1;
 		}
 		void InitializebtnReportOptions()
 		{
-			this.btnReportOptions = new AxSmartNetButtonProject.AxSmartNetButton[3];
+			this.btnReportOptions = new System.Windows.Forms.Button[3];
 			this.btnReportOptions[1] = _btnReportOptions_1;
 			this.btnReportOptions[2] = _btnReportOptions_2;
 		}

@@ -82,14 +82,14 @@ namespace Xtreme
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLocationNo.Location = new System.Drawing.Point(132, 50);
 			this.txtLocationNo.MaxLength = 4;
-			// this.txtLocationNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtLocationNo.Name = "txtLocationNo";
 			// this.txtLocationNo.ShowButton = true;
 			this.txtLocationNo.Size = new System.Drawing.Size(101, 19);
 			this.txtLocationNo.TabIndex = 0;
 			this.txtLocationNo.Text = "";
-			// this.this.txtLocationNo.Watermark = "";
-			// this.this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocationNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocationNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocationNo_DropButtonClick);
 			// 
 			// lblLocationCode
 			// 
@@ -139,7 +139,7 @@ namespace Xtreme
 			this.txtLLocationName.TabIndex = 1;
 			this.txtLLocationName.Tag = "Salesman Name in English";
 			this.txtLLocationName.Text = "";
-			// this.this.txtLLocationName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtALocationName
 			// 
@@ -147,13 +147,13 @@ namespace Xtreme
 			this.txtALocationName.BackColor = System.Drawing.Color.White;
 			this.txtALocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtALocationName.Location = new System.Drawing.Point(132, 92);
-			// this.txtALocationName.mArabicEnabled = true;
+			// // = true;
 			this.txtALocationName.MaxLength = 50;
 			this.txtALocationName.Name = "txtALocationName";
 			this.txtALocationName.Size = new System.Drawing.Size(295, 19);
 			this.txtALocationName.TabIndex = 2;
 			this.txtALocationName.Text = "";
-			// this.this.txtALocationName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCostCenter
 			// 
@@ -179,8 +179,8 @@ namespace Xtreme
 			this.txtCostCenterCd.Size = new System.Drawing.Size(101, 19);
 			this.txtCostCenterCd.TabIndex = 3;
 			this.txtCostCenterCd.Text = "";
-			// this.this.txtCostCenterCd.Watermark = "";
-			// this.this.txtCostCenterCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCostCenterCd_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCostCenterCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCostCenterCd_DropButtonClick);
 			// this.txtCostCenterCd.Leave += new System.EventHandler(this.txtCostCenterCd_Leave);
 			// 
 			// txtCostCenterName
@@ -195,7 +195,7 @@ namespace Xtreme
 			this.txtCostCenterName.TabIndex = 8;
 			this.txtCostCenterName.TabStop = false;
 			this.txtCostCenterName.Text = " ";
-			// this.this.txtCostCenterName.Watermark = "";
+			// this.// = "";
 			// 
 			// frmFALocation
 			// 

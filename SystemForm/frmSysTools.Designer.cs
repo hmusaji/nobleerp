@@ -112,10 +112,10 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._cmdCalc_22).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.ctlCalender).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.wndTaskPanel).BeginInit();
-			//this.wndTaskPanel.SuspendLayout();
-			this.panelNotes.SuspendLayout();
-			this.panelCalculator.SuspendLayout();
-			this.panelCalender.SuspendLayout();
+			////this.wndTaskPanel.SuspendLayout();
+			//this.panelNotes.SuspendLayout();
+			//this.panelCalculator.SuspendLayout();
+			//this.panelCalender.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// wndTaskPanel

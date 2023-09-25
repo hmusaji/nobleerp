@@ -74,7 +74,7 @@ namespace Xtreme
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Label1_2079
@@ -94,7 +94,7 @@ namespace Xtreme
 			this.Label2.Text = "Assign User For Popup";
 			this.Label2.Location = new System.Drawing.Point(4, 82);
 			// this.Label2.mLabelId = 2080;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(112, 14);
 			this.Label2.TabIndex = 3;
 			// 
@@ -112,16 +112,16 @@ namespace Xtreme
 			// 
 			this.txtPopupTypeCd.AllowDrop = true;
 			this.txtPopupTypeCd.BackColor = System.Drawing.Color.White;
-			// this.txtPopupTypeCd.bolAllowDecimal = false;
+			// // = false;
 			this.txtPopupTypeCd.ForeColor = System.Drawing.Color.Black;
 			this.txtPopupTypeCd.Location = new System.Drawing.Point(76, 44);
-			// this.txtPopupTypeCd.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtPopupTypeCd.Name = "txtPopupTypeCd";
 			// this.txtPopupTypeCd.ShowButton = true;
 			this.txtPopupTypeCd.Size = new System.Drawing.Size(127, 19);
 			this.txtPopupTypeCd.TabIndex = 1;
 			this.txtPopupTypeCd.Text = "";
-			// this.this.txtPopupTypeCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtPopupTypeCd_DropButtonClick);
+			// this.//this.txtPopupTypeCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtPopupTypeCd_DropButtonClick);
 			// this.txtPopupTypeCd.Leave += new System.EventHandler(this.txtPopupTypeCd_Leave);
 			// 
 			// grdVoucherDetails
@@ -202,7 +202,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[2080];
 			this.Label1[2079] = Label1_2079;

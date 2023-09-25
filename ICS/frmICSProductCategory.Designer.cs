@@ -118,14 +118,14 @@ namespace Xtreme
 			this.txtCatNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCatNo.Location = new System.Drawing.Point(141, 21);
 			this.txtCatNo.MaxLength = 15;
-			// this.txtCatNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtCatNo.Name = "txtCatNo";
 			// this.txtCatNo.ShowButton = true;
 			this.txtCatNo.Size = new System.Drawing.Size(101, 19);
 			this.txtCatNo.TabIndex = 1;
 			this.txtCatNo.Text = "";
-			// this.this.txtCatNo.Watermark = "";
-			// this.this.txtCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCatNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCatNo_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -162,7 +162,7 @@ namespace Xtreme
 			this.txtLCatName.Size = new System.Drawing.Size(201, 19);
 			this.txtLCatName.TabIndex = 3;
 			this.txtLCatName.Text = "";
-			// this.this.txtLCatName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtACatName
 			// 
@@ -170,13 +170,13 @@ namespace Xtreme
 			this.txtACatName.BackColor = System.Drawing.Color.White;
 			this.txtACatName.ForeColor = System.Drawing.Color.Black;
 			this.txtACatName.Location = new System.Drawing.Point(141, 63);
-			// this.txtACatName.mArabicEnabled = true;
+			// // = true;
 			this.txtACatName.MaxLength = 50;
 			this.txtACatName.Name = "txtACatName";
 			this.txtACatName.Size = new System.Drawing.Size(201, 19);
 			this.txtACatName.TabIndex = 5;
 			this.txtACatName.Text = "";
-			// this.this.txtACatName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtParentCatName
 			// 
@@ -190,7 +190,7 @@ namespace Xtreme
 			this.txtParentCatName.TabIndex = 6;
 			this.txtParentCatName.TabStop = false;
 			this.txtParentCatName.Text = " ";
-			// this.this.txtParentCatName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblParentCategory
 			// 
@@ -217,8 +217,8 @@ namespace Xtreme
 			this.txtParentCatNo.Size = new System.Drawing.Size(101, 19);
 			this.txtParentCatNo.TabIndex = 8;
 			this.txtParentCatNo.Text = "";
-			// this.this.txtParentCatNo.Watermark = "";
-			// this.this.txtParentCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtParentCatNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtParentCatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtParentCatNo_DropButtonClick);
 			// this.txtParentCatNo.Leave += new System.EventHandler(this.txtParentCatNo_Leave);
 			// 
 			// lblComments
@@ -239,13 +239,13 @@ namespace Xtreme
 			this.txtShortName.BackColor = System.Drawing.Color.White;
 			this.txtShortName.ForeColor = System.Drawing.Color.Black;
 			this.txtShortName.Location = new System.Drawing.Point(141, 85);
-			// this.txtShortName.mArabicEnabled = true;
+			// // = true;
 			this.txtShortName.MaxLength = 50;
 			this.txtShortName.Name = "txtShortName";
 			this.txtShortName.Size = new System.Drawing.Size(201, 19);
 			this.txtShortName.TabIndex = 11;
 			this.txtShortName.Text = "";
-			// this.this.txtShortName.Watermark = "";
+			// this.// = "";
 			// 
 			// System.Windows.Forms.Label1
 			// 
@@ -255,7 +255,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(10, 88);
 			// this.Label1.mLabelId = 709;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(56, 14);
 			this.Label1.TabIndex = 12;
 			// 

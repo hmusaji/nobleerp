@@ -57,7 +57,7 @@ namespace Xtreme
 		public C1.Win.C1FlexGrid.C1FlexGrid grdMigrate2;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
 		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape1;
 		public System.Windows.Forms.Label Line1;
 		public System.Windows.Forms.Label Line2;
 		public System.Windows.Forms.GroupBox frameMain;
@@ -83,11 +83,11 @@ namespace Xtreme
 			this.grdMigrate2 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
 			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.Shape1 = new ShapeHelper();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.Line2 = new System.Windows.Forms.Label();
-			this.frameMain.SuspendLayout();
-			this.FrameCmb.SuspendLayout();
+			//this.frameMain.SuspendLayout();
+			//this.FrameCmb.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frameMain
@@ -216,7 +216,7 @@ namespace Xtreme
 			this.Label1.Text = "Migrate Scheme";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(0, 2);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(95, 16);
 			this.Label1.TabIndex = 5;
 			// 
@@ -388,7 +388,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
-			this.Shape1.BackStyle = 0;
+			// = 0;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.Black;

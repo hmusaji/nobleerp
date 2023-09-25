@@ -71,7 +71,7 @@ namespace Xtreme
 			this._lblCommon_1 = new System.Windows.Forms.Label();
 			this.cmdSelectContract = new UCOkCancel();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdOkCancel

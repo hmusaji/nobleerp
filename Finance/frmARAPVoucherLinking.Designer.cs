@@ -81,7 +81,7 @@ namespace Xtreme
 			this.Line2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.fraVoucherAdjustment).BeginInit();
-			this.fraVoucherAdjustment.SuspendLayout();
+			//this.fraVoucherAdjustment.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraVoucherAdjustment
@@ -129,8 +129,8 @@ namespace Xtreme
 			this.txtToBeAdjusted.Enabled = false;
 			// this.txtToBeAdjusted.Format = "###########0.000";
 			this.txtToBeAdjusted.Location = new System.Drawing.Point(182, 220);
-			// this.txtToBeAdjusted.MaxValue = 2147483647;
-			// this.txtToBeAdjusted.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtToBeAdjusted.Name = "txtToBeAdjusted";
 			this.txtToBeAdjusted.Size = new System.Drawing.Size(88, 19);
 			this.txtToBeAdjusted.TabIndex = 11;
@@ -158,12 +158,12 @@ namespace Xtreme
 			this.txtCurrencySymbol.Enabled = false;
 			this.txtCurrencySymbol.ForeColor = System.Drawing.Color.Black;
 			this.txtCurrencySymbol.Location = new System.Drawing.Point(645, 6);
-			// this.txtCurrencySymbol.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtCurrencySymbol.Name = "txtCurrencySymbol";
 			this.txtCurrencySymbol.Size = new System.Drawing.Size(33, 19);
 			this.txtCurrencySymbol.TabIndex = 4;
 			this.txtCurrencySymbol.Text = "";
-			// this.this.txtCurrencySymbol.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCurrencySymbol
 			// 
@@ -187,7 +187,7 @@ namespace Xtreme
 			this.txtLdgrName.Size = new System.Drawing.Size(201, 19);
 			this.txtLdgrName.TabIndex = 6;
 			this.txtLdgrName.Text = "";
-			// this.this.txtLdgrName.Watermark = "";
+			// this.// = "";
 			// 
 			// txtLdgrNo
 			// 
@@ -201,7 +201,7 @@ namespace Xtreme
 			this.txtLdgrNo.Size = new System.Drawing.Size(88, 19);
 			this.txtLdgrNo.TabIndex = 7;
 			this.txtLdgrNo.Text = "";
-			// this.this.txtLdgrNo.Watermark = "";
+			// this.// = "";
 			// 
 			// lblLedgerNo
 			// 
@@ -221,7 +221,7 @@ namespace Xtreme
 			this.Label3.Text = "Amt to Adjust :";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
 			this.Label3.Location = new System.Drawing.Point(2, 206);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(71, 14);
 			this.Label3.TabIndex = 9;
 			// 
@@ -232,7 +232,7 @@ namespace Xtreme
 			this.Label2.Text = "To be Adjusted :";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(182, 206);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(79, 14);
 			this.Label2.TabIndex = 10;
 			// 
@@ -244,8 +244,8 @@ namespace Xtreme
 			this.txtAmountToAdjust.Enabled = false;
 			// this.txtAmountToAdjust.Format = "###########0.000";
 			this.txtAmountToAdjust.Location = new System.Drawing.Point(2, 220);
-			// this.txtAmountToAdjust.MaxValue = 2147483647;
-			// this.txtAmountToAdjust.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtAmountToAdjust.Name = "txtAmountToAdjust";
 			this.txtAmountToAdjust.Size = new System.Drawing.Size(88, 19);
 			this.txtAmountToAdjust.TabIndex = 12;
@@ -259,7 +259,7 @@ namespace Xtreme
 			this.Label1.Text = "Amt Adjusted :";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(92, 206);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(71, 14);
 			this.Label1.TabIndex = 13;
 			// 
@@ -271,8 +271,8 @@ namespace Xtreme
 			this.txtAmountAdjusted.Enabled = false;
 			// this.txtAmountAdjusted.Format = "###########0.000";
 			this.txtAmountAdjusted.Location = new System.Drawing.Point(92, 220);
-			// this.txtAmountAdjusted.MaxValue = 2147483647;
-			// this.txtAmountAdjusted.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtAmountAdjusted.Name = "txtAmountAdjusted";
 			this.txtAmountAdjusted.Size = new System.Drawing.Size(88, 19);
 			this.txtAmountAdjusted.TabIndex = 14;

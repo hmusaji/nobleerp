@@ -58,7 +58,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTempDate;
 		public System.Windows.Forms.Panel Frame1;
-		public AxC1SizerLib.AxC1Tab C1Tab1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv C1Tab1;
 		public System.Windows.Forms.Label txtCustomerName;
 		public System.Windows.Forms.TextBox txtCustomerCode;
 		private System.Windows.Forms.Label Label_1;
@@ -77,7 +77,7 @@ namespace Xtreme
 			this.Label_7 = new System.Windows.Forms.Label();
 			this.txtToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.Label_0 = new System.Windows.Forms.Label();
-			this.C1Tab1 = new AxC1SizerLib.AxC1Tab();
+			this.C1Tab1 = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -91,10 +91,10 @@ namespace Xtreme
 			this.Label_1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.C1Tab1).BeginInit();
-			this.C1Tab1.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.C1Tab1.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmdGenerate
@@ -119,7 +119,7 @@ namespace Xtreme
 			// this.txtFromDate.MaxDate = 2958465;
 			// this.txtFromDate.MinDate = -657434;
 			this.txtFromDate.Name = "txtFromDate";
-			this.txtFromDate.PromptChar = "_";
+			// = "_";
 			this.txtFromDate.Size = new System.Drawing.Size(89, 19);
 			this.txtFromDate.TabIndex = 0;
 			// this.txtFromDate.Text = "10/02/2014";
@@ -142,7 +142,7 @@ namespace Xtreme
 			// this.txtToDate.MaxDate = 2958465;
 			// this.txtToDate.MinDate = -657434;
 			this.txtToDate.Name = "txtToDate";
-			this.txtToDate.PromptChar = "_";
+			// = "_";
 			this.txtToDate.Size = new System.Drawing.Size(89, 19);
 			this.txtToDate.TabIndex = 1;
 			// this.txtToDate.Text = "10/02/2014";
@@ -259,17 +259,17 @@ namespace Xtreme
 			// 
 			this.txtCustomerCode.AllowDrop = true;
 			this.txtCustomerCode.BackColor = System.Drawing.Color.White;
-			// this.txtCustomerCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtCustomerCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCustomerCode.Location = new System.Drawing.Point(106, 78);
-			// this.txtCustomerCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtCustomerCode.Name = "txtCustomerCode";
 			// this.txtCustomerCode.ShowButton = true;
 			this.txtCustomerCode.Size = new System.Drawing.Size(87, 19);
 			this.txtCustomerCode.TabIndex = 2;
 			this.txtCustomerCode.Text = "";
-			// this.this.txtCustomerCode.Watermark = "";
-			// this.this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCustomerCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCustomerCode_DropButtonClick);
 			// this.txtCustomerCode.Leave += new System.EventHandler(this.txtCustomerCode_Leave);
 			// 
 			// Label_1
@@ -323,7 +323,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label()
+		void InitializeSystemWindowsFormsLabel()
 		{
 			this.Label = new System.Windows.Forms.Label[8];
 			this.Label[7] = Label_7;

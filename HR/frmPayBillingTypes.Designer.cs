@@ -124,7 +124,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtDisplayLabel_11;
 		private System.Windows.Forms.Label _txtDisplayLabel_12;
 		private System.Windows.Forms.Panel _fraEmployeeInformation_2;
-		public AxC1SizerLib.AxC1Tab tabBillingType;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabBillingType;
 		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[3];
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[2];
 		public System.Windows.Forms.Panel[] fraEmployeeInformation = new System.Windows.Forms.Panel[5];
@@ -140,7 +140,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayBillingTypes));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.tabBillingType = new AxC1SizerLib.AxC1Tab();
+			this.tabBillingType = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._fraEmployeeInformation_1 = new System.Windows.Forms.Panel();
 			this.txtNoOfMonths = new System.Windows.Forms.TextBox();
 			this.Label2 = new System.Windows.Forms.Label();
@@ -221,14 +221,14 @@ namespace Xtreme
 			this._txtDisplayLabel_11 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_12 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabBillingType).BeginInit();
-			this.tabBillingType.SuspendLayout();
-			this._fraEmployeeInformation_1.SuspendLayout();
-			this.Frame1.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdLeaveEarningDetails.SuspendLayout();
-			this._fraEmployeeInformation_0.SuspendLayout();
-			this._fraEmployeeInformation_4.SuspendLayout();
-			this._fraEmployeeInformation_2.SuspendLayout();
+			//this.tabBillingType.SuspendLayout();
+			//this._fraEmployeeInformation_1.SuspendLayout();
+			//this.Frame1.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdLeaveEarningDetails.SuspendLayout();
+			//this._fraEmployeeInformation_0.SuspendLayout();
+			//this._fraEmployeeInformation_4.SuspendLayout();
+			//this._fraEmployeeInformation_2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabBillingType
@@ -279,7 +279,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label2.Text = "No of Months";
 			this.Label2.Location = new System.Drawing.Point(288, 9);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(64, 14);
 			this.Label2.TabIndex = 73;
 			// 
@@ -485,16 +485,16 @@ namespace Xtreme
 			// 
 			this.txtRoundDigit.AllowDrop = true;
 			this.txtRoundDigit.BackColor = System.Drawing.Color.White;
-			// this.txtRoundDigit.bolAllowDecimal = false;
+			// // = false;
 			// this.txtRoundDigit.bolNumericOnly = true;
 			this.txtRoundDigit.ForeColor = System.Drawing.Color.Black;
 			this.txtRoundDigit.Location = new System.Drawing.Point(388, 108);
-			// this.txtRoundDigit.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtRoundDigit.Name = "txtRoundDigit";
 			this.txtRoundDigit.Size = new System.Drawing.Size(45, 19);
 			this.txtRoundDigit.TabIndex = 6;
 			this.txtRoundDigit.Text = "";
-			// this.this.txtRoundDigit.Watermark = "";
+			// this.// = "";
 			// 
 			// txtComment
 			// 
@@ -562,7 +562,7 @@ namespace Xtreme
 			this.txtLBillName.Size = new System.Drawing.Size(201, 19);
 			this.txtLBillName.TabIndex = 2;
 			this.txtLBillName.Text = "";
-			// this.this.txtLBillName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblANatName
 			// 
@@ -581,13 +581,13 @@ namespace Xtreme
 			this.txtABillName.BackColor = System.Drawing.Color.White;
 			this.txtABillName.ForeColor = System.Drawing.Color.Black;
 			this.txtABillName.Location = new System.Drawing.Point(110, 64);
-			// this.txtABillName.mArabicEnabled = true;
+			// // = true;
 			this.txtABillName.MaxLength = 50;
 			this.txtABillName.Name = "txtABillName";
 			this.txtABillName.Size = new System.Drawing.Size(201, 19);
 			this.txtABillName.TabIndex = 3;
 			this.txtABillName.Text = "";
-			// this.this.txtABillName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblComments
 			// 
@@ -629,14 +629,14 @@ namespace Xtreme
 			this.txtBillNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBillNo.Location = new System.Drawing.Point(110, 22);
 			this.txtBillNo.MaxLength = 20;
-			// this.txtBillNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBillNo.Name = "txtBillNo";
 			// this.txtBillNo.ShowButton = true;
 			this.txtBillNo.Size = new System.Drawing.Size(102, 19);
 			this.txtBillNo.TabIndex = 1;
 			this.txtBillNo.Text = "";
-			// this.this.txtBillNo.Watermark = "";
-			// this.this.txtBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBillNo_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtBillNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBillNo_DropButtonClick);
 			// 
 			// _cmbCommon_1
 			// 
@@ -739,7 +739,7 @@ namespace Xtreme
 			this._txtCommonTextBox_40.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_40.TabIndex = 24;
 			this._txtCommonTextBox_40.Text = "";
-			// this.this._txtCommonTextBox_40.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_28
 			// 
@@ -758,12 +758,12 @@ namespace Xtreme
 			this._txtCommonTextBox_41.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_41.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_41.Location = new System.Drawing.Point(126, 35);
-			// this._txtCommonTextBox_41.mArabicEnabled = true;
+			// // = true;
 			this._txtCommonTextBox_41.Name = "_txtCommonTextBox_41";
 			this._txtCommonTextBox_41.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_41.TabIndex = 26;
 			this._txtCommonTextBox_41.Text = "";
-			// this.this._txtCommonTextBox_41.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_29
 			// 
@@ -786,7 +786,7 @@ namespace Xtreme
 			this._txtCommonTextBox_42.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_42.TabIndex = 28;
 			this._txtCommonTextBox_42.Text = "";
-			// this.this._txtCommonTextBox_42.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_31
 			// 
@@ -805,12 +805,12 @@ namespace Xtreme
 			this._txtCommonTextBox_43.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_43.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_43.Location = new System.Drawing.Point(126, 77);
-			// this._txtCommonTextBox_43.mArabicEnabled = true;
+			// // = true;
 			this._txtCommonTextBox_43.Name = "_txtCommonTextBox_43";
 			this._txtCommonTextBox_43.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_43.TabIndex = 30;
 			this._txtCommonTextBox_43.Text = "";
-			// this.this._txtCommonTextBox_43.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_32
 			// 
@@ -855,7 +855,7 @@ namespace Xtreme
 			this._txtCommonTextBox_46.Size = new System.Drawing.Size(51, 19);
 			this._txtCommonTextBox_46.TabIndex = 34;
 			this._txtCommonTextBox_46.Text = "";
-			// this.this._txtCommonTextBox_46.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_34
 			// 
@@ -872,7 +872,7 @@ namespace Xtreme
 			// 
 			this._txtCommonTextBox_47.AllowDrop = true;
 			this._txtCommonTextBox_47.BackColor = System.Drawing.Color.White;
-			// this._txtCommonTextBox_47.bolAllowDecimal = false;
+			// // = false;
 			// this._txtCommonTextBox_47.bolNumericOnly = true;
 			this._txtCommonTextBox_47.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_47.Location = new System.Drawing.Point(328, 140);
@@ -881,7 +881,7 @@ namespace Xtreme
 			this._txtCommonTextBox_47.Size = new System.Drawing.Size(51, 19);
 			this._txtCommonTextBox_47.TabIndex = 36;
 			this._txtCommonTextBox_47.Text = "";
-			// this.this._txtCommonTextBox_47.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_35
 			// 
@@ -898,7 +898,7 @@ namespace Xtreme
 			// 
 			this._txtCommonTextBox_48.AllowDrop = true;
 			this._txtCommonTextBox_48.BackColor = System.Drawing.Color.White;
-			// this._txtCommonTextBox_48.bolAllowDecimal = false;
+			// // = false;
 			// this._txtCommonTextBox_48.bolNumericOnly = true;
 			this._txtCommonTextBox_48.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_48.Location = new System.Drawing.Point(536, 140);
@@ -907,7 +907,7 @@ namespace Xtreme
 			this._txtCommonTextBox_48.Size = new System.Drawing.Size(51, 19);
 			this._txtCommonTextBox_48.TabIndex = 38;
 			this._txtCommonTextBox_48.Text = "";
-			// this.this._txtCommonTextBox_48.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtCommonTextBox_44
 			// 
@@ -919,7 +919,7 @@ namespace Xtreme
 			this._txtCommonTextBox_44.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_44.TabIndex = 39;
 			this._txtCommonTextBox_44.Text = "";
-			// this.this._txtCommonTextBox_44.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtCommonTextBox_45
 			// 
@@ -934,7 +934,7 @@ namespace Xtreme
 			this._txtCommonTextBox_45.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_45.TabIndex = 40;
 			this._txtCommonTextBox_45.Text = "";
-			// this.this._txtCommonTextBox_45.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtDisplayLabel_15
 			// 
@@ -967,7 +967,7 @@ namespace Xtreme
 			this._txtCommonTextBox_14.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_14.TabIndex = 43;
 			this._txtCommonTextBox_14.Text = "";
-			// this.this._txtCommonTextBox_14.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_30
 			// 
@@ -991,7 +991,7 @@ namespace Xtreme
 			this._txtCommonTextBox_38.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_38.TabIndex = 45;
 			this._txtCommonTextBox_38.Text = "";
-			// this.this._txtCommonTextBox_38.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_38
 			// 
@@ -1015,7 +1015,7 @@ namespace Xtreme
 			this._txtCommonTextBox_49.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_49.TabIndex = 47;
 			this._txtCommonTextBox_49.Text = "";
-			// this.this._txtCommonTextBox_49.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_39
 			// 
@@ -1039,7 +1039,7 @@ namespace Xtreme
 			this._txtCommonTextBox_50.Size = new System.Drawing.Size(97, 19);
 			this._txtCommonTextBox_50.TabIndex = 49;
 			this._txtCommonTextBox_50.Text = "";
-			// this.this._txtCommonTextBox_50.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_40
 			// 
@@ -1065,7 +1065,7 @@ namespace Xtreme
 			this._txtCommonTextBox_51.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_51.TabIndex = 51;
 			this._txtCommonTextBox_51.Text = "";
-			// this.this._txtCommonTextBox_51.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtDisplayLabel_9
 			// 
@@ -1087,7 +1087,7 @@ namespace Xtreme
 			this._txtCommonTextBox_54.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_54.TabIndex = 53;
 			this._txtCommonTextBox_54.Text = "";
-			// this.this._txtCommonTextBox_54.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtCommonTextBox_55
 			// 
@@ -1100,7 +1100,7 @@ namespace Xtreme
 			this._txtCommonTextBox_55.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_55.TabIndex = 54;
 			this._txtCommonTextBox_55.Text = "";
-			// this.this._txtCommonTextBox_55.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_44
 			// 
@@ -1135,7 +1135,7 @@ namespace Xtreme
 			this._txtCommonTextBox_53.Size = new System.Drawing.Size(461, 19);
 			this._txtCommonTextBox_53.TabIndex = 57;
 			this._txtCommonTextBox_53.Text = "";
-			// this.this._txtCommonTextBox_53.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_43
 			// 
@@ -1200,7 +1200,7 @@ namespace Xtreme
 			// this.txtTicketAccrualStartDate.MaxDate = 2958465;
 			// this.txtTicketAccrualStartDate.MinDate = -657434;
 			this.txtTicketAccrualStartDate.Name = "txtTicketAccrualStartDate";
-			this.txtTicketAccrualStartDate.PromptChar = "_";
+			// = "_";
 			this.txtTicketAccrualStartDate.Size = new System.Drawing.Size(100, 19);
 			this.txtTicketAccrualStartDate.TabIndex = 12;
 			// this.txtTicketAccrualStartDate.Text = "15/08/2009";
@@ -1238,7 +1238,7 @@ namespace Xtreme
 			this._txtCommonTextBox_71.Size = new System.Drawing.Size(100, 19);
 			this._txtCommonTextBox_71.TabIndex = 16;
 			this._txtCommonTextBox_71.Text = "";
-			// this.this._txtCommonTextBox_71.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_68
 			// 
@@ -1262,7 +1262,7 @@ namespace Xtreme
 			this._txtCommonTextBox_73.Size = new System.Drawing.Size(100, 19);
 			this._txtCommonTextBox_73.TabIndex = 18;
 			this._txtCommonTextBox_73.Text = "";
-			// this.this._txtCommonTextBox_73.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommon_70
 			// 
@@ -1396,7 +1396,7 @@ namespace Xtreme
 			this.cmbCommon[0] = _cmbCommon_0;
 			this.cmbCommon[1] = _cmbCommon_1;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[3];
 			this.Label1[0] = Label1_0;

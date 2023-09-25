@@ -89,7 +89,7 @@ namespace Xtreme
 			this.txtPrinterNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPrinterNo.Location = new System.Drawing.Point(128, 52);
 			this.txtPrinterNo.MaxLength = 15;
-			// this.txtPrinterNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtPrinterNo.Name = "txtPrinterNo";
 			// this.txtPrinterNo.ShowButton = true;
 			this.txtPrinterNo.Size = new System.Drawing.Size(101, 19);
@@ -147,7 +147,7 @@ namespace Xtreme
 			this.txtAPrinterName.BackColor = System.Drawing.Color.White;
 			this.txtAPrinterName.ForeColor = System.Drawing.Color.Black;
 			this.txtAPrinterName.Location = new System.Drawing.Point(128, 94);
-			// this.txtAPrinterName.mArabicEnabled = true;
+			// // = true;
 			this.txtAPrinterName.MaxLength = 50;
 			this.txtAPrinterName.Name = "txtAPrinterName";
 			this.txtAPrinterName.Size = new System.Drawing.Size(201, 19);

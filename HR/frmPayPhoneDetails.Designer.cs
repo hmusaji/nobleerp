@@ -94,8 +94,8 @@ namespace Xtreme
 			this.Line2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.lblTimeAtt = new System.Windows.Forms.Label();
-			this.Frame2.SuspendLayout();
-			this.grdPhoneDetails.SuspendLayout();
+			//this.Frame2.SuspendLayout();
+			//this.grdPhoneDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Frame2
@@ -172,16 +172,16 @@ namespace Xtreme
 			// 
 			this.txtDeductionCode.AllowDrop = true;
 			this.txtDeductionCode.BackColor = System.Drawing.Color.White;
-			// this.txtDeductionCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtDeductionCode.ForeColor = System.Drawing.Color.Black;
 			this.txtDeductionCode.Location = new System.Drawing.Point(88, 46);
-			// this.txtDeductionCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtDeductionCode.Name = "txtDeductionCode";
 			// this.txtDeductionCode.ShowButton = true;
 			this.txtDeductionCode.Size = new System.Drawing.Size(113, 19);
 			this.txtDeductionCode.TabIndex = 3;
 			this.txtDeductionCode.Text = "";
-			// this.this.txtDeductionCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDeductionCode_DropButtonClick);
+			// this.//this.txtDeductionCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDeductionCode_DropButtonClick);
 			// this.txtDeductionCode.Leave += new System.EventHandler(this.txtDeductionCode_Leave);
 			// 
 			// grdPhoneDetails
@@ -232,7 +232,7 @@ namespace Xtreme
 			this.txtDepartmentCode.Size = new System.Drawing.Size(113, 19);
 			this.txtDepartmentCode.TabIndex = 5;
 			this.txtDepartmentCode.Text = "";
-			// this.this.txtDepartmentCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDepartmentCode_DropButtonClick);
+			// this.//this.txtDepartmentCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDepartmentCode_DropButtonClick);
 			// this.txtDepartmentCode.Leave += new System.EventHandler(this.txtDepartmentCode_Leave);
 			// 
 			// _lblCommon_116

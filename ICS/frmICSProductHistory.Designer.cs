@@ -118,7 +118,7 @@ namespace Xtreme
 			this._lblProductDescription_3 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkIncludeSubgroup
@@ -333,8 +333,8 @@ namespace Xtreme
 			this.txtTransactionType.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionType.TabIndex = 0;
 			this.txtTransactionType.Text = "";
-			// this.this.txtTransactionType.Watermark = "";
-			// this.this.txtTransactionType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtTransactionType_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtTransactionType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtTransactionType_DropButtonClick);
 			// this.this.txtTransactionType.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtTransactionType_KeyDown);
 			// this.txtTransactionType.Leave += new System.EventHandler(this.txtTransactionType_Leave);
 			// 
@@ -349,8 +349,8 @@ namespace Xtreme
 			this.txtProductCode.Size = new System.Drawing.Size(101, 19);
 			this.txtProductCode.TabIndex = 1;
 			this.txtProductCode.Text = "";
-			// this.this.txtProductCode.Watermark = "";
-			// this.this.txtProductCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtProductCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtProductCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtProductCode_DropButtonClick);
 			// this.this.txtProductCode.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtProductCode_KeyDown);
 			// this.txtProductCode.Leave += new System.EventHandler(this.txtProductCode_Leave);
 			// 
@@ -365,8 +365,8 @@ namespace Xtreme
 			this.txtLedgerCode.Size = new System.Drawing.Size(101, 19);
 			this.txtLedgerCode.TabIndex = 2;
 			this.txtLedgerCode.Text = "";
-			// this.this.txtLedgerCode.Watermark = "";
-			// this.this.txtLedgerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLedgerCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLedgerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLedgerCode_DropButtonClick);
 			// this.this.txtLedgerCode.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtLedgerCode_KeyDown);
 			// this.txtLedgerCode.Leave += new System.EventHandler(this.txtLedgerCode_Leave);
 			// 
@@ -515,8 +515,8 @@ namespace Xtreme
 			this.txtGroupCode.Size = new System.Drawing.Size(101, 19);
 			this.txtGroupCode.TabIndex = 27;
 			this.txtGroupCode.Text = "";
-			// this.this.txtGroupCode.Watermark = "";
-			// this.this.txtGroupCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtGroupCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtGroupCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtGroupCode_DropButtonClick);
 			// this.txtGroupCode.Leave += new System.EventHandler(this.txtGroupCode_Leave);
 			// 
 			// _txtDisplayControl_3

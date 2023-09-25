@@ -44,15 +44,15 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_5;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_2;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_3;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_6;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_8;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_4;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_7;
+		private System.Windows.Forms.Button _btnFormToolBar_0;
+		private System.Windows.Forms.Button _btnFormToolBar_1;
+		private System.Windows.Forms.Button _btnFormToolBar_5;
+		private System.Windows.Forms.Button _btnFormToolBar_2;
+		private System.Windows.Forms.Button _btnFormToolBar_3;
+		private System.Windows.Forms.Button _btnFormToolBar_6;
+		private System.Windows.Forms.Button _btnFormToolBar_8;
+		private System.Windows.Forms.Button _btnFormToolBar_4;
+		private System.Windows.Forms.Button _btnFormToolBar_7;
 		public System.Windows.Forms.PictureBox picFormToolbar;
 		public System.Windows.Forms.TextBox txtVariablesDeclarationSQL;
 		public System.Windows.Forms.CheckBox chkShowDateRange;
@@ -82,7 +82,7 @@ namespace Xtreme
 		private System.Windows.Forms.TabPage _tabProductDetails_TabPage1;
 		private System.Windows.Forms.TabPage _tabProductDetails_TabPage2;
 		public System.Windows.Forms.TabControl tabProductDetails;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[9];
+		public System.Windows.Forms.Button[] btnFormToolBar = new System.Windows.Forms.Button[9];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -93,15 +93,15 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysReportDesignUtility));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.picFormToolbar = new System.Windows.Forms.PictureBox();
-			this._btnFormToolBar_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_5 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_2 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_8 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_7 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnFormToolBar_0 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_1 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_5 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_2 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_3 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_6 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_8 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_4 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_7 = new System.Windows.Forms.Button();
 			this.tabProductDetails = new System.Windows.Forms.TabControl();
 			this._tabProductDetails_TabPage0 = new System.Windows.Forms.TabPage();
 			this.txtVariablesDeclarationSQL = new System.Windows.Forms.TextBox();
@@ -139,10 +139,10 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_8).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_4).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_7).BeginInit();
-			this.picFormToolbar.SuspendLayout();
-			this.tabProductDetails.SuspendLayout();
-			this._tabProductDetails_TabPage0.SuspendLayout();
-			this._tabProductDetails_TabPage1.SuspendLayout();
+			//this.picFormToolbar.SuspendLayout();
+			//this.tabProductDetails.SuspendLayout();
+			//this._tabProductDetails_TabPage0.SuspendLayout();
+			//this._tabProductDetails_TabPage1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// picFormToolbar
@@ -318,7 +318,7 @@ namespace Xtreme
 			this.txtVariablesDeclarationSQL.BackColor = System.Drawing.Color.White;
 			this.txtVariablesDeclarationSQL.ForeColor = System.Drawing.Color.Black;
 			this.txtVariablesDeclarationSQL.Location = new System.Drawing.Point(90, 289);
-			// this.txtVariablesDeclarationSQL.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtVariablesDeclarationSQL.Name = "txtVariablesDeclarationSQL";
 			this.txtVariablesDeclarationSQL.Size = new System.Drawing.Size(633, 19);
 			this.txtVariablesDeclarationSQL.TabIndex = 6;
@@ -456,7 +456,7 @@ namespace Xtreme
 			this.txtOrderByClause.BackColor = System.Drawing.Color.White;
 			this.txtOrderByClause.ForeColor = System.Drawing.Color.Black;
 			this.txtOrderByClause.Location = new System.Drawing.Point(90, 262);
-			// this.txtOrderByClause.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtOrderByClause.Name = "txtOrderByClause";
 			this.txtOrderByClause.Size = new System.Drawing.Size(633, 19);
 			this.txtOrderByClause.TabIndex = 5;
@@ -468,7 +468,7 @@ namespace Xtreme
 			this.txtWhereClause.BackColor = System.Drawing.Color.White;
 			this.txtWhereClause.ForeColor = System.Drawing.Color.Black;
 			this.txtWhereClause.Location = new System.Drawing.Point(90, 238);
-			// this.txtWhereClause.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtWhereClause.Name = "txtWhereClause";
 			this.txtWhereClause.Size = new System.Drawing.Size(633, 19);
 			this.txtWhereClause.TabIndex = 4;
@@ -480,7 +480,7 @@ namespace Xtreme
 			this.txtChildFormId.BackColor = System.Drawing.Color.White;
 			this.txtChildFormId.ForeColor = System.Drawing.Color.Black;
 			this.txtChildFormId.Location = new System.Drawing.Point(603, 68);
-			// this.txtChildFormId.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtChildFormId.Name = "txtChildFormId";
 			this.txtChildFormId.Size = new System.Drawing.Size(117, 19);
 			this.txtChildFormId.TabIndex = 14;
@@ -492,7 +492,7 @@ namespace Xtreme
 			this.txtChildReportId2.BackColor = System.Drawing.Color.White;
 			this.txtChildReportId2.ForeColor = System.Drawing.Color.Black;
 			this.txtChildReportId2.Location = new System.Drawing.Point(309, 70);
-			// this.txtChildReportId2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtChildReportId2.Name = "txtChildReportId2";
 			this.txtChildReportId2.Size = new System.Drawing.Size(113, 19);
 			this.txtChildReportId2.TabIndex = 2;
@@ -504,7 +504,7 @@ namespace Xtreme
 			this.txtChildReportId.BackColor = System.Drawing.Color.White;
 			this.txtChildReportId.ForeColor = System.Drawing.Color.Black;
 			this.txtChildReportId.Location = new System.Drawing.Point(90, 70);
-			// this.txtChildReportId.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtChildReportId.Name = "txtChildReportId";
 			this.txtChildReportId.Size = new System.Drawing.Size(113, 19);
 			this.txtChildReportId.TabIndex = 1;
@@ -576,7 +576,7 @@ namespace Xtreme
 			this.txtLReportName.BackColor = System.Drawing.Color.White;
 			this.txtLReportName.ForeColor = System.Drawing.Color.Black;
 			this.txtLReportName.Location = new System.Drawing.Point(309, 34);
-			// this.txtLReportName.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtLReportName.Name = "txtLReportName";
 			this.txtLReportName.Size = new System.Drawing.Size(411, 19);
 			this.txtLReportName.TabIndex = 0;
@@ -674,7 +674,7 @@ namespace Xtreme
 		// 
 		void InitializebtnFormToolBar()
 		{
-			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[9];
+			this.btnFormToolBar = new System.Windows.Forms.Button[9];
 			this.btnFormToolBar[0] = _btnFormToolBar_0;
 			this.btnFormToolBar[1] = _btnFormToolBar_1;
 			this.btnFormToolBar[5] = _btnFormToolBar_5;

@@ -161,9 +161,9 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblDocDetails_2;
 		private System.Windows.Forms.Label _lblDocDetails_0;
 		private System.Windows.Forms.Label _lblDocDetails_1;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape1;
 		private System.Windows.Forms.Panel _fraMasterInformation_0;
-		public AxC1SizerLib.AxC1Tab tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		private System.Windows.Forms.ComboBox _comCommon_10;
 		private System.Windows.Forms.Label _lblCommonLabel_27;
 		public UCOkCancel[] UCOkCancel1 = new UCOkCancel[15];
@@ -182,7 +182,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSAdditionalVoucherDetails));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this._UCOkCancel1_14 = new UCOkCancel();
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._fraMasterInformation_2 = new System.Windows.Forms.Panel();
 			this.cmdItalic = new System.Windows.Forms.Button();
 			this.cmdBold = new System.Windows.Forms.Button();
@@ -307,14 +307,14 @@ namespace Xtreme
 			this._lblDocDetails_2 = new System.Windows.Forms.Label();
 			this._lblDocDetails_0 = new System.Windows.Forms.Label();
 			this._lblDocDetails_1 = new System.Windows.Forms.Label();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.Shape1 = new ShapeHelper();
 			this._comCommon_10 = new System.Windows.Forms.ComboBox();
 			this._lblCommonLabel_27 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
-			this.tabMaster.SuspendLayout();
-			this._fraMasterInformation_2.SuspendLayout();
-			this._fraMasterInformation_1.SuspendLayout();
-			this._fraMasterInformation_0.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._fraMasterInformation_2.SuspendLayout();
+			//this._fraMasterInformation_1.SuspendLayout();
+			//this._fraMasterInformation_0.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _UCOkCancel1_14
@@ -446,7 +446,7 @@ namespace Xtreme
 			this.Label3.BackColor = System.Drawing.SystemColors.Window;
 			this.Label3.Text = "Narration";
 			this.Label3.Location = new System.Drawing.Point(52, 18);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(44, 14);
 			this.Label3.TabIndex = 93;
 			// 
@@ -1025,7 +1025,7 @@ namespace Xtreme
 			this.Label1.Text = "Drawn on Bank";
 			this.Label1.Location = new System.Drawing.Point(260, 200);
 			// this.Label1.mLabelId = 947;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(75, 14);
 			this.Label1.TabIndex = 67;
 			// 
@@ -1067,7 +1067,7 @@ namespace Xtreme
 			this.Label2.Text = "Shipment No.";
 			this.Label2.Location = new System.Drawing.Point(260, 249);
 			// this.Label2.mLabelId = 2034;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(63, 14);
 			this.Label2.TabIndex = 69;
 			// 
@@ -1195,8 +1195,8 @@ namespace Xtreme
 			// this.txtNAdditionalExpenses.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNAdditionalExpenses.Format = "###########0.000";
 			this.txtNAdditionalExpenses.Location = new System.Drawing.Point(126, 198);
-			// this.txtNAdditionalExpenses.MaxValue = 2147483647;
-			// this.txtNAdditionalExpenses.MinValue = -2147483648;
+			// // = 2147483647;
+			// // = -2147483648;
 			this.txtNAdditionalExpenses.Name = "txtNAdditionalExpenses";
 			this.txtNAdditionalExpenses.Size = new System.Drawing.Size(101, 19);
 			this.txtNAdditionalExpenses.TabIndex = 14;
@@ -1317,7 +1317,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.TabIndex = 19;
 			this._txtCommonTextBox_1.Text = "";
 			this._txtCommonTextBox_1.Visible = false;
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// 
 			// _fraMasterInformation_0
 			// 
@@ -1403,7 +1403,7 @@ namespace Xtreme
 			this.Label4.Enabled = false;
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label4.Location = new System.Drawing.Point(14, 22);
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(98, 15);
 			this.Label4.TabIndex = 115;
 			// 
@@ -1655,7 +1655,7 @@ namespace Xtreme
 			this.Label5.Enabled = false;
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label5.Location = new System.Drawing.Point(14, 142);
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(92, 15);
 			this.Label5.TabIndex = 116;
 			// 
@@ -1923,7 +1923,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
-			this.Shape1.BackStyle = 0;
+			// = 0;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.Black;

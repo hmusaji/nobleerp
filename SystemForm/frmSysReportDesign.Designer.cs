@@ -92,10 +92,10 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.pnlParameter).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.vspReportPrinter).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.DockingPaneManager).BeginInit();
-			this.FraFormatOptions.SuspendLayout();
-			this.FraFields.SuspendLayout();
-			this.fraParameter.SuspendLayout();
-			this.grdReportDesign.SuspendLayout();
+			//this.FraFormatOptions.SuspendLayout();
+			//this.FraFields.SuspendLayout();
+			//this.fraParameter.SuspendLayout();
+			//this.grdReportDesign.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// FraFormatOptions

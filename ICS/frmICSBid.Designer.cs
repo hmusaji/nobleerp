@@ -108,7 +108,7 @@ namespace Xtreme
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.fraDetailsInfo).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.fraDetailsInfo.SuspendLayout();
+			//this.fraDetailsInfo.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _lblCommon_3
@@ -169,7 +169,7 @@ namespace Xtreme
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label4.Location = new System.Drawing.Point(232, 62);
 			// this.Label4.mLabelId = 2048;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(73, 14);
 			this.Label4.TabIndex = 18;
 			// 
@@ -181,7 +181,7 @@ namespace Xtreme
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label3.Location = new System.Drawing.Point(44, 36);
 			// this.Label3.mLabelId = 2046;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(80, 14);
 			this.Label3.TabIndex = 10;
 			// 
@@ -193,7 +193,7 @@ namespace Xtreme
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label2.Location = new System.Drawing.Point(44, 14);
 			// this.Label2.mLabelId = 2045;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(78, 14);
 			this.Label2.TabIndex = 9;
 			// 
@@ -283,8 +283,8 @@ namespace Xtreme
 			// this.txtBidAmount.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtBidAmount.Format = "###########0.000";
 			this.txtBidAmount.Location = new System.Drawing.Point(104, 102);
-			// this.txtBidAmount.MaxValue = 2147483647;
-			// this.txtBidAmount.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtBidAmount.Name = "txtBidAmount";
 			this.txtBidAmount.Size = new System.Drawing.Size(102, 19);
 			this.txtBidAmount.TabIndex = 5;
@@ -310,7 +310,7 @@ namespace Xtreme
 			this.txtBGCCNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBGCCNo.Location = new System.Drawing.Point(316, 82);
 			this.txtBGCCNo.MaxLength = 15;
-			// this.txtBGCCNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBGCCNo.Name = "txtBGCCNo";
 			this.txtBGCCNo.Size = new System.Drawing.Size(149, 19);
 			this.txtBGCCNo.TabIndex = 7;
@@ -324,7 +324,7 @@ namespace Xtreme
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(232, 85);
 			// this.Label1.mLabelId = 2043;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(51, 14);
 			this.Label1.TabIndex = 17;
 			// 
@@ -336,7 +336,7 @@ namespace Xtreme
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label5.Location = new System.Drawing.Point(26, 84);
 			// this.Label5.mLabelId = 2050;
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(51, 14);
 			this.Label5.TabIndex = 20;
 			// 
@@ -344,16 +344,16 @@ namespace Xtreme
 			// 
 			this.txtCurrencyCode.AllowDrop = true;
 			this.txtCurrencyCode.BackColor = System.Drawing.Color.White;
-			// this.txtCurrencyCode.bolAllowDecimal = false;
+			// // = false;
 			this.txtCurrencyCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCurrencyCode.Location = new System.Drawing.Point(316, 61);
-			// this.txtCurrencyCode.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtCurrencyCode.Name = "txtCurrencyCode";
 			// this.txtCurrencyCode.ShowButton = true;
 			this.txtCurrencyCode.Size = new System.Drawing.Size(54, 19);
 			this.txtCurrencyCode.TabIndex = 6;
 			this.txtCurrencyCode.Text = "";
-			// this.this.txtCurrencyCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCurrencyCode_DropButtonClick);
+			// this.//this.txtCurrencyCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCurrencyCode_DropButtonClick);
 			// this.this.txtCurrencyCode.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtCurrencyCode_KeyDown);
 			// this.txtCurrencyCode.Leave += new System.EventHandler(this.txtCurrencyCode_Leave);
 			// 
@@ -377,7 +377,7 @@ namespace Xtreme
 			this.txtBankInitials.ForeColor = System.Drawing.Color.Black;
 			this.txtBankInitials.Location = new System.Drawing.Point(316, 103);
 			this.txtBankInitials.MaxLength = 4;
-			// this.txtBankInitials.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBankInitials.Name = "txtBankInitials";
 			this.txtBankInitials.Size = new System.Drawing.Size(149, 19);
 			this.txtBankInitials.TabIndex = 8;
@@ -391,7 +391,7 @@ namespace Xtreme
 			this.Label6.ForeColor = System.Drawing.Color.Black;
 			this.Label6.Location = new System.Drawing.Point(232, 105);
 			// this.Label6.mLabelId = 2049;
-			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Name="Label6";
 			this.Label6.Size = new System.Drawing.Size(56, 14);
 			this.Label6.TabIndex = 21;
 			// 
@@ -402,13 +402,13 @@ namespace Xtreme
 			this.txtBidNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBidNo.Location = new System.Drawing.Point(94, 48);
 			this.txtBidNo.MaxLength = 15;
-			// this.txtBidNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtBidNo.Name = "txtBidNo";
 			// this.txtBidNo.ShowButton = true;
 			this.txtBidNo.Size = new System.Drawing.Size(101, 19);
 			this.txtBidNo.TabIndex = 0;
 			this.txtBidNo.Text = "";
-			// this.this.txtBidNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtBidNo_DropButtonClick);
+			// this.//this.txtBidNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtBidNo_DropButtonClick);
 			// 
 			// lblCode
 			// 

@@ -55,7 +55,7 @@ namespace Xtreme
 		public C1.Win.C1FlexGrid.C1FlexGrid grdFindResult;
 		public System.Windows.Forms.Label lblTips1;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
-		public UpgradeHelpers.Gui.ShapeHelper fraOuterShadow;
+		public ShapeHelper fraOuterShadow;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController mnuColors;
 		public System.Windows.Forms.Button[] btnReportOptions = new System.Windows.Forms.Button[6];
 		public System.Windows.Forms.CheckBox[] chkCommonSettings = new System.Windows.Forms.CheckBox[2];
@@ -79,7 +79,7 @@ namespace Xtreme
 			this.grdFindResult = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.lblTips1 = new System.Windows.Forms.Label();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
-			this.fraOuterShadow = new UpgradeHelpers.Gui.ShapeHelper();
+			this.fraOuterShadow = new ShapeHelper();
 			this.mnuColors = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.mnuColors).BeginInit();
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			this.fraOuterShadow.AllowDrop = true;
 			this.fraOuterShadow.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.fraOuterShadow.BackStyle = 1;
+			// = 1;
 			this.fraOuterShadow.BorderColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraOuterShadow.BorderStyle = 1;
 			this.fraOuterShadow.Enabled = false;

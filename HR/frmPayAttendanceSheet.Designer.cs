@@ -92,7 +92,7 @@ namespace Xtreme
 			this.Line2 = new System.Windows.Forms.Label();
 			this.lblTimeAtt = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
-			this.grdVoucherDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// _lblCommonLabel_2

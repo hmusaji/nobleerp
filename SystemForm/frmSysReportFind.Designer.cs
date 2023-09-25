@@ -71,8 +71,8 @@ namespace Xtreme
 			this._lblCommon_0 = new System.Windows.Forms.Label();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.frmSearchOptions.SuspendLayout();
-			this.grdReportFind.SuspendLayout();
+			//this.frmSearchOptions.SuspendLayout();
+			//this.grdReportFind.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frmSearchOptions
@@ -206,12 +206,12 @@ namespace Xtreme
 			this.txtSearchString.BackColor = System.Drawing.Color.White;
 			this.txtSearchString.ForeColor = System.Drawing.Color.Black;
 			this.txtSearchString.Location = new System.Drawing.Point(113, 48);
-			// this.txtSearchString.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtSearchString.Name = "txtSearchString";
 			this.txtSearchString.Size = new System.Drawing.Size(228, 19);
 			this.txtSearchString.TabIndex = 0;
 			this.txtSearchString.Text = "";
-			// this.this.txtSearchString.Watermark = "";
+			// this.// = "";
 			// this.this.txtSearchString.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtSearchString_KeyDown);
 			// 
 			// _lblCommon_0

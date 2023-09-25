@@ -76,7 +76,7 @@ namespace Xtreme
 			this.CommandBars = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.vspReportPrinter).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.CommandBars).BeginInit();
-			this.grdReportDesign.SuspendLayout();
+			//this.grdReportDesign.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// vspReportPrinter

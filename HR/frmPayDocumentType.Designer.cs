@@ -92,13 +92,13 @@ namespace Xtreme
 			this.txtDocType.ForeColor = System.Drawing.Color.Black;
 			this.txtDocType.Location = new System.Drawing.Point(131, 57);
 			this.txtDocType.MaxLength = 15;
-			// this.txtDocType.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtDocType.Name = "txtDocType";
 			// this.txtDocType.ShowButton = true;
 			this.txtDocType.Size = new System.Drawing.Size(101, 19);
 			this.txtDocType.TabIndex = 0;
 			this.txtDocType.Text = "";
-			// this.this.txtDocType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDocType_DropButtonClick);
+			// this.//this.txtDocType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDocType_DropButtonClick);
 			// 
 			// lblCategoryNo
 			// 
@@ -142,7 +142,7 @@ namespace Xtreme
 			this.txtADocTypeName.BackColor = System.Drawing.Color.White;
 			this.txtADocTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtADocTypeName.Location = new System.Drawing.Point(131, 99);
-			// this.txtADocTypeName.mArabicEnabled = true;
+			// // = true;
 			this.txtADocTypeName.MaxLength = 50;
 			this.txtADocTypeName.Name = "txtADocTypeName";
 			this.txtADocTypeName.Size = new System.Drawing.Size(201, 19);

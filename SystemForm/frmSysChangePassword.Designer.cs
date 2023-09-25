@@ -78,7 +78,7 @@ namespace Xtreme
 			this.txtConfirmPassword.Size = new System.Drawing.Size(121, 19);
 			this.txtConfirmPassword.TabIndex = 2;
 			this.txtConfirmPassword.Text = "";
-			// this.this.txtConfirmPassword.Watermark = "";
+			// this.// = "";
 			// 
 			// txtPassword
 			// 
@@ -92,7 +92,7 @@ namespace Xtreme
 			this.txtPassword.Size = new System.Drawing.Size(121, 19);
 			this.txtPassword.TabIndex = 1;
 			this.txtPassword.Text = "";
-			// this.this.txtPassword.Watermark = "";
+			// this.// = "";
 			// 
 			// lblConfirmPassword
 			// 
@@ -123,7 +123,7 @@ namespace Xtreme
 			this.Label1.Text = "User ID";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
 			this.Label1.Location = new System.Drawing.Point(12, 26);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(35, 14);
 			this.Label1.TabIndex = 6;
 			// 
@@ -134,7 +134,7 @@ namespace Xtreme
 			this.Label2.Text = "Old Password";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
 			this.Label2.Location = new System.Drawing.Point(12, 53);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(69, 14);
 			this.Label2.TabIndex = 7;
 			// 
@@ -150,7 +150,7 @@ namespace Xtreme
 			this.txtOldPassword.Size = new System.Drawing.Size(121, 19);
 			this.txtOldPassword.TabIndex = 0;
 			this.txtOldPassword.Text = "";
-			// this.this.txtOldPassword.Watermark = "";
+			// this.// = "";
 			// 
 			// cmdOKCancel
 			// 

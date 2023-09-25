@@ -38,14 +38,14 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtFCAmount;
-		private AxSmartNetButtonProject.AxSmartNetButton _cmdOkCancel_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _cmdOkCancel_0;
+		private System.Windows.Forms.Button _cmdOkCancel_1;
+		private System.Windows.Forms.Button _cmdOkCancel_0;
 		public System.Windows.Forms.PictureBox picOkCancel;
 		public System.Windows.Forms.Label lblExchangeRate;
 		public System.Windows.Forms.Label lblAmount;
 		public System.Windows.Forms.TextBox txtExchangeRate;
 		public System.Windows.Forms.Panel fraLedgerAmountDetails;
-		public AxSmartNetButtonProject.AxSmartNetButton[] cmdOkCancel = new AxSmartNetButtonProject.AxSmartNetButton[2];
+		public System.Windows.Forms.Button[] cmdOkCancel = new System.Windows.Forms.Button[2];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -58,16 +58,16 @@ namespace Xtreme
 			this.fraLedgerAmountDetails = new System.Windows.Forms.Panel();
 			this.txtFCAmount = new System.Windows.Forms.TextBox();
 			this.picOkCancel = new System.Windows.Forms.PictureBox();
-			this._cmdOkCancel_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._cmdOkCancel_0 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._cmdOkCancel_1 = new System.Windows.Forms.Button();
+			this._cmdOkCancel_0 = new System.Windows.Forms.Button();
 			this.lblExchangeRate = new System.Windows.Forms.Label();
 			this.lblAmount = new System.Windows.Forms.Label();
 			this.txtExchangeRate = new System.Windows.Forms.TextBox();
 			// //((System.ComponentModel.ISupportInitialize) this._cmdOkCancel_1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._cmdOkCancel_0).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.fraLedgerAmountDetails).BeginInit();
-			this.fraLedgerAmountDetails.SuspendLayout();
-			this.picOkCancel.SuspendLayout();
+			//this.fraLedgerAmountDetails.SuspendLayout();
+			//this.picOkCancel.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// fraLedgerAmountDetails
@@ -90,8 +90,8 @@ namespace Xtreme
 			// this.txtFCAmount.DisplayFormat = "###,###,##0.000;;0.000;0.000";
 			// this.txtFCAmount.Format = "##########0.000";
 			this.txtFCAmount.Location = new System.Drawing.Point(92, 39);
-			// this.txtFCAmount.MaxValue = 2147483647;
-			// this.txtFCAmount.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtFCAmount.Name = "txtFCAmount";
 			this.txtFCAmount.Size = new System.Drawing.Size(102, 19);
 			this.txtFCAmount.TabIndex = 1;
@@ -164,8 +164,8 @@ namespace Xtreme
 			// this.txtExchangeRate.DisplayFormat = "####0.0000000###;;0.000;0.000";
 			// this.txtExchangeRate.Format = "####0.000######";
 			this.txtExchangeRate.Location = new System.Drawing.Point(92, 18);
-			// this.txtExchangeRate.MaxValue = 2147483647;
-			// this.txtExchangeRate.MinValue = 0;
+			// // = 2147483647;
+			// // = 0;
 			this.txtExchangeRate.Name = "txtExchangeRate";
 			this.txtExchangeRate.Size = new System.Drawing.Size(102, 19);
 			this.txtExchangeRate.TabIndex = 0;
@@ -202,7 +202,7 @@ namespace Xtreme
 		// 
 		void InitializecmdOkCancel()
 		{
-			this.cmdOkCancel = new AxSmartNetButtonProject.AxSmartNetButton[2];
+			this.cmdOkCancel = new System.Windows.Forms.Button[2];
 			this.cmdOkCancel[1] = _cmdOkCancel_1;
 			this.cmdOkCancel[0] = _cmdOkCancel_0;
 		}

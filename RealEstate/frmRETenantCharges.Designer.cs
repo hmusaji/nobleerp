@@ -46,14 +46,14 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtRemarks;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_1;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_3;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_7;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_8;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_6;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_5;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_9;
+		private System.Windows.Forms.Button _btnFormToolBar_0;
+		private System.Windows.Forms.Button _btnFormToolBar_1;
+		private System.Windows.Forms.Button _btnFormToolBar_3;
+		private System.Windows.Forms.Button _btnFormToolBar_7;
+		private System.Windows.Forms.Button _btnFormToolBar_8;
+		private System.Windows.Forms.Button _btnFormToolBar_6;
+		private System.Windows.Forms.Button _btnFormToolBar_5;
+		private System.Windows.Forms.Button _btnFormToolBar_9;
 		public System.Windows.Forms.PictureBox picFormToolbar;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdContractDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbCommon;
@@ -63,7 +63,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_0;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[10];
+		public System.Windows.Forms.Button[] btnFormToolBar = new System.Windows.Forms.Button[10];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[9];
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[1];
 		public System.Windows.Forms.Label[] txtCommonDisplay = new System.Windows.Forms.Label[1];
@@ -78,14 +78,14 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.txtRemarks = new System.Windows.Forms.TextBox();
 			this.picFormToolbar = new System.Windows.Forms.PictureBox();
-			this._btnFormToolBar_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_1 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_7 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_8 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_5 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_9 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnFormToolBar_0 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_1 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_3 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_7 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_8 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_6 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_5 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_9 = new System.Windows.Forms.Button();
 			this.grdContractDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.cmbCommon = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -102,8 +102,8 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_6).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_5).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_9).BeginInit();
-			this.picFormToolbar.SuspendLayout();
-			this.cmbCommon.SuspendLayout();
+			//this.picFormToolbar.SuspendLayout();
+			//this.cmbCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// txtRemarks
@@ -293,7 +293,7 @@ namespace Xtreme
 			this._txtCommon_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_0.TabIndex = 14;
 			this._txtCommon_0.Text = "";
-			// this.this._txtCommon_0.Watermark = "";
+			// this.// = "";
 			// 
 			// _txtCommonDisplay_0
 			// 
@@ -361,7 +361,7 @@ namespace Xtreme
 		}
 		void InitializebtnFormToolBar()
 		{
-			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[10];
+			this.btnFormToolBar = new System.Windows.Forms.Button[10];
 			this.btnFormToolBar[0] = _btnFormToolBar_0;
 			this.btnFormToolBar[1] = _btnFormToolBar_1;
 			this.btnFormToolBar[3] = _btnFormToolBar_3;

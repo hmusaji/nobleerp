@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmPayCVDetails
@@ -50,26 +52,26 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdWorkExperenceDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdWorkExperenceDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdWorkExperenceDetails;
-		public AxC1SizerLib.AxC1Elastic C1Elastic4;
+		public AxC1Elastic C1Elastic4;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdSkillDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdSkillDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdSkillDetails;
-		public AxC1SizerLib.AxC1Elastic C1Elastic3;
+		public AxC1Elastic C1Elastic3;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList1;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdQualificationDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdQualificationDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdQualificationDetails;
-		public AxC1SizerLib.AxC1Elastic C1Elastic2;
+		public AxC1Elastic C1Elastic2;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdLanguageDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdLanguageDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdLanguageDetails;
-		public AxC1SizerLib.AxC1Elastic C1Elastic1;
-		public AxC1SizerLib.AxC1Tab tabCV;
+		public AxC1Elastic C1Elastic1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabCV;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_4;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
@@ -120,23 +122,23 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.txtComments = new System.Windows.Forms.TextBox();
 			this.chkDrivingLicence = new System.Windows.Forms.CheckBox();
-			this.tabCV = new AxC1SizerLib.AxC1Tab();
-			this.C1Elastic4 = new AxC1SizerLib.AxC1Elastic();
+			this.tabCV = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.C1Elastic4 = new AxC1Elastic();
 			this.grdWorkExperenceDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdWorkExperenceDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdWorkExperenceDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.C1Elastic3 = new AxC1SizerLib.AxC1Elastic();
+			this.C1Elastic3 = new AxC1Elastic();
 			this.grdSkillDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdSkillDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdSkillDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.C1Elastic2 = new AxC1SizerLib.AxC1Elastic();
+			this.C1Elastic2 = new AxC1Elastic();
 			this.cmbMastersList1 = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList1 = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersList1 = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.grdQualificationDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdQualificationDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdQualificationDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.C1Elastic1 = new AxC1SizerLib.AxC1Elastic();
+			this.C1Elastic1 = new AxC1Elastic();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -182,17 +184,17 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.C1Elastic2).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.C1Elastic1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabCV).BeginInit();
-			this.tabCV.SuspendLayout();
-			this.C1Elastic4.SuspendLayout();
-			this.grdWorkExperenceDetails.SuspendLayout();
-			this.C1Elastic3.SuspendLayout();
-			this.grdSkillDetails.SuspendLayout();
-			this.C1Elastic2.SuspendLayout();
-			this.cmbMastersList1.SuspendLayout();
-			this.grdQualificationDetails.SuspendLayout();
-			this.C1Elastic1.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
-			this.grdLanguageDetails.SuspendLayout();
+			//this.tabCV.SuspendLayout();
+			//this.C1Elastic4.SuspendLayout();
+			//this.grdWorkExperenceDetails.SuspendLayout();
+			//this.C1Elastic3.SuspendLayout();
+			//this.grdSkillDetails.SuspendLayout();
+			//this.C1Elastic2.SuspendLayout();
+			//this.cmbMastersList1.SuspendLayout();
+			//this.grdQualificationDetails.SuspendLayout();
+			//this.C1Elastic1.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
+			//this.grdLanguageDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// txtComments
@@ -233,7 +235,7 @@ namespace Xtreme
 			// 
 			// tabCV
 			// 
-			this.tabCV.Align = C1SizerLib.AlignSettings.asNone;
+			// = C1SizerLib.AlignSettings.asNone;
 			this.tabCV.AllowDrop = true;
 			this.tabCV.Controls.Add(this.C1Elastic4);
 			this.tabCV.Controls.Add(this.C1Elastic3);
@@ -247,7 +249,7 @@ namespace Xtreme
 			// 
 			// C1Elastic4
 			// 
-			this.C1Elastic4.Align = C1SizerLib.AlignSettings.asNone;
+			//this.C1Elastic4.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic4.AllowDrop = true;
 			this.C1Elastic4.Controls.Add(this.grdWorkExperenceDetails);
 			this.C1Elastic4.Location = new System.Drawing.Point(700, 24);
@@ -282,7 +284,7 @@ namespace Xtreme
 			// 
 			// C1Elastic3
 			// 
-			this.C1Elastic3.Align = C1SizerLib.AlignSettings.asNone;
+			//this.C1Elastic3.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic3.AllowDrop = true;
 			this.C1Elastic3.Controls.Add(this.grdSkillDetails);
 			this.C1Elastic3.Location = new System.Drawing.Point(680, 24);
@@ -317,7 +319,7 @@ namespace Xtreme
 			// 
 			// C1Elastic2
 			// 
-			this.C1Elastic2.Align = C1SizerLib.AlignSettings.asNone;
+			//this.C1Elastic2.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic2.AllowDrop = true;
 			this.C1Elastic2.Controls.Add(this.cmbMastersList1);
 			this.C1Elastic2.Controls.Add(this.grdQualificationDetails);
@@ -362,8 +364,8 @@ namespace Xtreme
 			this.grdQualificationDetails.TabIndex = 32;
 			this.grdQualificationDetails.Columns.Add(this.Column_0_grdQualificationDetails);
 			this.grdQualificationDetails.Columns.Add(this.Column_1_grdQualificationDetails);
-			this.grdQualificationDetails.GotFocus += new System.EventHandler(this.grdQualificationDetails_GotFocus);
-			this.grdQualificationDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdQualificationDetails_RowColChange);
+			//this.grdQualificationDetails.GotFocus += new System.EventHandler(this.grdQualificationDetails_GotFocus);
+			//this.grdQualificationDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdQualificationDetails_RowColChange);
 			// 
 			// Column_0_grdQualificationDetails
 			// 
@@ -377,7 +379,7 @@ namespace Xtreme
 			// 
 			// C1Elastic1
 			// 
-			this.C1Elastic1.Align = C1SizerLib.AlignSettings.asNone;
+			//this.C1Elastic1.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic1.AllowDrop = true;
 			this.C1Elastic1.Controls.Add(this.cmbMastersList);
 			this.C1Elastic1.Controls.Add(this.grdLanguageDetails);
@@ -424,8 +426,8 @@ namespace Xtreme
 			this.grdLanguageDetails.TabIndex = 28;
 			this.grdLanguageDetails.Columns.Add(this.Column_0_grdLanguageDetails);
 			this.grdLanguageDetails.Columns.Add(this.Column_1_grdLanguageDetails);
-			this.grdLanguageDetails.GotFocus += new System.EventHandler(this.grdLanguageDetails_GotFocus);
-			this.grdLanguageDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLanguageDetails_RowColChange);
+			//this.grdLanguageDetails.GotFocus += new System.EventHandler(this.grdLanguageDetails_GotFocus);
+			//this.grdLanguageDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLanguageDetails_RowColChange);
 			// 
 			// Column_0_grdLanguageDetails
 			// 
@@ -447,7 +449,7 @@ namespace Xtreme
 			this._txtCommonTextBox_4.Size = new System.Drawing.Size(130, 19);
 			this._txtCommonTextBox_4.TabIndex = 3;
 			this._txtCommonTextBox_4.Text = "";
-			// this.this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_4.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_3
@@ -460,7 +462,7 @@ namespace Xtreme
 			this._txtCommonTextBox_3.Size = new System.Drawing.Size(128, 19);
 			this._txtCommonTextBox_3.TabIndex = 2;
 			this._txtCommonTextBox_3.Text = "";
-			// this.this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_3.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_2
@@ -473,7 +475,7 @@ namespace Xtreme
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(128, 19);
 			this._txtCommonTextBox_2.TabIndex = 1;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_2.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommon_7
@@ -574,7 +576,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(128, 19);
 			this._txtCommonTextBox_1.TabIndex = 0;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_1.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_6
@@ -588,7 +590,7 @@ namespace Xtreme
 			this._txtCommonTextBox_6.Size = new System.Drawing.Size(516, 19);
 			this._txtCommonTextBox_6.TabIndex = 5;
 			this._txtCommonTextBox_6.Text = "";
-			// this.this._txtCommonTextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_6.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtCommonTextBox_7
@@ -601,7 +603,7 @@ namespace Xtreme
 			this._txtCommonTextBox_7.Size = new System.Drawing.Size(516, 19);
 			this._txtCommonTextBox_7.TabIndex = 6;
 			this._txtCommonTextBox_7.Text = "";
-			// this.this._txtCommonTextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_7.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _txtDisplayLabel_0
@@ -626,7 +628,7 @@ namespace Xtreme
 			this._txtCommonTextBox_5.Size = new System.Drawing.Size(83, 19);
 			this._txtCommonTextBox_5.TabIndex = 4;
 			this._txtCommonTextBox_5.Text = "";
-			// this.this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_5.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommon_5
@@ -720,7 +722,7 @@ namespace Xtreme
 			this._txtCommonTextBox_8.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_8.TabIndex = 10;
 			this._txtCommonTextBox_8.Text = "";
-			// this.this._txtCommonTextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_8.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommon_1
@@ -758,7 +760,7 @@ namespace Xtreme
 			this._txtCommonTextBox_9.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_9.TabIndex = 12;
 			this._txtCommonTextBox_9.Text = "";
-			// this.this._txtCommonTextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_9.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommon_3
@@ -793,7 +795,7 @@ namespace Xtreme
 			this._txtCommonTextBox_11.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_11.TabIndex = 11;
 			this._txtCommonTextBox_11.Text = "";
-			// this.this._txtCommonTextBox_11.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_11.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_11.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommon_11
@@ -817,7 +819,7 @@ namespace Xtreme
 			this._txtCommonTextBox_10.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_10.TabIndex = 14;
 			this._txtCommonTextBox_10.Text = "";
-			// this.this._txtCommonTextBox_10.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_10.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// this._txtCommonTextBox_10.Leave += new System.EventHandler(this.txtCommonTextBox_Leave);
 			// 
 			// _lblCommon_12
@@ -833,7 +835,7 @@ namespace Xtreme
 			// 
 			// frmPayCVDetails
 			// 
-			this.'MaxButton = 0;
+			
 			this.AllowDrop = true;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6, 13);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -955,7 +957,7 @@ namespace Xtreme
 			this.cmbCommon[1] = _cmbCommon_1;
 			this.cmbCommon[0] = _cmbCommon_0;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[3];
 			this.Label1[1] = Label1_1;

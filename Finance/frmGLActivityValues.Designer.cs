@@ -47,8 +47,8 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.CheckBox chkFreeze;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxXtremeSuiteControls.AxTabControlPage tabFGeneral;
-		public AxXtremeSuiteControls.AxTabControl tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabFGeneral;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		private System.Windows.Forms.Label _lblDisplayLabel_2;
 		private System.Windows.Forms.TextBox _txtCommon_1;
@@ -71,8 +71,8 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGLActivityValues));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.chkFreeze = new System.Windows.Forms.CheckBox();
-			this.tabMaster = new AxXtremeSuiteControls.AxTabControl();
-			this.tabFGeneral = new AxXtremeSuiteControls.AxTabControlPage();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.tabFGeneral = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this._txtCommon_0 = new System.Windows.Forms.TextBox();
 			this._lblDisplayLabel_2 = new System.Windows.Forms.Label();
@@ -85,8 +85,8 @@ namespace Xtreme
 			this.txtActivityTypeName = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabFGeneral).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
-			this.tabMaster.SuspendLayout();
-			this.tabFGeneral.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this.tabFGeneral.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkFreeze
@@ -149,7 +149,7 @@ namespace Xtreme
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(166, 28);
 			this._txtCommon_0.MaxLength = 15;
-			// this._txtCommon_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommon_0.Name = "_txtCommon_0";
 			// this._txtCommon_0.ShowButton = true;
 			this._txtCommon_0.Size = new System.Drawing.Size(101, 19);
@@ -196,7 +196,7 @@ namespace Xtreme
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(166, 72);
-			// this._txtCommon_2.mArabicEnabled = true;
+			// // = true;
 			this._txtCommon_2.MaxLength = 50;
 			this._txtCommon_2.Name = "_txtCommon_2";
 			this._txtCommon_2.Size = new System.Drawing.Size(201, 19);
@@ -237,7 +237,7 @@ namespace Xtreme
 			this.txtActivityType.Size = new System.Drawing.Size(101, 19);
 			this.txtActivityType.TabIndex = 11;
 			this.txtActivityType.Text = "";
-			// this.this.txtActivityType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtActivityType_DropButtonClick);
+			// this.//this.txtActivityType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtActivityType_DropButtonClick);
 			// this.txtActivityType.Leave += new System.EventHandler(this.txtActivityType_Leave);
 			// 
 			// txtActivityTypeName

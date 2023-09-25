@@ -66,7 +66,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblVoucherNo_1;
 		public System.Windows.Forms.TextBox txtSourceVoucherNo;
 		private System.Windows.Forms.Label _lblCommonLabel_1;
-		public UpgradeHelpers.Gui.ShapeHelper Shape;
+		public ShapeHelper Shape;
 		public System.Windows.Forms.Panel fraTransactionHeader;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdProductOut;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdProductOut;
@@ -74,15 +74,15 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersListOut;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersListOut;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersListOut;
-		public AxXtremeSuiteControls.AxTabControlPage TabControlPage2;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv TabControlPage2;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdProductIn;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdProductIn;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdProductIn;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
-		public AxXtremeSuiteControls.AxTabControlPage TabControlPage1;
-		public AxXtremeSuiteControls.AxTabControl tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabPageAdv TabControlPage1;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController CommandBars;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[10];
 		public System.Windows.Forms.Label[] lblSource = new System.Windows.Forms.Label[2];
@@ -119,16 +119,16 @@ namespace Xtreme
 			this._lblVoucherNo_1 = new System.Windows.Forms.Label();
 			this.txtSourceVoucherNo = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_1 = new System.Windows.Forms.Label();
-			this.Shape = new UpgradeHelpers.Gui.ShapeHelper();
-			this.tabMaster = new AxXtremeSuiteControls.AxTabControl();
-			this.TabControlPage2 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.Shape = new ShapeHelper();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
+			this.TabControlPage2 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.grdProductOut = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdProductOut = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdProductOut = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.cmbMastersListOut = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersListOut = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersListOut = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.TabControlPage1 = new AxXtremeSuiteControls.AxTabControlPage();
+			this.TabControlPage1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.grdProductIn = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdProductIn = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdProductIn = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -140,15 +140,15 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.TabControlPage1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.CommandBars).BeginInit();
-			this.frameBottom.SuspendLayout();
-			this.fraTransactionHeader.SuspendLayout();
-			this.tabMaster.SuspendLayout();
-			this.TabControlPage2.SuspendLayout();
-			this.grdProductOut.SuspendLayout();
-			this.cmbMastersListOut.SuspendLayout();
-			this.TabControlPage1.SuspendLayout();
-			this.grdProductIn.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
+			//this.frameBottom.SuspendLayout();
+			//this.fraTransactionHeader.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this.TabControlPage2.SuspendLayout();
+			//this.grdProductOut.SuspendLayout();
+			//this.cmbMastersListOut.SuspendLayout();
+			//this.TabControlPage1.SuspendLayout();
+			//this.grdProductIn.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// frameBottom
@@ -181,7 +181,7 @@ namespace Xtreme
 			this.txtRemark.Size = new System.Drawing.Size(401, 19);
 			this.txtRemark.TabIndex = 20;
 			this.txtRemark.Text = "";
-			// this.this.txtRemark.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_9
 			// 
@@ -219,8 +219,8 @@ namespace Xtreme
 			this.txtSalesman.Size = new System.Drawing.Size(101, 19);
 			this.txtSalesman.TabIndex = 23;
 			this.txtSalesman.Text = "";
-			// this.this.txtSalesman.Watermark = "";
-			// this.this.txtSalesman.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSalesman_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtSalesman.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSalesman_DropButtonClick);
 			// this.txtSalesman.Leave += new System.EventHandler(this.txtSalesman_Leave);
 			// 
 			// txtSmanDisplayLabel
@@ -287,8 +287,8 @@ namespace Xtreme
 			this.txtLocation.Size = new System.Drawing.Size(101, 19);
 			this.txtLocation.TabIndex = 5;
 			this.txtLocation.Text = "";
-			// this.this.txtLocation.Watermark = "";
-			// this.this.txtLocation.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLocation_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLocation.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLocation_DropButtonClick);
 			// this.txtLocation.Leave += new System.EventHandler(this.txtLocation_Leave);
 			// 
 			// _lblCommonLabel_5
@@ -328,7 +328,7 @@ namespace Xtreme
 			this.txtVoucherNo.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherNo.TabIndex = 8;
 			this.txtVoucherNo.Text = "";
-			// this.this.txtVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtLocDisplayLabel
 			// 
@@ -363,8 +363,8 @@ namespace Xtreme
 			this.txtLdgrCode.Size = new System.Drawing.Size(101, 19);
 			this.txtLdgrCode.TabIndex = 11;
 			this.txtLdgrCode.Text = "";
-			// this.this.txtLdgrCode.Watermark = "";
-			// this.this.txtLdgrCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLdgrCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtLdgrCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLdgrCode_DropButtonClick);
 			// this.txtLdgrCode.Leave += new System.EventHandler(this.txtLdgrCode_Leave);
 			// 
 			// txtLedgerName
@@ -402,8 +402,8 @@ namespace Xtreme
 			this.txtSourceVoucherType.TabIndex = 14;
 			this.txtSourceVoucherType.Text = "";
 			this.txtSourceVoucherType.Visible = false;
-			// this.this.txtSourceVoucherType.Watermark = "";
-			// this.this.txtSourceVoucherType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSourceVoucherType_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtSourceVoucherType.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSourceVoucherType_DropButtonClick);
 			// 
 			// _lblSourceVoucherType_1
 			// 
@@ -444,7 +444,7 @@ namespace Xtreme
 			this.txtSourceVoucherNo.TabIndex = 17;
 			this.txtSourceVoucherNo.Text = "";
 			this.txtSourceVoucherNo.Visible = false;
-			// this.this.txtSourceVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// _lblCommonLabel_1
 			// 
@@ -462,7 +462,7 @@ namespace Xtreme
 			// 
 			this.Shape.AllowDrop = true;
 			this.Shape.BackColor = System.Drawing.SystemColors.Window;
-			this.Shape.BackStyle = 0;
+			// = 0;
 			this.Shape.BorderStyle = 1;
 			this.Shape.Enabled = false;
 			this.Shape.FillColor = System.Drawing.Color.Black;

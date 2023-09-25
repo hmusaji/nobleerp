@@ -90,7 +90,7 @@ namespace Xtreme
 			this.Label5.Text = "Project";
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label5.Location = new System.Drawing.Point(16, 161);
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(41, 16);
 			this.Label5.TabIndex = 4;
 			// 
@@ -101,7 +101,7 @@ namespace Xtreme
 			this.Label4.Text = "Time";
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label4.Location = new System.Drawing.Point(16, 137);
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(28, 16);
 			this.Label4.TabIndex = 3;
 			// 
@@ -112,7 +112,7 @@ namespace Xtreme
 			this.Label3.Text = "To Date";
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label3.Location = new System.Drawing.Point(16, 113);
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(45, 16);
 			this.Label3.TabIndex = 2;
 			// 
@@ -123,7 +123,7 @@ namespace Xtreme
 			this.Label2.Text = "From Date";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label2.Location = new System.Drawing.Point(16, 89);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(61, 16);
 			this.Label2.TabIndex = 1;
 			// 
@@ -134,7 +134,7 @@ namespace Xtreme
 			this.Label1.Text = "Employee Code";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label1.Location = new System.Drawing.Point(18, 64);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(92, 16);
 			this.Label1.TabIndex = 0;
 			// 
@@ -168,14 +168,14 @@ namespace Xtreme
 			this._txtCommonTextBox_0.Enabled = false;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(120, 136);
-			// this._txtCommonTextBox_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommonTextBox_0.Name = "_txtCommonTextBox_0";
 			// this._txtCommonTextBox_0.ShowButton = true;
 			this._txtCommonTextBox_0.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonTextBox_0.TabIndex = 7;
 			this._txtCommonTextBox_0.TabStop = false;
 			this._txtCommonTextBox_0.Text = "";
-			// this.this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// 
 			// _txtCommonTextBox_1
 			// 
@@ -189,7 +189,7 @@ namespace Xtreme
 			this._txtCommonTextBox_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_1.TabIndex = 8;
 			this._txtCommonTextBox_1.Text = "";
-			// this.this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// 
 			// _txtCommonDate_0
 			// 
@@ -225,7 +225,7 @@ namespace Xtreme
 			this._txtCommonTextBox_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonTextBox_2.TabIndex = 11;
 			this._txtCommonTextBox_2.Text = "";
-			// this.this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommonTextBox_DropButtonClick);
+			// this.//this._txtCommonTextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommonTextBox_DropButtonClick);
 			// 
 			// frmPayEmployeeRegister
 			// 

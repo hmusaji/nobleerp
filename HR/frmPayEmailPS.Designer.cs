@@ -168,16 +168,16 @@ namespace Xtreme
 			// 
 			this.txtFromEmp.AllowDrop = true;
 			this.txtFromEmp.BackColor = System.Drawing.Color.White;
-			// this.txtFromEmp.bolAllowDecimal = false;
+			// // = false;
 			this.txtFromEmp.ForeColor = System.Drawing.Color.Black;
 			this.txtFromEmp.Location = new System.Drawing.Point(102, 42);
-			// this.txtFromEmp.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtFromEmp.Name = "txtFromEmp";
 			// this.txtFromEmp.ShowButton = true;
 			this.txtFromEmp.Size = new System.Drawing.Size(121, 19);
 			this.txtFromEmp.TabIndex = 1;
 			this.txtFromEmp.Text = "";
-			// this.this.txtFromEmp.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtFromEmp_DropButtonClick);
+			// this.//this.txtFromEmp.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtFromEmp_DropButtonClick);
 			// this.txtFromEmp.Leave += new System.EventHandler(this.txtFromEmp_Leave);
 			// 
 			// lblFromEmp
@@ -206,16 +206,16 @@ namespace Xtreme
 			// 
 			this.txtToEmp.AllowDrop = true;
 			this.txtToEmp.BackColor = System.Drawing.Color.White;
-			// this.txtToEmp.bolAllowDecimal = false;
+			// // = false;
 			this.txtToEmp.ForeColor = System.Drawing.Color.Black;
 			this.txtToEmp.Location = new System.Drawing.Point(102, 63);
-			// this.txtToEmp.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtToEmp.Name = "txtToEmp";
 			// this.txtToEmp.ShowButton = true;
 			this.txtToEmp.Size = new System.Drawing.Size(121, 19);
 			this.txtToEmp.TabIndex = 2;
 			this.txtToEmp.Text = "";
-			// this.this.txtToEmp.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtToEmp_DropButtonClick);
+			// this.//this.txtToEmp.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtToEmp_DropButtonClick);
 			// this.txtToEmp.Leave += new System.EventHandler(this.txtToEmp_Leave);
 			// 
 			// System.Windows.Forms.Label1
@@ -225,7 +225,7 @@ namespace Xtreme
 			this.Label1.Text = "Month";
 			this.Label1.Location = new System.Drawing.Point(4, 88);
 			// this.Label1.mLabelId = 1145;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(29, 14);
 			this.Label1.TabIndex = 8;
 			// 
@@ -255,7 +255,7 @@ namespace Xtreme
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Employee Complete";
 			this.Label2.Location = new System.Drawing.Point(4, 110);
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(93, 14);
 			this.Label2.TabIndex = 11;
 			// 

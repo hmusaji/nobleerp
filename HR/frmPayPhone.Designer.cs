@@ -72,7 +72,7 @@ namespace Xtreme
 			this.lblHolidayCode = new System.Windows.Forms.Label();
 			this.txtDeductionCodeName = new System.Windows.Forms.Label();
 			this.txtEmployeeCodeName = new System.Windows.Forms.Label();
-			this.grdPhone.SuspendLayout();
+			//this.grdPhone.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// grdPhone
@@ -108,13 +108,13 @@ namespace Xtreme
 			this.txtDeductionCode.ForeColor = System.Drawing.Color.Black;
 			this.txtDeductionCode.Location = new System.Drawing.Point(116, 73);
 			this.txtDeductionCode.MaxLength = 15;
-			// this.txtDeductionCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtDeductionCode.Name = "txtDeductionCode";
 			// this.txtDeductionCode.ShowButton = true;
 			this.txtDeductionCode.Size = new System.Drawing.Size(101, 19);
 			this.txtDeductionCode.TabIndex = 1;
 			this.txtDeductionCode.Text = "";
-			// this.this.txtDeductionCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDeductionCode_DropButtonClick);
+			// this.//this.txtDeductionCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDeductionCode_DropButtonClick);
 			// this.txtDeductionCode.Leave += new System.EventHandler(this.txtDeductionCode_Leave);
 			// 
 			// System.Windows.Forms.Label1
@@ -124,7 +124,7 @@ namespace Xtreme
 			this.Label1.Text = "Deduction Code";
 			this.Label1.Location = new System.Drawing.Point(6, 75);
 			// this.Label1.mLabelId = 1997;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(76, 14);
 			this.Label1.TabIndex = 2;
 			// 
@@ -135,13 +135,13 @@ namespace Xtreme
 			this.txtEmployeeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtEmployeeCode.Location = new System.Drawing.Point(116, 52);
 			this.txtEmployeeCode.MaxLength = 15;
-			// this.txtEmployeeCode.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtEmployeeCode.Name = "txtEmployeeCode";
 			// this.txtEmployeeCode.ShowButton = true;
 			this.txtEmployeeCode.Size = new System.Drawing.Size(101, 19);
 			this.txtEmployeeCode.TabIndex = 3;
 			this.txtEmployeeCode.Text = "";
-			// this.this.txtEmployeeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmployeeCode_DropButtonClick);
+			// this.//this.txtEmployeeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmployeeCode_DropButtonClick);
 			// this.txtEmployeeCode.Leave += new System.EventHandler(this.txtEmployeeCode_Leave);
 			// 
 			// lblHolidayCode

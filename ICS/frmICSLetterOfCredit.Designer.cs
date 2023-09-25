@@ -99,8 +99,8 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblExpDate;
 		public System.Windows.Forms.Label lblDate;
 		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[20];
-		public System.Windows.Forms.TextBox[] System.Windows.Forms.TextBox1 = new System.Windows.Forms.TextBox[5];
-		public System.Windows.Forms.TextBox[] System.Windows.Forms.TextBox = new System.Windows.Forms.TextBox[10];
+		public System.Windows.Forms.TextBox[] TextBox1 = new System.Windows.Forms.TextBox[5];
+		public System.Windows.Forms.TextBox[] TextBox = new System.Windows.Forms.TextBox[10];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -163,8 +163,8 @@ namespace Xtreme
 			this._Label1_0 = new System.Windows.Forms.Label();
 			this.lblExpDate = new System.Windows.Forms.Label();
 			this.lblDate = new System.Windows.Forms.Label();
-			this.cmbParentsList.SuspendLayout();
-			this.grdLC.SuspendLayout();
+			//this.cmbParentsList.SuspendLayout();
+			//this.grdLC.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cmbParentsList
@@ -212,8 +212,8 @@ namespace Xtreme
 			this.grdLC.TabIndex = 37;
 			this.grdLC.Columns.Add(this.Column_0_grdLC);
 			this.grdLC.Columns.Add(this.Column_1_grdLC);
-			this.grdLC.GotFocus += new System.EventHandler(this.grdLC_GotFocus);
-			this.grdLC.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLC_RowColChange);
+			//this.grdLC.GotFocus += new System.EventHandler(this.grdLC_GotFocus);
+			//this.grdLC.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLC_RowColChange);
 			// 
 			// Column_0_grdLC
 			// 
@@ -261,16 +261,16 @@ namespace Xtreme
 			// 
 			this.TextBox_0.AllowDrop = true;
 			this.TextBox_0.BackColor = System.Drawing.Color.White;
-			this.TextBox_0.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_0.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_0.Location = new System.Drawing.Point(276, 12);
-			this.TextBox_0.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_0.Name = "TextBox_0";
 			this.TextBox_0.Size = new System.Drawing.Size(115, 19);
 			this.TextBox_0.TabIndex = 5;
 			this.TextBox_0.Text = "";
-			this.TextBox_0.Watermark = "";
-			this.TextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// txtDateOfCredit
 			// 
@@ -279,7 +279,7 @@ namespace Xtreme
 			// this.txtDateOfCredit.MaxDate = 2958465;
 			// this.txtDateOfCredit.MinDate = -657434;
 			this.txtDateOfCredit.Name = "txtDateOfCredit";
-			this.txtDateOfCredit.PromptChar = "_";
+			// = "_";
 			this.txtDateOfCredit.Size = new System.Drawing.Size(97, 19);
 			this.txtDateOfCredit.TabIndex = 1;
 			this.txtDateOfCredit.Text = "10-Dec-2008";
@@ -292,7 +292,7 @@ namespace Xtreme
 			// this.txtExpiryDate.MaxDate = 2958465;
 			// this.txtExpiryDate.MinDate = -657434;
 			this.txtExpiryDate.Name = "txtExpiryDate";
-			this.txtExpiryDate.PromptChar = "_";
+			// = "_";
 			this.txtExpiryDate.Size = new System.Drawing.Size(97, 19);
 			this.txtExpiryDate.TabIndex = 3;
 			// this.txtExpiryDate.Text = "10-Dec-2008";
@@ -302,17 +302,17 @@ namespace Xtreme
 			// 
 			this.TextBox_1.AllowDrop = true;
 			this.TextBox_1.BackColor = System.Drawing.Color.White;
-			this.TextBox_1.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_1.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_1.Location = new System.Drawing.Point(276, 34);
-			this.TextBox_1.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_1.Name = "TextBox_1";
-			this.TextBox_1.ShowButton = true;
+			//this.TextBox_1.ShowButton = true;
 			this.TextBox_1.Size = new System.Drawing.Size(115, 19);
 			this.TextBox_1.TabIndex = 7;
 			this.TextBox_1.Text = "";
-			this.TextBox_1.Watermark = "";
-			this.TextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// txtSupplierName
 			// 
@@ -326,113 +326,113 @@ namespace Xtreme
 			this.txtSupplierName.TabIndex = 8;
 			this.txtSupplierName.TabStop = false;
 			this.txtSupplierName.Text = " ";
-			// this.this.txtSupplierName.Watermark = "";
+			// this.// = "";
 			// 
 			// TextBox_2
 			// 
 			this.TextBox_2.AllowDrop = true;
 			this.TextBox_2.BackColor = System.Drawing.Color.White;
-			this.TextBox_2.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_2.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_2.Location = new System.Drawing.Point(86, 116);
-			this.TextBox_2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_2.Name = "TextBox_2";
 			this.TextBox_2.Size = new System.Drawing.Size(499, 19);
 			this.TextBox_2.TabIndex = 12;
 			this.TextBox_2.Text = "";
-			this.TextBox_2.Watermark = "";
-			this.TextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox_3
 			// 
 			this.TextBox_3.AllowDrop = true;
 			this.TextBox_3.BackColor = System.Drawing.Color.White;
-			this.TextBox_3.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_3.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_3.Location = new System.Drawing.Point(86, 138);
-			this.TextBox_3.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_3.Name = "TextBox_3";
 			this.TextBox_3.Size = new System.Drawing.Size(499, 19);
 			this.TextBox_3.TabIndex = 14;
 			this.TextBox_3.Text = "";
-			this.TextBox_3.Watermark = "";
-			this.TextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox_4
 			// 
 			this.TextBox_4.AllowDrop = true;
 			this.TextBox_4.BackColor = System.Drawing.Color.White;
-			this.TextBox_4.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_4.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_4.Location = new System.Drawing.Point(86, 160);
-			this.TextBox_4.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_4.Name = "TextBox_4";
 			this.TextBox_4.Size = new System.Drawing.Size(499, 19);
 			this.TextBox_4.TabIndex = 16;
 			this.TextBox_4.Text = "";
-			this.TextBox_4.Watermark = "";
-			this.TextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox_5
 			// 
 			this.TextBox_5.AllowDrop = true;
 			this.TextBox_5.BackColor = System.Drawing.Color.White;
-			this.TextBox_5.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_5.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_5.Location = new System.Drawing.Point(86, 182);
-			this.TextBox_5.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_5.Name = "TextBox_5";
 			this.TextBox_5.Size = new System.Drawing.Size(113, 19);
 			this.TextBox_5.TabIndex = 18;
 			this.TextBox_5.Text = "";
-			this.TextBox_5.Watermark = "";
-			this.TextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox_6
 			// 
 			this.TextBox_6.AllowDrop = true;
 			this.TextBox_6.BackColor = System.Drawing.Color.White;
-			this.TextBox_6.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_6.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_6.Location = new System.Drawing.Point(286, 182);
-			this.TextBox_6.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_6.Name = "TextBox_6";
-			this.TextBox_6.ShowButton = true;
+			//this.TextBox_6.ShowButton = true;
 			this.TextBox_6.Size = new System.Drawing.Size(113, 19);
 			this.TextBox_6.TabIndex = 20;
 			this.TextBox_6.Text = "";
-			this.TextBox_6.Watermark = "";
-			this.TextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox_7
 			// 
 			this.TextBox_7.AllowDrop = true;
 			this.TextBox_7.BackColor = System.Drawing.Color.White;
-			this.TextBox_7.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_7.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_7.Location = new System.Drawing.Point(86, 204);
-			this.TextBox_7.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_7.Name = "TextBox_7";
 			this.TextBox_7.Size = new System.Drawing.Size(113, 19);
 			this.TextBox_7.TabIndex = 21;
 			this.TextBox_7.Text = "";
-			this.TextBox_7.Watermark = "";
-			this.TextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox_8
 			// 
 			this.TextBox_8.AllowDrop = true;
 			this.TextBox_8.BackColor = System.Drawing.Color.White;
-			this.TextBox_8.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_8.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_8.Location = new System.Drawing.Point(286, 204);
-			this.TextBox_8.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_8.Name = "TextBox_8";
 			this.TextBox_8.Size = new System.Drawing.Size(113, 19);
 			this.TextBox_8.TabIndex = 23;
 			this.TextBox_8.Text = "";
-			this.TextBox_8.Watermark = "";
-			this.TextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_8.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// txtPolicyDate
 			// 
@@ -441,7 +441,7 @@ namespace Xtreme
 			// this.txtPolicyDate.MaxDate = 2958465;
 			// this.txtPolicyDate.MinDate = -657434;
 			this.txtPolicyDate.Name = "txtPolicyDate";
-			this.txtPolicyDate.PromptChar = "_";
+			// = "_";
 			this.txtPolicyDate.Size = new System.Drawing.Size(97, 19);
 			this.txtPolicyDate.TabIndex = 27;
 			// this.txtPolicyDate.Text = "10-Dec-2008";
@@ -454,7 +454,7 @@ namespace Xtreme
 			// this.txtArrivalDate.MaxDate = 2958465;
 			// this.txtArrivalDate.MinDate = -657434;
 			this.txtArrivalDate.Name = "txtArrivalDate";
-			this.txtArrivalDate.PromptChar = "_";
+			// = "_";
 			this.txtArrivalDate.Size = new System.Drawing.Size(97, 19);
 			this.txtArrivalDate.TabIndex = 28;
 			// this.txtArrivalDate.Text = "10-Dec-2008";
@@ -467,7 +467,7 @@ namespace Xtreme
 			// this.txtAmendment1.MaxDate = 2958465;
 			// this.txtAmendment1.MinDate = -657434;
 			this.txtAmendment1.Name = "txtAmendment1";
-			this.txtAmendment1.PromptChar = "_";
+			// = "_";
 			this.txtAmendment1.Size = new System.Drawing.Size(97, 19);
 			this.txtAmendment1.TabIndex = 30;
 			this.txtAmendment1.Text = "10-Dec-2008";
@@ -480,7 +480,7 @@ namespace Xtreme
 			// this.txtAmendment2.MaxDate = 2958465;
 			// this.txtAmendment2.MinDate = -657434;
 			this.txtAmendment2.Name = "txtAmendment2";
-			this.txtAmendment2.PromptChar = "_";
+			// = "_";
 			this.txtAmendment2.Size = new System.Drawing.Size(97, 19);
 			this.txtAmendment2.TabIndex = 31;
 			this.txtAmendment2.Text = "10-Dec-2008";
@@ -493,7 +493,7 @@ namespace Xtreme
 			// this.txtAmendment3.MaxDate = 2958465;
 			// this.txtAmendment3.MinDate = -657434;
 			this.txtAmendment3.Name = "txtAmendment3";
-			this.txtAmendment3.PromptChar = "_";
+			// = "_";
 			this.txtAmendment3.Size = new System.Drawing.Size(97, 19);
 			this.txtAmendment3.TabIndex = 32;
 			this.txtAmendment3.Text = "10-Dec-2008";
@@ -503,16 +503,16 @@ namespace Xtreme
 			// 
 			this.TextBox_9.AllowDrop = true;
 			this.TextBox_9.BackColor = System.Drawing.Color.White;
-			this.TextBox_9.bolAllowDecimal = false;
+			// = false;
 			this.TextBox_9.ForeColor = System.Drawing.Color.Black;
 			this.TextBox_9.Location = new System.Drawing.Point(286, 248);
-			this.TextBox_9.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.TextBox_9.Name = "TextBox_9";
 			this.TextBox_9.Size = new System.Drawing.Size(113, 19);
 			this.TextBox_9.TabIndex = 33;
 			this.TextBox_9.Text = "";
-			this.TextBox_9.Watermark = "";
-			this.TextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.TextBox_DropButtonClick);
+			// = "";
+			//this.TextBox_9.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.TextBox_DropButtonClick);
 			// 
 			// TextBox1_1
 			// 
@@ -912,7 +912,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.TextBox()
+		void InitializeSystemWindowsFormsTextBox()
 		{
 			this.TextBox = new System.Windows.Forms.TextBox[10];
 			this.TextBox[0] = TextBox_0;
@@ -926,7 +926,7 @@ namespace Xtreme
 			this.TextBox[8] = TextBox_8;
 			this.TextBox[9] = TextBox_9;
 		}
-		void InitializeSystem.Windows.Forms.TextBox1()
+		void InitializeSystemWindowsFormsTextBox1()
 		{
 			this.TextBox1 = new System.Windows.Forms.TextBox[5];
 			this.TextBox1[0] = TextBox1_0;

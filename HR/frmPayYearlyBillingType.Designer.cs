@@ -81,9 +81,9 @@ namespace Xtreme
 			this._txtDisplayLabel_1 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this.grdVoucherDetails.SuspendLayout();
-			this.cmbMastersList.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.cmbMastersList.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMasterDetails

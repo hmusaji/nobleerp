@@ -85,7 +85,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_12;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtCommonDate_4;
 		private System.Windows.Forms.Panel _fraMasterInformation_0;
-		public AxC1SizerLib.AxC1Tab tabMaster;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		private System.Windows.Forms.TextBox _txtCommon_1;
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		private System.Windows.Forms.Label _lblCommon_0;
@@ -94,7 +94,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_2;
 		private System.Windows.Forms.Label _lblCommon_3;
 		public System.Windows.Forms.Label Line1;
-		public AxC1SizerLib.AxC1Elastic cntOuterFrame;
+		public AxC1Elastic cntOuterFrame;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		public System.Windows.Forms.CheckBox[] chkCommon = new System.Windows.Forms.CheckBox[6];
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[3];
@@ -112,8 +112,8 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysCompany));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntOuterFrame = new AxC1SizerLib.AxC1Elastic();
-			this.tabMaster = new AxC1SizerLib.AxC1Tab();
+			this.cntOuterFrame = new AxC1Elastic();
+			this.tabMaster = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this._fraMasterInformation_2 = new System.Windows.Forms.Panel();
 			this.fraInitialCompanyLevelPreferences = new System.Windows.Forms.GroupBox();
 			this._chkCommon_5 = new System.Windows.Forms.CheckBox();
@@ -166,12 +166,12 @@ namespace Xtreme
 			// //((System.ComponentModel.ISupportInitialize) this.tabMaster).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.cntOuterFrame).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
-			this.cntOuterFrame.SuspendLayout();
-			this.tabMaster.SuspendLayout();
-			this._fraMasterInformation_2.SuspendLayout();
-			this.fraInitialCompanyLevelPreferences.SuspendLayout();
-			this._fraMasterInformation_1.SuspendLayout();
-			this._fraMasterInformation_0.SuspendLayout();
+			//this.cntOuterFrame.SuspendLayout();
+			//this.tabMaster.SuspendLayout();
+			//this._fraMasterInformation_2.SuspendLayout();
+			//this.fraInitialCompanyLevelPreferences.SuspendLayout();
+			//this._fraMasterInformation_1.SuspendLayout();
+			//this._fraMasterInformation_0.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntOuterFrame
@@ -495,7 +495,7 @@ namespace Xtreme
 			this._txtCommon_6.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_6.TabIndex = 11;
 			this._txtCommon_6.Text = "";
-			// this.this._txtCommon_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_6.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_6.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _txtCommon_7
@@ -509,7 +509,7 @@ namespace Xtreme
 			this._txtCommon_7.Size = new System.Drawing.Size(233, 19);
 			this._txtCommon_7.TabIndex = 9;
 			this._txtCommon_7.Text = "";
-			// this.this._txtCommon_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_7.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_7.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _cmbCommon_1
@@ -571,7 +571,7 @@ namespace Xtreme
 			this._txtCommon_4.Size = new System.Drawing.Size(201, 19);
 			this._txtCommon_4.TabIndex = 6;
 			this._txtCommon_4.Text = "";
-			// this.this._txtCommon_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_4.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_4.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _lblCommon_11
@@ -596,7 +596,7 @@ namespace Xtreme
 			this._txtCommon_5.Size = new System.Drawing.Size(201, 19);
 			this._txtCommon_5.TabIndex = 7;
 			this._txtCommon_5.Text = "";
-			// this.this._txtCommon_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_5.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_5.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _fraMasterInformation_0
@@ -665,7 +665,7 @@ namespace Xtreme
 			this._txtCommon_3.Size = new System.Drawing.Size(140, 19);
 			this._txtCommon_3.TabIndex = 3;
 			this._txtCommon_3.Text = "";
-			// this.this._txtCommon_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_3.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_3.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _lblCommon_5
@@ -823,7 +823,7 @@ namespace Xtreme
 			this._txtCommon_1.Size = new System.Drawing.Size(201, 19);
 			this._txtCommon_1.TabIndex = 1;
 			this._txtCommon_1.Text = "";
-			// this.this._txtCommon_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_1.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _txtCommon_2
@@ -832,13 +832,13 @@ namespace Xtreme
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(376, 37);
-			// this._txtCommon_2.mArabicEnabled = true;
+			// // = true;
 			this._txtCommon_2.MaxLength = 50;
 			this._txtCommon_2.Name = "_txtCommon_2";
 			this._txtCommon_2.Size = new System.Drawing.Size(201, 19);
 			this._txtCommon_2.TabIndex = 2;
 			this._txtCommon_2.Text = "";
-			// this.this._txtCommon_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_2.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_2.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _lblCommon_0
@@ -856,18 +856,18 @@ namespace Xtreme
 			// 
 			this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
-			// this._txtCommon_0.bolAllowDecimal = false;
+			// // = false;
 			// this._txtCommon_0.bolNumericOnly = true;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(98, 16);
 			this._txtCommon_0.MaxLength = 4;
-			// this._txtCommon_0.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this._txtCommon_0.Name = "_txtCommon_0";
 			// this._txtCommon_0.ShowButton = true;
 			this._txtCommon_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommon_0.TabIndex = 0;
 			this._txtCommon_0.Text = "";
-			// this.this._txtCommon_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
+			// this.//this._txtCommon_0.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCommon_DropButtonClick);
 			// this.this._txtCommon_0.KeyPress += new System.Windows.Forms.TextBox.KeyPressHandler(this.txtCommon_KeyPress);
 			// 
 			// _lblCommon_1

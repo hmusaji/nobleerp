@@ -94,12 +94,12 @@ namespace Xtreme
 			this.txtArabicName.BackColor = System.Drawing.Color.White;
 			this.txtArabicName.ForeColor = System.Drawing.Color.Black;
 			this.txtArabicName.Location = new System.Drawing.Point(108, 60);
-			// this.txtArabicName.mArabicEnabled = true;
+			// // = true;
 			this.txtArabicName.Name = "txtArabicName";
 			this.txtArabicName.Size = new System.Drawing.Size(290, 19);
 			this.txtArabicName.TabIndex = 2;
 			this.txtArabicName.Text = "";
-			// this.this.txtArabicName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblLocationCode
 			// 
@@ -121,7 +121,7 @@ namespace Xtreme
 			this.txtEngName.Size = new System.Drawing.Size(290, 19);
 			this.txtEngName.TabIndex = 1;
 			this.txtEngName.Text = "";
-			// this.this.txtEngName.Watermark = "";
+			// this.// = "";
 			// 
 			// lblCompanyCode
 			// 
@@ -147,7 +147,7 @@ namespace Xtreme
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Module ID";
 			this.Label1.Location = new System.Drawing.Point(240, 18);
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(46, 14);
 			this.Label1.TabIndex = 8;
 			// 
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.txtModuleId.Size = new System.Drawing.Size(96, 19);
 			this.txtModuleId.TabIndex = 0;
 			this.txtModuleId.Text = "";
-			// this.this.txtModuleId.Watermark = "";
+			// this.// = "";
 			// 
 			// frmSysSystemLabels
 			// 

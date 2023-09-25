@@ -118,8 +118,8 @@ namespace Xtreme
 			this.txtCustomerCode.Size = new System.Drawing.Size(89, 19);
 			this.txtCustomerCode.TabIndex = 2;
 			this.txtCustomerCode.Text = "";
-			// this.this.txtCustomerCode.Watermark = "";
-			// this.this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCustomerCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtCustomerCode_DropButtonClick);
 			// this.txtCustomerCode.Leave += new System.EventHandler(this.txtCustomerCode_Leave);
 			// 
 			// txtVoucherDate
@@ -145,7 +145,7 @@ namespace Xtreme
 			this.txtVoucherNo.Size = new System.Drawing.Size(89, 19);
 			this.txtVoucherNo.TabIndex = 9;
 			this.txtVoucherNo.Text = "";
-			// this.this.txtVoucherNo.Watermark = "";
+			// this.// = "";
 			// 
 			// txtSalesmanName
 			// 
@@ -167,8 +167,8 @@ namespace Xtreme
 			this.txtSalesmanCode.Size = new System.Drawing.Size(89, 19);
 			this.txtSalesmanCode.TabIndex = 3;
 			this.txtSalesmanCode.Text = "";
-			// this.this.txtSalesmanCode.Watermark = "";
-			// this.this.txtSalesmanCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSalesmanCode_DropButtonClick);
+			// this.// = "";
+			// this.//this.txtSalesmanCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtSalesmanCode_DropButtonClick);
 			// this.txtSalesmanCode.Leave += new System.EventHandler(this.txtSalesmanCode_Leave);
 			// 
 			// txtComment
@@ -367,7 +367,7 @@ namespace Xtreme
 			this.ResumeLayout(false);
 		}
 		// 
-		void InitializeSystem.Windows.Forms.Label()
+		void InitializeSystemWindowsFormsLabel()
 		{
 			this.Label = new System.Windows.Forms.Label[9];
 			this.Label[2] = Label_2;

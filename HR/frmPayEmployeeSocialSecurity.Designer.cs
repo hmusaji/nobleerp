@@ -166,7 +166,7 @@ namespace Xtreme
 			this.txtEmpCode.Size = new System.Drawing.Size(101, 19);
 			this.txtEmpCode.TabIndex = 1;
 			this.txtEmpCode.Text = "";
-			// this.this.txtEmpCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmpCode_DropButtonClick);
+			// this.//this.txtEmpCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmpCode_DropButtonClick);
 			// this.txtEmpCode.Leave += new System.EventHandler(this.txtEmpCode_Leave);
 			// 
 			// txtDEmpName
@@ -208,7 +208,7 @@ namespace Xtreme
 			this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Location = new System.Drawing.Point(6, 134);
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(91, 14);
 			this.Label4.TabIndex = 10;
 			// 
@@ -217,7 +217,7 @@ namespace Xtreme
 			this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Location = new System.Drawing.Point(6, 155);
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(58, 14);
 			this.Label5.TabIndex = 11;
 			// 
@@ -226,7 +226,7 @@ namespace Xtreme
 			this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Location = new System.Drawing.Point(6, 179);
-			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Name="Label12";
 			this.Label12.Size = new System.Drawing.Size(50, 14);
 			this.Label12.TabIndex = 12;
 			// 

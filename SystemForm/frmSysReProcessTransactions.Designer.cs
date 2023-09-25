@@ -56,8 +56,8 @@ namespace Xtreme
 		public System.Windows.Forms.Label DlblVoucherType;
 		public System.Windows.Forms.Label DlblLocationCode;
 		public System.Windows.Forms.Label DlblLocationName;
-		public UpgradeHelpers.Gui.ShapeHelper Shape2;
-		public UpgradeHelpers.Gui.ShapeHelper Shape1;
+		public ShapeHelper Shape2;
+		public ShapeHelper Shape1;
 		public System.Windows.Forms.RadioButton[] optReprocessType = new System.Windows.Forms.RadioButton[2];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -79,8 +79,8 @@ namespace Xtreme
 			this.DlblVoucherType = new System.Windows.Forms.Label();
 			this.DlblLocationCode = new System.Windows.Forms.Label();
 			this.DlblLocationName = new System.Windows.Forms.Label();
-			this.Shape2 = new UpgradeHelpers.Gui.ShapeHelper();
-			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
+			this.Shape2 = new ShapeHelper();
+			this.Shape1 = new ShapeHelper();
 			this.SuspendLayout();
 			// 
 			// _optReprocessType_1
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			this.Shape2.AllowDrop = true;
 			this.Shape2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Shape2.BackStyle = 1;
+			// = 1;
 			this.Shape2.BorderStyle = 1;
 			this.Shape2.Enabled = false;
 			this.Shape2.FillColor = System.Drawing.Color.Black;
@@ -225,7 +225,7 @@ namespace Xtreme
 			// 
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Shape1.BackStyle = 1;
+			// = 1;
 			this.Shape1.BorderStyle = 1;
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.Black;

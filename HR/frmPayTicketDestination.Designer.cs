@@ -86,16 +86,16 @@ namespace Xtreme
 			// 
 			this.txtDestinationCd.AllowDrop = true;
 			this.txtDestinationCd.BackColor = System.Drawing.Color.White;
-			// this.txtDestinationCd.bolAllowDecimal = false;
+			// // = false;
 			this.txtDestinationCd.ForeColor = System.Drawing.Color.Black;
 			this.txtDestinationCd.Location = new System.Drawing.Point(148, 54);
-			// this.txtDestinationCd.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtDestinationCd.Name = "txtDestinationCd";
 			// this.txtDestinationCd.ShowButton = true;
 			this.txtDestinationCd.Size = new System.Drawing.Size(115, 21);
 			this.txtDestinationCd.TabIndex = 1;
 			this.txtDestinationCd.Text = "";
-			// this.this.txtDestinationCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtDestinationCd_DropButtonClick);
+			// this.//this.txtDestinationCd.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtDestinationCd_DropButtonClick);
 			// 
 			// System.Windows.Forms.Label1
 			// 
@@ -104,7 +104,7 @@ namespace Xtreme
 			this.Label1.Text = "Ticket Destination Name(ENG)";
 			this.Label1.Location = new System.Drawing.Point(0, 81);
 			// this.Label1.mLabelId = 2089;
-			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(143, 14);
 			this.Label1.TabIndex = 0;
 			// 
@@ -115,7 +115,7 @@ namespace Xtreme
 			this.Label2.Text = "Ticket Destination Name(ARB)";
 			this.Label2.Location = new System.Drawing.Point(0, 104);
 			// this.Label2.mLabelId = 2090;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(144, 14);
 			this.Label2.TabIndex = 7;
 			// 
@@ -123,10 +123,10 @@ namespace Xtreme
 			// 
 			this.txtLDestName.AllowDrop = true;
 			this.txtLDestName.BackColor = System.Drawing.Color.White;
-			// this.txtLDestName.bolAllowDecimal = false;
+			// // = false;
 			this.txtLDestName.ForeColor = System.Drawing.Color.Black;
 			this.txtLDestName.Location = new System.Drawing.Point(148, 78);
-			// this.txtLDestName.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtLDestName.Name = "txtLDestName";
 			this.txtLDestName.Size = new System.Drawing.Size(291, 21);
 			this.txtLDestName.TabIndex = 2;
@@ -136,10 +136,10 @@ namespace Xtreme
 			// 
 			this.txtADestName.AllowDrop = true;
 			this.txtADestName.BackColor = System.Drawing.Color.White;
-			// this.txtADestName.bolAllowDecimal = false;
+			// // = false;
 			this.txtADestName.ForeColor = System.Drawing.Color.Black;
 			this.txtADestName.Location = new System.Drawing.Point(148, 101);
-			// this.txtADestName.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this.txtADestName.Name = "txtADestName";
 			this.txtADestName.Size = new System.Drawing.Size(291, 21);
 			this.txtADestName.TabIndex = 3;
@@ -152,7 +152,7 @@ namespace Xtreme
 			this.Label3.Text = "Nationality Code";
 			this.Label3.Location = new System.Drawing.Point(0, 126);
 			// this.Label3.mLabelId = 1058;
-			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Name="Label3";
 			this.Label3.Size = new System.Drawing.Size(77, 14);
 			this.Label3.TabIndex = 8;
 			// 
@@ -164,13 +164,13 @@ namespace Xtreme
 			this.txtNatNo.ForeColor = System.Drawing.Color.Black;
 			this.txtNatNo.Location = new System.Drawing.Point(148, 124);
 			this.txtNatNo.MaxLength = 15;
-			// this.txtNatNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtNatNo.Name = "txtNatNo";
 			// this.txtNatNo.ShowButton = true;
 			this.txtNatNo.Size = new System.Drawing.Size(97, 19);
 			this.txtNatNo.TabIndex = 4;
 			this.txtNatNo.Text = "";
-			// this.this.txtNatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtNatNo_DropButtonClick);
+			// this.//this.txtNatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtNatNo_DropButtonClick);
 			// this.txtNatNo.Leave += new System.EventHandler(this.txtNatNo_Leave);
 			// 
 			// txtNatName
@@ -190,7 +190,7 @@ namespace Xtreme
 			this.Label4.Text = "One Way Ticket Amount";
 			this.Label4.Location = new System.Drawing.Point(0, 176);
 			// this.Label4.mLabelId = 2091;
-			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Name="Label4";
 			this.Label4.Size = new System.Drawing.Size(116, 14);
 			this.Label4.TabIndex = 10;
 			this.Label4.Visible = false;
@@ -223,7 +223,7 @@ namespace Xtreme
 			this.Label5.Text = "Ticket Destination Code";
 			this.Label5.Location = new System.Drawing.Point(0, 57);
 			// this.Label5.mLabelId = 2088;
-			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Name="Label5";
 			this.Label5.Size = new System.Drawing.Size(112, 14);
 			this.Label5.TabIndex = 12;
 			// 

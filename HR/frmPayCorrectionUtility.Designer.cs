@@ -73,7 +73,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_109;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtJoiningDate;
 		public System.Windows.Forms.Panel frmEmployee;
-		public AxC1SizerLib.AxC1Tab tabCorrectionUtility;
+		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabCorrectionUtility;
 		private System.Windows.Forms.Label _lblCommon_113;
 		public System.Windows.Forms.TextBox txtEmployeeNo;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
@@ -97,7 +97,7 @@ namespace Xtreme
 			this._optoption_2 = new System.Windows.Forms.RadioButton();
 			this._optoption_1 = new System.Windows.Forms.RadioButton();
 			this._optoption_0 = new System.Windows.Forms.RadioButton();
-			this.tabCorrectionUtility = new AxC1SizerLib.AxC1Tab();
+			this.tabCorrectionUtility = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
 			this.frmResumtion = new System.Windows.Forms.Panel();
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this.txtResumtionTransNo = new System.Windows.Forms.TextBox();
@@ -126,11 +126,11 @@ namespace Xtreme
 			this._txtDisplayLabel_1 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.tabCorrectionUtility).BeginInit();
-			this.frmoption.SuspendLayout();
-			this.tabCorrectionUtility.SuspendLayout();
-			this.frmResumtion.SuspendLayout();
-			this.frmLeave.SuspendLayout();
-			this.frmEmployee.SuspendLayout();
+			//this.frmoption.SuspendLayout();
+			//this.tabCorrectionUtility.SuspendLayout();
+			//this.frmResumtion.SuspendLayout();
+			//this.frmLeave.SuspendLayout();
+			//this.frmEmployee.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Label1_0
@@ -281,13 +281,13 @@ namespace Xtreme
 			// this.txtResumtionTransNo.bolNumericOnly = true;
 			this.txtResumtionTransNo.ForeColor = System.Drawing.Color.Black;
 			this.txtResumtionTransNo.Location = new System.Drawing.Point(115, 16);
-			// this.txtResumtionTransNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtResumtionTransNo.Name = "txtResumtionTransNo";
 			// this.txtResumtionTransNo.ShowButton = true;
 			this.txtResumtionTransNo.Size = new System.Drawing.Size(97, 19);
 			this.txtResumtionTransNo.TabIndex = 9;
 			this.txtResumtionTransNo.Text = "";
-			// this.this.txtResumtionTransNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtResumtionTransNo_DropButtonClick);
+			// this.//this.txtResumtionTransNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtResumtionTransNo_DropButtonClick);
 			// this.txtResumtionTransNo.Leave += new System.EventHandler(this.txtResumtionTransNo_Leave);
 			// 
 			// txtGrantDays
@@ -309,7 +309,7 @@ namespace Xtreme
 			this.Label2.Text = "Encashment Days";
 			this.Label2.Location = new System.Drawing.Point(8, 90);
 			// this.Label2.mLabelId = 2145;
-			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(87, 14);
 			this.Label2.TabIndex = 21;
 			// 
@@ -453,13 +453,13 @@ namespace Xtreme
 			// this.txtLeaveTransNo.bolNumericOnly = true;
 			this.txtLeaveTransNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLeaveTransNo.Location = new System.Drawing.Point(110, 24);
-			// this.txtLeaveTransNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtLeaveTransNo.Name = "txtLeaveTransNo";
 			// this.txtLeaveTransNo.ShowButton = true;
 			this.txtLeaveTransNo.Size = new System.Drawing.Size(102, 19);
 			this.txtLeaveTransNo.TabIndex = 8;
 			this.txtLeaveTransNo.Text = "";
-			// this.this.txtLeaveTransNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtLeaveTransNo_DropButtonClick);
+			// this.//this.txtLeaveTransNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtLeaveTransNo_DropButtonClick);
 			// this.txtLeaveTransNo.Leave += new System.EventHandler(this.txtLeaveTransNo_Leave);
 			// 
 			// _lblCommonLabel_5
@@ -556,13 +556,13 @@ namespace Xtreme
 			this.txtEmployeeNo.ForeColor = System.Drawing.Color.Black;
 			this.txtEmployeeNo.Location = new System.Drawing.Point(92, 72);
 			this.txtEmployeeNo.MaxLength = 20;
-			// this.txtEmployeeNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtEmployeeNo.Name = "txtEmployeeNo";
 			// this.txtEmployeeNo.ShowButton = true;
 			this.txtEmployeeNo.Size = new System.Drawing.Size(102, 19);
 			this.txtEmployeeNo.TabIndex = 0;
 			this.txtEmployeeNo.Text = "";
-			// this.this.txtEmployeeNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtEmployeeNo_DropButtonClick);
+			// this.//this.txtEmployeeNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtEmployeeNo_DropButtonClick);
 			// this.txtEmployeeNo.Leave += new System.EventHandler(this.txtEmployeeNo_Leave);
 			// 
 			// _txtDisplayLabel_1
@@ -650,7 +650,7 @@ namespace Xtreme
 			this.lblCommon[109] = _lblCommon_109;
 			this.lblCommon[113] = _lblCommon_113;
 		}
-		void InitializeSystem.Windows.Forms.Label1()
+		void InitializeSystemWindowsFormsLabel1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[2];
 			this.Label1[0] = Label1_0;

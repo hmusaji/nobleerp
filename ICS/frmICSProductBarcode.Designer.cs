@@ -73,8 +73,8 @@ namespace Xtreme
 			this.txtProductName = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMasterDetails).BeginInit();
-			this.cntMasterDetails.SuspendLayout();
-			this.cmbCommon.SuspendLayout();
+			//this.cntMasterDetails.SuspendLayout();
+			//this.cmbCommon.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMasterDetails

@@ -73,7 +73,7 @@ namespace Xtreme
 			this.lblComments = new System.Windows.Forms.Label();
 			this.lblNatNo = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
-			this.cntMainParameter.SuspendLayout();
+			//this.cntMainParameter.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// cntMainParameter
@@ -117,13 +117,13 @@ namespace Xtreme
 			this.txtNatNo.ForeColor = System.Drawing.Color.Black;
 			this.txtNatNo.Location = new System.Drawing.Point(146, 12);
 			this.txtNatNo.MaxLength = 15;
-			// this.txtNatNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtNatNo.Name = "txtNatNo";
 			// this.txtNatNo.ShowButton = true;
 			this.txtNatNo.Size = new System.Drawing.Size(101, 19);
 			this.txtNatNo.TabIndex = 0;
 			this.txtNatNo.Text = "";
-			// this.this.txtNatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtNatNo_DropButtonClick);
+			// this.//this.txtNatNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(//this.txtNatNo_DropButtonClick);
 			// 
 			// lblLNatName
 			// 
@@ -165,7 +165,7 @@ namespace Xtreme
 			this.txtANatName.BackColor = System.Drawing.Color.White;
 			this.txtANatName.ForeColor = System.Drawing.Color.Black;
 			this.txtANatName.Location = new System.Drawing.Point(146, 54);
-			// this.txtANatName.mArabicEnabled = true;
+			// // = true;
 			this.txtANatName.MaxLength = 50;
 			this.txtANatName.Name = "txtANatName";
 			this.txtANatName.Size = new System.Drawing.Size(201, 19);

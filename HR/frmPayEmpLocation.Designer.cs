@@ -96,7 +96,7 @@ namespace Xtreme
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLocationNo.Location = new System.Drawing.Point(142, 57);
 			this.txtLocationNo.MaxLength = 15;
-			// this.txtLocationNo.mDropDownType = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
+			// // = System.Windows.Forms.TextBox.DropDownTypes.ddtNextNumber;
 			this.txtLocationNo.Name = "txtLocationNo";
 			// this.txtLocationNo.ShowButton = true;
 			this.txtLocationNo.Size = new System.Drawing.Size(101, 19);
@@ -154,7 +154,7 @@ namespace Xtreme
 			this.txtALocationName.BackColor = System.Drawing.Color.White;
 			this.txtALocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtALocationName.Location = new System.Drawing.Point(142, 99);
-			// this.txtALocationName.mArabicEnabled = true;
+			// // = true;
 			this.txtALocationName.MaxLength = 50;
 			this.txtALocationName.Name = "txtALocationName";
 			this.txtALocationName.Size = new System.Drawing.Size(294, 19);

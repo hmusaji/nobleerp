@@ -48,11 +48,11 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_0;
-		private AxSmartNetButtonProject.AxSmartNetButton _btnFormToolBar_1;
+		private System.Windows.Forms.Button _btnFormToolBar_0;
+		private System.Windows.Forms.Button _btnFormToolBar_1;
 		public System.Windows.Forms.PictureBox picFormToolbar;
 		public System.Windows.Forms.PictureBox ImgItem;
-		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[2];
+		public System.Windows.Forms.Button[] btnFormToolBar = new System.Windows.Forms.Button[2];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -66,13 +66,13 @@ namespace Xtreme
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.picFormToolbar = new System.Windows.Forms.PictureBox();
-			this._btnFormToolBar_0 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this._btnFormToolBar_1 = new AxSmartNetButtonProject.AxSmartNetButton();
+			this._btnFormToolBar_0 = new System.Windows.Forms.Button();
+			this._btnFormToolBar_1 = new System.Windows.Forms.Button();
 			this.ImgItem = new System.Windows.Forms.PictureBox();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_0).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_1).BeginInit();
-			this.grdVoucherDetails.SuspendLayout();
-			this.picFormToolbar.SuspendLayout();
+			//this.grdVoucherDetails.SuspendLayout();
+			//this.picFormToolbar.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// grdVoucherDetails
@@ -188,7 +188,7 @@ namespace Xtreme
 		// 
 		void InitializebtnFormToolBar()
 		{
-			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[2];
+			this.btnFormToolBar = new System.Windows.Forms.Button[2];
 			this.btnFormToolBar[0] = _btnFormToolBar_0;
 			this.btnFormToolBar[1] = _btnFormToolBar_1;
 		}
