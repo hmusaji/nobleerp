@@ -49,7 +49,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdPhone;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdPhone;
 		public System.Windows.Forms.TextBox txtDeductionCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtEmployeeCode;
 		public System.Windows.Forms.Label lblHolidayCode;
 		public System.Windows.Forms.Label txtDeductionCodeName;
@@ -67,7 +67,7 @@ namespace Xtreme
 			this.Column_0_grdPhone = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdPhone = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.txtDeductionCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtEmployeeCode = new System.Windows.Forms.TextBox();
 			this.lblHolidayCode = new System.Windows.Forms.Label();
 			this.txtDeductionCodeName = new System.Windows.Forms.Label();
@@ -119,14 +119,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Deduction Code";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 75);
-			this.System.Windows.Forms.Label1.mLabelId = 1997;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(76, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 2;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Deduction Code";
+			this.Label1.Location = new System.Drawing.Point(6, 75);
+			// this.Label1.mLabelId = 1997;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(76, 14);
+			this.Label1.TabIndex = 2;
 			// 
 			// txtEmployeeCode
 			// 
@@ -150,7 +150,7 @@ namespace Xtreme
 			this.lblHolidayCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblHolidayCode.Text = "Employee Code";
 			this.lblHolidayCode.Location = new System.Drawing.Point(6, 54);
-			// this.lblHolidayCode.mLabelId = 236;
+			// // this.lblHolidayCode.mLabelId = 236;
 			this.lblHolidayCode.Name = "lblHolidayCode";
 			this.lblHolidayCode.Size = new System.Drawing.Size(74, 14);
 			this.lblHolidayCode.TabIndex = 4;
@@ -185,7 +185,7 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(479, 457);
 			this.Controls.Add(this.grdPhone);
 			this.Controls.Add(this.txtDeductionCode);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtEmployeeCode);
 			this.Controls.Add(this.lblHolidayCode);
 			this.Controls.Add(this.txtDeductionCodeName);
@@ -218,4 +218,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

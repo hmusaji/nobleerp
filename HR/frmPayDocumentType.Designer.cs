@@ -79,7 +79,7 @@ namespace Xtreme
 			this.lblACategoryName.Text = "DocumentType (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.lblACategoryName.Location = new System.Drawing.Point(7, 101);
-			// this.lblACategoryName.mLabelId = 1815;
+			// // this.lblACategoryName.mLabelId = 1815;
 			this.lblACategoryName.Name = "lblACategoryName";
 			this.lblACategoryName.Size = new System.Drawing.Size(115, 14);
 			this.lblACategoryName.TabIndex = 6;
@@ -107,7 +107,7 @@ namespace Xtreme
 			this.lblCategoryNo.Text = "Document Type Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
 			this.lblCategoryNo.Location = new System.Drawing.Point(7, 59);
-			// this.lblCategoryNo.mLabelId = 1791;
+			// // this.lblCategoryNo.mLabelId = 1791;
 			this.lblCategoryNo.Name = "lblCategoryNo";
 			this.lblCategoryNo.Size = new System.Drawing.Size(103, 14);
 			this.lblCategoryNo.TabIndex = 4;
@@ -119,7 +119,7 @@ namespace Xtreme
 			this.lblLCategoryName.Text = "Document Type (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
 			this.lblLCategoryName.Location = new System.Drawing.Point(7, 80);
-			// this.lblLCategoryName.mLabelId = 1814;
+			// // this.lblLCategoryName.mLabelId = 1814;
 			this.lblLCategoryName.Name = "lblLCategoryName";
 			this.lblLCategoryName.Size = new System.Drawing.Size(120, 14);
 			this.lblLCategoryName.TabIndex = 5;
@@ -156,7 +156,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(7, 120);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(50, 14);
 			this.lblComments.TabIndex = 7;
@@ -216,4 +216,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

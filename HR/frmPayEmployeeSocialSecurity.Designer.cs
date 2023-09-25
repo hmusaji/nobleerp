@@ -55,9 +55,9 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.Label _lblCommonLabel_1;
 		public System.Windows.Forms.TextBox txtNAdditionSalary;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.LabelLabel12;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[3];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -78,9 +78,9 @@ namespace Xtreme
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_1 = new System.Windows.Forms.Label();
 			this.txtNAdditionSalary = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// chkIsGenerate
@@ -205,30 +205,30 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(6, 134);
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(91, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 10;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label4.Location = new System.Drawing.Point(6, 134);
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(91, 14);
+			this.Label4.TabIndex = 10;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(6, 155);
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(58, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 11;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5.Location = new System.Drawing.Point(6, 155);
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(58, 14);
+			this.Label5.TabIndex = 11;
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(6, 179);
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 12;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label12.Location = new System.Drawing.Point(6, 179);
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 12;
 			// 
 			// frmPayEmployeeSocialSecurity
 			// 
@@ -248,9 +248,9 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommonLabel_0);
 			this.Controls.Add(this._lblCommonLabel_1);
 			this.Controls.Add(this.txtNAdditionSalary);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
-			this.Controls.Add(this.System.Windows.Forms.Label5);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label4);
+			this.Controls.Add(this.Label5);
+			this.Controls.Add(this.Label12);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayEmployeeSocialSecurity.Icon");
 			this.KeyPreview = true;
@@ -286,4 +286,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

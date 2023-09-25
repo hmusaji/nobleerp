@@ -190,7 +190,7 @@ namespace Xtreme
 			this.txtDate.Size = new System.Drawing.Size(105, 19);
 			this.txtDate.TabIndex = 11;
 			this.txtDate.Text = "31-Oct-2011";
-			this.txtDate.Value = 40847;
+			// this.txtDate.Value = 40847;
 			this.txtDate.Visible = false;
 			// 
 			// lblDate
@@ -468,4 +468,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

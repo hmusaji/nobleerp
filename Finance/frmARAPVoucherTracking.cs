@@ -22,6 +22,6 @@ namespace Xtreme
 		public frmARAPVoucherTracking()
 {
 InitializeComponent();
-} 
-	}
+}
+}
 }

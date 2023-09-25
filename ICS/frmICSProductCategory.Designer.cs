@@ -57,7 +57,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtParentCatNo;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.TextBox txtShortName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -79,7 +79,7 @@ namespace Xtreme
 			this.txtParentCatNo = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();
 			this.txtShortName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// lblACategoryName
@@ -89,7 +89,7 @@ namespace Xtreme
 			this.lblACategoryName.Text = "Category Name (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.lblACategoryName.Location = new System.Drawing.Point(10, 64);
-			// this.lblACategoryName.mLabelId = 955;
+			// // this.lblACategoryName.mLabelId = 955;
 			this.lblACategoryName.Name = "lblACategoryName";
 			this.lblACategoryName.Size = new System.Drawing.Size(117, 14);
 			this.lblACategoryName.TabIndex = 4;
@@ -134,7 +134,7 @@ namespace Xtreme
 			this.lblCategoryNo.Text = "Category Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
 			this.lblCategoryNo.Location = new System.Drawing.Point(9, 23);
-			// this.lblCategoryNo.mLabelId = 116;
+			// // this.lblCategoryNo.mLabelId = 116;
 			this.lblCategoryNo.Name = "lblCategoryNo";
 			this.lblCategoryNo.Size = new System.Drawing.Size(72, 14);
 			this.lblCategoryNo.TabIndex = 0;
@@ -146,7 +146,7 @@ namespace Xtreme
 			this.lblLCategoryName.Text = "Category Name (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
 			this.lblLCategoryName.Location = new System.Drawing.Point(9, 44);
-			// this.lblLCategoryName.mLabelId = 117;
+			// // this.lblLCategoryName.mLabelId = 117;
 			this.lblLCategoryName.Name = "lblLCategoryName";
 			this.lblLCategoryName.Size = new System.Drawing.Size(119, 14);
 			this.lblLCategoryName.TabIndex = 2;
@@ -199,7 +199,7 @@ namespace Xtreme
 			this.lblParentCategory.Text = "Parent Category Code";
 			this.lblParentCategory.ForeColor = System.Drawing.Color.Black;
 			this.lblParentCategory.Location = new System.Drawing.Point(9, 110);
-			// this.lblParentCategory.mLabelId = 500;
+			// // this.lblParentCategory.mLabelId = 500;
 			this.lblParentCategory.Name = "lblParentCategory";
 			this.lblParentCategory.Size = new System.Drawing.Size(106, 14);
 			this.lblParentCategory.TabIndex = 7;
@@ -228,7 +228,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(9, 129);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 10;
@@ -249,15 +249,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Short Name";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(10, 88);
-			this.System.Windows.Forms.Label1.mLabelId = 709;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(56, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 12;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Short Name";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(10, 88);
+			// this.Label1.mLabelId = 709;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(56, 14);
+			this.Label1.TabIndex = 12;
 			// 
 			// frmICSProductCategory
 			// 
@@ -279,7 +279,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtParentCatNo);
 			this.Controls.Add(this.lblComments);
 			this.Controls.Add(this.txtShortName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmICSProductCategory.Icon");
 			this.KeyPreview = true;
@@ -307,4 +307,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

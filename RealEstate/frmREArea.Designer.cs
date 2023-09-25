@@ -49,7 +49,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
+		public System.Windows.Forms.LabelLabel4;
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[3];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -65,7 +65,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentNo = new System.Windows.Forms.Label();
 			this._txtCommon_0 = new System.Windows.Forms.TextBox();
 			this._txtCommon_1 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
 			this._txtCommon_2 = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.lblAssetsCode.Text = "Area Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsCode.Location = new System.Drawing.Point(8, 80);
-			// this.lblAssetsCode.mLabelId = 1149;
+			// // this.lblAssetsCode.mLabelId = 1149;
 			this.lblAssetsCode.Name = "lblAssetsCode";
 			this.lblAssetsCode.Size = new System.Drawing.Size(96, 13);
 			this.lblAssetsCode.TabIndex = 3;
@@ -88,7 +88,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentNo.Text = "Area Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentNo.Location = new System.Drawing.Point(8, 59);
-			// this.lblAssetsAdjustmentNo.mLabelId = 1148;
+			// // this.lblAssetsAdjustmentNo.mLabelId = 1148;
 			this.lblAssetsAdjustmentNo.Name = "lblAssetsAdjustmentNo";
 			this.lblAssetsAdjustmentNo.Size = new System.Drawing.Size(50, 13);
 			this.lblAssetsAdjustmentNo.TabIndex = 4;
@@ -125,15 +125,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label4.Caption = "Area Name (Arabic)";
-			this.System.Windows.Forms.Label4.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(8, 101);
-			this.System.Windows.Forms.Label4.mLabelId = 1150;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(92, 13);
-			this.System.Windows.Forms.Label4.TabIndex = 5;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label4.Text = "Area Name (Arabic)";
+			this.Label4.ForeColor = System.Drawing.Color.Black;
+			this.Label4.Location = new System.Drawing.Point(8, 101);
+			// this.Label4.mLabelId = 1150;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(92, 13);
+			this.Label4.TabIndex = 5;
 			// 
 			// _txtCommon_2
 			// 
@@ -162,7 +162,7 @@ namespace Xtreme
 			this.Controls.Add(this.lblAssetsAdjustmentNo);
 			this.Controls.Add(this._txtCommon_0);
 			this.Controls.Add(this._txtCommon_1);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
+			this.Controls.Add(this.Label4);
 			this.Controls.Add(this._txtCommon_2);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmREArea.Icon");
 			this.KeyPreview = true;
@@ -198,4 +198,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

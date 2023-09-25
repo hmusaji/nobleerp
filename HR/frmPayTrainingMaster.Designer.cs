@@ -109,7 +109,7 @@ namespace Xtreme
 			this.lblLReligionName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLReligionName.Text = "Training Name (English)";
 			this.lblLReligionName.Location = new System.Drawing.Point(26, 71);
-			// this.lblLReligionName.mLabelId = 1999;
+			// // this.lblLReligionName.mLabelId = 1999;
 			this.lblLReligionName.Name = "lblLReligionName";
 			this.lblLReligionName.Size = new System.Drawing.Size(113, 14);
 			this.lblLReligionName.TabIndex = 2;
@@ -132,7 +132,7 @@ namespace Xtreme
 			this.lblAReligionName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAReligionName.Text = "Training Name (Arabic)";
 			this.lblAReligionName.Location = new System.Drawing.Point(26, 92);
-			// this.lblAReligionName.mLabelId = 2000;
+			// // this.lblAReligionName.mLabelId = 2000;
 			this.lblAReligionName.Name = "lblAReligionName";
 			this.lblAReligionName.Size = new System.Drawing.Size(111, 14);
 			this.lblAReligionName.TabIndex = 4;
@@ -156,7 +156,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(26, 112);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 6;
@@ -167,7 +167,7 @@ namespace Xtreme
 			this.lblReligionNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblReligionNo.Text = "Training Code";
 			this.lblReligionNo.Location = new System.Drawing.Point(26, 50);
-			// this.lblReligionNo.mLabelId = 1998;
+			// // this.lblReligionNo.mLabelId = 1998;
 			this.lblReligionNo.Name = "lblReligionNo";
 			this.lblReligionNo.Size = new System.Drawing.Size(66, 14);
 			this.lblReligionNo.TabIndex = 7;
@@ -215,4 +215,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

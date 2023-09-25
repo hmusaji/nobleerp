@@ -734,7 +734,7 @@ namespace Xtreme
 			this._txtCommonDate_0.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_0.TabIndex = 4;
 			this._txtCommonDate_0.Text = "7/18/2001";
-			this._txtCommonDate_0.Value = 37090;
+			// this._txtCommonDate_0.Value = 37090;
 			// this.this._txtCommonDate_0.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtCommonDate_Change);
 			// 
 			// _txtCommonDate_1
@@ -750,7 +750,7 @@ namespace Xtreme
 			this._txtCommonDate_1.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_1.TabIndex = 21;
 			this._txtCommonDate_1.Text = "7/18/2001";
-			this._txtCommonDate_1.Value = 37090;
+			// this._txtCommonDate_1.Value = 37090;
 			// this.this._txtCommonDate_1.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtCommonDate_Change);
 			// 
 			// _txtCommonDate_2
@@ -766,7 +766,7 @@ namespace Xtreme
 			this._txtCommonDate_2.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_2.TabIndex = 22;
 			this._txtCommonDate_2.Text = "7/18/2001";
-			this._txtCommonDate_2.Value = 37090;
+			// this._txtCommonDate_2.Value = 37090;
 			// this.this._txtCommonDate_2.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtCommonDate_Change);
 			// 
 			// _txtCommonDate_3
@@ -782,7 +782,7 @@ namespace Xtreme
 			this._txtCommonDate_3.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_3.TabIndex = 23;
 			this._txtCommonDate_3.Text = "7/18/2001";
-			this._txtCommonDate_3.Value = 37090;
+			// this._txtCommonDate_3.Value = 37090;
 			// this.this._txtCommonDate_3.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtCommonDate_Change);
 			// 
 			// _lblCommon_12
@@ -809,7 +809,7 @@ namespace Xtreme
 			this._txtCommonDate_4.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_4.TabIndex = 24;
 			this._txtCommonDate_4.Text = "7/18/2001";
-			this._txtCommonDate_4.Value = 37090;
+			// this._txtCommonDate_4.Value = 37090;
 			// this.this._txtCommonDate_4.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtCommonDate_Change);
 			// 
 			// _txtCommon_1
@@ -1046,4 +1046,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

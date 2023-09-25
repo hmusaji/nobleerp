@@ -110,7 +110,7 @@ namespace Xtreme
 			this.lblDesgNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDesgNo.Text = "Job Type No";
 			this.lblDesgNo.Location = new System.Drawing.Point(9, 56);
-			// this.lblDesgNo.mLabelId = 2225;
+			// // this.lblDesgNo.mLabelId = 2225;
 			this.lblDesgNo.Name = "lblDesgNo";
 			this.lblDesgNo.Size = new System.Drawing.Size(60, 14);
 			this.lblDesgNo.TabIndex = 2;
@@ -121,7 +121,7 @@ namespace Xtreme
 			this.lblLDesgName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLDesgName.Text = "JobType Name(ENG)";
 			this.lblLDesgName.Location = new System.Drawing.Point(9, 78);
-			// this.lblLDesgName.mLabelId = 2230;
+			// // this.lblLDesgName.mLabelId = 2230;
 			this.lblLDesgName.Name = "lblLDesgName";
 			this.lblLDesgName.Size = new System.Drawing.Size(100, 14);
 			this.lblLDesgName.TabIndex = 3;
@@ -145,7 +145,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "JobType Name(ARB)";
 			this.lblAGroupName.Location = new System.Drawing.Point(9, 99);
-			// this.lblAGroupName.mLabelId = 2231;
+			// // this.lblAGroupName.mLabelId = 2231;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(101, 14);
 			this.lblAGroupName.TabIndex = 5;
@@ -170,7 +170,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 118);
-			// this.lblComments.mLabelId = 2232;
+			// // this.lblComments.mLabelId = 2232;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(50, 14);
 			this.lblComments.TabIndex = 7;
@@ -218,4 +218,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

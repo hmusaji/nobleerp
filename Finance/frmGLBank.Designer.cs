@@ -54,7 +54,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblNatNo;
 		public System.Windows.Forms.TextBox txtAccountNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -73,7 +73,7 @@ namespace Xtreme
 			this.lblComments = new System.Windows.Forms.Label();
 			this.lblNatNo = new System.Windows.Forms.Label();
 			this.txtAccountNo = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// txtComment
@@ -115,7 +115,7 @@ namespace Xtreme
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Bank Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(20, 82);
-			// this.lblLNatName.mLabelId = 1153;
+			// // this.lblLNatName.mLabelId = 1153;
 			this.lblLNatName.Name = "lblLNatName";
 			this.lblLNatName.Size = new System.Drawing.Size(99, 14);
 			this.lblLNatName.TabIndex = 2;
@@ -139,7 +139,7 @@ namespace Xtreme
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Bank Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(20, 103);
-			// this.lblANatName.mLabelId = 1154;
+			// // this.lblANatName.mLabelId = 1154;
 			this.lblANatName.Name = "lblANatName";
 			this.lblANatName.Size = new System.Drawing.Size(97, 14);
 			this.lblANatName.TabIndex = 4;
@@ -164,7 +164,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(20, 122);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 6;
@@ -175,7 +175,7 @@ namespace Xtreme
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Bank Code";
 			this.lblNatNo.Location = new System.Drawing.Point(20, 40);
-			// this.lblNatNo.mLabelId = 1151;
+			// // this.lblNatNo.mLabelId = 1151;
 			this.lblNatNo.Name = "lblNatNo";
 			this.lblNatNo.Size = new System.Drawing.Size(52, 14);
 			this.lblNatNo.TabIndex = 7;
@@ -196,14 +196,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Account No.";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(20, 61);
-			this.System.Windows.Forms.Label1.mLabelId = 1978;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(60, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 9;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Account No.";
+			this.Label1.Location = new System.Drawing.Point(20, 61);
+			// this.Label1.mLabelId = 1978;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(60, 14);
+			this.Label1.TabIndex = 9;
 			// 
 			// frmGLBank
 			// 
@@ -222,7 +222,7 @@ namespace Xtreme
 			this.Controls.Add(this.lblComments);
 			this.Controls.Add(this.lblNatNo);
 			this.Controls.Add(this.txtAccountNo);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLBank.Icon");
 			this.KeyPreview = true;
@@ -250,4 +250,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

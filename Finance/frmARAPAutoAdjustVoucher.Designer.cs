@@ -133,7 +133,7 @@ namespace Xtreme
 			this.lblDateRange.Text = "  Date Range ";
 			this.lblDateRange.ForeColor = System.Drawing.Color.Black;
 			this.lblDateRange.Location = new System.Drawing.Point(18, 66);
-			// this.lblDateRange.mLabelId = 949;
+			// // this.lblDateRange.mLabelId = 949;
 			this.lblDateRange.Name = "lblDateRange";
 			this.lblDateRange.Size = new System.Drawing.Size(61, 13);
 			this.lblDateRange.TabIndex = 7;
@@ -176,7 +176,7 @@ namespace Xtreme
 			this.txtAsOnDate.Size = new System.Drawing.Size(96, 19);
 			this.txtAsOnDate.TabIndex = 1;
 			this.txtAsOnDate.Text = "7/18/2001";
-			this.txtAsOnDate.Value = 37090;
+			// this.txtAsOnDate.Value = 37090;
 			// 
 			// txtGroupType
 			// 
@@ -251,4 +251,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

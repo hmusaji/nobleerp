@@ -54,10 +54,10 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblFromEmp;
 		public System.Windows.Forms.Label lblToEmp;
 		public System.Windows.Forms.TextBox txtToEmp;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Label txtFrmEmpCodeName;
 		public System.Windows.Forms.Label txtToEmpCodeName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtMonth;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -77,10 +77,10 @@ namespace Xtreme
 			this.lblFromEmp = new System.Windows.Forms.Label();
 			this.lblToEmp = new System.Windows.Forms.Label();
 			this.txtToEmp = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtFrmEmpCodeName = new System.Windows.Forms.Label();
 			this.txtToEmpCodeName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtMonth = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.SuspendLayout();
 			// 
@@ -186,7 +186,7 @@ namespace Xtreme
 			this.lblFromEmp.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblFromEmp.Text = "From Employee";
 			this.lblFromEmp.Location = new System.Drawing.Point(4, 44);
-			// this.lblFromEmp.mLabelId = 1914;
+			// // this.lblFromEmp.mLabelId = 1914;
 			this.lblFromEmp.Name = "lblFromEmp";
 			this.lblFromEmp.Size = new System.Drawing.Size(73, 14);
 			this.lblFromEmp.TabIndex = 0;
@@ -197,7 +197,7 @@ namespace Xtreme
 			this.lblToEmp.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblToEmp.Text = "To Employee";
 			this.lblToEmp.Location = new System.Drawing.Point(4, 65);
-			// this.lblToEmp.mLabelId = 1915;
+			// // this.lblToEmp.mLabelId = 1915;
 			this.lblToEmp.Name = "lblToEmp";
 			this.lblToEmp.Size = new System.Drawing.Size(61, 14);
 			this.lblToEmp.TabIndex = 7;
@@ -220,14 +220,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Month";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(4, 88);
-			this.System.Windows.Forms.Label1.mLabelId = 1145;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(29, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 8;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Month";
+			this.Label1.Location = new System.Drawing.Point(4, 88);
+			// this.Label1.mLabelId = 1145;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(29, 14);
+			this.Label1.TabIndex = 8;
 			// 
 			// txtFrmEmpCodeName
 			// 
@@ -251,13 +251,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Employee Complete";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(4, 110);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(93, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 11;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Employee Complete";
+			this.Label2.Location = new System.Drawing.Point(4, 110);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(93, 14);
+			this.Label2.TabIndex = 11;
 			// 
 			// txtMonth
 			// 
@@ -271,7 +271,7 @@ namespace Xtreme
 			this.txtMonth.Size = new System.Drawing.Size(121, 19);
 			this.txtMonth.TabIndex = 13;
 			this.txtMonth.Text = "06/04/2003";
-			this.txtMonth.Value = 37717;
+			// this.txtMonth.Value = 37717;
 			// 
 			// frmPayEmailPS
 			// 
@@ -290,10 +290,10 @@ namespace Xtreme
 			this.Controls.Add(this.lblFromEmp);
 			this.Controls.Add(this.lblToEmp);
 			this.Controls.Add(this.txtToEmp);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtFrmEmpCodeName);
 			this.Controls.Add(this.txtToEmpCodeName);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.txtMonth);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayEmailPS.Icon");
@@ -322,4 +322,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

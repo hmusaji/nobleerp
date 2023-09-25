@@ -109,7 +109,7 @@ namespace Xtreme
 			this.lblDesgNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDesgNo.Text = "Location No";
 			this.lblDesgNo.Location = new System.Drawing.Point(6, 59);
-			// this.lblDesgNo.mLabelId = 2233;
+			// // this.lblDesgNo.mLabelId = 2233;
 			this.lblDesgNo.Name = "lblDesgNo";
 			this.lblDesgNo.Size = new System.Drawing.Size(57, 14);
 			this.lblDesgNo.TabIndex = 2;
@@ -120,7 +120,7 @@ namespace Xtreme
 			this.lblLDesgName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLDesgName.Text = "Location Name(Eng)";
 			this.lblLDesgName.Location = new System.Drawing.Point(6, 81);
-			// this.lblLDesgName.mLabelId = 2234;
+			// // this.lblLDesgName.mLabelId = 2234;
 			this.lblLDesgName.Name = "lblLDesgName";
 			this.lblLDesgName.Size = new System.Drawing.Size(97, 14);
 			this.lblLDesgName.TabIndex = 3;
@@ -143,7 +143,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Location Name(Arb)";
 			this.lblAGroupName.Location = new System.Drawing.Point(6, 102);
-			// this.lblAGroupName.mLabelId = 2235;
+			// // this.lblAGroupName.mLabelId = 2235;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(97, 14);
 			this.lblAGroupName.TabIndex = 5;
@@ -167,7 +167,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(6, 121);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(50, 14);
 			this.lblComments.TabIndex = 7;
@@ -215,4 +215,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

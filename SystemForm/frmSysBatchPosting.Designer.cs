@@ -33,7 +33,7 @@ namespace Xtreme
 			
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_cmdNav_4", "_cmdNav_3", "_cmdNav_2", "_cmdNav_1", "_Line1_0", "picNav", "_chkCommonPost_0", "_chkCommonPost_1", "_chkCommonPost_2", "_chkCommonPost_3", "_chkCommonPost_4", "_chkCommonPost_5", "AdvanceOptionFrame", "cmdDefaultSetting", "_imgStep_3", "_lblStep_3", "_fraStep_2", "txtToVoucherNo", "txtFromVoucherNo", "_lblCommon_5", "_lblCommon_4", "VoucherRange", "_lblCommon_3", "_lblCommon_2", "txtFromDate", "txtToDate", "DateRangeFrame", "_lblStep_0", "_imgStep_0", "_fraStep_1", "_chkCommonInclude_1", "_chkCommonInclude_0", "cmbVoucherTypes", "cmbLocation", "System.Windows.Forms.Label2", "_System.Windows.Forms.Label1_0", "Label2", "Label1", "VoucherFrame", "cmbModule", "_System.Windows.Forms.Label1_1", "Frame1", "_lblStep_1", "_imgStep_1", "_fraStep_0", "ProgressBar1", "_Label3_0", "_lblStep_2", "_imgStep_2", "_fraStep_3", "Label3", "Line1", "System.Windows.Forms.Label1", "chkCommonInclude", "chkCommonPost", "cmdNav", "fraStep", "imgStep", "lblCommon", "lblStep", "commandButtonHelper1"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_cmdNav_4", "_cmdNav_3", "_cmdNav_2", "_cmdNav_1", "_Line1_0", "picNav", "_chkCommonPost_0", "_chkCommonPost_1", "_chkCommonPost_2", "_chkCommonPost_3", "_chkCommonPost_4", "_chkCommonPost_5", "AdvanceOptionFrame", "cmdDefaultSetting", "_imgStep_3", "_lblStep_3", "_fraStep_2", "txtToVoucherNo", "txtFromVoucherNo", "_lblCommon_5", "_lblCommon_4", "VoucherRange", "_lblCommon_3", "_lblCommon_2", "txtFromDate", "txtToDate", "DateRangeFrame", "_lblStep_0", "_imgStep_0", "_fraStep_1", "_chkCommonInclude_1", "_chkCommonInclude_0", "cmbVoucherTypes", "cmbLocation", "System.Windows.Forms.Label2", "Label1_0", "Label2", "Label1", "VoucherFrame", "cmbModule", "Label1_1", "Frame1", "_lblStep_1", "_imgStep_1", "_fraStep_0", "ProgressBar1", "_Label3_0", "_lblStep_2", "_imgStep_2", "_fraStep_3", "Label3", "Line1", "System.Windows.Forms.Label1", "chkCommonInclude", "chkCommonPost", "cmdNav", "fraStep", "imgStep", "lblCommon", "lblStep", "commandButtonHelper1"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -71,13 +71,13 @@ namespace Xtreme
 		private System.Windows.Forms.CheckBox _chkCommonInclude_0;
 		public System.Windows.Forms.ComboBox cmbVoucherTypes;
 		public System.Windows.Forms.ComboBox cmbLocation;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_0;
+		public System.Windows.Forms.LabelLabel2;
+		private System.Windows.Forms.Label Label1_0;
 		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.GroupBox VoucherFrame;
 		public System.Windows.Forms.ComboBox cmbModule;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_1;
+		private System.Windows.Forms.Label Label1_1;
 		public System.Windows.Forms.GroupBox Frame1;
 		private System.Windows.Forms.Label _lblStep_1;
 		private System.Windows.Forms.PictureBox _imgStep_1;
@@ -89,7 +89,7 @@ namespace Xtreme
 		private System.Windows.Forms.Panel _fraStep_3;
 		public System.Windows.Forms.Label[] Label3 = new System.Windows.Forms.Label[1];
 		public System.Windows.Forms.Label[] Line1 = new System.Windows.Forms.Label[1];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[2];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[2];
 		public System.Windows.Forms.CheckBox[] chkCommonInclude = new System.Windows.Forms.CheckBox[2];
 		public System.Windows.Forms.CheckBox[] chkCommonPost = new System.Windows.Forms.CheckBox[6];
 		public System.Windows.Forms.Button[] cmdNav = new System.Windows.Forms.Button[5];
@@ -143,13 +143,13 @@ namespace Xtreme
 			this._chkCommonInclude_0 = new System.Windows.Forms.CheckBox();
 			this.cmbVoucherTypes = new System.Windows.Forms.ComboBox();
 			this.cmbLocation = new System.Windows.Forms.ComboBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label1_0 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label1_0 = new System.Windows.Forms.Label();
 			this.Label2 = new System.Windows.Forms.Label();
 			this.Label1 = new System.Windows.Forms.Label();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.cmbModule = new System.Windows.Forms.ComboBox();
-			this._System.Windows.Forms.Label1_1 = new System.Windows.Forms.Label();
+			this.Label1_1 = new System.Windows.Forms.Label();
 			this._lblStep_1 = new System.Windows.Forms.Label();
 			this._imgStep_1 = new System.Windows.Forms.PictureBox();
 			this._fraStep_3 = new System.Windows.Forms.Panel();
@@ -613,7 +613,7 @@ namespace Xtreme
 			this.txtFromDate.Size = new System.Drawing.Size(101, 19);
 			this.txtFromDate.TabIndex = 26;
 			this.txtFromDate.Text = "07/18/2001";
-			this.txtFromDate.Value = 37090;
+			// this.txtFromDate.Value = 37090;
 			// 
 			// txtToDate
 			// 
@@ -626,7 +626,7 @@ namespace Xtreme
 			this.txtToDate.Size = new System.Drawing.Size(101, 19);
 			this.txtToDate.TabIndex = 27;
 			this.txtToDate.Text = "07/18/2001";
-			this.txtToDate.Value = 37090;
+			// this.txtToDate.Value = 37090;
 			// 
 			// _lblStep_0
 			// 
@@ -683,8 +683,8 @@ namespace Xtreme
 			this.VoucherFrame.Controls.Add(this._chkCommonInclude_0);
 			this.VoucherFrame.Controls.Add(this.cmbVoucherTypes);
 			this.VoucherFrame.Controls.Add(this.cmbLocation);
-			this.VoucherFrame.Controls.Add(this.System.Windows.Forms.Label2);
-			this.VoucherFrame.Controls.Add(this._System.Windows.Forms.Label1_0);
+			this.VoucherFrame.Controls.Add(this.Label2);
+			this.VoucherFrame.Controls.Add(this.Label1_0);
 			this.VoucherFrame.Controls.Add(this.Label2);
 			this.VoucherFrame.Controls.Add(this.Label1);
 			this.VoucherFrame.Enabled = false;
@@ -755,23 +755,23 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Select Location";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(10, 72);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(74, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 16;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Select Location";
+			this.Label2.Location = new System.Drawing.Point(10, 72);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(74, 13);
+			this.Label2.TabIndex = 16;
 			// 
-			// _System.Windows.Forms.Label1_0
+			// Label1_0
 			// 
-			this._System.Windows.Forms.Label1_0.AllowDrop = true;
-			this._System.Windows.Forms.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_0.Caption = "Select Transaction Type";
-			this._System.Windows.Forms.Label1_0.Location = new System.Drawing.Point(10, 22);
-			this._System.Windows.Forms.Label1_0.Name = "_System.Windows.Forms.Label1_0";
-			this._System.Windows.Forms.Label1_0.Size = new System.Drawing.Size(116, 13);
-			this._System.Windows.Forms.Label1_0.TabIndex = 17;
+			this.Label1_0.AllowDrop = true;
+			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_0.Text = "Select Transaction Type";
+			this.Label1_0.Location = new System.Drawing.Point(10, 22);
+			this.Label1_0.Name = "Label1_0";
+			this.Label1_0.Size = new System.Drawing.Size(116, 13);
+			this.Label1_0.TabIndex = 17;
 			// 
 			// Label2
 			// 
@@ -804,7 +804,7 @@ namespace Xtreme
 			this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this.cmbModule);
-			this.Frame1.Controls.Add(this._System.Windows.Forms.Label1_1);
+			this.Frame1.Controls.Add(this.Label1_1);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Frame1.Location = new System.Drawing.Point(174, 56);
@@ -824,15 +824,15 @@ namespace Xtreme
 			this.cmbModule.TabIndex = 9;
 			// this.cmbModule.Click += new System.Windows.Forms.ComboBox.ClickHandler(this.cmbModule_Click);
 			// 
-			// _System.Windows.Forms.Label1_1
+			// Label1_1
 			// 
-			this._System.Windows.Forms.Label1_1.AllowDrop = true;
-			this._System.Windows.Forms.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_1.Caption = "Select Module";
-			this._System.Windows.Forms.Label1_1.Location = new System.Drawing.Point(10, 18);
-			this._System.Windows.Forms.Label1_1.Name = "_System.Windows.Forms.Label1_1";
-			this._System.Windows.Forms.Label1_1.Size = new System.Drawing.Size(73, 13);
-			this._System.Windows.Forms.Label1_1.TabIndex = 10;
+			this.Label1_1.AllowDrop = true;
+			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_1.Text = "Select Module";
+			this.Label1_1.Location = new System.Drawing.Point(10, 18);
+			this.Label1_1.Name = "Label1_1";
+			this.Label1_1.Size = new System.Drawing.Size(73, 13);
+			this.Label1_1.TabIndex = 10;
 			// 
 			// _lblStep_1
 			// 
@@ -1039,9 +1039,9 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[2];
-			this.System.Windows.Forms.Label1[0] = _System.Windows.Forms.Label1_0;
-			this.System.Windows.Forms.Label1[1] = _System.Windows.Forms.Label1_1;
+			this.Label1 = new System.Windows.Forms.Label[2];
+			this.Label1[0] = Label1_0;
+			this.Label1[1] = Label1_1;
 		}
 		void InitializeLine1()
 		{
@@ -1055,4 +1055,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

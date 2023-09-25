@@ -51,7 +51,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtPenaltyNo;
 		public System.Windows.Forms.TextBox txtLPenaltyName;
 		public System.Windows.Forms.TextBox txtAPenaltyName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtBillNo;
 		public System.Windows.Forms.Label txtBillCdName;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdPenaltySetup;
@@ -60,7 +60,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblSystemComponents;
 		public System.Windows.Forms.TextBox txtPenaltyGroupCd;
 		public System.Windows.Forms.Label txtDlblPenaltyGroupName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.Label Line1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -77,7 +77,7 @@ namespace Xtreme
 			this.txtPenaltyNo = new System.Windows.Forms.TextBox();
 			this.txtLPenaltyName = new System.Windows.Forms.TextBox();
 			this.txtAPenaltyName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtBillNo = new System.Windows.Forms.TextBox();
 			this.txtBillCdName = new System.Windows.Forms.Label();
 			this.grdPenaltySetup = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -86,7 +86,7 @@ namespace Xtreme
 			this.lblSystemComponents = new System.Windows.Forms.Label();
 			this.txtPenaltyGroupCd = new System.Windows.Forms.TextBox();
 			this.txtDlblPenaltyGroupName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.grdPenaltySetup.SuspendLayout();
 			this.SuspendLayout();
@@ -97,7 +97,7 @@ namespace Xtreme
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Penalty Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(8, 57);
-			// this.lblGroupNo.mLabelId = 2056;
+			// // this.lblGroupNo.mLabelId = 2056;
 			this.lblGroupNo.Name = "lblGroupNo";
 			this.lblGroupNo.Size = new System.Drawing.Size(63, 14);
 			this.lblGroupNo.TabIndex = 0;
@@ -108,7 +108,7 @@ namespace Xtreme
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Penalty Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(8, 78);
-			// this.lblLGroupName.mLabelId = 2057;
+			// // this.lblLGroupName.mLabelId = 2057;
 			this.lblLGroupName.Name = "lblLGroupName";
 			this.lblLGroupName.Size = new System.Drawing.Size(110, 14);
 			this.lblLGroupName.TabIndex = 7;
@@ -119,7 +119,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Penalty Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(8, 99);
-			// this.lblAGroupName.mLabelId = 2058;
+			// // this.lblAGroupName.mLabelId = 2058;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(108, 14);
 			this.lblAGroupName.TabIndex = 8;
@@ -167,14 +167,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Bill Code";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 144);
-			this.System.Windows.Forms.Label1.mLabelId = 1041;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(41, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 9;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Bill Code";
+			this.Label1.Location = new System.Drawing.Point(8, 144);
+			// this.Label1.mLabelId = 1041;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(41, 14);
+			this.Label1.TabIndex = 9;
 			// 
 			// txtBillNo
 			// 
@@ -266,13 +266,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Penalty Group Code";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(9, 120);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(96, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 13;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Penalty Group Code";
+			this.Label2.Location = new System.Drawing.Point(9, 120);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(96, 14);
+			this.Label2.TabIndex = 13;
 			// 
 			// Line1
 			// 
@@ -299,14 +299,14 @@ namespace Xtreme
 			this.Controls.Add(this.txtPenaltyNo);
 			this.Controls.Add(this.txtLPenaltyName);
 			this.Controls.Add(this.txtAPenaltyName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtBillNo);
 			this.Controls.Add(this.txtBillCdName);
 			this.Controls.Add(this.grdPenaltySetup);
 			this.Controls.Add(this.lblSystemComponents);
 			this.Controls.Add(this.txtPenaltyGroupCd);
 			this.Controls.Add(this.txtDlblPenaltyGroupName);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.Line1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayPenalty.Icon");
@@ -336,4 +336,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -53,8 +53,8 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblFromDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
 		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
 		public UCOkCancel cmdOKCancel;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -75,8 +75,8 @@ namespace Xtreme
 			this.lblFromDate = new System.Windows.Forms.Label();
 			this.txtFromDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.cmdOKCancel = new UCOkCancel();
 			// //((System.ComponentModel.ISupportInitialize) this.cntMainParameter).BeginInit();
 			this.cntMainParameter.SuspendLayout();
@@ -93,8 +93,8 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.lblFromDate);
 			this.cntMainParameter.Controls.Add(this.txtFromDate);
 			this.cntMainParameter.Controls.Add(this.txtToDate);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label1);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label2);
+			this.cntMainParameter.Controls.Add(this.Label1);
+			this.cntMainParameter.Controls.Add(this.Label2);
 			this.cntMainParameter.Location = new System.Drawing.Point(4, 8);
 			this.cntMainParameter.Name = "cntMainParameter";
 			("cntMainParameter.OcxState");
@@ -183,19 +183,19 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(260, 98);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(70, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 10;
+			this.Label1.AllowDrop = true;
+			this.Label1.Location = new System.Drawing.Point(260, 98);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(70, 13);
+			this.Label1.TabIndex = 10;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(260, 77);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(82, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 11;
+			this.Label2.AllowDrop = true;
+			this.Label2.Location = new System.Drawing.Point(260, 77);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(82, 13);
+			this.Label2.TabIndex = 11;
 			// 
 			// cmdOKCancel
 			// 
@@ -247,4 +247,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

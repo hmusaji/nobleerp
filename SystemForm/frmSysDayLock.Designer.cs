@@ -100,7 +100,7 @@ namespace Xtreme
 			this.txtFromDate.Size = new System.Drawing.Size(102, 19);
 			this.txtFromDate.TabIndex = 0;
 			this.txtFromDate.Text = "7/18/2001";
-			this.txtFromDate.Value = 37090;
+			// this.txtFromDate.Value = 37090;
 			// 
 			// _lblCommonLabel_6
 			// 
@@ -124,7 +124,7 @@ namespace Xtreme
 			this.txtToDate.Size = new System.Drawing.Size(102, 19);
 			this.txtToDate.TabIndex = 2;
 			this.txtToDate.Text = "7/18/2001";
-			this.txtToDate.Value = 37090;
+			// this.txtToDate.Value = 37090;
 			// 
 			// _lblCommonLabel_0
 			// 
@@ -211,4 +211,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

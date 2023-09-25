@@ -15,6 +15,6 @@ namespace Xtreme
 		public frmFAUnit()
 {
 InitializeComponent();
-} 
- 	}
+}
+}
 }

@@ -110,7 +110,7 @@ namespace Xtreme
 			this.lblDesgNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDesgNo.Text = "Designation Code";
 			this.lblDesgNo.Location = new System.Drawing.Point(9, 59);
-			// this.lblDesgNo.mLabelId = 1049;
+			// // this.lblDesgNo.mLabelId = 1049;
 			this.lblDesgNo.Name = "lblDesgNo";
 			this.lblDesgNo.Size = new System.Drawing.Size(84, 14);
 			this.lblDesgNo.TabIndex = 4;
@@ -121,7 +121,7 @@ namespace Xtreme
 			this.lblLDesgName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLDesgName.Text = "Designation Name (English)";
 			this.lblLDesgName.Location = new System.Drawing.Point(9, 81);
-			// this.lblLDesgName.mLabelId = 1050;
+			// // this.lblLDesgName.mLabelId = 1050;
 			this.lblLDesgName.Name = "lblLDesgName";
 			this.lblLDesgName.Size = new System.Drawing.Size(131, 14);
 			this.lblLDesgName.TabIndex = 5;
@@ -144,7 +144,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Designation Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(9, 102);
-			// this.lblAGroupName.mLabelId = 1051;
+			// // this.lblAGroupName.mLabelId = 1051;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(129, 14);
 			this.lblAGroupName.TabIndex = 6;
@@ -168,7 +168,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 121);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 7;
@@ -216,4 +216,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

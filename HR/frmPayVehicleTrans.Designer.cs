@@ -52,7 +52,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtVehicleTransNo;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		public System.Windows.Forms.TextBox txtVehicleCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		public System.Windows.Forms.TextBox txtComments;
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		public System.Windows.Forms.TextBox txtEmpCode;
@@ -60,7 +60,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_1;
 		public System.Windows.Forms.TextBox txtEmpCodeNew;
 		public System.Windows.Forms.Label txtEmpNameNew;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[7];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -78,7 +78,7 @@ namespace Xtreme
 			this.txtVehicleTransNo = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this.txtVehicleCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this.txtComments = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this.txtEmpCode = new System.Windows.Forms.TextBox();
@@ -86,7 +86,7 @@ namespace Xtreme
 			this._lblCommonLabel_1 = new System.Windows.Forms.Label();
 			this.txtEmpCodeNew = new System.Windows.Forms.TextBox();
 			this.txtEmpNameNew = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// txtNKMPerMonth
@@ -107,7 +107,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(254, 52);
-			// this._lblCommonLabel_6.mLabelId = 1233;
+			// // this._lblCommonLabel_6.mLabelId = 1233;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(82, 14);
 			this._lblCommonLabel_6.TabIndex = 6;
@@ -123,7 +123,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			this.txtVoucherDate.Text = "18/07/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _lblCommonLabel_5
 			// 
@@ -131,7 +131,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(4, 52);
-			// this._lblCommonLabel_5.mLabelId = 1232;
+			// // this._lblCommonLabel_5.mLabelId = 1232;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(76, 14);
 			this._lblCommonLabel_5.TabIndex = 7;
@@ -157,7 +157,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Vehicle Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(4, 74);
-			// this._lblCommonLabel_0.mLabelId = 1801;
+			// // this._lblCommonLabel_0.mLabelId = 1801;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(64, 14);
 			this._lblCommonLabel_0.TabIndex = 8;
@@ -179,14 +179,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label12.Caption = "Comments";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(4, 163);
-			this.System.Windows.Forms.Label12.mLabelId = 1851;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 9;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label12.Text = "Comments";
+			this.Label12.Location = new System.Drawing.Point(4, 163);
+			// this.Label12.mLabelId = 1851;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 9;
 			// 
 			// txtComments
 			// 
@@ -206,7 +206,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 94);
-			// this._lblCommonLabel_2.mLabelId = 2074;
+			// // this._lblCommonLabel_2.mLabelId = 2074;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 10;
@@ -242,7 +242,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Employee Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(4, 116);
-			// this._lblCommonLabel_1.mLabelId = 2076;
+			// // this._lblCommonLabel_1.mLabelId = 2076;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_1.TabIndex = 12;
@@ -273,13 +273,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Kilometer";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(3, 140);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(44, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 14;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Kilometer";
+			this.Label1.Location = new System.Drawing.Point(3, 140);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(44, 14);
+			this.Label1.TabIndex = 14;
 			// 
 			// frmPayVehicleTrans
 			// 
@@ -296,7 +296,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtVehicleTransNo);
 			this.Controls.Add(this._lblCommonLabel_0);
 			this.Controls.Add(this.txtVehicleCode);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this.txtComments);
 			this.Controls.Add(this._lblCommonLabel_2);
 			this.Controls.Add(this.txtEmpCode);
@@ -304,7 +304,7 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommonLabel_1);
 			this.Controls.Add(this.txtEmpCodeNew);
 			this.Controls.Add(this.txtEmpNameNew);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayVehicleTrans.Icon");
 			this.KeyPreview = true;
@@ -342,4 +342,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

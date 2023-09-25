@@ -82,7 +82,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController CommandBars;
 		public UpgradeHelpers.Gui.ShapeHelper fraCashLedgerDetails;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -131,7 +131,7 @@ namespace Xtreme
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.CommandBars = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			this.fraCashLedgerDetails = new UpgradeHelpers.Gui.ShapeHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.frmFooter).BeginInit();
@@ -163,7 +163,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(0, 12);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(63, 16);
 			this.lblComments.TabIndex = 28;
@@ -267,7 +267,7 @@ namespace Xtreme
 			this.lblChequeNo.Text = "Cheque No";
 			this.lblChequeNo.ForeColor = System.Drawing.Color.Black;
 			this.lblChequeNo.Location = new System.Drawing.Point(620, 119);
-			// this.lblChequeNo.mLabelId = 1852;
+			// // this.lblChequeNo.mLabelId = 1852;
 			this.lblChequeNo.Name = "lblChequeNo";
 			this.lblChequeNo.Size = new System.Drawing.Size(64, 16);
 			this.lblChequeNo.TabIndex = 12;
@@ -284,7 +284,7 @@ namespace Xtreme
 			this.txtMaturityDate.Size = new System.Drawing.Size(101, 23);
 			this.txtMaturityDate.TabIndex = 8;
 			this.txtMaturityDate.Text = "05/Jun/2005";
-			this.txtMaturityDate.Value = 38508;
+			// this.txtMaturityDate.Value = 38508;
 			this.txtMaturityDate.Visible = false;
 			// 
 			// lblMaturityDate
@@ -294,7 +294,7 @@ namespace Xtreme
 			this.lblMaturityDate.Text = "Maturity Date";
 			this.lblMaturityDate.ForeColor = System.Drawing.Color.Black;
 			this.lblMaturityDate.Location = new System.Drawing.Point(386, 118);
-			// this.lblMaturityDate.mLabelId = 1855;
+			// // this.lblMaturityDate.mLabelId = 1855;
 			this.lblMaturityDate.Name = "lblMaturityDate";
 			this.lblMaturityDate.Size = new System.Drawing.Size(78, 16);
 			this.lblMaturityDate.TabIndex = 13;
@@ -307,7 +307,7 @@ namespace Xtreme
 			this.lblCashLedgerCode.Text = "Cash / Bank Code";
 			this.lblCashLedgerCode.ForeColor = System.Drawing.Color.Black;
 			this.lblCashLedgerCode.Location = new System.Drawing.Point(384, 67);
-			// this.lblCashLedgerCode.mLabelId = 932;
+			// // this.lblCashLedgerCode.mLabelId = 932;
 			this.lblCashLedgerCode.Name = "lblCashLedgerCode";
 			this.lblCashLedgerCode.Size = new System.Drawing.Size(101, 16);
 			this.lblCashLedgerCode.TabIndex = 14;
@@ -319,7 +319,7 @@ namespace Xtreme
 			this.lblCashLedgerDetails.Text = " Cash / Bank Details ";
 			this.lblCashLedgerDetails.ForeColor = System.Drawing.Color.Black;
 			this.lblCashLedgerDetails.Location = new System.Drawing.Point(394, 42);
-			// this.lblCashLedgerDetails.mLabelId = 931;
+			// // this.lblCashLedgerDetails.mLabelId = 931;
 			this.lblCashLedgerDetails.Name = "lblCashLedgerDetails";
 			this.lblCashLedgerDetails.Size = new System.Drawing.Size(118, 16);
 			this.lblCashLedgerDetails.TabIndex = 15;
@@ -355,7 +355,7 @@ namespace Xtreme
 			this.lblVoucherNo.Text = "Voucher No.";
 			this.lblVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblVoucherNo.Location = new System.Drawing.Point(8, 65);
-			// this.lblVoucherNo.mLabelId = 850;
+			// // this.lblVoucherNo.mLabelId = 850;
 			this.lblVoucherNo.Name = "lblVoucherNo";
 			this.lblVoucherNo.Size = new System.Drawing.Size(72, 16);
 			this.lblVoucherNo.TabIndex = 16;
@@ -367,7 +367,7 @@ namespace Xtreme
 			this.lblVoucherDate.Text = "Voucher Date";
 			this.lblVoucherDate.ForeColor = System.Drawing.Color.Black;
 			this.lblVoucherDate.Location = new System.Drawing.Point(8, 92);
-			// this.lblVoucherDate.mLabelId = 848;
+			// // this.lblVoucherDate.mLabelId = 848;
 			this.lblVoucherDate.Name = "lblVoucherDate";
 			this.lblVoucherDate.Size = new System.Drawing.Size(79, 16);
 			this.lblVoucherDate.TabIndex = 17;
@@ -383,7 +383,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 23);
 			this.txtVoucherDate.TabIndex = 3;
 			this.txtVoucherDate.Text = "18/Jul/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// this.this.txtVoucherDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtVoucherDate_Change);
 			this.txtVoucherDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtVoucherDate_Validating);
 			// 
@@ -422,7 +422,7 @@ namespace Xtreme
 			this.lblReference.Text = "Reference No.";
 			this.lblReference.ForeColor = System.Drawing.Color.Black;
 			this.lblReference.Location = new System.Drawing.Point(8, 119);
-			// this.lblReference.mLabelId = 614;
+			// // this.lblReference.mLabelId = 614;
 			this.lblReference.Name = "lblReference";
 			this.lblReference.Size = new System.Drawing.Size(82, 16);
 			this.lblReference.TabIndex = 18;
@@ -434,7 +434,7 @@ namespace Xtreme
 			this.lblVoucherType.Text = "Voucher Type";
 			this.lblVoucherType.ForeColor = System.Drawing.Color.Black;
 			this.lblVoucherType.Location = new System.Drawing.Point(8, 19);
-			// this.lblVoucherType.mLabelId = 851;
+			// // this.lblVoucherType.mLabelId = 851;
 			this.lblVoucherType.Name = "lblVoucherType";
 			this.lblVoucherType.Size = new System.Drawing.Size(80, 16);
 			this.lblVoucherType.TabIndex = 19;
@@ -459,7 +459,7 @@ namespace Xtreme
 			this.lblCostCenterCode.Text = "Cost Center Code";
 			this.lblCostCenterCode.ForeColor = System.Drawing.Color.Black;
 			this.lblCostCenterCode.Location = new System.Drawing.Point(384, 94);
-			// this.lblCostCenterCode.mLabelId = 968;
+			// // this.lblCostCenterCode.mLabelId = 968;
 			this.lblCostCenterCode.Name = "lblCostCenterCode";
 			this.lblCostCenterCode.Size = new System.Drawing.Size(100, 16);
 			this.lblCostCenterCode.TabIndex = 21;
@@ -500,7 +500,7 @@ namespace Xtreme
 			this.lblFlex01.Text = "Beneficiary";
 			this.lblFlex01.ForeColor = System.Drawing.Color.Black;
 			this.lblFlex01.Location = new System.Drawing.Point(8, 154);
-			// this.lblFlex01.mLabelId = 1938;
+			// // this.lblFlex01.mLabelId = 1938;
 			this.lblFlex01.Name = "lblFlex01";
 			this.lblFlex01.Size = new System.Drawing.Size(64, 16);
 			this.lblFlex01.TabIndex = 23;
@@ -592,14 +592,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "T";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(602, 416);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(6, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 26;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "T";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(602, 416);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(6, 13);
+			this.Label1.TabIndex = 26;
 			// 
 			// CommandBars
 			// 
@@ -658,7 +658,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtBranchCode);
 			this.Controls.Add(this.txtBranchName);
 			this.Controls.Add(this.grdVoucherDetails);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.CommandBars);
 			this.Controls.Add(this.fraCashLedgerDetails);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -695,4 +695,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

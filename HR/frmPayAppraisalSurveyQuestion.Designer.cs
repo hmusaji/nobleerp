@@ -52,10 +52,10 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblCategoryNo;
 		public System.Windows.Forms.Label lblPurposeArb;
 		private System.Windows.Forms.ComboBox _cmbCommon_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.TextBox txtCategoryCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[1];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -73,10 +73,10 @@ namespace Xtreme
 			this.lblCategoryNo = new System.Windows.Forms.Label();
 			this.lblPurposeArb = new System.Windows.Forms.Label();
 			this._cmbCommon_0 = new System.Windows.Forms.ComboBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.lblComments = new System.Windows.Forms.Label();
 			this.txtCategoryCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// txtDlblCategoryName
@@ -169,14 +169,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Question Type";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 90);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(70, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 7;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Question Type";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(6, 90);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(70, 14);
+			this.Label1.TabIndex = 7;
 			// 
 			// lblComments
 			// 
@@ -208,14 +208,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Category Code";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(6, 113);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(72, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 9;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Category Code";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(6, 113);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(72, 14);
+			this.Label2.TabIndex = 9;
 			// 
 			// frmPayAppraisalSurveyQuestion
 			// 
@@ -232,10 +232,10 @@ namespace Xtreme
 			this.Controls.Add(this.lblCategoryNo);
 			this.Controls.Add(this.lblPurposeArb);
 			this.Controls.Add(this._cmbCommon_0);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.lblComments);
 			this.Controls.Add(this.txtCategoryCode);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label2);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayAppraisalSurveyQuestion.Icon");
 			this.KeyPreview = true;
@@ -269,4 +269,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

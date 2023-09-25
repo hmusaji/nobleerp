@@ -55,7 +55,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		private System.Windows.Forms.Label _lblCommonLabel_5;
 		private System.Windows.Forms.Label _lblCommonLabel_21;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
@@ -89,7 +89,7 @@ namespace Xtreme
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_5 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_21 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_2 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_0 = new System.Windows.Forms.TextBox();
@@ -207,15 +207,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
-			this.System.Windows.Forms.Label12.Caption = "Comments";
-			this.System.Windows.Forms.Label12.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(4, 146);
-			this.System.Windows.Forms.Label12.mLabelId = 1851;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 15;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
+			this.Label12.Text = "Comments";
+			this.Label12.ForeColor = System.Drawing.Color.Black;
+			this.Label12.Location = new System.Drawing.Point(4, 146);
+			// this.Label12.mLabelId = 1851;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 15;
 			// 
 			// _txtCommonTextBox_2
 			// 
@@ -370,7 +370,7 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommonLabel_2);
 			this.Controls.Add(this._lblCommonLabel_5);
 			this.Controls.Add(this._lblCommonLabel_21);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this._txtCommonTextBox_2);
 			this.Controls.Add(this._lblCommonLabel_0);
 			this.Controls.Add(this._txtCommonTextBox_0);
@@ -434,4 +434,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

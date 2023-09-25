@@ -762,7 +762,7 @@ namespace Xtreme
 			this._lblCommonLabel_11.Text = "Total";
 			this._lblCommonLabel_11.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_11.Location = new System.Drawing.Point(372, 49);
-			// this._lblCommonLabel_11.mLabelId = 449;
+			// // this._lblCommonLabel_11.mLabelId = 449;
 			this._lblCommonLabel_11.Name = "_lblCommonLabel_11";
 			this._lblCommonLabel_11.Size = new System.Drawing.Size(32, 16);
 			this._lblCommonLabel_11.TabIndex = 31;
@@ -774,7 +774,7 @@ namespace Xtreme
 			this._lblCommonLabel_10.Text = "Discount (%)";
 			this._lblCommonLabel_10.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(370, 17);
-			// this._lblCommonLabel_10.mLabelId = 871;
+			// // this._lblCommonLabel_10.mLabelId = 871;
 			this._lblCommonLabel_10.Name = "_lblCommonLabel_10";
 			this._lblCommonLabel_10.Size = new System.Drawing.Size(75, 16);
 			this._lblCommonLabel_10.TabIndex = 32;
@@ -901,7 +901,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 2;
 			this.txtVoucherDate.Text = "18-Jul-2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_1
 			// 
@@ -927,7 +927,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.Text = "Voucher No.";
 			this._lblCommonLabel_5.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(16, 40);
-			// this._lblCommonLabel_5.mLabelId = 850;
+			// // this._lblCommonLabel_5.mLabelId = 850;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_5.TabIndex = 5;
@@ -939,7 +939,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.Text = "Voucher Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(16, 61);
-			// this._lblCommonLabel_6.mLabelId = 848;
+			// // this._lblCommonLabel_6.mLabelId = 848;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(67, 14);
 			this._lblCommonLabel_6.TabIndex = 6;
@@ -976,7 +976,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.Text = "Customer";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(16, 84);
-			// this._lblCommonLabel_0.mLabelId = 848;
+			// // this._lblCommonLabel_0.mLabelId = 848;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(46, 14);
 			this._lblCommonLabel_0.TabIndex = 9;
@@ -1013,7 +1013,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.Text = "Location";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(18, 16);
-			// this._lblCommonLabel_1.mLabelId = 850;
+			// // this._lblCommonLabel_1.mLabelId = 850;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(41, 14);
 			this._lblCommonLabel_1.TabIndex = 10;
@@ -1025,7 +1025,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.Text = "Salesman";
 			this._lblCommonLabel_8.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(16, 106);
-			// this._lblCommonLabel_8.mLabelId = 687;
+			// // this._lblCommonLabel_8.mLabelId = 687;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(47, 14);
 			this._lblCommonLabel_8.TabIndex = 11;
@@ -1185,4 +1185,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

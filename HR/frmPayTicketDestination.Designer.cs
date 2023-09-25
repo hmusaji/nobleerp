@@ -46,17 +46,17 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtDestinationCd;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.TextBox txtLDestName;
 		public System.Windows.Forms.TextBox txtADestName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.TextBox txtNatNo;
 		public System.Windows.Forms.Label txtNatName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
+		public System.Windows.Forms.LabelLabel4;
 		public System.Windows.Forms.TextBox txtOneWayAmt;
 		public System.Windows.Forms.Label lblReturnAmt;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.TextBox txtReturnAmt;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -68,17 +68,17 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayTicketDestination));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.txtDestinationCd = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtLDestName = new System.Windows.Forms.TextBox();
 			this.txtADestName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.txtNatNo = new System.Windows.Forms.TextBox();
 			this.txtNatName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
 			this.txtOneWayAmt = new System.Windows.Forms.TextBox();
 			this.lblReturnAmt = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtReturnAmt = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
@@ -99,25 +99,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Ticket Destination Name(ENG)";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(0, 81);
-			this.System.Windows.Forms.Label1.mLabelId = 2089;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(143, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 0;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Ticket Destination Name(ENG)";
+			this.Label1.Location = new System.Drawing.Point(0, 81);
+			// this.Label1.mLabelId = 2089;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(143, 14);
+			this.Label1.TabIndex = 0;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Ticket Destination Name(ARB)";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(0, 104);
-			this.System.Windows.Forms.Label2.mLabelId = 2090;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(144, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 7;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Ticket Destination Name(ARB)";
+			this.Label2.Location = new System.Drawing.Point(0, 104);
+			// this.Label2.mLabelId = 2090;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(144, 14);
+			this.Label2.TabIndex = 7;
 			// 
 			// txtLDestName
 			// 
@@ -147,14 +147,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Nationality Code";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(0, 126);
-			this.System.Windows.Forms.Label3.mLabelId = 1058;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(77, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 8;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Nationality Code";
+			this.Label3.Location = new System.Drawing.Point(0, 126);
+			// this.Label3.mLabelId = 1058;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(77, 14);
+			this.Label3.TabIndex = 8;
 			// 
 			// txtNatNo
 			// 
@@ -185,15 +185,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label4.Caption = "One Way Ticket Amount";
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(0, 176);
-			this.System.Windows.Forms.Label4.mLabelId = 2091;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(116, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 10;
-			this.System.Windows.Forms.Label4.Visible = false;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label4.Text = "One Way Ticket Amount";
+			this.Label4.Location = new System.Drawing.Point(0, 176);
+			// this.Label4.mLabelId = 2091;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(116, 14);
+			this.Label4.TabIndex = 10;
+			this.Label4.Visible = false;
 			// 
 			// txtOneWayAmt
 			// 
@@ -211,21 +211,21 @@ namespace Xtreme
 			this.lblReturnAmt.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblReturnAmt.Text = "Return Ticket Amount";
 			this.lblReturnAmt.Location = new System.Drawing.Point(2, 148);
-			// this.lblReturnAmt.mLabelId = 2092;
+			// // this.lblReturnAmt.mLabelId = 2092;
 			this.lblReturnAmt.Name = "lblReturnAmt";
 			this.lblReturnAmt.Size = new System.Drawing.Size(103, 14);
 			this.lblReturnAmt.TabIndex = 11;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label5.Caption = "Ticket Destination Code";
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(0, 57);
-			this.System.Windows.Forms.Label5.mLabelId = 2088;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(112, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 12;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5.Text = "Ticket Destination Code";
+			this.Label5.Location = new System.Drawing.Point(0, 57);
+			// this.Label5.mLabelId = 2088;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(112, 14);
+			this.Label5.TabIndex = 12;
 			// 
 			// txtReturnAmt
 			// 
@@ -245,17 +245,17 @@ namespace Xtreme
 			this.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.ClientSize = new System.Drawing.Size(545, 265);
 			this.Controls.Add(this.txtDestinationCd);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.txtLDestName);
 			this.Controls.Add(this.txtADestName);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Controls.Add(this.Label3);
 			this.Controls.Add(this.txtNatNo);
 			this.Controls.Add(this.txtNatName);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
+			this.Controls.Add(this.Label4);
 			this.Controls.Add(this.txtOneWayAmt);
 			this.Controls.Add(this.lblReturnAmt);
-			this.Controls.Add(this.System.Windows.Forms.Label5);
+			this.Controls.Add(this.Label5);
 			this.Controls.Add(this.txtReturnAmt);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayTicketDestination.Icon");
@@ -284,4 +284,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

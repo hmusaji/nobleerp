@@ -214,7 +214,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Deduction Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 48);
-			// this._lblCommonLabel_2.mLabelId = 1997;
+			// // this._lblCommonLabel_2.mLabelId = 1997;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(76, 14);
 			this._lblCommonLabel_2.TabIndex = 1;
@@ -241,7 +241,7 @@ namespace Xtreme
 			this._lblCommon_116.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_116.Text = "Department Code";
 			this._lblCommon_116.Location = new System.Drawing.Point(8, 90);
-			// this._lblCommon_116.mLabelId = 1973;
+			// // this._lblCommon_116.mLabelId = 1973;
 			this._lblCommon_116.Name = "_lblCommon_116";
 			this._lblCommon_116.Size = new System.Drawing.Size(83, 14);
 			this._lblCommon_116.TabIndex = 6;
@@ -365,4 +365,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

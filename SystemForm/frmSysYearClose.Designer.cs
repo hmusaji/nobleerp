@@ -191,7 +191,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(101, 19);
 			this.txtVoucherDate.TabIndex = 2;
 			this.txtVoucherDate.Text = "10-May-2002";
-			this.txtVoucherDate.Value = 37386;
+			// this.txtVoucherDate.Value = 37386;
 			// 
 			// _txtCommonSearch_7
 			// 
@@ -533,4 +533,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

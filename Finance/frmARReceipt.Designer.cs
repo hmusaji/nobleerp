@@ -41,7 +41,7 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "cmdAutoAdjust", "txtBalAmt", "txtComments", "txtVoucherDate", "txtReceiptAmt", "txtCustomerName", "_System.Windows.Forms.Label_0", "_System.Windows.Forms.Label_1", "_System.Windows.Forms.Label_3", "_System.Windows.Forms.Label_4", "txtCashBankCD", "_System.Windows.Forms.Label_7", "_System.Windows.Forms.Label1_1", "txtCashBankLedName", "txtDiscountAmt", "_System.Windows.Forms.Label1_4", "_System.Windows.Forms.Label1_5", "txtDiscountCD", "txtDiscountLedName", "txtPercentDiscount", "_System.Windows.Forms.Label_2", "txtVoucherNo", "txtCustomerCode", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "System.Windows.Forms.Label", "System.Windows.Forms.Label1"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "cmdAutoAdjust", "txtBalAmt", "txtComments", "txtVoucherDate", "txtReceiptAmt", "txtCustomerName", "Label_0", "Label_1", "Label_3", "Label_4", "txtCashBankCD", "Label_7", "Label1_1", "txtCashBankLedName", "txtDiscountAmt", "Label1_4", "Label1_5", "txtDiscountCD", "txtDiscountLedName", "txtPercentDiscount", "Label_2", "txtVoucherNo", "txtCustomerCode", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "System.Windows.Forms.Label", "System.Windows.Forms.Label1"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -51,28 +51,28 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtVoucherDate;
 		public System.Windows.Forms.TextBox txtReceiptAmt;
 		public System.Windows.Forms.Label txtCustomerName;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_0;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_1;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_3;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_4;
+		private System.Windows.Forms.Label Label_0;
+		private System.Windows.Forms.Label Label_1;
+		private System.Windows.Forms.Label Label_3;
+		private System.Windows.Forms.Label Label_4;
 		public System.Windows.Forms.TextBox txtCashBankCD;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_7;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_1;
+		private System.Windows.Forms.Label Label_7;
+		private System.Windows.Forms.Label Label1_1;
 		public System.Windows.Forms.Label txtCashBankLedName;
 		public System.Windows.Forms.TextBox txtDiscountAmt;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_4;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_5;
+		private System.Windows.Forms.Label Label1_4;
+		private System.Windows.Forms.Label Label1_5;
 		public System.Windows.Forms.TextBox txtDiscountCD;
 		public System.Windows.Forms.Label txtDiscountLedName;
 		public System.Windows.Forms.TextBox txtPercentDiscount;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_2;
+		private System.Windows.Forms.Label Label_2;
 		public System.Windows.Forms.TextBox txtVoucherNo;
 		public System.Windows.Forms.TextBox txtCustomerCode;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label = new System.Windows.Forms.Label[8];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[6];
+		public System.Windows.Forms.Label[] Label = new System.Windows.Forms.Label[8];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[6];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -88,21 +88,21 @@ namespace Xtreme
 			this.txtVoucherDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtReceiptAmt = new System.Windows.Forms.TextBox();
 			this.txtCustomerName = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_0 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_1 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_3 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_4 = new System.Windows.Forms.Label();
+			this.Label_0 = new System.Windows.Forms.Label();
+			this.Label_1 = new System.Windows.Forms.Label();
+			this.Label_3 = new System.Windows.Forms.Label();
+			this.Label_4 = new System.Windows.Forms.Label();
 			this.txtCashBankCD = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_7 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label1_1 = new System.Windows.Forms.Label();
+			this.Label_7 = new System.Windows.Forms.Label();
+			this.Label1_1 = new System.Windows.Forms.Label();
 			this.txtCashBankLedName = new System.Windows.Forms.Label();
 			this.txtDiscountAmt = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_4 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label1_5 = new System.Windows.Forms.Label();
+			this.Label1_4 = new System.Windows.Forms.Label();
+			this.Label1_5 = new System.Windows.Forms.Label();
 			this.txtDiscountCD = new System.Windows.Forms.TextBox();
 			this.txtDiscountLedName = new System.Windows.Forms.Label();
 			this.txtPercentDiscount = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_2 = new System.Windows.Forms.Label();
+			this.Label_2 = new System.Windows.Forms.Label();
 			this.txtVoucherNo = new System.Windows.Forms.TextBox();
 			this.txtCustomerCode = new System.Windows.Forms.TextBox();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -184,49 +184,49 @@ namespace Xtreme
 			this.txtCustomerName.TabIndex = 11;
 			this.txtCustomerName.TabStop = false;
 			// 
-			// _System.Windows.Forms.Label_0
+			// Label_0
 			// 
-			this._System.Windows.Forms.Label_0.AllowDrop = true;
-			this._System.Windows.Forms.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_0.Caption = "Customer Name";
-			this._System.Windows.Forms.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_0.Location = new System.Drawing.Point(8, 16);
-			this._System.Windows.Forms.Label_0.Name = "_System.Windows.Forms.Label_0";
-			this._System.Windows.Forms.Label_0.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label_0.TabIndex = 12;
+			this.Label_0.AllowDrop = true;
+			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_0.Text = "Customer Name";
+			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_0.Location = new System.Drawing.Point(8, 16);
+			this.Label_0.Name = "Label_0";
+			this.Label_0.Size = new System.Drawing.Size(3, 14);
+			this.Label_0.TabIndex = 12;
 			// 
-			// _System.Windows.Forms.Label_1
+			// Label_1
 			// 
-			this._System.Windows.Forms.Label_1.AllowDrop = true;
-			this._System.Windows.Forms.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_1.Caption = "Customer Bal";
-			this._System.Windows.Forms.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_1.Location = new System.Drawing.Point(290, 38);
-			this._System.Windows.Forms.Label_1.Name = "_System.Windows.Forms.Label_1";
-			this._System.Windows.Forms.Label_1.Size = new System.Drawing.Size(64, 14);
-			this._System.Windows.Forms.Label_1.TabIndex = 13;
+			this.Label_1.AllowDrop = true;
+			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_1.Text = "Customer Bal";
+			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_1.Location = new System.Drawing.Point(290, 38);
+			this.Label_1.Name = "Label_1";
+			this.Label_1.Size = new System.Drawing.Size(64, 14);
+			this.Label_1.TabIndex = 13;
 			// 
-			// _System.Windows.Forms.Label_3
+			// Label_3
 			// 
-			this._System.Windows.Forms.Label_3.AllowDrop = true;
-			this._System.Windows.Forms.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_3.Caption = "Receipt Amt.";
-			this._System.Windows.Forms.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_3.Location = new System.Drawing.Point(328, 80);
-			this._System.Windows.Forms.Label_3.Name = "_System.Windows.Forms.Label_3";
-			this._System.Windows.Forms.Label_3.Size = new System.Drawing.Size(73, 14);
-			this._System.Windows.Forms.Label_3.TabIndex = 14;
+			this.Label_3.AllowDrop = true;
+			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_3.Text = "Receipt Amt.";
+			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_3.Location = new System.Drawing.Point(328, 80);
+			this.Label_3.Name = "Label_3";
+			this.Label_3.Size = new System.Drawing.Size(73, 14);
+			this.Label_3.TabIndex = 14;
 			// 
-			// _System.Windows.Forms.Label_4
+			// Label_4
 			// 
-			this._System.Windows.Forms.Label_4.AllowDrop = true;
-			this._System.Windows.Forms.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_4.Caption = "Cash/Bank Code";
-			this._System.Windows.Forms.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_4.Location = new System.Drawing.Point(8, 82);
-			this._System.Windows.Forms.Label_4.Name = "_System.Windows.Forms.Label_4";
-			this._System.Windows.Forms.Label_4.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label_4.TabIndex = 15;
+			this.Label_4.AllowDrop = true;
+			this.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_4.Text = "Cash/Bank Code";
+			this.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_4.Location = new System.Drawing.Point(8, 82);
+			this.Label_4.Name = "Label_4";
+			this.Label_4.Size = new System.Drawing.Size(3, 14);
+			this.Label_4.TabIndex = 15;
 			// 
 			// txtCashBankCD
 			// 
@@ -246,27 +246,27 @@ namespace Xtreme
 			// this.this.txtCashBankCD.KeyDown += new System.Windows.Forms.TextBox.KeyDownHandler(this.txtCashBankCD_KeyDown);
 			// this.txtCashBankCD.Leave += new System.EventHandler(this.txtCashBankCD_Leave);
 			// 
-			// _System.Windows.Forms.Label_7
+			// Label_7
 			// 
-			this._System.Windows.Forms.Label_7.AllowDrop = true;
-			this._System.Windows.Forms.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_7.Caption = "Voucher Date";
-			this._System.Windows.Forms.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_7.Location = new System.Drawing.Point(8, 37);
-			this._System.Windows.Forms.Label_7.Name = "_System.Windows.Forms.Label_7";
-			this._System.Windows.Forms.Label_7.Size = new System.Drawing.Size(71, 14);
-			this._System.Windows.Forms.Label_7.TabIndex = 16;
+			this.Label_7.AllowDrop = true;
+			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_7.Text = "Voucher Date";
+			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_7.Location = new System.Drawing.Point(8, 37);
+			this.Label_7.Name = "Label_7";
+			this.Label_7.Size = new System.Drawing.Size(71, 14);
+			this.Label_7.TabIndex = 16;
 			// 
-			// _System.Windows.Forms.Label1_1
+			// Label1_1
 			// 
-			this._System.Windows.Forms.Label1_1.AllowDrop = true;
-			this._System.Windows.Forms.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_1.Caption = "Comments";
-			this._System.Windows.Forms.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_1.Location = new System.Drawing.Point(8, 142);
-			this._System.Windows.Forms.Label1_1.Name = "_System.Windows.Forms.Label1_1";
-			this._System.Windows.Forms.Label1_1.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label1_1.TabIndex = 17;
+			this.Label1_1.AllowDrop = true;
+			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_1.Text = "Comments";
+			this.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_1.Location = new System.Drawing.Point(8, 142);
+			this.Label1_1.Name = "Label1_1";
+			this.Label1_1.Size = new System.Drawing.Size(3, 14);
+			this.Label1_1.TabIndex = 17;
 			// 
 			// txtCashBankLedName
 			// 
@@ -289,27 +289,27 @@ namespace Xtreme
 			this.txtDiscountAmt.TabIndex = 7;
 			this.txtDiscountAmt.Text = ".000";
 			// 
-			// _System.Windows.Forms.Label1_4
+			// Label1_4
 			// 
-			this._System.Windows.Forms.Label1_4.AllowDrop = true;
-			this._System.Windows.Forms.Label1_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_4.Caption = "Discount Amt.";
-			this._System.Windows.Forms.Label1_4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_4.Location = new System.Drawing.Point(328, 104);
-			this._System.Windows.Forms.Label1_4.Name = "_System.Windows.Forms.Label1_4";
-			this._System.Windows.Forms.Label1_4.Size = new System.Drawing.Size(67, 14);
-			this._System.Windows.Forms.Label1_4.TabIndex = 19;
+			this.Label1_4.AllowDrop = true;
+			this.Label1_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_4.Text = "Discount Amt.";
+			this.Label1_4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_4.Location = new System.Drawing.Point(328, 104);
+			this.Label1_4.Name = "Label1_4";
+			this.Label1_4.Size = new System.Drawing.Size(67, 14);
+			this.Label1_4.TabIndex = 19;
 			// 
-			// _System.Windows.Forms.Label1_5
+			// Label1_5
 			// 
-			this._System.Windows.Forms.Label1_5.AllowDrop = true;
-			this._System.Windows.Forms.Label1_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_5.Caption = "Discount Code";
-			this._System.Windows.Forms.Label1_5.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_5.Location = new System.Drawing.Point(8, 102);
-			this._System.Windows.Forms.Label1_5.Name = "_System.Windows.Forms.Label1_5";
-			this._System.Windows.Forms.Label1_5.Size = new System.Drawing.Size(70, 14);
-			this._System.Windows.Forms.Label1_5.TabIndex = 20;
+			this.Label1_5.AllowDrop = true;
+			this.Label1_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_5.Text = "Discount Code";
+			this.Label1_5.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_5.Location = new System.Drawing.Point(8, 102);
+			this.Label1_5.Name = "Label1_5";
+			this.Label1_5.Size = new System.Drawing.Size(70, 14);
+			this.Label1_5.TabIndex = 20;
 			// 
 			// txtDiscountCD
 			// 
@@ -352,16 +352,16 @@ namespace Xtreme
 			this.txtPercentDiscount.TabIndex = 22;
 			this.txtPercentDiscount.Visible = false;
 			// 
-			// _System.Windows.Forms.Label_2
+			// Label_2
 			// 
-			this._System.Windows.Forms.Label_2.AllowDrop = true;
-			this._System.Windows.Forms.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_2.Caption = "Voucher No";
-			this._System.Windows.Forms.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_2.Location = new System.Drawing.Point(8, 60);
-			this._System.Windows.Forms.Label_2.Name = "_System.Windows.Forms.Label_2";
-			this._System.Windows.Forms.Label_2.Size = new System.Drawing.Size(58, 14);
-			this._System.Windows.Forms.Label_2.TabIndex = 23;
+			this.Label_2.AllowDrop = true;
+			this.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_2.Text = "Voucher No";
+			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_2.Location = new System.Drawing.Point(8, 60);
+			this.Label_2.Name = "Label_2";
+			this.Label_2.Size = new System.Drawing.Size(58, 14);
+			this.Label_2.TabIndex = 23;
 			// 
 			// txtVoucherNo
 			// 
@@ -434,21 +434,21 @@ namespace Xtreme
 			this.Controls.Add(this.txtVoucherDate);
 			this.Controls.Add(this.txtReceiptAmt);
 			this.Controls.Add(this.txtCustomerName);
-			this.Controls.Add(this._System.Windows.Forms.Label_0);
-			this.Controls.Add(this._System.Windows.Forms.Label_1);
-			this.Controls.Add(this._System.Windows.Forms.Label_3);
-			this.Controls.Add(this._System.Windows.Forms.Label_4);
+			this.Controls.Add(this.Label_0);
+			this.Controls.Add(this.Label_1);
+			this.Controls.Add(this.Label_3);
+			this.Controls.Add(this.Label_4);
 			this.Controls.Add(this.txtCashBankCD);
-			this.Controls.Add(this._System.Windows.Forms.Label_7);
-			this.Controls.Add(this._System.Windows.Forms.Label1_1);
+			this.Controls.Add(this.Label_7);
+			this.Controls.Add(this.Label1_1);
 			this.Controls.Add(this.txtCashBankLedName);
 			this.Controls.Add(this.txtDiscountAmt);
-			this.Controls.Add(this._System.Windows.Forms.Label1_4);
-			this.Controls.Add(this._System.Windows.Forms.Label1_5);
+			this.Controls.Add(this.Label1_4);
+			this.Controls.Add(this.Label1_5);
 			this.Controls.Add(this.txtDiscountCD);
 			this.Controls.Add(this.txtDiscountLedName);
 			this.Controls.Add(this.txtPercentDiscount);
-			this.Controls.Add(this._System.Windows.Forms.Label_2);
+			this.Controls.Add(this.Label_2);
 			this.Controls.Add(this.txtVoucherNo);
 			this.Controls.Add(this.txtCustomerCode);
 			this.Controls.Add(this.grdVoucherDetails);
@@ -482,21 +482,21 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[6];
-			this.System.Windows.Forms.Label1[1] = _System.Windows.Forms.Label1_1;
-			this.System.Windows.Forms.Label1[4] = _System.Windows.Forms.Label1_4;
-			this.System.Windows.Forms.Label1[5] = _System.Windows.Forms.Label1_5;
+			this.Label1 = new System.Windows.Forms.Label[6];
+			this.Label1[1] = Label1_1;
+			this.Label1[4] = Label1_4;
+			this.Label1[5] = Label1_5;
 		}
 		void InitializeSystem.Windows.Forms.Label()
 		{
-			this.System.Windows.Forms.Label = new System.Windows.Forms.Label[8];
-			this.System.Windows.Forms.Label[0] = _System.Windows.Forms.Label_0;
-			this.System.Windows.Forms.Label[1] = _System.Windows.Forms.Label_1;
-			this.System.Windows.Forms.Label[3] = _System.Windows.Forms.Label_3;
-			this.System.Windows.Forms.Label[4] = _System.Windows.Forms.Label_4;
-			this.System.Windows.Forms.Label[7] = _System.Windows.Forms.Label_7;
-			this.System.Windows.Forms.Label[2] = _System.Windows.Forms.Label_2;
+			this.Label = new System.Windows.Forms.Label[8];
+			this.Label[0] = Label_0;
+			this.Label[1] = Label_1;
+			this.Label[3] = Label_3;
+			this.Label[4] = Label_4;
+			this.Label[7] = Label_7;
+			this.Label[2] = Label_2;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

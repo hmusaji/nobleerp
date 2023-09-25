@@ -150,7 +150,7 @@ namespace Xtreme
 			this.lblLCostName.Text = "Cost Center Name (English)";
 			this.lblLCostName.ForeColor = System.Drawing.Color.Black;
 			this.lblLCostName.Location = new System.Drawing.Point(8, 35);
-			// this.lblLCostName.mLabelId = 964;
+			// // this.lblLCostName.mLabelId = 964;
 			this.lblLCostName.Name = "lblLCostName";
 			this.lblLCostName.Size = new System.Drawing.Size(132, 14);
 			this.lblLCostName.TabIndex = 7;
@@ -174,7 +174,7 @@ namespace Xtreme
 			this.lblACostName.Text = "Cost Center Name (Arabic)";
 			this.lblACostName.ForeColor = System.Drawing.Color.Black;
 			this.lblACostName.Location = new System.Drawing.Point(8, 56);
-			// this.lblACostName.mLabelId = 965;
+			// // this.lblACostName.mLabelId = 965;
 			this.lblACostName.Name = "lblACostName";
 			this.lblACostName.Size = new System.Drawing.Size(130, 14);
 			this.lblACostName.TabIndex = 8;
@@ -199,7 +199,7 @@ namespace Xtreme
 			this.lblParentCost.Text = "Under Cost Center";
 			this.lblParentCost.ForeColor = System.Drawing.Color.Black;
 			this.lblParentCost.Location = new System.Drawing.Point(8, 77);
-			// this.lblParentCost.mLabelId = 966;
+			// // this.lblParentCost.mLabelId = 966;
 			this.lblParentCost.Name = "lblParentCost";
 			this.lblParentCost.Size = new System.Drawing.Size(89, 14);
 			this.lblParentCost.TabIndex = 9;
@@ -227,7 +227,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(8, 118);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 10;
@@ -239,7 +239,7 @@ namespace Xtreme
 			this.lblCostNo.Text = "Cost Center Code";
 			this.lblCostNo.ForeColor = System.Drawing.Color.Black;
 			this.lblCostNo.Location = new System.Drawing.Point(8, 14);
-			// this.lblCostNo.mLabelId = 149;
+			// // this.lblCostNo.mLabelId = 149;
 			this.lblCostNo.Name = "lblCostNo";
 			this.lblCostNo.Size = new System.Drawing.Size(85, 14);
 			this.lblCostNo.TabIndex = 11;
@@ -251,7 +251,7 @@ namespace Xtreme
 			this.lblCostCategory.Text = "Under Cost Category";
 			this.lblCostCategory.ForeColor = System.Drawing.Color.Black;
 			this.lblCostCategory.Location = new System.Drawing.Point(8, 98);
-			// this.lblCostCategory.mLabelId = 967;
+			// // this.lblCostCategory.mLabelId = 967;
 			this.lblCostCategory.Name = "lblCostCategory";
 			this.lblCostCategory.Size = new System.Drawing.Size(101, 14);
 			this.lblCostCategory.TabIndex = 12;
@@ -329,4 +329,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -54,7 +54,7 @@ namespace Xtreme
 		public UCOkCancel cmdOKCancel;
 		public System.Windows.Forms.Panel Frame3;
 		public System.Windows.Forms.CheckBox chkBackupSysDb;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public UpgradeHelpers.Gui.DirListBoxHelper Dir1;
 		public UpgradeHelpers.Gui.DriveListBoxHelper Drive1;
 		public UpgradeHelpers.Gui.ListBoxHelper listBoxHelper1;
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.lstDatabase = new System.Windows.Forms.CheckedListBox();
 			this.cmdOKCancel = new UCOkCancel();
 			this.chkBackupSysDb = new System.Windows.Forms.CheckBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.Dir1 = new UpgradeHelpers.Gui.DirListBoxHelper();
 			this.Drive1 = new UpgradeHelpers.Gui.DriveListBoxHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.ExportProgress).BeginInit();
@@ -224,12 +224,12 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 396);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(167, 16);
-			this.System.Windows.Forms.Label1.TabIndex = 3;
-			this.System.Windows.Forms.Label1.Visible = false;
+			this.Label1.AllowDrop = true;
+			this.Label1.Location = new System.Drawing.Point(6, 396);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(167, 16);
+			this.Label1.TabIndex = 3;
+			this.Label1.Visible = false;
 			// 
 			// Dir1
 			// 
@@ -271,7 +271,7 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(355, 330);
 			this.Controls.Add(this.Frame3);
 			this.Controls.Add(this.chkBackupSysDb);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.Dir1);
 			this.Controls.Add(this.Drive1);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysDatabaseBackup.Icon");
@@ -306,4 +306,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

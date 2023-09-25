@@ -60,12 +60,12 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtAFourthName;
 		public System.Windows.Forms.TextBox txtCompNo;
 		public System.Windows.Forms.TextBox txtLFirstName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel4;
 		public System.Windows.Forms.TextBox txtLSecondName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.TextBox txtLicenseNo;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -91,12 +91,12 @@ namespace Xtreme
 			this.txtAFourthName = new System.Windows.Forms.TextBox();
 			this.txtCompNo = new System.Windows.Forms.TextBox();
 			this.txtLFirstName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
 			this.txtLSecondName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtLicenseNo = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
@@ -122,7 +122,7 @@ namespace Xtreme
 			this.lblCompNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCompNo.Text = "Company Code";
 			this.lblCompNo.Location = new System.Drawing.Point(10, 49);
-			// this.lblCompNo.mLabelId = 1927;
+			// // this.lblCompNo.mLabelId = 1927;
 			this.lblCompNo.Name = "lblCompNo";
 			this.lblCompNo.Size = new System.Drawing.Size(73, 14);
 			this.lblCompNo.TabIndex = 13;
@@ -133,7 +133,7 @@ namespace Xtreme
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Company Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(10, 109);
-			// this.lblLGroupName.mLabelId = 1933;
+			// // this.lblLGroupName.mLabelId = 1933;
 			this.lblLGroupName.Name = "lblLGroupName";
 			this.lblLGroupName.Size = new System.Drawing.Size(120, 14);
 			this.lblLGroupName.TabIndex = 14;
@@ -157,7 +157,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Company Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(10, 128);
-			// this.lblAGroupName.mLabelId = 1934;
+			// // this.lblAGroupName.mLabelId = 1934;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(118, 14);
 			this.lblAGroupName.TabIndex = 15;
@@ -182,7 +182,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 170);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 16;
@@ -289,36 +289,36 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "First Name";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(158, 84);
-			this.System.Windows.Forms.Label1.mLabelId = 1974;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(51, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 17;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "First Name";
+			this.Label1.Location = new System.Drawing.Point(158, 84);
+			// this.Label1.mLabelId = 1974;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(51, 14);
+			this.Label1.TabIndex = 17;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Third Name";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(345, 84);
-			this.System.Windows.Forms.Label3.mLabelId = 1977;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(54, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 18;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Third Name";
+			this.Label3.Location = new System.Drawing.Point(345, 84);
+			// this.Label3.mLabelId = 1977;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(54, 14);
+			this.Label3.TabIndex = 18;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label4.Caption = "Fourth Name";
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(434, 84);
-			this.System.Windows.Forms.Label4.mLabelId = 1975;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(61, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 19;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label4.Text = "Fourth Name";
+			this.Label4.Location = new System.Drawing.Point(434, 84);
+			// this.Label4.mLabelId = 1975;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(61, 14);
+			this.Label4.TabIndex = 19;
 			// 
 			// txtLSecondName
 			// 
@@ -334,25 +334,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Second Name";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(247, 84);
-			this.System.Windows.Forms.Label2.mLabelId = 1976;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(67, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 20;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Second Name";
+			this.Label2.Location = new System.Drawing.Point(247, 84);
+			// this.Label2.mLabelId = 1976;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(67, 14);
+			this.Label2.TabIndex = 20;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label5.Caption = "License No.";
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(10, 149);
-			this.System.Windows.Forms.Label5.mLabelId = 1851;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(57, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 21;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5.Text = "License No.";
+			this.Label5.Location = new System.Drawing.Point(10, 149);
+			// this.Label5.mLabelId = 1851;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(57, 14);
+			this.Label5.TabIndex = 21;
 			// 
 			// txtLicenseNo
 			// 
@@ -389,12 +389,12 @@ namespace Xtreme
 			this.Controls.Add(this.txtAFourthName);
 			this.Controls.Add(this.txtCompNo);
 			this.Controls.Add(this.txtLFirstName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label3);
+			this.Controls.Add(this.Label4);
 			this.Controls.Add(this.txtLSecondName);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label5);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label5);
 			this.Controls.Add(this.txtLicenseNo);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayCompany.Icon");
@@ -423,4 +423,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

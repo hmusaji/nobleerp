@@ -183,7 +183,7 @@ namespace Xtreme
 			this.lblPListNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPListNo.Text = "Price Code";
 			this.lblPListNo.Location = new System.Drawing.Point(10, 21);
-			// this.lblPListNo.mLabelId = 834;
+			// // this.lblPListNo.mLabelId = 834;
 			this.lblPListNo.Name = "lblPListNo";
 			this.lblPListNo.Size = new System.Drawing.Size(52, 14);
 			this.lblPListNo.TabIndex = 0;
@@ -200,7 +200,7 @@ namespace Xtreme
 			this.txtDDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDDate.TabIndex = 7;
 			this.txtDDate.Text = "12/1/2005";
-			this.txtDDate.Value = 38687;
+			// this.txtDDate.Value = 38687;
 			// 
 			// UserEfectStart
 			// 
@@ -227,7 +227,7 @@ namespace Xtreme
 			this.txtDEfectStartDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDEfectStartDate.TabIndex = 10;
 			this.txtDEfectStartDate.Text = "12/1/2005";
-			this.txtDEfectStartDate.Value = 38687;
+			// this.txtDEfectStartDate.Value = 38687;
 			this.txtDEfectStartDate.Visible = false;
 			// 
 			// UserEfectEnd
@@ -254,7 +254,7 @@ namespace Xtreme
 			this.txtDEfectEndDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDEfectEndDate.TabIndex = 12;
 			this.txtDEfectEndDate.Text = "12/1/2005";
-			this.txtDEfectEndDate.Value = 38687;
+			// this.txtDEfectEndDate.Value = 38687;
 			this.txtDEfectEndDate.Visible = false;
 			// 
 			// txtComment
@@ -276,7 +276,7 @@ namespace Xtreme
 			this.lblComment.BackColor = System.Drawing.SystemColors.Window;
 			this.lblComment.Text = "Comment";
 			this.lblComment.Location = new System.Drawing.Point(8, 210);
-			// this.lblComment.mLabelId = 836;
+			// // this.lblComment.mLabelId = 836;
 			this.lblComment.Name = "lblComment";
 			this.lblComment.Size = new System.Drawing.Size(44, 14);
 			this.lblComment.TabIndex = 14;
@@ -332,4 +332,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

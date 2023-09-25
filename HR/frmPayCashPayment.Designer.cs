@@ -58,7 +58,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtCashAmount;
 		private System.Windows.Forms.Label _lblCommonLabel_10;
 		private System.Windows.Forms.Label _lblCommonLabel_17;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
 		private System.Windows.Forms.Label _txtDisplayLabel_3;
@@ -91,7 +91,7 @@ namespace Xtreme
 			this.txtCashAmount = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_10 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_17 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_3 = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_3 = new System.Windows.Forms.Label();
@@ -122,7 +122,7 @@ namespace Xtreme
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Reference No.";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(8, 74);
-			// this._lblCommonLabel_7.mLabelId = 614;
+			// // this._lblCommonLabel_7.mLabelId = 614;
 			this._lblCommonLabel_7.Name = "_lblCommonLabel_7";
 			this._lblCommonLabel_7.Size = new System.Drawing.Size(70, 13);
 			this._lblCommonLabel_7.TabIndex = 6;
@@ -134,7 +134,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_5.Text = "Voucher No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(8, 52);
-			// this._lblCommonLabel_5.mLabelId = 850;
+			// // this._lblCommonLabel_5.mLabelId = 850;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_5.TabIndex = 7;
@@ -145,7 +145,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_6.Text = "Voucher Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(228, 52);
-			// this._lblCommonLabel_6.mLabelId = 848;
+			// // this._lblCommonLabel_6.mLabelId = 848;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(67, 14);
 			this._lblCommonLabel_6.TabIndex = 8;
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			this.txtVoucherDate.Text = "18/07/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
 			// 
@@ -201,7 +201,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_2.Text = "Loan No.";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(8, 107);
-			// this._lblCommonLabel_2.mLabelId = 1044;
+			// // this._lblCommonLabel_2.mLabelId = 1044;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(43, 14);
 			this._lblCommonLabel_2.TabIndex = 9;
@@ -212,7 +212,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_0.Text = "Employee Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(8, 127);
-			// this._lblCommonLabel_0.mLabelId = 236;
+			// // this._lblCommonLabel_0.mLabelId = 236;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_0.TabIndex = 10;
@@ -223,7 +223,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_3.Text = "Loan Amount";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(8, 149);
-			// this._lblCommonLabel_3.mLabelId = 404;
+			// // this._lblCommonLabel_3.mLabelId = 404;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(64, 14);
 			this._lblCommonLabel_3.TabIndex = 11;
@@ -247,7 +247,7 @@ namespace Xtreme
 			this._lblCommonLabel_10.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_10.Text = "Cash Paid";
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(228, 170);
-			// this._lblCommonLabel_10.mLabelId = 1972;
+			// // this._lblCommonLabel_10.mLabelId = 1972;
 			this._lblCommonLabel_10.Name = "_lblCommonLabel_10";
 			this._lblCommonLabel_10.Size = new System.Drawing.Size(48, 14);
 			this._lblCommonLabel_10.TabIndex = 12;
@@ -258,21 +258,21 @@ namespace Xtreme
 			this._lblCommonLabel_17.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_17.Text = "Loan Date";
 			this._lblCommonLabel_17.Location = new System.Drawing.Point(230, 106);
-			// this._lblCommonLabel_17.mLabelId = 1045;
+			// // this._lblCommonLabel_17.mLabelId = 1045;
 			this._lblCommonLabel_17.Name = "_lblCommonLabel_17";
 			this._lblCommonLabel_17.Size = new System.Drawing.Size(49, 14);
 			this._lblCommonLabel_17.TabIndex = 13;
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label12.Caption = "Description";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(8, 202);
-			this.System.Windows.Forms.Label12.mLabelId = 1971;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 14;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label12.Text = "Description";
+			this.Label12.Location = new System.Drawing.Point(8, 202);
+			// this.Label12.mLabelId = 1971;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 14;
 			// 
 			// _txtCommonTextBox_3
 			// 
@@ -327,7 +327,7 @@ namespace Xtreme
 			this._lblCommonLabel_16.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_16.Text = "Balance";
 			this._lblCommonLabel_16.Location = new System.Drawing.Point(228, 149);
-			// this._lblCommonLabel_16.mLabelId = 1862;
+			// // this._lblCommonLabel_16.mLabelId = 1862;
 			this._lblCommonLabel_16.Name = "_lblCommonLabel_16";
 			this._lblCommonLabel_16.Size = new System.Drawing.Size(39, 14);
 			this._lblCommonLabel_16.TabIndex = 19;
@@ -362,7 +362,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtCashAmount);
 			this.Controls.Add(this._lblCommonLabel_10);
 			this.Controls.Add(this._lblCommonLabel_17);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this._txtCommonTextBox_3);
 			this.Controls.Add(this._txtDisplayLabel_0);
 			this.Controls.Add(this._txtDisplayLabel_3);
@@ -430,4 +430,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

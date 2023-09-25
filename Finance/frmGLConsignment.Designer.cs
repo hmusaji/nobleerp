@@ -89,7 +89,7 @@ namespace Xtreme
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Consignment Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(8, 35);
-			// this.lblLNatName.mLabelId = 2116;
+			// // this.lblLNatName.mLabelId = 2116;
 			this.lblLNatName.Name = "lblLNatName";
 			this.lblLNatName.Size = new System.Drawing.Size(137, 14);
 			this.lblLNatName.TabIndex = 1;
@@ -112,7 +112,7 @@ namespace Xtreme
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Consignment Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(8, 58);
-			// this.lblANatName.mLabelId = 2117;
+			// // this.lblANatName.mLabelId = 2117;
 			this.lblANatName.Name = "lblANatName";
 			this.lblANatName.Size = new System.Drawing.Size(135, 14);
 			this.lblANatName.TabIndex = 3;
@@ -136,7 +136,7 @@ namespace Xtreme
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Consignment Code";
 			this.lblNatNo.Location = new System.Drawing.Point(8, 12);
-			// this.lblNatNo.mLabelId = 2115;
+			// // this.lblNatNo.mLabelId = 2115;
 			this.lblNatNo.Name = "lblNatNo";
 			this.lblNatNo.Size = new System.Drawing.Size(90, 14);
 			this.lblNatNo.TabIndex = 5;
@@ -181,4 +181,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

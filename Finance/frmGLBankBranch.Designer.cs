@@ -116,7 +116,7 @@ namespace Xtreme
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Bank Branch Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(10, 42);
-			// this.lblGroupNo.mLabelId = 86;
+			// // this.lblGroupNo.mLabelId = 86;
 			this.lblGroupNo.Name = "lblGroupNo";
 			this.lblGroupNo.Size = new System.Drawing.Size(90, 14);
 			this.lblGroupNo.TabIndex = 2;
@@ -127,7 +127,7 @@ namespace Xtreme
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Branch Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(10, 64);
-			// this.lblLGroupName.mLabelId = 1819;
+			// // this.lblLGroupName.mLabelId = 1819;
 			this.lblLGroupName.Name = "lblLGroupName";
 			this.lblLGroupName.Size = new System.Drawing.Size(110, 14);
 			this.lblLGroupName.TabIndex = 3;
@@ -150,7 +150,7 @@ namespace Xtreme
 			this.lblParentGroup.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblParentGroup.Text = "Bank Code";
 			this.lblParentGroup.Location = new System.Drawing.Point(10, 106);
-			// this.lblParentGroup.mLabelId = 1151;
+			// // this.lblParentGroup.mLabelId = 1151;
 			this.lblParentGroup.Name = "lblParentGroup";
 			this.lblParentGroup.Size = new System.Drawing.Size(52, 14);
 			this.lblParentGroup.TabIndex = 5;
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Branch Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(10, 85);
-			// this.lblAGroupName.mLabelId = 1820;
+			// // this.lblAGroupName.mLabelId = 1820;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(108, 14);
 			this.lblAGroupName.TabIndex = 6;
@@ -185,7 +185,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(10, 126);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 8;
@@ -265,4 +265,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

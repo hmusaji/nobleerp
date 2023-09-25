@@ -87,7 +87,7 @@ namespace Xtreme
 			this.lblCurrNameA.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNameA.Text = "Currency Name (Arabic)";
 			this.lblCurrNameA.Location = new System.Drawing.Point(9, 90);
-			// this.lblCurrNameA.mLabelId = 963;
+			// // this.lblCurrNameA.mLabelId = 963;
 			this.lblCurrNameA.Name = "lblCurrNameA";
 			this.lblCurrNameA.Size = new System.Drawing.Size(118, 14);
 			this.lblCurrNameA.TabIndex = 10;
@@ -122,7 +122,7 @@ namespace Xtreme
 			this.lblSymbol.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSymbol.Text = "Symbol";
 			this.lblSymbol.Location = new System.Drawing.Point(9, 48);
-			// this.lblSymbol.mLabelId = 772;
+			// // this.lblSymbol.mLabelId = 772;
 			this.lblSymbol.Name = "lblSymbol";
 			this.lblSymbol.Size = new System.Drawing.Size(35, 14);
 			this.lblSymbol.TabIndex = 7;
@@ -163,7 +163,7 @@ namespace Xtreme
 			this.lblCurrNameL.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNameL.Text = "Currency Name (English)";
 			this.lblCurrNameL.Location = new System.Drawing.Point(9, 69);
-			// this.lblCurrNameL.mLabelId = 171;
+			// // this.lblCurrNameL.mLabelId = 171;
 			this.lblCurrNameL.Name = "lblCurrNameL";
 			this.lblCurrNameL.Size = new System.Drawing.Size(120, 14);
 			this.lblCurrNameL.TabIndex = 9;
@@ -174,7 +174,7 @@ namespace Xtreme
 			this.lblCurrNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNo.Text = "Currency Code";
 			this.lblCurrNo.Location = new System.Drawing.Point(9, 27);
-			// this.lblCurrNo.mLabelId = 170;
+			// // this.lblCurrNo.mLabelId = 170;
 			this.lblCurrNo.Name = "lblCurrNo";
 			this.lblCurrNo.Size = new System.Drawing.Size(73, 14);
 			this.lblCurrNo.TabIndex = 6;
@@ -282,4 +282,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

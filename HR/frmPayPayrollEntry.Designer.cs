@@ -212,7 +212,7 @@ namespace Xtreme
 			this.lblSystemComponents.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSystemComponents.Text = " Payroll Information ";
 			this.lblSystemComponents.Location = new System.Drawing.Point(14, 126);
-			// this.lblSystemComponents.mLabelId = 1147;
+			// // this.lblSystemComponents.mLabelId = 1147;
 			this.lblSystemComponents.Name = "lblSystemComponents";
 			this.lblSystemComponents.Size = new System.Drawing.Size(116, 13);
 			this.lblSystemComponents.TabIndex = 0;
@@ -223,7 +223,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(6, 12);
-			// this._lblCommonLabel_2.mLabelId = 236;
+			// // this._lblCommonLabel_2.mLabelId = 236;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 1;
@@ -234,7 +234,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Month";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(7, 56);
-			// this._lblCommonLabel_0.mLabelId = 1145;
+			// // this._lblCommonLabel_0.mLabelId = 1145;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(29, 14);
 			this._lblCommonLabel_0.TabIndex = 2;
@@ -245,7 +245,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Year";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(7, 80);
-			// this._lblCommonLabel_1.mLabelId = 1146;
+			// // this._lblCommonLabel_1.mLabelId = 1146;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(24, 14);
 			this._lblCommonLabel_1.TabIndex = 3;
@@ -256,7 +256,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Basic Salary";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(209, 54);
-			// this._lblCommonLabel_3.mLabelId = 1970;
+			// // this._lblCommonLabel_3.mLabelId = 1970;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_3.TabIndex = 4;
@@ -267,7 +267,7 @@ namespace Xtreme
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Total  Salary";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(209, 77);
-			// this._lblCommonLabel_9.mLabelId = 818;
+			// // this._lblCommonLabel_9.mLabelId = 818;
 			this._lblCommonLabel_9.Name = "_lblCommonLabel_9";
 			this._lblCommonLabel_9.Size = new System.Drawing.Size(60, 14);
 			this._lblCommonLabel_9.TabIndex = 5;
@@ -345,7 +345,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(6, 102);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 15;
@@ -557,4 +557,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

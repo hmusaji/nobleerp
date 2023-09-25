@@ -48,13 +48,13 @@ namespace Xtreme
 		public System.Windows.Forms.Label txtDlblDepartment;
 		public System.Windows.Forms.Label txtDlblRateeName;
 		public System.Windows.Forms.TextBox txtRateeCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.Label txtDlblDesignation;
 		public System.Windows.Forms.Label txtDlblDepartmentName;
 		public System.Windows.Forms.Label txtDlblDesignationName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
+		public System.Windows.Forms.LabelLabel6;
 		public System.Windows.Forms.Label txtDlblRequestedByName;
 		public System.Windows.Forms.TextBox txtRequestedBy;
 		public System.Windows.Forms.GroupBox frmRatee;
@@ -64,9 +64,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblCategoryNo;
 		private System.Windows.Forms.Label _lblCommonLabel_6;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTransactionDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label7;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel7;
 		public System.Windows.Forms.TextBox txtSuveyTemplate;
 		public System.Windows.Forms.Label txtDlBLSurveyTemplateName;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
@@ -89,13 +89,13 @@ namespace Xtreme
 			this.txtDlblDepartment = new System.Windows.Forms.Label();
 			this.txtDlblRateeName = new System.Windows.Forms.Label();
 			this.txtRateeCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtDlblDesignation = new System.Windows.Forms.Label();
 			this.txtDlblDepartmentName = new System.Windows.Forms.Label();
 			this.txtDlblDesignationName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
 			this.txtDlblRequestedByName = new System.Windows.Forms.Label();
 			this.txtRequestedBy = new System.Windows.Forms.TextBox();
 			this.txtEndDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
@@ -104,9 +104,9 @@ namespace Xtreme
 			this.lblCategoryNo = new System.Windows.Forms.Label();
 			this._lblCommonLabel_6 = new System.Windows.Forms.Label();
 			this.txtTransactionDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label7 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label7 = new System.Windows.Forms.Label();
 			this.txtSuveyTemplate = new System.Windows.Forms.TextBox();
 			this.txtDlBLSurveyTemplateName = new System.Windows.Forms.Label();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
@@ -127,13 +127,13 @@ namespace Xtreme
 			this.frmRatee.Controls.Add(this.txtDlblDepartment);
 			this.frmRatee.Controls.Add(this.txtDlblRateeName);
 			this.frmRatee.Controls.Add(this.txtRateeCode);
-			this.frmRatee.Controls.Add(this.System.Windows.Forms.Label3);
-			this.frmRatee.Controls.Add(this.System.Windows.Forms.Label4);
-			this.frmRatee.Controls.Add(this.System.Windows.Forms.Label5);
+			this.frmRatee.Controls.Add(this.Label3);
+			this.frmRatee.Controls.Add(this.Label4);
+			this.frmRatee.Controls.Add(this.Label5);
 			this.frmRatee.Controls.Add(this.txtDlblDesignation);
 			this.frmRatee.Controls.Add(this.txtDlblDepartmentName);
 			this.frmRatee.Controls.Add(this.txtDlblDesignationName);
-			this.frmRatee.Controls.Add(this.System.Windows.Forms.Label6);
+			this.frmRatee.Controls.Add(this.Label6);
 			this.frmRatee.Controls.Add(this.txtDlblRequestedByName);
 			this.frmRatee.Controls.Add(this.txtRequestedBy);
 			this.frmRatee.Enabled = true;
@@ -185,33 +185,33 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Ratee Code";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(9, 21);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(56, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 9;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Ratee Code";
+			this.Label3.Location = new System.Drawing.Point(9, 21);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(56, 14);
+			this.Label3.TabIndex = 9;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label4.Caption = "Department";
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(9, 44);
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(55, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 10;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label4.Text = "Department";
+			this.Label4.Location = new System.Drawing.Point(9, 44);
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(55, 14);
+			this.Label4.TabIndex = 10;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label5.Caption = "Designation";
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(9, 65);
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(56, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 11;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5.Text = "Designation";
+			this.Label5.Location = new System.Drawing.Point(9, 65);
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(56, 14);
+			this.Label5.TabIndex = 11;
 			// 
 			// txtDlblDesignation
 			// 
@@ -245,13 +245,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label6.Caption = "Requested By";
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(9, 87);
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(68, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 18;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label6.Text = "Requested By";
+			this.Label6.Location = new System.Drawing.Point(9, 87);
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(68, 14);
+			this.Label6.TabIndex = 18;
 			// 
 			// txtDlblRequestedByName
 			// 
@@ -292,7 +292,7 @@ namespace Xtreme
 			this.txtEndDate.Size = new System.Drawing.Size(116, 19);
 			this.txtEndDate.TabIndex = 7;
 			this.txtEndDate.Text = "05/08/2010";
-			this.txtEndDate.Value = 40395;
+			// this.txtEndDate.Value = 40395;
 			// 
 			// txtStartDate
 			// 
@@ -306,7 +306,7 @@ namespace Xtreme
 			this.txtStartDate.Size = new System.Drawing.Size(116, 19);
 			this.txtStartDate.TabIndex = 6;
 			this.txtStartDate.Text = "05/08/2010";
-			this.txtStartDate.Value = 40395;
+			// this.txtStartDate.Value = 40395;
 			// 
 			// txtAppraisal
 			// 
@@ -340,7 +340,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(369, 59);
-			// this._lblCommonLabel_6.mLabelId = 1233;
+			// // this._lblCommonLabel_6.mLabelId = 1233;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(82, 14);
 			this._lblCommonLabel_6.TabIndex = 2;
@@ -356,37 +356,37 @@ namespace Xtreme
 			this.txtTransactionDate.Size = new System.Drawing.Size(116, 19);
 			this.txtTransactionDate.TabIndex = 3;
 			this.txtTransactionDate.Text = "01/09/2010";
-			this.txtTransactionDate.Value = 40422;
+			// this.txtTransactionDate.Value = 40422;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "End Date";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 107);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(43, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 4;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "End Date";
+			this.Label1.Location = new System.Drawing.Point(6, 107);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(43, 14);
+			this.Label1.TabIndex = 4;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Start Date";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(6, 83);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(48, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 5;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Start Date";
+			this.Label2.Location = new System.Drawing.Point(6, 83);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(48, 14);
+			this.Label2.TabIndex = 5;
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.System.Windows.Forms.Label7.AllowDrop = true;
-			this.System.Windows.Forms.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label7.Caption = "Survey Template";
-			this.System.Windows.Forms.Label7.Location = new System.Drawing.Point(9, 252);
-			this.System.Windows.Forms.Label7.Name = "System.Windows.Forms.Label7";
-			this.System.Windows.Forms.Label7.Size = new System.Drawing.Size(81, 14);
-			this.System.Windows.Forms.Label7.TabIndex = 20;
+			this.Label7.AllowDrop = true;
+			this.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label7.Text = "Survey Template";
+			this.Label7.Location = new System.Drawing.Point(9, 252);
+			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Size = new System.Drawing.Size(81, 14);
+			this.Label7.TabIndex = 20;
 			// 
 			// txtSuveyTemplate
 			// 
@@ -479,9 +479,9 @@ namespace Xtreme
 			this.Controls.Add(this.lblCategoryNo);
 			this.Controls.Add(this._lblCommonLabel_6);
 			this.Controls.Add(this.txtTransactionDate);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label7);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label7);
 			this.Controls.Add(this.txtSuveyTemplate);
 			this.Controls.Add(this.txtDlBLSurveyTemplateName);
 			this.Controls.Add(this.cmbMastersList);
@@ -522,4 +522,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

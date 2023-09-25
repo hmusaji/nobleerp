@@ -82,7 +82,7 @@ namespace Xtreme
 			this.lblUnitNameA.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNameA.Text = "Unit Name (Arabic)";
 			this.lblUnitNameA.Location = new System.Drawing.Point(10, 88);
-			// this.lblUnitNameA.mLabelId = 959;
+			// // this.lblUnitNameA.mLabelId = 959;
 			this.lblUnitNameA.Name = "lblUnitNameA";
 			this.lblUnitNameA.Size = new System.Drawing.Size(91, 14);
 			this.lblUnitNameA.TabIndex = 8;
@@ -106,7 +106,7 @@ namespace Xtreme
 			this.lblDecimal.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDecimal.Text = "Decimal";
 			this.lblDecimal.Location = new System.Drawing.Point(220, 46);
-			// this.lblDecimal.mLabelId = 199;
+			// // this.lblDecimal.mLabelId = 199;
 			this.lblDecimal.Name = "lblDecimal";
 			this.lblDecimal.Size = new System.Drawing.Size(37, 14);
 			this.lblDecimal.TabIndex = 4;
@@ -118,7 +118,7 @@ namespace Xtreme
 			this.lblSymbol.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSymbol.Text = "Symbol";
 			this.lblSymbol.Location = new System.Drawing.Point(10, 46);
-			// this.lblSymbol.mLabelId = 772;
+			// // this.lblSymbol.mLabelId = 772;
 			this.lblSymbol.Name = "lblSymbol";
 			this.lblSymbol.Size = new System.Drawing.Size(35, 14);
 			this.lblSymbol.TabIndex = 2;
@@ -157,7 +157,7 @@ namespace Xtreme
 			this.lblUnitNameL.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNameL.Text = "Unit Name (English)";
 			this.lblUnitNameL.Location = new System.Drawing.Point(10, 67);
-			// this.lblUnitNameL.mLabelId = 836;
+			// // this.lblUnitNameL.mLabelId = 836;
 			this.lblUnitNameL.Name = "lblUnitNameL";
 			this.lblUnitNameL.Size = new System.Drawing.Size(93, 14);
 			this.lblUnitNameL.TabIndex = 6;
@@ -168,7 +168,7 @@ namespace Xtreme
 			this.lblUnitNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNo.Text = "Unit Code";
 			this.lblUnitNo.Location = new System.Drawing.Point(10, 25);
-			// this.lblUnitNo.mLabelId = 834;
+			// // this.lblUnitNo.mLabelId = 834;
 			this.lblUnitNo.Name = "lblUnitNo";
 			this.lblUnitNo.Size = new System.Drawing.Size(46, 14);
 			this.lblUnitNo.TabIndex = 0;
@@ -244,4 +244,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

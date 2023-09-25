@@ -46,13 +46,13 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtLeaveDaysAfterSOP;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.TextBox txtWDPerMonthAfterSOP;
 		public System.Windows.Forms.GroupBox Frame2;
 		public System.Windows.Forms.TextBox txtLeaveDaysBeforeSOP;
-		public System.Windows.Forms.Label System.Windows.Forms.Label8;
-		public System.Windows.Forms.Label System.Windows.Forms.Label9;
+		public System.Windows.Forms.LabelLabel8;
+		public System.Windows.Forms.LabelLabel9;
 		public System.Windows.Forms.TextBox txtWDPerMonthBeforeSOP;
 		public System.Windows.Forms.GroupBox Frame1;
 		public System.Windows.Forms.TextBox txtComment;
@@ -60,8 +60,8 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdUpdateEmployees;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label7;
-		public System.Windows.Forms.Label System.Windows.Forms.Label10;
+		public System.Windows.Forms.LabelLabel7;
+		public System.Windows.Forms.LabelLabel10;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
 		public System.Windows.Forms.GroupBox Frame3;
@@ -75,22 +75,22 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtALeaveName;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblLeaveNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
+		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel4;
 		public System.Windows.Forms.ComboBox cmbDeductUnpaidDays;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.TextBox txtLeaveSwitchOverPeriod;
-		public System.Windows.Forms.Label System.Windows.Forms.Label11;
+		public System.Windows.Forms.LabelLabel11;
 		public System.Windows.Forms.ComboBox cmbDeductPaidDays;
 		public System.Windows.Forms.ComboBox cmbDeductAbsentDays;
 		private System.Windows.Forms.RadioButton _optValidity_0;
 		private System.Windows.Forms.RadioButton _optValidity_1;
 		private System.Windows.Forms.RadioButton _optValidity_2;
 		public System.Windows.Forms.ComboBox cmbMonth;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		public System.Windows.Forms.TextBox txtEligibilityDays;
-		public System.Windows.Forms.Label System.Windows.Forms.Label13;
+		public System.Windows.Forms.LabelLabel13;
 		public System.Windows.Forms.GroupBox frmvalidityPeriod;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
@@ -114,13 +114,13 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.Frame2 = new System.Windows.Forms.GroupBox();
 			this.txtLeaveDaysAfterSOP = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.txtWDPerMonthAfterSOP = new System.Windows.Forms.TextBox();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.txtLeaveDaysBeforeSOP = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label8 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label9 = new System.Windows.Forms.Label();
+			this.Label8 = new System.Windows.Forms.Label();
+			this.Label9 = new System.Windows.Forms.Label();
 			this.txtWDPerMonthBeforeSOP = new System.Windows.Forms.TextBox();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.chkIncludeInDefaultLeaveTypes = new System.Windows.Forms.CheckBox();
@@ -128,8 +128,8 @@ namespace Xtreme
 			this.Frame3 = new System.Windows.Forms.GroupBox();
 			this._txtCommonTextBox_0 = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label7 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label10 = new System.Windows.Forms.Label();
+			this.Label7 = new System.Windows.Forms.Label();
+			this.Label10 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_1 = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_1 = new System.Windows.Forms.Label();
 			this.chkIncludeWeekend = new System.Windows.Forms.CheckBox();
@@ -142,13 +142,13 @@ namespace Xtreme
 			this.txtALeaveName = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();
 			this.lblLeaveNo = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
 			this.cmbDeductUnpaidDays = new System.Windows.Forms.ComboBox();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtLeaveSwitchOverPeriod = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label11 = new System.Windows.Forms.Label();
+			this.Label11 = new System.Windows.Forms.Label();
 			this.cmbDeductPaidDays = new System.Windows.Forms.ComboBox();
 			this.cmbDeductAbsentDays = new System.Windows.Forms.ComboBox();
 			this.tabLeaveDetails = new AxC1SizerLib.AxC1Tab();
@@ -157,9 +157,9 @@ namespace Xtreme
 			this._optValidity_1 = new System.Windows.Forms.RadioButton();
 			this._optValidity_2 = new System.Windows.Forms.RadioButton();
 			this.cmbMonth = new System.Windows.Forms.ComboBox();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this.txtEligibilityDays = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label13 = new System.Windows.Forms.Label();
+			this.Label13 = new System.Windows.Forms.Label();
 			this.frmLeaveEarnings = new AxC1SizerLib.AxC1Elastic();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -184,8 +184,8 @@ namespace Xtreme
 			this.Frame2.AllowDrop = true;
 			this.Frame2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame2.Controls.Add(this.txtLeaveDaysAfterSOP);
-			this.Frame2.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Frame2.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Frame2.Controls.Add(this.Label2);
+			this.Frame2.Controls.Add(this.Label3);
 			this.Frame2.Controls.Add(this.txtWDPerMonthAfterSOP);
 			this.Frame2.Enabled = true;
 			this.Frame2.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -212,25 +212,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Working Days Per Month";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(12, 39);
-			this.System.Windows.Forms.Label2.mLabelId = 1093;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(118, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 19;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Working Days Per Month";
+			this.Label2.Location = new System.Drawing.Point(12, 39);
+			// this.Label2.mLabelId = 1093;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(118, 14);
+			this.Label2.TabIndex = 19;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Leave Days";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(12, 18);
-			this.System.Windows.Forms.Label3.mLabelId = 369;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(58, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 20;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Leave Days";
+			this.Label3.Location = new System.Drawing.Point(12, 18);
+			// this.Label3.mLabelId = 369;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(58, 14);
+			this.Label3.TabIndex = 20;
 			// 
 			// txtWDPerMonthAfterSOP
 			// 
@@ -250,8 +250,8 @@ namespace Xtreme
 			this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this.txtLeaveDaysBeforeSOP);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label8);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label9);
+			this.Frame1.Controls.Add(this.Label8);
+			this.Frame1.Controls.Add(this.Label9);
 			this.Frame1.Controls.Add(this.txtWDPerMonthBeforeSOP);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -278,25 +278,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.System.Windows.Forms.Label8.AllowDrop = true;
-			this.System.Windows.Forms.Label8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label8.Caption = "Working Days Per Month";
-			this.System.Windows.Forms.Label8.Location = new System.Drawing.Point(8, 39);
-			this.System.Windows.Forms.Label8.mLabelId = 1093;
-			this.System.Windows.Forms.Label8.Name = "System.Windows.Forms.Label8";
-			this.System.Windows.Forms.Label8.Size = new System.Drawing.Size(118, 14);
-			this.System.Windows.Forms.Label8.TabIndex = 14;
+			this.Label8.AllowDrop = true;
+			this.Label8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label8.Text = "Working Days Per Month";
+			this.Label8.Location = new System.Drawing.Point(8, 39);
+			// this.Label8.mLabelId = 1093;
+			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Size = new System.Drawing.Size(118, 14);
+			this.Label8.TabIndex = 14;
 			// 
 			// System.Windows.Forms.Label9
 			// 
-			this.System.Windows.Forms.Label9.AllowDrop = true;
-			this.System.Windows.Forms.Label9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label9.Caption = "Leave Days";
-			this.System.Windows.Forms.Label9.Location = new System.Drawing.Point(8, 18);
-			this.System.Windows.Forms.Label9.mLabelId = 369;
-			this.System.Windows.Forms.Label9.Name = "System.Windows.Forms.Label9";
-			this.System.Windows.Forms.Label9.Size = new System.Drawing.Size(58, 14);
-			this.System.Windows.Forms.Label9.TabIndex = 15;
+			this.Label9.AllowDrop = true;
+			this.Label9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label9.Text = "Leave Days";
+			this.Label9.Location = new System.Drawing.Point(8, 18);
+			// this.Label9.mLabelId = 369;
+			this.Label9.Name = "System.Windows.Forms.Label9";
+			this.Label9.Size = new System.Drawing.Size(58, 14);
+			this.Label9.TabIndex = 15;
 			// 
 			// txtWDPerMonthBeforeSOP
 			// 
@@ -368,8 +368,8 @@ namespace Xtreme
 			this.Frame3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame3.Controls.Add(this._txtCommonTextBox_0);
 			this.Frame3.Controls.Add(this._txtDisplayLabel_0);
-			this.Frame3.Controls.Add(this.System.Windows.Forms.Label7);
-			this.Frame3.Controls.Add(this.System.Windows.Forms.Label10);
+			this.Frame3.Controls.Add(this.Label7);
+			this.Frame3.Controls.Add(this.Label10);
 			this.Frame3.Controls.Add(this._txtCommonTextBox_1);
 			this.Frame3.Controls.Add(this._txtDisplayLabel_1);
 			this.Frame3.Enabled = true;
@@ -409,25 +409,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.System.Windows.Forms.Label7.AllowDrop = true;
-			this.System.Windows.Forms.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label7.Caption = "Earning";
-			this.System.Windows.Forms.Label7.Location = new System.Drawing.Point(10, 25);
-			this.System.Windows.Forms.Label7.mLabelId = 1995;
-			this.System.Windows.Forms.Label7.Name = "System.Windows.Forms.Label7";
-			this.System.Windows.Forms.Label7.Size = new System.Drawing.Size(36, 14);
-			this.System.Windows.Forms.Label7.TabIndex = 5;
+			this.Label7.AllowDrop = true;
+			this.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label7.Text = "Earning";
+			this.Label7.Location = new System.Drawing.Point(10, 25);
+			// this.Label7.mLabelId = 1995;
+			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Size = new System.Drawing.Size(36, 14);
+			this.Label7.TabIndex = 5;
 			// 
 			// System.Windows.Forms.Label10
 			// 
-			this.System.Windows.Forms.Label10.AllowDrop = true;
-			this.System.Windows.Forms.Label10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label10.Caption = "Deduction";
-			this.System.Windows.Forms.Label10.Location = new System.Drawing.Point(10, 44);
-			this.System.Windows.Forms.Label10.mLabelId = 1997;
-			this.System.Windows.Forms.Label10.Name = "System.Windows.Forms.Label10";
-			this.System.Windows.Forms.Label10.Size = new System.Drawing.Size(48, 14);
-			this.System.Windows.Forms.Label10.TabIndex = 6;
+			this.Label10.AllowDrop = true;
+			this.Label10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label10.Text = "Deduction";
+			this.Label10.Location = new System.Drawing.Point(10, 44);
+			// this.Label10.mLabelId = 1997;
+			this.Label10.Name = "System.Windows.Forms.Label10";
+			this.Label10.Size = new System.Drawing.Size(48, 14);
+			this.Label10.TabIndex = 6;
 			// 
 			// _txtCommonTextBox_1
 			// 
@@ -525,7 +525,7 @@ namespace Xtreme
 			this.lblLeaveName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLeaveName.Text = "Leave Name (English)";
 			this.lblLeaveName.Location = new System.Drawing.Point(11, 61);
-			// this.lblLeaveName.mLabelId = 1125;
+			// // this.lblLeaveName.mLabelId = 1125;
 			this.lblLeaveName.Name = "lblLeaveName";
 			this.lblLeaveName.Size = new System.Drawing.Size(105, 14);
 			this.lblLeaveName.TabIndex = 24;
@@ -549,7 +549,7 @@ namespace Xtreme
 			this.lblALeaveName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblALeaveName.Text = "Leave Name (Arabic)";
 			this.lblALeaveName.Location = new System.Drawing.Point(11, 82);
-			// this.lblALeaveName.mLabelId = 1126;
+			// // this.lblALeaveName.mLabelId = 1126;
 			this.lblALeaveName.Name = "lblALeaveName";
 			this.lblALeaveName.Size = new System.Drawing.Size(103, 14);
 			this.lblALeaveName.TabIndex = 26;
@@ -574,7 +574,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(11, 292);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 28;
@@ -585,43 +585,43 @@ namespace Xtreme
 			this.lblLeaveNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLeaveNo.Text = "Leave Code";
 			this.lblLeaveNo.Location = new System.Drawing.Point(11, 40);
-			// this.lblLeaveNo.mLabelId = 1124;
+			// // this.lblLeaveNo.mLabelId = 1124;
 			this.lblLeaveNo.Name = "lblLeaveNo";
 			this.lblLeaveNo.Size = new System.Drawing.Size(58, 14);
 			this.lblLeaveNo.TabIndex = 29;
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label6.Caption = "Leave Switch Over Period";
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(11, 143);
-			this.System.Windows.Forms.Label6.mLabelId = 1128;
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(127, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 30;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label6.Text = "Leave Switch Over Period";
+			this.Label6.Location = new System.Drawing.Point(11, 143);
+			// this.Label6.mLabelId = 1128;
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(127, 14);
+			this.Label6.TabIndex = 30;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Leave Type";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(11, 104);
-			this.System.Windows.Forms.Label1.mLabelId = 1127;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(57, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 31;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Leave Type";
+			this.Label1.Location = new System.Drawing.Point(11, 104);
+			// this.Label1.mLabelId = 1127;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(57, 14);
+			this.Label1.TabIndex = 31;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label4.Caption = "Deduct Paid Days";
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(8, 243);
-			this.System.Windows.Forms.Label4.mLabelId = 1089;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(85, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 32;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label4.Text = "Deduct Paid Days";
+			this.Label4.Location = new System.Drawing.Point(8, 243);
+			// this.Label4.mLabelId = 1089;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(85, 14);
+			this.Label4.TabIndex = 32;
 			// 
 			// cmbDeductUnpaidDays
 			// 
@@ -633,14 +633,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label5.Caption = "Deduct Unpaid Days";
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(258, 241);
-			this.System.Windows.Forms.Label5.mLabelId = 1095;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(98, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 34;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5.Text = "Deduct Unpaid Days";
+			this.Label5.Location = new System.Drawing.Point(258, 241);
+			// this.Label5.mLabelId = 1095;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(98, 14);
+			this.Label5.TabIndex = 34;
 			// 
 			// txtLeaveSwitchOverPeriod
 			// 
@@ -655,14 +655,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label11
 			// 
-			this.System.Windows.Forms.Label11.AllowDrop = true;
-			this.System.Windows.Forms.Label11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label11.Caption = "Deduct Absent Days";
-			this.System.Windows.Forms.Label11.Location = new System.Drawing.Point(8, 266);
-			this.System.Windows.Forms.Label11.mLabelId = 2174;
-			this.System.Windows.Forms.Label11.Name = "System.Windows.Forms.Label11";
-			this.System.Windows.Forms.Label11.Size = new System.Drawing.Size(100, 14);
-			this.System.Windows.Forms.Label11.TabIndex = 36;
+			this.Label11.AllowDrop = true;
+			this.Label11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label11.Text = "Deduct Absent Days";
+			this.Label11.Location = new System.Drawing.Point(8, 266);
+			// this.Label11.mLabelId = 2174;
+			this.Label11.Name = "System.Windows.Forms.Label11";
+			this.Label11.Size = new System.Drawing.Size(100, 14);
+			this.Label11.TabIndex = 36;
 			// 
 			// cmbDeductPaidDays
 			// 
@@ -700,9 +700,9 @@ namespace Xtreme
 			this.frmvalidityPeriod.Controls.Add(this._optValidity_1);
 			this.frmvalidityPeriod.Controls.Add(this._optValidity_2);
 			this.frmvalidityPeriod.Controls.Add(this.cmbMonth);
-			this.frmvalidityPeriod.Controls.Add(this.System.Windows.Forms.Label12);
+			this.frmvalidityPeriod.Controls.Add(this.Label12);
 			this.frmvalidityPeriod.Controls.Add(this.txtEligibilityDays);
-			this.frmvalidityPeriod.Controls.Add(this.System.Windows.Forms.Label13);
+			this.frmvalidityPeriod.Controls.Add(this.Label13);
 			this.frmvalidityPeriod.Enabled = true;
 			this.frmvalidityPeriod.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.frmvalidityPeriod.Location = new System.Drawing.Point(1, 23);
@@ -785,13 +785,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label12.Caption = "Month";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(54, 41);
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(29, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 45;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label12.Text = "Month";
+			this.Label12.Location = new System.Drawing.Point(54, 41);
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(29, 14);
+			this.Label12.TabIndex = 45;
 			// 
 			// txtEligibilityDays
 			// 
@@ -805,13 +805,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label13
 			// 
-			this.System.Windows.Forms.Label13.AllowDrop = true;
-			this.System.Windows.Forms.Label13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label13.Caption = "Eligbility Days";
-			this.System.Windows.Forms.Label13.Location = new System.Drawing.Point(240, 26);
-			this.System.Windows.Forms.Label13.Name = "System.Windows.Forms.Label13";
-			this.System.Windows.Forms.Label13.Size = new System.Drawing.Size(65, 14);
-			this.System.Windows.Forms.Label13.TabIndex = 47;
+			this.Label13.AllowDrop = true;
+			this.Label13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label13.Text = "Eligbility Days";
+			this.Label13.Location = new System.Drawing.Point(240, 26);
+			this.Label13.Name = "System.Windows.Forms.Label13";
+			this.Label13.Size = new System.Drawing.Size(65, 14);
+			this.Label13.TabIndex = 47;
 			// 
 			// frmLeaveEarnings
 			// 
@@ -897,13 +897,13 @@ namespace Xtreme
 			this.Controls.Add(this.txtALeaveName);
 			this.Controls.Add(this.lblComments);
 			this.Controls.Add(this.lblLeaveNo);
-			this.Controls.Add(this.System.Windows.Forms.Label6);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
+			this.Controls.Add(this.Label6);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label4);
 			this.Controls.Add(this.cmbDeductUnpaidDays);
-			this.Controls.Add(this.System.Windows.Forms.Label5);
+			this.Controls.Add(this.Label5);
 			this.Controls.Add(this.txtLeaveSwitchOverPeriod);
-			this.Controls.Add(this.System.Windows.Forms.Label11);
+			this.Controls.Add(this.Label11);
 			this.Controls.Add(this.cmbDeductPaidDays);
 			this.Controls.Add(this.cmbDeductAbsentDays);
 			this.Controls.Add(this.tabLeaveDetails);
@@ -966,4 +966,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

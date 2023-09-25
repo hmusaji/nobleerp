@@ -201,7 +201,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.Text = "Salesman";
 			this._lblCommonLabel_8.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(8, 12);
-			// this._lblCommonLabel_8.mLabelId = 687;
+			// // this._lblCommonLabel_8.mLabelId = 687;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(47, 14);
 			this._lblCommonLabel_8.TabIndex = 22;
@@ -272,7 +272,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 4;
 			this.txtVoucherDate.Text = "07/18/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// txtLocation
 			// 
@@ -298,7 +298,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.Text = "Voucher No.";
 			this._lblCommonLabel_5.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(6, 38);
-			// this._lblCommonLabel_5.mLabelId = 850;
+			// // this._lblCommonLabel_5.mLabelId = 850;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_5.TabIndex = 6;
@@ -310,7 +310,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.Text = "Voucher Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(6, 59);
-			// this._lblCommonLabel_6.mLabelId = 848;
+			// // this._lblCommonLabel_6.mLabelId = 848;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(67, 14);
 			this._lblCommonLabel_6.TabIndex = 7;
@@ -345,7 +345,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.Text = "Customer";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 82);
-			// this._lblCommonLabel_0.mLabelId = 848;
+			// // this._lblCommonLabel_0.mLabelId = 848;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(46, 14);
 			this._lblCommonLabel_0.TabIndex = 10;
@@ -382,7 +382,7 @@ namespace Xtreme
 			this._lblSource_1.Text = "Source";
 			this._lblSource_1.ForeColor = System.Drawing.Color.Black;
 			this._lblSource_1.Location = new System.Drawing.Point(488, 34);
-			// this._lblSource_1.mLabelId = 850;
+			// // this._lblSource_1.mLabelId = 850;
 			this._lblSource_1.Name = "_lblSource_1";
 			this._lblSource_1.Size = new System.Drawing.Size(35, 14);
 			this._lblSource_1.TabIndex = 13;
@@ -412,7 +412,7 @@ namespace Xtreme
 			this._lblSourceVoucherType_1.Text = "Voucher Type";
 			this._lblSourceVoucherType_1.ForeColor = System.Drawing.Color.Black;
 			this._lblSourceVoucherType_1.Location = new System.Drawing.Point(488, 53);
-			// this._lblSourceVoucherType_1.mLabelId = 416;
+			// // this._lblSourceVoucherType_1.mLabelId = 416;
 			this._lblSourceVoucherType_1.Name = "_lblSourceVoucherType_1";
 			this._lblSourceVoucherType_1.Size = new System.Drawing.Size(69, 14);
 			this._lblSourceVoucherType_1.TabIndex = 15;
@@ -425,7 +425,7 @@ namespace Xtreme
 			this._lblVoucherNo_1.Text = "Voucher No.";
 			this._lblVoucherNo_1.ForeColor = System.Drawing.Color.Black;
 			this._lblVoucherNo_1.Location = new System.Drawing.Point(488, 74);
-			// this._lblVoucherNo_1.mLabelId = 850;
+			// // this._lblVoucherNo_1.mLabelId = 850;
 			this._lblVoucherNo_1.Name = "_lblVoucherNo_1";
 			this._lblVoucherNo_1.Size = new System.Drawing.Size(61, 14);
 			this._lblVoucherNo_1.TabIndex = 16;
@@ -453,7 +453,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.Text = "Location";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(8, 14);
-			// this._lblCommonLabel_1.mLabelId = 850;
+			// // this._lblCommonLabel_1.mLabelId = 850;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(41, 14);
 			this._lblCommonLabel_1.TabIndex = 18;
@@ -694,4 +694,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -126,7 +126,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Paid Days";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(6, 10);
-			// this._lblCommonLabel_8.mLabelId = 1925;
+			// // this._lblCommonLabel_8.mLabelId = 1925;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(48, 14);
 			this._lblCommonLabel_8.TabIndex = 3;
@@ -187,4 +187,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

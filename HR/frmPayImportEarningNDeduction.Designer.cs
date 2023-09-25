@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.Button btnDeleteLine;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDMonthDate;
 		public System.Windows.Forms.CheckBox chkExcludeLeaveEmployee;
 		public System.Windows.Forms.Button btnLoadGrid;
@@ -66,7 +66,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayImportEarningNDeduction));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.btnDeleteLine = new System.Windows.Forms.Button();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtDMonthDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.chkExcludeLeaveEmployee = new System.Windows.Forms.CheckBox();
 			this.btnLoadGrid = new System.Windows.Forms.Button();
@@ -95,14 +95,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Enabled = false;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(12, 9);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(76, 22);
-			this.System.Windows.Forms.Label1.TabIndex = 6;
-			this.System.Windows.Forms.Label1.Text = "Current Period";
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Enabled = false;
+			this.Label1.Location = new System.Drawing.Point(12, 9);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(76, 22);
+			this.Label1.TabIndex = 6;
+			this.Label1.Text = "Current Period";
 			// 
 			// txtDMonthDate
 			// 
@@ -119,7 +119,7 @@ namespace Xtreme
 			this.txtDMonthDate.Size = new System.Drawing.Size(124, 22);
 			this.txtDMonthDate.TabIndex = 5;
 			this.txtDMonthDate.Text = "31-Jan-2012";
-			this.txtDMonthDate.Value = 40939;
+			// this.txtDMonthDate.Value = 40939;
 			// 
 			// chkExcludeLeaveEmployee
 			// 
@@ -274,7 +274,7 @@ namespace Xtreme
 			this.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.ClientSize = new System.Drawing.Size(786, 565);
 			this.Controls.Add(this.btnDeleteLine);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtDMonthDate);
 			this.Controls.Add(this.chkExcludeLeaveEmployee);
 			this.Controls.Add(this.btnLoadGrid);
@@ -309,4 +309,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

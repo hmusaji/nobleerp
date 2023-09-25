@@ -87,7 +87,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(6, 56);
-			// this._lblCommonLabel_2.mLabelId = 236;
+			// // this._lblCommonLabel_2.mLabelId = 236;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 0;
@@ -123,7 +123,7 @@ namespace Xtreme
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Basic Salary";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(6, 77);
-			// this._lblCommonLabel_4.mLabelId = 1970;
+			// // this._lblCommonLabel_4.mLabelId = 1970;
 			this._lblCommonLabel_4.Name = "_lblCommonLabel_4";
 			this._lblCommonLabel_4.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_4.TabIndex = 3;
@@ -143,7 +143,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Total Salary";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 98);
-			// this._lblCommonLabel_0.mLabelId = 818;
+			// // this._lblCommonLabel_0.mLabelId = 818;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(57, 14);
 			this._lblCommonLabel_0.TabIndex = 5;
@@ -253,4 +253,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

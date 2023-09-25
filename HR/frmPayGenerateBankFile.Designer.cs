@@ -41,25 +41,25 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "cmdPrintReport", "_GenerateOption_1", "_GenerateOption_0", "System.Windows.Forms.Label11", "Frame1", "frmLeave", "txtDToTransDate", "txtDFromTransDate", "System.Windows.Forms.Label6", "txtLeaveToTransNo", "lblLeaveEmpBankName", "txtLeaveEmpBankCd", "System.Windows.Forms.Label7", "txtLeaveCompBankCd", "System.Windows.Forms.Label8", "lblLeaveCompBankName", "_lblCommon_2", "txtLeaveSponsorCd", "lblLeaveSponsorName", "_lblCommon_3", "txtLeaveProjectCd", "lblLeaveProjectName", "txtLeaveFilePath", "System.Windows.Forms.Label12", "txtLeaveFromTransNo", "System.Windows.Forms.Label13", "System.Windows.Forms.Label9", "System.Windows.Forms.Label10", "frmResumtion", "chkSelectAll", "System.Windows.Forms.Label4", "txtDepartmentNameTo", "txtDepartmentCodeTo", "txtEmpBankName", "txtEmpBankAccount", "System.Windows.Forms.Label2", "txtBankAccountNo", "lblMasterCode", "txtFromEmpNo", "lblLocationCode", "txtToEmpNo", "_System.Windows.Forms.Label1_0", "lblVoucherRange", "txtToEmpName", "txtFromEmpName", "txtBankName", "cmbMonth", "cmbYear", "lblToVoucherNo", "lblFromVoucherNo", "_lblCommon_41", "txtSponsorCd", "txtDlblSponsorName", "_lblCommon_0", "txtProjectCd", "txtDProjectName", "txtFilePath", "System.Windows.Forms.Label5", "_lblCommon_1", "txtCompanyCode", "txtDlblCompanyName", "txtDepartmentName", "txtDepartmentCode", "System.Windows.Forms.Label3", "Shape1", "frmEmployee", "tabBankDisk", "cmdOKCancel", "GenerateOption", "System.Windows.Forms.Label1", "lblCommon"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "cmdPrintReport", "_GenerateOption_1", "_GenerateOption_0", "System.Windows.Forms.Label11", "Frame1", "frmLeave", "txtDToTransDate", "txtDFromTransDate", "System.Windows.Forms.Label6", "txtLeaveToTransNo", "lblLeaveEmpBankName", "txtLeaveEmpBankCd", "System.Windows.Forms.Label7", "txtLeaveCompBankCd", "System.Windows.Forms.Label8", "lblLeaveCompBankName", "_lblCommon_2", "txtLeaveSponsorCd", "lblLeaveSponsorName", "_lblCommon_3", "txtLeaveProjectCd", "lblLeaveProjectName", "txtLeaveFilePath", "System.Windows.Forms.Label12", "txtLeaveFromTransNo", "System.Windows.Forms.Label13", "System.Windows.Forms.Label9", "System.Windows.Forms.Label10", "frmResumtion", "chkSelectAll", "System.Windows.Forms.Label4", "txtDepartmentNameTo", "txtDepartmentCodeTo", "txtEmpBankName", "txtEmpBankAccount", "System.Windows.Forms.Label2", "txtBankAccountNo", "lblMasterCode", "txtFromEmpNo", "lblLocationCode", "txtToEmpNo", "Label1_0", "lblVoucherRange", "txtToEmpName", "txtFromEmpName", "txtBankName", "cmbMonth", "cmbYear", "lblToVoucherNo", "lblFromVoucherNo", "_lblCommon_41", "txtSponsorCd", "txtDlblSponsorName", "_lblCommon_0", "txtProjectCd", "txtDProjectName", "txtFilePath", "System.Windows.Forms.Label5", "_lblCommon_1", "txtCompanyCode", "txtDlblCompanyName", "txtDepartmentName", "txtDepartmentCode", "System.Windows.Forms.Label3", "Shape1", "frmEmployee", "tabBankDisk", "cmdOKCancel", "GenerateOption", "System.Windows.Forms.Label1", "lblCommon"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.Button cmdPrintReport;
 		private System.Windows.Forms.RadioButton _GenerateOption_1;
 		private System.Windows.Forms.RadioButton _GenerateOption_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label11;
+		public System.Windows.Forms.LabelLabel11;
 		public System.Windows.Forms.Panel Frame1;
 		public System.Windows.Forms.Panel frmLeave;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDToTransDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDFromTransDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
+		public System.Windows.Forms.LabelLabel6;
 		public System.Windows.Forms.TextBox txtLeaveToTransNo;
 		public System.Windows.Forms.Label lblLeaveEmpBankName;
 		public System.Windows.Forms.TextBox txtLeaveEmpBankCd;
-		public System.Windows.Forms.Label System.Windows.Forms.Label7;
+		public System.Windows.Forms.LabelLabel7;
 		public System.Windows.Forms.TextBox txtLeaveCompBankCd;
-		public System.Windows.Forms.Label System.Windows.Forms.Label8;
+		public System.Windows.Forms.LabelLabel8;
 		public System.Windows.Forms.Label lblLeaveCompBankName;
 		private System.Windows.Forms.Label _lblCommon_2;
 		public System.Windows.Forms.TextBox txtLeaveSponsorCd;
@@ -68,25 +68,25 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLeaveProjectCd;
 		public System.Windows.Forms.Label lblLeaveProjectName;
 		public System.Windows.Forms.TextBox txtLeaveFilePath;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		public System.Windows.Forms.TextBox txtLeaveFromTransNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label13;
-		public System.Windows.Forms.Label System.Windows.Forms.Label9;
-		public System.Windows.Forms.Label System.Windows.Forms.Label10;
+		public System.Windows.Forms.LabelLabel13;
+		public System.Windows.Forms.LabelLabel9;
+		public System.Windows.Forms.LabelLabel10;
 		public System.Windows.Forms.Panel frmResumtion;
 		public System.Windows.Forms.CheckBox chkSelectAll;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
+		public System.Windows.Forms.LabelLabel4;
 		public System.Windows.Forms.Label txtDepartmentNameTo;
 		public System.Windows.Forms.TextBox txtDepartmentCodeTo;
 		public System.Windows.Forms.Label txtEmpBankName;
 		public System.Windows.Forms.TextBox txtEmpBankAccount;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.TextBox txtBankAccountNo;
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.TextBox txtFromEmpNo;
 		public System.Windows.Forms.Label lblLocationCode;
 		public System.Windows.Forms.TextBox txtToEmpNo;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_0;
+		private System.Windows.Forms.Label Label1_0;
 		public System.Windows.Forms.Label lblVoucherRange;
 		public System.Windows.Forms.Label txtToEmpName;
 		public System.Windows.Forms.Label txtFromEmpName;
@@ -102,19 +102,19 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtProjectCd;
 		public System.Windows.Forms.Label txtDProjectName;
 		public System.Windows.Forms.TextBox txtFilePath;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel5;
 		private System.Windows.Forms.Label _lblCommon_1;
 		public System.Windows.Forms.TextBox txtCompanyCode;
 		public System.Windows.Forms.Label txtDlblCompanyName;
 		public System.Windows.Forms.Label txtDepartmentName;
 		public System.Windows.Forms.TextBox txtDepartmentCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel3;
 		public UpgradeHelpers.Gui.ShapeHelper Shape1;
 		public System.Windows.Forms.Panel frmEmployee;
 		public AxC1SizerLib.AxC1Tab tabBankDisk;
 		public UCOkCancel cmdOKCancel;
 		public System.Windows.Forms.RadioButton[] GenerateOption = new System.Windows.Forms.RadioButton[2];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[1];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[1];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[42];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -129,19 +129,19 @@ namespace Xtreme
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this._GenerateOption_1 = new System.Windows.Forms.RadioButton();
 			this._GenerateOption_0 = new System.Windows.Forms.RadioButton();
-			this.System.Windows.Forms.Label11 = new System.Windows.Forms.Label();
+			this.Label11 = new System.Windows.Forms.Label();
 			this.tabBankDisk = new AxC1SizerLib.AxC1Tab();
 			this.frmLeave = new System.Windows.Forms.Panel();
 			this.frmResumtion = new System.Windows.Forms.Panel();
 			this.txtDToTransDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtDFromTransDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
 			this.txtLeaveToTransNo = new System.Windows.Forms.TextBox();
 			this.lblLeaveEmpBankName = new System.Windows.Forms.Label();
 			this.txtLeaveEmpBankCd = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label7 = new System.Windows.Forms.Label();
+			this.Label7 = new System.Windows.Forms.Label();
 			this.txtLeaveCompBankCd = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label8 = new System.Windows.Forms.Label();
+			this.Label8 = new System.Windows.Forms.Label();
 			this.lblLeaveCompBankName = new System.Windows.Forms.Label();
 			this._lblCommon_2 = new System.Windows.Forms.Label();
 			this.txtLeaveSponsorCd = new System.Windows.Forms.TextBox();
@@ -150,25 +150,25 @@ namespace Xtreme
 			this.txtLeaveProjectCd = new System.Windows.Forms.TextBox();
 			this.lblLeaveProjectName = new System.Windows.Forms.Label();
 			this.txtLeaveFilePath = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this.txtLeaveFromTransNo = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label13 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label9 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label10 = new System.Windows.Forms.Label();
+			this.Label13 = new System.Windows.Forms.Label();
+			this.Label9 = new System.Windows.Forms.Label();
+			this.Label10 = new System.Windows.Forms.Label();
 			this.frmEmployee = new System.Windows.Forms.Panel();
 			this.chkSelectAll = new System.Windows.Forms.CheckBox();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
 			this.txtDepartmentNameTo = new System.Windows.Forms.Label();
 			this.txtDepartmentCodeTo = new System.Windows.Forms.TextBox();
 			this.txtEmpBankName = new System.Windows.Forms.Label();
 			this.txtEmpBankAccount = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtBankAccountNo = new System.Windows.Forms.TextBox();
 			this.lblMasterCode = new System.Windows.Forms.Label();
 			this.txtFromEmpNo = new System.Windows.Forms.TextBox();
 			this.lblLocationCode = new System.Windows.Forms.Label();
 			this.txtToEmpNo = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_0 = new System.Windows.Forms.Label();
+			this.Label1_0 = new System.Windows.Forms.Label();
 			this.lblVoucherRange = new System.Windows.Forms.Label();
 			this.txtToEmpName = new System.Windows.Forms.Label();
 			this.txtFromEmpName = new System.Windows.Forms.Label();
@@ -184,13 +184,13 @@ namespace Xtreme
 			this.txtProjectCd = new System.Windows.Forms.TextBox();
 			this.txtDProjectName = new System.Windows.Forms.Label();
 			this.txtFilePath = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this._lblCommon_1 = new System.Windows.Forms.Label();
 			this.txtCompanyCode = new System.Windows.Forms.TextBox();
 			this.txtDlblCompanyName = new System.Windows.Forms.Label();
 			this.txtDepartmentName = new System.Windows.Forms.Label();
 			this.txtDepartmentCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.Shape1 = new UpgradeHelpers.Gui.ShapeHelper();
 			this.cmdOKCancel = new UCOkCancel();
 			// //((System.ComponentModel.ISupportInitialize) this.tabBankDisk).BeginInit();
@@ -223,7 +223,7 @@ namespace Xtreme
 			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this._GenerateOption_1);
 			this.Frame1.Controls.Add(this._GenerateOption_0);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label11);
+			this.Frame1.Controls.Add(this.Label11);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Frame1.Location = new System.Drawing.Point(6, 3);
@@ -277,14 +277,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label11
 			// 
-			this.System.Windows.Forms.Label11.AllowDrop = true;
-			this.System.Windows.Forms.Label11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label11.Caption = "Generate For :";
-			this.System.Windows.Forms.Label11.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label11.Location = new System.Drawing.Point(6, 9);
-			this.System.Windows.Forms.Label11.Name = "System.Windows.Forms.Label11";
-			this.System.Windows.Forms.Label11.Size = new System.Drawing.Size(70, 14);
-			this.System.Windows.Forms.Label11.TabIndex = 63;
+			this.Label11.AllowDrop = true;
+			this.Label11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label11.Text = "Generate For :";
+			this.Label11.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label11.Location = new System.Drawing.Point(6, 9);
+			this.Label11.Name = "System.Windows.Forms.Label11";
+			this.Label11.Size = new System.Drawing.Size(70, 14);
+			this.Label11.TabIndex = 63;
 			// 
 			// tabBankDisk
 			// 
@@ -321,13 +321,13 @@ namespace Xtreme
 			this.frmResumtion.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.frmResumtion.Controls.Add(this.txtDToTransDate);
 			this.frmResumtion.Controls.Add(this.txtDFromTransDate);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label6);
+			this.frmResumtion.Controls.Add(this.Label6);
 			this.frmResumtion.Controls.Add(this.txtLeaveToTransNo);
 			this.frmResumtion.Controls.Add(this.lblLeaveEmpBankName);
 			this.frmResumtion.Controls.Add(this.txtLeaveEmpBankCd);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label7);
+			this.frmResumtion.Controls.Add(this.Label7);
 			this.frmResumtion.Controls.Add(this.txtLeaveCompBankCd);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label8);
+			this.frmResumtion.Controls.Add(this.Label8);
 			this.frmResumtion.Controls.Add(this.lblLeaveCompBankName);
 			this.frmResumtion.Controls.Add(this._lblCommon_2);
 			this.frmResumtion.Controls.Add(this.txtLeaveSponsorCd);
@@ -336,11 +336,11 @@ namespace Xtreme
 			this.frmResumtion.Controls.Add(this.txtLeaveProjectCd);
 			this.frmResumtion.Controls.Add(this.lblLeaveProjectName);
 			this.frmResumtion.Controls.Add(this.txtLeaveFilePath);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label12);
+			this.frmResumtion.Controls.Add(this.Label12);
 			this.frmResumtion.Controls.Add(this.txtLeaveFromTransNo);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label13);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label9);
-			this.frmResumtion.Controls.Add(this.System.Windows.Forms.Label10);
+			this.frmResumtion.Controls.Add(this.Label13);
+			this.frmResumtion.Controls.Add(this.Label9);
+			this.frmResumtion.Controls.Add(this.Label10);
 			this.frmResumtion.Enabled = true;
 			this.frmResumtion.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.frmResumtion.Location = new System.Drawing.Point(496, 23);
@@ -361,7 +361,7 @@ namespace Xtreme
 			this.txtDToTransDate.Size = new System.Drawing.Size(94, 19);
 			this.txtDToTransDate.TabIndex = 58;
 			this.txtDToTransDate.Text = "09-Oct-2012";
-			this.txtDToTransDate.Value = 41191;
+			// this.txtDToTransDate.Value = 41191;
 			// 
 			// txtDFromTransDate
 			// 
@@ -374,19 +374,19 @@ namespace Xtreme
 			this.txtDFromTransDate.Size = new System.Drawing.Size(100, 19);
 			this.txtDFromTransDate.TabIndex = 57;
 			this.txtDFromTransDate.Text = "09-Oct-2012";
-			this.txtDFromTransDate.Value = 41191;
+			// this.txtDFromTransDate.Value = 41191;
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label6.Caption = "To Transaction No";
-			this.System.Windows.Forms.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(15, 123);
-			this.System.Windows.Forms.Label6.mLabelId = 2102;
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(88, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 46;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.White;
+			this.Label6.Text = "To Transaction No";
+			this.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label6.Location = new System.Drawing.Point(15, 123);
+			// this.Label6.mLabelId = 2102;
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(88, 14);
+			this.Label6.TabIndex = 46;
 			// 
 			// txtLeaveToTransNo
 			// 
@@ -434,15 +434,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.System.Windows.Forms.Label7.AllowDrop = true;
-			this.System.Windows.Forms.Label7.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label7.Caption = "Bank Code";
-			this.System.Windows.Forms.Label7.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label7.Location = new System.Drawing.Point(15, 35);
-			this.System.Windows.Forms.Label7.mLabelId = 1151;
-			this.System.Windows.Forms.Label7.Name = "System.Windows.Forms.Label7";
-			this.System.Windows.Forms.Label7.Size = new System.Drawing.Size(52, 14);
-			this.System.Windows.Forms.Label7.TabIndex = 48;
+			this.Label7.AllowDrop = true;
+			this.Label7.BackColor = System.Drawing.Color.White;
+			this.Label7.Text = "Bank Code";
+			this.Label7.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label7.Location = new System.Drawing.Point(15, 35);
+			// this.Label7.mLabelId = 1151;
+			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Size = new System.Drawing.Size(52, 14);
+			this.Label7.TabIndex = 48;
 			// 
 			// txtLeaveCompBankCd
 			// 
@@ -461,15 +461,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.System.Windows.Forms.Label8.AllowDrop = true;
-			this.System.Windows.Forms.Label8.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label8.Caption = "Comapny Bank Account";
-			this.System.Windows.Forms.Label8.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label8.Location = new System.Drawing.Point(15, 15);
-			this.System.Windows.Forms.Label8.mLabelId = 2071;
-			this.System.Windows.Forms.Label8.Name = "System.Windows.Forms.Label8";
-			this.System.Windows.Forms.Label8.Size = new System.Drawing.Size(116, 14);
-			this.System.Windows.Forms.Label8.TabIndex = 49;
+			this.Label8.AllowDrop = true;
+			this.Label8.BackColor = System.Drawing.Color.White;
+			this.Label8.Text = "Comapny Bank Account";
+			this.Label8.ForeColor = System.Drawing.Color.Black;
+			this.Label8.Location = new System.Drawing.Point(15, 15);
+			// this.Label8.mLabelId = 2071;
+			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Size = new System.Drawing.Size(116, 14);
+			this.Label8.TabIndex = 49;
 			// 
 			// lblLeaveCompBankName
 			// 
@@ -487,7 +487,7 @@ namespace Xtreme
 			this._lblCommon_2.Text = "Sponsor Code";
 			this._lblCommon_2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_2.Location = new System.Drawing.Point(15, 58);
-			// this._lblCommon_2.mLabelId = 1939;
+			// // this._lblCommon_2.mLabelId = 1939;
 			this._lblCommon_2.Name = "_lblCommon_2";
 			this._lblCommon_2.Size = new System.Drawing.Size(67, 13);
 			this._lblCommon_2.TabIndex = 51;
@@ -525,7 +525,7 @@ namespace Xtreme
 			this._lblCommon_3.Text = "Project Code";
 			this._lblCommon_3.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_3.Location = new System.Drawing.Point(15, 81);
-			// this._lblCommon_3.mLabelId = 2160;
+			// // this._lblCommon_3.mLabelId = 2160;
 			this._lblCommon_3.Name = "_lblCommon_3";
 			this._lblCommon_3.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_3.TabIndex = 53;
@@ -571,15 +571,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label12.Caption = "Bank Disk File Path";
-			this.System.Windows.Forms.Label12.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(15, 168);
-			this.System.Windows.Forms.Label12.mLabelId = 1917;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(89, 13);
-			this.System.Windows.Forms.Label12.TabIndex = 55;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.White;
+			this.Label12.Text = "Bank Disk File Path";
+			this.Label12.ForeColor = System.Drawing.Color.Black;
+			this.Label12.Location = new System.Drawing.Point(15, 168);
+			// this.Label12.mLabelId = 1917;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(89, 13);
+			this.Label12.TabIndex = 55;
 			// 
 			// txtLeaveFromTransNo
 			// 
@@ -600,37 +600,37 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label13
 			// 
-			this.System.Windows.Forms.Label13.AllowDrop = true;
-			this.System.Windows.Forms.Label13.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label13.Caption = "From Transaction No";
-			this.System.Windows.Forms.Label13.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label13.Location = new System.Drawing.Point(15, 101);
-			this.System.Windows.Forms.Label13.Name = "System.Windows.Forms.Label13";
-			this.System.Windows.Forms.Label13.Size = new System.Drawing.Size(100, 14);
-			this.System.Windows.Forms.Label13.TabIndex = 56;
+			this.Label13.AllowDrop = true;
+			this.Label13.BackColor = System.Drawing.Color.White;
+			this.Label13.Text = "From Transaction No";
+			this.Label13.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label13.Location = new System.Drawing.Point(15, 101);
+			this.Label13.Name = "System.Windows.Forms.Label13";
+			this.Label13.Size = new System.Drawing.Size(100, 14);
+			this.Label13.TabIndex = 56;
 			// 
 			// System.Windows.Forms.Label9
 			// 
-			this.System.Windows.Forms.Label9.AllowDrop = true;
-			this.System.Windows.Forms.Label9.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label9.Caption = "To Transaction Date";
-			this.System.Windows.Forms.Label9.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label9.Location = new System.Drawing.Point(246, 147);
-			this.System.Windows.Forms.Label9.mLabelId = 2102;
-			this.System.Windows.Forms.Label9.Name = "System.Windows.Forms.Label9";
-			this.System.Windows.Forms.Label9.Size = new System.Drawing.Size(97, 14);
-			this.System.Windows.Forms.Label9.TabIndex = 59;
+			this.Label9.AllowDrop = true;
+			this.Label9.BackColor = System.Drawing.Color.White;
+			this.Label9.Text = "To Transaction Date";
+			this.Label9.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label9.Location = new System.Drawing.Point(246, 147);
+			// this.Label9.mLabelId = 2102;
+			this.Label9.Name = "System.Windows.Forms.Label9";
+			this.Label9.Size = new System.Drawing.Size(97, 14);
+			this.Label9.TabIndex = 59;
 			// 
 			// System.Windows.Forms.Label10
 			// 
-			this.System.Windows.Forms.Label10.AllowDrop = true;
-			this.System.Windows.Forms.Label10.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label10.Caption = "From Transaction Date";
-			this.System.Windows.Forms.Label10.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label10.Location = new System.Drawing.Point(15, 147);
-			this.System.Windows.Forms.Label10.Name = "System.Windows.Forms.Label10";
-			this.System.Windows.Forms.Label10.Size = new System.Drawing.Size(109, 14);
-			this.System.Windows.Forms.Label10.TabIndex = 60;
+			this.Label10.AllowDrop = true;
+			this.Label10.BackColor = System.Drawing.Color.White;
+			this.Label10.Text = "From Transaction Date";
+			this.Label10.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label10.Location = new System.Drawing.Point(15, 147);
+			this.Label10.Name = "System.Windows.Forms.Label10";
+			this.Label10.Size = new System.Drawing.Size(109, 14);
+			this.Label10.TabIndex = 60;
 			// 
 			// frmEmployee
 			// 
@@ -638,18 +638,18 @@ namespace Xtreme
 			this.frmEmployee.BackColor = System.Drawing.Color.White;
 			this.frmEmployee.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.frmEmployee.Controls.Add(this.chkSelectAll);
-			this.frmEmployee.Controls.Add(this.System.Windows.Forms.Label4);
+			this.frmEmployee.Controls.Add(this.Label4);
 			this.frmEmployee.Controls.Add(this.txtDepartmentNameTo);
 			this.frmEmployee.Controls.Add(this.txtDepartmentCodeTo);
 			this.frmEmployee.Controls.Add(this.txtEmpBankName);
 			this.frmEmployee.Controls.Add(this.txtEmpBankAccount);
-			this.frmEmployee.Controls.Add(this.System.Windows.Forms.Label2);
+			this.frmEmployee.Controls.Add(this.Label2);
 			this.frmEmployee.Controls.Add(this.txtBankAccountNo);
 			this.frmEmployee.Controls.Add(this.lblMasterCode);
 			this.frmEmployee.Controls.Add(this.txtFromEmpNo);
 			this.frmEmployee.Controls.Add(this.lblLocationCode);
 			this.frmEmployee.Controls.Add(this.txtToEmpNo);
-			this.frmEmployee.Controls.Add(this._System.Windows.Forms.Label1_0);
+			this.frmEmployee.Controls.Add(this.Label1_0);
 			this.frmEmployee.Controls.Add(this.lblVoucherRange);
 			this.frmEmployee.Controls.Add(this.txtToEmpName);
 			this.frmEmployee.Controls.Add(this.txtFromEmpName);
@@ -665,13 +665,13 @@ namespace Xtreme
 			this.frmEmployee.Controls.Add(this.txtProjectCd);
 			this.frmEmployee.Controls.Add(this.txtDProjectName);
 			this.frmEmployee.Controls.Add(this.txtFilePath);
-			this.frmEmployee.Controls.Add(this.System.Windows.Forms.Label5);
+			this.frmEmployee.Controls.Add(this.Label5);
 			this.frmEmployee.Controls.Add(this._lblCommon_1);
 			this.frmEmployee.Controls.Add(this.txtCompanyCode);
 			this.frmEmployee.Controls.Add(this.txtDlblCompanyName);
 			this.frmEmployee.Controls.Add(this.txtDepartmentName);
 			this.frmEmployee.Controls.Add(this.txtDepartmentCode);
-			this.frmEmployee.Controls.Add(this.System.Windows.Forms.Label3);
+			this.frmEmployee.Controls.Add(this.Label3);
 			this.frmEmployee.Controls.Add(this.Shape1);
 			this.frmEmployee.Enabled = true;
 			this.frmEmployee.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -705,15 +705,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label4.Caption = "To Department";
-			this.System.Windows.Forms.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(14, 120);
-			this.System.Windows.Forms.Label4.mLabelId = 2102;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(70, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 24;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.White;
+			this.Label4.Text = "To Department";
+			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label4.Location = new System.Drawing.Point(14, 120);
+			// this.Label4.mLabelId = 2102;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(70, 14);
+			this.Label4.TabIndex = 24;
 			// 
 			// txtDepartmentNameTo
 			// 
@@ -770,15 +770,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label2.Caption = "Bank Code";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(14, 32);
-			this.System.Windows.Forms.Label2.mLabelId = 1151;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(52, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 27;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.White;
+			this.Label2.Text = "Bank Code";
+			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label2.Location = new System.Drawing.Point(14, 32);
+			// this.Label2.mLabelId = 1151;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(52, 14);
+			this.Label2.TabIndex = 27;
 			// 
 			// txtBankAccountNo
 			// 
@@ -802,7 +802,7 @@ namespace Xtreme
 			this.lblMasterCode.Text = "Comapny Bank Account";
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
 			this.lblMasterCode.Location = new System.Drawing.Point(14, 12);
-			// this.lblMasterCode.mLabelId = 2071;
+			// // this.lblMasterCode.mLabelId = 2071;
 			this.lblMasterCode.Name = "lblMasterCode";
 			this.lblMasterCode.Size = new System.Drawing.Size(116, 14);
 			this.lblMasterCode.TabIndex = 28;
@@ -829,7 +829,7 @@ namespace Xtreme
 			this.lblLocationCode.Text = "From Employee";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationCode.Location = new System.Drawing.Point(14, 160);
-			// this.lblLocationCode.mLabelId = 1914;
+			// // this.lblLocationCode.mLabelId = 1914;
 			this.lblLocationCode.Name = "lblLocationCode";
 			this.lblLocationCode.Size = new System.Drawing.Size(73, 14);
 			this.lblLocationCode.TabIndex = 29;
@@ -849,17 +849,17 @@ namespace Xtreme
 			// this.this.txtToEmpNo.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtToEmpNo_DropButtonClick);
 			// this.txtToEmpNo.Leave += new System.EventHandler(this.TxtToEmpNo_Leave);
 			// 
-			// _System.Windows.Forms.Label1_0
+			// Label1_0
 			// 
-			this._System.Windows.Forms.Label1_0.AllowDrop = true;
-			this._System.Windows.Forms.Label1_0.BackColor = System.Drawing.Color.White;
-			this._System.Windows.Forms.Label1_0.Caption = "To Employee";
-			this._System.Windows.Forms.Label1_0.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label1_0.Location = new System.Drawing.Point(14, 180);
-			this._System.Windows.Forms.Label1_0.mLabelId = 1915;
-			this._System.Windows.Forms.Label1_0.Name = "_System.Windows.Forms.Label1_0";
-			this._System.Windows.Forms.Label1_0.Size = new System.Drawing.Size(61, 14);
-			this._System.Windows.Forms.Label1_0.TabIndex = 30;
+			this.Label1_0.AllowDrop = true;
+			this.Label1_0.BackColor = System.Drawing.Color.White;
+			this.Label1_0.Text = "To Employee";
+			this.Label1_0.ForeColor = System.Drawing.Color.Black;
+			this.Label1_0.Location = new System.Drawing.Point(14, 180);
+			// this.Label1_0.mLabelId = 1915;
+			this.Label1_0.Name = "Label1_0";
+			this.Label1_0.Size = new System.Drawing.Size(61, 14);
+			this.Label1_0.TabIndex = 30;
 			// 
 			// lblVoucherRange
 			// 
@@ -868,7 +868,7 @@ namespace Xtreme
 			this.lblVoucherRange.Text = " Period ";
 			this.lblVoucherRange.ForeColor = System.Drawing.Color.Black;
 			this.lblVoucherRange.Location = new System.Drawing.Point(11, 233);
-			// this.lblVoucherRange.mLabelId = 1916;
+			// // this.lblVoucherRange.mLabelId = 1916;
 			this.lblVoucherRange.Name = "lblVoucherRange";
 			this.lblVoucherRange.Size = new System.Drawing.Size(36, 13);
 			this.lblVoucherRange.TabIndex = 31;
@@ -923,7 +923,7 @@ namespace Xtreme
 			this.lblToVoucherNo.Text = "Month";
 			this.lblToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblToVoucherNo.Location = new System.Drawing.Point(241, 266);
-			// this.lblToVoucherNo.mLabelId = 1918;
+			// // this.lblToVoucherNo.mLabelId = 1918;
 			this.lblToVoucherNo.Name = "lblToVoucherNo";
 			this.lblToVoucherNo.Size = new System.Drawing.Size(30, 13);
 			this.lblToVoucherNo.TabIndex = 35;
@@ -935,7 +935,7 @@ namespace Xtreme
 			this.lblFromVoucherNo.Text = "Year";
 			this.lblFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblFromVoucherNo.Location = new System.Drawing.Point(48, 265);
-			// this.lblFromVoucherNo.mLabelId = 1917;
+			// // this.lblFromVoucherNo.mLabelId = 1917;
 			this.lblFromVoucherNo.Name = "lblFromVoucherNo";
 			this.lblFromVoucherNo.Size = new System.Drawing.Size(22, 13);
 			this.lblFromVoucherNo.TabIndex = 36;
@@ -947,7 +947,7 @@ namespace Xtreme
 			this._lblCommon_41.Text = "Sponsor Code";
 			this._lblCommon_41.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_41.Location = new System.Drawing.Point(14, 55);
-			// this._lblCommon_41.mLabelId = 1939;
+			// // this._lblCommon_41.mLabelId = 1939;
 			this._lblCommon_41.Name = "_lblCommon_41";
 			this._lblCommon_41.Size = new System.Drawing.Size(67, 13);
 			this._lblCommon_41.TabIndex = 37;
@@ -985,7 +985,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "Project Code";
 			this._lblCommon_0.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_0.Location = new System.Drawing.Point(14, 78);
-			// this._lblCommon_0.mLabelId = 2160;
+			// // this._lblCommon_0.mLabelId = 2160;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_0.TabIndex = 39;
@@ -1031,15 +1031,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label5.Caption = "Bank Disk File Path";
-			this.System.Windows.Forms.Label5.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(14, 216);
-			this.System.Windows.Forms.Label5.mLabelId = 1917;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(89, 13);
-			this.System.Windows.Forms.Label5.TabIndex = 41;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.White;
+			this.Label5.Text = "Bank Disk File Path";
+			this.Label5.ForeColor = System.Drawing.Color.Black;
+			this.Label5.Location = new System.Drawing.Point(14, 216);
+			// this.Label5.mLabelId = 1917;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(89, 13);
+			this.Label5.TabIndex = 41;
 			// 
 			// _lblCommon_1
 			// 
@@ -1048,7 +1048,7 @@ namespace Xtreme
 			this._lblCommon_1.Text = "Company Code";
 			this._lblCommon_1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_1.Location = new System.Drawing.Point(14, 141);
-			// this._lblCommon_1.mLabelId = 1927;
+			// // this._lblCommon_1.mLabelId = 1927;
 			this._lblCommon_1.Name = "_lblCommon_1";
 			this._lblCommon_1.Size = new System.Drawing.Size(73, 13);
 			this._lblCommon_1.TabIndex = 42;
@@ -1107,15 +1107,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.Label3.Caption = "From Department";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(14, 98);
-			this.System.Windows.Forms.Label3.mLabelId = 1973;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(82, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 45;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.White;
+			this.Label3.Text = "From Department";
+			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label3.Location = new System.Drawing.Point(14, 98);
+			// this.Label3.mLabelId = 1973;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(82, 14);
+			this.Label3.TabIndex = 45;
 			// 
 			// Shape1
 			// 
@@ -1200,8 +1200,8 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[1];
-			this.System.Windows.Forms.Label1[0] = _System.Windows.Forms.Label1_0;
+			this.Label1 = new System.Windows.Forms.Label[1];
+			this.Label1[0] = Label1_0;
 		}
 		void InitializeGenerateOption()
 		{
@@ -1211,4 +1211,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

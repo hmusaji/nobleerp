@@ -50,7 +50,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtARemarkName;
 		public System.Windows.Forms.TextBox txtlRemarkName;
 		public System.Windows.Forms.Label lblCurrNameL;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -65,7 +65,7 @@ namespace Xtreme
 			this.txtARemarkName = new System.Windows.Forms.TextBox();
 			this.txtlRemarkName = new System.Windows.Forms.TextBox();
 			this.lblCurrNameL = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// txtRemarkNo
@@ -130,13 +130,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Remark No";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(9, 18);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(52, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 5;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Remark No";
+			this.Label1.Location = new System.Drawing.Point(9, 18);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(52, 14);
+			this.Label1.TabIndex = 5;
 			// 
 			// frmGLAccntTransDetailRemarks
 			// 
@@ -151,7 +151,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtARemarkName);
 			this.Controls.Add(this.txtlRemarkName);
 			this.Controls.Add(this.lblCurrNameL);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLAccntTransDetailRemarks.Icon");
 			this.KeyPreview = true;
@@ -179,4 +179,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -102,7 +102,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_7;
 		private System.Windows.Forms.Label _lblCommon_8;
 		private System.Windows.Forms.Label _lblCommon_10;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtEstimatedIncome;
 		public System.Windows.Forms.TextBox txtParentProjectNo;
 		public System.Windows.Forms.TextBox txtExtimatedExp;
@@ -111,7 +111,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		public System.Windows.Forms.Label txtParentProjectName;
 		public System.Windows.Forms.Label txtProjectTypeName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		private AxXtremeSuiteControls.AxTabControlPage _fraLedgerInformation_0;
 		public AxXtremeSuiteControls.AxTabControl tabMaster;
 		public System.Windows.Forms.TextBox txtLProjectName;
@@ -193,7 +193,7 @@ namespace Xtreme
 			this._lblCommon_7 = new System.Windows.Forms.Label();
 			this._lblCommon_8 = new System.Windows.Forms.Label();
 			this._lblCommon_10 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtEstimatedIncome = new System.Windows.Forms.TextBox();
 			this.txtParentProjectNo = new System.Windows.Forms.TextBox();
 			this.txtExtimatedExp = new System.Windows.Forms.TextBox();
@@ -202,7 +202,7 @@ namespace Xtreme
 			this.txtStartDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtParentProjectName = new System.Windows.Forms.Label();
 			this.txtProjectTypeName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtLProjectName = new System.Windows.Forms.TextBox();
 			this.txtAprojectName = new System.Windows.Forms.TextBox();
 			this._lblCommon_0 = new System.Windows.Forms.Label();
@@ -770,7 +770,7 @@ namespace Xtreme
 			this._fraLedgerInformation_0.Controls.Add(this._lblCommon_7);
 			this._fraLedgerInformation_0.Controls.Add(this._lblCommon_8);
 			this._fraLedgerInformation_0.Controls.Add(this._lblCommon_10);
-			this._fraLedgerInformation_0.Controls.Add(this.System.Windows.Forms.Label1);
+			this._fraLedgerInformation_0.Controls.Add(this.Label1);
 			this._fraLedgerInformation_0.Controls.Add(this.txtEstimatedIncome);
 			this._fraLedgerInformation_0.Controls.Add(this.txtParentProjectNo);
 			this._fraLedgerInformation_0.Controls.Add(this.txtExtimatedExp);
@@ -779,7 +779,7 @@ namespace Xtreme
 			this._fraLedgerInformation_0.Controls.Add(this.txtStartDate);
 			this._fraLedgerInformation_0.Controls.Add(this.txtParentProjectName);
 			this._fraLedgerInformation_0.Controls.Add(this.txtProjectTypeName);
-			this._fraLedgerInformation_0.Controls.Add(this.System.Windows.Forms.Label2);
+			this._fraLedgerInformation_0.Controls.Add(this.Label2);
 			this._fraLedgerInformation_0.Location = new System.Drawing.Point(2, 28);
 			this._fraLedgerInformation_0.Name = "_fraLedgerInformation_0";
 			("_fraLedgerInformation_0.OcxState");
@@ -908,13 +908,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Start Date";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(4, 63);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(50, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 21;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Start Date";
+			this.Label1.Location = new System.Drawing.Point(4, 63);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(50, 13);
+			this.Label1.TabIndex = 21;
 			// 
 			// txtEstimatedIncome
 			// 
@@ -985,7 +985,7 @@ namespace Xtreme
 			this.txtEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtEndDate.TabIndex = 26;
 			this.txtEndDate.Text = "8/6/2003";
-			this.txtEndDate.Value = 37839;
+			// this.txtEndDate.Value = 37839;
 			// 
 			// txtStartDate
 			// 
@@ -998,7 +998,7 @@ namespace Xtreme
 			this.txtStartDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDate.TabIndex = 27;
 			this.txtStartDate.Text = "8/6/2003";
-			this.txtStartDate.Value = 37839;
+			// this.txtStartDate.Value = 37839;
 			// 
 			// txtParentProjectName
 			// 
@@ -1018,13 +1018,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "End Date";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(234, 62);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(44, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 30;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "End Date";
+			this.Label2.Location = new System.Drawing.Point(234, 62);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(44, 13);
+			this.Label2.TabIndex = 30;
 			// 
 			// txtLProjectName
 			// 
@@ -1221,4 +1221,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

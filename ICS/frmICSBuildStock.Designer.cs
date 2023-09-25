@@ -299,7 +299,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 2;
 			this.txtVoucherDate.Text = "18/07/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			this.txtVoucherDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtVoucherDate_Validating);
 			// 
 			// txtBuildQty
@@ -425,7 +425,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "No. Of Employee";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(9, 191);
-			// this._lblCommonLabel_1.mLabelId = 614;
+			// // this._lblCommonLabel_1.mLabelId = 614;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(80, 14);
 			this._lblCommonLabel_1.TabIndex = 23;
@@ -449,7 +449,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "No. Of Hours";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(214, 191);
-			// this._lblCommonLabel_3.mLabelId = 614;
+			// // this._lblCommonLabel_3.mLabelId = 614;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(63, 14);
 			this._lblCommonLabel_3.TabIndex = 24;
@@ -473,7 +473,7 @@ namespace Xtreme
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Assembled By";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(9, 172);
-			// this._lblCommonLabel_4.mLabelId = 614;
+			// // this._lblCommonLabel_4.mLabelId = 614;
 			this._lblCommonLabel_4.Name = "_lblCommonLabel_4";
 			this._lblCommonLabel_4.Size = new System.Drawing.Size(70, 14);
 			this._lblCommonLabel_4.TabIndex = 25;
@@ -497,7 +497,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Designed By";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(214, 150);
-			// this._lblCommonLabel_8.mLabelId = 614;
+			// // this._lblCommonLabel_8.mLabelId = 614;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_8.TabIndex = 26;
@@ -523,7 +523,7 @@ namespace Xtreme
 			this.txtDAssembledDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDAssembledDate.TabIndex = 8;
 			this.txtDAssembledDate.Text = "18/07/2001";
-			this.txtDAssembledDate.Value = 37090;
+			// this.txtDAssembledDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_7
 			// 
@@ -618,7 +618,7 @@ namespace Xtreme
 			this._lblCommonLabel_20.Text = " Import Voucher Information ";
 			this._lblCommonLabel_20.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_20.Location = new System.Drawing.Point(412, 96);
-			// this._lblCommonLabel_20.mLabelId = 867;
+			// // this._lblCommonLabel_20.mLabelId = 867;
 			this._lblCommonLabel_20.Name = "_lblCommonLabel_20";
 			this._lblCommonLabel_20.Size = new System.Drawing.Size(167, 16);
 			this._lblCommonLabel_20.TabIndex = 34;
@@ -648,7 +648,7 @@ namespace Xtreme
 			this._lblCommonLabel_23.Text = "Voucher No.";
 			this._lblCommonLabel_23.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_23.Location = new System.Drawing.Point(416, 168);
-			// this._lblCommonLabel_23.mLabelId = 850;
+			// // this._lblCommonLabel_23.mLabelId = 850;
 			this._lblCommonLabel_23.Name = "_lblCommonLabel_23";
 			this._lblCommonLabel_23.Size = new System.Drawing.Size(72, 16);
 			this._lblCommonLabel_23.TabIndex = 36;
@@ -661,7 +661,7 @@ namespace Xtreme
 			this._lblCommonLabel_22.Text = "Location Code";
 			this._lblCommonLabel_22.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_22.Location = new System.Drawing.Point(416, 143);
-			// this._lblCommonLabel_22.mLabelId = 416;
+			// // this._lblCommonLabel_22.mLabelId = 416;
 			this._lblCommonLabel_22.Name = "_lblCommonLabel_22";
 			this._lblCommonLabel_22.Size = new System.Drawing.Size(83, 16);
 			this._lblCommonLabel_22.TabIndex = 37;
@@ -674,7 +674,7 @@ namespace Xtreme
 			this._lblCommonLabel_21.Text = "Voucher Type";
 			this._lblCommonLabel_21.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(416, 116);
-			// this._lblCommonLabel_21.mLabelId = 851;
+			// // this._lblCommonLabel_21.mLabelId = 851;
 			this._lblCommonLabel_21.Name = "_lblCommonLabel_21";
 			this._lblCommonLabel_21.Size = new System.Drawing.Size(80, 16);
 			this._lblCommonLabel_21.TabIndex = 38;
@@ -883,4 +883,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

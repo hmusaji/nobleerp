@@ -192,7 +192,7 @@ namespace Xtreme
 			this.lblLedgerNo.Text = "Ledger Code";
 			this.lblLedgerNo.ForeColor = System.Drawing.Color.Black;
 			this.lblLedgerNo.Location = new System.Drawing.Point(12, 60);
-			// this.lblLedgerNo.mLabelId = 1857;
+			// // this.lblLedgerNo.mLabelId = 1857;
 			this.lblLedgerNo.Name = "lblLedgerNo";
 			this.lblLedgerNo.Size = new System.Drawing.Size(62, 14);
 			this.lblLedgerNo.TabIndex = 3;
@@ -204,7 +204,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.Text = "Statement Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(536, 60);
-			// this._lblCommonLabel_6.mLabelId = 1858;
+			// // this._lblCommonLabel_6.mLabelId = 1858;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(73, 14);
 			this._lblCommonLabel_6.TabIndex = 4;
@@ -220,7 +220,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			this.txtVoucherDate.Text = "18-Jul-2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// grdVoucherDetails
 			// 
@@ -258,7 +258,7 @@ namespace Xtreme
 			this._lblReconcile_0.Text = "Debit";
 			this._lblReconcile_0.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_0.Location = new System.Drawing.Point(14, 133);
-			// this._lblReconcile_0.mLabelId = 1860;
+			// // this._lblReconcile_0.mLabelId = 1860;
 			this._lblReconcile_0.Name = "_lblReconcile_0";
 			this._lblReconcile_0.Size = new System.Drawing.Size(24, 14);
 			this._lblReconcile_0.TabIndex = 7;
@@ -270,7 +270,7 @@ namespace Xtreme
 			this._lblReconcile_7.Text = "Credit";
 			this._lblReconcile_7.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_7.Location = new System.Drawing.Point(14, 151);
-			// this._lblReconcile_7.mLabelId = 1861;
+			// // this._lblReconcile_7.mLabelId = 1861;
 			this._lblReconcile_7.Name = "_lblReconcile_7";
 			this._lblReconcile_7.Size = new System.Drawing.Size(28, 14);
 			this._lblReconcile_7.TabIndex = 8;
@@ -282,7 +282,7 @@ namespace Xtreme
 			this._lblReconcile_3.Text = "Total";
 			this._lblReconcile_3.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_3.Location = new System.Drawing.Point(271, 108);
-			// this._lblReconcile_3.mLabelId = 1865;
+			// // this._lblReconcile_3.mLabelId = 1865;
 			this._lblReconcile_3.Name = "_lblReconcile_3";
 			this._lblReconcile_3.Size = new System.Drawing.Size(23, 14);
 			this._lblReconcile_3.TabIndex = 9;
@@ -294,7 +294,7 @@ namespace Xtreme
 			this._lblReconcile_2.Text = "Reconciled";
 			this._lblReconcile_2.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_2.Location = new System.Drawing.Point(168, 108);
-			// this._lblReconcile_2.mLabelId = 1864;
+			// // this._lblReconcile_2.mLabelId = 1864;
 			this._lblReconcile_2.Name = "_lblReconcile_2";
 			this._lblReconcile_2.Size = new System.Drawing.Size(53, 14);
 			this._lblReconcile_2.TabIndex = 10;
@@ -306,7 +306,7 @@ namespace Xtreme
 			this._lblReconcile_11.Text = "Balance";
 			this._lblReconcile_11.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_11.Location = new System.Drawing.Point(14, 169);
-			// this._lblReconcile_11.mLabelId = 1862;
+			// // this._lblReconcile_11.mLabelId = 1862;
 			this._lblReconcile_11.Name = "_lblReconcile_11";
 			this._lblReconcile_11.Size = new System.Drawing.Size(39, 14);
 			this._lblReconcile_11.TabIndex = 11;
@@ -318,7 +318,7 @@ namespace Xtreme
 			this._lblReconcile_16.Text = "Unreconciled Debit Amount (+)";
 			this._lblReconcile_16.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_16.Location = new System.Drawing.Point(463, 150);
-			// this._lblReconcile_16.mLabelId = 1868;
+			// // this._lblReconcile_16.mLabelId = 1868;
 			this._lblReconcile_16.Name = "_lblReconcile_16";
 			this._lblReconcile_16.Size = new System.Drawing.Size(147, 14);
 			this._lblReconcile_16.TabIndex = 12;
@@ -345,7 +345,7 @@ namespace Xtreme
 			this._lblReconcile_17.Text = "Diff. in Account Reconcilation";
 			this._lblReconcile_17.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_17.Location = new System.Drawing.Point(463, 195);
-			// this._lblReconcile_17.mLabelId = 1870;
+			// // this._lblReconcile_17.mLabelId = 1870;
 			this._lblReconcile_17.Name = "_lblReconcile_17";
 			this._lblReconcile_17.Size = new System.Drawing.Size(142, 14);
 			this._lblReconcile_17.TabIndex = 14;
@@ -372,7 +372,7 @@ namespace Xtreme
 			this._lblReconcile_1.Text = "Unreconciled";
 			this._lblReconcile_1.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_1.Location = new System.Drawing.Point(73, 110);
-			// this._lblReconcile_1.mLabelId = 1863;
+			// // this._lblReconcile_1.mLabelId = 1863;
 			this._lblReconcile_1.Name = "_lblReconcile_1";
 			this._lblReconcile_1.Size = new System.Drawing.Size(63, 14);
 			this._lblReconcile_1.TabIndex = 16;
@@ -384,7 +384,7 @@ namespace Xtreme
 			this._lblReconcile_4.Text = "Unreconciled Credit Amount (-)";
 			this._lblReconcile_4.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_4.Location = new System.Drawing.Point(463, 132);
-			// this._lblReconcile_4.mLabelId = 1867;
+			// // this._lblReconcile_4.mLabelId = 1867;
 			this._lblReconcile_4.Name = "_lblReconcile_4";
 			this._lblReconcile_4.Size = new System.Drawing.Size(149, 14);
 			this._lblReconcile_4.TabIndex = 17;
@@ -396,7 +396,7 @@ namespace Xtreme
 			this._lblReconcile_5.Text = "GL (System) Balance (-)";
 			this._lblReconcile_5.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_5.Location = new System.Drawing.Point(463, 168);
-			// this._lblReconcile_5.mLabelId = 1869;
+			// // this._lblReconcile_5.mLabelId = 1869;
 			this._lblReconcile_5.Name = "_lblReconcile_5";
 			this._lblReconcile_5.Size = new System.Drawing.Size(118, 14);
 			this._lblReconcile_5.TabIndex = 18;
@@ -438,7 +438,7 @@ namespace Xtreme
 			this._lblReconcile_15.Text = "Statement Ending Balance";
 			this._lblReconcile_15.ForeColor = System.Drawing.Color.Black;
 			this._lblReconcile_15.Location = new System.Drawing.Point(463, 114);
-			// this._lblReconcile_15.mLabelId = 1866;
+			// // this._lblReconcile_15.mLabelId = 1866;
 			this._lblReconcile_15.Name = "_lblReconcile_15";
 			this._lblReconcile_15.Size = new System.Drawing.Size(125, 14);
 			this._lblReconcile_15.TabIndex = 21;
@@ -546,7 +546,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(12, 530);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(63, 16);
 			this.lblComments.TabIndex = 32;
@@ -694,4 +694,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

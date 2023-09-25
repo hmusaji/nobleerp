@@ -41,51 +41,51 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "HScroll1", "txtVoucherDate", "txtAmount", "_System.Windows.Forms.Label_3", "_System.Windows.Forms.Label_7", "txtDiscount", "_System.Windows.Forms.Label1_4", "_System.Windows.Forms.Label_2", "txtVoucherNo", "txtNetAmount", "_System.Windows.Forms.Label1_0", "GroupBox1", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "txtTempDate", "txtComment", "_System.Windows.Forms.Label1_1", "Frame1", "C1Tab1", "cmdGenerate", "txtRemainingAmount", "_System.Windows.Forms.Label1_5", "txtInstallments", "_System.Windows.Forms.Label1_2", "txtInstallmentStartDate", "_System.Windows.Forms.Label_4", "txtInstallmentAmount", "_System.Windows.Forms.Label1_6", "txtDownPayment", "_System.Windows.Forms.Label1_3", "GroupBox2", "txtCustomerName", "txtPercentDiscount", "txtCustomerCode", "_System.Windows.Forms.Label_1", "txtContractNo", "_System.Windows.Forms.Label_0", "Frame2", "System.Windows.Forms.Label", "System.Windows.Forms.Label1"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "HScroll1", "txtVoucherDate", "txtAmount", "Label_3", "Label_7", "txtDiscount", "Label1_4", "Label_2", "txtVoucherNo", "txtNetAmount", "Label1_0", "GroupBox1", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "txtTempDate", "txtComment", "Label1_1", "Frame1", "C1Tab1", "cmdGenerate", "txtRemainingAmount", "Label1_5", "txtInstallments", "Label1_2", "txtInstallmentStartDate", "Label_4", "txtInstallmentAmount", "Label1_6", "txtDownPayment", "Label1_3", "GroupBox2", "txtCustomerName", "txtPercentDiscount", "txtCustomerCode", "Label_1", "txtContractNo", "Label_0", "Frame2", "System.Windows.Forms.Label", "System.Windows.Forms.Label1"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.VScrollBar HScroll1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtVoucherDate;
 		public System.Windows.Forms.TextBox txtAmount;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_3;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_7;
+		private System.Windows.Forms.Label Label_3;
+		private System.Windows.Forms.Label Label_7;
 		public System.Windows.Forms.TextBox txtDiscount;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_4;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_2;
+		private System.Windows.Forms.Label Label1_4;
+		private System.Windows.Forms.Label Label_2;
 		public System.Windows.Forms.TextBox txtVoucherNo;
 		public System.Windows.Forms.TextBox txtNetAmount;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_0;
+		private System.Windows.Forms.Label Label1_0;
 		public AxXtremeSuiteControls.AxGroupBox GroupBox1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTempDate;
 		public System.Windows.Forms.TextBox txtComment;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_1;
+		private System.Windows.Forms.Label Label1_1;
 		public System.Windows.Forms.Panel Frame1;
 		public AxC1SizerLib.AxC1Tab C1Tab1;
 		public System.Windows.Forms.Button cmdGenerate;
 		public System.Windows.Forms.TextBox txtRemainingAmount;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_5;
+		private System.Windows.Forms.Label Label1_5;
 		public System.Windows.Forms.TextBox txtInstallments;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_2;
+		private System.Windows.Forms.Label Label1_2;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtInstallmentStartDate;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_4;
+		private System.Windows.Forms.Label Label_4;
 		public System.Windows.Forms.TextBox txtInstallmentAmount;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_6;
+		private System.Windows.Forms.Label Label1_6;
 		public System.Windows.Forms.TextBox txtDownPayment;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_3;
+		private System.Windows.Forms.Label Label1_3;
 		public AxXtremeSuiteControls.AxGroupBox GroupBox2;
 		public System.Windows.Forms.Label txtCustomerName;
 		public System.Windows.Forms.TextBox txtPercentDiscount;
 		public System.Windows.Forms.TextBox txtCustomerCode;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_1;
+		private System.Windows.Forms.Label Label_1;
 		public System.Windows.Forms.TextBox txtContractNo;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_0;
+		private System.Windows.Forms.Label Label_0;
 		public System.Windows.Forms.Panel Frame2;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label = new System.Windows.Forms.Label[8];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[7];
+		public System.Windows.Forms.Label[] Label = new System.Windows.Forms.Label[8];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[7];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -100,14 +100,14 @@ namespace Xtreme
 			this.GroupBox1 = new AxXtremeSuiteControls.AxGroupBox();
 			this.txtVoucherDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtAmount = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_3 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_7 = new System.Windows.Forms.Label();
+			this.Label_3 = new System.Windows.Forms.Label();
+			this.Label_7 = new System.Windows.Forms.Label();
 			this.txtDiscount = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_4 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_2 = new System.Windows.Forms.Label();
+			this.Label1_4 = new System.Windows.Forms.Label();
+			this.Label_2 = new System.Windows.Forms.Label();
 			this.txtVoucherNo = new System.Windows.Forms.TextBox();
 			this.txtNetAmount = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_0 = new System.Windows.Forms.Label();
+			this.Label1_0 = new System.Windows.Forms.Label();
 			this.C1Tab1 = new AxC1SizerLib.AxC1Tab();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -115,25 +115,25 @@ namespace Xtreme
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.txtTempDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtComment = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_1 = new System.Windows.Forms.Label();
+			this.Label1_1 = new System.Windows.Forms.Label();
 			this.GroupBox2 = new AxXtremeSuiteControls.AxGroupBox();
 			this.cmdGenerate = new System.Windows.Forms.Button();
 			this.txtRemainingAmount = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_5 = new System.Windows.Forms.Label();
+			this.Label1_5 = new System.Windows.Forms.Label();
 			this.txtInstallments = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_2 = new System.Windows.Forms.Label();
+			this.Label1_2 = new System.Windows.Forms.Label();
 			this.txtInstallmentStartDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this._System.Windows.Forms.Label_4 = new System.Windows.Forms.Label();
+			this.Label_4 = new System.Windows.Forms.Label();
 			this.txtInstallmentAmount = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_6 = new System.Windows.Forms.Label();
+			this.Label1_6 = new System.Windows.Forms.Label();
 			this.txtDownPayment = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_3 = new System.Windows.Forms.Label();
+			this.Label1_3 = new System.Windows.Forms.Label();
 			this.txtCustomerName = new System.Windows.Forms.Label();
 			this.txtPercentDiscount = new System.Windows.Forms.TextBox();
 			this.txtCustomerCode = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_1 = new System.Windows.Forms.Label();
+			this.Label_1 = new System.Windows.Forms.Label();
 			this.txtContractNo = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_0 = new System.Windows.Forms.Label();
+			this.Label_0 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.GroupBox1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.C1Tab1).BeginInit();
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.HScroll1.SmallChange = 1;
 			this.HScroll1.TabIndex = 10;
 			this.HScroll1.TabStop = false;
-			this.HScroll1.Value = 0;
+			// this.HScroll1.Value = 0;
 			this.HScroll1.Visible = true;
 			this.HScroll1.ValueChanged += new System.EventHandler(this.HScroll1_ValueChanged);
 			// 
@@ -176,9 +176,9 @@ namespace Xtreme
 			this.Frame2.Controls.Add(this.txtCustomerName);
 			this.Frame2.Controls.Add(this.txtPercentDiscount);
 			this.Frame2.Controls.Add(this.txtCustomerCode);
-			this.Frame2.Controls.Add(this._System.Windows.Forms.Label_1);
+			this.Frame2.Controls.Add(this.Label_1);
 			this.Frame2.Controls.Add(this.txtContractNo);
-			this.Frame2.Controls.Add(this._System.Windows.Forms.Label_0);
+			this.Frame2.Controls.Add(this.Label_0);
 			this.Frame2.Enabled = true;
 			this.Frame2.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Frame2.Location = new System.Drawing.Point(0, 0);
@@ -193,14 +193,14 @@ namespace Xtreme
 			this.GroupBox1.AllowDrop = true;
 			this.GroupBox1.Controls.Add(this.txtVoucherDate);
 			this.GroupBox1.Controls.Add(this.txtAmount);
-			this.GroupBox1.Controls.Add(this._System.Windows.Forms.Label_3);
-			this.GroupBox1.Controls.Add(this._System.Windows.Forms.Label_7);
+			this.GroupBox1.Controls.Add(this.Label_3);
+			this.GroupBox1.Controls.Add(this.Label_7);
 			this.GroupBox1.Controls.Add(this.txtDiscount);
-			this.GroupBox1.Controls.Add(this._System.Windows.Forms.Label1_4);
-			this.GroupBox1.Controls.Add(this._System.Windows.Forms.Label_2);
+			this.GroupBox1.Controls.Add(this.Label1_4);
+			this.GroupBox1.Controls.Add(this.Label_2);
 			this.GroupBox1.Controls.Add(this.txtVoucherNo);
 			this.GroupBox1.Controls.Add(this.txtNetAmount);
-			this.GroupBox1.Controls.Add(this._System.Windows.Forms.Label1_0);
+			this.GroupBox1.Controls.Add(this.Label1_0);
 			this.GroupBox1.Location = new System.Drawing.Point(8, 30);
 			this.GroupBox1.Name = "GroupBox1";
 			("GroupBox1.OcxState");
@@ -231,27 +231,27 @@ namespace Xtreme
 			this.txtAmount.Text = ".000";
 			// this.txtAmount.Leave += new System.EventHandler(this.txtAmount_Leave);
 			// 
-			// _System.Windows.Forms.Label_3
+			// Label_3
 			// 
-			this._System.Windows.Forms.Label_3.AllowDrop = true;
-			this._System.Windows.Forms.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_3.Caption = "Amount";
-			this._System.Windows.Forms.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_3.Location = new System.Drawing.Point(8, 62);
-			this._System.Windows.Forms.Label_3.Name = "_System.Windows.Forms.Label_3";
-			this._System.Windows.Forms.Label_3.Size = new System.Drawing.Size(37, 14);
-			this._System.Windows.Forms.Label_3.TabIndex = 31;
+			this.Label_3.AllowDrop = true;
+			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_3.Text = "Amount";
+			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_3.Location = new System.Drawing.Point(8, 62);
+			this.Label_3.Name = "Label_3";
+			this.Label_3.Size = new System.Drawing.Size(37, 14);
+			this.Label_3.TabIndex = 31;
 			// 
-			// _System.Windows.Forms.Label_7
+			// Label_7
 			// 
-			this._System.Windows.Forms.Label_7.AllowDrop = true;
-			this._System.Windows.Forms.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_7.Caption = "Sales Date";
-			this._System.Windows.Forms.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_7.Location = new System.Drawing.Point(8, 19);
-			this._System.Windows.Forms.Label_7.Name = "_System.Windows.Forms.Label_7";
-			this._System.Windows.Forms.Label_7.Size = new System.Drawing.Size(52, 14);
-			this._System.Windows.Forms.Label_7.TabIndex = 32;
+			this.Label_7.AllowDrop = true;
+			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_7.Text = "Sales Date";
+			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_7.Location = new System.Drawing.Point(8, 19);
+			this.Label_7.Name = "Label_7";
+			this.Label_7.Size = new System.Drawing.Size(52, 14);
+			this.Label_7.TabIndex = 32;
 			// 
 			// txtDiscount
 			// 
@@ -265,27 +265,27 @@ namespace Xtreme
 			this.txtDiscount.Text = ".000";
 			// this.txtDiscount.Leave += new System.EventHandler(this.txtDiscount_Leave);
 			// 
-			// _System.Windows.Forms.Label1_4
+			// Label1_4
 			// 
-			this._System.Windows.Forms.Label1_4.AllowDrop = true;
-			this._System.Windows.Forms.Label1_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_4.Caption = "Discount";
-			this._System.Windows.Forms.Label1_4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_4.Location = new System.Drawing.Point(8, 86);
-			this._System.Windows.Forms.Label1_4.Name = "_System.Windows.Forms.Label1_4";
-			this._System.Windows.Forms.Label1_4.Size = new System.Drawing.Size(42, 14);
-			this._System.Windows.Forms.Label1_4.TabIndex = 33;
+			this.Label1_4.AllowDrop = true;
+			this.Label1_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_4.Text = "Discount";
+			this.Label1_4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_4.Location = new System.Drawing.Point(8, 86);
+			this.Label1_4.Name = "Label1_4";
+			this.Label1_4.Size = new System.Drawing.Size(42, 14);
+			this.Label1_4.TabIndex = 33;
 			// 
-			// _System.Windows.Forms.Label_2
+			// Label_2
 			// 
-			this._System.Windows.Forms.Label_2.AllowDrop = true;
-			this._System.Windows.Forms.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_2.Caption = "Voucher No";
-			this._System.Windows.Forms.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_2.Location = new System.Drawing.Point(8, 42);
-			this._System.Windows.Forms.Label_2.Name = "_System.Windows.Forms.Label_2";
-			this._System.Windows.Forms.Label_2.Size = new System.Drawing.Size(58, 14);
-			this._System.Windows.Forms.Label_2.TabIndex = 34;
+			this.Label_2.AllowDrop = true;
+			this.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_2.Text = "Voucher No";
+			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_2.Location = new System.Drawing.Point(8, 42);
+			this.Label_2.Name = "Label_2";
+			this.Label_2.Size = new System.Drawing.Size(58, 14);
+			this.Label_2.TabIndex = 34;
 			// 
 			// txtVoucherNo
 			// 
@@ -317,16 +317,16 @@ namespace Xtreme
 			this.txtNetAmount.TabStop = false;
 			this.txtNetAmount.Text = ".000";
 			// 
-			// _System.Windows.Forms.Label1_0
+			// Label1_0
 			// 
-			this._System.Windows.Forms.Label1_0.AllowDrop = true;
-			this._System.Windows.Forms.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_0.Caption = "Net Amount";
-			this._System.Windows.Forms.Label1_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_0.Location = new System.Drawing.Point(8, 108);
-			this._System.Windows.Forms.Label1_0.Name = "_System.Windows.Forms.Label1_0";
-			this._System.Windows.Forms.Label1_0.Size = new System.Drawing.Size(56, 14);
-			this._System.Windows.Forms.Label1_0.TabIndex = 35;
+			this.Label1_0.AllowDrop = true;
+			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_0.Text = "Net Amount";
+			this.Label1_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_0.Location = new System.Drawing.Point(8, 108);
+			this.Label1_0.Name = "Label1_0";
+			this.Label1_0.Size = new System.Drawing.Size(56, 14);
+			this.Label1_0.TabIndex = 35;
 			// 
 			// C1Tab1
 			// 
@@ -348,7 +348,7 @@ namespace Xtreme
 			this.Frame1.Controls.Add(this.grdVoucherDetails);
 			this.Frame1.Controls.Add(this.txtTempDate);
 			this.Frame1.Controls.Add(this.txtComment);
-			this.Frame1.Controls.Add(this._System.Windows.Forms.Label1_1);
+			this.Frame1.Controls.Add(this.Label1_1);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Frame1.Location = new System.Drawing.Point(1, 23);
@@ -406,31 +406,31 @@ namespace Xtreme
 			this.txtComment.TabIndex = 19;
 			this.txtComment.Text = "";
 			// 
-			// _System.Windows.Forms.Label1_1
+			// Label1_1
 			// 
-			this._System.Windows.Forms.Label1_1.AllowDrop = true;
-			this._System.Windows.Forms.Label1_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this._System.Windows.Forms.Label1_1.Caption = "Comments";
-			this._System.Windows.Forms.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_1.Location = new System.Drawing.Point(4, 238);
-			this._System.Windows.Forms.Label1_1.Name = "_System.Windows.Forms.Label1_1";
-			this._System.Windows.Forms.Label1_1.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label1_1.TabIndex = 22;
+			this.Label1_1.AllowDrop = true;
+			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label1_1.Text = "Comments";
+			this.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_1.Location = new System.Drawing.Point(4, 238);
+			this.Label1_1.Name = "Label1_1";
+			this.Label1_1.Size = new System.Drawing.Size(3, 14);
+			this.Label1_1.TabIndex = 22;
 			// 
 			// GroupBox2
 			// 
 			this.GroupBox2.AllowDrop = true;
 			this.GroupBox2.Controls.Add(this.cmdGenerate);
 			this.GroupBox2.Controls.Add(this.txtRemainingAmount);
-			this.GroupBox2.Controls.Add(this._System.Windows.Forms.Label1_5);
+			this.GroupBox2.Controls.Add(this.Label1_5);
 			this.GroupBox2.Controls.Add(this.txtInstallments);
-			this.GroupBox2.Controls.Add(this._System.Windows.Forms.Label1_2);
+			this.GroupBox2.Controls.Add(this.Label1_2);
 			this.GroupBox2.Controls.Add(this.txtInstallmentStartDate);
-			this.GroupBox2.Controls.Add(this._System.Windows.Forms.Label_4);
+			this.GroupBox2.Controls.Add(this.Label_4);
 			this.GroupBox2.Controls.Add(this.txtInstallmentAmount);
-			this.GroupBox2.Controls.Add(this._System.Windows.Forms.Label1_6);
+			this.GroupBox2.Controls.Add(this.Label1_6);
 			this.GroupBox2.Controls.Add(this.txtDownPayment);
-			this.GroupBox2.Controls.Add(this._System.Windows.Forms.Label1_3);
+			this.GroupBox2.Controls.Add(this.Label1_3);
 			this.GroupBox2.Location = new System.Drawing.Point(240, 30);
 			this.GroupBox2.Name = "GroupBox2";
 			("GroupBox2.OcxState");
@@ -466,16 +466,16 @@ namespace Xtreme
 			this.txtRemainingAmount.TabStop = false;
 			this.txtRemainingAmount.Text = ".000";
 			// 
-			// _System.Windows.Forms.Label1_5
+			// Label1_5
 			// 
-			this._System.Windows.Forms.Label1_5.AllowDrop = true;
-			this._System.Windows.Forms.Label1_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_5.Caption = "Remaining Amount";
-			this._System.Windows.Forms.Label1_5.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_5.Location = new System.Drawing.Point(8, 42);
-			this._System.Windows.Forms.Label1_5.Name = "_System.Windows.Forms.Label1_5";
-			this._System.Windows.Forms.Label1_5.Size = new System.Drawing.Size(89, 14);
-			this._System.Windows.Forms.Label1_5.TabIndex = 24;
+			this.Label1_5.AllowDrop = true;
+			this.Label1_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_5.Text = "Remaining Amount";
+			this.Label1_5.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_5.Location = new System.Drawing.Point(8, 42);
+			this.Label1_5.Name = "Label1_5";
+			this.Label1_5.Size = new System.Drawing.Size(89, 14);
+			this.Label1_5.TabIndex = 24;
 			// 
 			// txtInstallments
 			// 
@@ -488,16 +488,16 @@ namespace Xtreme
 			this.txtInstallments.TabIndex = 6;
 			this.txtInstallments.Text = "";
 			// 
-			// _System.Windows.Forms.Label1_2
+			// Label1_2
 			// 
-			this._System.Windows.Forms.Label1_2.AllowDrop = true;
-			this._System.Windows.Forms.Label1_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_2.Caption = "Total Installments";
-			this._System.Windows.Forms.Label1_2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_2.Location = new System.Drawing.Point(8, 86);
-			this._System.Windows.Forms.Label1_2.Name = "_System.Windows.Forms.Label1_2";
-			this._System.Windows.Forms.Label1_2.Size = new System.Drawing.Size(82, 14);
-			this._System.Windows.Forms.Label1_2.TabIndex = 25;
+			this.Label1_2.AllowDrop = true;
+			this.Label1_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_2.Text = "Total Installments";
+			this.Label1_2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_2.Location = new System.Drawing.Point(8, 86);
+			this.Label1_2.Name = "Label1_2";
+			this.Label1_2.Size = new System.Drawing.Size(82, 14);
+			this.Label1_2.TabIndex = 25;
 			// 
 			// txtInstallmentStartDate
 			// 
@@ -511,16 +511,16 @@ namespace Xtreme
 			this.txtInstallmentStartDate.TabIndex = 5;
 			this.txtInstallmentStartDate.Text = "10/02/2014";
 			// 
-			// _System.Windows.Forms.Label_4
+			// Label_4
 			// 
-			this._System.Windows.Forms.Label_4.AllowDrop = true;
-			this._System.Windows.Forms.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_4.Caption = "Installments From";
-			this._System.Windows.Forms.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_4.Location = new System.Drawing.Point(8, 62);
-			this._System.Windows.Forms.Label_4.Name = "_System.Windows.Forms.Label_4";
-			this._System.Windows.Forms.Label_4.Size = new System.Drawing.Size(83, 14);
-			this._System.Windows.Forms.Label_4.TabIndex = 26;
+			this.Label_4.AllowDrop = true;
+			this.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_4.Text = "Installments From";
+			this.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_4.Location = new System.Drawing.Point(8, 62);
+			this.Label_4.Name = "Label_4";
+			this.Label_4.Size = new System.Drawing.Size(83, 14);
+			this.Label_4.TabIndex = 26;
 			// 
 			// txtInstallmentAmount
 			// 
@@ -533,16 +533,16 @@ namespace Xtreme
 			this.txtInstallmentAmount.TabIndex = 7;
 			this.txtInstallmentAmount.Text = ".000";
 			// 
-			// _System.Windows.Forms.Label1_6
+			// Label1_6
 			// 
-			this._System.Windows.Forms.Label1_6.AllowDrop = true;
-			this._System.Windows.Forms.Label1_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_6.Caption = "Installment Amount";
-			this._System.Windows.Forms.Label1_6.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_6.Location = new System.Drawing.Point(8, 108);
-			this._System.Windows.Forms.Label1_6.Name = "_System.Windows.Forms.Label1_6";
-			this._System.Windows.Forms.Label1_6.Size = new System.Drawing.Size(90, 14);
-			this._System.Windows.Forms.Label1_6.TabIndex = 29;
+			this.Label1_6.AllowDrop = true;
+			this.Label1_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_6.Text = "Installment Amount";
+			this.Label1_6.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_6.Location = new System.Drawing.Point(8, 108);
+			this.Label1_6.Name = "Label1_6";
+			this.Label1_6.Size = new System.Drawing.Size(90, 14);
+			this.Label1_6.TabIndex = 29;
 			// 
 			// txtDownPayment
 			// 
@@ -556,16 +556,16 @@ namespace Xtreme
 			this.txtDownPayment.Text = ".000";
 			// this.txtDownPayment.Leave += new System.EventHandler(this.txtDownPayment_Leave);
 			// 
-			// _System.Windows.Forms.Label1_3
+			// Label1_3
 			// 
-			this._System.Windows.Forms.Label1_3.AllowDrop = true;
-			this._System.Windows.Forms.Label1_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_3.Caption = "Down Payment";
-			this._System.Windows.Forms.Label1_3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_3.Location = new System.Drawing.Point(8, 20);
-			this._System.Windows.Forms.Label1_3.Name = "_System.Windows.Forms.Label1_3";
-			this._System.Windows.Forms.Label1_3.Size = new System.Drawing.Size(73, 14);
-			this._System.Windows.Forms.Label1_3.TabIndex = 36;
+			this.Label1_3.AllowDrop = true;
+			this.Label1_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_3.Text = "Down Payment";
+			this.Label1_3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_3.Location = new System.Drawing.Point(8, 20);
+			this.Label1_3.Name = "Label1_3";
+			this.Label1_3.Size = new System.Drawing.Size(73, 14);
+			this.Label1_3.TabIndex = 36;
 			// 
 			// txtCustomerName
 			// 
@@ -608,17 +608,17 @@ namespace Xtreme
 			// this.this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCustomerCode_DropButtonClick);
 			// this.txtCustomerCode.Leave += new System.EventHandler(this.txtCustomerCode_Leave);
 			// 
-			// _System.Windows.Forms.Label_1
+			// Label_1
 			// 
-			this._System.Windows.Forms.Label_1.AllowDrop = true;
-			this._System.Windows.Forms.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_1.Caption = "Contract No";
-			this._System.Windows.Forms.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_1.Location = new System.Drawing.Point(250, 32);
-			this._System.Windows.Forms.Label_1.Name = "_System.Windows.Forms.Label_1";
-			this._System.Windows.Forms.Label_1.Size = new System.Drawing.Size(57, 14);
-			this._System.Windows.Forms.Label_1.TabIndex = 27;
-			this._System.Windows.Forms.Label_1.Visible = false;
+			this.Label_1.AllowDrop = true;
+			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_1.Text = "Contract No";
+			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_1.Location = new System.Drawing.Point(250, 32);
+			this.Label_1.Name = "Label_1";
+			this.Label_1.Size = new System.Drawing.Size(57, 14);
+			this.Label_1.TabIndex = 27;
+			this.Label_1.Visible = false;
 			// 
 			// txtContractNo
 			// 
@@ -636,16 +636,16 @@ namespace Xtreme
 			this.txtContractNo.Visible = false;
 			// this.this.txtContractNo.Watermark = "";
 			// 
-			// _System.Windows.Forms.Label_0
+			// Label_0
 			// 
-			this._System.Windows.Forms.Label_0.AllowDrop = true;
-			this._System.Windows.Forms.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_0.Caption = "Customer Name";
-			this._System.Windows.Forms.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_0.Location = new System.Drawing.Point(16, 10);
-			this._System.Windows.Forms.Label_0.Name = "_System.Windows.Forms.Label_0";
-			this._System.Windows.Forms.Label_0.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label_0.TabIndex = 28;
+			this.Label_0.AllowDrop = true;
+			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_0.Text = "Customer Name";
+			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_0.Location = new System.Drawing.Point(16, 10);
+			this.Label_0.Name = "Label_0";
+			this.Label_0.Size = new System.Drawing.Size(3, 14);
+			this.Label_0.TabIndex = 28;
 			// 
 			// frmSALContract
 			// 
@@ -698,25 +698,25 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[7];
-			this.System.Windows.Forms.Label1[4] = _System.Windows.Forms.Label1_4;
-			this.System.Windows.Forms.Label1[0] = _System.Windows.Forms.Label1_0;
-			this.System.Windows.Forms.Label1[1] = _System.Windows.Forms.Label1_1;
-			this.System.Windows.Forms.Label1[5] = _System.Windows.Forms.Label1_5;
-			this.System.Windows.Forms.Label1[2] = _System.Windows.Forms.Label1_2;
-			this.System.Windows.Forms.Label1[6] = _System.Windows.Forms.Label1_6;
-			this.System.Windows.Forms.Label1[3] = _System.Windows.Forms.Label1_3;
+			this.Label1 = new System.Windows.Forms.Label[7];
+			this.Label1[4] = Label1_4;
+			this.Label1[0] = Label1_0;
+			this.Label1[1] = Label1_1;
+			this.Label1[5] = Label1_5;
+			this.Label1[2] = Label1_2;
+			this.Label1[6] = Label1_6;
+			this.Label1[3] = Label1_3;
 		}
 		void InitializeSystem.Windows.Forms.Label()
 		{
-			this.System.Windows.Forms.Label = new System.Windows.Forms.Label[8];
-			this.System.Windows.Forms.Label[3] = _System.Windows.Forms.Label_3;
-			this.System.Windows.Forms.Label[7] = _System.Windows.Forms.Label_7;
-			this.System.Windows.Forms.Label[2] = _System.Windows.Forms.Label_2;
-			this.System.Windows.Forms.Label[4] = _System.Windows.Forms.Label_4;
-			this.System.Windows.Forms.Label[1] = _System.Windows.Forms.Label_1;
-			this.System.Windows.Forms.Label[0] = _System.Windows.Forms.Label_0;
+			this.Label = new System.Windows.Forms.Label[8];
+			this.Label[3] = Label_3;
+			this.Label[7] = Label_7;
+			this.Label[2] = Label_2;
+			this.Label[4] = Label_4;
+			this.Label[1] = Label_1;
+			this.Label[0] = Label_0;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

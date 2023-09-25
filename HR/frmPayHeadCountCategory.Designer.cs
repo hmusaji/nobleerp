@@ -55,12 +55,12 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtDeptCode;
 		public System.Windows.Forms.Label lblDeptCode;
 		public System.Windows.Forms.Label txtDDeptName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEndDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		public System.Windows.Forms.TextBox txtDesgCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.Label txtDlblDesgName;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -81,12 +81,12 @@ namespace Xtreme
 			this.txtDeptCode = new System.Windows.Forms.TextBox();
 			this.lblDeptCode = new System.Windows.Forms.Label();
 			this.txtDDeptName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtEndDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtStartDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtDesgCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.txtDlblDesgName = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -202,7 +202,7 @@ namespace Xtreme
 			this.lblDeptCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDeptCode.Text = "Department Code";
 			this.lblDeptCode.Location = new System.Drawing.Point(10, 132);
-			// this.lblDeptCode.mLabelId = 1973;
+			// // this.lblDeptCode.mLabelId = 1973;
 			this.lblDeptCode.Name = "lblDeptCode";
 			this.lblDeptCode.Size = new System.Drawing.Size(83, 14);
 			this.lblDeptCode.TabIndex = 10;
@@ -218,23 +218,23 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "End Date";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(279, 204);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(44, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 12;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "End Date";
+			this.Label2.Location = new System.Drawing.Point(279, 204);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(44, 13);
+			this.Label2.TabIndex = 12;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Start Date";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(9, 204);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(50, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 13;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Start Date";
+			this.Label1.Location = new System.Drawing.Point(9, 204);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(50, 13);
+			this.Label1.TabIndex = 13;
 			// 
 			// txtEndDate
 			// 
@@ -247,7 +247,7 @@ namespace Xtreme
 			this.txtEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtEndDate.TabIndex = 6;
 			this.txtEndDate.Text = "31/12/2011";
-			this.txtEndDate.Value = 40908;
+			// this.txtEndDate.Value = 40908;
 			// 
 			// txtStartDate
 			// 
@@ -260,7 +260,7 @@ namespace Xtreme
 			this.txtStartDate.Size = new System.Drawing.Size(107, 19);
 			this.txtStartDate.TabIndex = 5;
 			this.txtStartDate.Text = "01/01/2011";
-			this.txtStartDate.Value = 40544;
+			// this.txtStartDate.Value = 40544;
 			// 
 			// txtDesgCode
 			// 
@@ -280,14 +280,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Designation Code";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(8, 155);
-			this.System.Windows.Forms.Label3.mLabelId = 1049;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(84, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 15;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Designation Code";
+			this.Label3.Location = new System.Drawing.Point(8, 155);
+			// this.Label3.mLabelId = 1049;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(84, 14);
+			this.Label3.TabIndex = 15;
 			// 
 			// txtDlblDesgName
 			// 
@@ -316,12 +316,12 @@ namespace Xtreme
 			this.Controls.Add(this.txtDeptCode);
 			this.Controls.Add(this.lblDeptCode);
 			this.Controls.Add(this.txtDDeptName);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtEndDate);
 			this.Controls.Add(this.txtStartDate);
 			this.Controls.Add(this.txtDesgCode);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Controls.Add(this.Label3);
 			this.Controls.Add(this.txtDlblDesgName);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayHeadCountCategory.Icon");
@@ -350,4 +350,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

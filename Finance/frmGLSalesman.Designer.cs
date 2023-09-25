@@ -149,7 +149,7 @@ namespace Xtreme
 			this.lblFax.Text = "Fax";
 			this.lblFax.ForeColor = System.Drawing.Color.Black;
 			this.lblFax.Location = new System.Drawing.Point(8, 147);
-			// this.lblFax.mLabelId = 270;
+			// // this.lblFax.mLabelId = 270;
 			this.lblFax.Name = "lblFax";
 			this.lblFax.Size = new System.Drawing.Size(18, 14);
 			this.lblFax.TabIndex = 20;
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.lblPfNo.Text = "PF No.";
 			this.lblPfNo.ForeColor = System.Drawing.Color.Black;
 			this.lblPfNo.Location = new System.Drawing.Point(8, 168);
-			// this.lblPfNo.mLabelId = 523;
+			// // this.lblPfNo.mLabelId = 523;
 			this.lblPfNo.Name = "lblPfNo";
 			this.lblPfNo.Size = new System.Drawing.Size(31, 14);
 			this.lblPfNo.TabIndex = 21;
@@ -173,7 +173,7 @@ namespace Xtreme
 			this.lblSmanNo.Text = "Salesman Code";
 			this.lblSmanNo.ForeColor = System.Drawing.Color.Black;
 			this.lblSmanNo.Location = new System.Drawing.Point(8, 21);
-			// this.lblSmanNo.mLabelId = 688;
+			// // this.lblSmanNo.mLabelId = 688;
 			this.lblSmanNo.Name = "lblSmanNo";
 			this.lblSmanNo.Size = new System.Drawing.Size(75, 14);
 			this.lblSmanNo.TabIndex = 12;
@@ -185,7 +185,7 @@ namespace Xtreme
 			this.lblLSmanName.Text = "Salesman Name (English)";
 			this.lblLSmanName.ForeColor = System.Drawing.Color.Black;
 			this.lblLSmanName.Location = new System.Drawing.Point(8, 42);
-			// this.lblLSmanName.mLabelId = 969;
+			// // this.lblLSmanName.mLabelId = 969;
 			this.lblLSmanName.Name = "lblLSmanName";
 			this.lblLSmanName.Size = new System.Drawing.Size(122, 14);
 			this.lblLSmanName.TabIndex = 13;
@@ -197,7 +197,7 @@ namespace Xtreme
 			this.lblAddr_1.Text = "Address 1";
 			this.lblAddr_1.ForeColor = System.Drawing.Color.Black;
 			this.lblAddr_1.Location = new System.Drawing.Point(8, 84);
-			// this.lblAddr_1.mLabelId = 31;
+			// // this.lblAddr_1.mLabelId = 31;
 			this.lblAddr_1.Name = "lblAddr_1";
 			this.lblAddr_1.Size = new System.Drawing.Size(51, 14);
 			this.lblAddr_1.TabIndex = 15;
@@ -209,7 +209,7 @@ namespace Xtreme
 			this.lblAddr_2.Text = "Address2";
 			this.lblAddr_2.ForeColor = System.Drawing.Color.Black;
 			this.lblAddr_2.Location = new System.Drawing.Point(8, 105);
-			// this.lblAddr_2.mLabelId = 32;
+			// // this.lblAddr_2.mLabelId = 32;
 			this.lblAddr_2.Name = "lblAddr_2";
 			this.lblAddr_2.Size = new System.Drawing.Size(48, 14);
 			this.lblAddr_2.TabIndex = 16;
@@ -221,7 +221,7 @@ namespace Xtreme
 			this.lblPhone.Text = "Phone";
 			this.lblPhone.ForeColor = System.Drawing.Color.Black;
 			this.lblPhone.Location = new System.Drawing.Point(8, 126);
-			// this.lblPhone.mLabelId = 524;
+			// // this.lblPhone.mLabelId = 524;
 			this.lblPhone.Name = "lblPhone";
 			this.lblPhone.Size = new System.Drawing.Size(30, 14);
 			this.lblPhone.TabIndex = 18;
@@ -233,7 +233,7 @@ namespace Xtreme
 			this.lblCivilId.Text = "Civil ID";
 			this.lblCivilId.ForeColor = System.Drawing.Color.Black;
 			this.lblCivilId.Location = new System.Drawing.Point(240, 147);
-			// this.lblCivilId.mLabelId = 124;
+			// // this.lblCivilId.mLabelId = 124;
 			this.lblCivilId.Name = "lblCivilId";
 			this.lblCivilId.Size = new System.Drawing.Size(31, 14);
 			this.lblCivilId.TabIndex = 19;
@@ -245,7 +245,7 @@ namespace Xtreme
 			this.lblASmanName.Text = "Salesman Name (Arabic)";
 			this.lblASmanName.ForeColor = System.Drawing.Color.Black;
 			this.lblASmanName.Location = new System.Drawing.Point(8, 63);
-			// this.lblASmanName.mLabelId = 970;
+			// // this.lblASmanName.mLabelId = 970;
 			this.lblASmanName.Name = "lblASmanName";
 			this.lblASmanName.Size = new System.Drawing.Size(120, 14);
 			this.lblASmanName.TabIndex = 14;
@@ -257,7 +257,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(8, 230);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 24;
@@ -269,7 +269,7 @@ namespace Xtreme
 			this.lblEmail.Text = "Email";
 			this.lblEmail.ForeColor = System.Drawing.Color.Black;
 			this.lblEmail.Location = new System.Drawing.Point(8, 189);
-			// this.lblEmail.mLabelId = 231;
+			// // this.lblEmail.mLabelId = 231;
 			this.lblEmail.Name = "lblEmail";
 			this.lblEmail.Size = new System.Drawing.Size(24, 14);
 			this.lblEmail.TabIndex = 23;
@@ -281,7 +281,7 @@ namespace Xtreme
 			this.lblMobile.Text = "Mobile";
 			this.lblMobile.ForeColor = System.Drawing.Color.Black;
 			this.lblMobile.Location = new System.Drawing.Point(240, 126);
-			// this.lblMobile.mLabelId = 435;
+			// // this.lblMobile.mLabelId = 435;
 			this.lblMobile.Name = "lblMobile";
 			this.lblMobile.Size = new System.Drawing.Size(30, 14);
 			this.lblMobile.TabIndex = 17;
@@ -293,7 +293,7 @@ namespace Xtreme
 			this.lblCommission.Text = "Commission (in %)";
 			this.lblCommission.ForeColor = System.Drawing.Color.Black;
 			this.lblCommission.Location = new System.Drawing.Point(240, 168);
-			// this.lblCommission.mLabelId = 971;
+			// // this.lblCommission.mLabelId = 971;
 			this.lblCommission.Name = "lblCommission";
 			this.lblCommission.Size = new System.Drawing.Size(89, 14);
 			this.lblCommission.TabIndex = 22;
@@ -471,7 +471,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.Text = "Location Code";
 			this._lblCommonLabel_2.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(8, 209);
-			// this._lblCommonLabel_2.mLabelId = 416;
+			// // this._lblCommonLabel_2.mLabelId = 416;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(80, 15);
 			this._lblCommonLabel_2.TabIndex = 27;
@@ -556,4 +556,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

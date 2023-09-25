@@ -110,7 +110,7 @@ namespace Xtreme
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Qualification Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(12, 59);
-			// this.lblLNatName.mLabelId = 1228;
+			// // this.lblLNatName.mLabelId = 1228;
 			this.lblLNatName.Name = "lblLNatName";
 			this.lblLNatName.Size = new System.Drawing.Size(134, 14);
 			this.lblLNatName.TabIndex = 2;
@@ -133,7 +133,7 @@ namespace Xtreme
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Qualification Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(12, 80);
-			// this.lblANatName.mLabelId = 1935;
+			// // this.lblANatName.mLabelId = 1935;
 			this.lblANatName.Name = "lblANatName";
 			this.lblANatName.Size = new System.Drawing.Size(132, 14);
 			this.lblANatName.TabIndex = 4;
@@ -157,7 +157,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(12, 100);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 6;
@@ -168,7 +168,7 @@ namespace Xtreme
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Qualification Code";
 			this.lblNatNo.Location = new System.Drawing.Point(12, 38);
-			// this.lblNatNo.mLabelId = 1082;
+			// // this.lblNatNo.mLabelId = 1082;
 			this.lblNatNo.Name = "lblNatNo";
 			this.lblNatNo.Size = new System.Drawing.Size(87, 14);
 			this.lblNatNo.TabIndex = 7;
@@ -216,4 +216,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

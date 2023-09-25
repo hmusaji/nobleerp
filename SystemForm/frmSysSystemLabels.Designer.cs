@@ -44,7 +44,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtEngName;
 		public System.Windows.Forms.Label lblCompanyCode;
 		public System.Windows.Forms.Label lblLableId;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtModuleId;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -62,7 +62,7 @@ namespace Xtreme
 			this.txtEngName = new System.Windows.Forms.TextBox();
 			this.lblCompanyCode = new System.Windows.Forms.Label();
 			this.lblLableId = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtModuleId = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
@@ -143,13 +143,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Module ID";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(240, 18);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(46, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 8;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Module ID";
+			this.Label1.Location = new System.Drawing.Point(240, 18);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(46, 14);
+			this.Label1.TabIndex = 8;
 			// 
 			// txtModuleId
 			// 
@@ -177,7 +177,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtEngName);
 			this.Controls.Add(this.lblCompanyCode);
 			this.Controls.Add(this.lblLableId);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtModuleId);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.KeyPreview = true;
@@ -195,4 +195,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -41,7 +41,7 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "txtDlblApprovalTypeNAme", "Column_0_cmbMastersList", "Column_1_cmbMastersList", "cmbMastersList", "Column_0_grdApprovalTemplate", "Column_1_grdApprovalTemplate", "grdApprovalTemplate", "_txtTextBox_0", "System.Windows.Forms.Label3", "System.Windows.Forms.Label2", "_System.Windows.Forms.Label1_0", "_txtTextBox_1", "_txtTextBox_2", "txtApprovalTypeCode", "_System.Windows.Forms.Label1_1", "Line1", "System.Windows.Forms.Label1", "txtTextBox"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "txtDlblApprovalTypeNAme", "Column_0_cmbMastersList", "Column_1_cmbMastersList", "cmbMastersList", "Column_0_grdApprovalTemplate", "Column_1_grdApprovalTemplate", "grdApprovalTemplate", "_txtTextBox_0", "System.Windows.Forms.Label3", "System.Windows.Forms.Label2", "Label1_0", "_txtTextBox_1", "_txtTextBox_2", "txtApprovalTypeCode", "Label1_1", "Line1", "System.Windows.Forms.Label1", "txtTextBox"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -53,15 +53,15 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdApprovalTemplate;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdApprovalTemplate;
 		private System.Windows.Forms.TextBox _txtTextBox_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_0;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel2;
+		private System.Windows.Forms.Label Label1_0;
 		private System.Windows.Forms.TextBox _txtTextBox_1;
 		private System.Windows.Forms.TextBox _txtTextBox_2;
 		public System.Windows.Forms.TextBox txtApprovalTypeCode;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_1;
+		private System.Windows.Forms.Label Label1_1;
 		public System.Windows.Forms.Label Line1;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[2];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[2];
 		public System.Windows.Forms.TextBox[] txtTextBox = new System.Windows.Forms.TextBox[3];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -80,13 +80,13 @@ namespace Xtreme
 			this.Column_0_grdApprovalTemplate = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdApprovalTemplate = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this._txtTextBox_0 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label1_0 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label1_0 = new System.Windows.Forms.Label();
 			this._txtTextBox_1 = new System.Windows.Forms.TextBox();
 			this._txtTextBox_2 = new System.Windows.Forms.TextBox();
 			this.txtApprovalTypeCode = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_1 = new System.Windows.Forms.Label();
+			this.Label1_1 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.cmbMastersList.SuspendLayout();
 			this.grdApprovalTemplate.SuspendLayout();
@@ -167,33 +167,33 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Template Name(ARB)";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(7, 144);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 6;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Template Name(ARB)";
+			this.Label3.Location = new System.Drawing.Point(7, 144);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(103, 14);
+			this.Label3.TabIndex = 6;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Template Name(ENG)";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(7, 121);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(102, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 7;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Template Name(ENG)";
+			this.Label2.Location = new System.Drawing.Point(7, 121);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(102, 14);
+			this.Label2.TabIndex = 7;
 			// 
-			// _System.Windows.Forms.Label1_0
+			// Label1_0
 			// 
-			this._System.Windows.Forms.Label1_0.AllowDrop = true;
-			this._System.Windows.Forms.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_0.Caption = "Template Code";
-			this._System.Windows.Forms.Label1_0.Location = new System.Drawing.Point(7, 79);
-			this._System.Windows.Forms.Label1_0.Name = "_System.Windows.Forms.Label1_0";
-			this._System.Windows.Forms.Label1_0.Size = new System.Drawing.Size(71, 14);
-			this._System.Windows.Forms.Label1_0.TabIndex = 8;
+			this.Label1_0.AllowDrop = true;
+			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_0.Text = "Template Code";
+			this.Label1_0.Location = new System.Drawing.Point(7, 79);
+			this.Label1_0.Name = "Label1_0";
+			this.Label1_0.Size = new System.Drawing.Size(71, 14);
+			this.Label1_0.TabIndex = 8;
 			// 
 			// _txtTextBox_1
 			// 
@@ -237,15 +237,15 @@ namespace Xtreme
 			// this.this.txtApprovalTypeCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtApprovalTypeCode_DropButtonClick);
 			// this.txtApprovalTypeCode.Leave += new System.EventHandler(this.txtApprovalTypeCode_Leave);
 			// 
-			// _System.Windows.Forms.Label1_1
+			// Label1_1
 			// 
-			this._System.Windows.Forms.Label1_1.AllowDrop = true;
-			this._System.Windows.Forms.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_1.Caption = "Approval Type Code";
-			this._System.Windows.Forms.Label1_1.Location = new System.Drawing.Point(7, 100);
-			this._System.Windows.Forms.Label1_1.Name = "_System.Windows.Forms.Label1_1";
-			this._System.Windows.Forms.Label1_1.Size = new System.Drawing.Size(99, 14);
-			this._System.Windows.Forms.Label1_1.TabIndex = 9;
+			this.Label1_1.AllowDrop = true;
+			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_1.Text = "Approval Type Code";
+			this.Label1_1.Location = new System.Drawing.Point(7, 100);
+			this.Label1_1.Name = "Label1_1";
+			this.Label1_1.Size = new System.Drawing.Size(99, 14);
+			this.Label1_1.TabIndex = 9;
 			// 
 			// Line1
 			// 
@@ -269,13 +269,13 @@ namespace Xtreme
 			this.Controls.Add(this.cmbMastersList);
 			this.Controls.Add(this.grdApprovalTemplate);
 			this.Controls.Add(this._txtTextBox_0);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this._System.Windows.Forms.Label1_0);
+			this.Controls.Add(this.Label3);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label1_0);
 			this.Controls.Add(this._txtTextBox_1);
 			this.Controls.Add(this._txtTextBox_2);
 			this.Controls.Add(this.txtApprovalTypeCode);
-			this.Controls.Add(this._System.Windows.Forms.Label1_1);
+			this.Controls.Add(this.Label1_1);
 			this.Controls.Add(this.Line1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayApprovalTemplate.Icon");
@@ -315,10 +315,10 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[2];
-			this.System.Windows.Forms.Label1[0] = _System.Windows.Forms.Label1_0;
-			this.System.Windows.Forms.Label1[1] = _System.Windows.Forms.Label1_1;
+			this.Label1 = new System.Windows.Forms.Label[2];
+			this.Label1[0] = Label1_0;
+			this.Label1[1] = Label1_1;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

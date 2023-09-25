@@ -45,9 +45,9 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.TextBox txtRestoreDBName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Button cmdCancel;
 		public System.Windows.Forms.Button cmdOK;
 		public UpgradeHelpers.Gui.DirListBoxHelper Dir1;
@@ -62,9 +62,9 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysDatabaseRestore));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtRestoreDBName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.cmdCancel = new System.Windows.Forms.Button();
 			this.cmdOK = new System.Windows.Forms.Button();
 			this.Dir1 = new UpgradeHelpers.Gui.DirListBoxHelper();
@@ -74,14 +74,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label2.Caption = "Restore Database Name";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(20, 282);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(117, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 7;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.SystemColors.Window;
+			this.Label2.Text = "Restore Database Name";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(20, 282);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(117, 13);
+			this.Label2.TabIndex = 7;
 			// 
 			// txtRestoreDBName
 			// 
@@ -98,13 +98,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Select the file to Restore:";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(16, 22);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(119, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 5;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Select the file to Restore:";
+			this.Label1.Location = new System.Drawing.Point(16, 22);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(119, 13);
+			this.Label1.TabIndex = 5;
 			// 
 			// cmdCancel
 			// 
@@ -200,9 +200,9 @@ namespace Xtreme
 			this.BackColor = System.Drawing.Color.FromArgb(239, 221, 211);
 			this.CancelButton = this.cmdCancel;
 			this.ClientSize = new System.Drawing.Size(551, 375);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.txtRestoreDBName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.cmdCancel);
 			this.Controls.Add(this.cmdOK);
 			this.Controls.Add(this.Dir1);
@@ -234,4 +234,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

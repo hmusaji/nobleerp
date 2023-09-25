@@ -51,9 +51,9 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtDeptCode;
 		public System.Windows.Forms.Label lblSectionCode;
 		public System.Windows.Forms.Label txtDCategoryName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdHeadcountSummary;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdHeadcountSummary;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdHeadcountSummary;
@@ -78,9 +78,9 @@ namespace Xtreme
 			this.txtDeptCode = new System.Windows.Forms.TextBox();
 			this.lblSectionCode = new System.Windows.Forms.Label();
 			this.txtDCategoryName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.grdHeadcountSummary = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdHeadcountSummary = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdHeadcountSummary = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -167,33 +167,33 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
-			this.System.Windows.Forms.Label1.Caption = "Current Payroll Details";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(557, 358);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(106, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 9;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
+			this.Label1.Text = "Current Payroll Details";
+			this.Label1.Location = new System.Drawing.Point(557, 358);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(106, 14);
+			this.Label1.TabIndex = 9;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Additional Headcount Details";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(16, 358);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(137, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 10;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Additional Headcount Details";
+			this.Label2.Location = new System.Drawing.Point(16, 358);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(137, 14);
+			this.Label2.TabIndex = 10;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Headcount Summary";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(18, 154);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(100, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 11;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Headcount Summary";
+			this.Label3.Location = new System.Drawing.Point(18, 154);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(100, 14);
+			this.Label3.TabIndex = 11;
 			// 
 			// grdHeadcountSummary
 			// 
@@ -281,9 +281,9 @@ namespace Xtreme
 			this.Controls.Add(this.txtDeptCode);
 			this.Controls.Add(this.lblSectionCode);
 			this.Controls.Add(this.txtDCategoryName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label3);
 			this.Controls.Add(this.grdHeadcountSummary);
 			this.Controls.Add(this.grdAddHeadcountDetails);
 			this.Controls.Add(this.grdCurrentPayroll);
@@ -317,4 +317,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

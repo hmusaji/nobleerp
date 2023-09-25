@@ -83,8 +83,8 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_6;
 		private System.Windows.Forms.Label _lblCommon_8;
 		private System.Windows.Forms.Label _lblCommon_10;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtEstimatedIncome;
 		public System.Windows.Forms.TextBox txtExtimatedExp;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEndDate;
@@ -155,8 +155,8 @@ namespace Xtreme
 			this._lblCommon_6 = new System.Windows.Forms.Label();
 			this._lblCommon_8 = new System.Windows.Forms.Label();
 			this._lblCommon_10 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtEstimatedIncome = new System.Windows.Forms.TextBox();
 			this.txtExtimatedExp = new System.Windows.Forms.TextBox();
 			this.txtEndDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
@@ -576,8 +576,8 @@ namespace Xtreme
 			this._fraLedgerInformation_0.Controls.Add(this._lblCommon_6);
 			this._fraLedgerInformation_0.Controls.Add(this._lblCommon_8);
 			this._fraLedgerInformation_0.Controls.Add(this._lblCommon_10);
-			this._fraLedgerInformation_0.Controls.Add(this.System.Windows.Forms.Label2);
-			this._fraLedgerInformation_0.Controls.Add(this.System.Windows.Forms.Label1);
+			this._fraLedgerInformation_0.Controls.Add(this.Label2);
+			this._fraLedgerInformation_0.Controls.Add(this.Label1);
 			this._fraLedgerInformation_0.Controls.Add(this.txtEstimatedIncome);
 			this._fraLedgerInformation_0.Controls.Add(this.txtExtimatedExp);
 			this._fraLedgerInformation_0.Controls.Add(this.txtEndDate);
@@ -663,23 +663,23 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label2.Caption = "End Date";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(242, 59);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(44, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 18;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.SystemColors.Window;
+			this.Label2.Text = "End Date";
+			this.Label2.Location = new System.Drawing.Point(242, 59);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(44, 13);
+			this.Label2.TabIndex = 18;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Start Date";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 59);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(50, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 19;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Start Date";
+			this.Label1.Location = new System.Drawing.Point(6, 59);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(50, 13);
+			this.Label1.TabIndex = 19;
 			// 
 			// txtEstimatedIncome
 			// 
@@ -719,7 +719,7 @@ namespace Xtreme
 			this.txtEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtEndDate.TabIndex = 22;
 			this.txtEndDate.Text = "8/6/2003";
-			this.txtEndDate.Value = 37839;
+			// this.txtEndDate.Value = 37839;
 			// 
 			// txtStartDate
 			// 
@@ -732,7 +732,7 @@ namespace Xtreme
 			this.txtStartDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDate.TabIndex = 23;
 			this.txtStartDate.Text = "8/6/2003";
-			this.txtStartDate.Value = 37839;
+			// this.txtStartDate.Value = 37839;
 			// 
 			// _lblDisplayLabel_4
 			// 
@@ -956,4 +956,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

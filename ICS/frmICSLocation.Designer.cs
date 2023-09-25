@@ -68,8 +68,8 @@ namespace Xtreme
 		private System.Windows.Forms.Panel _fraMasterInformation_1;
 		public System.Windows.Forms.CheckBox chkCheckNegativeStock;
 		public System.Windows.Forms.TextBox txtComment;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.TextBox txtLShortName;
 		public System.Windows.Forms.TextBox txtAShortName;
 		public System.Windows.Forms.Label lblAddr_1;
@@ -79,7 +79,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblMobile;
 		public System.Windows.Forms.TextBox txtPhone;
 		public System.Windows.Forms.TextBox txtContactPerson;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtAdd3;
 		public System.Windows.Forms.Label lblAddr_2;
 		public System.Windows.Forms.TextBox txtAdd2;
@@ -131,8 +131,8 @@ namespace Xtreme
 			this._fraMasterInformation_0 = new System.Windows.Forms.Panel();
 			this.chkCheckNegativeStock = new System.Windows.Forms.CheckBox();
 			this.txtComment = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.txtLShortName = new System.Windows.Forms.TextBox();
 			this.txtAShortName = new System.Windows.Forms.TextBox();
 			this.lblAddr_1 = new System.Windows.Forms.Label();
@@ -142,7 +142,7 @@ namespace Xtreme
 			this.lblMobile = new System.Windows.Forms.Label();
 			this.txtPhone = new System.Windows.Forms.TextBox();
 			this.txtContactPerson = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtAdd3 = new System.Windows.Forms.TextBox();
 			this.lblAddr_2 = new System.Windows.Forms.Label();
 			this.txtAdd2 = new System.Windows.Forms.TextBox();
@@ -475,8 +475,8 @@ namespace Xtreme
 			this._fraMasterInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraMasterInformation_0.Controls.Add(this.chkCheckNegativeStock);
 			this._fraMasterInformation_0.Controls.Add(this.txtComment);
-			this._fraMasterInformation_0.Controls.Add(this.System.Windows.Forms.Label2);
-			this._fraMasterInformation_0.Controls.Add(this.System.Windows.Forms.Label3);
+			this._fraMasterInformation_0.Controls.Add(this.Label2);
+			this._fraMasterInformation_0.Controls.Add(this.Label3);
 			this._fraMasterInformation_0.Controls.Add(this.txtLShortName);
 			this._fraMasterInformation_0.Controls.Add(this.txtAShortName);
 			this._fraMasterInformation_0.Controls.Add(this.lblAddr_1);
@@ -486,7 +486,7 @@ namespace Xtreme
 			this._fraMasterInformation_0.Controls.Add(this.lblMobile);
 			this._fraMasterInformation_0.Controls.Add(this.txtPhone);
 			this._fraMasterInformation_0.Controls.Add(this.txtContactPerson);
-			this._fraMasterInformation_0.Controls.Add(this.System.Windows.Forms.Label1);
+			this._fraMasterInformation_0.Controls.Add(this.Label1);
 			this._fraMasterInformation_0.Controls.Add(this.txtAdd3);
 			this._fraMasterInformation_0.Controls.Add(this.lblAddr_2);
 			this._fraMasterInformation_0.Controls.Add(this.txtAdd2);
@@ -537,27 +537,27 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label2.Caption = "Short Name (English)";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(8, 16);
-			this.System.Windows.Forms.Label2.mLabelId = 709;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(101, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 19;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label2.Text = "Short Name (English)";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(8, 16);
+			// this.Label2.mLabelId = 709;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(101, 14);
+			this.Label2.TabIndex = 19;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label3.Caption = "Short Name (Arabic)";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(8, 37);
-			this.System.Windows.Forms.Label3.mLabelId = 958;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(99, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 20;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label3.Text = "Short Name (Arabic)";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(8, 37);
+			// this.Label3.mLabelId = 958;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(99, 14);
+			this.Label3.TabIndex = 20;
 			// 
 			// txtLShortName
 			// 
@@ -594,7 +594,7 @@ namespace Xtreme
 			this.lblAddr_1.Text = "Address 1";
 			this.lblAddr_1.ForeColor = System.Drawing.Color.Black;
 			this.lblAddr_1.Location = new System.Drawing.Point(8, 59);
-			// this.lblAddr_1.mLabelId = 31;
+			// // this.lblAddr_1.mLabelId = 31;
 			this.lblAddr_1.Name = "lblAddr_1";
 			this.lblAddr_1.Size = new System.Drawing.Size(51, 14);
 			this.lblAddr_1.TabIndex = 21;
@@ -606,7 +606,7 @@ namespace Xtreme
 			this.lblPhone.Text = "Phone";
 			this.lblPhone.ForeColor = System.Drawing.Color.Black;
 			this.lblPhone.Location = new System.Drawing.Point(416, 79);
-			// this.lblPhone.mLabelId = 524;
+			// // this.lblPhone.mLabelId = 524;
 			this.lblPhone.Name = "lblPhone";
 			this.lblPhone.Size = new System.Drawing.Size(30, 14);
 			this.lblPhone.TabIndex = 22;
@@ -618,7 +618,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(8, 140);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 23;
@@ -643,7 +643,7 @@ namespace Xtreme
 			this.lblMobile.Text = "Contact Person";
 			this.lblMobile.ForeColor = System.Drawing.Color.Black;
 			this.lblMobile.Location = new System.Drawing.Point(416, 100);
-			// this.lblMobile.mLabelId = 142;
+			// // this.lblMobile.mLabelId = 142;
 			this.lblMobile.Name = "lblMobile";
 			this.lblMobile.Size = new System.Drawing.Size(74, 14);
 			this.lblMobile.TabIndex = 24;
@@ -676,15 +676,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label1.Caption = "Address 3";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 100);
-			this.System.Windows.Forms.Label1.mLabelId = 33;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(51, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 25;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label1.Text = "Address 3";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(8, 100);
+			// this.Label1.mLabelId = 33;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(51, 14);
+			this.Label1.TabIndex = 25;
 			// 
 			// txtAdd3
 			// 
@@ -706,7 +706,7 @@ namespace Xtreme
 			this.lblAddr_2.Text = "Address 2";
 			this.lblAddr_2.ForeColor = System.Drawing.Color.Black;
 			this.lblAddr_2.Location = new System.Drawing.Point(8, 79);
-			// this.lblAddr_2.mLabelId = 32;
+			// // this.lblAddr_2.mLabelId = 32;
 			this.lblAddr_2.Name = "lblAddr_2";
 			this.lblAddr_2.Size = new System.Drawing.Size(51, 14);
 			this.lblAddr_2.TabIndex = 26;
@@ -731,7 +731,7 @@ namespace Xtreme
 			this._lblCommon_3.Text = " Location Information ";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.FromArgb(57, 77, 102);
 			this._lblCommon_3.Location = new System.Drawing.Point(24, 68);
-			// this._lblCommon_3.mLabelId = 957;
+			// // this._lblCommon_3.mLabelId = 957;
 			this._lblCommon_3.Name = "_lblCommon_3";
 			this._lblCommon_3.Size = new System.Drawing.Size(120, 14);
 			this._lblCommon_3.TabIndex = 15;
@@ -743,7 +743,7 @@ namespace Xtreme
 			this.lblLSmanName.Text = "Location Name (English)";
 			this.lblLSmanName.ForeColor = System.Drawing.Color.Black;
 			this.lblLSmanName.Location = new System.Drawing.Point(260, 24);
-			// this.lblLSmanName.mLabelId = 418;
+			// // this.lblLSmanName.mLabelId = 418;
 			this.lblLSmanName.Name = "lblLSmanName";
 			this.lblLSmanName.Size = new System.Drawing.Size(116, 14);
 			this.lblLSmanName.TabIndex = 16;
@@ -755,7 +755,7 @@ namespace Xtreme
 			this.lblASmanName.Text = "Location Name (Arabic)";
 			this.lblASmanName.ForeColor = System.Drawing.Color.Black;
 			this.lblASmanName.Location = new System.Drawing.Point(260, 45);
-			// this.lblASmanName.mLabelId = 956;
+			// // this.lblASmanName.mLabelId = 956;
 			this.lblASmanName.Name = "lblASmanName";
 			this.lblASmanName.Size = new System.Drawing.Size(114, 14);
 			this.lblASmanName.TabIndex = 17;
@@ -812,7 +812,7 @@ namespace Xtreme
 			this.lblSmanNo.Text = "Location Code";
 			this.lblSmanNo.ForeColor = System.Drawing.Color.Black;
 			this.lblSmanNo.Location = new System.Drawing.Point(8, 24);
-			// this.lblSmanNo.mLabelId = 416;
+			// // this.lblSmanNo.mLabelId = 416;
 			this.lblSmanNo.Name = "lblSmanNo";
 			this.lblSmanNo.Size = new System.Drawing.Size(69, 14);
 			this.lblSmanNo.TabIndex = 18;
@@ -888,4 +888,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

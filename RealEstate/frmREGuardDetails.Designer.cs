@@ -57,9 +57,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblAssetsAdjustmentAccount;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtDateCommonDisplay_1;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
@@ -92,9 +92,9 @@ namespace Xtreme
 			this.lblComments = new System.Windows.Forms.Label();
 			this.lblAssetsAdjustmentAccount = new System.Windows.Forms.Label();
 			this._txtCommon_1 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this._txtCommon_0 = new System.Windows.Forms.TextBox();
 			this._txtDateCommonDisplay_1 = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this._txtCommonDisplay_0 = new System.Windows.Forms.Label();
@@ -218,9 +218,9 @@ namespace Xtreme
 			this.TDBContainer3D1.Controls.Add(this.lblComments);
 			this.TDBContainer3D1.Controls.Add(this.lblAssetsAdjustmentAccount);
 			this.TDBContainer3D1.Controls.Add(this._txtCommon_1);
-			this.TDBContainer3D1.Controls.Add(this.System.Windows.Forms.Label1);
-			this.TDBContainer3D1.Controls.Add(this.System.Windows.Forms.Label2);
-			this.TDBContainer3D1.Controls.Add(this.System.Windows.Forms.Label3);
+			this.TDBContainer3D1.Controls.Add(this.Label1);
+			this.TDBContainer3D1.Controls.Add(this.Label2);
+			this.TDBContainer3D1.Controls.Add(this.Label3);
 			this.TDBContainer3D1.Controls.Add(this._txtCommon_0);
 			this.TDBContainer3D1.Controls.Add(this._txtDateCommonDisplay_1);
 			this.TDBContainer3D1.Controls.Add(this._txtCommonDisplay_0);
@@ -241,7 +241,7 @@ namespace Xtreme
 			this._txtDateCommonDisplay_0.Size = new System.Drawing.Size(81, 19);
 			this._txtDateCommonDisplay_0.TabIndex = 17;
 			this._txtDateCommonDisplay_0.Text = "10/07/2004";
-			this._txtDateCommonDisplay_0.Value = 38178;
+			// this._txtDateCommonDisplay_0.Value = 38178;
 			// 
 			// txtRemarks
 			// 
@@ -266,7 +266,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(16, 86);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(49, 13);
 			this.lblComments.TabIndex = 12;
@@ -278,7 +278,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentAccount.Text = "Guard Code";
 			this.lblAssetsAdjustmentAccount.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentAccount.Location = new System.Drawing.Point(16, 35);
-			// this.lblAssetsAdjustmentAccount.mLabelId = 1179;
+			// // this.lblAssetsAdjustmentAccount.mLabelId = 1179;
 			this.lblAssetsAdjustmentAccount.Name = "lblAssetsAdjustmentAccount";
 			this.lblAssetsAdjustmentAccount.Size = new System.Drawing.Size(58, 14);
 			this.lblAssetsAdjustmentAccount.TabIndex = 13;
@@ -300,39 +300,39 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label1.Caption = "Starting Date";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(16, 56);
-			this.System.Windows.Forms.Label1.mLabelId = 1160;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(62, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 14;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label1.Text = "Starting Date";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(16, 56);
+			// this.Label1.mLabelId = 1160;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(62, 14);
+			this.Label1.TabIndex = 14;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label2.Caption = "Ending Date";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(258, 56);
-			this.System.Windows.Forms.Label2.mLabelId = 1161;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(57, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 15;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label2.Text = "Ending Date";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(258, 56);
+			// this.Label2.mLabelId = 1161;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(57, 14);
+			this.Label2.TabIndex = 15;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label3.Caption = "Property No";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(16, 14);
-			this.System.Windows.Forms.Label3.mLabelId = 1178;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(57, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 16;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label3.Text = "Property No";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(16, 14);
+			// this.Label3.mLabelId = 1178;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(57, 14);
+			this.Label3.TabIndex = 16;
 			// 
 			// _txtCommon_0
 			// 
@@ -359,7 +359,7 @@ namespace Xtreme
 			this._txtDateCommonDisplay_1.Size = new System.Drawing.Size(81, 19);
 			this._txtDateCommonDisplay_1.TabIndex = 18;
 			this._txtDateCommonDisplay_1.Text = "09/11/2004";
-			this._txtDateCommonDisplay_1.Value = 38300;
+			// this._txtDateCommonDisplay_1.Value = 38300;
 			// 
 			// _txtCommonDisplay_0
 			// 
@@ -455,4 +455,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

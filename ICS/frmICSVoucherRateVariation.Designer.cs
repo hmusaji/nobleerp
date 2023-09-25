@@ -49,11 +49,11 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblToDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Panel fraDateRange;
 		public System.Windows.Forms.TextBox txtCurrentRate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.TextBox txtNewRate;
 		public System.Windows.Forms.Panel Frame1;
 		public System.Windows.Forms.TextBox txtProductCd;
@@ -78,11 +78,11 @@ namespace Xtreme
 			this.lblToDate = new System.Windows.Forms.Label();
 			this.txtToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtFromDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.txtCurrentRate = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.txtNewRate = new System.Windows.Forms.TextBox();
 			this.txtProductCd = new System.Windows.Forms.TextBox();
 			this.txtLedgerCd = new System.Windows.Forms.TextBox();
@@ -133,7 +133,7 @@ namespace Xtreme
 			this.fraDateRange.Controls.Add(this.lblToDate);
 			this.fraDateRange.Controls.Add(this.txtToDate);
 			this.fraDateRange.Controls.Add(this.txtFromDate);
-			this.fraDateRange.Controls.Add(this.System.Windows.Forms.Label1);
+			this.fraDateRange.Controls.Add(this.Label1);
 			this.fraDateRange.Enabled = true;
 			this.fraDateRange.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.fraDateRange.Location = new System.Drawing.Point(9, 81);
@@ -166,7 +166,7 @@ namespace Xtreme
 			this.txtToDate.Size = new System.Drawing.Size(96, 19);
 			this.txtToDate.TabIndex = 3;
 			this.txtToDate.Text = "18/07/2001";
-			this.txtToDate.Value = 37090;
+			// this.txtToDate.Value = 37090;
 			// 
 			// txtFromDate
 			// 
@@ -179,19 +179,19 @@ namespace Xtreme
 			this.txtFromDate.Size = new System.Drawing.Size(96, 19);
 			this.txtFromDate.TabIndex = 2;
 			this.txtFromDate.Text = "04/03/2002";
-			this.txtFromDate.Value = 37319;
+			// this.txtFromDate.Value = 37319;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "From Date";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(12, 15);
-			this.System.Windows.Forms.Label1.mLabelId = 948;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(50, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 15;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "From Date";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(12, 15);
+			// this.Label1.mLabelId = 948;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(50, 13);
+			this.Label1.TabIndex = 15;
 			// 
 			// Frame1
 			// 
@@ -199,8 +199,8 @@ namespace Xtreme
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this.txtCurrentRate);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Frame1.Controls.Add(this.Label2);
+			this.Frame1.Controls.Add(this.Label3);
 			this.Frame1.Controls.Add(this.txtNewRate);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -229,26 +229,26 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label2.Caption = "New Rate";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(21, 33);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(47, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 11;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.SystemColors.Window;
+			this.Label2.Text = "New Rate";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(21, 33);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(47, 13);
+			this.Label2.TabIndex = 11;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label3.Caption = "Current Rate";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(21, 12);
-			this.System.Windows.Forms.Label3.mLabelId = 948;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(63, 13);
-			this.System.Windows.Forms.Label3.TabIndex = 12;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.SystemColors.Window;
+			this.Label3.Text = "Current Rate";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(21, 12);
+			// this.Label3.mLabelId = 948;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(63, 13);
+			this.Label3.TabIndex = 12;
 			// 
 			// txtNewRate
 			// 
@@ -298,7 +298,7 @@ namespace Xtreme
 			this.lblLocationCode.Text = "Product Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationCode.Location = new System.Drawing.Point(10, 34);
-			// this.lblLocationCode.mLabelId = 416;
+			// // this.lblLocationCode.mLabelId = 416;
 			this.lblLocationCode.Name = "lblLocationCode";
 			this.lblLocationCode.Size = new System.Drawing.Size(65, 14);
 			this.lblLocationCode.TabIndex = 8;
@@ -371,4 +371,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

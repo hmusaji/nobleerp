@@ -73,12 +73,12 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblLastWriteOffDt;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtLastDeprDate;
 		private System.Windows.Forms.TextBox _txtCommonNumber_4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Label lblExpensesAmount;
 		private System.Windows.Forms.TextBox _txtCommonNumber_2;
 		private System.Windows.Forms.TextBox _txtCommon_9;
 		public System.Windows.Forms.Label lblExpensesAccount;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		private System.Windows.Forms.Label _txtCommonDisplay_13;
 		private System.Windows.Forms.Label _txtCommonDisplay_3;
 		private System.Windows.Forms.Label _txtCommonDisplay_8;
@@ -109,7 +109,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommon_5;
 		public System.Windows.Forms.Label lblLocationOfAsset;
 		private System.Windows.Forms.TextBox _txtCommon_11;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel3;
 		private System.Windows.Forms.TextBox _txtCommon_13;
 		private System.Windows.Forms.Label _txtCommonDisplay_14;
 		private System.Windows.Forms.Label _txtCommonDisplay_2;
@@ -168,21 +168,21 @@ namespace Xtreme
 			this._txtCommon_10 = new System.Windows.Forms.TextBox();
 			this._txtCommon_4 = new System.Windows.Forms.TextBox();
 			this.lblSupplierCode = new System.Windows.Forms.Label();
-			this.lblAdjustedValue = new System.Windows.Forms.Label();
+			// this.lblAdjustedValue = new System.Windows.Forms.Label();
 			this.lblAccumDeprAmount = new System.Windows.Forms.Label();
-			this.lblBookValue = new System.Windows.Forms.Label();
+			// this.lblBookValue = new System.Windows.Forms.Label();
 			this.lblWriteOffQuantity = new System.Windows.Forms.Label();
 			this.lblLastDeprDate = new System.Windows.Forms.Label();
 			this.lblLastAdjDate = new System.Windows.Forms.Label();
 			this.lblLastWriteOffDt = new System.Windows.Forms.Label();
 			this.txtLastDeprDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this._txtCommonNumber_4 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.lblExpensesAmount = new System.Windows.Forms.Label();
 			this._txtCommonNumber_2 = new System.Windows.Forms.TextBox();
 			this._txtCommon_9 = new System.Windows.Forms.TextBox();
 			this.lblExpensesAccount = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_13 = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_3 = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_8 = new System.Windows.Forms.Label();
@@ -213,7 +213,7 @@ namespace Xtreme
 			this._txtCommon_5 = new System.Windows.Forms.TextBox();
 			this.lblLocationOfAsset = new System.Windows.Forms.Label();
 			this._txtCommon_11 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this._txtCommon_13 = new System.Windows.Forms.TextBox();
 			this._txtCommonDisplay_14 = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_2 = new System.Windows.Forms.Label();
@@ -291,12 +291,12 @@ namespace Xtreme
 			this._fraLedgerInformation_1.Controls.Add(this.lblLastWriteOffDt);
 			this._fraLedgerInformation_1.Controls.Add(this.txtLastDeprDate);
 			this._fraLedgerInformation_1.Controls.Add(this._txtCommonNumber_4);
-			this._fraLedgerInformation_1.Controls.Add(this.System.Windows.Forms.Label1);
+			this._fraLedgerInformation_1.Controls.Add(this.Label1);
 			this._fraLedgerInformation_1.Controls.Add(this.lblExpensesAmount);
 			this._fraLedgerInformation_1.Controls.Add(this._txtCommonNumber_2);
 			this._fraLedgerInformation_1.Controls.Add(this._txtCommon_9);
 			this._fraLedgerInformation_1.Controls.Add(this.lblExpensesAccount);
-			this._fraLedgerInformation_1.Controls.Add(this.System.Windows.Forms.Label2);
+			this._fraLedgerInformation_1.Controls.Add(this.Label2);
 			this._fraLedgerInformation_1.Controls.Add(this._txtCommonDisplay_13);
 			this._fraLedgerInformation_1.Controls.Add(this._txtCommonDisplay_3);
 			this._fraLedgerInformation_1.Controls.Add(this._txtCommonDisplay_8);
@@ -326,7 +326,7 @@ namespace Xtreme
 			this._lblCommon_1.Text = "Expense Details";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_1.Location = new System.Drawing.Point(20, 92);
-			// this._lblCommon_1.mLabelId = 997;
+			// // this._lblCommon_1.mLabelId = 997;
 			this._lblCommon_1.Name = "_lblCommon_1";
 			this._lblCommon_1.Size = new System.Drawing.Size(87, 14);
 			this._lblCommon_1.TabIndex = 28;
@@ -338,7 +338,7 @@ namespace Xtreme
 			this._lblCommon_2.Text = "Asset History";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_2.Location = new System.Drawing.Point(6, 160);
-			// this._lblCommon_2.mLabelId = 1001;
+			// // this._lblCommon_2.mLabelId = 1001;
 			this._lblCommon_2.Name = "_lblCommon_2";
 			this._lblCommon_2.Size = new System.Drawing.Size(75, 14);
 			this._lblCommon_2.TabIndex = 29;
@@ -350,7 +350,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "Purchase Details";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_0.Location = new System.Drawing.Point(6, 10);
-			// this._lblCommon_0.mLabelId = 993;
+			// // this._lblCommon_0.mLabelId = 993;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(92, 14);
 			this._lblCommon_0.TabIndex = 30;
@@ -362,7 +362,7 @@ namespace Xtreme
 			this.lblInvoiceNo.Text = "Invoice No.";
 			this.lblInvoiceNo.ForeColor = System.Drawing.Color.Black;
 			this.lblInvoiceNo.Location = new System.Drawing.Point(228, 51);
-			// this.lblInvoiceNo.mLabelId = 333;
+			// // this.lblInvoiceNo.mLabelId = 333;
 			this.lblInvoiceNo.Name = "lblInvoiceNo";
 			this.lblInvoiceNo.Size = new System.Drawing.Size(53, 14);
 			this.lblInvoiceNo.TabIndex = 31;
@@ -374,7 +374,7 @@ namespace Xtreme
 			this.lblInvoiceAmount.Text = "Invoice Amount";
 			this.lblInvoiceAmount.ForeColor = System.Drawing.Color.Black;
 			this.lblInvoiceAmount.Location = new System.Drawing.Point(6, 72);
-			// this.lblInvoiceAmount.mLabelId = 995;
+			// // this.lblInvoiceAmount.mLabelId = 995;
 			this.lblInvoiceAmount.Name = "lblInvoiceAmount";
 			this.lblInvoiceAmount.Size = new System.Drawing.Size(74, 14);
 			this.lblInvoiceAmount.TabIndex = 32;
@@ -386,7 +386,7 @@ namespace Xtreme
 			this.lblPurchaseDate.Text = "Purchase Date";
 			this.lblPurchaseDate.ForeColor = System.Drawing.Color.Black;
 			this.lblPurchaseDate.Location = new System.Drawing.Point(6, 51);
-			// this.lblPurchaseDate.mLabelId = 994;
+			// // this.lblPurchaseDate.mLabelId = 994;
 			this.lblPurchaseDate.Name = "lblPurchaseDate";
 			this.lblPurchaseDate.Size = new System.Drawing.Size(71, 14);
 			this.lblPurchaseDate.TabIndex = 33;
@@ -398,7 +398,7 @@ namespace Xtreme
 			this.lblQuantity.Text = "Quantity";
 			this.lblQuantity.ForeColor = System.Drawing.Color.Black;
 			this.lblQuantity.Location = new System.Drawing.Point(422, 51);
-			// this.lblQuantity.mLabelId = 601;
+			// // this.lblQuantity.mLabelId = 601;
 			this.lblQuantity.Name = "lblQuantity";
 			this.lblQuantity.Size = new System.Drawing.Size(40, 14);
 			this.lblQuantity.TabIndex = 34;
@@ -410,7 +410,7 @@ namespace Xtreme
 			this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.ForeColor = System.Drawing.Color.Black;
 			this.lblExchangeRate.Location = new System.Drawing.Point(228, 72);
-			// this.lblExchangeRate.mLabelId = 260;
+			// // this.lblExchangeRate.mLabelId = 260;
 			this.lblExchangeRate.Name = "lblExchangeRate";
 			this.lblExchangeRate.Size = new System.Drawing.Size(73, 14);
 			this.lblExchangeRate.TabIndex = 35;
@@ -422,7 +422,7 @@ namespace Xtreme
 			this.lblReceiptNumber.Text = "Receipt No.";
 			this.lblReceiptNumber.ForeColor = System.Drawing.Color.Black;
 			this.lblReceiptNumber.Location = new System.Drawing.Point(422, 72);
-			// this.lblReceiptNumber.mLabelId = 996;
+			// // this.lblReceiptNumber.mLabelId = 996;
 			this.lblReceiptNumber.Name = "lblReceiptNumber";
 			this.lblReceiptNumber.Size = new System.Drawing.Size(55, 14);
 			this.lblReceiptNumber.TabIndex = 36;
@@ -522,7 +522,7 @@ namespace Xtreme
 			this.lblExpensesCostCenterCd.Text = "Exp. Cost Center";
 			this.lblExpensesCostCenterCd.ForeColor = System.Drawing.Color.Black;
 			this.lblExpensesCostCenterCd.Location = new System.Drawing.Point(20, 135);
-			// this.lblExpensesCostCenterCd.mLabelId = 999;
+			// // this.lblExpensesCostCenterCd.mLabelId = 999;
 			this.lblExpensesCostCenterCd.Name = "lblExpensesCostCenterCd";
 			this.lblExpensesCostCenterCd.Size = new System.Drawing.Size(81, 14);
 			this.lblExpensesCostCenterCd.TabIndex = 43;
@@ -567,7 +567,7 @@ namespace Xtreme
 			this.lblSupplierCode.Text = "Supplier Code";
 			this.lblSupplierCode.ForeColor = System.Drawing.Color.Black;
 			this.lblSupplierCode.Location = new System.Drawing.Point(6, 30);
-			// this.lblSupplierCode.mLabelId = 866;
+			// // this.lblSupplierCode.mLabelId = 866;
 			this.lblSupplierCode.Name = "lblSupplierCode";
 			this.lblSupplierCode.Size = new System.Drawing.Size(67, 14);
 			this.lblSupplierCode.TabIndex = 46;
@@ -590,7 +590,7 @@ namespace Xtreme
 			this.lblAccumDeprAmount.Text = "Accmltd Depr. Amt";
 			this.lblAccumDeprAmount.ForeColor = System.Drawing.Color.Black;
 			this.lblAccumDeprAmount.Location = new System.Drawing.Point(6, 180);
-			// this.lblAccumDeprAmount.mLabelId = 1003;
+			// // this.lblAccumDeprAmount.mLabelId = 1003;
 			this.lblAccumDeprAmount.Name = "lblAccumDeprAmount";
 			this.lblAccumDeprAmount.Size = new System.Drawing.Size(90, 14);
 			this.lblAccumDeprAmount.TabIndex = 48;
@@ -602,7 +602,7 @@ namespace Xtreme
 			this.lblBookValue.Text = "Curr. Book Value ";
 			this.lblBookValue.ForeColor = System.Drawing.Color.Black;
 			this.lblBookValue.Location = new System.Drawing.Point(6, 222);
-			// this.lblBookValue.mLabelId = 1005;
+			// // this.lblBookValue.mLabelId = 1005;
 			this.lblBookValue.Name = "lblBookValue";
 			this.lblBookValue.Size = new System.Drawing.Size(85, 14);
 			this.lblBookValue.TabIndex = 49;
@@ -614,7 +614,7 @@ namespace Xtreme
 			this.lblWriteOffQuantity.Text = "Writeoff Qty";
 			this.lblWriteOffQuantity.ForeColor = System.Drawing.Color.Black;
 			this.lblWriteOffQuantity.Location = new System.Drawing.Point(212, 222);
-			// this.lblWriteOffQuantity.mLabelId = 1008;
+			// // this.lblWriteOffQuantity.mLabelId = 1008;
 			this.lblWriteOffQuantity.Name = "lblWriteOffQuantity";
 			this.lblWriteOffQuantity.Size = new System.Drawing.Size(59, 14);
 			this.lblWriteOffQuantity.TabIndex = 50;
@@ -626,7 +626,7 @@ namespace Xtreme
 			this.lblLastDeprDate.Text = "Last Depr. Date";
 			this.lblLastDeprDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastDeprDate.Location = new System.Drawing.Point(212, 181);
-			// this.lblLastDeprDate.mLabelId = 1006;
+			// // this.lblLastDeprDate.mLabelId = 1006;
 			this.lblLastDeprDate.Name = "lblLastDeprDate";
 			this.lblLastDeprDate.Size = new System.Drawing.Size(75, 14);
 			this.lblLastDeprDate.TabIndex = 51;
@@ -638,7 +638,7 @@ namespace Xtreme
 			this.lblLastAdjDate.Text = "Last Adj. Date";
 			this.lblLastAdjDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastAdjDate.Location = new System.Drawing.Point(414, 180);
-			// this.lblLastAdjDate.mLabelId = 1009;
+			// // this.lblLastAdjDate.mLabelId = 1009;
 			this.lblLastAdjDate.Name = "lblLastAdjDate";
 			this.lblLastAdjDate.Size = new System.Drawing.Size(68, 14);
 			this.lblLastAdjDate.TabIndex = 52;
@@ -650,7 +650,7 @@ namespace Xtreme
 			this.lblLastWriteOffDt.Text = "Last Writeoff Date";
 			this.lblLastWriteOffDt.ForeColor = System.Drawing.Color.Black;
 			this.lblLastWriteOffDt.Location = new System.Drawing.Point(212, 201);
-			// this.lblLastWriteOffDt.mLabelId = 1007;
+			// // this.lblLastWriteOffDt.mLabelId = 1007;
 			this.lblLastWriteOffDt.Name = "lblLastWriteOffDt";
 			this.lblLastWriteOffDt.Size = new System.Drawing.Size(88, 14);
 			this.lblLastWriteOffDt.TabIndex = 53;
@@ -683,15 +683,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Last Depr. Amt";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 201);
-			this.System.Windows.Forms.Label1.mLabelId = 1004;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(72, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 56;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Last Depr. Amt";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(6, 201);
+			// this.Label1.mLabelId = 1004;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(72, 14);
+			this.Label1.TabIndex = 56;
 			// 
 			// lblExpensesAmount
 			// 
@@ -700,7 +700,7 @@ namespace Xtreme
 			this.lblExpensesAmount.Text = "Exp. Amt";
 			this.lblExpensesAmount.ForeColor = System.Drawing.Color.Black;
 			this.lblExpensesAmount.Location = new System.Drawing.Point(422, 114);
-			// this.lblExpensesAmount.mLabelId = 1000;
+			// // this.lblExpensesAmount.mLabelId = 1000;
 			this.lblExpensesAmount.Name = "lblExpensesAmount";
 			this.lblExpensesAmount.Size = new System.Drawing.Size(43, 14);
 			this.lblExpensesAmount.TabIndex = 57;
@@ -743,22 +743,22 @@ namespace Xtreme
 			this.lblExpensesAccount.Text = "Exp. Account";
 			this.lblExpensesAccount.ForeColor = System.Drawing.Color.Black;
 			this.lblExpensesAccount.Location = new System.Drawing.Point(20, 114);
-			// this.lblExpensesAccount.mLabelId = 998;
+			// // this.lblExpensesAccount.mLabelId = 998;
 			this.lblExpensesAccount.Name = "lblExpensesAccount";
 			this.lblExpensesAccount.Size = new System.Drawing.Size(65, 14);
 			this.lblExpensesAccount.TabIndex = 60;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label2.Caption = "Writeoff Value";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(414, 221);
-			this.System.Windows.Forms.Label2.mLabelId = 1011;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(70, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 61;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.SystemColors.Window;
+			this.Label2.Text = "Writeoff Value";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(414, 221);
+			// this.Label2.mLabelId = 1011;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(70, 14);
+			this.Label2.TabIndex = 61;
 			// 
 			// _txtCommonDisplay_13
 			// 
@@ -889,7 +889,7 @@ namespace Xtreme
 			this._fraLedgerInformation_0.Controls.Add(this._txtCommon_5);
 			this._fraLedgerInformation_0.Controls.Add(this.lblLocationOfAsset);
 			this._fraLedgerInformation_0.Controls.Add(this._txtCommon_11);
-			this._fraLedgerInformation_0.Controls.Add(this.System.Windows.Forms.Label3);
+			this._fraLedgerInformation_0.Controls.Add(this.Label3);
 			this._fraLedgerInformation_0.Controls.Add(this._txtCommon_13);
 			this._fraLedgerInformation_0.Controls.Add(this._txtCommonDisplay_14);
 			this._fraLedgerInformation_0.Controls.Add(this._txtCommonDisplay_2);
@@ -965,7 +965,7 @@ namespace Xtreme
 			this.lblDeprPercent.Text = "Depr. Percent";
 			this.lblDeprPercent.ForeColor = System.Drawing.Color.Black;
 			this.lblDeprPercent.Location = new System.Drawing.Point(248, 24);
-			// this.lblDeprPercent.mLabelId = 992;
+			// // this.lblDeprPercent.mLabelId = 992;
 			this.lblDeprPercent.Name = "lblDeprPercent";
 			this.lblDeprPercent.Size = new System.Drawing.Size(66, 14);
 			this.lblDeprPercent.TabIndex = 7;
@@ -977,7 +977,7 @@ namespace Xtreme
 			this.lblStartDeprDate.Text = "Start Depr. Date";
 			this.lblStartDeprDate.ForeColor = System.Drawing.Color.Black;
 			this.lblStartDeprDate.Location = new System.Drawing.Point(0, 24);
-			// this.lblStartDeprDate.mLabelId = 991;
+			// // this.lblStartDeprDate.mLabelId = 991;
 			this.lblStartDeprDate.Name = "lblStartDeprDate";
 			this.lblStartDeprDate.Size = new System.Drawing.Size(77, 14);
 			this.lblStartDeprDate.TabIndex = 8;
@@ -1015,7 +1015,7 @@ namespace Xtreme
 			this.lblDepreciationMethod.Text = "Depreciation Method";
 			this.lblDepreciationMethod.ForeColor = System.Drawing.Color.Black;
 			this.lblDepreciationMethod.Location = new System.Drawing.Point(0, 3);
-			// this.lblDepreciationMethod.mLabelId = 990;
+			// // this.lblDepreciationMethod.mLabelId = 990;
 			this.lblDepreciationMethod.Name = "lblDepreciationMethod";
 			this.lblDepreciationMethod.Size = new System.Drawing.Size(98, 14);
 			this.lblDepreciationMethod.TabIndex = 11;
@@ -1035,7 +1035,7 @@ namespace Xtreme
 			this._lblCommon_8.Text = "Comments";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_8.Location = new System.Drawing.Point(8, 148);
-			// this._lblCommon_8.mLabelId = 135;
+			// // this._lblCommon_8.mLabelId = 135;
 			this._lblCommon_8.Name = "_lblCommon_8";
 			this._lblCommon_8.Size = new System.Drawing.Size(50, 14);
 			this._lblCommon_8.TabIndex = 14;
@@ -1047,7 +1047,7 @@ namespace Xtreme
 			this.lblUnit.Text = "Unit Code";
 			this.lblUnit.ForeColor = System.Drawing.Color.Black;
 			this.lblUnit.Location = new System.Drawing.Point(8, 59);
-			// this.lblUnit.mLabelId = 988;
+			// // this.lblUnit.mLabelId = 988;
 			this.lblUnit.Name = "lblUnit";
 			this.lblUnit.Size = new System.Drawing.Size(46, 14);
 			this.lblUnit.TabIndex = 15;
@@ -1059,7 +1059,7 @@ namespace Xtreme
 			this.lblCategoryCode.Text = "Category Code";
 			this.lblCategoryCode.ForeColor = System.Drawing.Color.Black;
 			this.lblCategoryCode.Location = new System.Drawing.Point(8, 17);
-			// this.lblCategoryCode.mLabelId = 987;
+			// // this.lblCategoryCode.mLabelId = 987;
 			this.lblCategoryCode.Name = "lblCategoryCode";
 			this.lblCategoryCode.Size = new System.Drawing.Size(72, 14);
 			this.lblCategoryCode.TabIndex = 16;
@@ -1105,7 +1105,7 @@ namespace Xtreme
 			this.lblLocationOfAsset.Text = "Asset Location";
 			this.lblLocationOfAsset.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationOfAsset.Location = new System.Drawing.Point(8, 80);
-			// this.lblLocationOfAsset.mLabelId = 989;
+			// // this.lblLocationOfAsset.mLabelId = 989;
 			this.lblLocationOfAsset.Name = "lblLocationOfAsset";
 			this.lblLocationOfAsset.Size = new System.Drawing.Size(73, 14);
 			this.lblLocationOfAsset.TabIndex = 19;
@@ -1129,14 +1129,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label3.Caption = "Group Code";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(8, 37);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(58, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 21;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.SystemColors.Window;
+			this.Label3.Text = "Group Code";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(8, 37);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(58, 14);
+			this.Label3.TabIndex = 21;
 			// 
 			// _txtCommon_13
 			// 
@@ -1257,7 +1257,7 @@ namespace Xtreme
 			this.lblLLAssetName.Text = "Asset Name  (English)";
 			this.lblLLAssetName.ForeColor = System.Drawing.Color.Black;
 			this.lblLLAssetName.Location = new System.Drawing.Point(256, 32);
-			// this.lblLLAssetName.mLabelId = 982;
+			// // this.lblLLAssetName.mLabelId = 982;
 			this.lblLLAssetName.Name = "lblLLAssetName";
 			this.lblLLAssetName.Size = new System.Drawing.Size(107, 14);
 			this.lblLLAssetName.TabIndex = 72;
@@ -1269,7 +1269,7 @@ namespace Xtreme
 			this.lblLAAssetName.Text = "Asset Name  (Arabic)";
 			this.lblLAAssetName.ForeColor = System.Drawing.Color.Black;
 			this.lblLAAssetName.Location = new System.Drawing.Point(256, 53);
-			// this.lblLAAssetName.mLabelId = 983;
+			// // this.lblLAAssetName.mLabelId = 983;
 			this.lblLAAssetName.Name = "lblLAAssetName";
 			this.lblLAAssetName.Size = new System.Drawing.Size(105, 14);
 			this.lblLAAssetName.TabIndex = 73;
@@ -1281,7 +1281,7 @@ namespace Xtreme
 			this.lblAssetCode.Text = "Asset Code";
 			this.lblAssetCode.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetCode.Location = new System.Drawing.Point(24, 32);
-			// this.lblAssetCode.mLabelId = 981;
+			// // this.lblAssetCode.mLabelId = 981;
 			this.lblAssetCode.Name = "lblAssetCode";
 			this.lblAssetCode.Size = new System.Drawing.Size(57, 14);
 			this.lblAssetCode.TabIndex = 74;
@@ -1342,7 +1342,7 @@ namespace Xtreme
 			this._lblCommon_3.Text = " Asset Information ";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_3.Location = new System.Drawing.Point(40, 82);
-			// this._lblCommon_3.mLabelId = 887;
+			// // this._lblCommon_3.mLabelId = 887;
 			this._lblCommon_3.Name = "_lblCommon_3";
 			this._lblCommon_3.Size = new System.Drawing.Size(106, 14);
 			this._lblCommon_3.TabIndex = 78;
@@ -1485,4 +1485,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

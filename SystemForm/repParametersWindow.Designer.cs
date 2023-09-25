@@ -781,7 +781,7 @@ namespace Xtreme
 			this.txtFromDate.Size = new System.Drawing.Size(101, 19);
 			this.txtFromDate.TabIndex = 2;
 			this.txtFromDate.Text = "18/07/2001";
-			this.txtFromDate.Value = 37090;
+			// this.txtFromDate.Value = 37090;
 			this.txtFromDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtFromDate_Validating);
 			// 
 			// txtToDate
@@ -795,7 +795,7 @@ namespace Xtreme
 			this.txtToDate.Size = new System.Drawing.Size(101, 19);
 			this.txtToDate.TabIndex = 3;
 			this.txtToDate.Text = "18/07/2001";
-			this.txtToDate.Value = 37090;
+			// this.txtToDate.Value = 37090;
 			this.txtToDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtToDate_Validating);
 			// 
 			// lblMasterCode
@@ -920,4 +920,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

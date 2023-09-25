@@ -202,7 +202,7 @@ namespace Xtreme
 			this._lblCommon_5.Text = "Billing Code";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_5.Location = new System.Drawing.Point(9, 56);
-			// this._lblCommon_5.mLabelId = 1041;
+			// // this._lblCommon_5.mLabelId = 1041;
 			this._lblCommon_5.Name = "_lblCommon_5";
 			this._lblCommon_5.Size = new System.Drawing.Size(74, 14);
 			this._lblCommon_5.TabIndex = 2;
@@ -305,4 +305,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

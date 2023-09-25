@@ -144,7 +144,7 @@ namespace Xtreme
 			this.label1.Text = "As On Date:";
 			this.label1.ForeColor = System.Drawing.Color.Black;
 			this.label1.Location = new System.Drawing.Point(18, 60);
-			// this.label1.mLabelId = 1874;
+			// // this.label1.mLabelId = 1874;
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(59, 13);
 			this.label1.TabIndex = 6;
@@ -229,7 +229,7 @@ namespace Xtreme
 			this.lblChequeNo.Text = "Cheque No";
 			this.lblChequeNo.ForeColor = System.Drawing.Color.Black;
 			this.lblChequeNo.Location = new System.Drawing.Point(18, 105);
-			// this.lblChequeNo.mLabelId = 1852;
+			// // this.lblChequeNo.mLabelId = 1852;
 			this.lblChequeNo.Name = "lblChequeNo";
 			this.lblChequeNo.Size = new System.Drawing.Size(53, 14);
 			this.lblChequeNo.TabIndex = 9;
@@ -346,4 +346,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

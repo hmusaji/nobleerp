@@ -56,7 +56,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_6;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFreezeDate;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
@@ -90,7 +90,7 @@ namespace Xtreme
 			this._lblCommonLabel_6 = new System.Windows.Forms.Label();
 			this.txtFreezeDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this._txtCommonTextBox_0 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_2 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_3 = new System.Windows.Forms.TextBox();
@@ -170,7 +170,7 @@ namespace Xtreme
 			this.fraTabPage0.Controls.Add(this._lblCommonLabel_6);
 			this.fraTabPage0.Controls.Add(this.txtFreezeDate);
 			this.fraTabPage0.Controls.Add(this._txtCommonTextBox_0);
-			this.fraTabPage0.Controls.Add(this.System.Windows.Forms.Label12);
+			this.fraTabPage0.Controls.Add(this.Label12);
 			this.fraTabPage0.Controls.Add(this._txtCommonTextBox_2);
 			this.fraTabPage0.Controls.Add(this._lblCommonLabel_0);
 			this.fraTabPage0.Controls.Add(this._txtCommonTextBox_3);
@@ -226,7 +226,7 @@ namespace Xtreme
 			this.txtFreezeDate.Size = new System.Drawing.Size(102, 19);
 			this.txtFreezeDate.TabIndex = 0;
 			this.txtFreezeDate.Text = "07/18/2001";
-			this.txtFreezeDate.Value = 37090;
+			// this.txtFreezeDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
 			// 
@@ -248,13 +248,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label12.Caption = "Comments";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(12, 97);
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 14;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.SystemColors.Window;
+			this.Label12.Text = "Comments";
+			this.Label12.Location = new System.Drawing.Point(12, 97);
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 14;
 			// 
 			// _txtCommonTextBox_2
 			// 
@@ -428,4 +428,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

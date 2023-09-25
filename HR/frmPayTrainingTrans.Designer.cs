@@ -61,7 +61,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
 		private System.Windows.Forms.Label _lblCommonLabel_23;
 		private System.Windows.Forms.Label _lblCommonLabel_21;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
@@ -109,7 +109,7 @@ namespace Xtreme
 			this._txtCommonTextBox_0 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_23 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_21 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_2 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_0 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_3 = new System.Windows.Forms.TextBox();
@@ -201,7 +201,7 @@ namespace Xtreme
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Duration Hours";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(403, 98);
-			// this._lblCommonLabel_4.mLabelId = 2004;
+			// // this._lblCommonLabel_4.mLabelId = 2004;
 			this._lblCommonLabel_4.Name = "_lblCommonLabel_4";
 			this._lblCommonLabel_4.Size = new System.Drawing.Size(72, 13);
 			this._lblCommonLabel_4.TabIndex = 17;
@@ -227,7 +227,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Training Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 75);
-			// this._lblCommonLabel_2.mLabelId = 2003;
+			// // this._lblCommonLabel_2.mLabelId = 2003;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(66, 14);
 			this._lblCommonLabel_2.TabIndex = 18;
@@ -238,7 +238,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(4, 54);
-			// this._lblCommonLabel_5.mLabelId = 1744;
+			// // this._lblCommonLabel_5.mLabelId = 1744;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(76, 14);
 			this._lblCommonLabel_5.TabIndex = 19;
@@ -249,7 +249,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "From Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(225, 54);
-			// this._lblCommonLabel_6.mLabelId = 2001;
+			// // this._lblCommonLabel_6.mLabelId = 2001;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(49, 14);
 			this._lblCommonLabel_6.TabIndex = 20;
@@ -265,7 +265,7 @@ namespace Xtreme
 			this._txtCommonDate_2.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_2.TabIndex = 1;
 			this._txtCommonDate_2.Text = "18/07/2001";
-			this._txtCommonDate_2.Value = 37090;
+			// this._txtCommonDate_2.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
 			// 
@@ -290,7 +290,7 @@ namespace Xtreme
 			this._lblCommonLabel_23.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_23.Text = "Duration Minutes";
 			this._lblCommonLabel_23.Location = new System.Drawing.Point(403, 119);
-			// this._lblCommonLabel_23.mLabelId = 2005;
+			// // this._lblCommonLabel_23.mLabelId = 2005;
 			this._lblCommonLabel_23.Name = "_lblCommonLabel_23";
 			this._lblCommonLabel_23.Size = new System.Drawing.Size(80, 14);
 			this._lblCommonLabel_23.TabIndex = 21;
@@ -301,21 +301,21 @@ namespace Xtreme
 			this._lblCommonLabel_21.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_21.Text = "Venue";
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(4, 141);
-			// this._lblCommonLabel_21.mLabelId = 1944;
+			// // this._lblCommonLabel_21.mLabelId = 1944;
 			this._lblCommonLabel_21.Name = "_lblCommonLabel_21";
 			this._lblCommonLabel_21.Size = new System.Drawing.Size(32, 14);
 			this._lblCommonLabel_21.TabIndex = 22;
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label12.Caption = "Comments";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(4, 162);
-			this.System.Windows.Forms.Label12.mLabelId = 1851;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 23;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label12.Text = "Comments";
+			this.Label12.Location = new System.Drawing.Point(4, 162);
+			// this.Label12.mLabelId = 1851;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 23;
 			// 
 			// _txtCommonTextBox_2
 			// 
@@ -338,7 +338,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Trainer Name";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(4, 120);
-			// this._lblCommonLabel_0.mLabelId = 2007;
+			// // this._lblCommonLabel_0.mLabelId = 2007;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(64, 14);
 			this._lblCommonLabel_0.TabIndex = 24;
@@ -371,7 +371,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "To Date";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(403, 54);
-			// this._lblCommonLabel_1.mLabelId = 2002;
+			// // this._lblCommonLabel_1.mLabelId = 2002;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(37, 14);
 			this._lblCommonLabel_1.TabIndex = 26;
@@ -387,7 +387,7 @@ namespace Xtreme
 			this._txtCommonDate_3.Size = new System.Drawing.Size(102, 19);
 			this._txtCommonDate_3.TabIndex = 2;
 			this._txtCommonDate_3.Text = "18/07/2001";
-			this._txtCommonDate_3.Value = 37090;
+			// this._txtCommonDate_3.Value = 37090;
 			// 
 			// _lblCommonLabel_3
 			// 
@@ -395,7 +395,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Training Type";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(4, 98);
-			// this._lblCommonLabel_3.mLabelId = 2006;
+			// // this._lblCommonLabel_3.mLabelId = 2006;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(65, 14);
 			this._lblCommonLabel_3.TabIndex = 27;
@@ -406,7 +406,7 @@ namespace Xtreme
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Total Cost";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(403, 138);
-			// this._lblCommonLabel_7.mLabelId = 2008;
+			// // this._lblCommonLabel_7.mLabelId = 2008;
 			this._lblCommonLabel_7.Name = "_lblCommonLabel_7";
 			this._lblCommonLabel_7.Size = new System.Drawing.Size(48, 14);
 			this._lblCommonLabel_7.TabIndex = 28;
@@ -487,7 +487,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "No. Of Trainers";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(403, 76);
-			// this._lblCommonLabel_8.mLabelId = 2009;
+			// // this._lblCommonLabel_8.mLabelId = 2009;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(74, 13);
 			this._lblCommonLabel_8.TabIndex = 29;
@@ -538,7 +538,7 @@ namespace Xtreme
 			this.Controls.Add(this._txtCommonTextBox_0);
 			this.Controls.Add(this._lblCommonLabel_23);
 			this.Controls.Add(this._lblCommonLabel_21);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this._txtCommonTextBox_2);
 			this.Controls.Add(this._lblCommonLabel_0);
 			this.Controls.Add(this._txtCommonTextBox_3);
@@ -633,4 +633,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

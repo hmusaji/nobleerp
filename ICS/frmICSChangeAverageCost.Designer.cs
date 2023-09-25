@@ -200,7 +200,7 @@ namespace Xtreme
 			this.txtTransactionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionDate.TabIndex = 5;
 			this.txtTransactionDate.Text = "05/01/2005";
-			this.txtTransactionDate.Value = 38357;
+			// this.txtTransactionDate.Value = 38357;
 			// 
 			// _txtCommon_1
 			// 
@@ -369,7 +369,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "Product Code";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_0.Location = new System.Drawing.Point(8, 19);
-			// this._lblCommon_0.mLabelId = 545;
+			// // this._lblCommon_0.mLabelId = 545;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(65, 14);
 			this._lblCommon_0.TabIndex = 11;
@@ -534,4 +534,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -118,7 +118,7 @@ namespace Xtreme
 			this.lblGroupNo.Text = "Group Code";
 			this.lblGroupNo.ForeColor = System.Drawing.Color.Black;
 			this.lblGroupNo.Location = new System.Drawing.Point(9, 27);
-			// this.lblGroupNo.mLabelId = 301;
+			// // this.lblGroupNo.mLabelId = 301;
 			this.lblGroupNo.Name = "lblGroupNo";
 			this.lblGroupNo.Size = new System.Drawing.Size(58, 14);
 			this.lblGroupNo.TabIndex = 0;
@@ -130,7 +130,7 @@ namespace Xtreme
 			this.lblLGroupName.Text = "Group Name (English)";
 			this.lblLGroupName.ForeColor = System.Drawing.Color.Black;
 			this.lblLGroupName.Location = new System.Drawing.Point(9, 49);
-			// this.lblLGroupName.mLabelId = 302;
+			// // this.lblLGroupName.mLabelId = 302;
 			this.lblLGroupName.Name = "lblLGroupName";
 			this.lblLGroupName.Size = new System.Drawing.Size(105, 14);
 			this.lblLGroupName.TabIndex = 2;
@@ -155,7 +155,7 @@ namespace Xtreme
 			this.lblParentGroup.Text = "Parent Group Code";
 			this.lblParentGroup.ForeColor = System.Drawing.Color.Black;
 			this.lblParentGroup.Location = new System.Drawing.Point(9, 91);
-			// this.lblParentGroup.mLabelId = 504;
+			// // this.lblParentGroup.mLabelId = 504;
 			this.lblParentGroup.Name = "lblParentGroup";
 			this.lblParentGroup.Size = new System.Drawing.Size(92, 14);
 			this.lblParentGroup.TabIndex = 6;
@@ -167,7 +167,7 @@ namespace Xtreme
 			this.lblAGroupName.Text = "Group Name (Arabic)";
 			this.lblAGroupName.ForeColor = System.Drawing.Color.Black;
 			this.lblAGroupName.Location = new System.Drawing.Point(9, 70);
-			// this.lblAGroupName.mLabelId = 303;
+			// // this.lblAGroupName.mLabelId = 303;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(103, 14);
 			this.lblAGroupName.TabIndex = 4;
@@ -193,7 +193,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(9, 111);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 9;
@@ -275,4 +275,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

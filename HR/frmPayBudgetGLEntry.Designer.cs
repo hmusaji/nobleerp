@@ -122,7 +122,7 @@ namespace Xtreme
 			this.txtDPayrollDate.Size = new System.Drawing.Size(101, 19);
 			this.txtDPayrollDate.TabIndex = 2;
 			this.txtDPayrollDate.Text = "31/01/2012";
-			this.txtDPayrollDate.Value = 40939;
+			// this.txtDPayrollDate.Value = 40939;
 			// 
 			// _lblCommon_37
 			// 
@@ -131,7 +131,7 @@ namespace Xtreme
 			this._lblCommon_37.Text = "Company Code";
 			this._lblCommon_37.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_37.Location = new System.Drawing.Point(9, 83);
-			// this._lblCommon_37.mLabelId = 1927;
+			// // this._lblCommon_37.mLabelId = 1927;
 			this._lblCommon_37.Name = "_lblCommon_37";
 			this._lblCommon_37.Size = new System.Drawing.Size(73, 14);
 			this._lblCommon_37.TabIndex = 3;
@@ -293,4 +293,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

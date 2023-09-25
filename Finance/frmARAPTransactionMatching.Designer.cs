@@ -51,7 +51,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLdgrName;
 		public System.Windows.Forms.TextBox txtLdgrNo;
 		public System.Windows.Forms.Label lblLedgerNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0__grdVoucherDetails_0;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1__grdVoucherDetails_0;
 		private C1.Win.C1TrueDBGrid.C1TrueDBGrid _grdVoucherDetails_0;
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.txtLdgrName = new System.Windows.Forms.TextBox();
 			this.txtLdgrNo = new System.Windows.Forms.TextBox();
 			this.lblLedgerNo = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this._grdVoucherDetails_0 = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0__grdVoucherDetails_0 = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1__grdVoucherDetails_0 = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -168,14 +168,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Header Type";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(13, 37);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(62, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 5;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Header Type";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(13, 37);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(62, 14);
+			this.Label1.TabIndex = 5;
 			// 
 			// _grdVoucherDetails_0
 			// 
@@ -271,7 +271,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtLdgrName);
 			this.Controls.Add(this.txtLdgrNo);
 			this.Controls.Add(this.lblLedgerNo);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this._grdVoucherDetails_0);
 			this.Controls.Add(this._grdVoucherDetails_1);
 			this.Controls.Add(this.lblAdjustmentDetails);
@@ -313,4 +313,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

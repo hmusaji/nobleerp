@@ -103,7 +103,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "Month Ending On :";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_0.Location = new System.Drawing.Point(62, 24);
-			// this._lblCommon_0.mLabelId = 1183;
+			// // this._lblCommon_0.mLabelId = 1183;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(87, 14);
 			this._lblCommon_0.TabIndex = 2;
@@ -115,7 +115,7 @@ namespace Xtreme
 			this._lblCommon_1.Text = "C a u t i o n :";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_1.Location = new System.Drawing.Point(7, 134);
-			// this._lblCommon_1.mLabelId = 1184;
+			// // this._lblCommon_1.mLabelId = 1184;
 			this._lblCommon_1.Name = "_lblCommon_1";
 			this._lblCommon_1.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_1.TabIndex = 3;
@@ -190,4 +190,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -55,7 +55,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblStdRate;
 		public System.Windows.Forms.TextBox txtCurrSymbol;
 		public System.Windows.Forms.TextBox txtCurrNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public AxTDBContainer3D6.AxTDBContainer3D fraMainInformation;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -78,7 +78,7 @@ namespace Xtreme
 			this.lblStdRate = new System.Windows.Forms.Label();
 			this.txtCurrSymbol = new System.Windows.Forms.TextBox();
 			this.txtCurrNo = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.tcbSystemForm = new Syncfusion.Windows.Forms.Tools.CommandBarController();
 			// //((System.ComponentModel.ISupportInitialize) this.fraMainInformation).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.tcbSystemForm).BeginInit();
@@ -98,7 +98,7 @@ namespace Xtreme
 			this.fraMainInformation.Controls.Add(this.lblStdRate);
 			this.fraMainInformation.Controls.Add(this.txtCurrSymbol);
 			this.fraMainInformation.Controls.Add(this.txtCurrNo);
-			this.fraMainInformation.Controls.Add(this.System.Windows.Forms.Label1);
+			this.fraMainInformation.Controls.Add(this.Label1);
 			this.fraMainInformation.Location = new System.Drawing.Point(2, 42);
 			this.fraMainInformation.Name = "fraMainInformation";
 			("fraMainInformation.OcxState");
@@ -184,7 +184,7 @@ namespace Xtreme
 			this.txtdate.Size = new System.Drawing.Size(103, 19);
 			this.txtdate.TabIndex = 0;
 			this.txtdate.Text = "7/18/2001";
-			this.txtdate.Value = 37090;
+			// this.txtdate.Value = 37090;
 			// 
 			// lblStdRate
 			// 
@@ -224,13 +224,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Currency Code";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(12, 39);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(73, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 11;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Currency Code";
+			this.Label1.Location = new System.Drawing.Point(12, 39);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(73, 14);
+			this.Label1.TabIndex = 11;
 			// 
 			// tcbSystemForm
 			// 
@@ -279,4 +279,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

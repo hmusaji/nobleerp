@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.Label lblToDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel2;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
 		public System.Windows.Forms.GroupBox fraDateRange;
@@ -60,7 +60,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLocationCode;
 		public System.Windows.Forms.TextBox txtBatchCode;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTransactionDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Label lblLocationCode;
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.Label txtBatchName;
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.fraDateRange = new System.Windows.Forms.GroupBox();
 			this.lblToDate = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtFromDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.fraVoucherRange = new System.Windows.Forms.GroupBox();
@@ -89,7 +89,7 @@ namespace Xtreme
 			this.txtLocationCode = new System.Windows.Forms.TextBox();
 			this.txtBatchCode = new System.Windows.Forms.TextBox();
 			this.txtTransactionDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.lblLocationCode = new System.Windows.Forms.Label();
 			this.lblMasterCode = new System.Windows.Forms.Label();
 			this.txtBatchName = new System.Windows.Forms.Label();
@@ -103,7 +103,7 @@ namespace Xtreme
 			this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraDateRange.Controls.Add(this.lblToDate);
-			this.fraDateRange.Controls.Add(this.System.Windows.Forms.Label2);
+			this.fraDateRange.Controls.Add(this.Label2);
 			this.fraDateRange.Controls.Add(this.txtToDate);
 			this.fraDateRange.Controls.Add(this.txtFromDate);
 			this.fraDateRange.Enabled = true;
@@ -129,14 +129,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "To Date";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(9, 44);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(38, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 9;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "To Date";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(9, 44);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(38, 13);
+			this.Label2.TabIndex = 9;
 			// 
 			// txtToDate
 			// 
@@ -149,7 +149,7 @@ namespace Xtreme
 			this.txtToDate.Size = new System.Drawing.Size(96, 19);
 			this.txtToDate.TabIndex = 10;
 			this.txtToDate.Text = "07/18/2001";
-			this.txtToDate.Value = 37090;
+			// this.txtToDate.Value = 37090;
 			// 
 			// txtFromDate
 			// 
@@ -162,7 +162,7 @@ namespace Xtreme
 			this.txtFromDate.Size = new System.Drawing.Size(96, 19);
 			this.txtFromDate.TabIndex = 11;
 			this.txtFromDate.Text = "07/18/2001";
-			this.txtFromDate.Value = 37090;
+			// this.txtFromDate.Value = 37090;
 			// 
 			// fraVoucherRange
 			// 
@@ -205,7 +205,7 @@ namespace Xtreme
 			this.lblToVoucherNo.Text = "To Voucher No";
 			this.lblToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblToVoucherNo.Location = new System.Drawing.Point(12, 46);
-			// this.lblToVoucherNo.mLabelId = 954;
+			// // this.lblToVoucherNo.mLabelId = 954;
 			this.lblToVoucherNo.Name = "lblToVoucherNo";
 			this.lblToVoucherNo.Size = new System.Drawing.Size(70, 13);
 			this.lblToVoucherNo.TabIndex = 4;
@@ -233,7 +233,7 @@ namespace Xtreme
 			this.lblFromVoucherNo.Text = "From Voucher No";
 			this.lblFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblFromVoucherNo.Location = new System.Drawing.Point(12, 25);
-			// this.lblFromVoucherNo.mLabelId = 952;
+			// // this.lblFromVoucherNo.mLabelId = 952;
 			this.lblFromVoucherNo.Name = "lblFromVoucherNo";
 			this.lblFromVoucherNo.Size = new System.Drawing.Size(82, 13);
 			this.lblFromVoucherNo.TabIndex = 6;
@@ -311,19 +311,19 @@ namespace Xtreme
 			this.txtTransactionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionDate.TabIndex = 14;
 			this.txtTransactionDate.Text = "03/04/2002";
-			this.txtTransactionDate.Value = 37319;
+			// this.txtTransactionDate.Value = 37319;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Transaction Date";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(29, 57);
-			this.System.Windows.Forms.Label1.mLabelId = 948;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(82, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 15;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Transaction Date";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(29, 57);
+			// this.Label1.mLabelId = 948;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(82, 13);
+			this.Label1.TabIndex = 15;
 			// 
 			// lblLocationCode
 			// 
@@ -332,7 +332,7 @@ namespace Xtreme
 			this.lblLocationCode.Text = "Location Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationCode.Location = new System.Drawing.Point(29, 35);
-			// this.lblLocationCode.mLabelId = 416;
+			// // this.lblLocationCode.mLabelId = 416;
 			this.lblLocationCode.Name = "lblLocationCode";
 			this.lblLocationCode.Size = new System.Drawing.Size(69, 14);
 			this.lblLocationCode.TabIndex = 16;
@@ -380,7 +380,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtLocationCode);
 			this.Controls.Add(this.txtBatchCode);
 			this.Controls.Add(this.txtTransactionDate);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.lblLocationCode);
 			this.Controls.Add(this.lblMasterCode);
 			this.Controls.Add(this.txtBatchName);
@@ -413,4 +413,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

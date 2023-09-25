@@ -200,7 +200,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 6;
 			this.txtVoucherDate.Text = "07/18/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// txtTransactionNo
 			// 
@@ -332,4 +332,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

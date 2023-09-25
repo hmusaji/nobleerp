@@ -316,7 +316,7 @@ namespace Xtreme
 			this.txtEndDate.Size = new System.Drawing.Size(102, 19);
 			this.txtEndDate.TabIndex = 8;
 			this.txtEndDate.Text = "18/07/2001";
-			this.txtEndDate.Value = 37090;
+			// this.txtEndDate.Value = 37090;
 			// 
 			// txtAmount
 			// 
@@ -406,7 +406,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			this.txtVoucherDate.Text = "18/07/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// txtStartDate
 			// 
@@ -419,7 +419,7 @@ namespace Xtreme
 			this.txtStartDate.Size = new System.Drawing.Size(102, 19);
 			this.txtStartDate.TabIndex = 7;
 			this.txtStartDate.Text = "18/07/2001";
-			this.txtStartDate.Value = 37090;
+			// this.txtStartDate.Value = 37090;
 			// 
 			// _txtCommonDisplay_1
 			// 
@@ -500,4 +500,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

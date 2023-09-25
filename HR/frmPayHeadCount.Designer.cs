@@ -244,7 +244,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(15, 98);
-			// this._lblCommonLabel_2.mLabelId = 236;
+			// // this._lblCommonLabel_2.mLabelId = 236;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 14;
@@ -278,7 +278,7 @@ namespace Xtreme
 			this._lblCommon_102.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_102.Text = "Status";
 			this._lblCommon_102.Location = new System.Drawing.Point(15, 142);
-			// this._lblCommon_102.mLabelId = 1834;
+			// // this._lblCommon_102.mLabelId = 1834;
 			this._lblCommon_102.Name = "_lblCommon_102";
 			this._lblCommon_102.Size = new System.Drawing.Size(31, 14);
 			this._lblCommon_102.TabIndex = 16;
@@ -297,7 +297,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(15, 189);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 17;
@@ -308,7 +308,7 @@ namespace Xtreme
 			this._lblCommon_66.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_66.Text = " Analysis1";
 			this._lblCommon_66.Location = new System.Drawing.Point(15, 261);
-			// this._lblCommon_66.mLabelId = 2202;
+			// // this._lblCommon_66.mLabelId = 2202;
 			this._lblCommon_66.Name = "_lblCommon_66";
 			this._lblCommon_66.Size = new System.Drawing.Size(48, 13);
 			this._lblCommon_66.TabIndex = 18;
@@ -319,7 +319,7 @@ namespace Xtreme
 			this._lblCommon_67.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_67.Text = " Analysis2";
 			this._lblCommon_67.Location = new System.Drawing.Point(171, 261);
-			// this._lblCommon_67.mLabelId = 2203;
+			// // this._lblCommon_67.mLabelId = 2203;
 			this._lblCommon_67.Name = "_lblCommon_67";
 			this._lblCommon_67.Size = new System.Drawing.Size(48, 13);
 			this._lblCommon_67.TabIndex = 19;
@@ -330,7 +330,7 @@ namespace Xtreme
 			this._lblCommon_69.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_69.Text = " Analysis3";
 			this._lblCommon_69.Location = new System.Drawing.Point(330, 261);
-			// this._lblCommon_69.mLabelId = 2204;
+			// // this._lblCommon_69.mLabelId = 2204;
 			this._lblCommon_69.Name = "_lblCommon_69";
 			this._lblCommon_69.Size = new System.Drawing.Size(48, 13);
 			this._lblCommon_69.TabIndex = 20;
@@ -341,7 +341,7 @@ namespace Xtreme
 			this._lblCommon_71.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_71.Text = " Analysis4";
 			this._lblCommon_71.Location = new System.Drawing.Point(15, 282);
-			// this._lblCommon_71.mLabelId = 2205;
+			// // this._lblCommon_71.mLabelId = 2205;
 			this._lblCommon_71.Name = "_lblCommon_71";
 			this._lblCommon_71.Size = new System.Drawing.Size(48, 13);
 			this._lblCommon_71.TabIndex = 21;
@@ -352,7 +352,7 @@ namespace Xtreme
 			this._lblCommon_72.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_72.Text = " Analysis5";
 			this._lblCommon_72.Location = new System.Drawing.Point(171, 282);
-			// this._lblCommon_72.mLabelId = 2206;
+			// // this._lblCommon_72.mLabelId = 2206;
 			this._lblCommon_72.Name = "_lblCommon_72";
 			this._lblCommon_72.Size = new System.Drawing.Size(48, 13);
 			this._lblCommon_72.TabIndex = 22;
@@ -547,4 +547,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

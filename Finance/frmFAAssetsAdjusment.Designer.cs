@@ -188,7 +188,7 @@ namespace Xtreme
 			this.lblLCostName.Text = "Adjustment Date";
 			this.lblLCostName.ForeColor = System.Drawing.Color.Black;
 			this.lblLCostName.Location = new System.Drawing.Point(8, 57);
-			// this.lblLCostName.mLabelId = 1015;
+			// // this.lblLCostName.mLabelId = 1015;
 			this.lblLCostName.Name = "lblLCostName";
 			this.lblLCostName.Size = new System.Drawing.Size(79, 14);
 			this.lblLCostName.TabIndex = 8;
@@ -200,7 +200,7 @@ namespace Xtreme
 			this.lblAssetsCode.Text = "Asset Code";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsCode.Location = new System.Drawing.Point(8, 36);
-			// this.lblAssetsCode.mLabelId = 981;
+			// // this.lblAssetsCode.mLabelId = 981;
 			this.lblAssetsCode.Name = "lblAssetsCode";
 			this.lblAssetsCode.Size = new System.Drawing.Size(57, 14);
 			this.lblAssetsCode.TabIndex = 9;
@@ -212,7 +212,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(8, 138);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(50, 14);
 			this.lblComments.TabIndex = 10;
@@ -224,7 +224,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentNo.Text = "Adjustment No";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentNo.Location = new System.Drawing.Point(8, 14);
-			// this.lblAssetsAdjustmentNo.mLabelId = 1012;
+			// // this.lblAssetsAdjustmentNo.mLabelId = 1012;
 			this.lblAssetsAdjustmentNo.Name = "lblAssetsAdjustmentNo";
 			this.lblAssetsAdjustmentNo.Size = new System.Drawing.Size(70, 14);
 			this.lblAssetsAdjustmentNo.TabIndex = 11;
@@ -236,7 +236,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentAccount.Text = "Adjustment Account";
 			this.lblAssetsAdjustmentAccount.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentAccount.Location = new System.Drawing.Point(8, 99);
-			// this.lblAssetsAdjustmentAccount.mLabelId = 1013;
+			// // this.lblAssetsAdjustmentAccount.mLabelId = 1013;
 			this.lblAssetsAdjustmentAccount.Name = "lblAssetsAdjustmentAccount";
 			this.lblAssetsAdjustmentAccount.Size = new System.Drawing.Size(98, 14);
 			this.lblAssetsAdjustmentAccount.TabIndex = 12;
@@ -264,7 +264,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentCostCenter.Text = "Adjustment Cost Center";
 			this.lblAssetsAdjustmentCostCenter.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentCostCenter.Location = new System.Drawing.Point(8, 120);
-			// this.lblAssetsAdjustmentCostCenter.mLabelId = 1014;
+			// // this.lblAssetsAdjustmentCostCenter.mLabelId = 1014;
 			this.lblAssetsAdjustmentCostCenter.Name = "lblAssetsAdjustmentCostCenter";
 			this.lblAssetsAdjustmentCostCenter.Size = new System.Drawing.Size(114, 14);
 			this.lblAssetsAdjustmentCostCenter.TabIndex = 13;
@@ -294,7 +294,7 @@ namespace Xtreme
 			this.lblAdjustmentAmount.Text = "Adjustment Amount";
 			this.lblAdjustmentAmount.ForeColor = System.Drawing.Color.Black;
 			this.lblAdjustmentAmount.Location = new System.Drawing.Point(8, 78);
-			// this.lblAdjustmentAmount.mLabelId = 1016;
+			// // this.lblAdjustmentAmount.mLabelId = 1016;
 			this.lblAdjustmentAmount.Name = "lblAdjustmentAmount";
 			this.lblAdjustmentAmount.Size = new System.Drawing.Size(94, 14);
 			this.lblAdjustmentAmount.TabIndex = 14;
@@ -393,4 +393,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

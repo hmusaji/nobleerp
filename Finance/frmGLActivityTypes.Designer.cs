@@ -110,7 +110,7 @@ namespace Xtreme
 			this.lblUnitNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNo.Text = "Unit Code";
 			this.lblUnitNo.Location = new System.Drawing.Point(4, 26);
-			// this.lblUnitNo.mLabelId = 988;
+			// // this.lblUnitNo.mLabelId = 988;
 			this.lblUnitNo.Name = "lblUnitNo";
 			this.lblUnitNo.Size = new System.Drawing.Size(25, 14);
 			this.lblUnitNo.TabIndex = 1;
@@ -121,7 +121,7 @@ namespace Xtreme
 			this.lblLUnitName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLUnitName.Text = "Name (English)";
 			this.lblLUnitName.Location = new System.Drawing.Point(4, 46);
-			// this.lblLUnitName.mLabelId = 1028;
+			// // this.lblLUnitName.mLabelId = 1028;
 			this.lblLUnitName.Name = "lblLUnitName";
 			this.lblLUnitName.Size = new System.Drawing.Size(72, 14);
 			this.lblLUnitName.TabIndex = 2;
@@ -132,7 +132,7 @@ namespace Xtreme
 			this.lblAUnitName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAUnitName.Text = "Name (Arabic)";
 			this.lblAUnitName.Location = new System.Drawing.Point(4, 68);
-			// this.lblAUnitName.mLabelId = 1029;
+			// // this.lblAUnitName.mLabelId = 1029;
 			this.lblAUnitName.Name = "lblAUnitName";
 			this.lblAUnitName.Size = new System.Drawing.Size(70, 14);
 			this.lblAUnitName.TabIndex = 3;
@@ -169,7 +169,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(4, 88);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 7;
@@ -217,4 +217,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

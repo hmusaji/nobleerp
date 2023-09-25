@@ -305,7 +305,7 @@ namespace Xtreme
 			this._txtDateRange_0.Size = new System.Drawing.Size(101, 19);
 			this._txtDateRange_0.TabIndex = 1;
 			this._txtDateRange_0.Text = "18/07/2001";
-			this._txtDateRange_0.Value = 37090;
+			// this._txtDateRange_0.Value = 37090;
 			// 
 			// _lblCommon_1
 			// 
@@ -351,7 +351,7 @@ namespace Xtreme
 			this._txtDateRange_1.Size = new System.Drawing.Size(101, 19);
 			this._txtDateRange_1.TabIndex = 3;
 			this._txtDateRange_1.Text = "18/07/2001";
-			this._txtDateRange_1.Value = 37090;
+			// this._txtDateRange_1.Value = 37090;
 			// 
 			// cmbSearchList
 			// 
@@ -516,4 +516,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

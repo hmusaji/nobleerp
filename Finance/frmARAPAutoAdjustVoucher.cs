@@ -13,8 +13,8 @@ namespace Xtreme
     {
 
         public frmARAPAutoAdjustVoucher()
-        {
-            InitializeComponent();
-        }
-    }
+{
+InitializeComponent();
+}
+}
 }

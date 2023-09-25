@@ -50,7 +50,7 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdVerify;
 		public System.Windows.Forms.Button cmdMigrate;
 		public System.Windows.Forms.ComboBox cmbMigrateScheme;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Panel FrameCmb;
 		public System.Windows.Forms.TextBox txtTip;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdMigrate1;
@@ -77,7 +77,7 @@ namespace Xtreme
 			this.cmdMigrate = new System.Windows.Forms.Button();
 			this.FrameCmb = new System.Windows.Forms.Panel();
 			this.cmbMigrateScheme = new System.Windows.Forms.ComboBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtTip = new System.Windows.Forms.TextBox();
 			this.grdMigrate1 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.grdMigrate2 = new C1.Win.C1FlexGrid.C1FlexGrid();
@@ -180,7 +180,7 @@ namespace Xtreme
 			this.FrameCmb.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.FrameCmb.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.FrameCmb.Controls.Add(this.cmbMigrateScheme);
-			this.FrameCmb.Controls.Add(this.System.Windows.Forms.Label1);
+			this.FrameCmb.Controls.Add(this.Label1);
 			this.FrameCmb.Enabled = true;
 			this.FrameCmb.ForeColor = System.Drawing.Color.Black;
 			this.FrameCmb.Location = new System.Drawing.Point(408, 16);
@@ -211,14 +211,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Migrate Scheme";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(0, 2);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(95, 16);
-			this.System.Windows.Forms.Label1.TabIndex = 5;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Migrate Scheme";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(0, 2);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(95, 16);
+			this.Label1.TabIndex = 5;
 			// 
 			// txtTip
 			// 
@@ -455,4 +455,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

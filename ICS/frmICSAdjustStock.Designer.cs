@@ -54,7 +54,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLocationCode;
 		public System.Windows.Forms.TextBox txtVoucherType;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTransactionDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.Label lblLocationCode;
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.Label txtLocationName;
@@ -79,7 +79,7 @@ namespace Xtreme
 			this.txtLocationCode = new System.Windows.Forms.TextBox();
 			this.txtVoucherType = new System.Windows.Forms.TextBox();
 			this.txtTransactionDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.lblLocationCode = new System.Windows.Forms.Label();
 			this.lblMasterCode = new System.Windows.Forms.Label();
 			this.txtLocationName = new System.Windows.Forms.Label();
@@ -110,7 +110,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.txtLocationCode);
 			this.cntMainParameter.Controls.Add(this.txtVoucherType);
 			this.cntMainParameter.Controls.Add(this.txtTransactionDate);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label1);
+			this.cntMainParameter.Controls.Add(this.Label1);
 			this.cntMainParameter.Controls.Add(this.lblLocationCode);
 			this.cntMainParameter.Controls.Add(this.lblMasterCode);
 			this.cntMainParameter.Controls.Add(this.txtLocationName);
@@ -149,7 +149,7 @@ namespace Xtreme
 			this.lblDateRange.Text = "  Date Range ";
 			this.lblDateRange.ForeColor = System.Drawing.Color.Black;
 			this.lblDateRange.Location = new System.Drawing.Point(18, 84);
-			// this.lblDateRange.mLabelId = 949;
+			// // this.lblDateRange.mLabelId = 949;
 			this.lblDateRange.Name = "lblDateRange";
 			this.lblDateRange.Size = new System.Drawing.Size(66, 13);
 			this.lblDateRange.TabIndex = 6;
@@ -192,7 +192,7 @@ namespace Xtreme
 			this.txtAsOnDate.Size = new System.Drawing.Size(96, 19);
 			this.txtAsOnDate.TabIndex = 3;
 			this.txtAsOnDate.Text = "7/18/2001";
-			this.txtAsOnDate.Value = 37090;
+			// this.txtAsOnDate.Value = 37090;
 			// 
 			// txtLocationCode
 			// 
@@ -233,19 +233,19 @@ namespace Xtreme
 			this.txtTransactionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionDate.TabIndex = 2;
 			this.txtTransactionDate.Text = "3/4/2002";
-			this.txtTransactionDate.Value = 37319;
+			// this.txtTransactionDate.Value = 37319;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Transaction Date";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(10, 56);
-			this.System.Windows.Forms.Label1.mLabelId = 948;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(82, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 9;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Transaction Date";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(10, 56);
+			// this.Label1.mLabelId = 948;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(82, 13);
+			this.Label1.TabIndex = 9;
 			// 
 			// lblLocationCode
 			// 
@@ -254,7 +254,7 @@ namespace Xtreme
 			this.lblLocationCode.Text = "Location Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationCode.Location = new System.Drawing.Point(10, 35);
-			// this.lblLocationCode.mLabelId = 416;
+			// // this.lblLocationCode.mLabelId = 416;
 			this.lblLocationCode.Name = "lblLocationCode";
 			this.lblLocationCode.Size = new System.Drawing.Size(69, 14);
 			this.lblLocationCode.TabIndex = 10;
@@ -326,4 +326,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -41,7 +41,7 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_txtCommon_4", "_txtCommon_5", "_txtCommon_3", "_txtCommon_6", "_txtCommon_8", "lblAssetsCode", "lblAssetsAdjustmentNo", "lblAssetsAdjustmentAccount", "System.Windows.Forms.Label1", "System.Windows.Forms.Label3", "System.Windows.Forms.Label4", "_System.Windows.Forms.Label6_0", "_System.Windows.Forms.Label7_0", "_txtCommon_7", "lblComments", "System.Windows.Forms.Label5", "_txtCommon_2", "_txtCommon_9", "_txtCommon_0", "_txtCommon_1", "_txtCommonDisplay_1", "_txtCommonDisplay_0", "_System.Windows.Forms.Label7_1", "_txtCommon_10", "_System.Windows.Forms.Label6_1", "_txtCommon_11", "_System.Windows.Forms.Label6_2", "_txtCommon_12", "_System.Windows.Forms.Label6_3", "_txtCommon_13", "_System.Windows.Forms.Label6_4", "_txtCommon_14", "System.Windows.Forms.Label6", "System.Windows.Forms.Label7", "txtCommon", "txtCommonDisplay"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_txtCommon_4", "_txtCommon_5", "_txtCommon_3", "_txtCommon_6", "_txtCommon_8", "lblAssetsCode", "lblAssetsAdjustmentNo", "lblAssetsAdjustmentAccount", "System.Windows.Forms.Label1", "System.Windows.Forms.Label3", "System.Windows.Forms.Label4", "Label6_0", "Label7_0", "_txtCommon_7", "lblComments", "System.Windows.Forms.Label5", "_txtCommon_2", "_txtCommon_9", "_txtCommon_0", "_txtCommon_1", "_txtCommonDisplay_1", "_txtCommonDisplay_0", "Label7_1", "_txtCommon_10", "Label6_1", "_txtCommon_11", "Label6_2", "_txtCommon_12", "Label6_3", "_txtCommon_13", "Label6_4", "_txtCommon_14", "System.Windows.Forms.Label6", "System.Windows.Forms.Label7", "txtCommon", "txtCommonDisplay"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -53,32 +53,32 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAssetsCode;
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
 		public System.Windows.Forms.Label lblAssetsAdjustmentAccount;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label6_0;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label7_0;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel4;
+		private System.Windows.Forms.Label Label6_0;
+		private System.Windows.Forms.Label Label7_0;
 		private System.Windows.Forms.TextBox _txtCommon_7;
 		public System.Windows.Forms.Label lblComments;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel5;
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		private System.Windows.Forms.TextBox _txtCommon_9;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		private System.Windows.Forms.TextBox _txtCommon_1;
 		private System.Windows.Forms.Label _txtCommonDisplay_1;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label7_1;
+		private System.Windows.Forms.Label Label7_1;
 		private System.Windows.Forms.TextBox _txtCommon_10;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label6_1;
+		private System.Windows.Forms.Label Label6_1;
 		private System.Windows.Forms.TextBox _txtCommon_11;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label6_2;
+		private System.Windows.Forms.Label Label6_2;
 		private System.Windows.Forms.TextBox _txtCommon_12;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label6_3;
+		private System.Windows.Forms.Label Label6_3;
 		private System.Windows.Forms.TextBox _txtCommon_13;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label6_4;
+		private System.Windows.Forms.Label Label6_4;
 		private System.Windows.Forms.TextBox _txtCommon_14;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label6 = new System.Windows.Forms.Label[5];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label7 = new System.Windows.Forms.Label[2];
+		public System.Windows.Forms.Label[] Label6 = new System.Windows.Forms.Label[5];
+		public System.Windows.Forms.Label[] Label7 = new System.Windows.Forms.Label[2];
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[15];
 		public System.Windows.Forms.Label[] txtCommonDisplay = new System.Windows.Forms.Label[2];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -98,29 +98,29 @@ namespace Xtreme
 			this.lblAssetsCode = new System.Windows.Forms.Label();
 			this.lblAssetsAdjustmentNo = new System.Windows.Forms.Label();
 			this.lblAssetsAdjustmentAccount = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label6_0 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label7_0 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label6_0 = new System.Windows.Forms.Label();
+			this.Label7_0 = new System.Windows.Forms.Label();
 			this._txtCommon_7 = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this._txtCommon_2 = new System.Windows.Forms.TextBox();
 			this._txtCommon_9 = new System.Windows.Forms.TextBox();
 			this._txtCommon_0 = new System.Windows.Forms.TextBox();
 			this._txtCommon_1 = new System.Windows.Forms.TextBox();
 			this._txtCommonDisplay_1 = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_0 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label7_1 = new System.Windows.Forms.Label();
+			this.Label7_1 = new System.Windows.Forms.Label();
 			this._txtCommon_10 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label6_1 = new System.Windows.Forms.Label();
+			this.Label6_1 = new System.Windows.Forms.Label();
 			this._txtCommon_11 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label6_2 = new System.Windows.Forms.Label();
+			this.Label6_2 = new System.Windows.Forms.Label();
 			this._txtCommon_12 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label6_3 = new System.Windows.Forms.Label();
+			this.Label6_3 = new System.Windows.Forms.Label();
 			this._txtCommon_13 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label6_4 = new System.Windows.Forms.Label();
+			this.Label6_4 = new System.Windows.Forms.Label();
 			this._txtCommon_14 = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
@@ -210,7 +210,7 @@ namespace Xtreme
 			this.lblAssetsCode.Text = "Tenant Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsCode.Location = new System.Drawing.Point(8, 74);
-			// this.lblAssetsCode.mLabelId = 1220;
+			// // this.lblAssetsCode.mLabelId = 1220;
 			this.lblAssetsCode.Name = "lblAssetsCode";
 			this.lblAssetsCode.Size = new System.Drawing.Size(108, 14);
 			this.lblAssetsCode.TabIndex = 15;
@@ -222,7 +222,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentNo.Text = "Tenant Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentNo.Location = new System.Drawing.Point(8, 53);
-			// this.lblAssetsAdjustmentNo.mLabelId = 1156;
+			// // this.lblAssetsAdjustmentNo.mLabelId = 1156;
 			this.lblAssetsAdjustmentNo.Name = "lblAssetsAdjustmentNo";
 			this.lblAssetsAdjustmentNo.Size = new System.Drawing.Size(61, 14);
 			this.lblAssetsAdjustmentNo.TabIndex = 16;
@@ -234,70 +234,70 @@ namespace Xtreme
 			this.lblAssetsAdjustmentAccount.Text = "Bank Code";
 			this.lblAssetsAdjustmentAccount.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentAccount.Location = new System.Drawing.Point(8, 137);
-			// this.lblAssetsAdjustmentAccount.mLabelId = 1151;
+			// // this.lblAssetsAdjustmentAccount.mLabelId = 1151;
 			this.lblAssetsAdjustmentAccount.Name = "lblAssetsAdjustmentAccount";
 			this.lblAssetsAdjustmentAccount.Size = new System.Drawing.Size(52, 14);
 			this.lblAssetsAdjustmentAccount.TabIndex = 17;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label1.Caption = "Passport No";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 158);
-			this.System.Windows.Forms.Label1.mLabelId = 1182;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(59, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 18;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label1.Text = "Passport No";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(8, 158);
+			// this.Label1.mLabelId = 1182;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(59, 14);
+			this.Label1.TabIndex = 18;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label3.Caption = "Nationality Code";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(8, 116);
-			this.System.Windows.Forms.Label3.mLabelId = 1058;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(77, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 19;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label3.Text = "Nationality Code";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(8, 116);
+			// this.Label3.mLabelId = 1058;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(77, 14);
+			this.Label3.TabIndex = 19;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label4.Caption = "Civil Id";
-			this.System.Windows.Forms.Label4.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(268, 158);
-			this.System.Windows.Forms.Label4.mLabelId = 124;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(30, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 20;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label4.Text = "Civil Id";
+			this.Label4.ForeColor = System.Drawing.Color.Black;
+			this.Label4.Location = new System.Drawing.Point(268, 158);
+			// this.Label4.mLabelId = 124;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(30, 14);
+			this.Label4.TabIndex = 20;
 			// 
-			// _System.Windows.Forms.Label6_0
+			// Label6_0
 			// 
-			this._System.Windows.Forms.Label6_0.AllowDrop = true;
-			this._System.Windows.Forms.Label6_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label6_0.Caption = "Tenant Name (Arabic)";
-			this._System.Windows.Forms.Label6_0.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label6_0.Location = new System.Drawing.Point(8, 95);
-			this._System.Windows.Forms.Label6_0.mLabelId = 1221;
-			this._System.Windows.Forms.Label6_0.Name = "_System.Windows.Forms.Label6_0";
-			this._System.Windows.Forms.Label6_0.Size = new System.Drawing.Size(106, 14);
-			this._System.Windows.Forms.Label6_0.TabIndex = 21;
+			this.Label6_0.AllowDrop = true;
+			this.Label6_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label6_0.Text = "Tenant Name (Arabic)";
+			this.Label6_0.ForeColor = System.Drawing.Color.Black;
+			this.Label6_0.Location = new System.Drawing.Point(8, 95);
+			// this.Label6_0.mLabelId = 1221;
+			this.Label6_0.Name = "Label6_0";
+			this.Label6_0.Size = new System.Drawing.Size(106, 14);
+			this.Label6_0.TabIndex = 21;
 			// 
-			// _System.Windows.Forms.Label7_0
+			// Label7_0
 			// 
-			this._System.Windows.Forms.Label7_0.AllowDrop = true;
-			this._System.Windows.Forms.Label7_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label7_0.Caption = "Mobile No";
-			this._System.Windows.Forms.Label7_0.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label7_0.Location = new System.Drawing.Point(8, 199);
-			this._System.Windows.Forms.Label7_0.mLabelId = 1073;
-			this._System.Windows.Forms.Label7_0.Name = "_System.Windows.Forms.Label7_0";
-			this._System.Windows.Forms.Label7_0.Size = new System.Drawing.Size(48, 13);
-			this._System.Windows.Forms.Label7_0.TabIndex = 22;
+			this.Label7_0.AllowDrop = true;
+			this.Label7_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label7_0.Text = "Mobile No";
+			this.Label7_0.ForeColor = System.Drawing.Color.Black;
+			this.Label7_0.Location = new System.Drawing.Point(8, 199);
+			// this.Label7_0.mLabelId = 1073;
+			this.Label7_0.Name = "Label7_0";
+			this.Label7_0.Size = new System.Drawing.Size(48, 13);
+			this.Label7_0.TabIndex = 22;
 			// 
 			// _txtCommon_7
 			// 
@@ -321,22 +321,22 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(7, 314);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(49, 13);
 			this.lblComments.TabIndex = 23;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label5.Caption = "Fax No";
-			this.System.Windows.Forms.Label5.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(268, 179);
-			this.System.Windows.Forms.Label5.mLabelId = 1076;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(34, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 24;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label5.Text = "Fax No";
+			this.Label5.ForeColor = System.Drawing.Color.Black;
+			this.Label5.Location = new System.Drawing.Point(268, 179);
+			// this.Label5.mLabelId = 1076;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(34, 14);
+			this.Label5.TabIndex = 24;
 			// 
 			// _txtCommon_2
 			// 
@@ -417,16 +417,16 @@ namespace Xtreme
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);
 			this._txtCommonDisplay_0.TabIndex = 26;
 			// 
-			// _System.Windows.Forms.Label7_1
+			// Label7_1
 			// 
-			this._System.Windows.Forms.Label7_1.AllowDrop = true;
-			this._System.Windows.Forms.Label7_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label7_1.Caption = "Tel. No.";
-			this._System.Windows.Forms.Label7_1.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label7_1.Location = new System.Drawing.Point(8, 179);
-			this._System.Windows.Forms.Label7_1.Name = "_System.Windows.Forms.Label7_1";
-			this._System.Windows.Forms.Label7_1.Size = new System.Drawing.Size(38, 13);
-			this._System.Windows.Forms.Label7_1.TabIndex = 27;
+			this.Label7_1.AllowDrop = true;
+			this.Label7_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label7_1.Text = "Tel. No.";
+			this.Label7_1.ForeColor = System.Drawing.Color.Black;
+			this.Label7_1.Location = new System.Drawing.Point(8, 179);
+			this.Label7_1.Name = "Label7_1";
+			this.Label7_1.Size = new System.Drawing.Size(38, 13);
+			this.Label7_1.TabIndex = 27;
 			// 
 			// _txtCommon_10
 			// 
@@ -443,16 +443,16 @@ namespace Xtreme
 			// this.this._txtCommon_10.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
 			// this._txtCommon_10.Leave += new System.EventHandler(this.txtCommon_Leave);
 			// 
-			// _System.Windows.Forms.Label6_1
+			// Label6_1
 			// 
-			this._System.Windows.Forms.Label6_1.AllowDrop = true;
-			this._System.Windows.Forms.Label6_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label6_1.Caption = "Address 1";
-			this._System.Windows.Forms.Label6_1.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label6_1.Location = new System.Drawing.Point(9, 221);
-			this._System.Windows.Forms.Label6_1.Name = "_System.Windows.Forms.Label6_1";
-			this._System.Windows.Forms.Label6_1.Size = new System.Drawing.Size(47, 13);
-			this._System.Windows.Forms.Label6_1.TabIndex = 28;
+			this.Label6_1.AllowDrop = true;
+			this.Label6_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label6_1.Text = "Address 1";
+			this.Label6_1.ForeColor = System.Drawing.Color.Black;
+			this.Label6_1.Location = new System.Drawing.Point(9, 221);
+			this.Label6_1.Name = "Label6_1";
+			this.Label6_1.Size = new System.Drawing.Size(47, 13);
+			this.Label6_1.TabIndex = 28;
 			// 
 			// _txtCommon_11
 			// 
@@ -470,16 +470,16 @@ namespace Xtreme
 			// this.this._txtCommon_11.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
 			// this._txtCommon_11.Leave += new System.EventHandler(this.txtCommon_Leave);
 			// 
-			// _System.Windows.Forms.Label6_2
+			// Label6_2
 			// 
-			this._System.Windows.Forms.Label6_2.AllowDrop = true;
-			this._System.Windows.Forms.Label6_2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label6_2.Caption = "Address 2";
-			this._System.Windows.Forms.Label6_2.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label6_2.Location = new System.Drawing.Point(9, 242);
-			this._System.Windows.Forms.Label6_2.Name = "_System.Windows.Forms.Label6_2";
-			this._System.Windows.Forms.Label6_2.Size = new System.Drawing.Size(47, 13);
-			this._System.Windows.Forms.Label6_2.TabIndex = 29;
+			this.Label6_2.AllowDrop = true;
+			this.Label6_2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label6_2.Text = "Address 2";
+			this.Label6_2.ForeColor = System.Drawing.Color.Black;
+			this.Label6_2.Location = new System.Drawing.Point(9, 242);
+			this.Label6_2.Name = "Label6_2";
+			this.Label6_2.Size = new System.Drawing.Size(47, 13);
+			this.Label6_2.TabIndex = 29;
 			// 
 			// _txtCommon_12
 			// 
@@ -497,16 +497,16 @@ namespace Xtreme
 			// this.this._txtCommon_12.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
 			// this._txtCommon_12.Leave += new System.EventHandler(this.txtCommon_Leave);
 			// 
-			// _System.Windows.Forms.Label6_3
+			// Label6_3
 			// 
-			this._System.Windows.Forms.Label6_3.AllowDrop = true;
-			this._System.Windows.Forms.Label6_3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label6_3.Caption = "Email Id";
-			this._System.Windows.Forms.Label6_3.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label6_3.Location = new System.Drawing.Point(8, 263);
-			this._System.Windows.Forms.Label6_3.Name = "_System.Windows.Forms.Label6_3";
-			this._System.Windows.Forms.Label6_3.Size = new System.Drawing.Size(37, 13);
-			this._System.Windows.Forms.Label6_3.TabIndex = 30;
+			this.Label6_3.AllowDrop = true;
+			this.Label6_3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label6_3.Text = "Email Id";
+			this.Label6_3.ForeColor = System.Drawing.Color.Black;
+			this.Label6_3.Location = new System.Drawing.Point(8, 263);
+			this.Label6_3.Name = "Label6_3";
+			this.Label6_3.Size = new System.Drawing.Size(37, 13);
+			this.Label6_3.TabIndex = 30;
 			// 
 			// _txtCommon_13
 			// 
@@ -524,16 +524,16 @@ namespace Xtreme
 			// this.this._txtCommon_13.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCommon_DropButtonClick);
 			// this._txtCommon_13.Leave += new System.EventHandler(this.txtCommon_Leave);
 			// 
-			// _System.Windows.Forms.Label6_4
+			// Label6_4
 			// 
-			this._System.Windows.Forms.Label6_4.AllowDrop = true;
-			this._System.Windows.Forms.Label6_4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this._System.Windows.Forms.Label6_4.Caption = "Website";
-			this._System.Windows.Forms.Label6_4.ForeColor = System.Drawing.Color.Black;
-			this._System.Windows.Forms.Label6_4.Location = new System.Drawing.Point(8, 284);
-			this._System.Windows.Forms.Label6_4.Name = "_System.Windows.Forms.Label6_4";
-			this._System.Windows.Forms.Label6_4.Size = new System.Drawing.Size(39, 13);
-			this._System.Windows.Forms.Label6_4.TabIndex = 31;
+			this.Label6_4.AllowDrop = true;
+			this.Label6_4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label6_4.Text = "Website";
+			this.Label6_4.ForeColor = System.Drawing.Color.Black;
+			this.Label6_4.Location = new System.Drawing.Point(8, 284);
+			this.Label6_4.Name = "Label6_4";
+			this.Label6_4.Size = new System.Drawing.Size(39, 13);
+			this.Label6_4.TabIndex = 31;
 			// 
 			// _txtCommon_14
 			// 
@@ -567,29 +567,29 @@ namespace Xtreme
 			this.Controls.Add(this.lblAssetsCode);
 			this.Controls.Add(this.lblAssetsAdjustmentNo);
 			this.Controls.Add(this.lblAssetsAdjustmentAccount);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
-			this.Controls.Add(this._System.Windows.Forms.Label6_0);
-			this.Controls.Add(this._System.Windows.Forms.Label7_0);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label3);
+			this.Controls.Add(this.Label4);
+			this.Controls.Add(this.Label6_0);
+			this.Controls.Add(this.Label7_0);
 			this.Controls.Add(this._txtCommon_7);
 			this.Controls.Add(this.lblComments);
-			this.Controls.Add(this.System.Windows.Forms.Label5);
+			this.Controls.Add(this.Label5);
 			this.Controls.Add(this._txtCommon_2);
 			this.Controls.Add(this._txtCommon_9);
 			this.Controls.Add(this._txtCommon_0);
 			this.Controls.Add(this._txtCommon_1);
 			this.Controls.Add(this._txtCommonDisplay_1);
 			this.Controls.Add(this._txtCommonDisplay_0);
-			this.Controls.Add(this._System.Windows.Forms.Label7_1);
+			this.Controls.Add(this.Label7_1);
 			this.Controls.Add(this._txtCommon_10);
-			this.Controls.Add(this._System.Windows.Forms.Label6_1);
+			this.Controls.Add(this.Label6_1);
 			this.Controls.Add(this._txtCommon_11);
-			this.Controls.Add(this._System.Windows.Forms.Label6_2);
+			this.Controls.Add(this.Label6_2);
 			this.Controls.Add(this._txtCommon_12);
-			this.Controls.Add(this._System.Windows.Forms.Label6_3);
+			this.Controls.Add(this.Label6_3);
 			this.Controls.Add(this._txtCommon_13);
-			this.Controls.Add(this._System.Windows.Forms.Label6_4);
+			this.Controls.Add(this.Label6_4);
 			this.Controls.Add(this._txtCommon_14);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmRETenant.Icon");
 			this.KeyPreview = true;
@@ -646,19 +646,19 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label7()
 		{
-			this.System.Windows.Forms.Label7 = new System.Windows.Forms.Label[2];
-			this.System.Windows.Forms.Label7[0] = _System.Windows.Forms.Label7_0;
-			this.System.Windows.Forms.Label7[1] = _System.Windows.Forms.Label7_1;
+			this.Label7 = new System.Windows.Forms.Label[2];
+			this.Label7[0] = Label7_0;
+			this.Label7[1] = Label7_1;
 		}
 		void InitializeSystem.Windows.Forms.Label6()
 		{
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label[5];
-			this.System.Windows.Forms.Label6[0] = _System.Windows.Forms.Label6_0;
-			this.System.Windows.Forms.Label6[1] = _System.Windows.Forms.Label6_1;
-			this.System.Windows.Forms.Label6[2] = _System.Windows.Forms.Label6_2;
-			this.System.Windows.Forms.Label6[3] = _System.Windows.Forms.Label6_3;
-			this.System.Windows.Forms.Label6[4] = _System.Windows.Forms.Label6_4;
+			this.Label6 = new System.Windows.Forms.Label[5];
+			this.Label6[0] = Label6_0;
+			this.Label6[1] = Label6_1;
+			this.Label6[2] = Label6_2;
+			this.Label6[3] = Label6_3;
+			this.Label6[4] = Label6_4;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -40,12 +40,12 @@ namespace Xtreme
 		public AxC1SizerLib.AxC1Elastic conImportICSTrans;
 		public System.Windows.Forms.Label txtGLVoucherName;
 		public System.Windows.Forms.TextBox txtGLVoucherType;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.TextBox txtGLVoucherNo;
 		public AxC1SizerLib.AxC1Elastic conImportGLVoucher;
 		public System.Windows.Forms.Button cmdFileSearch;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		private System.Windows.Forms.Label _txtCommonLable_0;
 		public AxC1SizerLib.AxC1Elastic conFileImport;
 		public AxC1SizerLib.AxC1Tab tabMaster;
@@ -67,12 +67,12 @@ namespace Xtreme
 			this.conImportGLVoucher = new AxC1SizerLib.AxC1Elastic();
 			this.txtGLVoucherName = new System.Windows.Forms.Label();
 			this.txtGLVoucherType = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.txtGLVoucherNo = new System.Windows.Forms.TextBox();
 			this.conFileImport = new AxC1SizerLib.AxC1Elastic();
 			this.cmdFileSearch = new System.Windows.Forms.Button();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this._txtCommonLable_0 = new System.Windows.Forms.Label();
 			this.cdgFileSystemOpen = new System.Windows.Forms.OpenFileDialog();
 			this.cdgFileSystem = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
@@ -116,8 +116,8 @@ namespace Xtreme
 			this.conImportGLVoucher.AllowDrop = true;
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherName);
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherType);
-			this.conImportGLVoucher.Controls.Add(this.System.Windows.Forms.Label2);
-			this.conImportGLVoucher.Controls.Add(this.System.Windows.Forms.Label3);
+			this.conImportGLVoucher.Controls.Add(this.Label2);
+			this.conImportGLVoucher.Controls.Add(this.Label3);
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherNo);
 			this.conImportGLVoucher.Location = new System.Drawing.Point(498, 23);
 			this.conImportGLVoucher.Name = "conImportGLVoucher";
@@ -153,23 +153,23 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Voucher Type";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(16, 32);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(67, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 8;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Voucher Type";
+			this.Label2.Location = new System.Drawing.Point(16, 32);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(67, 13);
+			this.Label2.TabIndex = 8;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Voucher No";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(16, 52);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(57, 13);
-			this.System.Windows.Forms.Label3.TabIndex = 9;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Voucher No";
+			this.Label3.Location = new System.Drawing.Point(16, 52);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(57, 13);
+			this.Label3.TabIndex = 9;
 			// 
 			// txtGLVoucherNo
 			// 
@@ -191,7 +191,7 @@ namespace Xtreme
 			this.conFileImport.Align = C1SizerLib.AlignSettings.asNone;
 			this.conFileImport.AllowDrop = true;
 			this.conFileImport.Controls.Add(this.cmdFileSearch);
-			this.conFileImport.Controls.Add(this.System.Windows.Forms.Label1);
+			this.conFileImport.Controls.Add(this.Label1);
 			this.conFileImport.Controls.Add(this._txtCommonLable_0);
 			this.conFileImport.Location = new System.Drawing.Point(3, 23);
 			this.conFileImport.Name = "conFileImport";
@@ -217,13 +217,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "File Name";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 12);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(47, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 4;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "File Name";
+			this.Label1.Location = new System.Drawing.Point(8, 12);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(47, 13);
+			this.Label1.TabIndex = 4;
 			// 
 			// _txtCommonLable_0
 			// 
@@ -287,4 +287,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

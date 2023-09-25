@@ -14,6 +14,6 @@ namespace Xtreme
 		public frmSysShortcut()
 {
 InitializeComponent();
-} 
- 	}
+}
+}
 }

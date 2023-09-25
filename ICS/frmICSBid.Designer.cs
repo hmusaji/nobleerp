@@ -47,9 +47,9 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		private System.Windows.Forms.Label _lblCommon_3;
 		public System.Windows.Forms.Label txtCurrencyName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.CheckBox chkCertifiedCheque;
 		public System.Windows.Forms.CheckBox chkBankGuarantee;
 		private System.Windows.Forms.Panel _Frame1_0;
@@ -58,12 +58,12 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtBidAmount;
 		public System.Windows.Forms.Label lblAmount;
 		public System.Windows.Forms.TextBox txtBGCCNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.TextBox txtCurrencyCode;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtIssueDate;
 		public System.Windows.Forms.TextBox txtBankInitials;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
+		public System.Windows.Forms.LabelLabel6;
 		public AxTDBContainer3D6.AxTDBContainer3D fraDetailsInfo;
 		public System.Windows.Forms.TextBox txtBidNo;
 		public System.Windows.Forms.Label lblCode;
@@ -84,9 +84,9 @@ namespace Xtreme
 			this._lblCommon_3 = new System.Windows.Forms.Label();
 			this.fraDetailsInfo = new AxTDBContainer3D6.AxTDBContainer3D();
 			this.txtCurrencyName = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.chkCertifiedCheque = new System.Windows.Forms.CheckBox();
 			this.chkBankGuarantee = new System.Windows.Forms.CheckBox();
 			this._Frame1_0 = new System.Windows.Forms.Panel();
@@ -95,12 +95,12 @@ namespace Xtreme
 			this.txtBidAmount = new System.Windows.Forms.TextBox();
 			this.lblAmount = new System.Windows.Forms.Label();
 			this.txtBGCCNo = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtCurrencyCode = new System.Windows.Forms.TextBox();
 			this.txtIssueDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtBankInitials = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
 			this.txtBidNo = new System.Windows.Forms.TextBox();
 			this.lblCode = new System.Windows.Forms.Label();
 			this.Line2 = new System.Windows.Forms.Label();
@@ -118,7 +118,7 @@ namespace Xtreme
 			this._lblCommon_3.Text = " Bid Information ";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_3.Location = new System.Drawing.Point(32, 78);
-			// this._lblCommon_3.mLabelId = 2047;
+			// // this._lblCommon_3.mLabelId = 2047;
 			this._lblCommon_3.Name = "_lblCommon_3";
 			this._lblCommon_3.Size = new System.Drawing.Size(90, 14);
 			this._lblCommon_3.TabIndex = 12;
@@ -127,9 +127,9 @@ namespace Xtreme
 			// 
 			this.fraDetailsInfo.AllowDrop = true;
 			this.fraDetailsInfo.Controls.Add(this.txtCurrencyName);
-			this.fraDetailsInfo.Controls.Add(this.System.Windows.Forms.Label4);
-			this.fraDetailsInfo.Controls.Add(this.System.Windows.Forms.Label3);
-			this.fraDetailsInfo.Controls.Add(this.System.Windows.Forms.Label2);
+			this.fraDetailsInfo.Controls.Add(this.Label4);
+			this.fraDetailsInfo.Controls.Add(this.Label3);
+			this.fraDetailsInfo.Controls.Add(this.Label2);
 			this.fraDetailsInfo.Controls.Add(this.chkCertifiedCheque);
 			this.fraDetailsInfo.Controls.Add(this.chkBankGuarantee);
 			this.fraDetailsInfo.Controls.Add(this._Frame1_0);
@@ -138,12 +138,12 @@ namespace Xtreme
 			this.fraDetailsInfo.Controls.Add(this.txtBidAmount);
 			this.fraDetailsInfo.Controls.Add(this.lblAmount);
 			this.fraDetailsInfo.Controls.Add(this.txtBGCCNo);
-			this.fraDetailsInfo.Controls.Add(this.System.Windows.Forms.Label1);
-			this.fraDetailsInfo.Controls.Add(this.System.Windows.Forms.Label5);
+			this.fraDetailsInfo.Controls.Add(this.Label1);
+			this.fraDetailsInfo.Controls.Add(this.Label5);
 			this.fraDetailsInfo.Controls.Add(this.txtCurrencyCode);
 			this.fraDetailsInfo.Controls.Add(this.txtIssueDate);
 			this.fraDetailsInfo.Controls.Add(this.txtBankInitials);
-			this.fraDetailsInfo.Controls.Add(this.System.Windows.Forms.Label6);
+			this.fraDetailsInfo.Controls.Add(this.Label6);
 			this.fraDetailsInfo.Location = new System.Drawing.Point(2, 94);
 			this.fraDetailsInfo.Name = "fraDetailsInfo";
 			("fraDetailsInfo.OcxState");
@@ -163,39 +163,39 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label4.Caption = "Currency Code";
-			this.System.Windows.Forms.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(232, 62);
-			this.System.Windows.Forms.Label4.mLabelId = 2048;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(73, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 18;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label4.Text = "Currency Code";
+			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label4.Location = new System.Drawing.Point(232, 62);
+			// this.Label4.mLabelId = 2048;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(73, 14);
+			this.Label4.TabIndex = 18;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label3.Caption = "Certified Cheque";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(44, 36);
-			this.System.Windows.Forms.Label3.mLabelId = 2046;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(80, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 10;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label3.Text = "Certified Cheque";
+			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label3.Location = new System.Drawing.Point(44, 36);
+			// this.Label3.mLabelId = 2046;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(80, 14);
+			this.Label3.TabIndex = 10;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label2.Caption = "Bank Guarantee";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(44, 14);
-			this.System.Windows.Forms.Label2.mLabelId = 2045;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(78, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 9;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label2.Text = "Bank Guarantee";
+			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label2.Location = new System.Drawing.Point(44, 14);
+			// this.Label2.mLabelId = 2045;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(78, 14);
+			this.Label2.TabIndex = 9;
 			// 
 			// chkCertifiedCheque
 			// 
@@ -263,7 +263,7 @@ namespace Xtreme
 			this.txtValidityDate.Size = new System.Drawing.Size(102, 19);
 			this.txtValidityDate.TabIndex = 3;
 			this.txtValidityDate.Text = "7/18/2001";
-			this.txtValidityDate.Value = 37090;
+			// this.txtValidityDate.Value = 37090;
 			// 
 			// lblDate
 			// 
@@ -272,7 +272,7 @@ namespace Xtreme
 			this.lblDate.Text = "Validity date";
 			this.lblDate.ForeColor = System.Drawing.Color.Black;
 			this.lblDate.Location = new System.Drawing.Point(26, 62);
-			// this.lblDate.mLabelId = 2041;
+			// // this.lblDate.mLabelId = 2041;
 			this.lblDate.Name = "lblDate";
 			this.lblDate.Size = new System.Drawing.Size(59, 14);
 			this.lblDate.TabIndex = 14;
@@ -297,7 +297,7 @@ namespace Xtreme
 			this.lblAmount.Text = "BG/CC Amount";
 			this.lblAmount.ForeColor = System.Drawing.Color.Black;
 			this.lblAmount.Location = new System.Drawing.Point(26, 105);
-			// this.lblAmount.mLabelId = 2042;
+			// // this.lblAmount.mLabelId = 2042;
 			this.lblAmount.Name = "lblAmount";
 			this.lblAmount.Size = new System.Drawing.Size(72, 14);
 			this.lblAmount.TabIndex = 15;
@@ -318,27 +318,27 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label1.Caption = "BG/CC No.";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(232, 85);
-			this.System.Windows.Forms.Label1.mLabelId = 2043;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(51, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 17;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label1.Text = "BG/CC No.";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(232, 85);
+			// this.Label1.mLabelId = 2043;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(51, 14);
+			this.Label1.TabIndex = 17;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label5.Caption = "Issue Date";
-			this.System.Windows.Forms.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(26, 84);
-			this.System.Windows.Forms.Label5.mLabelId = 2050;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(51, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 20;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label5.Text = "Issue Date";
+			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label5.Location = new System.Drawing.Point(26, 84);
+			// this.Label5.mLabelId = 2050;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(51, 14);
+			this.Label5.TabIndex = 20;
 			// 
 			// txtCurrencyCode
 			// 
@@ -368,7 +368,7 @@ namespace Xtreme
 			this.txtIssueDate.Size = new System.Drawing.Size(102, 19);
 			this.txtIssueDate.TabIndex = 4;
 			this.txtIssueDate.Text = "7/18/2001";
-			this.txtIssueDate.Value = 37090;
+			// this.txtIssueDate.Value = 37090;
 			// 
 			// txtBankInitials
 			// 
@@ -385,15 +385,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.System.Windows.Forms.Label6.Caption = "Bank Initails";
-			this.System.Windows.Forms.Label6.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(232, 105);
-			this.System.Windows.Forms.Label6.mLabelId = 2049;
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(56, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 21;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
+			this.Label6.Text = "Bank Initails";
+			this.Label6.ForeColor = System.Drawing.Color.Black;
+			this.Label6.Location = new System.Drawing.Point(232, 105);
+			// this.Label6.mLabelId = 2049;
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(56, 14);
+			this.Label6.TabIndex = 21;
 			// 
 			// txtBidNo
 			// 
@@ -417,7 +417,7 @@ namespace Xtreme
 			this.lblCode.Text = "Bid Code";
 			this.lblCode.ForeColor = System.Drawing.Color.Black;
 			this.lblCode.Location = new System.Drawing.Point(38, 54);
-			// this.lblCode.mLabelId = 2044;
+			// // this.lblCode.mLabelId = 2044;
 			this.lblCode.Name = "lblCode";
 			this.lblCode.Size = new System.Drawing.Size(43, 14);
 			this.lblCode.TabIndex = 16;
@@ -506,4 +506,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -13,8 +13,8 @@ namespace Xtreme
     internal partial class frmSysLogin : System.Windows.Forms.Form
     {
         public frmSysLogin()
-        {
-            InitializeComponent();
-        }
-    }
+{
+InitializeComponent();
+}
+}
 }

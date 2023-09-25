@@ -98,7 +98,7 @@ namespace Xtreme
 			this.lblLocationCode.Text = "Location Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationCode.Location = new System.Drawing.Point(8, 53);
-			// this.lblLocationCode.mLabelId = 1023;
+			// // this.lblLocationCode.mLabelId = 1023;
 			this.lblLocationCode.Name = "lblLocationCode";
 			this.lblLocationCode.Size = new System.Drawing.Size(69, 14);
 			this.lblLocationCode.TabIndex = 4;
@@ -110,7 +110,7 @@ namespace Xtreme
 			this.lblLLocationName.Text = "Location Name (English)";
 			this.lblLLocationName.ForeColor = System.Drawing.Color.Black;
 			this.lblLLocationName.Location = new System.Drawing.Point(8, 74);
-			// this.lblLLocationName.mLabelId = 1024;
+			// // this.lblLLocationName.mLabelId = 1024;
 			this.lblLLocationName.Name = "lblLLocationName";
 			this.lblLLocationName.Size = new System.Drawing.Size(116, 14);
 			this.lblLLocationName.TabIndex = 5;
@@ -122,7 +122,7 @@ namespace Xtreme
 			this.lblALocationName.Text = "Location Name (Arabic)";
 			this.lblALocationName.ForeColor = System.Drawing.Color.Black;
 			this.lblALocationName.Location = new System.Drawing.Point(8, 95);
-			// this.lblALocationName.mLabelId = 1026;
+			// // this.lblALocationName.mLabelId = 1026;
 			this.lblALocationName.Name = "lblALocationName";
 			this.lblALocationName.Size = new System.Drawing.Size(114, 14);
 			this.lblALocationName.TabIndex = 6;
@@ -241,4 +241,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

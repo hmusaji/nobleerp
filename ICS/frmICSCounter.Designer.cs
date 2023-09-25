@@ -62,7 +62,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblPolePort;
 		public System.Windows.Forms.TextBox txtPortNo;
 		public System.Windows.Forms.TextBox txtCDPortNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -89,7 +89,7 @@ namespace Xtreme
 			this.lblPolePort = new System.Windows.Forms.Label();
 			this.txtPortNo = new System.Windows.Forms.TextBox();
 			this.txtCDPortNo = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// chkCD
@@ -326,14 +326,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Port No";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(128, 148);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(35, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 16;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Port No";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(128, 148);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(35, 14);
+			this.Label1.TabIndex = 16;
 			// 
 			// frmICSPOSCounter
 			// 
@@ -360,7 +360,7 @@ namespace Xtreme
 			this.Controls.Add(this.lblPolePort);
 			this.Controls.Add(this.txtPortNo);
 			this.Controls.Add(this.txtCDPortNo);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmICSPOSCounter.Icon");
 			this.KeyPreview = true;
@@ -388,4 +388,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

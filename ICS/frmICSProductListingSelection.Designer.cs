@@ -172,7 +172,7 @@ namespace Xtreme
 			this.lblPriceList.Text = "Price :";
 			this.lblPriceList.ForeColor = System.Drawing.Color.Black;
 			this.lblPriceList.Location = new System.Drawing.Point(6, 30);
-			// this.lblPriceList.mLabelId = 504;
+			// // this.lblPriceList.mLabelId = 504;
 			this.lblPriceList.Name = "lblPriceList";
 			this.lblPriceList.Size = new System.Drawing.Size(30, 14);
 			this.lblPriceList.TabIndex = 3;
@@ -215,4 +215,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

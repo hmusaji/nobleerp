@@ -49,9 +49,9 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
 		private System.Windows.Forms.TextBox _txtTextBox_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel1;
 		private System.Windows.Forms.TextBox _txtTextBox_1;
 		private System.Windows.Forms.TextBox _txtTextBox_2;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdApprovalGroup;
@@ -72,9 +72,9 @@ namespace Xtreme
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this._txtTextBox_0 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this._txtTextBox_1 = new System.Windows.Forms.TextBox();
 			this._txtTextBox_2 = new System.Windows.Forms.TextBox();
 			this.grdApprovalGroup = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -124,33 +124,33 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Group Name(ARB)";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(4, 123);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(90, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 5;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Group Name(ARB)";
+			this.Label3.Location = new System.Drawing.Point(4, 123);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(90, 14);
+			this.Label3.TabIndex = 5;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Group Name(ENG)";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(4, 99);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(89, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 4;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Group Name(ENG)";
+			this.Label2.Location = new System.Drawing.Point(4, 99);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(89, 14);
+			this.Label2.TabIndex = 4;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Group Code";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(4, 75);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(58, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 3;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Group Code";
+			this.Label1.Location = new System.Drawing.Point(4, 75);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(58, 14);
+			this.Label1.TabIndex = 3;
 			// 
 			// _txtTextBox_1
 			// 
@@ -227,9 +227,9 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(619, 345);
 			this.Controls.Add(this.cmbMastersList);
 			this.Controls.Add(this._txtTextBox_0);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label3);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this._txtTextBox_1);
 			this.Controls.Add(this._txtTextBox_2);
 			this.Controls.Add(this.grdApprovalGroup);
@@ -271,4 +271,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -132,7 +132,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Employee Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 56);
-			// this._lblCommonLabel_0.mLabelId = 236;
+			// // this._lblCommonLabel_0.mLabelId = 236;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_0.TabIndex = 1;
@@ -276,7 +276,7 @@ namespace Xtreme
 			this._lblCommon_102.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_102.Text = "Status";
 			this._lblCommon_102.Location = new System.Drawing.Point(633, 57);
-			// this._lblCommon_102.mLabelId = 1834;
+			// // this._lblCommon_102.mLabelId = 1834;
 			this._lblCommon_102.Name = "_lblCommon_102";
 			this._lblCommon_102.Size = new System.Drawing.Size(31, 14);
 			this._lblCommon_102.TabIndex = 10;
@@ -379,4 +379,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

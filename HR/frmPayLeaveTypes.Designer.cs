@@ -64,13 +64,13 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtAGradeName;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblNatNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
-		public System.Windows.Forms.Label System.Windows.Forms.Label7;
-		public System.Windows.Forms.Label System.Windows.Forms.Label8;
-		public System.Windows.Forms.Label System.Windows.Forms.Label9;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.LabelLabel7;
+		public System.Windows.Forms.LabelLabel8;
+		public System.Windows.Forms.LabelLabel9;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox1;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox3;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox4;
@@ -95,9 +95,9 @@ namespace Xtreme
 			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
 			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
 			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
-			this.System.Windows.Forms.TextBox2 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.TextBox1 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.ComboBox1 = new System.Windows.Forms.ComboBox();
+			this.TextBox2 = new System.Windows.Forms.TextBox();
+			this.TextBox1 = new System.Windows.Forms.TextBox();
+			this.ComboBox1 = new System.Windows.Forms.ComboBox();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.txtGradeNo = new System.Windows.Forms.TextBox();
 			this.lblLNatName = new System.Windows.Forms.Label();
@@ -106,17 +106,17 @@ namespace Xtreme
 			this.txtAGradeName = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();
 			this.lblNatNo = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label7 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label8 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label9 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.TextBox1 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.TextBox3 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.TextBox4 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.TextBox5 = new System.Windows.Forms.TextBox();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
+			this.Label7 = new System.Windows.Forms.Label();
+			this.Label8 = new System.Windows.Forms.Label();
+			this.Label9 = new System.Windows.Forms.Label();
+			this.TextBox1 = new System.Windows.Forms.TextBox();
+			this.TextBox3 = new System.Windows.Forms.TextBox();
+			this.TextBox4 = new System.Windows.Forms.TextBox();
+			this.TextBox5 = new System.Windows.Forms.TextBox();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_0).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_1).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_5).BeginInit();
@@ -238,9 +238,9 @@ namespace Xtreme
 			// cntMainParameter
 			// 
 			this.cntMainParameter.AllowDrop = true;
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.TextBox2);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.TextBox1);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.ComboBox1);
+			this.cntMainParameter.Controls.Add(this.TextBox2);
+			this.cntMainParameter.Controls.Add(this.TextBox1);
+			this.cntMainParameter.Controls.Add(this.ComboBox1);
 			this.cntMainParameter.Controls.Add(this.txtComment);
 			this.cntMainParameter.Controls.Add(this.txtGradeNo);
 			this.cntMainParameter.Controls.Add(this.lblLNatName);
@@ -249,17 +249,17 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.txtAGradeName);
 			this.cntMainParameter.Controls.Add(this.lblComments);
 			this.cntMainParameter.Controls.Add(this.lblNatNo);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label3);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label4);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label5);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label6);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label7);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label8);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.Label9);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.TextBox1);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.TextBox3);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.TextBox4);
-			this.cntMainParameter.Controls.Add(this.System.Windows.Forms.TextBox5);
+			this.cntMainParameter.Controls.Add(this.Label3);
+			this.cntMainParameter.Controls.Add(this.Label4);
+			this.cntMainParameter.Controls.Add(this.Label5);
+			this.cntMainParameter.Controls.Add(this.Label6);
+			this.cntMainParameter.Controls.Add(this.Label7);
+			this.cntMainParameter.Controls.Add(this.Label8);
+			this.cntMainParameter.Controls.Add(this.Label9);
+			this.cntMainParameter.Controls.Add(this.TextBox1);
+			this.cntMainParameter.Controls.Add(this.TextBox3);
+			this.cntMainParameter.Controls.Add(this.TextBox4);
+			this.cntMainParameter.Controls.Add(this.TextBox5);
 			this.cntMainParameter.Location = new System.Drawing.Point(4, 44);
 			this.cntMainParameter.Name = "cntMainParameter";
 			("cntMainParameter.OcxState");
@@ -268,33 +268,33 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox2
 			// 
-			this.System.Windows.Forms.TextBox2.AllowDrop = true;
-			this.System.Windows.Forms.TextBox2.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.TextBox2.bolAllowDecimal = false;
-			this.System.Windows.Forms.TextBox2.Location = new System.Drawing.Point(136, 164);
-			this.System.Windows.Forms.TextBox2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
-			this.System.Windows.Forms.TextBox2.Name = "System.Windows.Forms.TextBox2";
-			this.System.Windows.Forms.TextBox2.Size = new System.Drawing.Size(101, 19);
-			this.System.Windows.Forms.TextBox2.TabIndex = 30;
-			this.System.Windows.Forms.TextBox2.Text = "";
+			this.TextBox2.AllowDrop = true;
+			this.TextBox2.BackColor = System.Drawing.Color.White;
+			this.TextBox2.bolAllowDecimal = false;
+			this.TextBox2.Location = new System.Drawing.Point(136, 164);
+			this.TextBox2.mDropDownType = (System.Windows.Forms.TextBox.DropDownTypes) 0;
+			this.TextBox2.Name = "System.Windows.Forms.TextBox2";
+			this.TextBox2.Size = new System.Drawing.Size(101, 19);
+			this.TextBox2.TabIndex = 30;
+			this.TextBox2.Text = "";
 			// 
 			// System.Windows.Forms.TextBox1
 			// 
-			this.System.Windows.Forms.TextBox1.AllowDrop = true;
-			this.System.Windows.Forms.TextBox1.Location = new System.Drawing.Point(150, 110);
-			this.System.Windows.Forms.TextBox1.MaxValue = 2147483647;
-			this.System.Windows.Forms.TextBox1.MinValue = 0;
-			this.System.Windows.Forms.TextBox1.Name = "System.Windows.Forms.TextBox1";
-			this.System.Windows.Forms.TextBox1.Size = new System.Drawing.Size(107, 19);
-			this.System.Windows.Forms.TextBox1.TabIndex = 26;
+			this.TextBox1.AllowDrop = true;
+			this.TextBox1.Location = new System.Drawing.Point(150, 110);
+			this.TextBox1.MaxValue = 2147483647;
+			this.TextBox1.MinValue = 0;
+			this.TextBox1.Name = "System.Windows.Forms.TextBox1";
+			this.TextBox1.Size = new System.Drawing.Size(107, 19);
+			this.TextBox1.TabIndex = 26;
 			// 
 			// System.Windows.Forms.ComboBox1
 			// 
-			this.System.Windows.Forms.ComboBox1.AllowDrop = true;
-			this.System.Windows.Forms.ComboBox1.Location = new System.Drawing.Point(146, 78);
-			this.System.Windows.Forms.ComboBox1.Name = "System.Windows.Forms.ComboBox1";
-			this.System.Windows.Forms.ComboBox1.Size = new System.Drawing.Size(115, 21);
-			this.System.Windows.Forms.ComboBox1.TabIndex = 24;
+			this.ComboBox1.AllowDrop = true;
+			this.ComboBox1.Location = new System.Drawing.Point(146, 78);
+			this.ComboBox1.Name = "System.Windows.Forms.ComboBox1";
+			this.ComboBox1.Size = new System.Drawing.Size(115, 21);
+			this.ComboBox1.TabIndex = 24;
 			// 
 			// txtComment
 			// 
@@ -392,115 +392,115 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label3.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(272, 172);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 17;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label3.Text = "Grade Name (Arabic)";
+			this.Label3.Location = new System.Drawing.Point(272, 172);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(103, 14);
+			this.Label3.TabIndex = 17;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label4.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(14, 164);
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 18;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label4.Text = "Grade Name (Arabic)";
+			this.Label4.Location = new System.Drawing.Point(14, 164);
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(103, 14);
+			this.Label4.TabIndex = 18;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label5.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(268, 142);
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 19;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label5.Text = "Grade Name (Arabic)";
+			this.Label5.Location = new System.Drawing.Point(268, 142);
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(103, 14);
+			this.Label5.TabIndex = 19;
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label6.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(266, 82);
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 20;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label6.Text = "Grade Name (Arabic)";
+			this.Label6.Location = new System.Drawing.Point(266, 82);
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(103, 14);
+			this.Label6.TabIndex = 20;
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.System.Windows.Forms.Label7.AllowDrop = true;
-			this.System.Windows.Forms.Label7.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label7.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label7.Location = new System.Drawing.Point(262, 116);
-			this.System.Windows.Forms.Label7.Name = "System.Windows.Forms.Label7";
-			this.System.Windows.Forms.Label7.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label7.TabIndex = 21;
+			this.Label7.AllowDrop = true;
+			this.Label7.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label7.Text = "Grade Name (Arabic)";
+			this.Label7.Location = new System.Drawing.Point(262, 116);
+			this.Label7.Name = "System.Windows.Forms.Label7";
+			this.Label7.Size = new System.Drawing.Size(103, 14);
+			this.Label7.TabIndex = 21;
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.System.Windows.Forms.Label8.AllowDrop = true;
-			this.System.Windows.Forms.Label8.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label8.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label8.Location = new System.Drawing.Point(4, 138);
-			this.System.Windows.Forms.Label8.Name = "System.Windows.Forms.Label8";
-			this.System.Windows.Forms.Label8.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label8.TabIndex = 22;
+			this.Label8.AllowDrop = true;
+			this.Label8.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label8.Text = "Grade Name (Arabic)";
+			this.Label8.Location = new System.Drawing.Point(4, 138);
+			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Size = new System.Drawing.Size(103, 14);
+			this.Label8.TabIndex = 22;
 			// 
 			// System.Windows.Forms.Label9
 			// 
-			this.System.Windows.Forms.Label9.AllowDrop = true;
-			this.System.Windows.Forms.Label9.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label9.Caption = "Grade Name (Arabic)";
-			this.System.Windows.Forms.Label9.Location = new System.Drawing.Point(12, 114);
-			this.System.Windows.Forms.Label9.Name = "System.Windows.Forms.Label9";
-			this.System.Windows.Forms.Label9.Size = new System.Drawing.Size(103, 14);
-			this.System.Windows.Forms.Label9.TabIndex = 23;
+			this.Label9.AllowDrop = true;
+			this.Label9.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label9.Text = "Grade Name (Arabic)";
+			this.Label9.Location = new System.Drawing.Point(12, 114);
+			this.Label9.Name = "System.Windows.Forms.Label9";
+			this.Label9.Size = new System.Drawing.Size(103, 14);
+			this.Label9.TabIndex = 23;
 			// 
 			// System.Windows.Forms.TextBox1
 			// 
-			this.System.Windows.Forms.TextBox1.AllowDrop = true;
-			this.System.Windows.Forms.TextBox1.BackColor = System.Drawing.Color.White;
-			this.System.Windows.Forms.TextBox1.Location = new System.Drawing.Point(382, 80);
-			this.System.Windows.Forms.TextBox1.mArabicEnabled = true;
-			this.System.Windows.Forms.TextBox1.MaxLength = 50;
-			this.System.Windows.Forms.TextBox1.Name = "System.Windows.Forms.TextBox1";
-			this.System.Windows.Forms.TextBox1.Size = new System.Drawing.Size(111, 19);
-			this.System.Windows.Forms.TextBox1.TabIndex = 25;
-			this.System.Windows.Forms.TextBox1.Text = "";
+			this.TextBox1.AllowDrop = true;
+			this.TextBox1.BackColor = System.Drawing.Color.White;
+			this.TextBox1.Location = new System.Drawing.Point(382, 80);
+			this.TextBox1.mArabicEnabled = true;
+			this.TextBox1.MaxLength = 50;
+			this.TextBox1.Name = "System.Windows.Forms.TextBox1";
+			this.TextBox1.Size = new System.Drawing.Size(111, 19);
+			this.TextBox1.TabIndex = 25;
+			this.TextBox1.Text = "";
 			// 
 			// System.Windows.Forms.TextBox3
 			// 
-			this.System.Windows.Forms.TextBox3.AllowDrop = true;
-			this.System.Windows.Forms.TextBox3.Location = new System.Drawing.Point(382, 138);
-			this.System.Windows.Forms.TextBox3.MaxValue = 2147483647;
-			this.System.Windows.Forms.TextBox3.MinValue = 0;
-			this.System.Windows.Forms.TextBox3.Name = "System.Windows.Forms.TextBox3";
-			this.System.Windows.Forms.TextBox3.Size = new System.Drawing.Size(107, 19);
-			this.System.Windows.Forms.TextBox3.TabIndex = 27;
+			this.TextBox3.AllowDrop = true;
+			this.TextBox3.Location = new System.Drawing.Point(382, 138);
+			this.TextBox3.MaxValue = 2147483647;
+			this.TextBox3.MinValue = 0;
+			this.TextBox3.Name = "System.Windows.Forms.TextBox3";
+			this.TextBox3.Size = new System.Drawing.Size(107, 19);
+			this.TextBox3.TabIndex = 27;
 			// 
 			// System.Windows.Forms.TextBox4
 			// 
-			this.System.Windows.Forms.TextBox4.AllowDrop = true;
-			this.System.Windows.Forms.TextBox4.Location = new System.Drawing.Point(380, 112);
-			this.System.Windows.Forms.TextBox4.MaxValue = 2147483647;
-			this.System.Windows.Forms.TextBox4.MinValue = 0;
-			this.System.Windows.Forms.TextBox4.Name = "System.Windows.Forms.TextBox4";
-			this.System.Windows.Forms.TextBox4.Size = new System.Drawing.Size(107, 19);
-			this.System.Windows.Forms.TextBox4.TabIndex = 28;
+			this.TextBox4.AllowDrop = true;
+			this.TextBox4.Location = new System.Drawing.Point(380, 112);
+			this.TextBox4.MaxValue = 2147483647;
+			this.TextBox4.MinValue = 0;
+			this.TextBox4.Name = "System.Windows.Forms.TextBox4";
+			this.TextBox4.Size = new System.Drawing.Size(107, 19);
+			this.TextBox4.TabIndex = 28;
 			// 
 			// System.Windows.Forms.TextBox5
 			// 
-			this.System.Windows.Forms.TextBox5.AllowDrop = true;
-			this.System.Windows.Forms.TextBox5.Location = new System.Drawing.Point(150, 134);
-			this.System.Windows.Forms.TextBox5.MaxValue = 2147483647;
-			this.System.Windows.Forms.TextBox5.MinValue = 0;
-			this.System.Windows.Forms.TextBox5.Name = "System.Windows.Forms.TextBox5";
-			this.System.Windows.Forms.TextBox5.Size = new System.Drawing.Size(107, 19);
-			this.System.Windows.Forms.TextBox5.TabIndex = 29;
+			this.TextBox5.AllowDrop = true;
+			this.TextBox5.Location = new System.Drawing.Point(150, 134);
+			this.TextBox5.MaxValue = 2147483647;
+			this.TextBox5.MinValue = 0;
+			this.TextBox5.Name = "System.Windows.Forms.TextBox5";
+			this.TextBox5.Size = new System.Drawing.Size(107, 19);
+			this.TextBox5.TabIndex = 29;
 			// 
 			// frmPayLeaveTypes
 			// 
@@ -562,4 +562,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

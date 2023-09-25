@@ -50,9 +50,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAssetsCode;
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
+		public System.Windows.Forms.LabelLabel6;
 		private System.Windows.Forms.TextBox _txtCommon_2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel3;
 		private System.Windows.Forms.TextBox _txtCommon_3;
 		public System.Windows.Forms.Label lblComments;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
@@ -72,9 +72,9 @@ namespace Xtreme
 			this.lblAssetsCode = new System.Windows.Forms.Label();
 			this.lblAssetsAdjustmentNo = new System.Windows.Forms.Label();
 			this._txtCommon_1 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
 			this._txtCommon_2 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this._txtCommon_3 = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_0 = new System.Windows.Forms.Label();
@@ -120,7 +120,7 @@ namespace Xtreme
 			this.lblAssetsCode.Text = "Item Name  (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsCode.Location = new System.Drawing.Point(8, 74);
-			// this.lblAssetsCode.mLabelId = 1195;
+			// // this.lblAssetsCode.mLabelId = 1195;
 			this.lblAssetsCode.Name = "lblAssetsCode";
 			this.lblAssetsCode.Size = new System.Drawing.Size(97, 14);
 			this.lblAssetsCode.TabIndex = 5;
@@ -132,7 +132,7 @@ namespace Xtreme
 			this.lblAssetsAdjustmentNo.Text = "Item Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentNo.Location = new System.Drawing.Point(8, 53);
-			// this.lblAssetsAdjustmentNo.mLabelId = 340;
+			// // this.lblAssetsAdjustmentNo.mLabelId = 340;
 			this.lblAssetsAdjustmentNo.Name = "lblAssetsAdjustmentNo";
 			this.lblAssetsAdjustmentNo.Size = new System.Drawing.Size(47, 14);
 			this.lblAssetsAdjustmentNo.TabIndex = 6;
@@ -154,15 +154,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label6.Caption = "Item Name  (Arabic)";
-			this.System.Windows.Forms.Label6.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(8, 95);
-			this.System.Windows.Forms.Label6.mLabelId = 1196;
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(95, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 7;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label6.Text = "Item Name  (Arabic)";
+			this.Label6.ForeColor = System.Drawing.Color.Black;
+			this.Label6.Location = new System.Drawing.Point(8, 95);
+			// this.Label6.mLabelId = 1196;
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(95, 14);
+			this.Label6.TabIndex = 7;
 			// 
 			// _txtCommon_2
 			// 
@@ -182,15 +182,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label3.Caption = "Item Type  Code";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(8, 116);
-			this.System.Windows.Forms.Label3.mLabelId = 1197;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(77, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 8;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label3.Text = "Item Type  Code";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(8, 116);
+			// this.Label3.mLabelId = 1197;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(77, 14);
+			this.Label3.TabIndex = 8;
 			// 
 			// _txtCommon_3
 			// 
@@ -216,7 +216,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(8, 134);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(49, 13);
 			this.lblComments.TabIndex = 9;
@@ -242,9 +242,9 @@ namespace Xtreme
 			this.Controls.Add(this.lblAssetsCode);
 			this.Controls.Add(this.lblAssetsAdjustmentNo);
 			this.Controls.Add(this._txtCommon_1);
-			this.Controls.Add(this.System.Windows.Forms.Label6);
+			this.Controls.Add(this.Label6);
 			this.Controls.Add(this._txtCommon_2);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Controls.Add(this.Label3);
 			this.Controls.Add(this._txtCommon_3);
 			this.Controls.Add(this.lblComments);
 			this.Controls.Add(this._txtCommonDisplay_0);
@@ -289,4 +289,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

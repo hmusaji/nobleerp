@@ -57,7 +57,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtDocumentTypeCd;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.TextBox txtComments;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -79,7 +79,7 @@ namespace Xtreme
 			this.txtDocumentTypeCd = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();
 			this.txtComments = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// txtNotifyPeriod
@@ -98,7 +98,7 @@ namespace Xtreme
 			this.lblACategoryName.Text = "Document Name (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.lblACategoryName.Location = new System.Drawing.Point(8, 101);
-			// this.lblACategoryName.mLabelId = 1790;
+			// // this.lblACategoryName.mLabelId = 1790;
 			this.lblACategoryName.Name = "lblACategoryName";
 			this.lblACategoryName.Size = new System.Drawing.Size(121, 14);
 			this.lblACategoryName.TabIndex = 8;
@@ -126,7 +126,7 @@ namespace Xtreme
 			this.lblCategoryNo.Text = "Document Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
 			this.lblCategoryNo.Location = new System.Drawing.Point(8, 59);
-			// this.lblCategoryNo.mLabelId = 1788;
+			// // this.lblCategoryNo.mLabelId = 1788;
 			this.lblCategoryNo.Name = "lblCategoryNo";
 			this.lblCategoryNo.Size = new System.Drawing.Size(76, 14);
 			this.lblCategoryNo.TabIndex = 6;
@@ -138,7 +138,7 @@ namespace Xtreme
 			this.lblLCategoryName.Text = "Document Name (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
 			this.lblLCategoryName.Location = new System.Drawing.Point(8, 80);
-			// this.lblLCategoryName.mLabelId = 1789;
+			// // this.lblLCategoryName.mLabelId = 1789;
 			this.lblLCategoryName.Name = "lblLCategoryName";
 			this.lblLCategoryName.Size = new System.Drawing.Size(123, 14);
 			this.lblLCategoryName.TabIndex = 7;
@@ -188,7 +188,7 @@ namespace Xtreme
 			this.lblParentCategory.Text = "Document Type Code";
 			this.lblParentCategory.ForeColor = System.Drawing.Color.Black;
 			this.lblParentCategory.Location = new System.Drawing.Point(8, 122);
-			// this.lblParentCategory.mLabelId = 1791;
+			// // this.lblParentCategory.mLabelId = 1791;
 			this.lblParentCategory.Name = "lblParentCategory";
 			this.lblParentCategory.Size = new System.Drawing.Size(103, 14);
 			this.lblParentCategory.TabIndex = 10;
@@ -216,7 +216,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(7, 162);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 11;
@@ -235,15 +235,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Notification Period (in days)";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 144);
-			this.System.Windows.Forms.Label1.mLabelId = 2029;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(132, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 12;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Notification Period (in days)";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(6, 144);
+			// this.Label1.mLabelId = 2029;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(132, 14);
+			this.Label1.TabIndex = 12;
 			// 
 			// frmPayDocumentMaster
 			// 
@@ -265,7 +265,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtDocumentTypeCd);
 			this.Controls.Add(this.lblComments);
 			this.Controls.Add(this.txtComments);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayDocumentMaster.Icon");
 			this.KeyPreview = true;
@@ -293,4 +293,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

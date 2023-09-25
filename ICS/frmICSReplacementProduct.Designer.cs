@@ -122,7 +122,7 @@ namespace Xtreme
 			this.lblLedgerNo.Text = "Product Code";
 			this.lblLedgerNo.ForeColor = System.Drawing.Color.Black;
 			this.lblLedgerNo.Location = new System.Drawing.Point(8, 56);
-			// this.lblLedgerNo.mLabelId = 545;
+			// // this.lblLedgerNo.mLabelId = 545;
 			this.lblLedgerNo.Name = "lblLedgerNo";
 			this.lblLedgerNo.Size = new System.Drawing.Size(65, 14);
 			this.lblLedgerNo.TabIndex = 3;
@@ -214,4 +214,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -217,7 +217,7 @@ namespace Xtreme
 			this._dateCommon_0.Size = new System.Drawing.Size(101, 19);
 			this._dateCommon_0.TabIndex = 0;
 			this._dateCommon_0.Text = "05/07/2005";
-			this._dateCommon_0.Value = 38538;
+			// this._dateCommon_0.Value = 38538;
 			// 
 			// fraContractDetails
 			// 
@@ -257,7 +257,7 @@ namespace Xtreme
 			this._lblCommon_6.Text = "Tenant Code";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_6.Location = new System.Drawing.Point(8, 19);
-			// this._lblCommon_6.mLabelId = 1156;
+			// // this._lblCommon_6.mLabelId = 1156;
 			this._lblCommon_6.Name = "_lblCommon_6";
 			this._lblCommon_6.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_6.TabIndex = 9;
@@ -269,7 +269,7 @@ namespace Xtreme
 			this._lblCommon_7.Text = "Pay. Method Code";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_7.Location = new System.Drawing.Point(8, 41);
-			// this._lblCommon_7.mLabelId = 1157;
+			// // this._lblCommon_7.mLabelId = 1157;
 			this._lblCommon_7.Name = "_lblCommon_7";
 			this._lblCommon_7.Size = new System.Drawing.Size(88, 13);
 			this._lblCommon_7.TabIndex = 10;
@@ -281,7 +281,7 @@ namespace Xtreme
 			this._lblCommon_9.Text = "Contract Amount";
 			this._lblCommon_9.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_9.Location = new System.Drawing.Point(8, 83);
-			// this._lblCommon_9.mLabelId = 1172;
+			// // this._lblCommon_9.mLabelId = 1172;
 			this._lblCommon_9.Name = "_lblCommon_9";
 			this._lblCommon_9.Size = new System.Drawing.Size(79, 13);
 			this._lblCommon_9.TabIndex = 11;
@@ -293,7 +293,7 @@ namespace Xtreme
 			this._lblCommon_8.Text = "Starting Date";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_8.Location = new System.Drawing.Point(8, 104);
-			// this._lblCommon_8.mLabelId = 1160;
+			// // this._lblCommon_8.mLabelId = 1160;
 			this._lblCommon_8.Name = "_lblCommon_8";
 			this._lblCommon_8.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_8.TabIndex = 13;
@@ -305,7 +305,7 @@ namespace Xtreme
 			this._lblCommon_10.Text = "Ending Date";
 			this._lblCommon_10.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_10.Location = new System.Drawing.Point(218, 104);
-			// this._lblCommon_10.mLabelId = 1161;
+			// // this._lblCommon_10.mLabelId = 1161;
 			this._lblCommon_10.Name = "_lblCommon_10";
 			this._lblCommon_10.Size = new System.Drawing.Size(59, 13);
 			this._lblCommon_10.TabIndex = 14;
@@ -317,7 +317,7 @@ namespace Xtreme
 			this._lblCommon_11.Text = "Status Code";
 			this._lblCommon_11.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_11.Location = new System.Drawing.Point(8, 62);
-			// this._lblCommon_11.mLabelId = 1159;
+			// // this._lblCommon_11.mLabelId = 1159;
 			this._lblCommon_11.Name = "_lblCommon_11";
 			this._lblCommon_11.Size = new System.Drawing.Size(58, 13);
 			this._lblCommon_11.TabIndex = 22;
@@ -346,7 +346,7 @@ namespace Xtreme
 			this._dateCommon_1.Size = new System.Drawing.Size(101, 19);
 			this._dateCommon_1.TabIndex = 24;
 			this._dateCommon_1.Text = "05/07/2005";
-			this._dateCommon_1.Value = 38538;
+			// this._dateCommon_1.Value = 38538;
 			// 
 			// _dateCommon_2
 			// 
@@ -361,7 +361,7 @@ namespace Xtreme
 			this._dateCommon_2.Size = new System.Drawing.Size(101, 19);
 			this._dateCommon_2.TabIndex = 25;
 			this._dateCommon_2.Text = "05/07/2005";
-			this._dateCommon_2.Value = 38538;
+			// this._dateCommon_2.Value = 38538;
 			// 
 			// _txtCommonDisplay_7
 			// 
@@ -453,7 +453,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "Reciept No.";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_0.Location = new System.Drawing.Point(12, 12);
-			// this._lblCommon_0.mLabelId = 1216;
+			// // this._lblCommon_0.mLabelId = 1216;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(57, 13);
 			this._lblCommon_0.TabIndex = 16;
@@ -465,7 +465,7 @@ namespace Xtreme
 			this._lblCommon_1.Text = "Receipt Date";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_1.Location = new System.Drawing.Point(12, 34);
-			// this._lblCommon_1.mLabelId = 1217;
+			// // this._lblCommon_1.mLabelId = 1217;
 			this._lblCommon_1.Name = "_lblCommon_1";
 			this._lblCommon_1.Size = new System.Drawing.Size(63, 13);
 			this._lblCommon_1.TabIndex = 17;
@@ -477,7 +477,7 @@ namespace Xtreme
 			this._lblCommon_4.Text = "Paid By";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_4.Location = new System.Drawing.Point(12, 118);
-			// this._lblCommon_4.mLabelId = 1219;
+			// // this._lblCommon_4.mLabelId = 1219;
 			this._lblCommon_4.Name = "_lblCommon_4";
 			this._lblCommon_4.Size = new System.Drawing.Size(36, 13);
 			this._lblCommon_4.TabIndex = 18;
@@ -504,7 +504,7 @@ namespace Xtreme
 			this._lblCommon_2.Text = "Receipt Amount";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_2.Location = new System.Drawing.Point(12, 76);
-			// this._lblCommon_2.mLabelId = 1218;
+			// // this._lblCommon_2.mLabelId = 1218;
 			this._lblCommon_2.Name = "_lblCommon_2";
 			this._lblCommon_2.Size = new System.Drawing.Size(76, 13);
 			this._lblCommon_2.TabIndex = 19;
@@ -530,7 +530,7 @@ namespace Xtreme
 			this._lblCommon_3.Text = "Reference No.";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_3.Location = new System.Drawing.Point(12, 97);
-			// this._lblCommon_3.mLabelId = 1164;
+			// // this._lblCommon_3.mLabelId = 1164;
 			this._lblCommon_3.Name = "_lblCommon_3";
 			this._lblCommon_3.Size = new System.Drawing.Size(70, 13);
 			this._lblCommon_3.TabIndex = 20;
@@ -575,7 +575,7 @@ namespace Xtreme
 			this._lblCommon_5.Text = "Contract No.";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_5.Location = new System.Drawing.Point(12, 55);
-			// this._lblCommon_5.mLabelId = 1200;
+			// // this._lblCommon_5.mLabelId = 1200;
 			this._lblCommon_5.Name = "_lblCommon_5";
 			this._lblCommon_5.Size = new System.Drawing.Size(60, 13);
 			this._lblCommon_5.TabIndex = 21;
@@ -587,7 +587,7 @@ namespace Xtreme
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
 			this.lblComments.Location = new System.Drawing.Point(6, 378);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(49, 13);
 			this.lblComments.TabIndex = 12;
@@ -687,4 +687,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

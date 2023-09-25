@@ -101,7 +101,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(10, 66);
-			// this._lblCommonLabel_2.mLabelId = 236;
+			// // this._lblCommonLabel_2.mLabelId = 236;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 1;
@@ -136,7 +136,7 @@ namespace Xtreme
 			this._lblCommon_114.BackColor = System.Drawing.Color.FromArgb(227, 226, 219);
 			this._lblCommon_114.Text = "Department Code";
 			this._lblCommon_114.Location = new System.Drawing.Point(10, 87);
-			// this._lblCommon_114.mLabelId = 1973;
+			// // this._lblCommon_114.mLabelId = 1973;
 			this._lblCommon_114.Name = "_lblCommon_114";
 			this._lblCommon_114.Size = new System.Drawing.Size(83, 14);
 			this._lblCommon_114.TabIndex = 4;
@@ -182,7 +182,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Month";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(536, 87);
-			// this._lblCommonLabel_0.mLabelId = 1145;
+			// // this._lblCommonLabel_0.mLabelId = 1145;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(29, 14);
 			this._lblCommonLabel_0.TabIndex = 7;
@@ -201,7 +201,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Year";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(536, 66);
-			// this._lblCommonLabel_1.mLabelId = 1146;
+			// // this._lblCommonLabel_1.mLabelId = 1146;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(31, 14);
 			this._lblCommonLabel_1.TabIndex = 9;
@@ -346,4 +346,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

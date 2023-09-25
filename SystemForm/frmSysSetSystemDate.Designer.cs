@@ -39,7 +39,7 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public Syncfusion.WinForms.Input.SfCalendar datePicker;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtSystemDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public UCOkCancel cmdOKCancel;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -52,7 +52,7 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.datePicker = new Syncfusion.WinForms.Input.SfCalendar();
 			this.txtSystemDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.cmdOKCancel = new UCOkCancel();
 			// //((System.ComponentModel.ISupportInitialize) this.datePicker).BeginInit();
 			this.SuspendLayout();
@@ -81,15 +81,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Date";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(74, 40);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(22, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 2;
-			this.System.Windows.Forms.Label1.Visible = false;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Date";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(74, 40);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(22, 14);
+			this.Label1.TabIndex = 2;
+			this.Label1.Visible = false;
 			// 
 			// cmdOKCancel
 			// 
@@ -113,7 +113,7 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(201, 156);
 			this.Controls.Add(this.datePicker);
 			this.Controls.Add(this.txtSystemDate);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.cmdOKCancel);
 			this.ForeColor = System.Drawing.Color.Silver;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -135,4 +135,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

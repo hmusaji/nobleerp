@@ -15,8 +15,8 @@ namespace Xtreme
 	{
 
 		public frmARAPVoucherLinking()
-        {
-            InitializeComponent();
-        }
-    }
+{
+InitializeComponent();
+}
+}
 }

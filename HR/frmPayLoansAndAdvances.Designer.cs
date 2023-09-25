@@ -70,7 +70,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_16;
 		private System.Windows.Forms.Label _lblCommonLabel_17;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDeductionDate;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_12;
 		private System.Windows.Forms.Label _txtDisplayLabel_11;
@@ -126,7 +126,7 @@ namespace Xtreme
 			this._lblCommonLabel_16 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_17 = new System.Windows.Forms.Label();
 			this.txtStartDeductionDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_3 = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_12 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_11 = new System.Windows.Forms.Label();
@@ -167,7 +167,7 @@ namespace Xtreme
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Reference No.";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(8, 74);
-			// this._lblCommonLabel_7.mLabelId = 1964;
+			// // this._lblCommonLabel_7.mLabelId = 1964;
 			this._lblCommonLabel_7.Name = "_lblCommonLabel_7";
 			this._lblCommonLabel_7.Size = new System.Drawing.Size(70, 13);
 			this._lblCommonLabel_7.TabIndex = 8;
@@ -178,7 +178,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Loan No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(8, 53);
-			// this._lblCommonLabel_5.mLabelId = 1044;
+			// // this._lblCommonLabel_5.mLabelId = 1044;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(43, 14);
 			this._lblCommonLabel_5.TabIndex = 9;
@@ -189,7 +189,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Loan Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(260, 53);
-			// this._lblCommonLabel_6.mLabelId = 1045;
+			// // this._lblCommonLabel_6.mLabelId = 1045;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(49, 14);
 			this._lblCommonLabel_6.TabIndex = 10;
@@ -205,7 +205,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			this.txtVoucherDate.Text = "18/07/2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
 			// 
@@ -244,7 +244,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(8, 106);
-			// this._lblCommonLabel_2.mLabelId = 236;
+			// // this._lblCommonLabel_2.mLabelId = 236;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 11;
@@ -255,7 +255,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(8, 147);
-			// this._lblCommonLabel_0.mLabelId = 1973;
+			// // this._lblCommonLabel_0.mLabelId = 1973;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(83, 14);
 			this._lblCommonLabel_0.TabIndex = 12;
@@ -266,7 +266,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Designation Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(8, 168);
-			// this._lblCommonLabel_1.mLabelId = 1049;
+			// // this._lblCommonLabel_1.mLabelId = 1049;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(84, 14);
 			this._lblCommonLabel_1.TabIndex = 13;
@@ -277,7 +277,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Basic Salary";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(8, 189);
-			// this._lblCommonLabel_3.mLabelId = 1970;
+			// // this._lblCommonLabel_3.mLabelId = 1970;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_3.TabIndex = 14;
@@ -302,7 +302,7 @@ namespace Xtreme
 			this._lblCommonLabel_10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_10.Text = "Loan Amount";
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(8, 222);
-			// this._lblCommonLabel_10.mLabelId = 404;
+			// // this._lblCommonLabel_10.mLabelId = 404;
 			this._lblCommonLabel_10.Name = "_lblCommonLabel_10";
 			this._lblCommonLabel_10.Size = new System.Drawing.Size(64, 14);
 			this._lblCommonLabel_10.TabIndex = 15;
@@ -327,7 +327,7 @@ namespace Xtreme
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Loan Installment Amount";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(260, 220);
-			// this._lblCommonLabel_4.mLabelId = 408;
+			// // this._lblCommonLabel_4.mLabelId = 408;
 			this._lblCommonLabel_4.Name = "_lblCommonLabel_4";
 			this._lblCommonLabel_4.Size = new System.Drawing.Size(117, 14);
 			this._lblCommonLabel_4.TabIndex = 16;
@@ -338,7 +338,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Start Deduction Date";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(260, 241);
-			// this._lblCommonLabel_8.mLabelId = 1138;
+			// // this._lblCommonLabel_8.mLabelId = 1138;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(99, 14);
 			this._lblCommonLabel_8.TabIndex = 17;
@@ -349,7 +349,7 @@ namespace Xtreme
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Balance";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(8, 325);
-			// this._lblCommonLabel_9.mLabelId = 1862;
+			// // this._lblCommonLabel_9.mLabelId = 1862;
 			this._lblCommonLabel_9.Name = "_lblCommonLabel_9";
 			this._lblCommonLabel_9.Size = new System.Drawing.Size(39, 14);
 			this._lblCommonLabel_9.TabIndex = 18;
@@ -360,7 +360,7 @@ namespace Xtreme
 			this._lblCommonLabel_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_11.Text = "Loan Installments";
 			this._lblCommonLabel_11.Location = new System.Drawing.Point(260, 325);
-			// this._lblCommonLabel_11.mLabelId = 1142;
+			// // this._lblCommonLabel_11.mLabelId = 1142;
 			this._lblCommonLabel_11.Name = "_lblCommonLabel_11";
 			this._lblCommonLabel_11.Size = new System.Drawing.Size(83, 14);
 			this._lblCommonLabel_11.TabIndex = 19;
@@ -371,7 +371,7 @@ namespace Xtreme
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_12.Text = "Total Amount Recovered";
 			this._lblCommonLabel_12.Location = new System.Drawing.Point(8, 304);
-			// this._lblCommonLabel_12.mLabelId = 1137;
+			// // this._lblCommonLabel_12.mLabelId = 1137;
 			this._lblCommonLabel_12.Name = "_lblCommonLabel_12";
 			this._lblCommonLabel_12.Size = new System.Drawing.Size(119, 14);
 			this._lblCommonLabel_12.TabIndex = 20;
@@ -382,7 +382,7 @@ namespace Xtreme
 			this._lblCommonLabel_13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_13.Text = "Loan Time In Months";
 			this._lblCommonLabel_13.Location = new System.Drawing.Point(260, 304);
-			// this._lblCommonLabel_13.mLabelId = 1141;
+			// // this._lblCommonLabel_13.mLabelId = 1141;
 			this._lblCommonLabel_13.Name = "_lblCommonLabel_13";
 			this._lblCommonLabel_13.Size = new System.Drawing.Size(98, 14);
 			this._lblCommonLabel_13.TabIndex = 21;
@@ -393,7 +393,7 @@ namespace Xtreme
 			this._lblCommonLabel_14.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_14.Text = "Total Salary Deduction";
 			this._lblCommonLabel_14.Location = new System.Drawing.Point(8, 283);
-			// this._lblCommonLabel_14.mLabelId = 819;
+			// // this._lblCommonLabel_14.mLabelId = 819;
 			this._lblCommonLabel_14.Name = "_lblCommonLabel_14";
 			this._lblCommonLabel_14.Size = new System.Drawing.Size(108, 14);
 			this._lblCommonLabel_14.TabIndex = 22;
@@ -404,7 +404,7 @@ namespace Xtreme
 			this._lblCommonLabel_15.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_15.Text = "Last Deduction Date";
 			this._lblCommonLabel_15.Location = new System.Drawing.Point(260, 283);
-			// this._lblCommonLabel_15.mLabelId = 1140;
+			// // this._lblCommonLabel_15.mLabelId = 1140;
 			this._lblCommonLabel_15.Name = "_lblCommonLabel_15";
 			this._lblCommonLabel_15.Size = new System.Drawing.Size(97, 14);
 			this._lblCommonLabel_15.TabIndex = 23;
@@ -415,7 +415,7 @@ namespace Xtreme
 			this._lblCommonLabel_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_16.Text = "Total Cash Paid";
 			this._lblCommonLabel_16.Location = new System.Drawing.Point(8, 262);
-			// this._lblCommonLabel_16.mLabelId = 1972;
+			// // this._lblCommonLabel_16.mLabelId = 1972;
 			this._lblCommonLabel_16.Name = "_lblCommonLabel_16";
 			this._lblCommonLabel_16.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_16.TabIndex = 24;
@@ -426,7 +426,7 @@ namespace Xtreme
 			this._lblCommonLabel_17.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_17.Text = "Last Payment Date";
 			this._lblCommonLabel_17.Location = new System.Drawing.Point(260, 262);
-			// this._lblCommonLabel_17.mLabelId = 1139;
+			// // this._lblCommonLabel_17.mLabelId = 1139;
 			this._lblCommonLabel_17.Name = "_lblCommonLabel_17";
 			this._lblCommonLabel_17.Size = new System.Drawing.Size(118, 14);
 			this._lblCommonLabel_17.TabIndex = 25;
@@ -442,18 +442,18 @@ namespace Xtreme
 			this.txtStartDeductionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDeductionDate.TabIndex = 7;
 			this.txtStartDeductionDate.Text = "18/07/2001";
-			this.txtStartDeductionDate.Value = 37090;
+			// this.txtStartDeductionDate.Value = 37090;
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label12.Caption = "Comments";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(8, 346);
-			this.System.Windows.Forms.Label12.mLabelId = 1851;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 26;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label12.Text = "Comments";
+			this.Label12.Location = new System.Drawing.Point(8, 346);
+			// this.Label12.mLabelId = 1851;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 26;
 			// 
 			// _txtCommonTextBox_3
 			// 
@@ -594,7 +594,7 @@ namespace Xtreme
 			this._lblCommonLabel_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_18.Text = "Loan Code";
 			this._lblCommonLabel_18.Location = new System.Drawing.Point(8, 128);
-			// this._lblCommonLabel_18.mLabelId = 2030;
+			// // this._lblCommonLabel_18.mLabelId = 2030;
 			this._lblCommonLabel_18.Name = "_lblCommonLabel_18";
 			this._lblCommonLabel_18.Size = new System.Drawing.Size(52, 14);
 			this._lblCommonLabel_18.TabIndex = 42;
@@ -655,7 +655,7 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommonLabel_16);
 			this.Controls.Add(this._lblCommonLabel_17);
 			this.Controls.Add(this.txtStartDeductionDate);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this._txtCommonTextBox_3);
 			this.Controls.Add(this._txtDisplayLabel_12);
 			this.Controls.Add(this._txtDisplayLabel_11);
@@ -755,4 +755,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

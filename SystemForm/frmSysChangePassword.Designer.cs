@@ -41,8 +41,8 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtPassword;
 		public System.Windows.Forms.Label lblConfirmPassword;
 		public System.Windows.Forms.Label lblPassword;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.TextBox txtOldPassword;
 		public UCOkCancel cmdOKCancel;
 		public System.Windows.Forms.Label lblUserID;
@@ -59,8 +59,8 @@ namespace Xtreme
 			this.txtPassword = new System.Windows.Forms.TextBox();
 			this.lblConfirmPassword = new System.Windows.Forms.Label();
 			this.lblPassword = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtOldPassword = new System.Windows.Forms.TextBox();
 			this.cmdOKCancel = new UCOkCancel();
 			this.lblUserID = new System.Windows.Forms.Label();
@@ -118,25 +118,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "User ID";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(12, 26);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(35, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 6;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "User ID";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(12, 26);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(35, 14);
+			this.Label1.TabIndex = 6;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Old Password";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(12, 53);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(69, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 7;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Old Password";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(12, 53);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(69, 14);
+			this.Label2.TabIndex = 7;
 			// 
 			// txtOldPassword
 			// 
@@ -183,8 +183,8 @@ namespace Xtreme
 			this.Controls.Add(this.txtPassword);
 			this.Controls.Add(this.lblConfirmPassword);
 			this.Controls.Add(this.lblPassword);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.txtOldPassword);
 			this.Controls.Add(this.cmdOKCancel);
 			this.Controls.Add(this.lblUserID);
@@ -206,4 +206,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

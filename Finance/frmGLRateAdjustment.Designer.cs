@@ -124,7 +124,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.Text = " Adjustment Details :  ";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(3, 347);
-			// this._lblCommonLabel_0.mLabelId = 1879;
+			// // this._lblCommonLabel_0.mLabelId = 1879;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(106, 13);
 			this._lblCommonLabel_0.TabIndex = 9;
@@ -206,7 +206,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.Text = " Account Select : ";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(2, 136);
-			// this._lblCommonLabel_1.mLabelId = 1877;
+			// // this._lblCommonLabel_1.mLabelId = 1877;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(84, 13);
 			this._lblCommonLabel_1.TabIndex = 10;
@@ -233,7 +233,7 @@ namespace Xtreme
 			this._lblCommonLabel_21.Text = "Voucher Type";
 			this._lblCommonLabel_21.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(245, 55);
-			// this._lblCommonLabel_21.mLabelId = 851;
+			// // this._lblCommonLabel_21.mLabelId = 851;
 			this._lblCommonLabel_21.Name = "_lblCommonLabel_21";
 			this._lblCommonLabel_21.Size = new System.Drawing.Size(69, 14);
 			this._lblCommonLabel_21.TabIndex = 11;
@@ -249,7 +249,7 @@ namespace Xtreme
 			this.txtAdjustmentDate.Size = new System.Drawing.Size(102, 19);
 			this.txtAdjustmentDate.TabIndex = 1;
 			this.txtAdjustmentDate.Text = "7/18/2001";
-			this.txtAdjustmentDate.Value = 37090;
+			// this.txtAdjustmentDate.Value = 37090;
 			// 
 			// _lblCommonLabel_6
 			// 
@@ -258,7 +258,7 @@ namespace Xtreme
 			this._lblCommonLabel_6.Text = "Adjustment Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(11, 76);
-			// this._lblCommonLabel_6.mLabelId = 848;
+			// // this._lblCommonLabel_6.mLabelId = 848;
 			this._lblCommonLabel_6.Name = "_lblCommonLabel_6";
 			this._lblCommonLabel_6.Size = new System.Drawing.Size(79, 14);
 			this._lblCommonLabel_6.TabIndex = 12;
@@ -270,7 +270,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.Text = "Adjustment No.";
 			this._lblCommonLabel_5.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(11, 55);
-			// this._lblCommonLabel_5.mLabelId = 850;
+			// // this._lblCommonLabel_5.mLabelId = 850;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(73, 14);
 			this._lblCommonLabel_5.TabIndex = 13;
@@ -307,7 +307,7 @@ namespace Xtreme
 			this._lblCommonLabel_9.Text = "Comments";
 			this._lblCommonLabel_9.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(10, 98);
-			// this._lblCommonLabel_9.mLabelId = 869;
+			// // this._lblCommonLabel_9.mLabelId = 869;
 			this._lblCommonLabel_9.Name = "_lblCommonLabel_9";
 			this._lblCommonLabel_9.Size = new System.Drawing.Size(50, 13);
 			this._lblCommonLabel_9.TabIndex = 15;
@@ -319,7 +319,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.Text = " Currency Rate Adjustment : ";
 			this._lblCommonLabel_2.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(2, 268);
-			// this._lblCommonLabel_2.mLabelId = 1878;
+			// // this._lblCommonLabel_2.mLabelId = 1878;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(141, 13);
 			this._lblCommonLabel_2.TabIndex = 16;
@@ -371,7 +371,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.Text = "Adjustment Code";
 			this._lblCommonLabel_3.ForeColor = System.Drawing.Color.Black;
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(245, 76);
-			// this._lblCommonLabel_3.mLabelId = 1875;
+			// // this._lblCommonLabel_3.mLabelId = 1875;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(82, 14);
 			this._lblCommonLabel_3.TabIndex = 18;
@@ -501,4 +501,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

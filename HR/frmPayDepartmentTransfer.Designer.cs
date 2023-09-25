@@ -80,7 +80,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Label _lblCommonLabel_2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_5;
 		private System.Windows.Forms.Label _txtDisplayLabel_7;
 		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
@@ -131,7 +131,7 @@ namespace Xtreme
 			this._txtCommonTextBox_0 = new System.Windows.Forms.TextBox();
 			this._txtCommonTextBox_1 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_5 = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_7 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_0).BeginInit();
@@ -518,7 +518,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
 			this.txtVoucherDate.Text = "18-07-2001";
-			this.txtVoucherDate.Value = 37090;
+			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
 			// 
@@ -562,13 +562,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
-			this.System.Windows.Forms.Label12.Caption = "Description";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(8, 278);
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(54, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 20;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
+			this.Label12.Text = "Description";
+			this.Label12.Location = new System.Drawing.Point(8, 278);
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(54, 14);
+			this.Label12.TabIndex = 20;
 			// 
 			// _txtCommonTextBox_5
 			// 
@@ -612,7 +612,7 @@ namespace Xtreme
 			this.Controls.Add(this._txtCommonTextBox_0);
 			this.Controls.Add(this._txtCommonTextBox_1);
 			this.Controls.Add(this._lblCommonLabel_2);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this._txtCommonTextBox_5);
 			this.Controls.Add(this._txtDisplayLabel_7);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -704,4 +704,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

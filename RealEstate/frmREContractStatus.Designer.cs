@@ -164,7 +164,7 @@ namespace Xtreme
 			this._lblCommon_2.Text = "New Status Code";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_2.Location = new System.Drawing.Point(8, 23);
-			// this._lblCommon_2.mLabelId = 1171;
+			// // this._lblCommon_2.mLabelId = 1171;
 			this._lblCommon_2.Name = "_lblCommon_2";
 			this._lblCommon_2.Size = new System.Drawing.Size(83, 13);
 			this._lblCommon_2.TabIndex = 18;
@@ -193,7 +193,7 @@ namespace Xtreme
 			this._lblCommon_3.Text = "Comments";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_3.Location = new System.Drawing.Point(8, 64);
-			// this._lblCommon_3.mLabelId = 135;
+			// // this._lblCommon_3.mLabelId = 135;
 			this._lblCommon_3.Name = "_lblCommon_3";
 			this._lblCommon_3.Size = new System.Drawing.Size(49, 13);
 			this._lblCommon_3.TabIndex = 19;
@@ -205,7 +205,7 @@ namespace Xtreme
 			this._lblCommon_10.Text = "Status Change Date";
 			this._lblCommon_10.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_10.Location = new System.Drawing.Point(8, 44);
-			// this._lblCommon_10.mLabelId = 1171;
+			// // this._lblCommon_10.mLabelId = 1171;
 			this._lblCommon_10.Name = "_lblCommon_10";
 			this._lblCommon_10.Size = new System.Drawing.Size(96, 13);
 			this._lblCommon_10.TabIndex = 20;
@@ -222,7 +222,7 @@ namespace Xtreme
 			this._txtCommonDate_3.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonDate_3.TabIndex = 2;
 			this._txtCommonDate_3.Text = "12/03/2004";
-			this._txtCommonDate_3.Value = 38058;
+			// this._txtCommonDate_3.Value = 38058;
 			// 
 			// _txtCommonDisplay_1
 			// 
@@ -273,7 +273,7 @@ namespace Xtreme
 			this._lblCommon_1.Text = "Current Status Code";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_1.Location = new System.Drawing.Point(8, 42);
-			// this._lblCommon_1.mLabelId = 1170;
+			// // this._lblCommon_1.mLabelId = 1170;
 			this._lblCommon_1.Name = "_lblCommon_1";
 			this._lblCommon_1.Size = new System.Drawing.Size(95, 13);
 			this._lblCommon_1.TabIndex = 5;
@@ -318,7 +318,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "Contract No";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_0.Location = new System.Drawing.Point(8, 21);
-			// this._lblCommon_0.mLabelId = 1155;
+			// // this._lblCommon_0.mLabelId = 1155;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(57, 13);
 			this._lblCommon_0.TabIndex = 7;
@@ -330,7 +330,7 @@ namespace Xtreme
 			this._lblCommon_5.Text = "Tenant Code";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_5.Location = new System.Drawing.Point(8, 105);
-			// this._lblCommon_5.mLabelId = 1156;
+			// // this._lblCommon_5.mLabelId = 1156;
 			this._lblCommon_5.Name = "_lblCommon_5";
 			this._lblCommon_5.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_5.TabIndex = 8;
@@ -342,7 +342,7 @@ namespace Xtreme
 			this._lblCommon_6.Text = "Pay. Method Code";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_6.Location = new System.Drawing.Point(8, 126);
-			// this._lblCommon_6.mLabelId = 1157;
+			// // this._lblCommon_6.mLabelId = 1157;
 			this._lblCommon_6.Name = "_lblCommon_6";
 			this._lblCommon_6.Size = new System.Drawing.Size(88, 13);
 			this._lblCommon_6.TabIndex = 9;
@@ -354,7 +354,7 @@ namespace Xtreme
 			this._lblCommon_4.Text = "Contract Amount";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_4.Location = new System.Drawing.Point(8, 63);
-			// this._lblCommon_4.mLabelId = 1172;
+			// // this._lblCommon_4.mLabelId = 1172;
 			this._lblCommon_4.Name = "_lblCommon_4";
 			this._lblCommon_4.Size = new System.Drawing.Size(79, 13);
 			this._lblCommon_4.TabIndex = 10;
@@ -372,7 +372,7 @@ namespace Xtreme
 			this._txtCommonDate_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonDate_0.TabIndex = 11;
 			this._txtCommonDate_0.Text = "12/03/2004";
-			this._txtCommonDate_0.Value = 38058;
+			// this._txtCommonDate_0.Value = 38058;
 			// 
 			// _lblCommon_8
 			// 
@@ -381,7 +381,7 @@ namespace Xtreme
 			this._lblCommon_8.Text = "Signed Date";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_8.Location = new System.Drawing.Point(248, 63);
-			// this._lblCommon_8.mLabelId = 1162;
+			// // this._lblCommon_8.mLabelId = 1162;
 			this._lblCommon_8.Name = "_lblCommon_8";
 			this._lblCommon_8.Size = new System.Drawing.Size(59, 13);
 			this._lblCommon_8.TabIndex = 12;
@@ -393,7 +393,7 @@ namespace Xtreme
 			this._lblCommon_9.Text = "Ending Date";
 			this._lblCommon_9.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_9.Location = new System.Drawing.Point(248, 84);
-			// this._lblCommon_9.mLabelId = 1161;
+			// // this._lblCommon_9.mLabelId = 1161;
 			this._lblCommon_9.Name = "_lblCommon_9";
 			this._lblCommon_9.Size = new System.Drawing.Size(59, 13);
 			this._lblCommon_9.TabIndex = 13;
@@ -405,7 +405,7 @@ namespace Xtreme
 			this._lblCommon_7.Text = "Starting Date";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_7.Location = new System.Drawing.Point(8, 84);
-			// this._lblCommon_7.mLabelId = 1160;
+			// // this._lblCommon_7.mLabelId = 1160;
 			this._lblCommon_7.Name = "_lblCommon_7";
 			this._lblCommon_7.Size = new System.Drawing.Size(62, 13);
 			this._lblCommon_7.TabIndex = 14;
@@ -423,7 +423,7 @@ namespace Xtreme
 			this._txtCommonDate_1.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonDate_1.TabIndex = 15;
 			this._txtCommonDate_1.Text = "12/03/2004";
-			this._txtCommonDate_1.Value = 38058;
+			// this._txtCommonDate_1.Value = 38058;
 			// 
 			// _txtCommonDate_2
 			// 
@@ -438,7 +438,7 @@ namespace Xtreme
 			this._txtCommonDate_2.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonDate_2.TabIndex = 16;
 			this._txtCommonDate_2.Text = "12/03/2004";
-			this._txtCommonDate_2.Value = 38058;
+			// this._txtCommonDate_2.Value = 38058;
 			// 
 			// _txtCommonDisplay_0
 			// 
@@ -579,4 +579,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

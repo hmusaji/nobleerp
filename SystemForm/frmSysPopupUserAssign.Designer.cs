@@ -41,12 +41,12 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "_System.Windows.Forms.Label1_2079", "System.Windows.Forms.Label2", "txtPopupTypeCdName", "txtPopupTypeCd", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "tcbSystemForm", "Line1", "System.Windows.Forms.Label1"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "Label1_2079", "System.Windows.Forms.Label2", "txtPopupTypeCdName", "txtPopupTypeCd", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "tcbSystemForm", "Line1", "System.Windows.Forms.Label1"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_2079;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		private System.Windows.Forms.Label Label1_2079;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.Label txtPopupTypeCdName;
 		public System.Windows.Forms.TextBox txtPopupTypeCd;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
@@ -54,7 +54,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		public System.Windows.Forms.Label Line1;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[2080];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[2080];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -64,8 +64,8 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysPopupUserAssign));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this._System.Windows.Forms.Label1_2079 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label1_2079 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtPopupTypeCdName = new System.Windows.Forms.Label();
 			this.txtPopupTypeCd = new System.Windows.Forms.TextBox();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
@@ -77,26 +77,26 @@ namespace Xtreme
 			this.grdVoucherDetails.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// _System.Windows.Forms.Label1_2079
+			// Label1_2079
 			// 
-			this._System.Windows.Forms.Label1_2079.AllowDrop = true;
-			this._System.Windows.Forms.Label1_2079.BackColor = System.Drawing.SystemColors.Window;
-			this._System.Windows.Forms.Label1_2079.Caption = "Popup Type";
-			this._System.Windows.Forms.Label1_2079.Location = new System.Drawing.Point(8, 46);
-			this._System.Windows.Forms.Label1_2079.Name = "_System.Windows.Forms.Label1_2079";
-			this._System.Windows.Forms.Label1_2079.Size = new System.Drawing.Size(57, 14);
-			this._System.Windows.Forms.Label1_2079.TabIndex = 4;
+			this.Label1_2079.AllowDrop = true;
+			this.Label1_2079.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1_2079.Text = "Popup Type";
+			this.Label1_2079.Location = new System.Drawing.Point(8, 46);
+			this.Label1_2079.Name = "Label1_2079";
+			this.Label1_2079.Size = new System.Drawing.Size(57, 14);
+			this.Label1_2079.TabIndex = 4;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label2.Caption = "Assign User For Popup";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(4, 82);
-			this.System.Windows.Forms.Label2.mLabelId = 2080;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(112, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 3;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.SystemColors.Window;
+			this.Label2.Text = "Assign User For Popup";
+			this.Label2.Location = new System.Drawing.Point(4, 82);
+			// this.Label2.mLabelId = 2080;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(112, 14);
+			this.Label2.TabIndex = 3;
 			// 
 			// txtPopupTypeCdName
 			// 
@@ -177,8 +177,8 @@ namespace Xtreme
 			this.AutoScroll = true;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(569, 442);
-			this.Controls.Add(this._System.Windows.Forms.Label1_2079);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label1_2079);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.txtPopupTypeCdName);
 			this.Controls.Add(this.txtPopupTypeCd);
 			this.Controls.Add(this.grdVoucherDetails);
@@ -214,9 +214,9 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[2080];
-			this.System.Windows.Forms.Label1[2079] = _System.Windows.Forms.Label1_2079;
+			this.Label1 = new System.Windows.Forms.Label[2080];
+			this.Label1[2079] = Label1_2079;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

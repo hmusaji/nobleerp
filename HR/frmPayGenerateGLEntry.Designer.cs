@@ -231,7 +231,7 @@ namespace Xtreme
 			this.txtDPayrollDate.Size = new System.Drawing.Size(97, 19);
 			this.txtDPayrollDate.TabIndex = 1;
 			this.txtDPayrollDate.Text = "30/06/2011";
-			this.txtDPayrollDate.Value = 40724;
+			// this.txtDPayrollDate.Value = 40724;
 			// 
 			// lblExchangeRate
 			// 
@@ -269,7 +269,7 @@ namespace Xtreme
 			this.txtDocDate.Size = new System.Drawing.Size(117, 19);
 			this.txtDocDate.TabIndex = 4;
 			this.txtDocDate.Text = "25/03/2004";
-			this.txtDocDate.Value = 38071;
+			// this.txtDocDate.Value = 38071;
 			// 
 			// txtNExchangeRate
 			// 
@@ -315,7 +315,7 @@ namespace Xtreme
 			this._lblCommon_37.Text = "Company Code";
 			this._lblCommon_37.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_37.Location = new System.Drawing.Point(4, 77);
-			// this._lblCommon_37.mLabelId = 1927;
+			// // this._lblCommon_37.mLabelId = 1927;
 			this._lblCommon_37.Name = "_lblCommon_37";
 			this._lblCommon_37.Size = new System.Drawing.Size(73, 14);
 			this._lblCommon_37.TabIndex = 14;
@@ -422,4 +422,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -75,7 +75,7 @@ namespace Xtreme
 			this.lblUnitNo.Text = "Unit Code";
 			this.lblUnitNo.ForeColor = System.Drawing.Color.Black;
 			this.lblUnitNo.Location = new System.Drawing.Point(8, 53);
-			// this.lblUnitNo.mLabelId = 988;
+			// // this.lblUnitNo.mLabelId = 988;
 			this.lblUnitNo.Name = "lblUnitNo";
 			this.lblUnitNo.Size = new System.Drawing.Size(47, 13);
 			this.lblUnitNo.TabIndex = 4;
@@ -87,7 +87,7 @@ namespace Xtreme
 			this.lblLUnitName.Text = "Unit Name (English)";
 			this.lblLUnitName.ForeColor = System.Drawing.Color.Black;
 			this.lblLUnitName.Location = new System.Drawing.Point(8, 95);
-			// this.lblLUnitName.mLabelId = 1028;
+			// // this.lblLUnitName.mLabelId = 1028;
 			this.lblLUnitName.Name = "lblLUnitName";
 			this.lblLUnitName.Size = new System.Drawing.Size(93, 14);
 			this.lblLUnitName.TabIndex = 5;
@@ -99,7 +99,7 @@ namespace Xtreme
 			this.lblAUnitName.Text = "Unit Name (Arabic)";
 			this.lblAUnitName.ForeColor = System.Drawing.Color.Black;
 			this.lblAUnitName.Location = new System.Drawing.Point(8, 116);
-			// this.lblAUnitName.mLabelId = 1029;
+			// // this.lblAUnitName.mLabelId = 1029;
 			this.lblAUnitName.Name = "lblAUnitName";
 			this.lblAUnitName.Size = new System.Drawing.Size(91, 14);
 			this.lblAUnitName.TabIndex = 6;
@@ -139,7 +139,7 @@ namespace Xtreme
 			this.lblSymbol.Text = "Symbol";
 			this.lblSymbol.ForeColor = System.Drawing.Color.Black;
 			this.lblSymbol.Location = new System.Drawing.Point(9, 72);
-			// this.lblSymbol.mLabelId = 1027;
+			// // this.lblSymbol.mLabelId = 1027;
 			this.lblSymbol.Name = "lblSymbol";
 			this.lblSymbol.Size = new System.Drawing.Size(35, 14);
 			this.lblSymbol.TabIndex = 7;
@@ -191,4 +191,4 @@ namespace Xtreme
 		
 		#endregion
 	}
-}
+}//ENDSHERE

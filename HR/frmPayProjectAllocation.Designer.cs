@@ -68,7 +68,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdTADetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdTADetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdTADetails;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		private System.Windows.Forms.Label _lblCommonLabel_4;
 		private System.Windows.Forms.Label _txtDisplayLabel_6;
 		private System.Windows.Forms.Label _txtDisplayLabel_7;
@@ -109,7 +109,7 @@ namespace Xtreme
 			this.grdTADetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdTADetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdTADetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_4 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_6 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_7 = new System.Windows.Forms.Label();
@@ -163,7 +163,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(20, 48);
-			// this._lblCommonLabel_2.mLabelId = 236;
+			// // this._lblCommonLabel_2.mLabelId = 236;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(74, 14);
 			this._lblCommonLabel_2.TabIndex = 4;
@@ -174,7 +174,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Month";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(424, 49);
-			// this._lblCommonLabel_0.mLabelId = 1145;
+			// // this._lblCommonLabel_0.mLabelId = 1145;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(29, 14);
 			this._lblCommonLabel_0.TabIndex = 5;
@@ -185,7 +185,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Year";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(424, 69);
-			// this._lblCommonLabel_1.mLabelId = 1146;
+			// // this._lblCommonLabel_1.mLabelId = 1146;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(24, 14);
 			this._lblCommonLabel_1.TabIndex = 6;
@@ -196,7 +196,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Basic Salary";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(560, 48);
-			// this._lblCommonLabel_3.mLabelId = 1970;
+			// // this._lblCommonLabel_3.mLabelId = 1970;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_3.TabIndex = 7;
@@ -207,7 +207,7 @@ namespace Xtreme
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Leave Salary";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(560, 68);
-			// this._lblCommonLabel_9.mLabelId = 1135;
+			// // this._lblCommonLabel_9.mLabelId = 1135;
 			this._lblCommonLabel_9.Name = "_lblCommonLabel_9";
 			this._lblCommonLabel_9.Size = new System.Drawing.Size(64, 14);
 			this._lblCommonLabel_9.TabIndex = 8;
@@ -345,13 +345,13 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Payroll Details";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(16, 86);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(81, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 16;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Payroll Details";
+			this.Label1.Location = new System.Drawing.Point(16, 86);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(81, 13);
+			this.Label1.TabIndex = 16;
 			// 
 			// _lblCommonLabel_4
 			// 
@@ -387,7 +387,7 @@ namespace Xtreme
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Department Code";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(20, 69);
-			// this._lblCommonLabel_5.mLabelId = 1973;
+			// // this._lblCommonLabel_5.mLabelId = 1973;
 			this._lblCommonLabel_5.Name = "_lblCommonLabel_5";
 			this._lblCommonLabel_5.Size = new System.Drawing.Size(83, 14);
 			this._lblCommonLabel_5.TabIndex = 20;
@@ -437,7 +437,7 @@ namespace Xtreme
 			this.Controls.Add(this.cmbMastersList);
 			this.Controls.Add(this.grdVoucherDetails);
 			this.Controls.Add(this.grdTADetails);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this._lblCommonLabel_4);
 			this.Controls.Add(this._txtDisplayLabel_6);
 			this.Controls.Add(this._txtDisplayLabel_7);
@@ -500,4 +500,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

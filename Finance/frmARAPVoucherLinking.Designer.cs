@@ -45,10 +45,10 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLdgrName;
 		public System.Windows.Forms.TextBox txtLdgrNo;
 		public System.Windows.Forms.Label lblLedgerNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.TextBox txtAmountToAdjust;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public System.Windows.Forms.TextBox txtAmountAdjusted;
 		public System.Windows.Forms.Label lblVoucherWiseAdjustment;
 		public System.Windows.Forms.Label Line2;
@@ -72,10 +72,10 @@ namespace Xtreme
 			this.txtLdgrName = new System.Windows.Forms.TextBox();
 			this.txtLdgrNo = new System.Windows.Forms.TextBox();
 			this.lblLedgerNo = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.txtAmountToAdjust = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtAmountAdjusted = new System.Windows.Forms.TextBox();
 			this.lblVoucherWiseAdjustment = new System.Windows.Forms.Label();
 			this.Line2 = new System.Windows.Forms.Label();
@@ -95,10 +95,10 @@ namespace Xtreme
 			this.fraVoucherAdjustment.Controls.Add(this.txtLdgrName);
 			this.fraVoucherAdjustment.Controls.Add(this.txtLdgrNo);
 			this.fraVoucherAdjustment.Controls.Add(this.lblLedgerNo);
-			this.fraVoucherAdjustment.Controls.Add(this.System.Windows.Forms.Label3);
-			this.fraVoucherAdjustment.Controls.Add(this.System.Windows.Forms.Label2);
+			this.fraVoucherAdjustment.Controls.Add(this.Label3);
+			this.fraVoucherAdjustment.Controls.Add(this.Label2);
 			this.fraVoucherAdjustment.Controls.Add(this.txtAmountToAdjust);
-			this.fraVoucherAdjustment.Controls.Add(this.System.Windows.Forms.Label1);
+			this.fraVoucherAdjustment.Controls.Add(this.Label1);
 			this.fraVoucherAdjustment.Controls.Add(this.txtAmountAdjusted);
 			this.fraVoucherAdjustment.Controls.Add(this.lblVoucherWiseAdjustment);
 			this.fraVoucherAdjustment.Controls.Add(this.Line2);
@@ -216,25 +216,25 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.Silver;
-			this.System.Windows.Forms.Label3.Caption = "Amt to Adjust :";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(2, 206);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(71, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 9;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.Silver;
+			this.Label3.Text = "Amt to Adjust :";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(2, 206);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(71, 14);
+			this.Label3.TabIndex = 9;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.Silver;
-			this.System.Windows.Forms.Label2.Caption = "To be Adjusted :";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(182, 206);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(79, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 10;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.Silver;
+			this.Label2.Text = "To be Adjusted :";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(182, 206);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(79, 14);
+			this.Label2.TabIndex = 10;
 			// 
 			// txtAmountToAdjust
 			// 
@@ -254,14 +254,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.Silver;
-			this.System.Windows.Forms.Label1.Caption = "Amt Adjusted :";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(92, 206);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(71, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 13;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.Silver;
+			this.Label1.Text = "Amt Adjusted :";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(92, 206);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(71, 14);
+			this.Label1.TabIndex = 13;
 			// 
 			// txtAmountAdjusted
 			// 
@@ -341,4 +341,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

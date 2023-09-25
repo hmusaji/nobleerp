@@ -41,15 +41,15 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "cmdGenerate", "txtFromDate", "_System.Windows.Forms.Label_7", "txtToDate", "_System.Windows.Forms.Label_0", "Column_0_cmbMastersList", "Column_1_cmbMastersList", "cmbMastersList", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "txtTempDate", "Frame1", "C1Tab1", "txtCustomerName", "txtCustomerCode", "_System.Windows.Forms.Label_1", "System.Windows.Forms.Label"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "cmdGenerate", "txtFromDate", "Label_7", "txtToDate", "Label_0", "Column_0_cmbMastersList", "Column_1_cmbMastersList", "cmbMastersList", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "txtTempDate", "Frame1", "C1Tab1", "txtCustomerName", "txtCustomerCode", "Label_1", "System.Windows.Forms.Label"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.Button cmdGenerate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_7;
+		private System.Windows.Forms.Label Label_7;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_0;
+		private System.Windows.Forms.Label Label_0;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
@@ -61,8 +61,8 @@ namespace Xtreme
 		public AxC1SizerLib.AxC1Tab C1Tab1;
 		public System.Windows.Forms.Label txtCustomerName;
 		public System.Windows.Forms.TextBox txtCustomerCode;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_1;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label = new System.Windows.Forms.Label[8];
+		private System.Windows.Forms.Label Label_1;
+		public System.Windows.Forms.Label[] Label = new System.Windows.Forms.Label[8];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -74,9 +74,9 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.cmdGenerate = new System.Windows.Forms.Button();
 			this.txtFromDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this._System.Windows.Forms.Label_7 = new System.Windows.Forms.Label();
+			this.Label_7 = new System.Windows.Forms.Label();
 			this.txtToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this._System.Windows.Forms.Label_0 = new System.Windows.Forms.Label();
+			this.Label_0 = new System.Windows.Forms.Label();
 			this.C1Tab1 = new AxC1SizerLib.AxC1Tab();
 			this.Frame1 = new System.Windows.Forms.Panel();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
@@ -88,7 +88,7 @@ namespace Xtreme
 			this.txtTempDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtCustomerName = new System.Windows.Forms.Label();
 			this.txtCustomerCode = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_1 = new System.Windows.Forms.Label();
+			this.Label_1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtTempDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.C1Tab1).BeginInit();
 			this.C1Tab1.SuspendLayout();
@@ -124,16 +124,16 @@ namespace Xtreme
 			this.txtFromDate.TabIndex = 0;
 			this.txtFromDate.Text = "10/02/2014";
 			// 
-			// _System.Windows.Forms.Label_7
+			// Label_7
 			// 
-			this._System.Windows.Forms.Label_7.AllowDrop = true;
-			this._System.Windows.Forms.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_7.Caption = "From Date";
-			this._System.Windows.Forms.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_7.Location = new System.Drawing.Point(8, 31);
-			this._System.Windows.Forms.Label_7.Name = "_System.Windows.Forms.Label_7";
-			this._System.Windows.Forms.Label_7.Size = new System.Drawing.Size(49, 14);
-			this._System.Windows.Forms.Label_7.TabIndex = 8;
+			this.Label_7.AllowDrop = true;
+			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_7.Text = "From Date";
+			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_7.Location = new System.Drawing.Point(8, 31);
+			this.Label_7.Name = "Label_7";
+			this.Label_7.Size = new System.Drawing.Size(49, 14);
+			this.Label_7.TabIndex = 8;
 			// 
 			// txtToDate
 			// 
@@ -147,16 +147,16 @@ namespace Xtreme
 			this.txtToDate.TabIndex = 1;
 			this.txtToDate.Text = "10/02/2014";
 			// 
-			// _System.Windows.Forms.Label_0
+			// Label_0
 			// 
-			this._System.Windows.Forms.Label_0.AllowDrop = true;
-			this._System.Windows.Forms.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_0.Caption = "To Date";
-			this._System.Windows.Forms.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_0.Location = new System.Drawing.Point(8, 57);
-			this._System.Windows.Forms.Label_0.Name = "_System.Windows.Forms.Label_0";
-			this._System.Windows.Forms.Label_0.Size = new System.Drawing.Size(37, 14);
-			this._System.Windows.Forms.Label_0.TabIndex = 9;
+			this.Label_0.AllowDrop = true;
+			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_0.Text = "To Date";
+			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_0.Location = new System.Drawing.Point(8, 57);
+			this.Label_0.Name = "Label_0";
+			this.Label_0.Size = new System.Drawing.Size(37, 14);
+			this.Label_0.TabIndex = 9;
 			// 
 			// C1Tab1
 			// 
@@ -272,16 +272,16 @@ namespace Xtreme
 			// this.this.txtCustomerCode.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtCustomerCode_DropButtonClick);
 			// this.txtCustomerCode.Leave += new System.EventHandler(this.txtCustomerCode_Leave);
 			// 
-			// _System.Windows.Forms.Label_1
+			// Label_1
 			// 
-			this._System.Windows.Forms.Label_1.AllowDrop = true;
-			this._System.Windows.Forms.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_1.Caption = "Customer Name";
-			this._System.Windows.Forms.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_1.Location = new System.Drawing.Point(6, 82);
-			this._System.Windows.Forms.Label_1.Name = "_System.Windows.Forms.Label_1";
-			this._System.Windows.Forms.Label_1.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label_1.TabIndex = 11;
+			this.Label_1.AllowDrop = true;
+			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_1.Text = "Customer Name";
+			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_1.Location = new System.Drawing.Point(6, 82);
+			this.Label_1.Name = "Label_1";
+			this.Label_1.Size = new System.Drawing.Size(3, 14);
+			this.Label_1.TabIndex = 11;
 			// 
 			// frmSALInstallmentReceipt
 			// 
@@ -293,13 +293,13 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(784, 430);
 			this.Controls.Add(this.cmdGenerate);
 			this.Controls.Add(this.txtFromDate);
-			this.Controls.Add(this._System.Windows.Forms.Label_7);
+			this.Controls.Add(this.Label_7);
 			this.Controls.Add(this.txtToDate);
-			this.Controls.Add(this._System.Windows.Forms.Label_0);
+			this.Controls.Add(this.Label_0);
 			this.Controls.Add(this.C1Tab1);
 			this.Controls.Add(this.txtCustomerName);
 			this.Controls.Add(this.txtCustomerCode);
-			this.Controls.Add(this._System.Windows.Forms.Label_1);
+			this.Controls.Add(this.Label_1);
 			this.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Location = new System.Drawing.Point(393, 358);
 			this.MaximizeBox = true;
@@ -335,11 +335,11 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label()
 		{
-			this.System.Windows.Forms.Label = new System.Windows.Forms.Label[8];
-			this.System.Windows.Forms.Label[7] = _System.Windows.Forms.Label_7;
-			this.System.Windows.Forms.Label[0] = _System.Windows.Forms.Label_0;
-			this.System.Windows.Forms.Label[1] = _System.Windows.Forms.Label_1;
+			this.Label = new System.Windows.Forms.Label[8];
+			this.Label[7] = Label_7;
+			this.Label[0] = Label_0;
+			this.Label[1] = Label_1;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

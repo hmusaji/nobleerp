@@ -88,7 +88,7 @@ namespace Xtreme
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Visa Type Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(22, 73);
-			// this.lblLNatName.mLabelId = 1956;
+			// // this.lblLNatName.mLabelId = 1956;
 			this.lblLNatName.Name = "lblLNatName";
 			this.lblLNatName.Size = new System.Drawing.Size(124, 14);
 			this.lblLNatName.TabIndex = 1;
@@ -111,7 +111,7 @@ namespace Xtreme
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Visa Type Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(22, 94);
-			// this.lblANatName.mLabelId = 1957;
+			// // this.lblANatName.mLabelId = 1957;
 			this.lblANatName.Name = "lblANatName";
 			this.lblANatName.Size = new System.Drawing.Size(122, 14);
 			this.lblANatName.TabIndex = 3;
@@ -135,7 +135,7 @@ namespace Xtreme
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Visa Type No.";
 			this.lblNatNo.Location = new System.Drawing.Point(22, 52);
-			// this.lblNatNo.mLabelId = 1955;
+			// // this.lblNatNo.mLabelId = 1955;
 			this.lblNatNo.Name = "lblNatNo";
 			this.lblNatNo.Size = new System.Drawing.Size(68, 14);
 			this.lblNatNo.TabIndex = 5;
@@ -181,4 +181,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

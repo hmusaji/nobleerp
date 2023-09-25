@@ -199,7 +199,7 @@ namespace Xtreme
 			this.txtDAttandanceDate.Size = new System.Drawing.Size(100, 19);
 			this.txtDAttandanceDate.TabIndex = 0;
 			this.txtDAttandanceDate.Text = "16/10/2010";
-			this.txtDAttandanceDate.Value = 40467;
+			// this.txtDAttandanceDate.Value = 40467;
 			// 
 			// grdProjectAttendance
 			// 
@@ -324,4 +324,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -41,7 +41,7 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "txtSupplier", "txtComments", "_txtCommonNumber_0", "txtAssetTypeName", "txtAssetNo", "lblGroupNo", "lblLGroupName", "txtLAssetName", "lblAGroupName", "txtAAssetName", "System.Windows.Forms.Label1", "txtAssetTypeCode", "System.Windows.Forms.Label2", "System.Windows.Forms.Label3", "System.Windows.Forms.Label4", "_System.Windows.Forms.Label5_0", "System.Windows.Forms.Label6", "_txtCommonNumber_2", "_txtCommonNumber_3", "_txtCommonNumber_4", "_System.Windows.Forms.Label7_0", "_txtCommonNumber_1", "System.Windows.Forms.Label8", "txtDWarrantyEnd", "_System.Windows.Forms.Label7_1", "txtDPurchaseDate", "_System.Windows.Forms.Label5_1", "_System.Windows.Forms.Label5_2", "txtSpecification", "System.Windows.Forms.Label5", "System.Windows.Forms.Label7", "txtCommonNumber"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "txtSupplier", "txtComments", "_txtCommonNumber_0", "txtAssetTypeName", "txtAssetNo", "lblGroupNo", "lblLGroupName", "txtLAssetName", "lblAGroupName", "txtAAssetName", "System.Windows.Forms.Label1", "txtAssetTypeCode", "System.Windows.Forms.Label2", "System.Windows.Forms.Label3", "System.Windows.Forms.Label4", "Label5_0", "System.Windows.Forms.Label6", "_txtCommonNumber_2", "_txtCommonNumber_3", "_txtCommonNumber_4", "Label7_0", "_txtCommonNumber_1", "System.Windows.Forms.Label8", "txtDWarrantyEnd", "Label7_1", "txtDPurchaseDate", "Label5_1", "Label5_2", "txtSpecification", "System.Windows.Forms.Label5", "System.Windows.Forms.Label7", "txtCommonNumber"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -55,27 +55,27 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLAssetName;
 		public System.Windows.Forms.Label lblAGroupName;
 		public System.Windows.Forms.TextBox txtAAssetName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtAssetTypeCode;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label5_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label4;
+		private System.Windows.Forms.Label Label5_0;
+		public System.Windows.Forms.Label Label6;
 		private System.Windows.Forms.TextBox _txtCommonNumber_2;
 		private System.Windows.Forms.TextBox _txtCommonNumber_3;
 		private System.Windows.Forms.TextBox _txtCommonNumber_4;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label7_0;
+		private System.Windows.Forms.Label Label7_0;
 		private System.Windows.Forms.TextBox _txtCommonNumber_1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label8;
+		public System.Windows.Forms.Label Label8;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDWarrantyEnd;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label7_1;
+		private System.Windows.Forms.Label Label7_1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDPurchaseDate;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label5_1;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label5_2;
+		private System.Windows.Forms.Label Label5_1;
+		private System.Windows.Forms.Label Label5_2;
 		public System.Windows.Forms.TextBox txtSpecification;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label5 = new System.Windows.Forms.Label[3];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label7 = new System.Windows.Forms.Label[2];
+		public System.Windows.Forms.Label[] Label5 = new System.Windows.Forms.Label[3];
+		public System.Windows.Forms.Label[] Label7 = new System.Windows.Forms.Label[2];
 		public System.Windows.Forms.TextBox[] txtCommonNumber = new System.Windows.Forms.TextBox[5];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -96,24 +96,24 @@ namespace Xtreme
 			this.txtLAssetName = new System.Windows.Forms.TextBox();
 			this.lblAGroupName = new System.Windows.Forms.Label();
 			this.txtAAssetName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtAssetTypeCode = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label5_0 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label5_0 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
 			this._txtCommonNumber_2 = new System.Windows.Forms.TextBox();
 			this._txtCommonNumber_3 = new System.Windows.Forms.TextBox();
 			this._txtCommonNumber_4 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label7_0 = new System.Windows.Forms.Label();
+			this.Label7_0 = new System.Windows.Forms.Label();
 			this._txtCommonNumber_1 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label8 = new System.Windows.Forms.Label();
+			this.Label8 = new System.Windows.Forms.Label();
 			this.txtDWarrantyEnd = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this._System.Windows.Forms.Label7_1 = new System.Windows.Forms.Label();
+			this.Label7_1 = new System.Windows.Forms.Label();
 			this.txtDPurchaseDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this._System.Windows.Forms.Label5_1 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label5_2 = new System.Windows.Forms.Label();
+			this.Label5_1 = new System.Windows.Forms.Label();
+			this.Label5_2 = new System.Windows.Forms.Label();
 			this.txtSpecification = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
@@ -186,7 +186,7 @@ namespace Xtreme
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Assets Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(7, 62);
-			// this.lblGroupNo.mLabelId = 1284;
+			// // // this.lblGroupNo.mLabelId = 1284;
 			this.lblGroupNo.Name = "lblGroupNo";
 			this.lblGroupNo.Size = new System.Drawing.Size(63, 14);
 			this.lblGroupNo.TabIndex = 0;
@@ -197,7 +197,7 @@ namespace Xtreme
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Asset Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(7, 84);
-			// this.lblLGroupName.mLabelId = 982;
+			// // // this.lblLGroupName.mLabelId = 982;
 			this.lblLGroupName.Name = "lblLGroupName";
 			this.lblLGroupName.Size = new System.Drawing.Size(104, 14);
 			this.lblLGroupName.TabIndex = 12;
@@ -220,7 +220,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Asset Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(7, 105);
-			// this.lblAGroupName.mLabelId = 983;
+			// // // this.lblAGroupName.mLabelId = 983;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(102, 14);
 			this.lblAGroupName.TabIndex = 13;
@@ -240,14 +240,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Asset Type Code";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(7, 126);
-			this.System.Windows.Forms.Label1.mLabelId = 2105;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(84, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 14;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Asset Type Code";
+			this.Label1.Location = new System.Drawing.Point(7, 126);
+			// // this.Label1.mLabelId = 2105;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(84, 14);
+			this.Label1.TabIndex = 14;
 			// 
 			// txtAssetTypeCode
 			// 
@@ -268,58 +268,58 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Asset Value";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(7, 152);
-			this.System.Windows.Forms.Label2.mLabelId = 2104;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(60, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 16;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Asset Value";
+			this.Label2.Location = new System.Drawing.Point(7, 152);
+			// // this.Label2.mLabelId = 2104;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(60, 14);
+			this.Label2.TabIndex = 16;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Asset Quantity";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(267, 152);
-			this.System.Windows.Forms.Label3.mLabelId = 2109;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(72, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 17;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Asset Quantity";
+			this.Label3.Location = new System.Drawing.Point(267, 152);
+			// // this.Label3.mLabelId = 2109;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(72, 14);
+			this.Label3.TabIndex = 17;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label4.Caption = "Issued Quantity";
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(7, 174);
-			this.System.Windows.Forms.Label4.mLabelId = 2110;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(75, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 18;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label4.Text = "Issued Quantity";
+			this.Label4.Location = new System.Drawing.Point(7, 174);
+			// // this.Label4.mLabelId = 2110;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(75, 14);
+			this.Label4.TabIndex = 18;
 			// 
-			// _System.Windows.Forms.Label5_0
+			// Label5_0
 			// 
-			this._System.Windows.Forms.Label5_0.AllowDrop = true;
-			this._System.Windows.Forms.Label5_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label5_0.Caption = "Damage Quantity";
-			this._System.Windows.Forms.Label5_0.Location = new System.Drawing.Point(7, 198);
-			this._System.Windows.Forms.Label5_0.mLabelId = 2111;
-			this._System.Windows.Forms.Label5_0.Name = "_System.Windows.Forms.Label5_0";
-			this._System.Windows.Forms.Label5_0.Size = new System.Drawing.Size(82, 14);
-			this._System.Windows.Forms.Label5_0.TabIndex = 19;
+			this.Label5_0.AllowDrop = true;
+			this.Label5_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5_0.Text = "Damage Quantity";
+			this.Label5_0.Location = new System.Drawing.Point(7, 198);
+			// // this.Label5_0.mLabelId = 2111;
+			this.Label5_0.Name = "Label5_0";
+			this.Label5_0.Size = new System.Drawing.Size(82, 14);
+			this.Label5_0.TabIndex = 19;
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label6.Caption = "Balance Quantity";
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(267, 198);
-			this.System.Windows.Forms.Label6.mLabelId = 2112;
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(82, 14);
-			this.System.Windows.Forms.Label6.TabIndex = 20;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label6.Text = "Balance Quantity";
+			this.Label6.Location = new System.Drawing.Point(267, 198);
+			// // this.Label6.mLabelId = 2112;
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(82, 14);
+			this.Label6.TabIndex = 20;
 			// 
 			// _txtCommonNumber_2
 			// 
@@ -357,16 +357,16 @@ namespace Xtreme
 			this._txtCommonNumber_4.TabIndex = 23;
 			this._txtCommonNumber_4.TabStop = false;
 			// 
-			// _System.Windows.Forms.Label7_0
+			// Label7_0
 			// 
-			this._System.Windows.Forms.Label7_0.AllowDrop = true;
-			this._System.Windows.Forms.Label7_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label7_0.Caption = "Warranty End";
-			this._System.Windows.Forms.Label7_0.Location = new System.Drawing.Point(267, 173);
-			this._System.Windows.Forms.Label7_0.mLabelId = 2176;
-			this._System.Windows.Forms.Label7_0.Name = "_System.Windows.Forms.Label7_0";
-			this._System.Windows.Forms.Label7_0.Size = new System.Drawing.Size(66, 14);
-			this._System.Windows.Forms.Label7_0.TabIndex = 24;
+			this.Label7_0.AllowDrop = true;
+			this.Label7_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label7_0.Text = "Warranty End";
+			this.Label7_0.Location = new System.Drawing.Point(267, 173);
+			// // this.Label7_0.mLabelId = 2176;
+			this.Label7_0.Name = "Label7_0";
+			this.Label7_0.Size = new System.Drawing.Size(66, 14);
+			this.Label7_0.TabIndex = 24;
 			// 
 			// _txtCommonNumber_1
 			// 
@@ -381,14 +381,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.System.Windows.Forms.Label8.AllowDrop = true;
-			this.System.Windows.Forms.Label8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label8.Caption = "Comments";
-			this.System.Windows.Forms.Label8.Location = new System.Drawing.Point(7, 267);
-			this.System.Windows.Forms.Label8.mLabelId = 1851;
-			this.System.Windows.Forms.Label8.Name = "System.Windows.Forms.Label8";
-			this.System.Windows.Forms.Label8.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label8.TabIndex = 25;
+			this.Label8.AllowDrop = true;
+			this.Label8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label8.Text = "Comments";
+			this.Label8.Location = new System.Drawing.Point(7, 267);
+			// // this.Label8.mLabelId = 1851;
+			this.Label8.Name = "System.Windows.Forms.Label8";
+			this.Label8.Size = new System.Drawing.Size(50, 14);
+			this.Label8.TabIndex = 25;
 			// 
 			// txtDWarrantyEnd
 			// 
@@ -403,16 +403,16 @@ namespace Xtreme
 			this.txtDWarrantyEnd.Text = "18/07/2001";
 			this.txtDWarrantyEnd.Value = 37090;
 			// 
-			// _System.Windows.Forms.Label7_1
+			// Label7_1
 			// 
-			this._System.Windows.Forms.Label7_1.AllowDrop = true;
-			this._System.Windows.Forms.Label7_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label7_1.Caption = "Purchase Date";
-			this._System.Windows.Forms.Label7_1.Location = new System.Drawing.Point(270, 62);
-			this._System.Windows.Forms.Label7_1.mLabelId = 2178;
-			this._System.Windows.Forms.Label7_1.Name = "_System.Windows.Forms.Label7_1";
-			this._System.Windows.Forms.Label7_1.Size = new System.Drawing.Size(71, 14);
-			this._System.Windows.Forms.Label7_1.TabIndex = 26;
+			this.Label7_1.AllowDrop = true;
+			this.Label7_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label7_1.Text = "Purchase Date";
+			this.Label7_1.Location = new System.Drawing.Point(270, 62);
+			// // this.Label7_1.mLabelId = 2178;
+			this.Label7_1.Name = "Label7_1";
+			this.Label7_1.Size = new System.Drawing.Size(71, 14);
+			this.Label7_1.TabIndex = 26;
 			// 
 			// txtDPurchaseDate
 			// 
@@ -427,27 +427,27 @@ namespace Xtreme
 			this.txtDPurchaseDate.Text = "18/07/2001";
 			this.txtDPurchaseDate.Value = 37090;
 			// 
-			// _System.Windows.Forms.Label5_1
+			// Label5_1
 			// 
-			this._System.Windows.Forms.Label5_1.AllowDrop = true;
-			this._System.Windows.Forms.Label5_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label5_1.Caption = "Supplier";
-			this._System.Windows.Forms.Label5_1.Location = new System.Drawing.Point(7, 222);
-			this._System.Windows.Forms.Label5_1.mLabelId = 2177;
-			this._System.Windows.Forms.Label5_1.Name = "_System.Windows.Forms.Label5_1";
-			this._System.Windows.Forms.Label5_1.Size = new System.Drawing.Size(39, 14);
-			this._System.Windows.Forms.Label5_1.TabIndex = 27;
+			this.Label5_1.AllowDrop = true;
+			this.Label5_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5_1.Text = "Supplier";
+			this.Label5_1.Location = new System.Drawing.Point(7, 222);
+			// // this.Label5_1.mLabelId = 2177;
+			this.Label5_1.Name = "Label5_1";
+			this.Label5_1.Size = new System.Drawing.Size(39, 14);
+			this.Label5_1.TabIndex = 27;
 			// 
-			// _System.Windows.Forms.Label5_2
+			// Label5_2
 			// 
-			this._System.Windows.Forms.Label5_2.AllowDrop = true;
-			this._System.Windows.Forms.Label5_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label5_2.Caption = "Specification";
-			this._System.Windows.Forms.Label5_2.Location = new System.Drawing.Point(7, 246);
-			this._System.Windows.Forms.Label5_2.mLabelId = 2179;
-			this._System.Windows.Forms.Label5_2.Name = "_System.Windows.Forms.Label5_2";
-			this._System.Windows.Forms.Label5_2.Size = new System.Drawing.Size(62, 14);
-			this._System.Windows.Forms.Label5_2.TabIndex = 28;
+			this.Label5_2.AllowDrop = true;
+			this.Label5_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5_2.Text = "Specification";
+			this.Label5_2.Location = new System.Drawing.Point(7, 246);
+			// // this.Label5_2.mLabelId = 2179;
+			this.Label5_2.Name = "Label5_2";
+			this.Label5_2.Size = new System.Drawing.Size(62, 14);
+			this.Label5_2.TabIndex = 28;
 			// 
 			// txtSpecification
 			// 
@@ -480,24 +480,24 @@ namespace Xtreme
 			this.Controls.Add(this.txtLAssetName);
 			this.Controls.Add(this.lblAGroupName);
 			this.Controls.Add(this.txtAAssetName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtAssetTypeCode);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
-			this.Controls.Add(this._System.Windows.Forms.Label5_0);
-			this.Controls.Add(this.System.Windows.Forms.Label6);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label3);
+			this.Controls.Add(this.Label4);
+			this.Controls.Add(this.Label5_0);
+			this.Controls.Add(this.Label6);
 			this.Controls.Add(this._txtCommonNumber_2);
 			this.Controls.Add(this._txtCommonNumber_3);
 			this.Controls.Add(this._txtCommonNumber_4);
-			this.Controls.Add(this._System.Windows.Forms.Label7_0);
+			this.Controls.Add(this.Label7_0);
 			this.Controls.Add(this._txtCommonNumber_1);
-			this.Controls.Add(this.System.Windows.Forms.Label8);
+			this.Controls.Add(this.Label8);
 			this.Controls.Add(this.txtDWarrantyEnd);
-			this.Controls.Add(this._System.Windows.Forms.Label7_1);
+			this.Controls.Add(this.Label7_1);
 			this.Controls.Add(this.txtDPurchaseDate);
-			this.Controls.Add(this._System.Windows.Forms.Label5_1);
-			this.Controls.Add(this._System.Windows.Forms.Label5_2);
+			this.Controls.Add(this.Label5_1);
+			this.Controls.Add(this.Label5_2);
 			this.Controls.Add(this.txtSpecification);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayAssets.Icon");
@@ -538,17 +538,17 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label7()
 		{
-			this.System.Windows.Forms.Label7 = new System.Windows.Forms.Label[2];
-			this.System.Windows.Forms.Label7[0] = _System.Windows.Forms.Label7_0;
-			this.System.Windows.Forms.Label7[1] = _System.Windows.Forms.Label7_1;
+			this.Label7 = new System.Windows.Forms.Label[2];
+			this.Label7[0] = Label7_0;
+			this.Label7[1] = Label7_1;
 		}
 		void InitializeSystem.Windows.Forms.Label5()
 		{
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label[3];
-			this.System.Windows.Forms.Label5[0] = _System.Windows.Forms.Label5_0;
-			this.System.Windows.Forms.Label5[1] = _System.Windows.Forms.Label5_1;
-			this.System.Windows.Forms.Label5[2] = _System.Windows.Forms.Label5_2;
+			this.Label5 = new System.Windows.Forms.Label[3];
+			this.Label5[0] = Label5_0;
+			this.Label5[1] = Label5_1;
+			this.Label5[2] = Label5_2;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

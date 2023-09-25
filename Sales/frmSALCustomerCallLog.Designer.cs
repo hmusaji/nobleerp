@@ -41,7 +41,7 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "txtCustomerName", "txtCustomerCode", "txtVoucherDate", "txtVoucherNo", "txtSalesmanName", "txtSalesmanCode", "txtComment", "txtCallRcvrTime", "cmbCallTime", "txtCallDate", "_System.Windows.Forms.Label_2", "_System.Windows.Forms.Label_0", "_System.Windows.Forms.Label_1", "_System.Windows.Forms.Label_3", "_System.Windows.Forms.Label_4", "_System.Windows.Forms.Label_5", "_System.Windows.Forms.Label_6", "_System.Windows.Forms.Label_7", "txtComment2", "_System.Windows.Forms.Label_8", "System.Windows.Forms.Label"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "txtCustomerName", "txtCustomerCode", "txtVoucherDate", "txtVoucherNo", "txtSalesmanName", "txtSalesmanCode", "txtComment", "txtCallRcvrTime", "cmbCallTime", "txtCallDate", "Label_2", "Label_0", "Label_1", "Label_3", "Label_4", "Label_5", "Label_6", "Label_7", "txtComment2", "Label_8", "System.Windows.Forms.Label"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -55,17 +55,17 @@ namespace Xtreme
 		public AxXtremeSuiteControls.AxDateTimePicker txtCallRcvrTime;
 		public System.Windows.Forms.ComboBox cmbCallTime;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtCallDate;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_2;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_0;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_1;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_3;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_4;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_5;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_6;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_7;
+		private System.Windows.Forms.Label Label_2;
+		private System.Windows.Forms.Label Label_0;
+		private System.Windows.Forms.Label Label_1;
+		private System.Windows.Forms.Label Label_3;
+		private System.Windows.Forms.Label Label_4;
+		private System.Windows.Forms.Label Label_5;
+		private System.Windows.Forms.Label Label_6;
+		private System.Windows.Forms.Label Label_7;
 		public System.Windows.Forms.TextBox txtComment2;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_8;
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label = new System.Windows.Forms.Label[9];
+		private System.Windows.Forms.Label Label_8;
+		public System.Windows.Forms.Label[] Label = new System.Windows.Forms.Label[9];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -85,16 +85,16 @@ namespace Xtreme
 			this.txtCallRcvrTime = new AxXtremeSuiteControls.AxDateTimePicker();
 			this.cmbCallTime = new System.Windows.Forms.ComboBox();
 			this.txtCallDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
-			this._System.Windows.Forms.Label_2 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_0 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_1 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_3 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_4 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_5 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_6 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_7 = new System.Windows.Forms.Label();
+			this.Label_2 = new System.Windows.Forms.Label();
+			this.Label_0 = new System.Windows.Forms.Label();
+			this.Label_1 = new System.Windows.Forms.Label();
+			this.Label_3 = new System.Windows.Forms.Label();
+			this.Label_4 = new System.Windows.Forms.Label();
+			this.Label_5 = new System.Windows.Forms.Label();
+			this.Label_6 = new System.Windows.Forms.Label();
+			this.Label_7 = new System.Windows.Forms.Label();
 			this.txtComment2 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label_8 = new System.Windows.Forms.Label();
+			this.Label_8 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtCallRcvrTime).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -132,7 +132,7 @@ namespace Xtreme
 			this.txtVoucherDate.Size = new System.Drawing.Size(89, 19);
 			this.txtVoucherDate.TabIndex = 0;
 			this.txtVoucherDate.Text = "11/22/2013";
-			this.txtVoucherDate.Value = 41600;
+			// this.txtVoucherDate.Value = 41600;
 			// 
 			// txtVoucherNo
 			// 
@@ -209,95 +209,95 @@ namespace Xtreme
 			this.txtCallDate.Size = new System.Drawing.Size(89, 19);
 			this.txtCallDate.TabIndex = 4;
 			this.txtCallDate.Text = "11/22/2013";
-			this.txtCallDate.Value = 41600;
+			// this.txtCallDate.Value = 41600;
 			// 
-			// _System.Windows.Forms.Label_2
+			// Label_2
 			// 
-			this._System.Windows.Forms.Label_2.AllowDrop = true;
-			this._System.Windows.Forms.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_2.Caption = "Voucher No";
-			this._System.Windows.Forms.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_2.Location = new System.Drawing.Point(6, 48);
-			this._System.Windows.Forms.Label_2.Name = "_System.Windows.Forms.Label_2";
-			this._System.Windows.Forms.Label_2.Size = new System.Drawing.Size(58, 14);
-			this._System.Windows.Forms.Label_2.TabIndex = 11;
+			this.Label_2.AllowDrop = true;
+			this.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_2.Text = "Voucher No";
+			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_2.Location = new System.Drawing.Point(6, 48);
+			this.Label_2.Name = "Label_2";
+			this.Label_2.Size = new System.Drawing.Size(58, 14);
+			this.Label_2.TabIndex = 11;
 			// 
-			// _System.Windows.Forms.Label_0
+			// Label_0
 			// 
-			this._System.Windows.Forms.Label_0.AllowDrop = true;
-			this._System.Windows.Forms.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_0.Caption = "Customer Name";
-			this._System.Windows.Forms.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_0.Location = new System.Drawing.Point(6, 72);
-			this._System.Windows.Forms.Label_0.Name = "_System.Windows.Forms.Label_0";
-			this._System.Windows.Forms.Label_0.Size = new System.Drawing.Size(19, 14);
-			this._System.Windows.Forms.Label_0.TabIndex = 12;
+			this.Label_0.AllowDrop = true;
+			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_0.Text = "Customer Name";
+			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_0.Location = new System.Drawing.Point(6, 72);
+			this.Label_0.Name = "Label_0";
+			this.Label_0.Size = new System.Drawing.Size(19, 14);
+			this.Label_0.TabIndex = 12;
 			// 
-			// _System.Windows.Forms.Label_1
+			// Label_1
 			// 
-			this._System.Windows.Forms.Label_1.AllowDrop = true;
-			this._System.Windows.Forms.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_1.Caption = "Voucher Date";
-			this._System.Windows.Forms.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_1.Location = new System.Drawing.Point(6, 24);
-			this._System.Windows.Forms.Label_1.Name = "_System.Windows.Forms.Label_1";
-			this._System.Windows.Forms.Label_1.Size = new System.Drawing.Size(67, 14);
-			this._System.Windows.Forms.Label_1.TabIndex = 13;
+			this.Label_1.AllowDrop = true;
+			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_1.Text = "Voucher Date";
+			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_1.Location = new System.Drawing.Point(6, 24);
+			this.Label_1.Name = "Label_1";
+			this.Label_1.Size = new System.Drawing.Size(67, 14);
+			this.Label_1.TabIndex = 13;
 			// 
-			// _System.Windows.Forms.Label_3
+			// Label_3
 			// 
-			this._System.Windows.Forms.Label_3.AllowDrop = true;
-			this._System.Windows.Forms.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_3.Caption = "Salesman";
-			this._System.Windows.Forms.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_3.Location = new System.Drawing.Point(6, 94);
-			this._System.Windows.Forms.Label_3.Name = "_System.Windows.Forms.Label_3";
-			this._System.Windows.Forms.Label_3.Size = new System.Drawing.Size(47, 14);
-			this._System.Windows.Forms.Label_3.TabIndex = 14;
+			this.Label_3.AllowDrop = true;
+			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_3.Text = "Salesman";
+			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_3.Location = new System.Drawing.Point(6, 94);
+			this.Label_3.Name = "Label_3";
+			this.Label_3.Size = new System.Drawing.Size(47, 14);
+			this.Label_3.TabIndex = 14;
 			// 
-			// _System.Windows.Forms.Label_4
+			// Label_4
 			// 
-			this._System.Windows.Forms.Label_4.AllowDrop = true;
-			this._System.Windows.Forms.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_4.Caption = "Appointment Date";
-			this._System.Windows.Forms.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_4.Location = new System.Drawing.Point(6, 120);
-			this._System.Windows.Forms.Label_4.Name = "_System.Windows.Forms.Label_4";
-			this._System.Windows.Forms.Label_4.Size = new System.Drawing.Size(85, 14);
-			this._System.Windows.Forms.Label_4.TabIndex = 15;
+			this.Label_4.AllowDrop = true;
+			this.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_4.Text = "Appointment Date";
+			this.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_4.Location = new System.Drawing.Point(6, 120);
+			this.Label_4.Name = "Label_4";
+			this.Label_4.Size = new System.Drawing.Size(85, 14);
+			this.Label_4.TabIndex = 15;
 			// 
-			// _System.Windows.Forms.Label_5
+			// Label_5
 			// 
-			this._System.Windows.Forms.Label_5.AllowDrop = true;
-			this._System.Windows.Forms.Label_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_5.Caption = "Remarks";
-			this._System.Windows.Forms.Label_5.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_5.Location = new System.Drawing.Point(6, 146);
-			this._System.Windows.Forms.Label_5.Name = "_System.Windows.Forms.Label_5";
-			this._System.Windows.Forms.Label_5.Size = new System.Drawing.Size(42, 14);
-			this._System.Windows.Forms.Label_5.TabIndex = 16;
+			this.Label_5.AllowDrop = true;
+			this.Label_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_5.Text = "Remarks";
+			this.Label_5.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_5.Location = new System.Drawing.Point(6, 146);
+			this.Label_5.Name = "Label_5";
+			this.Label_5.Size = new System.Drawing.Size(42, 14);
+			this.Label_5.TabIndex = 16;
 			// 
-			// _System.Windows.Forms.Label_6
+			// Label_6
 			// 
-			this._System.Windows.Forms.Label_6.AllowDrop = true;
-			this._System.Windows.Forms.Label_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_6.Caption = "Call Recd At";
-			this._System.Windows.Forms.Label_6.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_6.Location = new System.Drawing.Point(326, 24);
-			this._System.Windows.Forms.Label_6.Name = "_System.Windows.Forms.Label_6";
-			this._System.Windows.Forms.Label_6.Size = new System.Drawing.Size(59, 14);
-			this._System.Windows.Forms.Label_6.TabIndex = 17;
+			this.Label_6.AllowDrop = true;
+			this.Label_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_6.Text = "Call Recd At";
+			this.Label_6.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_6.Location = new System.Drawing.Point(326, 24);
+			this.Label_6.Name = "Label_6";
+			this.Label_6.Size = new System.Drawing.Size(59, 14);
+			this.Label_6.TabIndex = 17;
 			// 
-			// _System.Windows.Forms.Label_7
+			// Label_7
 			// 
-			this._System.Windows.Forms.Label_7.AllowDrop = true;
-			this._System.Windows.Forms.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_7.Caption = "Time Selection";
-			this._System.Windows.Forms.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_7.Location = new System.Drawing.Point(326, 120);
-			this._System.Windows.Forms.Label_7.Name = "_System.Windows.Forms.Label_7";
-			this._System.Windows.Forms.Label_7.Size = new System.Drawing.Size(69, 14);
-			this._System.Windows.Forms.Label_7.TabIndex = 18;
+			this.Label_7.AllowDrop = true;
+			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_7.Text = "Time Selection";
+			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_7.Location = new System.Drawing.Point(326, 120);
+			this.Label_7.Name = "Label_7";
+			this.Label_7.Size = new System.Drawing.Size(69, 14);
+			this.Label_7.TabIndex = 18;
 			// 
 			// txtComment2
 			// 
@@ -310,16 +310,16 @@ namespace Xtreme
 			this.txtComment2.TabIndex = 8;
 			this.txtComment2.Text = "";
 			// 
-			// _System.Windows.Forms.Label_8
+			// Label_8
 			// 
-			this._System.Windows.Forms.Label_8.AllowDrop = true;
-			this._System.Windows.Forms.Label_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_8.Caption = "Remarks 2";
-			this._System.Windows.Forms.Label_8.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_8.Location = new System.Drawing.Point(6, 208);
-			this._System.Windows.Forms.Label_8.Name = "_System.Windows.Forms.Label_8";
-			this._System.Windows.Forms.Label_8.Size = new System.Drawing.Size(51, 14);
-			this._System.Windows.Forms.Label_8.TabIndex = 19;
+			this.Label_8.AllowDrop = true;
+			this.Label_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_8.Text = "Remarks 2";
+			this.Label_8.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_8.Location = new System.Drawing.Point(6, 208);
+			this.Label_8.Name = "Label_8";
+			this.Label_8.Size = new System.Drawing.Size(51, 14);
+			this.Label_8.TabIndex = 19;
 			// 
 			// frmSALCustomerCallLog
 			// 
@@ -339,16 +339,16 @@ namespace Xtreme
 			this.Controls.Add(this.txtCallRcvrTime);
 			this.Controls.Add(this.cmbCallTime);
 			this.Controls.Add(this.txtCallDate);
-			this.Controls.Add(this._System.Windows.Forms.Label_2);
-			this.Controls.Add(this._System.Windows.Forms.Label_0);
-			this.Controls.Add(this._System.Windows.Forms.Label_1);
-			this.Controls.Add(this._System.Windows.Forms.Label_3);
-			this.Controls.Add(this._System.Windows.Forms.Label_4);
-			this.Controls.Add(this._System.Windows.Forms.Label_5);
-			this.Controls.Add(this._System.Windows.Forms.Label_6);
-			this.Controls.Add(this._System.Windows.Forms.Label_7);
+			this.Controls.Add(this.Label_2);
+			this.Controls.Add(this.Label_0);
+			this.Controls.Add(this.Label_1);
+			this.Controls.Add(this.Label_3);
+			this.Controls.Add(this.Label_4);
+			this.Controls.Add(this.Label_5);
+			this.Controls.Add(this.Label_6);
+			this.Controls.Add(this.Label_7);
 			this.Controls.Add(this.txtComment2);
-			this.Controls.Add(this._System.Windows.Forms.Label_8);
+			this.Controls.Add(this.Label_8);
 			this.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.KeyPreview = true;
 			this.Location = new System.Drawing.Point(292, 255);
@@ -379,17 +379,17 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label()
 		{
-			this.System.Windows.Forms.Label = new System.Windows.Forms.Label[9];
-			this.System.Windows.Forms.Label[2] = _System.Windows.Forms.Label_2;
-			this.System.Windows.Forms.Label[0] = _System.Windows.Forms.Label_0;
-			this.System.Windows.Forms.Label[1] = _System.Windows.Forms.Label_1;
-			this.System.Windows.Forms.Label[3] = _System.Windows.Forms.Label_3;
-			this.System.Windows.Forms.Label[4] = _System.Windows.Forms.Label_4;
-			this.System.Windows.Forms.Label[5] = _System.Windows.Forms.Label_5;
-			this.System.Windows.Forms.Label[6] = _System.Windows.Forms.Label_6;
-			this.System.Windows.Forms.Label[7] = _System.Windows.Forms.Label_7;
-			this.System.Windows.Forms.Label[8] = _System.Windows.Forms.Label_8;
+			this.Label = new System.Windows.Forms.Label[9];
+			this.Label[2] = Label_2;
+			this.Label[0] = Label_0;
+			this.Label[1] = Label_1;
+			this.Label[3] = Label_3;
+			this.Label[4] = Label_4;
+			this.Label[5] = Label_5;
+			this.Label[6] = Label_6;
+			this.Label[7] = Label_7;
+			this.Label[8] = Label_8;
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

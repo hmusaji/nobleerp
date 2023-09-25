@@ -134,7 +134,7 @@ namespace Xtreme
 			this.lblLCostName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblLCostName.Text = "Cost Center Name (English)";
 			this.lblLCostName.Location = new System.Drawing.Point(8, 35);
-			// this.lblLCostName.mLabelId = 964;
+			// // this.lblLCostName.mLabelId = 964;
 			this.lblLCostName.Name = "lblLCostName";
 			this.lblLCostName.Size = new System.Drawing.Size(132, 14);
 			this.lblLCostName.TabIndex = 5;
@@ -157,7 +157,7 @@ namespace Xtreme
 			this.lblACostName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblACostName.Text = "Cost Center Name (Arabic)";
 			this.lblACostName.Location = new System.Drawing.Point(8, 56);
-			// this.lblACostName.mLabelId = 965;
+			// // this.lblACostName.mLabelId = 965;
 			this.lblACostName.Name = "lblACostName";
 			this.lblACostName.Size = new System.Drawing.Size(130, 14);
 			this.lblACostName.TabIndex = 6;
@@ -181,7 +181,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(8, 76);
-			// this.lblComments.mLabelId = 135;
+			// // this.lblComments.mLabelId = 135;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 7;
@@ -192,7 +192,7 @@ namespace Xtreme
 			this.lblCostNo.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblCostNo.Text = "Cost Center Code";
 			this.lblCostNo.Location = new System.Drawing.Point(8, 14);
-			// this.lblCostNo.mLabelId = 968;
+			// // this.lblCostNo.mLabelId = 968;
 			this.lblCostNo.Name = "lblCostNo";
 			this.lblCostNo.Size = new System.Drawing.Size(85, 14);
 			this.lblCostNo.TabIndex = 8;
@@ -244,4 +244,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -109,7 +109,7 @@ namespace Xtreme
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Asset Type Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(10, 62);
-			// this.lblGroupNo.mLabelId = 2105;
+			// // this.lblGroupNo.mLabelId = 2105;
 			this.lblGroupNo.Name = "lblGroupNo";
 			this.lblGroupNo.Size = new System.Drawing.Size(84, 14);
 			this.lblGroupNo.TabIndex = 1;
@@ -120,7 +120,7 @@ namespace Xtreme
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Asset Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(10, 84);
-			// this.lblLGroupName.mLabelId = 2106;
+			// // this.lblLGroupName.mLabelId = 2106;
 			this.lblLGroupName.Name = "lblLGroupName";
 			this.lblLGroupName.Size = new System.Drawing.Size(104, 14);
 			this.lblLGroupName.TabIndex = 2;
@@ -143,7 +143,7 @@ namespace Xtreme
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Asset Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(10, 105);
-			// this.lblAGroupName.mLabelId = 2107;
+			// // this.lblAGroupName.mLabelId = 2107;
 			this.lblAGroupName.Name = "lblAGroupName";
 			this.lblAGroupName.Size = new System.Drawing.Size(102, 14);
 			this.lblAGroupName.TabIndex = 4;
@@ -167,7 +167,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(10, 124);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 7;
@@ -215,4 +215,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

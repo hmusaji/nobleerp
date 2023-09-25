@@ -50,17 +50,17 @@ namespace Xtreme
 		public C1.Win.C1FlexGrid.C1FlexGrid grdCustomerEnquiry;
 		public System.Windows.Forms.ComboBox cmbYear;
 		public System.Windows.Forms.Button cmdSearch;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.TextBox txtRefNo;
 		public System.Windows.Forms.TextBox txtPONo;
 		public System.Windows.Forms.TextBox txtSalesInvNo;
 		public System.Windows.Forms.TextBox txtOffer;
 		public System.Windows.Forms.TextBox txtOrder;
-		public System.Windows.Forms.Label System.Windows.Forms.Label6;
+		public System.Windows.Forms.LabelLabel6;
 		public System.Windows.Forms.GroupBox Frame1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -77,17 +77,17 @@ namespace Xtreme
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.cmbYear = new System.Windows.Forms.ComboBox();
 			this.cmdSearch = new System.Windows.Forms.Button();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtRefNo = new System.Windows.Forms.TextBox();
 			this.txtPONo = new System.Windows.Forms.TextBox();
 			this.txtSalesInvNo = new System.Windows.Forms.TextBox();
 			this.txtOffer = new System.Windows.Forms.TextBox();
 			this.txtOrder = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label6 = new System.Windows.Forms.Label();
+			this.Label6 = new System.Windows.Forms.Label();
 			this.Frame1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -310,17 +310,17 @@ namespace Xtreme
 			this.Frame1.BackColor = System.Drawing.SystemColors.Control;
 			this.Frame1.Controls.Add(this.cmbYear);
 			this.Frame1.Controls.Add(this.cmdSearch);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label4);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label5);
+			this.Frame1.Controls.Add(this.Label1);
+			this.Frame1.Controls.Add(this.Label2);
+			this.Frame1.Controls.Add(this.Label3);
+			this.Frame1.Controls.Add(this.Label4);
+			this.Frame1.Controls.Add(this.Label5);
 			this.Frame1.Controls.Add(this.txtRefNo);
 			this.Frame1.Controls.Add(this.txtPONo);
 			this.Frame1.Controls.Add(this.txtSalesInvNo);
 			this.Frame1.Controls.Add(this.txtOffer);
 			this.Frame1.Controls.Add(this.txtOrder);
-			this.Frame1.Controls.Add(this.System.Windows.Forms.Label6);
+			this.Frame1.Controls.Add(this.Label6);
 			this.Frame1.Enabled = true;
 			this.Frame1.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -367,58 +367,58 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.Caption = "Customer Enquiry Ref. No.";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 21);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(146, 15);
-			this.System.Windows.Forms.Label1.TabIndex = 1;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.Text = "Customer Enquiry Ref. No.";
+			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1.Location = new System.Drawing.Point(8, 21);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(146, 15);
+			this.Label1.TabIndex = 1;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label2.Caption = "P.O. No.";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(332, 21);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(45, 15);
-			this.System.Windows.Forms.Label2.TabIndex = 6;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.SystemColors.Window;
+			this.Label2.Text = "P.O. No.";
+			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label2.Location = new System.Drawing.Point(332, 21);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(45, 15);
+			this.Label2.TabIndex = 6;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label3.Caption = "Sales Inv. No.";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(486, 21);
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(75, 15);
-			this.System.Windows.Forms.Label3.TabIndex = 7;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.SystemColors.Window;
+			this.Label3.Text = "Sales Inv. No.";
+			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label3.Location = new System.Drawing.Point(486, 21);
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(75, 15);
+			this.Label3.TabIndex = 7;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label4.Caption = "Offer";
-			this.System.Windows.Forms.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(672, 20);
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(26, 15);
-			this.System.Windows.Forms.Label4.TabIndex = 8;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.SystemColors.Window;
+			this.Label4.Text = "Offer";
+			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label4.Location = new System.Drawing.Point(672, 20);
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(26, 15);
+			this.Label4.TabIndex = 8;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label5.Caption = "Sales Order";
-			this.System.Windows.Forms.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(796, 20);
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(66, 15);
-			this.System.Windows.Forms.Label5.TabIndex = 9;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.SystemColors.Window;
+			this.Label5.Text = "Sales Order";
+			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label5.Location = new System.Drawing.Point(796, 20);
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(66, 15);
+			this.Label5.TabIndex = 9;
 			// 
 			// txtRefNo
 			// 
@@ -502,14 +502,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.System.Windows.Forms.Label6.AllowDrop = true;
-			this.System.Windows.Forms.Label6.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label6.Caption = "Year";
-			this.System.Windows.Forms.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label6.Location = new System.Drawing.Point(8, 45);
-			this.System.Windows.Forms.Label6.Name = "System.Windows.Forms.Label6";
-			this.System.Windows.Forms.Label6.Size = new System.Drawing.Size(27, 16);
-			this.System.Windows.Forms.Label6.TabIndex = 15;
+			this.Label6.AllowDrop = true;
+			this.Label6.BackColor = System.Drawing.SystemColors.Window;
+			this.Label6.Text = "Year";
+			this.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label6.Location = new System.Drawing.Point(8, 45);
+			this.Label6.Name = "System.Windows.Forms.Label6";
+			this.Label6.Size = new System.Drawing.Size(27, 16);
+			this.Label6.TabIndex = 15;
 			// 
 			// frmICSOrderHistory
 			// 
@@ -551,4 +551,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

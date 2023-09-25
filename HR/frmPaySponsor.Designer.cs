@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label12;
+		public System.Windows.Forms.LabelLabel12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		private System.Windows.Forms.Label _lblCommonLabel_7;
@@ -117,7 +117,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPaySponsors));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this._txtCommonTextBox_4 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label12 = new System.Windows.Forms.Label();
+			this.Label12 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_1 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_7 = new System.Windows.Forms.Label();
@@ -193,14 +193,14 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.System.Windows.Forms.Label12.AllowDrop = true;
-			this.System.Windows.Forms.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label12.Caption = "Comments";
-			this.System.Windows.Forms.Label12.Location = new System.Drawing.Point(7, 387);
-			this.System.Windows.Forms.Label12.mLabelId = 1851;
-			this.System.Windows.Forms.Label12.Name = "System.Windows.Forms.Label12";
-			this.System.Windows.Forms.Label12.Size = new System.Drawing.Size(50, 14);
-			this.System.Windows.Forms.Label12.TabIndex = 29;
+			this.Label12.AllowDrop = true;
+			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label12.Text = "Comments";
+			this.Label12.Location = new System.Drawing.Point(7, 387);
+			// this.Label12.mLabelId = 1851;
+			this.Label12.Name = "System.Windows.Forms.Label12";
+			this.Label12.Size = new System.Drawing.Size(50, 14);
+			this.Label12.TabIndex = 29;
 			// 
 			// _txtCommonTextBox_1
 			// 
@@ -224,7 +224,7 @@ namespace Xtreme
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Nationality Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(7, 164);
-			// this._lblCommonLabel_2.mLabelId = 1058;
+			// // this._lblCommonLabel_2.mLabelId = 1058;
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
 			this._lblCommonLabel_2.Size = new System.Drawing.Size(77, 14);
 			this._lblCommonLabel_2.TabIndex = 30;
@@ -235,7 +235,7 @@ namespace Xtreme
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Company Code";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(7, 186);
-			// this._lblCommonLabel_7.mLabelId = 1927;
+			// // this._lblCommonLabel_7.mLabelId = 1927;
 			this._lblCommonLabel_7.Name = "_lblCommonLabel_7";
 			this._lblCommonLabel_7.Size = new System.Drawing.Size(73, 13);
 			this._lblCommonLabel_7.TabIndex = 31;
@@ -246,7 +246,7 @@ namespace Xtreme
 			this._lblCommonLabel_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_18.Text = "Governate Code";
 			this._lblCommonLabel_18.Location = new System.Drawing.Point(7, 206);
-			// this._lblCommonLabel_18.mLabelId = 1816;
+			// // this._lblCommonLabel_18.mLabelId = 1816;
 			this._lblCommonLabel_18.Name = "_lblCommonLabel_18";
 			this._lblCommonLabel_18.Size = new System.Drawing.Size(79, 14);
 			this._lblCommonLabel_18.TabIndex = 32;
@@ -304,7 +304,7 @@ namespace Xtreme
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Sponsor Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(7, 59);
-			// this._lblCommonLabel_0.mLabelId = 1939;
+			// // this._lblCommonLabel_0.mLabelId = 1939;
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
 			this._lblCommonLabel_0.Size = new System.Drawing.Size(69, 14);
 			this._lblCommonLabel_0.TabIndex = 33;
@@ -356,7 +356,7 @@ namespace Xtreme
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "First Name";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(120, 87);
-			// this._lblCommonLabel_3.mLabelId = 1974;
+			// // this._lblCommonLabel_3.mLabelId = 1974;
 			this._lblCommonLabel_3.Name = "_lblCommonLabel_3";
 			this._lblCommonLabel_3.Size = new System.Drawing.Size(51, 14);
 			this._lblCommonLabel_3.TabIndex = 37;
@@ -367,7 +367,7 @@ namespace Xtreme
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Second Name";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(213, 87);
-			// this._lblCommonLabel_8.mLabelId = 1976;
+			// // this._lblCommonLabel_8.mLabelId = 1976;
 			this._lblCommonLabel_8.Name = "_lblCommonLabel_8";
 			this._lblCommonLabel_8.Size = new System.Drawing.Size(67, 14);
 			this._lblCommonLabel_8.TabIndex = 38;
@@ -378,7 +378,7 @@ namespace Xtreme
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Third Name";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(309, 87);
-			// this._lblCommonLabel_9.mLabelId = 1977;
+			// // this._lblCommonLabel_9.mLabelId = 1977;
 			this._lblCommonLabel_9.Name = "_lblCommonLabel_9";
 			this._lblCommonLabel_9.Size = new System.Drawing.Size(54, 14);
 			this._lblCommonLabel_9.TabIndex = 39;
@@ -389,7 +389,7 @@ namespace Xtreme
 			this._lblCommonLabel_10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_10.Text = "Fourth Name";
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(405, 87);
-			// this._lblCommonLabel_10.mLabelId = 1975;
+			// // this._lblCommonLabel_10.mLabelId = 1975;
 			this._lblCommonLabel_10.Name = "_lblCommonLabel_10";
 			this._lblCommonLabel_10.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_10.TabIndex = 40;
@@ -400,7 +400,7 @@ namespace Xtreme
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_12.Text = "Name (English)";
 			this._lblCommonLabel_12.Location = new System.Drawing.Point(9, 111);
-			// this._lblCommonLabel_12.mLabelId = 1053;
+			// // this._lblCommonLabel_12.mLabelId = 1053;
 			this._lblCommonLabel_12.Name = "_lblCommonLabel_12";
 			this._lblCommonLabel_12.Size = new System.Drawing.Size(72, 14);
 			this._lblCommonLabel_12.TabIndex = 41;
@@ -411,7 +411,7 @@ namespace Xtreme
 			this._lblCommonLabel_13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_13.Text = "Name(Arabic)";
 			this._lblCommonLabel_13.Location = new System.Drawing.Point(9, 132);
-			// this._lblCommonLabel_13.mLabelId = 1054;
+			// // this._lblCommonLabel_13.mLabelId = 1054;
 			this._lblCommonLabel_13.Name = "_lblCommonLabel_13";
 			this._lblCommonLabel_13.Size = new System.Drawing.Size(67, 14);
 			this._lblCommonLabel_13.TabIndex = 42;
@@ -520,7 +520,7 @@ namespace Xtreme
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Registration No.";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(7, 227);
-			// this._lblCommonLabel_1.mLabelId = 1940;
+			// // this._lblCommonLabel_1.mLabelId = 1940;
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
 			this._lblCommonLabel_1.Size = new System.Drawing.Size(76, 14);
 			this._lblCommonLabel_1.TabIndex = 43;
@@ -545,7 +545,7 @@ namespace Xtreme
 			this._lblCommonLabel_14.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_14.Text = "Area";
 			this._lblCommonLabel_14.Location = new System.Drawing.Point(7, 248);
-			// this._lblCommonLabel_14.mLabelId = 1063;
+			// // this._lblCommonLabel_14.mLabelId = 1063;
 			this._lblCommonLabel_14.Name = "_lblCommonLabel_14";
 			this._lblCommonLabel_14.Size = new System.Drawing.Size(24, 14);
 			this._lblCommonLabel_14.TabIndex = 44;
@@ -570,7 +570,7 @@ namespace Xtreme
 			this._lblCommonLabel_15.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_15.Text = "Block No.";
 			this._lblCommonLabel_15.Location = new System.Drawing.Point(7, 269);
-			// this._lblCommonLabel_15.mLabelId = 1941;
+			// // this._lblCommonLabel_15.mLabelId = 1941;
 			this._lblCommonLabel_15.Name = "_lblCommonLabel_15";
 			this._lblCommonLabel_15.Size = new System.Drawing.Size(45, 14);
 			this._lblCommonLabel_15.TabIndex = 45;
@@ -609,7 +609,7 @@ namespace Xtreme
 			this._lblCommonLabel_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_16.Text = "Street Name";
 			this._lblCommonLabel_16.Location = new System.Drawing.Point(7, 290);
-			// this._lblCommonLabel_16.mLabelId = 1943;
+			// // this._lblCommonLabel_16.mLabelId = 1943;
 			this._lblCommonLabel_16.Name = "_lblCommonLabel_16";
 			this._lblCommonLabel_16.Size = new System.Drawing.Size(59, 14);
 			this._lblCommonLabel_16.TabIndex = 46;
@@ -620,7 +620,7 @@ namespace Xtreme
 			this._lblCommonLabel_19.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_19.Text = "Avenue";
 			this._lblCommonLabel_19.Location = new System.Drawing.Point(7, 311);
-			// this._lblCommonLabel_19.mLabelId = 1944;
+			// // this._lblCommonLabel_19.mLabelId = 1944;
 			this._lblCommonLabel_19.Name = "_lblCommonLabel_19";
 			this._lblCommonLabel_19.Size = new System.Drawing.Size(38, 14);
 			this._lblCommonLabel_19.TabIndex = 47;
@@ -645,7 +645,7 @@ namespace Xtreme
 			this._lblCommonLabel_20.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_20.Text = "House Type";
 			this._lblCommonLabel_20.Location = new System.Drawing.Point(6, 332);
-			// this._lblCommonLabel_20.mLabelId = 1945;
+			// // this._lblCommonLabel_20.mLabelId = 1945;
 			this._lblCommonLabel_20.Name = "_lblCommonLabel_20";
 			this._lblCommonLabel_20.Size = new System.Drawing.Size(58, 14);
 			this._lblCommonLabel_20.TabIndex = 48;
@@ -670,7 +670,7 @@ namespace Xtreme
 			this._lblCommonLabel_21.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_21.Text = "House Name";
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(435, 164);
-			// this._lblCommonLabel_21.mLabelId = 1946;
+			// // this._lblCommonLabel_21.mLabelId = 1946;
 			this._lblCommonLabel_21.Name = "_lblCommonLabel_21";
 			this._lblCommonLabel_21.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_21.TabIndex = 49;
@@ -709,7 +709,7 @@ namespace Xtreme
 			this._lblCommonLabel_22.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_22.Text = "Plot No.";
 			this._lblCommonLabel_22.Location = new System.Drawing.Point(435, 185);
-			// this._lblCommonLabel_22.mLabelId = 1947;
+			// // this._lblCommonLabel_22.mLabelId = 1947;
 			this._lblCommonLabel_22.Name = "_lblCommonLabel_22";
 			this._lblCommonLabel_22.Size = new System.Drawing.Size(36, 14);
 			this._lblCommonLabel_22.TabIndex = 50;
@@ -734,7 +734,7 @@ namespace Xtreme
 			this._lblCommonLabel_23.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_23.Text = "Floor No.";
 			this._lblCommonLabel_23.Location = new System.Drawing.Point(435, 206);
-			// this._lblCommonLabel_23.mLabelId = 1948;
+			// // this._lblCommonLabel_23.mLabelId = 1948;
 			this._lblCommonLabel_23.Name = "_lblCommonLabel_23";
 			this._lblCommonLabel_23.Size = new System.Drawing.Size(43, 14);
 			this._lblCommonLabel_23.TabIndex = 51;
@@ -759,7 +759,7 @@ namespace Xtreme
 			this._lblCommonLabel_24.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_24.Text = "Flat No.";
 			this._lblCommonLabel_24.Location = new System.Drawing.Point(435, 226);
-			// this._lblCommonLabel_24.mLabelId = 1949;
+			// // this._lblCommonLabel_24.mLabelId = 1949;
 			this._lblCommonLabel_24.Name = "_lblCommonLabel_24";
 			this._lblCommonLabel_24.Size = new System.Drawing.Size(36, 14);
 			this._lblCommonLabel_24.TabIndex = 52;
@@ -770,7 +770,7 @@ namespace Xtreme
 			this._lblCommonLabel_25.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_25.Text = "Entrance";
 			this._lblCommonLabel_25.Location = new System.Drawing.Point(435, 247);
-			// this._lblCommonLabel_25.mLabelId = 1950;
+			// // this._lblCommonLabel_25.mLabelId = 1950;
 			this._lblCommonLabel_25.Name = "_lblCommonLabel_25";
 			this._lblCommonLabel_25.Size = new System.Drawing.Size(43, 14);
 			this._lblCommonLabel_25.TabIndex = 53;
@@ -809,7 +809,7 @@ namespace Xtreme
 			this._lblCommonLabel_26.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_26.Text = "P.O. Box No.";
 			this._lblCommonLabel_26.Location = new System.Drawing.Point(435, 268);
-			// this._lblCommonLabel_26.mLabelId = 1951;
+			// // this._lblCommonLabel_26.mLabelId = 1951;
 			this._lblCommonLabel_26.Name = "_lblCommonLabel_26";
 			this._lblCommonLabel_26.Size = new System.Drawing.Size(61, 14);
 			this._lblCommonLabel_26.TabIndex = 54;
@@ -834,7 +834,7 @@ namespace Xtreme
 			this._lblCommonLabel_27.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_27.Text = "Zip Code";
 			this._lblCommonLabel_27.Location = new System.Drawing.Point(435, 289);
-			// this._lblCommonLabel_27.mLabelId = 1952;
+			// // this._lblCommonLabel_27.mLabelId = 1952;
 			this._lblCommonLabel_27.Name = "_lblCommonLabel_27";
 			this._lblCommonLabel_27.Size = new System.Drawing.Size(43, 14);
 			this._lblCommonLabel_27.TabIndex = 55;
@@ -859,7 +859,7 @@ namespace Xtreme
 			this._lblCommonLabel_28.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_28.Text = "Telephone No.";
 			this._lblCommonLabel_28.Location = new System.Drawing.Point(435, 310);
-			// this._lblCommonLabel_28.mLabelId = 1953;
+			// // this._lblCommonLabel_28.mLabelId = 1953;
 			this._lblCommonLabel_28.Name = "_lblCommonLabel_28";
 			this._lblCommonLabel_28.Size = new System.Drawing.Size(69, 14);
 			this._lblCommonLabel_28.TabIndex = 56;
@@ -884,7 +884,7 @@ namespace Xtreme
 			this._lblCommonLabel_29.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_29.Text = "Mobile No.";
 			this._lblCommonLabel_29.Location = new System.Drawing.Point(435, 331);
-			// this._lblCommonLabel_29.mLabelId = 1954;
+			// // this._lblCommonLabel_29.mLabelId = 1954;
 			this._lblCommonLabel_29.Name = "_lblCommonLabel_29";
 			this._lblCommonLabel_29.Size = new System.Drawing.Size(49, 14);
 			this._lblCommonLabel_29.TabIndex = 57;
@@ -909,7 +909,7 @@ namespace Xtreme
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Civil Id. No.";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(6, 353);
-			// this._lblCommonLabel_4.mLabelId = 1959;
+			// // this._lblCommonLabel_4.mLabelId = 1959;
 			this._lblCommonLabel_4.Name = "_lblCommonLabel_4";
 			this._lblCommonLabel_4.Size = new System.Drawing.Size(52, 14);
 			this._lblCommonLabel_4.TabIndex = 58;
@@ -923,7 +923,7 @@ namespace Xtreme
 			this.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.ClientSize = new System.Drawing.Size(693, 416);
 			this.Controls.Add(this._txtCommonTextBox_4);
-			this.Controls.Add(this.System.Windows.Forms.Label12);
+			this.Controls.Add(this.Label12);
 			this.Controls.Add(this._txtCommonTextBox_1);
 			this.Controls.Add(this._lblCommonLabel_2);
 			this.Controls.Add(this._lblCommonLabel_7);
@@ -1081,4 +1081,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

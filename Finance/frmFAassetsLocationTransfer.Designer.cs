@@ -89,7 +89,7 @@ namespace Xtreme
 			this.lblTransactionDate.Text = "Transaction  Date";
 			this.lblTransactionDate.ForeColor = System.Drawing.Color.Black;
 			this.lblTransactionDate.Location = new System.Drawing.Point(8, 74);
-			// this.lblTransactionDate.mLabelId = 1018;
+			// // this.lblTransactionDate.mLabelId = 1018;
 			this.lblTransactionDate.Name = "lblTransactionDate";
 			this.lblTransactionDate.Size = new System.Drawing.Size(85, 14);
 			this.lblTransactionDate.TabIndex = 3;
@@ -101,7 +101,7 @@ namespace Xtreme
 			this.lblRemarks.Text = "Comments";
 			this.lblRemarks.ForeColor = System.Drawing.Color.Black;
 			this.lblRemarks.Location = new System.Drawing.Point(8, 94);
-			// this.lblRemarks.mLabelId = 135;
+			// // this.lblRemarks.mLabelId = 135;
 			this.lblRemarks.Name = "lblRemarks";
 			this.lblRemarks.Size = new System.Drawing.Size(50, 14);
 			this.lblRemarks.TabIndex = 4;
@@ -113,7 +113,7 @@ namespace Xtreme
 			this.lblTransactionNumber.Text = "Transaction Number";
 			this.lblTransactionNumber.ForeColor = System.Drawing.Color.Black;
 			this.lblTransactionNumber.Location = new System.Drawing.Point(8, 53);
-			// this.lblTransactionNumber.mLabelId = 1017;
+			// // this.lblTransactionNumber.mLabelId = 1017;
 			this.lblTransactionNumber.Name = "lblTransactionNumber";
 			this.lblTransactionNumber.Size = new System.Drawing.Size(97, 14);
 			this.lblTransactionNumber.TabIndex = 5;
@@ -249,4 +249,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

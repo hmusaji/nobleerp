@@ -48,10 +48,10 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtNTicketInDigit;
 		public System.Windows.Forms.TextBox txtATicketTypeName;
 		public System.Windows.Forms.TextBox txtLTicketTypeName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
-		public System.Windows.Forms.Label System.Windows.Forms.Label5;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.LabelLabel5;
 		public System.Windows.Forms.TextBox txtTicketTypeCode;
 		public System.Windows.Forms.Label lblEarBillName;
 		public System.Windows.Forms.TextBox txtEarBillNo;
@@ -71,10 +71,10 @@ namespace Xtreme
 			this.txtNTicketInDigit = new System.Windows.Forms.TextBox();
 			this.txtATicketTypeName = new System.Windows.Forms.TextBox();
 			this.txtLTicketTypeName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label5 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
+			this.Label5 = new System.Windows.Forms.Label();
 			this.txtTicketTypeCode = new System.Windows.Forms.TextBox();
 			this.lblEarBillName = new System.Windows.Forms.Label();
 			this.txtEarBillNo = new System.Windows.Forms.TextBox();
@@ -124,47 +124,47 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Ticket Type Name (ENG)";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 89);
-			this.System.Windows.Forms.Label1.mLabelId = 2094;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(117, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 0;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Ticket Type Name (ENG)";
+			this.Label1.Location = new System.Drawing.Point(8, 89);
+			// this.Label1.mLabelId = 2094;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(117, 14);
+			this.Label1.TabIndex = 0;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Ticket Type Name (ARB) ";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(8, 112);
-			this.System.Windows.Forms.Label2.mLabelId = 2095;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(121, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 7;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Ticket Type Name (ARB) ";
+			this.Label2.Location = new System.Drawing.Point(8, 112);
+			// this.Label2.mLabelId = 2095;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(121, 14);
+			this.Label2.TabIndex = 7;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label3.Caption = "Ticket Type Name ENG ";
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(4, 181);
-			this.System.Windows.Forms.Label3.mLabelId = 2096;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(112, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 8;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label3.Text = "Ticket Type Name ENG ";
+			this.Label3.Location = new System.Drawing.Point(4, 181);
+			// this.Label3.mLabelId = 2096;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(112, 14);
+			this.Label3.TabIndex = 8;
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.System.Windows.Forms.Label5.AllowDrop = true;
-			this.System.Windows.Forms.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label5.Caption = "Ticket Type Code";
-			this.System.Windows.Forms.Label5.Location = new System.Drawing.Point(8, 65);
-			this.System.Windows.Forms.Label5.mLabelId = 2093;
-			this.System.Windows.Forms.Label5.Name = "System.Windows.Forms.Label5";
-			this.System.Windows.Forms.Label5.Size = new System.Drawing.Size(83, 14);
-			this.System.Windows.Forms.Label5.TabIndex = 9;
+			this.Label5.AllowDrop = true;
+			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label5.Text = "Ticket Type Code";
+			this.Label5.Location = new System.Drawing.Point(8, 65);
+			// this.Label5.mLabelId = 2093;
+			this.Label5.Name = "System.Windows.Forms.Label5";
+			this.Label5.Size = new System.Drawing.Size(83, 14);
+			this.Label5.TabIndex = 9;
 			// 
 			// txtTicketTypeCode
 			// 
@@ -187,7 +187,7 @@ namespace Xtreme
 			this.lblEarBillName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblEarBillName.Text = "Earning Bill Code";
 			this.lblEarBillName.Location = new System.Drawing.Point(8, 134);
-			// this.lblEarBillName.mLabelId = 1995;
+			// // this.lblEarBillName.mLabelId = 1995;
 			this.lblEarBillName.Name = "lblEarBillName";
 			this.lblEarBillName.Size = new System.Drawing.Size(80, 14);
 			this.lblEarBillName.TabIndex = 10;
@@ -225,7 +225,7 @@ namespace Xtreme
 			this.lblDedBillName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDedBillName.Text = "Deduction Bill Code";
 			this.lblDedBillName.Location = new System.Drawing.Point(8, 156);
-			// this.lblDedBillName.mLabelId = 1997;
+			// // this.lblDedBillName.mLabelId = 1997;
 			this.lblDedBillName.Name = "lblDedBillName";
 			this.lblDedBillName.Size = new System.Drawing.Size(92, 14);
 			this.lblDedBillName.TabIndex = 12;
@@ -268,10 +268,10 @@ namespace Xtreme
 			this.Controls.Add(this.txtNTicketInDigit);
 			this.Controls.Add(this.txtATicketTypeName);
 			this.Controls.Add(this.txtLTicketTypeName);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
-			this.Controls.Add(this.System.Windows.Forms.Label5);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label3);
+			this.Controls.Add(this.Label5);
 			this.Controls.Add(this.txtTicketTypeCode);
 			this.Controls.Add(this.lblEarBillName);
 			this.Controls.Add(this.txtEarBillNo);
@@ -306,4 +306,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

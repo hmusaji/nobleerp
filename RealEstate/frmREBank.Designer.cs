@@ -50,13 +50,13 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		public System.Windows.Forms.Label lblAssetsCode;
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
-		public System.Windows.Forms.Label System.Windows.Forms.Label4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.LabelLabel1;
 		private System.Windows.Forms.TextBox _txtCommon_5;
 		private System.Windows.Forms.TextBox _txtCommon_3;
 		private System.Windows.Forms.TextBox _txtCommon_4;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label3;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel3;
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[6];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -72,13 +72,13 @@ namespace Xtreme
 			this._txtCommon_2 = new System.Windows.Forms.TextBox();
 			this.lblAssetsCode = new System.Windows.Forms.Label();
 			this.lblAssetsAdjustmentNo = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label4 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label4 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this._txtCommon_5 = new System.Windows.Forms.TextBox();
 			this._txtCommon_3 = new System.Windows.Forms.TextBox();
 			this._txtCommon_4 = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label3 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label3 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// _txtCommon_0
@@ -133,7 +133,7 @@ namespace Xtreme
 			this.lblAssetsCode.Text = "Bank Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsCode.Location = new System.Drawing.Point(8, 116);
-			// this.lblAssetsCode.mLabelId = 1153;
+			// // this.lblAssetsCode.mLabelId = 1153;
 			this.lblAssetsCode.Name = "lblAssetsCode";
 			this.lblAssetsCode.Size = new System.Drawing.Size(99, 14);
 			this.lblAssetsCode.TabIndex = 6;
@@ -145,34 +145,34 @@ namespace Xtreme
 			this.lblAssetsAdjustmentNo.Text = "Bank Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
 			this.lblAssetsAdjustmentNo.Location = new System.Drawing.Point(8, 53);
-			// this.lblAssetsAdjustmentNo.mLabelId = 1151;
+			// // this.lblAssetsAdjustmentNo.mLabelId = 1151;
 			this.lblAssetsAdjustmentNo.Name = "lblAssetsAdjustmentNo";
 			this.lblAssetsAdjustmentNo.Size = new System.Drawing.Size(52, 14);
 			this.lblAssetsAdjustmentNo.TabIndex = 7;
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.System.Windows.Forms.Label4.AllowDrop = true;
-			this.System.Windows.Forms.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label4.Caption = "Bank Name (Arabic)";
-			this.System.Windows.Forms.Label4.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label4.Location = new System.Drawing.Point(8, 137);
-			this.System.Windows.Forms.Label4.mLabelId = 1154;
-			this.System.Windows.Forms.Label4.Name = "System.Windows.Forms.Label4";
-			this.System.Windows.Forms.Label4.Size = new System.Drawing.Size(97, 14);
-			this.System.Windows.Forms.Label4.TabIndex = 8;
+			this.Label4.AllowDrop = true;
+			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label4.Text = "Bank Name (Arabic)";
+			this.Label4.ForeColor = System.Drawing.Color.Black;
+			this.Label4.Location = new System.Drawing.Point(8, 137);
+			// this.Label4.mLabelId = 1154;
+			this.Label4.Name = "System.Windows.Forms.Label4";
+			this.Label4.Size = new System.Drawing.Size(97, 14);
+			this.Label4.TabIndex = 8;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label1.Caption = "Comments";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(8, 155);
-			this.System.Windows.Forms.Label1.mLabelId = 135;
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(49, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 9;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label1.Text = "Comments";
+			this.Label1.ForeColor = System.Drawing.Color.Black;
+			this.Label1.Location = new System.Drawing.Point(8, 155);
+			// this.Label1.mLabelId = 135;
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(49, 13);
+			this.Label1.TabIndex = 9;
 			// 
 			// _txtCommon_5
 			// 
@@ -219,27 +219,27 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label2.Caption = "Short Name (English)";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(8, 74);
-			this.System.Windows.Forms.Label2.mLabelId = 1152;
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(101, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 10;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label2.Text = "Short Name (English)";
+			this.Label2.ForeColor = System.Drawing.Color.Black;
+			this.Label2.Location = new System.Drawing.Point(8, 74);
+			// this.Label2.mLabelId = 1152;
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(101, 14);
+			this.Label2.TabIndex = 10;
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.System.Windows.Forms.Label3.AllowDrop = true;
-			this.System.Windows.Forms.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
-			this.System.Windows.Forms.Label3.Caption = "Short Name (Arabic)";
-			this.System.Windows.Forms.Label3.ForeColor = System.Drawing.Color.Black;
-			this.System.Windows.Forms.Label3.Location = new System.Drawing.Point(8, 95);
-			this.System.Windows.Forms.Label3.mLabelId = 958;
-			this.System.Windows.Forms.Label3.Name = "System.Windows.Forms.Label3";
-			this.System.Windows.Forms.Label3.Size = new System.Drawing.Size(99, 14);
-			this.System.Windows.Forms.Label3.TabIndex = 11;
+			this.Label3.AllowDrop = true;
+			this.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
+			this.Label3.Text = "Short Name (Arabic)";
+			this.Label3.ForeColor = System.Drawing.Color.Black;
+			this.Label3.Location = new System.Drawing.Point(8, 95);
+			// this.Label3.mLabelId = 958;
+			this.Label3.Name = "System.Windows.Forms.Label3";
+			this.Label3.Size = new System.Drawing.Size(99, 14);
+			this.Label3.TabIndex = 11;
 			// 
 			// frmREBank
 			// 
@@ -254,13 +254,13 @@ namespace Xtreme
 			this.Controls.Add(this._txtCommon_2);
 			this.Controls.Add(this.lblAssetsCode);
 			this.Controls.Add(this.lblAssetsAdjustmentNo);
-			this.Controls.Add(this.System.Windows.Forms.Label4);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label4);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this._txtCommon_5);
 			this.Controls.Add(this._txtCommon_3);
 			this.Controls.Add(this._txtCommon_4);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label3);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label3);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmREBank.Icon");
 			this.KeyPreview = true;
 			this.Location = new System.Drawing.Point(104, 169);
@@ -298,4 +298,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

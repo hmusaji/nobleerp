@@ -44,7 +44,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtDisplayLabel_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_15;
 		public System.Windows.Forms.GroupBox fraPayments;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
@@ -71,7 +71,7 @@ namespace Xtreme
 			this.txtCCAmt = new System.Windows.Forms.TextBox();
 			this._txtDisplayLabel_3 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_15 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
@@ -179,15 +179,15 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.SystemColors.Window;
-			this.System.Windows.Forms.Label1.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
-			this.System.Windows.Forms.Label1.Caption = "Total No.";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(6, 226);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(42, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 4;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.SystemColors.Window;
+			this.Label1.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
+			this.Label1.Text = "Total No.";
+			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1.Location = new System.Drawing.Point(6, 226);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(42, 14);
+			this.Label1.TabIndex = 4;
 			// 
 			// grdVoucherDetails
 			// 
@@ -263,7 +263,7 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(1191, 644);
 			this.ControlBox = false;
 			this.Controls.Add(this.fraPayments);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.grdVoucherDetails);
 			this.Controls.Add(this.cmdOKCancel);
 			this.Controls.Add(this.cmbMasterList);
@@ -304,4 +304,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

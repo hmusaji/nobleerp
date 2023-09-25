@@ -47,8 +47,8 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.ComboBox cmbReports;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
+		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.LabelLabel2;
 		public System.Windows.Forms.Label lblToDate;
 		public System.Windows.Forms.Label lblFromDate;
 		private System.Windows.Forms.TextBox _txtcommontextbox_0;
@@ -68,8 +68,8 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.cmbReports = new System.Windows.Forms.ComboBox();
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
 			this.lblToDate = new System.Windows.Forms.Label();
 			this.lblFromDate = new System.Windows.Forms.Label();
 			this._txtcommontextbox_0 = new System.Windows.Forms.TextBox();
@@ -109,26 +109,26 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Employee Code";
-			this.System.Windows.Forms.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(4, 117);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(74, 14);
-			this.System.Windows.Forms.Label1.TabIndex = 0;
-			this.System.Windows.Forms.Label1.Visible = false;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Employee Code";
+			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1.Location = new System.Drawing.Point(4, 117);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(74, 14);
+			this.Label1.TabIndex = 0;
+			this.Label1.Visible = false;
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "Log For";
-			this.System.Windows.Forms.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(8, 43);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(37, 14);
-			this.System.Windows.Forms.Label2.TabIndex = 1;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "Log For";
+			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label2.Location = new System.Drawing.Point(8, 43);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(37, 14);
+			this.Label2.TabIndex = 1;
 			// 
 			// lblToDate
 			// 
@@ -180,7 +180,7 @@ namespace Xtreme
 			this.txtFromDate.Size = new System.Drawing.Size(229, 19);
 			this.txtFromDate.TabIndex = 7;
 			this.txtFromDate.Text = "18/07/2001";
-			this.txtFromDate.Value = 37090;
+			// this.txtFromDate.Value = 37090;
 			// 
 			// txtToDate
 			// 
@@ -193,7 +193,7 @@ namespace Xtreme
 			this.txtToDate.Size = new System.Drawing.Size(229, 19);
 			this.txtToDate.TabIndex = 8;
 			this.txtToDate.Text = "18/07/2001";
-			this.txtToDate.Value = 37090;
+			// this.txtToDate.Value = 37090;
 			// 
 			// cmdOKCancel
 			// 
@@ -216,8 +216,8 @@ namespace Xtreme
 			this.ClientSize = new System.Drawing.Size(321, 200);
 			this.Controls.Add(this.cmbReports);
 			this.Controls.Add(this._txtDisplayLabel_0);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
+			this.Controls.Add(this.Label1);
+			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.lblToDate);
 			this.Controls.Add(this.lblFromDate);
 			this.Controls.Add(this._txtcommontextbox_0);
@@ -262,4 +262,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

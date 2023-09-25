@@ -177,7 +177,7 @@ namespace Xtreme
 			this._lblCommon_0.Text = "C o n t r a c t  D e t a i l s ";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_0.Location = new System.Drawing.Point(4, 226);
-			// this._lblCommon_0.mLabelId = 1169;
+			// // this._lblCommon_0.mLabelId = 1169;
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(136, 13);
 			this._lblCommon_0.TabIndex = 2;
@@ -261,7 +261,7 @@ namespace Xtreme
 			this._lblCommon_1.Text = "List of Expired Contracts ";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._lblCommon_1.Location = new System.Drawing.Point(4, 10);
-			// this._lblCommon_1.mLabelId = 1168;
+			// // this._lblCommon_1.mLabelId = 1168;
 			this._lblCommon_1.Name = "_lblCommon_1";
 			this._lblCommon_1.Size = new System.Drawing.Size(140, 13);
 			this._lblCommon_1.TabIndex = 4;
@@ -333,4 +333,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

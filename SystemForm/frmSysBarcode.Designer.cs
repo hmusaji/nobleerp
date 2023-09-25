@@ -41,7 +41,7 @@ namespace Xtreme
 			theInstance.Show();
 			return theInstance;
 		}
-		//private string[] visualControls = new string[]{"components", "ToolTipMain", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "_cmbFields_3", "_lblCommon_7", "_cmbFields_2", "_cmbFields_1", "_lblCommon_6", "_lblCommon_5", "_lblCommon_4", "_cmbFields_0", "_Frame_1", "cmbReport", "chkPreview", "cmdSaveSetting", "cmbPrinter", "_txtCommon_0", "_System.Windows.Forms.Label1_0", "_System.Windows.Forms.Label1_2", "_txtCommon_10", "_txtFlex_1", "_System.Windows.Forms.Label1_1", "_System.Windows.Forms.Label_3", "_txtFlex_2", "_txtFlex_3", "_txtFlexDisplay_1", "_txtFlexDisplay_2", "_txtFlexDisplay_3", "frmFlex", "_txtCommonDisplay_0", "cmdBulkPrint", "_System.Windows.Forms.Label_0", "lblCompany", "_System.Windows.Forms.Label_1", "_txtCommon_4", "_txtCommon_5", "_txtCommonDisplay_1", "_Frame_0", "_lblCommon_0", "_lblCommon_1", "_lblCommon_2", "_lblCommon_3", "Picture1", "_txtCommon_1", "_txtCommon_2", "_txtCommon_3", "Column_0_cmbMastersList", "Column_1_cmbMastersList", "cmbMastersList", "_txtCommon_6", "_lblCommon_8", "_lblCommon_9", "_lblCommon_10", "_lblCommon_11", "_txtCommon_7", "_txtCommon_8", "_txtCommon_9", "txtTempDate", "Label1", "lblPrinter", "Frame", "System.Windows.Forms.Label", "System.Windows.Forms.Label1", "cmbFields", "lblCommon", "txtCommon", "txtCommonDisplay", "txtFlex", "txtFlexDisplay"};
+		//private string[] visualControls = new string[]{"components", "ToolTipMain", "Column_0_grdVoucherDetails", "Column_1_grdVoucherDetails", "grdVoucherDetails", "_cmbFields_3", "_lblCommon_7", "_cmbFields_2", "_cmbFields_1", "_lblCommon_6", "_lblCommon_5", "_lblCommon_4", "_cmbFields_0", "_Frame_1", "cmbReport", "chkPreview", "cmdSaveSetting", "cmbPrinter", "_txtCommon_0", "Label1_0", "Label1_2", "_txtCommon_10", "_txtFlex_1", "Label1_1", "Label_3", "_txtFlex_2", "_txtFlex_3", "_txtFlexDisplay_1", "_txtFlexDisplay_2", "_txtFlexDisplay_3", "frmFlex", "_txtCommonDisplay_0", "cmdBulkPrint", "Label_0", "lblCompany", "Label_1", "_txtCommon_4", "_txtCommon_5", "_txtCommonDisplay_1", "_Frame_0", "_lblCommon_0", "_lblCommon_1", "_lblCommon_2", "_lblCommon_3", "Picture1", "_txtCommon_1", "_txtCommon_2", "_txtCommon_3", "Column_0_cmbMastersList", "Column_1_cmbMastersList", "cmbMastersList", "_txtCommon_6", "_lblCommon_8", "_lblCommon_9", "_lblCommon_10", "_lblCommon_11", "_txtCommon_7", "_txtCommon_8", "_txtCommon_9", "txtTempDate", "Label1", "lblPrinter", "Frame", "System.Windows.Forms.Label", "System.Windows.Forms.Label1", "cmbFields", "lblCommon", "txtCommon", "txtCommonDisplay", "txtFlex", "txtFlexDisplay"};
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
@@ -62,12 +62,12 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdSaveSetting;
 		public System.Windows.Forms.ComboBox cmbPrinter;
 		private System.Windows.Forms.TextBox _txtCommon_0;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_0;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_2;
+		private System.Windows.Forms.Label Label1_0;
+		private System.Windows.Forms.Label Label1_2;
 		private System.Windows.Forms.TextBox _txtCommon_10;
 		private System.Windows.Forms.TextBox _txtFlex_1;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label1_1;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_3;
+		private System.Windows.Forms.Label Label1_1;
+		private System.Windows.Forms.Label Label_3;
 		private System.Windows.Forms.TextBox _txtFlex_2;
 		private System.Windows.Forms.TextBox _txtFlex_3;
 		private System.Windows.Forms.Label _txtFlexDisplay_1;
@@ -76,9 +76,9 @@ namespace Xtreme
 		public System.Windows.Forms.Panel frmFlex;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
 		public System.Windows.Forms.Button cmdBulkPrint;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_0;
+		private System.Windows.Forms.Label Label_0;
 		public System.Windows.Forms.Label lblCompany;
-		private System.Windows.Forms.Label _System.Windows.Forms.Label_1;
+		private System.Windows.Forms.Label Label_1;
 		private System.Windows.Forms.TextBox _txtCommon_4;
 		private System.Windows.Forms.TextBox _txtCommon_5;
 		private System.Windows.Forms.Label _txtCommonDisplay_1;
@@ -106,8 +106,8 @@ namespace Xtreme
 		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label lblPrinter;
 		public System.Windows.Forms.GroupBox[] Frame = new System.Windows.Forms.GroupBox[2];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label = new System.Windows.Forms.Label[4];
-		public System.Windows.Forms.Label[] System.Windows.Forms.Label1 = new System.Windows.Forms.Label[3];
+		public System.Windows.Forms.Label[] Label = new System.Windows.Forms.Label[4];
+		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[3];
 		public System.Windows.Forms.ComboBox[] cmbFields = new System.Windows.Forms.ComboBox[4];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[12];
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[11];
@@ -142,12 +142,12 @@ namespace Xtreme
 			this._txtCommon_0 = new System.Windows.Forms.TextBox();
 			this._Frame_0 = new System.Windows.Forms.GroupBox();
 			this.frmFlex = new System.Windows.Forms.Panel();
-			this._System.Windows.Forms.Label1_0 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label1_2 = new System.Windows.Forms.Label();
+			this.Label1_0 = new System.Windows.Forms.Label();
+			this.Label1_2 = new System.Windows.Forms.Label();
 			this._txtCommon_10 = new System.Windows.Forms.TextBox();
 			this._txtFlex_1 = new System.Windows.Forms.TextBox();
-			this._System.Windows.Forms.Label1_1 = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_3 = new System.Windows.Forms.Label();
+			this.Label1_1 = new System.Windows.Forms.Label();
+			this.Label_3 = new System.Windows.Forms.Label();
 			this._txtFlex_2 = new System.Windows.Forms.TextBox();
 			this._txtFlex_3 = new System.Windows.Forms.TextBox();
 			this._txtFlexDisplay_1 = new System.Windows.Forms.Label();
@@ -155,9 +155,9 @@ namespace Xtreme
 			this._txtFlexDisplay_3 = new System.Windows.Forms.Label();
 			this._txtCommonDisplay_0 = new System.Windows.Forms.Label();
 			this.cmdBulkPrint = new System.Windows.Forms.Button();
-			this._System.Windows.Forms.Label_0 = new System.Windows.Forms.Label();
+			this.Label_0 = new System.Windows.Forms.Label();
 			this.lblCompany = new System.Windows.Forms.Label();
-			this._System.Windows.Forms.Label_1 = new System.Windows.Forms.Label();
+			this.Label_1 = new System.Windows.Forms.Label();
 			this._txtCommon_4 = new System.Windows.Forms.TextBox();
 			this._txtCommon_5 = new System.Windows.Forms.TextBox();
 			this._txtCommonDisplay_1 = new System.Windows.Forms.Label();
@@ -409,9 +409,9 @@ namespace Xtreme
 			this._Frame_0.Controls.Add(this.frmFlex);
 			this._Frame_0.Controls.Add(this._txtCommonDisplay_0);
 			this._Frame_0.Controls.Add(this.cmdBulkPrint);
-			this._Frame_0.Controls.Add(this._System.Windows.Forms.Label_0);
+			this._Frame_0.Controls.Add(this.Label_0);
 			this._Frame_0.Controls.Add(this.lblCompany);
-			this._Frame_0.Controls.Add(this._System.Windows.Forms.Label_1);
+			this._Frame_0.Controls.Add(this.Label_1);
 			this._Frame_0.Controls.Add(this._txtCommon_4);
 			this._Frame_0.Controls.Add(this._txtCommon_5);
 			this._Frame_0.Controls.Add(this._txtCommonDisplay_1);
@@ -429,12 +429,12 @@ namespace Xtreme
 			this.frmFlex.AllowDrop = true;
 			this.frmFlex.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.frmFlex.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.frmFlex.Controls.Add(this._System.Windows.Forms.Label1_0);
-			this.frmFlex.Controls.Add(this._System.Windows.Forms.Label1_2);
+			this.frmFlex.Controls.Add(this.Label1_0);
+			this.frmFlex.Controls.Add(this.Label1_2);
 			this.frmFlex.Controls.Add(this._txtCommon_10);
 			this.frmFlex.Controls.Add(this._txtFlex_1);
-			this.frmFlex.Controls.Add(this._System.Windows.Forms.Label1_1);
-			this.frmFlex.Controls.Add(this._System.Windows.Forms.Label_3);
+			this.frmFlex.Controls.Add(this.Label1_1);
+			this.frmFlex.Controls.Add(this.Label_3);
 			this.frmFlex.Controls.Add(this._txtFlex_2);
 			this.frmFlex.Controls.Add(this._txtFlex_3);
 			this.frmFlex.Controls.Add(this._txtFlexDisplay_1);
@@ -449,29 +449,29 @@ namespace Xtreme
 			this.frmFlex.TabIndex = 33;
 			this.frmFlex.Visible = false;
 			// 
-			// _System.Windows.Forms.Label1_0
+			// Label1_0
 			// 
-			this._System.Windows.Forms.Label1_0.AllowDrop = true;
-			this._System.Windows.Forms.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_0.Caption = "Style No";
-			this._System.Windows.Forms.Label1_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_0.Location = new System.Drawing.Point(4, 2);
-			this._System.Windows.Forms.Label1_0.mLabelId = 765;
-			this._System.Windows.Forms.Label1_0.Name = "_System.Windows.Forms.Label1_0";
-			this._System.Windows.Forms.Label1_0.Size = new System.Drawing.Size(40, 14);
-			this._System.Windows.Forms.Label1_0.TabIndex = 34;
+			this.Label1_0.AllowDrop = true;
+			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_0.Text = "Style No";
+			this.Label1_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_0.Location = new System.Drawing.Point(4, 2);
+			// this.Label1_0.mLabelId = 765;
+			this.Label1_0.Name = "Label1_0";
+			this.Label1_0.Size = new System.Drawing.Size(40, 14);
+			this.Label1_0.TabIndex = 34;
 			// 
-			// _System.Windows.Forms.Label1_2
+			// Label1_2
 			// 
-			this._System.Windows.Forms.Label1_2.AllowDrop = true;
-			this._System.Windows.Forms.Label1_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_2.Caption = "Flex 1";
-			this._System.Windows.Forms.Label1_2.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_2.Location = new System.Drawing.Point(4, 22);
-			this._System.Windows.Forms.Label1_2.mLabelId = 2014;
-			this._System.Windows.Forms.Label1_2.Name = "_System.Windows.Forms.Label1_2";
-			this._System.Windows.Forms.Label1_2.Size = new System.Drawing.Size(29, 14);
-			this._System.Windows.Forms.Label1_2.TabIndex = 35;
+			this.Label1_2.AllowDrop = true;
+			this.Label1_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_2.Text = "Flex 1";
+			this.Label1_2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_2.Location = new System.Drawing.Point(4, 22);
+			// this.Label1_2.mLabelId = 2014;
+			this.Label1_2.Name = "Label1_2";
+			this.Label1_2.Size = new System.Drawing.Size(29, 14);
+			this.Label1_2.TabIndex = 35;
 			// 
 			// _txtCommon_10
 			// 
@@ -506,29 +506,29 @@ namespace Xtreme
 			// this.this._txtFlex_1.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtFlex_DropButtonClick);
 			// this._txtFlex_1.Leave += new System.EventHandler(this.txtFlex_Leave);
 			// 
-			// _System.Windows.Forms.Label1_1
+			// Label1_1
 			// 
-			this._System.Windows.Forms.Label1_1.AllowDrop = true;
-			this._System.Windows.Forms.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label1_1.Caption = "Flex 2";
-			this._System.Windows.Forms.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label1_1.Location = new System.Drawing.Point(4, 42);
-			this._System.Windows.Forms.Label1_1.mLabelId = 2015;
-			this._System.Windows.Forms.Label1_1.Name = "_System.Windows.Forms.Label1_1";
-			this._System.Windows.Forms.Label1_1.Size = new System.Drawing.Size(29, 14);
-			this._System.Windows.Forms.Label1_1.TabIndex = 38;
+			this.Label1_1.AllowDrop = true;
+			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1_1.Text = "Flex 2";
+			this.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label1_1.Location = new System.Drawing.Point(4, 42);
+			// this.Label1_1.mLabelId = 2015;
+			this.Label1_1.Name = "Label1_1";
+			this.Label1_1.Size = new System.Drawing.Size(29, 14);
+			this.Label1_1.TabIndex = 38;
 			// 
-			// _System.Windows.Forms.Label_3
+			// Label_3
 			// 
-			this._System.Windows.Forms.Label_3.AllowDrop = true;
-			this._System.Windows.Forms.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_3.Caption = "Flex 3";
-			this._System.Windows.Forms.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_3.Location = new System.Drawing.Point(4, 62);
-			this._System.Windows.Forms.Label_3.mLabelId = 2016;
-			this._System.Windows.Forms.Label_3.Name = "_System.Windows.Forms.Label_3";
-			this._System.Windows.Forms.Label_3.Size = new System.Drawing.Size(29, 14);
-			this._System.Windows.Forms.Label_3.TabIndex = 39;
+			this.Label_3.AllowDrop = true;
+			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_3.Text = "Flex 3";
+			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_3.Location = new System.Drawing.Point(4, 62);
+			// this.Label_3.mLabelId = 2016;
+			this.Label_3.Name = "Label_3";
+			this.Label_3.Size = new System.Drawing.Size(29, 14);
+			this.Label_3.TabIndex = 39;
 			// 
 			// _txtFlex_2
 			// 
@@ -613,16 +613,16 @@ namespace Xtreme
 			this.cmdBulkPrint.UseVisualStyleBackColor = false;
 			// this.cmdBulkPrint.Click += new System.EventHandler(this.cmdBulkPrint_Click);
 			// 
-			// _System.Windows.Forms.Label_0
+			// Label_0
 			// 
-			this._System.Windows.Forms.Label_0.AllowDrop = true;
-			this._System.Windows.Forms.Label_0.BackColor = System.Drawing.SystemColors.Window;
-			this._System.Windows.Forms.Label_0.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
-			this._System.Windows.Forms.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_0.Location = new System.Drawing.Point(12, 44);
-			this._System.Windows.Forms.Label_0.Name = "_System.Windows.Forms.Label_0";
-			this._System.Windows.Forms.Label_0.Size = new System.Drawing.Size(3, 14);
-			this._System.Windows.Forms.Label_0.TabIndex = 6;
+			this.Label_0.AllowDrop = true;
+			this.Label_0.BackColor = System.Drawing.SystemColors.Window;
+			this.Label_0.BackStyle = VSReport8Lib.BackStyleSettings.vsrTransparent;
+			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_0.Location = new System.Drawing.Point(12, 44);
+			this.Label_0.Name = "Label_0";
+			this.Label_0.Size = new System.Drawing.Size(3, 14);
+			this.Label_0.TabIndex = 6;
 			// 
 			// lblCompany
 			// 
@@ -635,16 +635,16 @@ namespace Xtreme
 			this.lblCompany.Size = new System.Drawing.Size(46, 14);
 			this.lblCompany.TabIndex = 5;
 			// 
-			// _System.Windows.Forms.Label_1
+			// Label_1
 			// 
-			this._System.Windows.Forms.Label_1.AllowDrop = true;
-			this._System.Windows.Forms.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._System.Windows.Forms.Label_1.Caption = "To Item";
-			this._System.Windows.Forms.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this._System.Windows.Forms.Label_1.Location = new System.Drawing.Point(10, 34);
-			this._System.Windows.Forms.Label_1.Name = "_System.Windows.Forms.Label_1";
-			this._System.Windows.Forms.Label_1.Size = new System.Drawing.Size(34, 14);
-			this._System.Windows.Forms.Label_1.TabIndex = 7;
+			this.Label_1.AllowDrop = true;
+			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label_1.Text = "To Item";
+			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.Label_1.Location = new System.Drawing.Point(10, 34);
+			this.Label_1.Name = "Label_1";
+			this.Label_1.Size = new System.Drawing.Size(34, 14);
+			this.Label_1.TabIndex = 7;
 			// 
 			// _txtCommon_4
 			// 
@@ -851,7 +851,7 @@ namespace Xtreme
 			this._lblCommon_8.Text = "Custom Field 1";
 			this._lblCommon_8.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_8.Location = new System.Drawing.Point(302, 178);
-			// this._lblCommon_8.mLabelId = 2185;
+			// // this._lblCommon_8.mLabelId = 2185;
 			this._lblCommon_8.Name = "_lblCommon_8";
 			this._lblCommon_8.Size = new System.Drawing.Size(70, 14);
 			this._lblCommon_8.TabIndex = 25;
@@ -864,7 +864,7 @@ namespace Xtreme
 			this._lblCommon_9.Text = "Custom Field 2";
 			this._lblCommon_9.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_9.Location = new System.Drawing.Point(302, 202);
-			// this._lblCommon_9.mLabelId = 2186;
+			// // this._lblCommon_9.mLabelId = 2186;
 			this._lblCommon_9.Name = "_lblCommon_9";
 			this._lblCommon_9.Size = new System.Drawing.Size(70, 14);
 			this._lblCommon_9.TabIndex = 26;
@@ -877,7 +877,7 @@ namespace Xtreme
 			this._lblCommon_10.Text = "Custom Field 3";
 			this._lblCommon_10.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_10.Location = new System.Drawing.Point(302, 226);
-			// this._lblCommon_10.mLabelId = 2187;
+			// // this._lblCommon_10.mLabelId = 2187;
 			this._lblCommon_10.Name = "_lblCommon_10";
 			this._lblCommon_10.Size = new System.Drawing.Size(70, 14);
 			this._lblCommon_10.TabIndex = 27;
@@ -890,7 +890,7 @@ namespace Xtreme
 			this._lblCommon_11.Text = "Custom Field 1";
 			this._lblCommon_11.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._lblCommon_11.Location = new System.Drawing.Point(302, 250);
-			// this._lblCommon_11.mLabelId = 2188;
+			// // this._lblCommon_11.mLabelId = 2188;
 			this._lblCommon_11.Name = "_lblCommon_11";
 			this._lblCommon_11.Size = new System.Drawing.Size(70, 14);
 			this._lblCommon_11.TabIndex = 28;
@@ -1121,17 +1121,17 @@ namespace Xtreme
 		}
 		void InitializeSystem.Windows.Forms.Label1()
 		{
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label[3];
-			this.System.Windows.Forms.Label1[0] = _System.Windows.Forms.Label1_0;
-			this.System.Windows.Forms.Label1[2] = _System.Windows.Forms.Label1_2;
-			this.System.Windows.Forms.Label1[1] = _System.Windows.Forms.Label1_1;
+			this.Label1 = new System.Windows.Forms.Label[3];
+			this.Label1[0] = Label1_0;
+			this.Label1[2] = Label1_2;
+			this.Label1[1] = Label1_1;
 		}
 		void InitializeSystem.Windows.Forms.Label()
 		{
-			this.System.Windows.Forms.Label = new System.Windows.Forms.Label[4];
-			this.System.Windows.Forms.Label[3] = _System.Windows.Forms.Label_3;
-			this.System.Windows.Forms.Label[0] = _System.Windows.Forms.Label_0;
-			this.System.Windows.Forms.Label[1] = _System.Windows.Forms.Label_1;
+			this.Label = new System.Windows.Forms.Label[4];
+			this.Label[3] = Label_3;
+			this.Label[0] = Label_0;
+			this.Label[1] = Label_1;
 		}
 		void InitializeFrame()
 		{
@@ -1141,4 +1141,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE

@@ -55,8 +55,8 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLBudgetName;
 		public System.Windows.Forms.Label lblACategoryName;
 		public System.Windows.Forms.TextBox txtABudgetName;
-		public System.Windows.Forms.Label System.Windows.Forms.Label2;
-		public System.Windows.Forms.Label System.Windows.Forms.Label1;
+		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.LabelLabel1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEndDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		public System.Windows.Forms.Label lblComments;
@@ -79,8 +79,8 @@ namespace Xtreme
 			this.txtLBudgetName = new System.Windows.Forms.TextBox();
 			this.lblACategoryName = new System.Windows.Forms.Label();
 			this.txtABudgetName = new System.Windows.Forms.TextBox();
-			this.System.Windows.Forms.Label2 = new System.Windows.Forms.Label();
-			this.System.Windows.Forms.Label1 = new System.Windows.Forms.Label();
+			this.Label2 = new System.Windows.Forms.Label();
+			this.Label1 = new System.Windows.Forms.Label();
 			this.txtEndDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtStartDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.lblComments = new System.Windows.Forms.Label();
@@ -224,23 +224,23 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.System.Windows.Forms.Label2.AllowDrop = true;
-			this.System.Windows.Forms.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label2.Caption = "End Date";
-			this.System.Windows.Forms.Label2.Location = new System.Drawing.Point(10, 168);
-			this.System.Windows.Forms.Label2.Name = "System.Windows.Forms.Label2";
-			this.System.Windows.Forms.Label2.Size = new System.Drawing.Size(44, 13);
-			this.System.Windows.Forms.Label2.TabIndex = 12;
+			this.Label2.AllowDrop = true;
+			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label2.Text = "End Date";
+			this.Label2.Location = new System.Drawing.Point(10, 168);
+			this.Label2.Name = "System.Windows.Forms.Label2";
+			this.Label2.Size = new System.Drawing.Size(44, 13);
+			this.Label2.TabIndex = 12;
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.System.Windows.Forms.Label1.AllowDrop = true;
-			this.System.Windows.Forms.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.System.Windows.Forms.Label1.Caption = "Start Date";
-			this.System.Windows.Forms.Label1.Location = new System.Drawing.Point(10, 147);
-			this.System.Windows.Forms.Label1.Name = "System.Windows.Forms.Label1";
-			this.System.Windows.Forms.Label1.Size = new System.Drawing.Size(50, 13);
-			this.System.Windows.Forms.Label1.TabIndex = 13;
+			this.Label1.AllowDrop = true;
+			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			this.Label1.Text = "Start Date";
+			this.Label1.Location = new System.Drawing.Point(10, 147);
+			this.Label1.Name = "System.Windows.Forms.Label1";
+			this.Label1.Size = new System.Drawing.Size(50, 13);
+			this.Label1.TabIndex = 13;
 			// 
 			// txtEndDate
 			// 
@@ -253,7 +253,7 @@ namespace Xtreme
 			this.txtEndDate.Size = new System.Drawing.Size(113, 19);
 			this.txtEndDate.TabIndex = 4;
 			this.txtEndDate.Text = "13/02/2012";
-			this.txtEndDate.Value = 40952;
+			// this.txtEndDate.Value = 40952;
 			// 
 			// txtStartDate
 			// 
@@ -266,7 +266,7 @@ namespace Xtreme
 			this.txtStartDate.Size = new System.Drawing.Size(113, 19);
 			this.txtStartDate.TabIndex = 3;
 			this.txtStartDate.Text = "01/01/2011";
-			this.txtStartDate.Value = 40544;
+			// this.txtStartDate.Value = 40544;
 			// 
 			// lblComments
 			// 
@@ -274,7 +274,7 @@ namespace Xtreme
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(10, 219);
-			// this.lblComments.mLabelId = 1851;
+			// // this.lblComments.mLabelId = 1851;
 			this.lblComments.Name = "lblComments";
 			this.lblComments.Size = new System.Drawing.Size(44, 14);
 			this.lblComments.TabIndex = 14;
@@ -297,8 +297,8 @@ namespace Xtreme
 			this.Controls.Add(this.txtLBudgetName);
 			this.Controls.Add(this.lblACategoryName);
 			this.Controls.Add(this.txtABudgetName);
-			this.Controls.Add(this.System.Windows.Forms.Label2);
-			this.Controls.Add(this.System.Windows.Forms.Label1);
+			this.Controls.Add(this.Label2);
+			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.txtEndDate);
 			this.Controls.Add(this.txtStartDate);
 			this.Controls.Add(this.lblComments);
@@ -329,4 +329,4 @@ namespace Xtreme
 		}
 		#endregion
 	}
-}
+}//ENDSHERE
