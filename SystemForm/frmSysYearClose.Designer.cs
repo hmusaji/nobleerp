@@ -62,7 +62,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _Line1_1;
 		private System.Windows.Forms.Label _Line1_2;
 		public System.Windows.Forms.Label lblNoticeText;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		private System.Windows.Forms.Label _lblCommon_0;
 		private System.Windows.Forms.Label _lblCommon_2;
 		private System.Windows.Forms.Label _lblCommon_3;
@@ -88,7 +88,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysYearClose));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this._lblCommon_1 = new System.Windows.Forms.Label();
 			this._lblCommon_4 = new System.Windows.Forms.Label();
 			this._lblCommon_5 = new System.Windows.Forms.Label();

@@ -89,7 +89,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		private System.Windows.Forms.Label _lblSystemComponents_1;
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		private System.Windows.Forms.Label _txtDisplayLabel_6;
@@ -112,7 +112,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayEmployeeLeave));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.Label1 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_7 = new System.Windows.Forms.Label();
 			this.fraFixedLeaveInfo = new System.Windows.Forms.GroupBox();

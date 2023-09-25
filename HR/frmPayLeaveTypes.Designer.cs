@@ -75,7 +75,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox3;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox4;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox5;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -94,7 +94,7 @@ namespace Xtreme
 			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
 			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
 			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.TextBox2 = new System.Windows.Forms.TextBox();
 			this.TextBox1 = new System.Windows.Forms.TextBox();
 			this.ComboBox1 = new System.Windows.Forms.ComboBox();

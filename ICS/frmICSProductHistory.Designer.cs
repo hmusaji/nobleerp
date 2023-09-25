@@ -50,7 +50,7 @@ namespace Xtreme
 		public System.Windows.Forms.CheckBox chkBeginWith;
 		public System.Windows.Forms.CheckBox chkIncludeParent;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdTransactionDetails;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		private System.Windows.Forms.Label _lblCommon_22;
 		private System.Windows.Forms.Label _lblCommon_6;
 		private System.Windows.Forms.Label _lblCommon_0;
@@ -91,7 +91,7 @@ namespace Xtreme
 			this.cmdGetProductHistory = new System.Windows.Forms.Button();
 			this.chkBeginWith = new System.Windows.Forms.CheckBox();
 			this.chkIncludeParent = new System.Windows.Forms.CheckBox();
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.grdTransactionDetails = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this._lblCommon_22 = new System.Windows.Forms.Label();
 			this._lblCommon_6 = new System.Windows.Forms.Label();

@@ -68,7 +68,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtVoucherDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		private System.Windows.Forms.Label _txtCommonDisplay_1;
-		public AxTDBContainer3D6.AxTDBContainer3D fraTabPage0;
+		public System.Windows.Forms.Panel fraTabPage0;
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[11];
 		public System.Windows.Forms.Label[] txtCommonDisplay = new System.Windows.Forms.Label[2];
 		public System.Windows.Forms.TextBox[] txtCommonTextBox = new System.Windows.Forms.TextBox[6];
@@ -82,7 +82,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmREMaintenance));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
-			this.fraTabPage0 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraTabPage0 = new System.Windows.Forms.Panel();
 			this._lblCommon_0 = new System.Windows.Forms.Label();
 			this._lblCommon_1 = new System.Windows.Forms.Label();
 			this._lblCommon_4 = new System.Windows.Forms.Label();

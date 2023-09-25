@@ -65,7 +65,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_2;
-		public AxTDBContainer3D6.AxTDBContainer3D fraTabPage0;
+		public System.Windows.Forms.Panel fraTabPage0;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[13];
 		public System.Windows.Forms.TextBox[] txtCommonTextBox = new System.Windows.Forms.TextBox[12];
 		public System.Windows.Forms.Label[] txtDisplayLabel = new System.Windows.Forms.Label[3];
@@ -84,7 +84,7 @@ namespace Xtreme
 			this._txtCommonTextBox_11 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_9 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_12 = new System.Windows.Forms.Label();
-			this.fraTabPage0 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraTabPage0 = new System.Windows.Forms.Panel();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_5 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_6 = new System.Windows.Forms.Label();

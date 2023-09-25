@@ -72,7 +72,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
 		private System.Windows.Forms.Label _lblCommon_11;
 		private System.Windows.Forms.TextBox _txtCommonNumber_1;
-		public AxTDBContainer3D6.AxTDBContainer3D fraTabPage0;
+		public System.Windows.Forms.Panel fraTabPage0;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdContractDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbCommon;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbCommon;
@@ -93,7 +93,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmREContract));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.txtRemarks = new System.Windows.Forms.TextBox();
-			this.fraTabPage0 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraTabPage0 = new System.Windows.Forms.Panel();
 			this._txtCommonNumber_0 = new System.Windows.Forms.TextBox();
 			this._lblCommon_5 = new System.Windows.Forms.Label();
 			this._txtCommonDate_0 = new Syncfusion.WinForms.Input.SfDateTimeEdit();

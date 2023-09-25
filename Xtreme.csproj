@@ -1704,6 +1704,12 @@
     <Compile Include="tset.Designer.cs">
       <DependentUpon>tset.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCOKCancel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCOKCancel.Designer.cs">
+      <DependentUpon>UCOKCancel.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmSysMain.resX">
       <DependentUpon>frmSysMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -2493,6 +2499,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="tset.resx">
       <DependentUpon>tset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCOKCancel.resX">
+      <DependentUpon>UCOKCancel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
   </ItemGroup>

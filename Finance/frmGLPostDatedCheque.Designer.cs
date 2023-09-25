@@ -52,7 +52,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
@@ -77,7 +77,7 @@ namespace Xtreme
 			this.cmdShow = new System.Windows.Forms.Button();
 			this.txtMaturityDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.label1 = new System.Windows.Forms.Label();
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1DataColumn();

@@ -56,7 +56,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtCurrSymbol;
 		public System.Windows.Forms.TextBox txtCurrNo;
 		public System.Windows.Forms.Label Label1;
-		public AxTDBContainer3D6.AxTDBContainer3D fraMainInformation;
+		public System.Windows.Forms.Panel fraMainInformation;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -67,7 +67,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGLExchangeRate));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.fraMainInformation = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraMainInformation = new System.Windows.Forms.Panel();
 			this.txtSaleRate = new System.Windows.Forms.TextBox();
 			this.txtBuyRate = new System.Windows.Forms.TextBox();
 			this.txtStdRate = new System.Windows.Forms.TextBox();

@@ -50,7 +50,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_0;
 		private C1.Win.C1FlexGrid.C1FlexGrid _grdCommon_1;
 		private System.Windows.Forms.Label _lblCommon_1;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		public UCOkCancel cmdSelectContract;
 		public C1.Win.C1FlexGrid.C1FlexGrid[] grdCommon = new C1.Win.C1FlexGrid.C1FlexGrid[2];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[2];
@@ -64,7 +64,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmREContractRenewal));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.cmdOkCancel = new UCOkCancel();
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this._grdCommon_0 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this._lblCommon_0 = new System.Windows.Forms.Label();
 			this._grdCommon_1 = new C1.Win.C1FlexGrid.C1FlexGrid();

@@ -78,7 +78,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommon_3;
 		private System.Windows.Forms.TextBox _txtCommon_1;
 		private System.Windows.Forms.Label _lblCommon_5;
-		public AxTDBContainer3D6.AxTDBContainer3D fraTabPage0;
+		public System.Windows.Forms.Panel fraTabPage0;
 		public System.Windows.Forms.Label lblComments;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit[] dateCommon = new Syncfusion.WinForms.Input.SfDateTimeEdit[3];
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[13];
@@ -96,7 +96,7 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.txtRemarks = new System.Windows.Forms.TextBox();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
-			this.fraTabPage0 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraTabPage0 = new System.Windows.Forms.Panel();
 			this.chkContractCriteria = new System.Windows.Forms.CheckBox();
 			this._dateCommon_0 = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.fraContractDetails = new System.Windows.Forms.GroupBox();

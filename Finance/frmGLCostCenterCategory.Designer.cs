@@ -53,7 +53,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtACatName;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblCostNo;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -64,7 +64,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGLCostCenterCategory));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.txtCatNo = new System.Windows.Forms.TextBox();
 			this.lblLCostName = new System.Windows.Forms.Label();

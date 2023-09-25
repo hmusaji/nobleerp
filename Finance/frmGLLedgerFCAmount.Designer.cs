@@ -44,7 +44,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblExchangeRate;
 		public System.Windows.Forms.Label lblAmount;
 		public System.Windows.Forms.TextBox txtExchangeRate;
-		public AxTDBContainer3D6.AxTDBContainer3D fraLedgerAmountDetails;
+		public System.Windows.Forms.Panel fraLedgerAmountDetails;
 		public AxSmartNetButtonProject.AxSmartNetButton[] cmdOkCancel = new AxSmartNetButtonProject.AxSmartNetButton[2];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -55,7 +55,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGLLedgerFCAmount));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.fraLedgerAmountDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraLedgerAmountDetails = new System.Windows.Forms.Panel();
 			this.txtFCAmount = new System.Windows.Forms.TextBox();
 			this.picOkCancel = new System.Windows.Forms.PictureBox();
 			this._cmdOkCancel_1 = new AxSmartNetButtonProject.AxSmartNetButton();

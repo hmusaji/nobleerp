@@ -53,7 +53,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblVoucherWiseAdjustment;
 		public System.Windows.Forms.Label Line2;
 		public System.Windows.Forms.Label Line1;
-		public AxTDBContainer3D6.AxTDBContainer3D fraVoucherAdjustment;
+		public System.Windows.Forms.Panel fraVoucherAdjustment;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -63,7 +63,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmARAPVoucherLinking));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.fraVoucherAdjustment = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraVoucherAdjustment = new System.Windows.Forms.Panel();
 			this.cmdOKCancel = new UCOkCancel();
 			this.txtToBeAdjusted = new System.Windows.Forms.TextBox();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();

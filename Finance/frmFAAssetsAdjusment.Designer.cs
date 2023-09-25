@@ -62,7 +62,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtCommonDisplay_1;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
 		private System.Windows.Forms.Label _txtCommonDisplay_2;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[4];
 		public System.Windows.Forms.Label[] txtCommonDisplay = new System.Windows.Forms.Label[3];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -74,7 +74,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFAAssetsAdjusment));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.txtAdjustmentDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtAdjustmentAmount = new System.Windows.Forms.TextBox();
 			this.txtRemarks = new System.Windows.Forms.TextBox();

@@ -77,7 +77,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommonTextBox_7;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_11;
 		private System.Windows.Forms.Label _lblCommonLabel_9;
-		public AxTDBContainer3D6.AxTDBContainer3D fraTabPage0;
+		public System.Windows.Forms.Panel fraTabPage0;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		private System.Windows.Forms.Label _lblCommonLabel_4;
@@ -111,7 +111,7 @@ namespace Xtreme
 			this._optAllocation_0 = new System.Windows.Forms.RadioButton();
 			this._optAllocation_1 = new System.Windows.Forms.RadioButton();
 			this.cmdAllocate = new System.Windows.Forms.Button();
-			this.fraTabPage0 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraTabPage0 = new System.Windows.Forms.Panel();
 			this._fraCommon_1 = new System.Windows.Forms.GroupBox();
 			this._txtCommonTextBox_19 = new System.Windows.Forms.TextBox();
 			this._txtCommonTextBox_18 = new System.Windows.Forms.TextBox();

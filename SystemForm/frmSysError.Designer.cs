@@ -4,28 +4,7 @@ namespace Xtreme
 	partial class frmSysError
 	{
 
-		#region "Upgrade Support "
-		private static frmSysError m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmSysError DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
+		
 		#region "Windows Form Designer generated code "
 		public static frmSysError CreateInstance()
 		{
@@ -54,7 +33,7 @@ namespace Xtreme
 		public System.Windows.Forms.PictureBox ImgExclamation;
 		public System.Windows.Forms.PictureBox ImgInformation;
 		public System.Windows.Forms.PictureBox ImgCritical;
-		public AxXtremeShortcutBar.AxShortcutCaption ShortcutCaption1;
+
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -81,7 +60,7 @@ namespace Xtreme
 			this.ImgExclamation = new System.Windows.Forms.PictureBox();
 			this.ImgInformation = new System.Windows.Forms.PictureBox();
 			this.ImgCritical = new System.Windows.Forms.PictureBox();
-			this.Shortcu.Text1 = new AxXtremeShortcutBar.AxShortcutCaption();
+			
 			// //((System.ComponentModel.ISupportInitialize) this.Shortcu.Text1).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -318,12 +297,7 @@ namespace Xtreme
 			// 
 			// ShortcutCaption1
 			// 
-			this.Shortcu.Text1.AllowDrop = true;
-			this.Shortcu.Text1.Location = new System.Drawing.Point(0, 0);
-			this.Shortcu.Text1.Name = "ShortcutCaption1";
-			//
-			this.Shortcu.Text1.Size = new System.Drawing.Size(367, 135);
-			this.Shortcu.Text1.TabIndex = 13;
+		
 			// 
 			// frmSysError
 			// 
@@ -349,7 +323,7 @@ namespace Xtreme
 			this.Controls.Add(this.ImgExclamation);
 			this.Controls.Add(this.ImgInformation);
 			this.Controls.Add(this.ImgCritical);
-			this.Controls.Add(this.Shortcu.Text1);
+			
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysError.Icon");
 			this.Location = new System.Drawing.Point(491, 353);

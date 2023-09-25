@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		public System.Windows.Forms.TextBox txtProductCode;
 		public System.Windows.Forms.Label lblLedgerNo;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbCommon;
@@ -63,7 +63,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSReplacementProduct));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.txtProductCode = new System.Windows.Forms.TextBox();
 			this.lblLedgerNo = new System.Windows.Forms.Label();

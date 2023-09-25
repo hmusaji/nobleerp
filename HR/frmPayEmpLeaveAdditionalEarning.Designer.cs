@@ -54,7 +54,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		public System.Windows.Forms.Label lblSystemComponents;
 		public System.Windows.Forms.Label Line1;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[3];
@@ -71,7 +71,7 @@ namespace Xtreme
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_0 = new System.Windows.Forms.Label();
 			this._txtDisplayLabel_1 = new System.Windows.Forms.Label();
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.cmbMastersList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbMastersList = new C1.Win.C1TrueDBGrid.C1DataColumn();

@@ -55,7 +55,7 @@ namespace Xtreme
 		public AxSmartNetButtonProject.AxSmartNetButton cmdClose;
 		public System.Windows.Forms.PictureBox picOkCancel;
 		public System.Windows.Forms.CheckBox chkShowAll;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		public System.Windows.Forms.TextBox txtLdgrName;
 		public System.Windows.Forms.TextBox txtLdgrNo;
 		public System.Windows.Forms.Label lblLedgerNo;
@@ -70,7 +70,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmARAPVoucherTracking));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.lblAdjustmentDetails = new System.Windows.Forms.Label();
 			this._grdVoucherDetails_1 = new C1.Win.C1TrueDBGrid.C1TrueDBGrid();
 			this.Column_0__grdVoucherDetails_1 = new C1.Win.C1TrueDBGrid.C1DataColumn();

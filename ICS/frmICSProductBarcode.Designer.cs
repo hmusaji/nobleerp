@@ -53,7 +53,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
 		public System.Windows.Forms.Label txtProductName;
 		public System.Windows.Forms.Label Line1;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMasterDetails;
+		public System.Windows.Forms.Panel cntMasterDetails;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -63,7 +63,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSProductBarcode));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMasterDetails = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMasterDetails = new System.Windows.Forms.Panel();
 			this.cmbCommon = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbCommon = new C1.Win.C1TrueDBGrid.C1DataColumn();

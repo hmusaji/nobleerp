@@ -44,7 +44,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public AxTDBContainer3D6.AxTDBContainer3D fraLoadDocument;
+		public System.Windows.Forms.Panel fraLoadDocument;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -54,7 +54,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSLoadDocument));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.fraLoadDocument = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraLoadDocument = new System.Windows.Forms.Panel();
 			this.cmdOKCancel = new UCOkCancel();
 			this.cmbVoucherTypes = new System.Windows.Forms.ComboBox();
 			this.lblVoucherType = new System.Windows.Forms.Label();

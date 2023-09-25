@@ -143,7 +143,7 @@ namespace Xtreme
 		public System.Windows.Forms.ComboBox cmbType;
 		private System.Windows.Forms.Label _lblCommonLabel_10;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEffectiveDate;
-		public AxTDBContainer3D6.AxTDBContainer3D fraTabPage0;
+		public System.Windows.Forms.Panel fraTabPage0;
 		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[10];
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[2];
 		public System.Windows.Forms.Panel[] fraEmployeeInformation = new System.Windows.Forms.Panel[4];
@@ -227,7 +227,7 @@ namespace Xtreme
 			this._txtCommonTextBox_11 = new System.Windows.Forms.TextBox();
 			this._lblCommonLabel_9 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_12 = new System.Windows.Forms.Label();
-			this.fraTabPage0 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraTabPage0 = new System.Windows.Forms.Panel();
 			this._lblCommonLabel_4 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_2 = new System.Windows.Forms.Label();
 			this._lblCommonLabel_5 = new System.Windows.Forms.Label();

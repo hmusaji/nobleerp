@@ -53,7 +53,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtANatName;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblNatNo;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -63,7 +63,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayNationality));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.txtComment = new System.Windows.Forms.TextBox();
 			this.txtNatNo = new System.Windows.Forms.TextBox();
 			this.lblLNatName = new System.Windows.Forms.Label();

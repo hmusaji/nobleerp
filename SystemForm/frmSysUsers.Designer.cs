@@ -118,7 +118,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtUserId;
 		public System.Windows.Forms.ComboBox comGroupName;
 		public System.Windows.Forms.Label Line1;
-		public AxTDBContainer3D6.AxTDBContainer3D fraMainInformation;
+		public System.Windows.Forms.Panel fraMainInformation;
 		public System.Windows.Forms.CheckBox[] chkPriceRestriction = new System.Windows.Forms.CheckBox[4];
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[1];
 		public System.Windows.Forms.ComboBox[] cmbPriceLevel = new System.Windows.Forms.ComboBox[6];
@@ -134,7 +134,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysUsers));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.fraMainInformation = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraMainInformation = new System.Windows.Forms.Panel();
 			this.chkDisable = new System.Windows.Forms.CheckBox();
 			this.tabMaster = new AxC1SizerLib.AxC1Tab();
 			this._fraLedgerInformation_3 = new System.Windows.Forms.Panel();

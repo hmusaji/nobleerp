@@ -64,7 +64,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtIssueDate;
 		public System.Windows.Forms.TextBox txtBankInitials;
 		public System.Windows.Forms.Label Label6;
-		public AxTDBContainer3D6.AxTDBContainer3D fraDetailsInfo;
+		public System.Windows.Forms.Panel fraDetailsInfo;
 		public System.Windows.Forms.TextBox txtBidNo;
 		public System.Windows.Forms.Label lblCode;
 		public System.Windows.Forms.Label Line2;
@@ -82,7 +82,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSBid));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this._lblCommon_3 = new System.Windows.Forms.Label();
-			this.fraDetailsInfo = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraDetailsInfo = new System.Windows.Forms.Panel();
 			this.txtCurrencyName = new System.Windows.Forms.Label();
 			this.Label4 = new System.Windows.Forms.Label();
 			this.Label3 = new System.Windows.Forms.Label();

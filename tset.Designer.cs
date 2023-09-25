@@ -28,43 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.progressBarAdv1 = new Syncfusion.Windows.Forms.Tools.ProgressBarAdv();
-            ((System.ComponentModel.ISupportInitialize)(this.progressBarAdv1)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // progressBarAdv1
+            // panel1
             // 
-            this.progressBarAdv1.BackMultipleColors = new System.Drawing.Color[] {
-        System.Drawing.Color.Empty};
-            this.progressBarAdv1.BackSegments = false;
-            this.progressBarAdv1.CustomText = null;
-            this.progressBarAdv1.CustomWaitingRender = false;
-            this.progressBarAdv1.ForegroundImage = null;
-            this.progressBarAdv1.Location = new System.Drawing.Point(302, 101);
-            this.progressBarAdv1.MultipleColors = new System.Drawing.Color[] {
-        System.Drawing.Color.Empty};
-            this.progressBarAdv1.Name = "progressBarAdv1";
-            this.progressBarAdv1.SegmentWidth = 12;
-            this.progressBarAdv1.Size = new System.Drawing.Size(400, 23);
-            this.progressBarAdv1.TabIndex = 0;
-            this.progressBarAdv1.Text = "progressBarAdv1";
-            this.progressBarAdv1.WaitingGradientWidth = 400;
+            this.panel1.Location = new System.Drawing.Point(337, 57);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 0;
             // 
             // tset
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.progressBarAdv1);
+            this.Controls.Add(this.panel1);
             this.Name = "tset";
             this.Text = "tset";
-            ((System.ComponentModel.ISupportInitialize)(this.progressBarAdv1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Syncfusion.Windows.Forms.Tools.ProgressBarAdv progressBarAdv1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

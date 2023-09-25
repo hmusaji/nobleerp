@@ -58,7 +58,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_41;
 		public System.Windows.Forms.Label txtDTypeName;
 		public System.Windows.Forms.TextBox txtTypeCode;
-		public AxTDBContainer3D6.AxTDBContainer3D fraDetailsInfo;
+		public System.Windows.Forms.Panel fraDetailsInfo;
 		private System.Windows.Forms.Label _lblCommon_0;
 		public System.Windows.Forms.TextBox txtGroupNo;
 		private System.Windows.Forms.Label _lblCommon_1;
@@ -79,7 +79,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayBankDetails));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.fraDetailsInfo = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.fraDetailsInfo = new System.Windows.Forms.Panel();
 			this._cmdCommon_0 = new System.Windows.Forms.Button();
 			this._Frame1_0 = new System.Windows.Forms.Panel();
 			this._lblCommon_7 = new System.Windows.Forms.Label();

@@ -64,7 +64,7 @@ namespace Xtreme
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtDateCommonDisplay_1;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
 		private System.Windows.Forms.Label _txtCommonDisplay_1;
-		public AxTDBContainer3D6.AxTDBContainer3D TDBContainer3D1;
+		public System.Windows.Forms.Panel TDBContainer3D1;
 		public AxSmartNetButtonProject.AxSmartNetButton[] btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];
 		public System.Windows.Forms.TextBox[] txtCommon = new System.Windows.Forms.TextBox[2];
 		public System.Windows.Forms.Label[] txtCommonDisplay = new System.Windows.Forms.Label[2];
@@ -86,7 +86,7 @@ namespace Xtreme
 			this._btnFormToolBar_3 = new AxSmartNetButtonProject.AxSmartNetButton();
 			this._btnFormToolBar_6 = new AxSmartNetButtonProject.AxSmartNetButton();
 			this._btnFormToolBar_4 = new AxSmartNetButtonProject.AxSmartNetButton();
-			this.TDBContainer3D1 = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.TDBContainer3D1 = new System.Windows.Forms.Panel();
 			this._txtDateCommonDisplay_0 = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.txtRemarks = new System.Windows.Forms.TextBox();
 			this.lblComments = new System.Windows.Forms.Label();

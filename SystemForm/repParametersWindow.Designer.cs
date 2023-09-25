@@ -84,7 +84,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtMasterCode;
 		public System.Windows.Forms.Label txtLocationName;
 		public System.Windows.Forms.Label txtMasterName;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		private System.Windows.Forms.Label _lblCommon_6;
 		public UCOkCancel cmdPostMode;
 		public System.Windows.Forms.Label Line1;
@@ -127,7 +127,7 @@ namespace Xtreme
 			this.lblTabSpaceInTree = new System.Windows.Forms.Label();
 			this.cmbReportLevel = new System.Windows.Forms.ComboBox();
 			this.cmdOKCancel = new UCOkCancel();
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.lblVoucherRange = new System.Windows.Forms.Label();
 			this.fraVoucherRange = new System.Windows.Forms.Panel();
 			this.txtToVoucherNo = new System.Windows.Forms.TextBox();

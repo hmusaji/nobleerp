@@ -59,7 +59,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.Label txtLocationName;
 		public System.Windows.Forms.Label txtVoucherName;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -70,7 +70,7 @@ namespace Xtreme
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmICSAdjustStock));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.cmdOKCancel = new UCOkCancel();
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.chkIncludeAllLocations = new System.Windows.Forms.CheckBox();
 			this.lblDateRange = new System.Windows.Forms.Label();
 			this.fraDateRange = new System.Windows.Forms.Panel();

@@ -4,28 +4,7 @@ namespace Xtreme
 	partial class frmREBatchPosting
 	{
 
-		#region "Upgrade Support "
-		private static frmREBatchPosting m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmREBatchPosting DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
+		
 		#region "Windows Form Designer generated code "
 		public static frmREBatchPosting CreateInstance()
 		{
@@ -55,7 +34,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
 		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label Label2;
-		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
+		public System.Windows.Forms.Panel cntMainParameter;
 		public UCOkCancel cmdOKCancel;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -66,7 +45,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmREBatchPosting));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.cntMainParameter = new AxTDBContainer3D6.AxTDBContainer3D();
+			this.cntMainParameter = new System.Windows.Forms.Panel();
 			this.lblTransactionType = new System.Windows.Forms.Label();
 			this.cmbTransactionType = new System.Windows.Forms.ComboBox();
 			this.txtToVoucherNo = new System.Windows.Forms.TextBox();
