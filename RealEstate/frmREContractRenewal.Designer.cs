@@ -83,8 +83,8 @@ namespace Xtreme
 			this.cmdOkCancel.OkCaption = "&Renew";
 			this.cmdOkCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOkCancel.TabIndex = 5;
-			this.cmdOkCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOkCancel_CancelClick);
-			this.cmdOkCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOkCancel_OKClick);
+			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOkCancel_CancelClick);
+			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOkCancel_OKClick);
 			// 
 			// cntMasterDetails
 			// 
