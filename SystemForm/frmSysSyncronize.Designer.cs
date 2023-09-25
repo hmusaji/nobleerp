@@ -39,7 +39,7 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.CheckBox chkPostTransactions;
 		public System.Windows.Forms.TextBox txtImportPath;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label lblImportStatus;
 		public AxXtremeSuiteControls.AxProgressBar ImportProgress;
 		public System.Windows.Forms.GroupBox frmImport2;
@@ -341,7 +341,7 @@ namespace Xtreme
 			this.txtImportFromDate.PromptChar = "_";
 			this.txtImportFromDate.Size = new System.Drawing.Size(89, 19);
 			this.txtImportFromDate.TabIndex = 22;
-			this.txtImportFromDate.Text = "31-Aug-2015";
+			// this.txtImportFromDate.Text = "31-Aug-2015";
 			// 
 			// Label_3
 			// 
@@ -365,7 +365,7 @@ namespace Xtreme
 			this.txtImportToDate.PromptChar = "_";
 			this.txtImportToDate.Size = new System.Drawing.Size(89, 19);
 			this.txtImportToDate.TabIndex = 24;
-			this.txtImportToDate.Text = "31-Aug-2015";
+			// this.txtImportToDate.Text = "31-Aug-2015";
 			// 
 			// Label_4
 			// 
@@ -549,7 +549,7 @@ namespace Xtreme
 			this.txtExportFromDate.PromptChar = "_";
 			this.txtExportFromDate.Size = new System.Drawing.Size(89, 19);
 			this.txtExportFromDate.TabIndex = 9;
-			this.txtExportFromDate.Text = "31-Aug-2015";
+			// this.txtExportFromDate.Text = "31-Aug-2015";
 			// 
 			// Label_7
 			// 
@@ -573,7 +573,7 @@ namespace Xtreme
 			this.txtExportToDate.PromptChar = "_";
 			this.txtExportToDate.Size = new System.Drawing.Size(89, 19);
 			this.txtExportToDate.TabIndex = 11;
-			this.txtExportToDate.Text = "31-Aug-2015";
+			// this.txtExportToDate.Text = "31-Aug-2015";
 			// 
 			// Label_1
 			// 
@@ -632,10 +632,7 @@ namespace Xtreme
 			this.Frame.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeSystem.Windows.Forms.Label();
-		}
+		// 
 		void InitializeSystem.Windows.Forms.Label()
 		{
 			this.Label = new System.Windows.Forms.Label[8];

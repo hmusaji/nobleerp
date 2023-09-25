@@ -219,7 +219,7 @@ namespace Xtreme
 			this.txtStartDate.PromptChar = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(143, 21);
 			this.txtStartDate.TabIndex = 10;
-			this.txtStartDate.Text = "09/02/2013";
+			// this.txtStartDate.Text = "09/02/2013";
 			// 
 			// _lblCommonLabel_4
 			// 
@@ -246,7 +246,7 @@ namespace Xtreme
 			this.txtResumeDate.PromptChar = "_";
 			this.txtResumeDate.Size = new System.Drawing.Size(141, 21);
 			this.txtResumeDate.TabIndex = 12;
-			this.txtResumeDate.Text = "09/02/2013";
+			// this.txtResumeDate.Text = "09/02/2013";
 			this.txtResumeDate.Visible = false;
 			// 
 			// lblComments
@@ -298,19 +298,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[5];

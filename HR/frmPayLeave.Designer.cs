@@ -46,13 +46,13 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtLeaveDaysAfterSOP;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
 		public System.Windows.Forms.TextBox txtWDPerMonthAfterSOP;
 		public System.Windows.Forms.GroupBox Frame2;
 		public System.Windows.Forms.TextBox txtLeaveDaysBeforeSOP;
-		public System.Windows.Forms.LabelLabel8;
-		public System.Windows.Forms.LabelLabel9;
+		public System.Windows.Forms.Label Label8;
+		public System.Windows.Forms.Label Label9;
 		public System.Windows.Forms.TextBox txtWDPerMonthBeforeSOP;
 		public System.Windows.Forms.GroupBox Frame1;
 		public System.Windows.Forms.TextBox txtComment;
@@ -60,8 +60,8 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdUpdateEmployees;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
-		public System.Windows.Forms.LabelLabel7;
-		public System.Windows.Forms.LabelLabel10;
+		public System.Windows.Forms.Label Label7;
+		public System.Windows.Forms.Label Label10;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
 		public System.Windows.Forms.GroupBox Frame3;
@@ -75,22 +75,22 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtALeaveName;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblLeaveNo;
-		public System.Windows.Forms.LabelLabel6;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label6;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.ComboBox cmbDeductUnpaidDays;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.TextBox txtLeaveSwitchOverPeriod;
-		public System.Windows.Forms.LabelLabel11;
+		public System.Windows.Forms.Label Label11;
 		public System.Windows.Forms.ComboBox cmbDeductPaidDays;
 		public System.Windows.Forms.ComboBox cmbDeductAbsentDays;
 		private System.Windows.Forms.RadioButton _optValidity_0;
 		private System.Windows.Forms.RadioButton _optValidity_1;
 		private System.Windows.Forms.RadioButton _optValidity_2;
 		public System.Windows.Forms.ComboBox cmbMonth;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		public System.Windows.Forms.TextBox txtEligibilityDays;
-		public System.Windows.Forms.LabelLabel13;
+		public System.Windows.Forms.Label Label13;
 		public System.Windows.Forms.GroupBox frmvalidityPeriod;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
@@ -932,19 +932,7 @@ namespace Xtreme
 			this.grdLeaveEarningDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializeoptValidity();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[2];

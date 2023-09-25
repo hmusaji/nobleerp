@@ -144,10 +144,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializecmdOkCancel();
-		}
+		// 
 		void InitializecmdOkCancel()
 		{
 			this.cmdOkCancel = new System.Windows.Forms.Button[3];

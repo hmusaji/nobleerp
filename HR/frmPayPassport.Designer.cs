@@ -62,7 +62,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.Label _lblCommonLabel_1;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_4;
 		private System.Windows.Forms.Label _lblCommonLabel_19;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
@@ -523,21 +523,7 @@ namespace Xtreme
 			this.picFormToolbar.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonDate();
-			InitializelblCommonLabel();
-			InitializebtnFormToolBar();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[6];

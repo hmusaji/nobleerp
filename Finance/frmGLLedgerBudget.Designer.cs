@@ -260,7 +260,7 @@ namespace Xtreme
 			// 
 			this.lblFromToDate.AllowDrop = true;
 			this.lblFromToDate.BackColor = System.Drawing.Color.White;
-			this.lblFromToDate.Text = "lbl";
+			// this.lblFromToDate.Text = "lbl";
 			this.lblFromToDate.Location = new System.Drawing.Point(8, 176);
 			this.lblFromToDate.Name = "lblFromToDate";
 			this.lblFromToDate.Size = new System.Drawing.Size(10, 13);
@@ -276,8 +276,8 @@ namespace Xtreme
 			this.cmdAllocate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdAllocate.Size = new System.Drawing.Size(99, 19);
 			this.cmdAllocate.TabIndex = 3;
-			this.cmdAllocate.Text = "&Allocate";
-			this.cmdAllocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdAllocate.Text = "&Allocate";
+			// this.cmdAllocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdAllocate.UseVisualStyleBackColor = false;
 			// this.cmdAllocate.Click += new System.EventHandler(this.cmdAllocate_Click);
 			// 
@@ -423,16 +423,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

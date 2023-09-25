@@ -94,7 +94,7 @@ namespace Xtreme
 			this.txtMonthEndDate.ReadOnly = true;
 			this.txtMonthEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtMonthEndDate.TabIndex = 1;
-			this.txtMonthEndDate.Text = "13/02/2014";
+			// this.txtMonthEndDate.Text = "13/02/2014";
 			// 
 			// _lblCommon_0
 			// 
@@ -171,17 +171,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[2];

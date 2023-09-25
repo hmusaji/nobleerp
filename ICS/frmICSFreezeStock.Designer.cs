@@ -56,7 +56,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_6;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFreezeDate;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
@@ -225,7 +225,7 @@ namespace Xtreme
 			this.txtFreezeDate.Name = "txtFreezeDate";
 			this.txtFreezeDate.Size = new System.Drawing.Size(102, 19);
 			this.txtFreezeDate.TabIndex = 0;
-			this.txtFreezeDate.Text = "07/18/2001";
+			// this.txtFreezeDate.Text = "07/18/2001";
 			// this.txtFreezeDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
@@ -386,19 +386,7 @@ namespace Xtreme
 			this.fraTabPage0.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[3];

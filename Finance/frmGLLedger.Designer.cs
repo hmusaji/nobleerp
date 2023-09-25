@@ -1539,7 +1539,7 @@ namespace Xtreme
 			this.txtContractDate.Name = "txtContractDate";
 			this.txtContractDate.Size = new System.Drawing.Size(101, 19);
 			this.txtContractDate.TabIndex = 73;
-			this.txtContractDate.Text = "03-Dec-2015";
+			// this.txtContractDate.Text = "03-Dec-2015";
 			// 
 			// txtCreditDays
 			// 

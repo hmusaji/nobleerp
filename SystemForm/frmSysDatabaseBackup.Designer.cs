@@ -54,7 +54,7 @@ namespace Xtreme
 		public UCOkCancel cmdOKCancel;
 		public System.Windows.Forms.Panel Frame3;
 		public System.Windows.Forms.CheckBox chkBackupSysDb;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public UpgradeHelpers.Gui.DirListBoxHelper Dir1;
 		public UpgradeHelpers.Gui.DriveListBoxHelper Drive1;
 		public UpgradeHelpers.Gui.ListBoxHelper listBoxHelper1;
@@ -294,16 +294,7 @@ namespace Xtreme
 			this.Frame2.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

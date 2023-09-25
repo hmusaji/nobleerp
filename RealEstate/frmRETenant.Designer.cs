@@ -53,14 +53,14 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAssetsCode;
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
 		public System.Windows.Forms.Label lblAssetsAdjustmentAccount;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label4;
 		private System.Windows.Forms.Label Label6_0;
 		private System.Windows.Forms.Label Label7_0;
 		private System.Windows.Forms.TextBox _txtCommon_7;
 		public System.Windows.Forms.Label lblComments;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label5;
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		private System.Windows.Forms.TextBox _txtCommon_9;
 		private System.Windows.Forms.TextBox _txtCommon_0;
@@ -605,20 +605,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializeSystem.Windows.Forms.Label7();
-			InitializeSystem.Windows.Forms.Label6();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonDisplay()
 		{
 			this.txtCommonDisplay = new System.Windows.Forms.Label[2];

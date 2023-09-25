@@ -132,7 +132,7 @@ namespace Xtreme
 			this.txtAdjustmentDate.Name = "txtAdjustmentDate";
 			this.txtAdjustmentDate.Size = new System.Drawing.Size(101, 19);
 			this.txtAdjustmentDate.TabIndex = 4;
-			this.txtAdjustmentDate.Text = "15/03/2014";
+			// this.txtAdjustmentDate.Text = "15/03/2014";
 			// 
 			// txtAdjustmentAmount
 			// 
@@ -364,18 +364,7 @@ namespace Xtreme
 			this.cntMainParameter.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonDisplay()
 		{
 			this.txtCommonDisplay = new System.Windows.Forms.Label[3];

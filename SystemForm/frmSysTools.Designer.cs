@@ -530,10 +530,7 @@ namespace Xtreme
 			this.panelCalender.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializecmdCalc();
-		}
+		// 
 		void InitializecmdCalc()
 		{
 			this.cmdCalc = new System.Windows.Forms.Button[30];

@@ -70,7 +70,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_16;
 		private System.Windows.Forms.Label _lblCommonLabel_17;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDeductionDate;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_12;
 		private System.Windows.Forms.Label _txtDisplayLabel_11;
@@ -204,7 +204,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
-			this.txtVoucherDate.Text = "18/07/2001";
+			// this.txtVoucherDate.Text = "18/07/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
@@ -441,7 +441,7 @@ namespace Xtreme
 			this.txtStartDeductionDate.Name = "txtStartDeductionDate";
 			this.txtStartDeductionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDeductionDate.TabIndex = 7;
-			this.txtStartDeductionDate.Text = "18/07/2001";
+			// this.txtStartDeductionDate.Text = "18/07/2001";
 			// this.txtStartDeductionDate.Value = 37090;
 			// 
 			// System.Windows.Forms.Label12
@@ -689,19 +689,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[15];

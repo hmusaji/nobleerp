@@ -262,11 +262,7 @@ namespace Xtreme
 			this.grdReportFind.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeoptSearchFromPosition();
-			InitializelblCommon();
-		}
+		// 
 		void InitializeoptSearchFromPosition()
 		{
 			this.optSearchFromPosition = new System.Windows.Forms.RadioButton[2];

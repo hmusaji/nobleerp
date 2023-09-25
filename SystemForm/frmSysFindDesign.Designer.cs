@@ -404,11 +404,7 @@ namespace Xtreme
 			//((System.ComponentModel.ISupportInitialize) this.mnuColors).EndInit();
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializechkCommonSettings();
-			InitializebtnReportOptions();
-		}
+		// 
 		void InitializechkCommonSettings()
 		{
 			this.chkCommonSettings = new System.Windows.Forms.CheckBox[2];

@@ -51,7 +51,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLdgrName;
 		public System.Windows.Forms.TextBox txtLdgrNo;
 		public System.Windows.Forms.Label lblLedgerNo;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0__grdVoucherDetails_0;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1__grdVoucherDetails_0;
 		private C1.Win.C1TrueDBGrid.C1TrueDBGrid _grdVoucherDetails_0;
@@ -294,17 +294,7 @@ namespace Xtreme
 			this._grdVoucherDetails_1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializegrdVoucherDetails();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializegrdVoucherDetails()
 		{
 			this.grdVoucherDetails = new C1.Win.C1TrueDBGrid.C1TrueDBGrid[2];

@@ -1007,20 +1007,7 @@ namespace Xtreme
 			this._fraMasterInformation_1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializelblCommon();
-			InitializefraMasterInformation();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonDisplay()
 		{
 			this.txtCommonDisplay = new System.Windows.Forms.Label[9];

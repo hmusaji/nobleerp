@@ -99,7 +99,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(102, 19);
 			this.txtFromDate.TabIndex = 0;
-			this.txtFromDate.Text = "7/18/2001";
+			// this.txtFromDate.Text = "7/18/2001";
 			// this.txtFromDate.Value = 37090;
 			// 
 			// _lblCommonLabel_6
@@ -123,7 +123,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(102, 19);
 			this.txtToDate.TabIndex = 2;
-			this.txtToDate.Text = "7/18/2001";
+			// this.txtToDate.Text = "7/18/2001";
 			// this.txtToDate.Value = 37090;
 			// 
 			// _lblCommonLabel_0
@@ -192,17 +192,7 @@ namespace Xtreme
 			this.grdDays.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommonLabel()
 		{
 			this.lblCommonLabel = new System.Windows.Forms.Label[7];

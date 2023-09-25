@@ -51,14 +51,14 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.TextBox _txtCommon_4;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.TextBox _txtCommon_5;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.TextBox _txtCommon_3;
-		public System.Windows.Forms.LabelLabel4;
-		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.Label Label4;
+		public System.Windows.Forms.Label Label6;
 		private System.Windows.Forms.TextBox _txtCommon_2;
 		private System.Windows.Forms.TextBox _txtCommon_6;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
@@ -363,19 +363,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtRemarks();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtRemarks()
 		{
 			this.txtRemarks = new System.Windows.Forms.TextBox[8];

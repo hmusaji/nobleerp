@@ -134,8 +134,8 @@ namespace Xtreme
 			this.cmdGenerate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdGenerate.Size = new System.Drawing.Size(73, 19);
 			this.cmdGenerate.TabIndex = 6;
-			this.cmdGenerate.Text = "Generate";
-			this.cmdGenerate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdGenerate.Text = "Generate";
+			// this.cmdGenerate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdGenerate.UseVisualStyleBackColor = false;
 			// this.cmdGenerate.Click += new System.EventHandler(this.cmdGenerate_Click);
 			// 
@@ -341,18 +341,7 @@ namespace Xtreme
 			this.grdHolidayDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonDate();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonDate()
 		{
 			this.txtCommonDate = new Syncfusion.WinForms.Input.SfDateTimeEdit[2];

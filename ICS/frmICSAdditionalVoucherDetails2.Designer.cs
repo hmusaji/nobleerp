@@ -574,12 +574,7 @@ namespace Xtreme
 			this.fraOptions.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtNCommon();
-			InitializetxtCommon();
-			InitializelblCommonLabel();
-		}
+		// 
 		void InitializetxtNCommon()
 		{
 			this.txtNCommon = new System.Windows.Forms.TextBox[7];

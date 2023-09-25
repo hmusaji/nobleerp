@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			this.lblDocDate.AllowDrop = true;
 			this.lblDocDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblDocDate.Text = "Document Date";
+			// this.lblDocDate.Text = "Document Date";
 			this.lblDocDate.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.lblDocDate.Location = new System.Drawing.Point(364, 100);
 			this.lblDocDate.Name = "lblDocDate";
@@ -230,14 +230,14 @@ namespace Xtreme
 			this.txtDPayrollDate.PromptChar = "_";
 			this.txtDPayrollDate.Size = new System.Drawing.Size(97, 19);
 			this.txtDPayrollDate.TabIndex = 1;
-			this.txtDPayrollDate.Text = "30/06/2011";
+			// this.txtDPayrollDate.Text = "30/06/2011";
 			// this.txtDPayrollDate.Value = 40724;
 			// 
 			// lblExchangeRate
 			// 
 			this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblExchangeRate.Text = "Exchange Rate";
+			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.lblExchangeRate.Location = new System.Drawing.Point(572, 100);
 			this.lblExchangeRate.Name = "lblExchangeRate";
@@ -268,7 +268,7 @@ namespace Xtreme
 			this.txtDocDate.PromptChar = "_";
 			this.txtDocDate.Size = new System.Drawing.Size(117, 19);
 			this.txtDocDate.TabIndex = 4;
-			this.txtDocDate.Text = "25/03/2004";
+			// this.txtDocDate.Text = "25/03/2004";
 			// this.txtDocDate.Value = 38071;
 			// 
 			// txtNExchangeRate
@@ -281,7 +281,7 @@ namespace Xtreme
 			this.txtNExchangeRate.Name = "txtNExchangeRate";
 			this.txtNExchangeRate.Size = new System.Drawing.Size(103, 19);
 			this.txtNExchangeRate.TabIndex = 5;
-			this.txtNExchangeRate.Text = "0.00000";
+			// this.txtNExchangeRate.Text = "0.00000";
 			// 
 			// lblDocNo
 			// 
@@ -403,17 +403,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[38];

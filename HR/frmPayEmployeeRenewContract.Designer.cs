@@ -238,7 +238,7 @@ namespace Xtreme
 			this.txtContractStartDate.PromptChar = "_";
 			this.txtContractStartDate.Size = new System.Drawing.Size(123, 21);
 			this.txtContractStartDate.TabIndex = 12;
-			this.txtContractStartDate.Text = "09/02/2013";
+			// this.txtContractStartDate.Text = "09/02/2013";
 			// 
 			// txtContractEndDate
 			// 
@@ -252,7 +252,7 @@ namespace Xtreme
 			this.txtContractEndDate.PromptChar = "_";
 			this.txtContractEndDate.Size = new System.Drawing.Size(143, 21);
 			this.txtContractEndDate.TabIndex = 13;
-			this.txtContractEndDate.Text = "09/02/2013";
+			// this.txtContractEndDate.Text = "09/02/2013";
 			// 
 			// frmPayEmployeeRenewContract
 			// 
@@ -292,19 +292,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[5];

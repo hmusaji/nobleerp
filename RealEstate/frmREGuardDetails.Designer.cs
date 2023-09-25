@@ -57,9 +57,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblAssetsAdjustmentAccount;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtDateCommonDisplay_1;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
@@ -410,20 +410,7 @@ namespace Xtreme
 			this.TDBContainer3D1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDateCommonDisplay();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializebtnFormToolBar();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDateCommonDisplay()
 		{
 			this.txtDateCommonDisplay = new Syncfusion.WinForms.Input.SfDateTimeEdit[2];

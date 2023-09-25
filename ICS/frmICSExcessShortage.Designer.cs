@@ -271,7 +271,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 4;
-			this.txtVoucherDate.Text = "07/18/2001";
+			// this.txtVoucherDate.Text = "07/18/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// txtLocation
@@ -653,20 +653,7 @@ namespace Xtreme
 			this.cmbMastersList.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblVoucherNo();
-			InitializelblSourceVoucherType();
-			InitializelblSource();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblVoucherNo()
 		{
 			this.lblVoucherNo = new System.Windows.Forms.Label[2];

@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.Button btnDeleteLine;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDMonthDate;
 		public System.Windows.Forms.CheckBox chkExcludeLeaveEmployee;
 		public System.Windows.Forms.Button btnLoadGrid;
@@ -118,7 +118,7 @@ namespace Xtreme
 			this.txtDMonthDate.ReadOnly = true;
 			this.txtDMonthDate.Size = new System.Drawing.Size(124, 22);
 			this.txtDMonthDate.TabIndex = 5;
-			this.txtDMonthDate.Text = "31-Jan-2012";
+			// this.txtDMonthDate.Text = "31-Jan-2012";
 			// this.txtDMonthDate.Value = 40939;
 			// 
 			// chkExcludeLeaveEmployee
@@ -166,8 +166,8 @@ namespace Xtreme
 			this.cmdMigrate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdMigrate.Size = new System.Drawing.Size(100, 24);
 			this.cmdMigrate.TabIndex = 3;
-			this.cmdMigrate.Text = "&Import ";
-			this.cmdMigrate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdMigrate.Text = "&Import ";
+			// this.cmdMigrate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdMigrate.UseVisualStyleBackColor = false;
 			// this.cmdMigrate.Click += new System.EventHandler(this.cmdMigrate_Click);
 			// 
@@ -297,16 +297,7 @@ namespace Xtreme
 			//this.Resize += new System.EventHandler(this.Form_Resize);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

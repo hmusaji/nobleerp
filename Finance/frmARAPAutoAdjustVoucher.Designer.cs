@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
-			this.lblToDate.Text = "As On Date";
+			// this.lblToDate.Text = "As On Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(9, 13);
 			this.lblToDate.Name = "lblToDate";
@@ -175,7 +175,7 @@ namespace Xtreme
 			this.txtAsOnDate.Name = "txtAsOnDate";
 			this.txtAsOnDate.Size = new System.Drawing.Size(96, 19);
 			this.txtAsOnDate.TabIndex = 1;
-			this.txtAsOnDate.Text = "7/18/2001";
+			// this.txtAsOnDate.Text = "7/18/2001";
 			// this.txtAsOnDate.Value = 37090;
 			// 
 			// txtGroupType
@@ -239,16 +239,7 @@ namespace Xtreme
 			this.fraDateRange.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

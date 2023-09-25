@@ -64,13 +64,13 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtAGradeName;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.Label lblNatNo;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel4;
-		public System.Windows.Forms.LabelLabel5;
-		public System.Windows.Forms.LabelLabel6;
-		public System.Windows.Forms.LabelLabel7;
-		public System.Windows.Forms.LabelLabel8;
-		public System.Windows.Forms.LabelLabel9;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label4;
+		public System.Windows.Forms.Label Label5;
+		public System.Windows.Forms.Label Label6;
+		public System.Windows.Forms.Label Label7;
+		public System.Windows.Forms.Label Label8;
+		public System.Windows.Forms.Label Label9;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox1;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox3;
 		public System.Windows.Forms.TextBox System.Windows.Forms.TextBox4;
@@ -538,17 +538,7 @@ namespace Xtreme
 			this.cntMainParameter.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializebtnFormToolBar();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializebtnFormToolBar()
 		{
 			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[7];

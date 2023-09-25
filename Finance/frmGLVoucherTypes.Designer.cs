@@ -2529,25 +2529,7 @@ namespace Xtreme
 			this.Frame1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtMultiLineControl();
-			InitializetxtControl();
-			InitializetxtCommon();
-			InitializeoptCommonQtyEffect();
-			InitializeoptCommonAffectType();
-			InitializelblControl();
-			InitializelblCommon();
-			InitializecmbControl();
-			InitializechkControl();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtMultiLineControl()
 		{
 			this.txtMultiLineControl = new System.Windows.Forms.TextBox[12];

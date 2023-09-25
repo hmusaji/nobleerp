@@ -55,7 +55,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		private System.Windows.Forms.Label _lblCommonLabel_5;
 		private System.Windows.Forms.Label _lblCommonLabel_21;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
@@ -398,18 +398,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonTextBox()
 		{
 			this.txtCommonTextBox = new System.Windows.Forms.TextBox[12];

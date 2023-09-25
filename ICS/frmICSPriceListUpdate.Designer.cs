@@ -134,8 +134,8 @@ namespace Xtreme
 			this.cmdMigrate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdMigrate.Size = new System.Drawing.Size(57, 21);
 			this.cmdMigrate.TabIndex = 4;
-			this.cmdMigrate.Text = "&Migrate";
-			this.cmdMigrate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdMigrate.Text = "&Migrate";
+			// this.cmdMigrate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdMigrate.UseVisualStyleBackColor = false;
 			// this.cmdMigrate.Click += new System.EventHandler(this.cmdMigrate_Click);
 			// 
@@ -388,16 +388,7 @@ namespace Xtreme
 			this.frameMain.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

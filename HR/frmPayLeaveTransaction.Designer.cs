@@ -54,8 +54,8 @@ namespace Xtreme
 		private System.Windows.Forms.RadioButton _OptCashOrBooked_1;
 		private System.Windows.Forms.TextBox _txtCommonNumber_5;
 		private System.Windows.Forms.Label _txtDisplayLabel_11;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.Label _lblCommonLabel_24;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtCommonDate_5;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_4;
@@ -86,7 +86,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_14;
 		private System.Windows.Forms.Label _lblCommonLabel_16;
 		private System.Windows.Forms.Label _lblCommonLabel_17;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
 		private System.Windows.Forms.Label _lblCommonLabel_18;
 		private System.Windows.Forms.Label _lblCommonLabel_19;
@@ -311,7 +311,7 @@ namespace Xtreme
 			// this.txtApprovalTemplate.ShowButton = true;
 			this.txtApprovalTemplate.Size = new System.Drawing.Size(106, 19);
 			this.txtApprovalTemplate.TabIndex = 24;
-			this.txtApprovalTemplate.Text = "";
+			// this.txtApprovalTemplate.Text = "";
 			// this.this.txtApprovalTemplate.Watermark = "";
 			// this.this.txtApprovalTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtApprovalTemplate_DropButtonClick);
 			// this.txtApprovalTemplate.Leave += new System.EventHandler(this.txtApprovalTemplate_Leave);
@@ -1187,8 +1187,8 @@ namespace Xtreme
 			this.chkLoanGenrate.Size = new System.Drawing.Size(13, 13);
 			this.chkLoanGenrate.TabIndex = 20;
 			this.chkLoanGenrate.TabStop = true;
-			this.chkLoanGenrate.Text = "";
-			this.chkLoanGenrate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// this.chkLoanGenrate.Text = "";
+			// this.chkLoanGenrate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkLoanGenrate.Visible = true;
 			// 
 			// _txtCommonTextBox_2
@@ -1409,7 +1409,7 @@ namespace Xtreme
 			this.txtJoiningDate.Name = "txtJoiningDate";
 			this.txtJoiningDate.Size = new System.Drawing.Size(96, 19);
 			this.txtJoiningDate.TabIndex = 9;
-			this.txtJoiningDate.Text = "18-Jul-2001";
+			// this.txtJoiningDate.Text = "18-Jul-2001";
 			// this.txtJoiningDate.Value = 37090;
 			// 
 			// _lblCommonLabel_29
@@ -1488,24 +1488,7 @@ namespace Xtreme
 			this.frmLeaveInformation.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonNumber();
-			InitializetxtCommonDate();
-			InitializelblCommonLabel();
-			InitializeSystem.Windows.Forms.Label3();
-			InitializeOptCashOrBooked();
-			InitializeCmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[15];

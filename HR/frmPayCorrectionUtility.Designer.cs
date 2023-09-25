@@ -53,7 +53,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		public System.Windows.Forms.TextBox txtResumtionTransNo;
 		public System.Windows.Forms.TextBox txtGrantDays;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label Label1_1;
 		public System.Windows.Forms.Label txtDisplayVariationDays;
 		public System.Windows.Forms.TextBox txtEncashmentDays;
@@ -415,7 +415,7 @@ namespace Xtreme
 			this.txtActualResumeDate.Name = "txtActualResumeDate";
 			this.txtActualResumeDate.Size = new System.Drawing.Size(97, 19);
 			this.txtActualResumeDate.TabIndex = 10;
-			this.txtActualResumeDate.Text = "18/07/2001";
+			// this.txtActualResumeDate.Text = "18/07/2001";
 			// this.txtActualResumeDate.Value = 37090;
 			// this.this.txtActualResumeDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtActualResumeDate_Change);
 			// 
@@ -535,7 +535,7 @@ namespace Xtreme
 			this.txtJoiningDate.Name = "txtJoiningDate";
 			this.txtJoiningDate.Size = new System.Drawing.Size(102, 19);
 			this.txtJoiningDate.TabIndex = 7;
-			this.txtJoiningDate.Text = "18/07/2001";
+			// this.txtJoiningDate.Text = "18/07/2001";
 			// this.txtJoiningDate.Value = 37090;
 			// 
 			// _lblCommon_113
@@ -620,21 +620,7 @@ namespace Xtreme
 			this.frmEmployee.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			Initializeoptoption();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[2];

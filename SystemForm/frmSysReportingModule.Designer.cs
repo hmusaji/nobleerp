@@ -736,7 +736,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(101, 19);
 			this.txtFromDate.TabIndex = 10;
-			this.txtFromDate.Text = "07/Jul/2021";
+			// this.txtFromDate.Text = "07/Jul/2021";
 			this.txtFromDate.Visible = false;
 			// 
 			// txtToDate
@@ -748,7 +748,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(101, 19);
 			this.txtToDate.TabIndex = 11;
-			this.txtToDate.Text = "07/Jul/2021";
+			// this.txtToDate.Text = "07/Jul/2021";
 			this.txtToDate.Visible = false;
 			// 
 			// lstGroup
@@ -1028,16 +1028,7 @@ namespace Xtreme
 			this.fraVoucherRange.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

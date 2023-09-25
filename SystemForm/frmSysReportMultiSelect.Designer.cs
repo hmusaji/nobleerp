@@ -425,18 +425,7 @@ namespace Xtreme
 			//((System.ComponentModel.ISupportInitialize) this.mnuColors).EndInit();
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializechkCommonSettings();
-			InitializebtnReportOptions();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializechkCommonSettings()
 		{
 			this.chkCommonSettings = new System.Windows.Forms.CheckBox[2];

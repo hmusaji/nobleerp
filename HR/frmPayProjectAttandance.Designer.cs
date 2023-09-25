@@ -198,7 +198,7 @@ namespace Xtreme
 			this.txtDAttandanceDate.Name = "txtDAttandanceDate";
 			this.txtDAttandanceDate.Size = new System.Drawing.Size(100, 19);
 			this.txtDAttandanceDate.TabIndex = 0;
-			this.txtDAttandanceDate.Text = "16/10/2010";
+			// this.txtDAttandanceDate.Text = "16/10/2010";
 			// this.txtDAttandanceDate.Value = 40467;
 			// 
 			// grdProjectAttendance
@@ -298,18 +298,7 @@ namespace Xtreme
 			this.grdProjectAttendance.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommonLabel();
-			InitializecmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommonLabel()
 		{
 			this.lblCommonLabel = new System.Windows.Forms.Label[3];

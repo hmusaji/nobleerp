@@ -4,28 +4,7 @@ namespace Xtreme
 	partial class frmPayBudgetRevised
 	{
 
-		#region "Upgrade Support "
-		private static frmPayBudgetRevised m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmPayBudgetRevised DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
+		
 		#region "Windows Form Designer generated code "
 		public static frmPayBudgetRevised CreateInstance()
 		{
@@ -261,16 +240,7 @@ namespace Xtreme
 			this.grdAddHeadcountDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

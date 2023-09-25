@@ -149,7 +149,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDEntryDate;
 		private System.Windows.Forms.Panel _fraEmployeeInformation_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_45;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label _lblCommon_1;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_29;
 		private System.Windows.Forms.Label _lblCommon_2;
@@ -192,7 +192,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_48;
 		private System.Windows.Forms.Label _lblCommon_36;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_44;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_43;
 		public UpgradeHelpers.Gui.ShapeHelper Shape2;
 		public UpgradeHelpers.Gui.ShapeHelper Shape1;
@@ -772,7 +772,7 @@ namespace Xtreme
 			this.txtPassExpiryDate.Name = "txtPassExpiryDate";
 			this.txtPassExpiryDate.Size = new System.Drawing.Size(148, 19);
 			this.txtPassExpiryDate.TabIndex = 54;
-			this.txtPassExpiryDate.Text = "18/Jul/2001";
+			// this.txtPassExpiryDate.Text = "18/Jul/2001";
 			// this.txtPassExpiryDate.Value = 37090;
 			// 
 			// _lblCommon_42
@@ -1079,7 +1079,7 @@ namespace Xtreme
 			this.txtDCivilIssueDate.Name = "txtDCivilIssueDate";
 			this.txtDCivilIssueDate.Size = new System.Drawing.Size(181, 19);
 			this.txtDCivilIssueDate.TabIndex = 59;
-			this.txtDCivilIssueDate.Text = "18/Jul/2001";
+			// this.txtDCivilIssueDate.Text = "18/Jul/2001";
 			// this.txtDCivilIssueDate.Value = 37090;
 			// 
 			// _lblCommonLabel_1
@@ -1103,7 +1103,7 @@ namespace Xtreme
 			this.txtDCivilExpiryDate.Name = "txtDCivilExpiryDate";
 			this.txtDCivilExpiryDate.Size = new System.Drawing.Size(148, 19);
 			this.txtDCivilExpiryDate.TabIndex = 60;
-			this.txtDCivilExpiryDate.Text = "18/Jul/2001";
+			// this.txtDCivilExpiryDate.Text = "18/Jul/2001";
 			// this.txtDCivilExpiryDate.Value = 37090;
 			// 
 			// _lblCommon_61
@@ -1152,7 +1152,7 @@ namespace Xtreme
 			this.txtPassIssueDate.Name = "txtPassIssueDate";
 			this.txtPassIssueDate.Size = new System.Drawing.Size(181, 19);
 			this.txtPassIssueDate.TabIndex = 53;
-			this.txtPassIssueDate.Text = "18/Jul/2001";
+			// this.txtPassIssueDate.Text = "18/Jul/2001";
 			// this.txtPassIssueDate.Value = 37090;
 			// 
 			// txtPassNat
@@ -1804,7 +1804,7 @@ namespace Xtreme
 			this.txtBirthDate.Name = "txtBirthDate";
 			this.txtBirthDate.Size = new System.Drawing.Size(88, 19);
 			this.txtBirthDate.TabIndex = 23;
-			this.txtBirthDate.Text = "06/Apr/2003";
+			// this.txtBirthDate.Text = "06/Apr/2003";
 			// this.txtBirthDate.Value = 37717;
 			// 
 			// _txtCommonTextBox_54
@@ -1854,7 +1854,7 @@ namespace Xtreme
 			this.txtDEntryDate.Name = "txtDEntryDate";
 			this.txtDEntryDate.Size = new System.Drawing.Size(97, 19);
 			this.txtDEntryDate.TabIndex = 24;
-			this.txtDEntryDate.Text = "06/Apr/2003";
+			// this.txtDEntryDate.Text = "06/Apr/2003";
 			// this.txtDEntryDate.Value = 37717;
 			// 
 			// _fraEmployeeInformation_4
@@ -2928,23 +2928,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_4.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonNumber();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializefraEmployeeInformation();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[17];

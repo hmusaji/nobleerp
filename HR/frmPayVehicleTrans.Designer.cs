@@ -52,7 +52,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtVehicleTransNo;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		public System.Windows.Forms.TextBox txtVehicleCode;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		public System.Windows.Forms.TextBox txtComments;
 		private System.Windows.Forms.Label _lblCommonLabel_2;
 		public System.Windows.Forms.TextBox txtEmpCode;
@@ -60,7 +60,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_1;
 		public System.Windows.Forms.TextBox txtEmpCodeNew;
 		public System.Windows.Forms.Label txtEmpNameNew;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[7];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -122,7 +122,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
-			this.txtVoucherDate.Text = "18/07/2001";
+			// this.txtVoucherDate.Text = "18/07/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _lblCommonLabel_5
@@ -320,17 +320,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommonLabel()
 		{
 			this.lblCommonLabel = new System.Windows.Forms.Label[7];

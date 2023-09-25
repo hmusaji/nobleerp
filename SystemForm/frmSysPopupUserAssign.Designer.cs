@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		private System.Windows.Forms.Label Label1_2079;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label txtPopupTypeCdName;
 		public System.Windows.Forms.TextBox txtPopupTypeCd;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
@@ -201,17 +201,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializeSystem.Windows.Forms.Label1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[2080];

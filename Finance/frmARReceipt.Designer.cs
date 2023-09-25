@@ -161,7 +161,7 @@ namespace Xtreme
 			this.txtVoucherDate.PromptChar = "_";
 			this.txtVoucherDate.Size = new System.Drawing.Size(75, 19);
 			this.txtVoucherDate.TabIndex = 2;
-			this.txtVoucherDate.Text = "29-Jul-2019";
+			// this.txtVoucherDate.Text = "29-Jul-2019";
 			// 
 			// txtReceiptAmt
 			// 
@@ -468,18 +468,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeSystem.Windows.Forms.Label1();
-			InitializeSystem.Windows.Forms.Label();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializeSystem.Windows.Forms.Label1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[6];

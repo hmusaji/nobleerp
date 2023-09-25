@@ -134,10 +134,7 @@ namespace Xtreme
 			this.fraPosting.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			Form_Initialize();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

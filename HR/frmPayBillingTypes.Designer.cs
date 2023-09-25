@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtNoOfMonths;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.RadioButton OptNone;
 		public System.Windows.Forms.RadioButton OptPriodWise;
 		public System.Windows.Forms.RadioButton OptChkCalculate;
@@ -357,8 +357,8 @@ namespace Xtreme
 			this.OptChkCalculate.Size = new System.Drawing.Size(79, 19);
 			this.OptChkCalculate.TabIndex = 71;
 			this.OptChkCalculate.TabStop = true;
-			this.OptChkCalculate.Text = "Percentage";
-			this.OptChkCalculate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// this.OptChkCalculate.Text = "Percentage";
+			// this.OptChkCalculate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.OptChkCalculate.Visible = true;
 			this.OptChkCalculate.CheckedChanged += new System.EventHandler(this.OptChkCalculate_CheckedChanged);
 			// 
@@ -1203,7 +1203,7 @@ namespace Xtreme
 			this.txtTicketAccrualStartDate.PromptChar = "_";
 			this.txtTicketAccrualStartDate.Size = new System.Drawing.Size(100, 19);
 			this.txtTicketAccrualStartDate.TabIndex = 12;
-			this.txtTicketAccrualStartDate.Text = "15/08/2009";
+			// this.txtTicketAccrualStartDate.Text = "15/08/2009";
 			// this.txtTicketAccrualStartDate.Value = 40040;
 			// 
 			// _lblCommon_23
@@ -1325,22 +1325,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_2.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommon();
-			InitializefraEmployeeInformation();
-			InitializecmbCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[16];

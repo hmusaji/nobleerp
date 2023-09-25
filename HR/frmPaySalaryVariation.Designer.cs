@@ -98,7 +98,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblDefaultProject;
 		public System.Windows.Forms.Label txtDlblNewDefaultProject;
 		public System.Windows.Forms.TextBox txtDefaultProjectNew;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Panel Frame2;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
@@ -120,7 +120,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
 		private System.Windows.Forms.Label _lblCommonLabel_23;
 		private System.Windows.Forms.Label _lblCommonLabel_21;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_2;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
@@ -475,7 +475,7 @@ namespace Xtreme
 			// this.txtApprovalTemplate.ShowButton = true;
 			this.txtApprovalTemplate.Size = new System.Drawing.Size(106, 19);
 			this.txtApprovalTemplate.TabIndex = 55;
-			this.txtApprovalTemplate.Text = "";
+			// this.txtApprovalTemplate.Text = "";
 			// this.this.txtApprovalTemplate.Watermark = "";
 			// this.this.txtApprovalTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtApprovalTemplate_DropButtonClick);
 			// this.txtApprovalTemplate.Leave += new System.EventHandler(this.txtApprovalTemplate_Leave);
@@ -1226,7 +1226,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(101, 19);
 			this.txtVoucherDate.TabIndex = 2;
-			this.txtVoucherDate.Text = "18-Jul-2001";
+			// this.txtVoucherDate.Text = "18-Jul-2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
@@ -1524,7 +1524,7 @@ namespace Xtreme
 			this.txtEffectiveDate.Name = "txtEffectiveDate";
 			this.txtEffectiveDate.Size = new System.Drawing.Size(102, 19);
 			this.txtEffectiveDate.TabIndex = 3;
-			this.txtEffectiveDate.Text = "18-Jul-2001";
+			// this.txtEffectiveDate.Text = "18-Jul-2001";
 			// this.txtEffectiveDate.Value = 37090;
 			// 
 			// frmPaySalaryVariation
@@ -1567,23 +1567,7 @@ namespace Xtreme
 			this.fraTabPage0.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializefraEmployeeInformation();
-			InitializecmbCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[19];

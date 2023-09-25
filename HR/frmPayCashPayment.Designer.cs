@@ -58,7 +58,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtCashAmount;
 		private System.Windows.Forms.Label _lblCommonLabel_10;
 		private System.Windows.Forms.Label _lblCommonLabel_17;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
 		private System.Windows.Forms.Label _txtDisplayLabel_3;
@@ -160,7 +160,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
-			this.txtVoucherDate.Text = "18/07/2001";
+			// this.txtVoucherDate.Text = "18/07/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// _txtCommonTextBox_0
@@ -385,19 +385,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[5];

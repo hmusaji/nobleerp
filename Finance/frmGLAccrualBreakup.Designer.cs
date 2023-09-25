@@ -144,8 +144,8 @@ namespace Xtreme
 			this.cmdAllocate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdAllocate.Size = new System.Drawing.Size(90, 18);
 			this.cmdAllocate.TabIndex = 23;
-			this.cmdAllocate.Text = "&Allocate";
-			this.cmdAllocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdAllocate.Text = "&Allocate";
+			// this.cmdAllocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdAllocate.UseVisualStyleBackColor = false;
 			// this.cmdAllocate.Click += new System.EventHandler(this.cmdAllocate_Click);
 			// 
@@ -571,19 +571,7 @@ namespace Xtreme
 			this.cmbMastersList.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[7];

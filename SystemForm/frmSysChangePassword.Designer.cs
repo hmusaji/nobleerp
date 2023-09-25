@@ -41,8 +41,8 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtPassword;
 		public System.Windows.Forms.Label lblConfirmPassword;
 		public System.Windows.Forms.Label lblPassword;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.TextBox txtOldPassword;
 		public UCOkCancel cmdOKCancel;
 		public System.Windows.Forms.Label lblUserID;

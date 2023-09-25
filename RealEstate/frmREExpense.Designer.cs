@@ -147,7 +147,7 @@ namespace Xtreme
 			this.txtCommonDate.Name = "txtCommonDate";
 			this.txtCommonDate.Size = new System.Drawing.Size(101, 19);
 			this.txtCommonDate.TabIndex = 3;
-			this.txtCommonDate.Text = "10-Feb-2004";
+			// this.txtCommonDate.Text = "10-Feb-2004";
 			// this.txtCommonDate.Value = 38027;
 			// 
 			// _lblCommon_3
@@ -354,20 +354,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonNumber();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonNumber()
 		{
 			this.txtCommonNumber = new System.Windows.Forms.TextBox[1];

@@ -83,8 +83,8 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_6;
 		private System.Windows.Forms.Label _lblCommon_8;
 		private System.Windows.Forms.Label _lblCommon_10;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtEstimatedIncome;
 		public System.Windows.Forms.TextBox txtExtimatedExp;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEndDate;
@@ -718,7 +718,7 @@ namespace Xtreme
 			this.txtEndDate.Name = "txtEndDate";
 			this.txtEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtEndDate.TabIndex = 22;
-			this.txtEndDate.Text = "8/6/2003";
+			// this.txtEndDate.Text = "8/6/2003";
 			// this.txtEndDate.Value = 37839;
 			// 
 			// txtStartDate
@@ -731,7 +731,7 @@ namespace Xtreme
 			this.txtStartDate.Name = "txtStartDate";
 			this.txtStartDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDate.TabIndex = 23;
-			this.txtStartDate.Text = "8/6/2003";
+			// this.txtStartDate.Text = "8/6/2003";
 			// this.txtStartDate.Value = 37839;
 			// 
 			// _lblDisplayLabel_4
@@ -866,23 +866,7 @@ namespace Xtreme
 			this._fraLedgerInformation_1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonNumber();
-			InitializetxtCommonLable();
-			InitializetxtCommon();
-			InitializelblDisplayLabel();
-			InitializelblCommon();
-			InitializefraLedgerInformation();
-			InitializecmbPriceLevel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonNumber()
 		{
 			this.txtCommonNumber = new System.Windows.Forms.TextBox[4];

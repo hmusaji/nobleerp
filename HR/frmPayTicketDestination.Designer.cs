@@ -46,17 +46,17 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.TextBox txtDestinationCd;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.TextBox txtLDestName;
 		public System.Windows.Forms.TextBox txtADestName;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		public System.Windows.Forms.TextBox txtNatNo;
 		public System.Windows.Forms.Label txtNatName;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.TextBox txtOneWayAmt;
 		public System.Windows.Forms.Label lblReturnAmt;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.TextBox txtReturnAmt;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -272,16 +272,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

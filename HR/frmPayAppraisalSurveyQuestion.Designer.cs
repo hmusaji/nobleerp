@@ -52,10 +52,10 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblCategoryNo;
 		public System.Windows.Forms.Label lblPurposeArb;
 		private System.Windows.Forms.ComboBox _cmbCommon_0;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label lblComments;
 		public System.Windows.Forms.TextBox txtCategoryCode;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.ComboBox[] cmbCommon = new System.Windows.Forms.ComboBox[1];
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -251,17 +251,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializecmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializecmbCommon()
 		{
 			this.cmbCommon = new System.Windows.Forms.ComboBox[1];

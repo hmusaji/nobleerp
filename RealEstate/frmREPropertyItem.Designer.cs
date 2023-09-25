@@ -50,9 +50,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAssetsCode;
 		public System.Windows.Forms.Label lblAssetsAdjustmentNo;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.Label Label6;
 		private System.Windows.Forms.TextBox _txtCommon_2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.TextBox _txtCommon_3;
 		public System.Windows.Forms.Label lblComments;
 		private System.Windows.Forms.Label _txtCommonDisplay_0;
@@ -262,18 +262,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonDisplay()
 		{
 			this.txtCommonDisplay = new System.Windows.Forms.Label[1];

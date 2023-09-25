@@ -82,7 +82,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController CommandBars;
 		public UpgradeHelpers.Gui.ShapeHelper fraCashLedgerDetails;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -283,7 +283,7 @@ namespace Xtreme
 			this.txtMaturityDate.Name = "txtMaturityDate";
 			this.txtMaturityDate.Size = new System.Drawing.Size(101, 23);
 			this.txtMaturityDate.TabIndex = 8;
-			this.txtMaturityDate.Text = "05/Jun/2005";
+			// this.txtMaturityDate.Text = "05/Jun/2005";
 			// this.txtMaturityDate.Value = 38508;
 			this.txtMaturityDate.Visible = false;
 			// 
@@ -291,7 +291,7 @@ namespace Xtreme
 			// 
 			this.lblMaturityDate.AllowDrop = true;
 			this.lblMaturityDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblMaturityDate.Text = "Maturity Date";
+			// this.lblMaturityDate.Text = "Maturity Date";
 			this.lblMaturityDate.ForeColor = System.Drawing.Color.Black;
 			this.lblMaturityDate.Location = new System.Drawing.Point(386, 118);
 			// // this.lblMaturityDate.mLabelId = 1855;
@@ -364,7 +364,7 @@ namespace Xtreme
 			// 
 			this.lblVoucherDate.AllowDrop = true;
 			this.lblVoucherDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblVoucherDate.Text = "Voucher Date";
+			// this.lblVoucherDate.Text = "Voucher Date";
 			this.lblVoucherDate.ForeColor = System.Drawing.Color.Black;
 			this.lblVoucherDate.Location = new System.Drawing.Point(8, 92);
 			// // this.lblVoucherDate.mLabelId = 848;
@@ -382,7 +382,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 23);
 			this.txtVoucherDate.TabIndex = 3;
-			this.txtVoucherDate.Text = "18/Jul/2001";
+			// this.txtVoucherDate.Text = "18/Jul/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// this.this.txtVoucherDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtVoucherDate_Change);
 			this.txtVoucherDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtVoucherDate_Validating);
@@ -683,16 +683,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

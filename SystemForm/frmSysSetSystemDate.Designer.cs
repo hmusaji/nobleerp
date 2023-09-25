@@ -39,7 +39,7 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public Syncfusion.WinForms.Input.SfCalendar datePicker;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtSystemDate;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public UCOkCancel cmdOKCancel;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.txtSystemDate.Name = "txtSystemDate";
 			this.txtSystemDate.Size = new System.Drawing.Size(90, 18);
 			this.txtSystemDate.TabIndex = 0;
-			this.txtSystemDate.Text = "11/19/2011";
+			// this.txtSystemDate.Text = "11/19/2011";
 			this.txtSystemDate.Visible = false;
 			// 
 			// System.Windows.Forms.Label1

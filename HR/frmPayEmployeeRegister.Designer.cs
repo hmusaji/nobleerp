@@ -45,11 +45,11 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public System.Windows.Forms.LabelLabel5;
-		public System.Windows.Forms.LabelLabel4;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label5;
+		public System.Windows.Forms.Label Label4;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.Label _txtDisplayLabel_5;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtCommonDate_1;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
@@ -260,19 +260,7 @@ namespace Xtreme
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonDate();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[6];

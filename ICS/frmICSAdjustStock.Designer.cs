@@ -54,7 +54,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLocationCode;
 		public System.Windows.Forms.TextBox txtVoucherType;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTransactionDate;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label lblLocationCode;
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.Label txtLocationName;
@@ -174,7 +174,7 @@ namespace Xtreme
 			// 
 			this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblToDate.Text = "As On Date";
+			// this.lblToDate.Text = "As On Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(9, 23);
 			this.lblToDate.Name = "lblToDate";
@@ -191,7 +191,7 @@ namespace Xtreme
 			this.txtAsOnDate.Name = "txtAsOnDate";
 			this.txtAsOnDate.Size = new System.Drawing.Size(96, 19);
 			this.txtAsOnDate.TabIndex = 3;
-			this.txtAsOnDate.Text = "7/18/2001";
+			// this.txtAsOnDate.Text = "7/18/2001";
 			// this.txtAsOnDate.Value = 37090;
 			// 
 			// txtLocationCode
@@ -232,7 +232,7 @@ namespace Xtreme
 			this.txtTransactionDate.Name = "txtTransactionDate";
 			this.txtTransactionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionDate.TabIndex = 2;
-			this.txtTransactionDate.Text = "3/4/2002";
+			// this.txtTransactionDate.Text = "3/4/2002";
 			// this.txtTransactionDate.Value = 37319;
 			// 
 			// System.Windows.Forms.Label1
@@ -314,16 +314,7 @@ namespace Xtreme
 			this.fraDateRange.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

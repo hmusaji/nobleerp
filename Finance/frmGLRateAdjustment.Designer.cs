@@ -248,7 +248,7 @@ namespace Xtreme
 			this.txtAdjustmentDate.Name = "txtAdjustmentDate";
 			this.txtAdjustmentDate.Size = new System.Drawing.Size(102, 19);
 			this.txtAdjustmentDate.TabIndex = 1;
-			this.txtAdjustmentDate.Text = "7/18/2001";
+			// this.txtAdjustmentDate.Text = "7/18/2001";
 			// this.txtAdjustmentDate.Value = 37090;
 			// 
 			// _lblCommonLabel_6
@@ -456,20 +456,7 @@ namespace Xtreme
 			this.grdRateAdjustment.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			InitializefraCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[3];

@@ -544,7 +544,7 @@ namespace Xtreme
 			// this.txtApprovalTemplate.ShowButton = true;
 			this.txtApprovalTemplate.Size = new System.Drawing.Size(106, 19);
 			this.txtApprovalTemplate.TabIndex = 12;
-			this.txtApprovalTemplate.Text = "";
+			// this.txtApprovalTemplate.Text = "";
 			// this.this.txtApprovalTemplate.Watermark = "";
 			// this.this.txtApprovalTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtApprovalTemplate_DropButtonClick);
 			// this.txtApprovalTemplate.Leave += new System.EventHandler(this.txtApprovalTemplate_Leave);
@@ -952,7 +952,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 21);
 			this.txtVoucherDate.TabIndex = 4;
-			this.txtVoucherDate.Text = "18/07/2001";
+			// this.txtVoucherDate.Text = "18/07/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// this.txtVoucherDate.Enter += new System.EventHandler(this.txtVoucherDate_Enter);
 			// this.txtVoucherDate.Leave += new System.EventHandler(this.txtVoucherDate_Leave);
@@ -1399,7 +1399,7 @@ namespace Xtreme
 			this.txtDSubmittedDate.Name = "txtDSubmittedDate";
 			this.txtDSubmittedDate.Size = new System.Drawing.Size(102, 21);
 			this.txtDSubmittedDate.TabIndex = 3;
-			this.txtDSubmittedDate.Text = "18/07/2001";
+			// this.txtDSubmittedDate.Text = "18/07/2001";
 			// this.txtDSubmittedDate.Value = 37090;
 			// this.txtDSubmittedDate.Enter += new System.EventHandler(this.txtDSubmittedDate_Enter);
 			// this.txtDSubmittedDate.Leave += new System.EventHandler(this.txtDSubmittedDate_Leave);
@@ -1457,7 +1457,7 @@ namespace Xtreme
 			this.txtJoiningDate.Name = "txtJoiningDate";
 			this.txtJoiningDate.Size = new System.Drawing.Size(102, 19);
 			this.txtJoiningDate.TabIndex = 82;
-			this.txtJoiningDate.Text = "18/07/2001";
+			// this.txtJoiningDate.Text = "18/07/2001";
 			// this.txtJoiningDate.Value = 37090;
 			// 
 			// frmPayTermination
@@ -1540,24 +1540,7 @@ namespace Xtreme
 			this.frmApproval.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonNumber();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializefraEmployeeInformation();
-			InitializecmbSeveranceStatus();
-			InitializeCmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[27];

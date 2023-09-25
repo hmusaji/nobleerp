@@ -75,10 +75,10 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblAssetCode;
 		private System.Windows.Forms.TextBox _txtCommon_0;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtWriteoffDate;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.TextBox _txtCommon_3;
 		private System.Windows.Forms.TextBox _txtCommon_1;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label _txtCommonDisplay_11;
 		private System.Windows.Forms.Label _txtCommonDisplay_10;
 		private System.Windows.Forms.Label _txtCommonDisplay_9;
@@ -155,7 +155,7 @@ namespace Xtreme
 			// 
 			this.lblWriteofDate.AllowDrop = true;
 			this.lblWriteofDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblWriteofDate.Text = "Writeoff Date";
+			// this.lblWriteofDate.Text = "Writeoff Date";
 			this.lblWriteofDate.ForeColor = System.Drawing.Color.Black;
 			this.lblWriteofDate.Location = new System.Drawing.Point(12, 212);
 			// // this.lblWriteofDate.mLabelId = 1007;
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			this.lblPurchaseDate.AllowDrop = true;
 			this.lblPurchaseDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblPurchaseDate.Text = "Purchase Date";
+			// this.lblPurchaseDate.Text = "Purchase Date";
 			this.lblPurchaseDate.ForeColor = System.Drawing.Color.Black;
 			this.lblPurchaseDate.Location = new System.Drawing.Point(12, 87);
 			// // this.lblPurchaseDate.mLabelId = 994;
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			this.lblLastDeprDate.AllowDrop = true;
 			this.lblLastDeprDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblLastDeprDate.Text = "Last Depr. Date";
+			// this.lblLastDeprDate.Text = "Last Depr. Date";
 			this.lblLastDeprDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastDeprDate.Location = new System.Drawing.Point(12, 109);
 			// // this.lblLastDeprDate.mLabelId = 1006;
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			this.lblLastAdjDate.AllowDrop = true;
 			this.lblLastAdjDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblLastAdjDate.Text = "Last Adj. Date";
+			// this.lblLastAdjDate.Text = "Last Adj. Date";
 			this.lblLastAdjDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastAdjDate.Location = new System.Drawing.Point(12, 131);
 			// // this.lblLastAdjDate.mLabelId = 1009;
@@ -239,7 +239,7 @@ namespace Xtreme
 			// 
 			this.lblLastWriteOffDate.AllowDrop = true;
 			this.lblLastWriteOffDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblLastWriteOffDate.Text = "Last Writeoff Date";
+			// this.lblLastWriteOffDate.Text = "Last Writeoff Date";
 			this.lblLastWriteOffDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastWriteOffDate.Location = new System.Drawing.Point(12, 153);
 			// // this.lblLastWriteOffDate.mLabelId = 1007;
@@ -323,7 +323,7 @@ namespace Xtreme
 			// 
 			this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblExchangeRate.Text = "Exchange Rate";
+			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.ForeColor = System.Drawing.Color.Black;
 			this.lblExchangeRate.Location = new System.Drawing.Point(288, 300);
 			// // this.lblExchangeRate.mLabelId = 260;
@@ -552,7 +552,7 @@ namespace Xtreme
 			this.txtWriteoffDate.Name = "txtWriteoffDate";
 			this.txtWriteoffDate.Size = new System.Drawing.Size(101, 19);
 			this.txtWriteoffDate.TabIndex = 2;
-			this.txtWriteoffDate.Text = "15/03/2014";
+			// this.txtWriteoffDate.Text = "15/03/2014";
 			this.txtWriteoffDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtWriteoffDate_Validating);
 			// 
 			// System.Windows.Forms.Label1
@@ -785,19 +785,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonNumber();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonNumber()
 		{
 			this.txtCommonNumber = new System.Windows.Forms.TextBox[7];

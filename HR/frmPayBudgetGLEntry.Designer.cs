@@ -121,7 +121,7 @@ namespace Xtreme
 			this.txtDPayrollDate.PromptChar = "_";
 			this.txtDPayrollDate.Size = new System.Drawing.Size(101, 19);
 			this.txtDPayrollDate.TabIndex = 2;
-			this.txtDPayrollDate.Text = "31/01/2012";
+			// this.txtDPayrollDate.Text = "31/01/2012";
 			// this.txtDPayrollDate.Value = 40939;
 			// 
 			// _lblCommon_37
@@ -273,17 +273,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[38];

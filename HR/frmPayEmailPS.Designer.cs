@@ -54,10 +54,10 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblFromEmp;
 		public System.Windows.Forms.Label lblToEmp;
 		public System.Windows.Forms.TextBox txtToEmp;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label txtFrmEmpCodeName;
 		public System.Windows.Forms.Label txtToEmpCodeName;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtMonth;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -310,16 +310,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

@@ -71,7 +71,7 @@ namespace Xtreme
 		private System.Windows.Forms.CheckBox _chkCommonInclude_0;
 		public System.Windows.Forms.ComboBox cmbVoucherTypes;
 		public System.Windows.Forms.ComboBox cmbLocation;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label Label1_0;
 		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label Label1;
@@ -612,7 +612,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(101, 19);
 			this.txtFromDate.TabIndex = 26;
-			this.txtFromDate.Text = "07/18/2001";
+			// this.txtFromDate.Text = "07/18/2001";
 			// this.txtFromDate.Value = 37090;
 			// 
 			// txtToDate
@@ -625,7 +625,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(101, 19);
 			this.txtToDate.TabIndex = 27;
-			this.txtToDate.Text = "07/18/2001";
+			// this.txtToDate.Text = "07/18/2001";
 			// this.txtToDate.Value = 37090;
 			// 
 			// _lblStep_0
@@ -968,19 +968,7 @@ namespace Xtreme
 			this._fraStep_3.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblStep();
-			InitializelblCommon();
-			InitializeimgStep();
-			InitializefraStep();
-			InitializecmdNav();
-			InitializechkCommonPost();
-			InitializechkCommonInclude();
-			InitializeSystem.Windows.Forms.Label1();
-			InitializeLine1();
-			InitializeLabel3();
-		}
+		// 
 		void InitializelblStep()
 		{
 			this.lblStep = new System.Windows.Forms.Label[4];

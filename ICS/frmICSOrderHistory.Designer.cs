@@ -50,17 +50,17 @@ namespace Xtreme
 		public C1.Win.C1FlexGrid.C1FlexGrid grdCustomerEnquiry;
 		public System.Windows.Forms.ComboBox cmbYear;
 		public System.Windows.Forms.Button cmdSearch;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel4;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label4;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.TextBox txtRefNo;
 		public System.Windows.Forms.TextBox txtPONo;
 		public System.Windows.Forms.TextBox txtSalesInvNo;
 		public System.Windows.Forms.TextBox txtOffer;
 		public System.Windows.Forms.TextBox txtOrder;
-		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.Label Label6;
 		public System.Windows.Forms.GroupBox Frame1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -539,16 +539,7 @@ namespace Xtreme
 			this.Frame1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

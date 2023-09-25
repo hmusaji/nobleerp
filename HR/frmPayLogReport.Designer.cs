@@ -47,8 +47,8 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.ComboBox cmbReports;
 		private System.Windows.Forms.Label _txtDisplayLabel_0;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label lblToDate;
 		public System.Windows.Forms.Label lblFromDate;
 		private System.Windows.Forms.TextBox _txtcommontextbox_0;
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblToDate.Text = "To Date";
+			// this.lblToDate.Text = "To Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(8, 88);
 			this.lblToDate.Name = "lblToDate";
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			this.lblFromDate.AllowDrop = true;
 			this.lblFromDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblFromDate.Text = "From Date";
+			// this.lblFromDate.Text = "From Date";
 			this.lblFromDate.ForeColor = System.Drawing.Color.Black;
 			this.lblFromDate.Location = new System.Drawing.Point(8, 67);
 			this.lblFromDate.Name = "lblFromDate";
@@ -179,7 +179,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(229, 19);
 			this.txtFromDate.TabIndex = 7;
-			this.txtFromDate.Text = "18/07/2001";
+			// this.txtFromDate.Text = "18/07/2001";
 			// this.txtFromDate.Value = 37090;
 			// 
 			// txtToDate
@@ -192,7 +192,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(229, 19);
 			this.txtToDate.TabIndex = 8;
-			this.txtToDate.Text = "18/07/2001";
+			// this.txtToDate.Text = "18/07/2001";
 			// this.txtToDate.Value = 37090;
 			// 
 			// cmdOKCancel
@@ -238,18 +238,7 @@ namespace Xtreme
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			Initializetxtcommontextbox();
-			InitializetxtDisplayLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void Initializetxtcommontextbox()
 		{
 			this.txtcommontextbox = new System.Windows.Forms.TextBox[1];

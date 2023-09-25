@@ -621,21 +621,7 @@ namespace Xtreme
 			this.fraContractDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtNCommon();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializelblCommon();
-			InitializedateCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtNCommon()
 		{
 			this.txtNCommon = new System.Windows.Forms.TextBox[2];

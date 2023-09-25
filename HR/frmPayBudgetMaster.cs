@@ -8,13 +8,13 @@ using System.Windows.Forms;
 
 namespace Xtreme
 {
-	internal partial class frmPayBudgetMaster
-		: System.Windows.Forms.Form
-	{
+    internal partial class frmPayBudgetMaster
+        : System.Windows.Forms.Form
+    {
 
-		public frmPayBudgetMaster()
-{
-InitializeComponent();
-}
-}
+        public frmPayBudgetMaster()
+        {
+            InitializeComponent();
+        }
+    }
 }

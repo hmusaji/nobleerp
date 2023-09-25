@@ -57,7 +57,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_1;
 		private System.Windows.Forms.TextBox _txtCommonNumber_0;
 		private System.Windows.Forms.Label _lblCommonLabel_4;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_4;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_9;
@@ -474,22 +474,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonNumber();
-			InitializetxtCommonDate();
-			InitializelblCommonLabel();
-			InitializecmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[13];

@@ -102,7 +102,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_7;
 		private System.Windows.Forms.Label _lblCommon_8;
 		private System.Windows.Forms.Label _lblCommon_10;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtEstimatedIncome;
 		public System.Windows.Forms.TextBox txtParentProjectNo;
 		public System.Windows.Forms.TextBox txtExtimatedExp;
@@ -111,7 +111,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		public System.Windows.Forms.Label txtParentProjectName;
 		public System.Windows.Forms.Label txtProjectTypeName;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private AxXtremeSuiteControls.AxTabControlPage _fraLedgerInformation_0;
 		public AxXtremeSuiteControls.AxTabControl tabMaster;
 		public System.Windows.Forms.TextBox txtLProjectName;
@@ -984,7 +984,7 @@ namespace Xtreme
 			this.txtEndDate.Name = "txtEndDate";
 			this.txtEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtEndDate.TabIndex = 26;
-			this.txtEndDate.Text = "8/6/2003";
+			// this.txtEndDate.Text = "8/6/2003";
 			// this.txtEndDate.Value = 37839;
 			// 
 			// txtStartDate
@@ -997,7 +997,7 @@ namespace Xtreme
 			this.txtStartDate.Name = "txtStartDate";
 			this.txtStartDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDate.TabIndex = 27;
-			this.txtStartDate.Text = "8/6/2003";
+			// this.txtStartDate.Text = "8/6/2003";
 			// this.txtStartDate.Value = 37839;
 			// 
 			// txtParentProjectName
@@ -1161,19 +1161,7 @@ namespace Xtreme
 			this.fraProjectCompletedDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			Initializetxt();
-			InitializelblCommon();
-			InitializefraLedgerInformation();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void Initializetxt()
 		{
 			this.txt = new System.Windows.Forms.Label[3];

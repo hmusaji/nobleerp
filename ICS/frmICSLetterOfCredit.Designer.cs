@@ -295,7 +295,7 @@ namespace Xtreme
 			this.txtExpiryDate.PromptChar = "_";
 			this.txtExpiryDate.Size = new System.Drawing.Size(97, 19);
 			this.txtExpiryDate.TabIndex = 3;
-			this.txtExpiryDate.Text = "10-Dec-2008";
+			// this.txtExpiryDate.Text = "10-Dec-2008";
 			// this.txtExpiryDate.Value = 39792;
 			// 
 			// TextBox_1
@@ -444,7 +444,7 @@ namespace Xtreme
 			this.txtPolicyDate.PromptChar = "_";
 			this.txtPolicyDate.Size = new System.Drawing.Size(97, 19);
 			this.txtPolicyDate.TabIndex = 27;
-			this.txtPolicyDate.Text = "10-Dec-2008";
+			// this.txtPolicyDate.Text = "10-Dec-2008";
 			// this.txtPolicyDate.Value = 39792;
 			// 
 			// txtArrivalDate
@@ -457,7 +457,7 @@ namespace Xtreme
 			this.txtArrivalDate.PromptChar = "_";
 			this.txtArrivalDate.Size = new System.Drawing.Size(97, 19);
 			this.txtArrivalDate.TabIndex = 28;
-			this.txtArrivalDate.Text = "10-Dec-2008";
+			// this.txtArrivalDate.Text = "10-Dec-2008";
 			// this.txtArrivalDate.Value = 39792;
 			// 
 			// txtAmendment1
@@ -823,7 +823,7 @@ namespace Xtreme
 			this.lblExpDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.lblExpDate.Size = new System.Drawing.Size(73, 14);
 			this.lblExpDate.TabIndex = 2;
-			this.lblExpDate.Text = "Expiry Date:";
+			// this.lblExpDate.Text = "Expiry Date:";
 			// 
 			// lblDate
 			// 
@@ -836,7 +836,7 @@ namespace Xtreme
 			this.lblDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.lblDate.Size = new System.Drawing.Size(73, 14);
 			this.lblDate.TabIndex = 0;
-			this.lblDate.Text = "Date of Credit:";
+			// this.lblDate.Text = "Date of Credit:";
 			// 
 			// frmICSLetterOfCredit
 			// 
@@ -911,19 +911,7 @@ namespace Xtreme
 			this.grdLC.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeSystem.Windows.Forms.TextBox();
-			InitializeSystem.Windows.Forms.TextBox1();
-			InitializeLabel1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializeSystem.Windows.Forms.TextBox()
 		{
 			this.TextBox = new System.Windows.Forms.TextBox[10];

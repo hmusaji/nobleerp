@@ -473,14 +473,7 @@ namespace Xtreme
 			this.cmbSearchList.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDateRange();
-			InitializeoptPrintGraph();
-			InitializelblCommon();
-			InitializecntButtons();
-			InitializebtnReportOptions();
-		}
+		// 
 		void InitializetxtDateRange()
 		{
 			this.txtDateRange = new Syncfusion.WinForms.Input.SfDateTimeEdit[2];

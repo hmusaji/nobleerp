@@ -53,8 +53,8 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblFromDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
 		public AxTDBContainer3D6.AxTDBContainer3D cntMainParameter;
 		public UCOkCancel cmdOKCancel;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -168,7 +168,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(101, 19);
 			this.txtFromDate.TabIndex = 1;
-			this.txtFromDate.Text = "13/02/2014";
+			// this.txtFromDate.Text = "13/02/2014";
 			// 
 			// txtToDate
 			// 
@@ -179,7 +179,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(101, 19);
 			this.txtToDate.TabIndex = 2;
-			this.txtToDate.Text = "13/02/2014";
+			// this.txtToDate.Text = "13/02/2014";
 			// 
 			// System.Windows.Forms.Label1
 			// 
@@ -235,16 +235,7 @@ namespace Xtreme
 			this.cntMainParameter.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

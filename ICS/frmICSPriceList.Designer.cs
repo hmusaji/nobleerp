@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblDate.Text = "Date";
+			// this.lblDate.Text = "Date";
 			this.lblDate.Location = new System.Drawing.Point(10, 42);
 			this.lblDate.Name = "lblDate";
 			this.lblDate.Size = new System.Drawing.Size(22, 14);
@@ -199,7 +199,7 @@ namespace Xtreme
 			this.txtDDate.PromptChar = "_";
 			this.txtDDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDDate.TabIndex = 7;
-			this.txtDDate.Text = "12/1/2005";
+			// this.txtDDate.Text = "12/1/2005";
 			// this.txtDDate.Value = 38687;
 			// 
 			// UserEfectStart
@@ -226,7 +226,7 @@ namespace Xtreme
 			this.txtDEfectStartDate.PromptChar = "_";
 			this.txtDEfectStartDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDEfectStartDate.TabIndex = 10;
-			this.txtDEfectStartDate.Text = "12/1/2005";
+			// this.txtDEfectStartDate.Text = "12/1/2005";
 			// this.txtDEfectStartDate.Value = 38687;
 			this.txtDEfectStartDate.Visible = false;
 			// 
@@ -253,7 +253,7 @@ namespace Xtreme
 			this.txtDEfectEndDate.Name = "txtDEfectEndDate";
 			this.txtDEfectEndDate.Size = new System.Drawing.Size(102, 19);
 			this.txtDEfectEndDate.TabIndex = 12;
-			this.txtDEfectEndDate.Text = "12/1/2005";
+			// this.txtDEfectEndDate.Text = "12/1/2005";
 			// this.txtDEfectEndDate.Value = 38687;
 			this.txtDEfectEndDate.Visible = false;
 			// 
@@ -320,16 +320,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

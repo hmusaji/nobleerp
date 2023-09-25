@@ -190,7 +190,7 @@ namespace Xtreme
 			this.txtVoucherDate.ReadOnly = true;
 			this.txtVoucherDate.Size = new System.Drawing.Size(101, 19);
 			this.txtVoucherDate.TabIndex = 2;
-			this.txtVoucherDate.Text = "10-May-2002";
+			// this.txtVoucherDate.Text = "10-May-2002";
 			// this.txtVoucherDate.Value = 37386;
 			// 
 			// _txtCommonSearch_7
@@ -466,22 +466,7 @@ namespace Xtreme
 			this.cntMasterDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonSearch();
-			InitializetxtCommon();
-			InitializelblCommon();
-			InitializecntButtons();
-			InitializebtnReportOptions();
-			InitializeLine1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonSearch()
 		{
 			this.txtCommonSearch = new System.Windows.Forms.TextBox[8];

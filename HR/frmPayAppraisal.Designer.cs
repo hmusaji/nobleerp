@@ -48,13 +48,13 @@ namespace Xtreme
 		public System.Windows.Forms.Label txtDlblDepartment;
 		public System.Windows.Forms.Label txtDlblRateeName;
 		public System.Windows.Forms.TextBox txtRateeCode;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel4;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label4;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.Label txtDlblDesignation;
 		public System.Windows.Forms.Label txtDlblDepartmentName;
 		public System.Windows.Forms.Label txtDlblDesignationName;
-		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.Label Label6;
 		public System.Windows.Forms.Label txtDlblRequestedByName;
 		public System.Windows.Forms.TextBox txtRequestedBy;
 		public System.Windows.Forms.GroupBox frmRatee;
@@ -64,9 +64,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblCategoryNo;
 		private System.Windows.Forms.Label _lblCommonLabel_6;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTransactionDate;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel7;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label7;
 		public System.Windows.Forms.TextBox txtSuveyTemplate;
 		public System.Windows.Forms.Label txtDlBLSurveyTemplateName;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbMastersList;
@@ -291,7 +291,7 @@ namespace Xtreme
 			this.txtEndDate.PromptChar = "_";
 			this.txtEndDate.Size = new System.Drawing.Size(116, 19);
 			this.txtEndDate.TabIndex = 7;
-			this.txtEndDate.Text = "05/08/2010";
+			// this.txtEndDate.Text = "05/08/2010";
 			// this.txtEndDate.Value = 40395;
 			// 
 			// txtStartDate
@@ -305,7 +305,7 @@ namespace Xtreme
 			this.txtStartDate.PromptChar = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(116, 19);
 			this.txtStartDate.TabIndex = 6;
-			this.txtStartDate.Text = "05/08/2010";
+			// this.txtStartDate.Text = "05/08/2010";
 			// this.txtStartDate.Value = 40395;
 			// 
 			// txtAppraisal
@@ -355,7 +355,7 @@ namespace Xtreme
 			this.txtTransactionDate.Name = "txtTransactionDate";
 			this.txtTransactionDate.Size = new System.Drawing.Size(116, 19);
 			this.txtTransactionDate.TabIndex = 3;
-			this.txtTransactionDate.Text = "01/09/2010";
+			// this.txtTransactionDate.Text = "01/09/2010";
 			// this.txtTransactionDate.Value = 40422;
 			// 
 			// System.Windows.Forms.Label1
@@ -400,7 +400,7 @@ namespace Xtreme
 			// this.txtSuveyTemplate.ShowButton = true;
 			this.txtSuveyTemplate.Size = new System.Drawing.Size(118, 19);
 			this.txtSuveyTemplate.TabIndex = 21;
-			this.txtSuveyTemplate.Text = "";
+			// this.txtSuveyTemplate.Text = "";
 			// this.this.txtSuveyTemplate.Watermark = "";
 			// this.this.txtSuveyTemplate.DropButtonClick += new System.Windows.Forms.TextBox.DropButtonClickHandler(this.txtSuveyTemplate_DropButtonClick);
 			// this.txtSuveyTemplate.Leave += new System.EventHandler(this.txtSuveyTemplate_Leave);
@@ -504,17 +504,7 @@ namespace Xtreme
 			this.grdSurveyDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommonLabel()
 		{
 			this.lblCommonLabel = new System.Windows.Forms.Label[7];

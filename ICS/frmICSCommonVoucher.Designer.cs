@@ -74,7 +74,7 @@ namespace Xtreme
 		public AxXtremeSuiteControls.AxTabControlPage tabOtherInfo;
 		private System.Windows.Forms.ComboBox _comCommon_2;
 		private System.Windows.Forms.Label _lblCommonLabel_37;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.TextBox txtShipmentNo;
 		private System.Windows.Forms.ComboBox _comCommon_3;
 		private System.Windows.Forms.Label _lblCommonLabel_38;
@@ -95,7 +95,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtPaymentTerms;
 		private System.Windows.Forms.ComboBox _comCommon_1;
 		private System.Windows.Forms.Label _lblCommonLabel_36;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtDrawnOnBank;
 		public System.Windows.Forms.TextBox txtNAdditionalExpenses;
 		private System.Windows.Forms.Label _lblCommonLabel_44;
@@ -1282,14 +1282,14 @@ namespace Xtreme
 			this.txtCreditCardDate.Name = "txtCreditCardDate";
 			this.txtCreditCardDate.Size = new System.Drawing.Size(119, 19);
 			this.txtCreditCardDate.TabIndex = 45;
-			this.txtCreditCardDate.Text = "04-Feb-2002";
+			// this.txtCreditCardDate.Text = "04-Feb-2002";
 			// this.txtCreditCardDate.Value = 37291;
 			// 
 			// lblRefrenceOrderDate
 			// 
 			this.lblRefrenceOrderDate.AllowDrop = true;
 			this.lblRefrenceOrderDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblRefrenceOrderDate.Text = "Ref. Order Date";
+			// this.lblRefrenceOrderDate.Text = "Ref. Order Date";
 			this.lblRefrenceOrderDate.ForeColor = System.Drawing.Color.Black;
 			this.lblRefrenceOrderDate.Location = new System.Drawing.Point(237, 18);
 			// // this.lblRefrenceOrderDate.mLabelId = 944;
@@ -1301,7 +1301,7 @@ namespace Xtreme
 			// 
 			this.lblChequeDate.AllowDrop = true;
 			this.lblChequeDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblChequeDate.Text = "Cheque Date";
+			// this.lblChequeDate.Text = "Cheque Date";
 			this.lblChequeDate.ForeColor = System.Drawing.Color.Black;
 			this.lblChequeDate.Location = new System.Drawing.Point(237, 39);
 			// // this.lblChequeDate.mLabelId = 945;
@@ -1313,7 +1313,7 @@ namespace Xtreme
 			// 
 			this.lblCreditCardDate.AllowDrop = true;
 			this.lblCreditCardDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblCreditCardDate.Text = "Credit Card Date ";
+			// this.lblCreditCardDate.Text = "Credit Card Date ";
 			this.lblCreditCardDate.ForeColor = System.Drawing.Color.Black;
 			this.lblCreditCardDate.Location = new System.Drawing.Point(237, 60);
 			// // this.lblCreditCardDate.mLabelId = 946;
@@ -1331,7 +1331,7 @@ namespace Xtreme
 			this.txtRefrenceOrderDate.Name = "txtRefrenceOrderDate";
 			this.txtRefrenceOrderDate.Size = new System.Drawing.Size(119, 19);
 			this.txtRefrenceOrderDate.TabIndex = 46;
-			this.txtRefrenceOrderDate.Text = "04-Jan-2002";
+			// this.txtRefrenceOrderDate.Text = "04-Jan-2002";
 			// this.txtRefrenceOrderDate.Value = 37260;
 			// 
 			// txtChequeDate
@@ -1344,7 +1344,7 @@ namespace Xtreme
 			this.txtChequeDate.Name = "txtChequeDate";
 			this.txtChequeDate.Size = new System.Drawing.Size(119, 19);
 			this.txtChequeDate.TabIndex = 47;
-			this.txtChequeDate.Text = "04-Jan-2002";
+			// this.txtChequeDate.Text = "04-Jan-2002";
 			// this.txtChequeDate.Value = 37260;
 			// 
 			// txtCreditCardNo
@@ -2000,7 +2000,7 @@ namespace Xtreme
 			this.txtExchangeRate.Name = "txtExchangeRate";
 			this.txtExchangeRate.Size = new System.Drawing.Size(103, 23);
 			this.txtExchangeRate.TabIndex = 9;
-			this.txtExchangeRate.Text = "0.000";
+			// this.txtExchangeRate.Text = "0.000";
 			this.txtExchangeRate.Visible = false;
 			// 
 			// _lblCommonLabel_14
@@ -2026,7 +2026,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(103, 23);
 			this.txtVoucherDate.TabIndex = 3;
-			this.txtVoucherDate.Text = "18-Jul-2001";
+			// this.txtVoucherDate.Text = "18-Jul-2001";
 			// this.txtVoucherDate.Value = 37090;
 			// this.this.txtVoucherDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtVoucherDate_Change);
 			this.txtVoucherDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtVoucherDate_Validating);
@@ -2547,7 +2547,7 @@ namespace Xtreme
 			this.txtDDueDate.Name = "txtDDueDate";
 			this.txtDDueDate.Size = new System.Drawing.Size(102, 23);
 			this.txtDDueDate.TabIndex = 33;
-			this.txtDDueDate.Text = "18-Jul-2001";
+			// this.txtDDueDate.Text = "18-Jul-2001";
 			// this.txtDDueDate.Value = 37090;
 			this.txtDDueDate.Visible = false;
 			// 
@@ -2657,7 +2657,7 @@ namespace Xtreme
 			this.txtStartDate.Name = "txtStartDate";
 			this.txtStartDate.Size = new System.Drawing.Size(103, 23);
 			this.txtStartDate.TabIndex = 139;
-			this.txtStartDate.Text = "11-Mar-2020";
+			// this.txtStartDate.Text = "11-Mar-2020";
 			// this.txtStartDate.Leave += new System.EventHandler(this.txtStartDate_Leave);
 			this.txtStartDate.Validated += new System.EventHandler(this.txtStartDate_Validated);
 			this.txtStartDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtStartDate_Validating);
@@ -2683,7 +2683,7 @@ namespace Xtreme
 			this.txtDeliveryReturnDate.Name = "txtDeliveryReturnDate";
 			this.txtDeliveryReturnDate.Size = new System.Drawing.Size(103, 23);
 			this.txtDeliveryReturnDate.TabIndex = 141;
-			this.txtDeliveryReturnDate.Text = "11-Mar-2020";
+			// this.txtDeliveryReturnDate.Text = "11-Mar-2020";
 			// 
 			// _lblCommonLabel_52
 			// 
@@ -2706,7 +2706,7 @@ namespace Xtreme
 			this.txtDeliveryDate.Name = "txtDeliveryDate";
 			this.txtDeliveryDate.Size = new System.Drawing.Size(103, 23);
 			this.txtDeliveryDate.TabIndex = 143;
-			this.txtDeliveryDate.Text = "11-Mar-2020";
+			// this.txtDeliveryDate.Text = "11-Mar-2020";
 			// 
 			// _lblCommonLabel_51
 			// 
@@ -2729,7 +2729,7 @@ namespace Xtreme
 			this.txtEndDate.Name = "txtEndDate";
 			this.txtEndDate.Size = new System.Drawing.Size(103, 23);
 			this.txtEndDate.TabIndex = 145;
-			this.txtEndDate.Text = "11-Mar-2020";
+			// this.txtEndDate.Text = "11-Mar-2020";
 			// this.txtEndDate.Leave += new System.EventHandler(this.txtEndDate_Leave);
 			this.txtEndDate.Validated += new System.EventHandler(this.txtEndDate_Validated);
 			this.txtEndDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtEndDate_Validating);
@@ -3051,24 +3051,7 @@ namespace Xtreme
 			this.fraProject.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializeoptVoucherType();
-			InitializelblCommonLabel();
-			InitializecomCommon();
-			InitializeTabControlPage3();
-			InitializeTabControlPage2();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-			Form_Initialize();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[16];

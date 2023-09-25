@@ -434,10 +434,7 @@ namespace Xtreme
 			//((System.ComponentModel.ISupportInitialize) this.mnuSystemMenu).EndInit();
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializecmbLanguage();
-		}
+		// 
 		void InitializecmbLanguage()
 		{
 			this.cmbLanguage = new System.Windows.Forms.ComboBox[1];

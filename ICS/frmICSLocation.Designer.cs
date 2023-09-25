@@ -68,8 +68,8 @@ namespace Xtreme
 		private System.Windows.Forms.Panel _fraMasterInformation_1;
 		public System.Windows.Forms.CheckBox chkCheckNegativeStock;
 		public System.Windows.Forms.TextBox txtComment;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
 		public System.Windows.Forms.TextBox txtLShortName;
 		public System.Windows.Forms.TextBox txtAShortName;
 		public System.Windows.Forms.Label lblAddr_1;
@@ -79,7 +79,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblMobile;
 		public System.Windows.Forms.TextBox txtPhone;
 		public System.Windows.Forms.TextBox txtContactPerson;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtAdd3;
 		public System.Windows.Forms.Label lblAddr_2;
 		public System.Windows.Forms.TextBox txtAdd2;
@@ -862,18 +862,7 @@ namespace Xtreme
 			this._fraMasterInformation_0.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-			InitializefraMasterInformation();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[4];

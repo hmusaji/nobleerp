@@ -127,7 +127,7 @@ namespace Xtreme
 			this.txtTransDate.Name = "txtTransDate";
 			this.txtTransDate.Size = new System.Drawing.Size(102, 19);
 			this.txtTransDate.TabIndex = 1;
-			this.txtTransDate.Text = "18/07/2001";
+			// this.txtTransDate.Text = "18/07/2001";
 			// this.txtTransDate.Value = 37090;
 			// 
 			// _lblCommonLabel_5
@@ -319,20 +319,7 @@ namespace Xtreme
 			this.grdAssetTransDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			InitializecmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[1];

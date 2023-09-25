@@ -1555,7 +1555,7 @@ namespace Xtreme
 			this.txtExpDate.PromptChar = "_";
 			this.txtExpDate.Size = new System.Drawing.Size(103, 21);
 			this.txtExpDate.TabIndex = 152;
-			this.txtExpDate.Text = "25/Oct/2020";
+			// this.txtExpDate.Text = "25/Oct/2020";
 			// 
 			// txtPackDate
 			// 
@@ -1567,7 +1567,7 @@ namespace Xtreme
 			this.txtPackDate.PromptChar = "_";
 			this.txtPackDate.Size = new System.Drawing.Size(103, 21);
 			this.txtPackDate.TabIndex = 151;
-			this.txtPackDate.Text = "25/Oct/2020";
+			// this.txtPackDate.Text = "25/Oct/2020";
 			// 
 			// _lblCommon_26
 			// 
@@ -2814,26 +2814,7 @@ namespace Xtreme
 			this.grdBarcodeDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtFlexDisplay();
-			InitializetxtFlex();
-			InitializetxtCommonNumber();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializelblCommon();
-			InitializefraProductInformation();
-			InitializecmdCommon();
-			InitializecmbCommon();
-			InitializechkCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtFlexDisplay()
 		{
 			this.txtFlexDisplay = new System.Windows.Forms.Label[15];

@@ -744,7 +744,7 @@ namespace Xtreme
 			this.txtBirthDate.Name = "txtBirthDate";
 			this.txtBirthDate.Size = new System.Drawing.Size(102, 19);
 			this.txtBirthDate.TabIndex = 8;
-			this.txtBirthDate.Text = "06/04/2003";
+			// this.txtBirthDate.Text = "06/04/2003";
 			// this.txtBirthDate.Value = 37717;
 			// 
 			// _txtCommonTextBox_9
@@ -908,21 +908,7 @@ namespace Xtreme
 			this.grdLanguageDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommon();
-			InitializecmbCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[1];

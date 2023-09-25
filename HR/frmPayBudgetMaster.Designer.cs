@@ -4,28 +4,7 @@ namespace Xtreme
 	partial class frmPayBudgetMaster
 	{
 
-		#region "Upgrade Support "
-		private static frmPayBudgetMaster m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmPayBudgetMaster DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
+		
 		#region "Windows Form Designer generated code "
 		public static frmPayBudgetMaster CreateInstance()
 		{
@@ -55,8 +34,8 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLBudgetName;
 		public System.Windows.Forms.Label lblACategoryName;
 		public System.Windows.Forms.TextBox txtABudgetName;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEndDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		public System.Windows.Forms.Label lblComments;
@@ -252,7 +231,7 @@ namespace Xtreme
 			this.txtEndDate.Name = "txtEndDate";
 			this.txtEndDate.Size = new System.Drawing.Size(113, 19);
 			this.txtEndDate.TabIndex = 4;
-			this.txtEndDate.Text = "13/02/2012";
+			// // this.txtEndDate.Text = "13/02/2012";
 			// this.txtEndDate.Value = 40952;
 			// 
 			// txtStartDate
@@ -265,7 +244,7 @@ namespace Xtreme
 			this.txtStartDate.Name = "txtStartDate";
 			this.txtStartDate.Size = new System.Drawing.Size(113, 19);
 			this.txtStartDate.TabIndex = 3;
-			this.txtStartDate.Text = "01/01/2011";
+			// // this.txtStartDate.Text = "01/01/2011";
 			// this.txtStartDate.Value = 40544;
 			// 
 			// lblComments
@@ -317,16 +296,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		
 		#endregion
 	}
 }//ENDSHERE

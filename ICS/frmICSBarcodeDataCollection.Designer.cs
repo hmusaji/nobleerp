@@ -40,12 +40,12 @@ namespace Xtreme
 		public AxC1SizerLib.AxC1Elastic conImportICSTrans;
 		public System.Windows.Forms.Label txtGLVoucherName;
 		public System.Windows.Forms.TextBox txtGLVoucherType;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
 		public System.Windows.Forms.TextBox txtGLVoucherNo;
 		public AxC1SizerLib.AxC1Elastic conImportGLVoucher;
 		public System.Windows.Forms.Button cmdFileSearch;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.Label _txtCommonLable_0;
 		public AxC1SizerLib.AxC1Elastic conFileImport;
 		public AxC1SizerLib.AxC1Tab tabMaster;
@@ -276,10 +276,7 @@ namespace Xtreme
 			this.conFileImport.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonLable();
-		}
+		// 
 		void InitializetxtCommonLable()
 		{
 			this.txtCommonLable = new System.Windows.Forms.Label[1];

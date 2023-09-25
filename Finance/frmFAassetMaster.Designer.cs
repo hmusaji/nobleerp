@@ -73,12 +73,12 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblLastWriteOffDt;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtLastDeprDate;
 		private System.Windows.Forms.TextBox _txtCommonNumber_4;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label lblExpensesAmount;
 		private System.Windows.Forms.TextBox _txtCommonNumber_2;
 		private System.Windows.Forms.TextBox _txtCommon_9;
 		public System.Windows.Forms.Label lblExpensesAccount;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label _txtCommonDisplay_13;
 		private System.Windows.Forms.Label _txtCommonDisplay_3;
 		private System.Windows.Forms.Label _txtCommonDisplay_8;
@@ -109,7 +109,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommon_5;
 		public System.Windows.Forms.Label lblLocationOfAsset;
 		private System.Windows.Forms.TextBox _txtCommon_11;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.TextBox _txtCommon_13;
 		private System.Windows.Forms.Label _txtCommonDisplay_14;
 		private System.Windows.Forms.Label _txtCommonDisplay_2;
@@ -383,7 +383,7 @@ namespace Xtreme
 			// 
 			this.lblPurchaseDate.AllowDrop = true;
 			this.lblPurchaseDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblPurchaseDate.Text = "Purchase Date";
+			// this.lblPurchaseDate.Text = "Purchase Date";
 			this.lblPurchaseDate.ForeColor = System.Drawing.Color.Black;
 			this.lblPurchaseDate.Location = new System.Drawing.Point(6, 51);
 			// // this.lblPurchaseDate.mLabelId = 994;
@@ -407,7 +407,7 @@ namespace Xtreme
 			// 
 			this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblExchangeRate.Text = "Exchange Rate";
+			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.ForeColor = System.Drawing.Color.Black;
 			this.lblExchangeRate.Location = new System.Drawing.Point(228, 72);
 			// // this.lblExchangeRate.mLabelId = 260;
@@ -437,7 +437,7 @@ namespace Xtreme
 			this.txtPurchaseDate.Name = "txtPurchaseDate";
 			this.txtPurchaseDate.Size = new System.Drawing.Size(101, 19);
 			this.txtPurchaseDate.TabIndex = 37;
-			this.txtPurchaseDate.Text = "15/03/2014";
+			// this.txtPurchaseDate.Text = "15/03/2014";
 			// 
 			// _txtCommonNumber_0
 			// 
@@ -623,7 +623,7 @@ namespace Xtreme
 			// 
 			this.lblLastDeprDate.AllowDrop = true;
 			this.lblLastDeprDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblLastDeprDate.Text = "Last Depr. Date";
+			// this.lblLastDeprDate.Text = "Last Depr. Date";
 			this.lblLastDeprDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastDeprDate.Location = new System.Drawing.Point(212, 181);
 			// // this.lblLastDeprDate.mLabelId = 1006;
@@ -635,7 +635,7 @@ namespace Xtreme
 			// 
 			this.lblLastAdjDate.AllowDrop = true;
 			this.lblLastAdjDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblLastAdjDate.Text = "Last Adj. Date";
+			// this.lblLastAdjDate.Text = "Last Adj. Date";
 			this.lblLastAdjDate.ForeColor = System.Drawing.Color.Black;
 			this.lblLastAdjDate.Location = new System.Drawing.Point(414, 180);
 			// // this.lblLastAdjDate.mLabelId = 1009;
@@ -665,7 +665,7 @@ namespace Xtreme
 			this.txtLastDeprDate.Name = "txtLastDeprDate";
 			this.txtLastDeprDate.Size = new System.Drawing.Size(101, 19);
 			this.txtLastDeprDate.TabIndex = 54;
-			this.txtLastDeprDate.Text = "15/03/2014";
+			// this.txtLastDeprDate.Text = "15/03/2014";
 			// 
 			// _txtCommonNumber_4
 			// 
@@ -974,7 +974,7 @@ namespace Xtreme
 			// 
 			this.lblStartDeprDate.AllowDrop = true;
 			this.lblStartDeprDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblStartDeprDate.Text = "Start Depr. Date";
+			// this.lblStartDeprDate.Text = "Start Depr. Date";
 			this.lblStartDeprDate.ForeColor = System.Drawing.Color.Black;
 			this.lblStartDeprDate.Location = new System.Drawing.Point(0, 24);
 			// // this.lblStartDeprDate.mLabelId = 991;
@@ -992,7 +992,7 @@ namespace Xtreme
 			this.txtStartDeprDate.Name = "txtStartDeprDate";
 			this.txtStartDeprDate.Size = new System.Drawing.Size(101, 19);
 			this.txtStartDeprDate.TabIndex = 9;
-			this.txtStartDeprDate.Text = "15/03/2014";
+			// this.txtStartDeprDate.Text = "15/03/2014";
 			// 
 			// _txtCommonNumber_3
 			// 
@@ -1397,22 +1397,7 @@ namespace Xtreme
 			this.cmbCommon.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonNumber();
-			InitializetxtCommonDisplay();
-			InitializetxtCommon();
-			InitializelblCommon();
-			InitializefraLedgerInformation();
-			InitializeLine1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonNumber()
 		{
 			this.txtCommonNumber = new System.Windows.Forms.TextBox[5];

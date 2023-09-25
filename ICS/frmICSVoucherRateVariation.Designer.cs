@@ -49,11 +49,11 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblToDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Panel fraDateRange;
 		public System.Windows.Forms.TextBox txtCurrentRate;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
 		public System.Windows.Forms.TextBox txtNewRate;
 		public System.Windows.Forms.Panel Frame1;
 		public System.Windows.Forms.TextBox txtProductCd;
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblToDate.Text = "To Date";
+			// this.lblToDate.Text = "To Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(12, 36);
 			this.lblToDate.Name = "lblToDate";
@@ -165,7 +165,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(96, 19);
 			this.txtToDate.TabIndex = 3;
-			this.txtToDate.Text = "18/07/2001";
+			// this.txtToDate.Text = "18/07/2001";
 			// this.txtToDate.Value = 37090;
 			// 
 			// txtFromDate
@@ -178,7 +178,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(96, 19);
 			this.txtFromDate.TabIndex = 2;
-			this.txtFromDate.Text = "04/03/2002";
+			// this.txtFromDate.Text = "04/03/2002";
 			// this.txtFromDate.Value = 37319;
 			// 
 			// System.Windows.Forms.Label1
@@ -225,7 +225,7 @@ namespace Xtreme
 			this.txtCurrentRate.Name = "txtCurrentRate";
 			this.txtCurrentRate.Size = new System.Drawing.Size(96, 19);
 			this.txtCurrentRate.TabIndex = 4;
-			this.txtCurrentRate.Text = "0.000";
+			// this.txtCurrentRate.Text = "0.000";
 			// 
 			// System.Windows.Forms.Label2
 			// 
@@ -261,7 +261,7 @@ namespace Xtreme
 			this.txtNewRate.Name = "txtNewRate";
 			this.txtNewRate.Size = new System.Drawing.Size(96, 19);
 			this.txtNewRate.TabIndex = 5;
-			this.txtNewRate.Text = "0.000";
+			// this.txtNewRate.Text = "0.000";
 			// 
 			// txtProductCd
 			// 
@@ -359,16 +359,7 @@ namespace Xtreme
 			this.Frame1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

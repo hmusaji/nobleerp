@@ -96,7 +96,7 @@ namespace Xtreme
 			this.txtPayDate.PromptChar = "_";
 			this.txtPayDate.Size = new System.Drawing.Size(105, 19);
 			this.txtPayDate.TabIndex = 1;
-			this.txtPayDate.Text = "01/07/2011";
+			// this.txtPayDate.Text = "01/07/2011";
 			// this.txtPayDate.Value = 40725;
 			// this.txtPayDate.Leave += new System.EventHandler(this.txtPayDate_Leave);
 			// 
@@ -261,18 +261,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[4];

@@ -752,7 +752,7 @@ namespace Xtreme
 			// 
 			this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblToDate.Text = "To Date";
+			// this.lblToDate.Text = "To Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(12, 46);
 			this.lblToDate.Name = "lblToDate";
@@ -763,7 +763,7 @@ namespace Xtreme
 			// 
 			this.lblFromDate.AllowDrop = true;
 			this.lblFromDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblFromDate.Text = "From Date";
+			// this.lblFromDate.Text = "From Date";
 			this.lblFromDate.ForeColor = System.Drawing.Color.Black;
 			this.lblFromDate.Location = new System.Drawing.Point(12, 25);
 			this.lblFromDate.Name = "lblFromDate";
@@ -780,7 +780,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(101, 19);
 			this.txtFromDate.TabIndex = 2;
-			this.txtFromDate.Text = "18/07/2001";
+			// this.txtFromDate.Text = "18/07/2001";
 			// this.txtFromDate.Value = 37090;
 			this.txtFromDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtFromDate_Validating);
 			// 
@@ -794,7 +794,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(101, 19);
 			this.txtToDate.TabIndex = 3;
-			this.txtToDate.Text = "18/07/2001";
+			// this.txtToDate.Text = "18/07/2001";
 			// this.txtToDate.Value = 37090;
 			this.txtToDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtToDate_Validating);
 			// 
@@ -909,10 +909,7 @@ namespace Xtreme
 			this.fraDateRange.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[7];

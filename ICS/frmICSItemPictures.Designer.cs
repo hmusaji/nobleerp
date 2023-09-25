@@ -185,17 +185,7 @@ namespace Xtreme
 			this.picFormToolbar.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializebtnFormToolBar();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializebtnFormToolBar()
 		{
 			this.btnFormToolBar = new AxSmartNetButtonProject.AxSmartNetButton[2];

@@ -270,8 +270,8 @@ namespace Xtreme
 			this.cmdAllocate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdAllocate.Size = new System.Drawing.Size(77, 19);
 			this.cmdAllocate.TabIndex = 10;
-			this.cmdAllocate.Text = "A l l o c a t e";
-			this.cmdAllocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdAllocate.Text = "A l l o c a t e";
+			// this.cmdAllocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdAllocate.UseVisualStyleBackColor = false;
 			// this.cmdAllocate.Click += new System.EventHandler(this.cmdAllocate_Click);
 			// 
@@ -461,7 +461,7 @@ namespace Xtreme
 			this.txtExchangeRate.Name = "txtExchangeRate";
 			this.txtExchangeRate.Size = new System.Drawing.Size(101, 19);
 			this.txtExchangeRate.TabIndex = 24;
-			this.txtExchangeRate.Text = "0.000";
+			// this.txtExchangeRate.Text = "0.000";
 			// 
 			// _lblCommonLabel_14
 			// 
@@ -517,7 +517,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 4;
-			this.txtVoucherDate.Text = "07/18/2001";
+			// this.txtVoucherDate.Text = "07/18/2001";
 			// this.txtVoucherDate.Value = 37090;
 			this.txtVoucherDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtVoucherDate_Validating);
 			// 
@@ -758,21 +758,7 @@ namespace Xtreme
 			this.grdExpensesDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializeoptAllocation();
-			InitializelblCommonLabel();
-			InitializefraCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[3];

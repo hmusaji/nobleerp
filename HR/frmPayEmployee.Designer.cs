@@ -48,9 +48,9 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_47;
 		private System.Windows.Forms.Label _lblCommon_48;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_31;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_57;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label _lblCommon_1;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_29;
 		private System.Windows.Forms.Label _lblCommon_3;
@@ -119,9 +119,9 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_38;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_49;
 		public System.Windows.Forms.GroupBox frmRasidence;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.TextBox txtLoginID;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.Label txtDlblDefaultProject;
 		public System.Windows.Forms.TextBox txtDefaultProject;
 		private System.Windows.Forms.Label _lblCommon_27;
@@ -205,7 +205,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label Label1_3;
 		private System.Windows.Forms.ComboBox _cmbCommon_1;
 		private System.Windows.Forms.ComboBox _cmbCommon_2;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_36;
 		private System.Windows.Forms.Label _txtDisplayLabel_1;
 		private System.Windows.Forms.Label _txtDisplayLabel_2;
@@ -2268,7 +2268,7 @@ namespace Xtreme
 			this.txtTicketAccrualStartDate.PromptChar = "_";
 			this.txtTicketAccrualStartDate.Size = new System.Drawing.Size(100, 19);
 			this.txtTicketAccrualStartDate.TabIndex = 155;
-			this.txtTicketAccrualStartDate.Text = "15/Aug/2009";
+			// this.txtTicketAccrualStartDate.Text = "15/Aug/2009";
 			// this.txtTicketAccrualStartDate.Value = 40040;
 			// 
 			// _lblCommon_23
@@ -2690,7 +2690,7 @@ namespace Xtreme
 			this.txtBirthDate.Name = "txtBirthDate";
 			this.txtBirthDate.Size = new System.Drawing.Size(102, 21);
 			this.txtBirthDate.TabIndex = 176;
-			this.txtBirthDate.Text = "06/Apr/2003";
+			// this.txtBirthDate.Text = "06/Apr/2003";
 			// this.txtBirthDate.Value = 37717;
 			// this.this.txtBirthDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtBirthDate_Change);
 			// 
@@ -2715,7 +2715,7 @@ namespace Xtreme
 			this.txtJoiningDate.Name = "txtJoiningDate";
 			this.txtJoiningDate.Size = new System.Drawing.Size(102, 19);
 			this.txtJoiningDate.TabIndex = 186;
-			this.txtJoiningDate.Text = "18/Jul/2001";
+			// this.txtJoiningDate.Text = "18/Jul/2001";
 			// this.txtJoiningDate.Value = 37090;
 			// this.this.txtJoiningDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtJoiningDate_Change);
 			// 
@@ -2940,7 +2940,7 @@ namespace Xtreme
 			this.txtProbationEndDate.Name = "txtProbationEndDate";
 			this.txtProbationEndDate.Size = new System.Drawing.Size(97, 19);
 			this.txtProbationEndDate.TabIndex = 188;
-			this.txtProbationEndDate.Text = "18/Jul/2001";
+			// this.txtProbationEndDate.Text = "18/Jul/2001";
 			// this.txtProbationEndDate.Value = 37090;
 			// 
 			// _txtDisplayLabel_7
@@ -3049,7 +3049,7 @@ namespace Xtreme
 			this.txtContractStratDate.Name = "txtContractStratDate";
 			this.txtContractStratDate.Size = new System.Drawing.Size(102, 19);
 			this.txtContractStratDate.TabIndex = 213;
-			this.txtContractStratDate.Text = "18/Jul/2001";
+			// this.txtContractStratDate.Text = "18/Jul/2001";
 			// this.txtContractStratDate.Value = 37090;
 			// 
 			// txtContractEndDate
@@ -3064,7 +3064,7 @@ namespace Xtreme
 			this.txtContractEndDate.Name = "txtContractEndDate";
 			this.txtContractEndDate.Size = new System.Drawing.Size(102, 19);
 			this.txtContractEndDate.TabIndex = 217;
-			this.txtContractEndDate.Text = "18/Jul/2001";
+			// this.txtContractEndDate.Text = "18/Jul/2001";
 			// this.txtContractEndDate.Value = 37090;
 			// 
 			// _txtDisplayLabel_14
@@ -3159,7 +3159,7 @@ namespace Xtreme
 			this.txtDSeveranceDate.Name = "txtDSeveranceDate";
 			this.txtDSeveranceDate.Size = new System.Drawing.Size(102, 21);
 			this.txtDSeveranceDate.TabIndex = 182;
-			this.txtDSeveranceDate.Text = "01/Apr/2012";
+			// this.txtDSeveranceDate.Text = "01/Apr/2012";
 			// this.txtDSeveranceDate.Value = 41000;
 			// 
 			// _lblCommon_42
@@ -3745,23 +3745,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_0.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializefraEmployeeInformation();
-			InitializecmbCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[19];

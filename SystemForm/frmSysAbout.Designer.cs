@@ -97,7 +97,7 @@ namespace Xtreme
 			this.lblLastUpdateDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.lblLastUpdateDate.Size = new System.Drawing.Size(185, 17);
 			this.lblLastUpdateDate.TabIndex = 2;
-			this.lblLastUpdateDate.Text = "Last Update Date";
+			// this.lblLastUpdateDate.Text = "Last Update Date";
 			// 
 			// lblCopyright
 			// 

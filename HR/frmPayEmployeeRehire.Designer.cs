@@ -64,13 +64,13 @@ namespace Xtreme
 		public System.Windows.Forms.RadioButton CHKOldWithPayDays;
 		public System.Windows.Forms.RadioButton ChkNewEmp;
 		public System.Windows.Forms.TextBox txtNewEmpNo;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.TextBox txtnopaydays;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtLastAccrualDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDateOfJoining;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label Line1;
 		public System.Windows.Forms.GroupBox frmDetail;
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[5];
@@ -258,7 +258,7 @@ namespace Xtreme
 			this.txtStartDate.PromptChar = "_";
 			this.txtStartDate.Size = new System.Drawing.Size(143, 21);
 			this.txtStartDate.TabIndex = 2;
-			this.txtStartDate.Text = "13/04/2010";
+			// this.txtStartDate.Text = "13/04/2010";
 			// this.txtStartDate.Value = 40281;
 			// 
 			// _lblCommonLabel_4
@@ -284,7 +284,7 @@ namespace Xtreme
 			this.txtResumeDate.PromptChar = "_";
 			this.txtResumeDate.Size = new System.Drawing.Size(143, 21);
 			this.txtResumeDate.TabIndex = 3;
-			this.txtResumeDate.Text = "13/04/2010";
+			// this.txtResumeDate.Text = "13/04/2010";
 			// this.txtResumeDate.Value = 40281;
 			// this.this.txtResumeDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtResumeDate_Change);
 			this.txtResumeDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtResumeDate_Validating);
@@ -449,7 +449,7 @@ namespace Xtreme
 			this.txtLastAccrualDate.PromptChar = "_";
 			this.txtLastAccrualDate.Size = new System.Drawing.Size(139, 19);
 			this.txtLastAccrualDate.TabIndex = 5;
-			this.txtLastAccrualDate.Text = "13/04/2010";
+			// this.txtLastAccrualDate.Text = "13/04/2010";
 			// this.txtLastAccrualDate.Value = 40281;
 			// this.this.txtLastAccrualDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtLastAccrualDate_Change);
 			// 
@@ -551,19 +551,7 @@ namespace Xtreme
 			this.frmDetail.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[5];

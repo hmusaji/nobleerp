@@ -592,21 +592,7 @@ namespace Xtreme
 			this.cmbCommon.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonNumber();
-			InitializetxtCommonDisplay();
-			InitializetxtCommonDate();
-			InitializetxtCommon();
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonNumber()
 		{
 			this.txtCommonNumber = new System.Windows.Forms.TextBox[2];

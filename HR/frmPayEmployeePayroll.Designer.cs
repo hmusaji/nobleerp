@@ -871,7 +871,7 @@ namespace Xtreme
 			this.txtLastSalaryDate.Size = new System.Drawing.Size(101, 19);
 			this.txtLastSalaryDate.TabIndex = 9;
 			this.txtLastSalaryDate.TabStop = false;
-			this.txtLastSalaryDate.Text = "22-Jan-2011";
+			// this.txtLastSalaryDate.Text = "22-Jan-2011";
 			// this.txtLastSalaryDate.Value = 40565;
 			// 
 			// _lblCommonLabel_0
@@ -1142,22 +1142,7 @@ namespace Xtreme
 			this.Frame1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializecmbCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[9];

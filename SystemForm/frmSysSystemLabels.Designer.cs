@@ -44,7 +44,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtEngName;
 		public System.Windows.Forms.Label lblCompanyCode;
 		public System.Windows.Forms.Label lblLableId;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtModuleId;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.

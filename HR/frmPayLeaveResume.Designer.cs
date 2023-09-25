@@ -51,13 +51,13 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_28;
 		public System.Windows.Forms.Panel Frame2;
 		public System.Windows.Forms.TextBox txtGrantDays;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label txtDisplayVariationDays;
 		public System.Windows.Forms.TextBox txtEncashmentDays;
 		public System.Windows.Forms.TextBox txtAdjustUnpaidDays;
 		public System.Windows.Forms.TextBox txtAdjustPaidDays;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_4;
 		private System.Windows.Forms.Label _lblCommonLabel_11;
 		private Syncfusion.WinForms.Input.SfDateTimeEdit _txtCommonDate_1;
@@ -274,7 +274,7 @@ namespace Xtreme
 			// this.txtApprovalTemplate.ShowButton = true;
 			this.txtApprovalTemplate.Size = new System.Drawing.Size(106, 19);
 			this.txtApprovalTemplate.TabIndex = 66;
-			this.txtApprovalTemplate.Text = "";
+			// this.txtApprovalTemplate.Text = "";
 			// this.this.txtApprovalTemplate.Watermark = "";
 			// 
 			// _lblCommonLabel_28
@@ -1072,7 +1072,7 @@ namespace Xtreme
 			this.txtJoiningDate.Name = "txtJoiningDate";
 			this.txtJoiningDate.Size = new System.Drawing.Size(102, 19);
 			this.txtJoiningDate.TabIndex = 68;
-			this.txtJoiningDate.Text = "18/07/2001";
+			// this.txtJoiningDate.Text = "18/07/2001";
 			// this.txtJoiningDate.Value = 37090;
 			// 
 			// _lblCommonLabel_29
@@ -1158,21 +1158,7 @@ namespace Xtreme
 			this.frm.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-			InitializetxtCommonNumber();
-			InitializetxtCommonDate();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[13];

@@ -68,7 +68,7 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdTADetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdTADetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdTADetails;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.Label _lblCommonLabel_4;
 		private System.Windows.Forms.Label _txtDisplayLabel_6;
 		private System.Windows.Forms.Label _txtDisplayLabel_7;
@@ -463,18 +463,7 @@ namespace Xtreme
 			this.grdTADetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializelblCommonLabel();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[8];

@@ -315,7 +315,7 @@ namespace Xtreme
 			this.txtEndDate.Name = "txtEndDate";
 			this.txtEndDate.Size = new System.Drawing.Size(102, 19);
 			this.txtEndDate.TabIndex = 8;
-			this.txtEndDate.Text = "18/07/2001";
+			// this.txtEndDate.Text = "18/07/2001";
 			// this.txtEndDate.Value = 37090;
 			// 
 			// txtAmount
@@ -405,7 +405,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
-			this.txtVoucherDate.Text = "18/07/2001";
+			// this.txtVoucherDate.Text = "18/07/2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// txtStartDate
@@ -418,7 +418,7 @@ namespace Xtreme
 			this.txtStartDate.Name = "txtStartDate";
 			this.txtStartDate.Size = new System.Drawing.Size(102, 19);
 			this.txtStartDate.TabIndex = 7;
-			this.txtStartDate.Text = "18/07/2001";
+			// this.txtStartDate.Text = "18/07/2001";
 			// this.txtStartDate.Value = 37090;
 			// 
 			// _txtCommonDisplay_1
@@ -455,19 +455,7 @@ namespace Xtreme
 			this.fraTabPage0.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonTextBox();
-			InitializetxtCommonDisplay();
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtCommonTextBox()
 		{
 			this.txtCommonTextBox = new System.Windows.Forms.TextBox[6];

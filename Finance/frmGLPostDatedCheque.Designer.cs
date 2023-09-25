@@ -135,7 +135,7 @@ namespace Xtreme
 			this.txtMaturityDate.Name = "txtMaturityDate";
 			this.txtMaturityDate.Size = new System.Drawing.Size(101, 19);
 			this.txtMaturityDate.TabIndex = 0;
-			this.txtMaturityDate.Text = "10/28/2011";
+			// this.txtMaturityDate.Text = "10/28/2011";
 			// 
 			// label1
 			// 
@@ -334,16 +334,7 @@ namespace Xtreme
 			this.cmbMastersList.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

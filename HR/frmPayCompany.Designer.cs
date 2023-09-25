@@ -60,12 +60,12 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtAFourthName;
 		public System.Windows.Forms.TextBox txtCompNo;
 		public System.Windows.Forms.TextBox txtLFirstName;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.TextBox txtLSecondName;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.TextBox txtLicenseNo;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -411,16 +411,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

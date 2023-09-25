@@ -101,7 +101,7 @@ namespace Xtreme
 			this.txtTransDate.Name = "txtTransDate";
 			this.txtTransDate.Size = new System.Drawing.Size(100, 19);
 			this.txtTransDate.TabIndex = 0;
-			this.txtTransDate.Text = "10/28/2011";
+			// this.txtTransDate.Text = "10/28/2011";
 			// 
 			// label1
 			// 
@@ -192,16 +192,7 @@ namespace Xtreme
 			this.grdTransDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

@@ -142,7 +142,7 @@ namespace Xtreme
 			// 
 			this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.Color.FromArgb(209, 218, 188);
-			this.lblExchangeRate.Text = "Exchange Rate";
+			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.Location = new System.Drawing.Point(10, 21);
 			this.lblExchangeRate.Name = "lblExchangeRate";
 			this.lblExchangeRate.Size = new System.Drawing.Size(73, 13);
@@ -169,7 +169,7 @@ namespace Xtreme
 			this.txtExchangeRate.Name = "txtExchangeRate";
 			this.txtExchangeRate.Size = new System.Drawing.Size(102, 19);
 			this.txtExchangeRate.TabIndex = 0;
-			this.txtExchangeRate.Text = "0.000";
+			// this.txtExchangeRate.Text = "0.000";
 			// 
 			// frmGLLedgerFCAmount
 			// 
@@ -199,10 +199,7 @@ namespace Xtreme
 			this.picOkCancel.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializecmdOkCancel();
-		}
+		// 
 		void InitializecmdOkCancel()
 		{
 			this.cmdOkCancel = new AxSmartNetButtonProject.AxSmartNetButton[2];

@@ -189,7 +189,7 @@ namespace Xtreme
 			this.txtDate.PromptChar = "_";
 			this.txtDate.Size = new System.Drawing.Size(105, 19);
 			this.txtDate.TabIndex = 11;
-			this.txtDate.Text = "31-Oct-2011";
+			// this.txtDate.Text = "31-Oct-2011";
 			// this.txtDate.Value = 40847;
 			this.txtDate.Visible = false;
 			// 
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblDate.Text = "For The Period";
+			// this.lblDate.Text = "For The Period";
 			this.lblDate.Location = new System.Drawing.Point(12, 54);
 			this.lblDate.Name = "lblDate";
 			this.lblDate.Size = new System.Drawing.Size(70, 14);
@@ -293,8 +293,8 @@ namespace Xtreme
 			this.cmdMigrate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdMigrate.Size = new System.Drawing.Size(100, 33);
 			this.cmdMigrate.TabIndex = 3;
-			this.cmdMigrate.Text = "&Import Attendance";
-			this.cmdMigrate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdMigrate.Text = "&Import Attendance";
+			// this.cmdMigrate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdMigrate.UseVisualStyleBackColor = false;
 			// this.cmdMigrate.Click += new System.EventHandler(this.cmdMigrate_Click);
 			// 
@@ -447,17 +447,7 @@ namespace Xtreme
 			this.Frame1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeoptDownloadFormat();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializeoptDownloadFormat()
 		{
 			this.optDownloadFormat = new System.Windows.Forms.RadioButton[4];

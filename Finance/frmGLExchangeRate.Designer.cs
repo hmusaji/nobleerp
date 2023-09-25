@@ -55,7 +55,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblStdRate;
 		public System.Windows.Forms.TextBox txtCurrSymbol;
 		public System.Windows.Forms.TextBox txtCurrNo;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public AxTDBContainer3D6.AxTDBContainer3D fraMainInformation;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController tcbSystemForm;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -116,7 +116,7 @@ namespace Xtreme
 			this.txtSaleRate.Name = "txtSaleRate";
 			this.txtSaleRate.Size = new System.Drawing.Size(103, 19);
 			this.txtSaleRate.TabIndex = 5;
-			this.txtSaleRate.Text = "0.000";
+			// this.txtSaleRate.Text = "0.000";
 			// 
 			// txtBuyRate
 			// 
@@ -129,7 +129,7 @@ namespace Xtreme
 			this.txtBuyRate.Name = "txtBuyRate";
 			this.txtBuyRate.Size = new System.Drawing.Size(103, 19);
 			this.txtBuyRate.TabIndex = 4;
-			this.txtBuyRate.Text = "0.000";
+			// this.txtBuyRate.Text = "0.000";
 			// 
 			// txtStdRate
 			// 
@@ -142,13 +142,13 @@ namespace Xtreme
 			this.txtStdRate.Name = "txtStdRate";
 			this.txtStdRate.Size = new System.Drawing.Size(103, 19);
 			this.txtStdRate.TabIndex = 3;
-			this.txtStdRate.Text = "0.000";
+			// this.txtStdRate.Text = "0.000";
 			// 
 			// lblSaleRate
 			// 
 			this.lblSaleRate.AllowDrop = true;
 			this.lblSaleRate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblSaleRate.Text = "Selling Rate";
+			// this.lblSaleRate.Text = "Selling Rate";
 			this.lblSaleRate.Location = new System.Drawing.Point(12, 102);
 			this.lblSaleRate.Name = "lblSaleRate";
 			this.lblSaleRate.Size = new System.Drawing.Size(56, 14);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			this.lblBuyRate.AllowDrop = true;
 			this.lblBuyRate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblBuyRate.Text = "Buying Rate";
+			// this.lblBuyRate.Text = "Buying Rate";
 			this.lblBuyRate.Location = new System.Drawing.Point(12, 81);
 			this.lblBuyRate.Name = "lblBuyRate";
 			this.lblBuyRate.Size = new System.Drawing.Size(58, 14);
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblDate.Text = "Date";
+			// this.lblDate.Text = "Date";
 			this.lblDate.Location = new System.Drawing.Point(12, 18);
 			this.lblDate.Name = "lblDate";
 			this.lblDate.Size = new System.Drawing.Size(22, 14);
@@ -183,14 +183,14 @@ namespace Xtreme
 			this.txtdate.Name = "txtdate";
 			this.txtdate.Size = new System.Drawing.Size(103, 19);
 			this.txtdate.TabIndex = 0;
-			this.txtdate.Text = "7/18/2001";
+			// this.txtdate.Text = "7/18/2001";
 			// this.txtdate.Value = 37090;
 			// 
 			// lblStdRate
 			// 
 			this.lblStdRate.AllowDrop = true;
 			this.lblStdRate.BackColor = System.Drawing.SystemColors.Window;
-			this.lblStdRate.Text = "Standard Rate";
+			// this.lblStdRate.Text = "Standard Rate";
 			this.lblStdRate.Location = new System.Drawing.Point(12, 60);
 			this.lblStdRate.Name = "lblStdRate";
 			this.lblStdRate.Size = new System.Drawing.Size(69, 14);
@@ -267,16 +267,7 @@ namespace Xtreme
 			this.fraMainInformation.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

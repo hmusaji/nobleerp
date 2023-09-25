@@ -49,9 +49,9 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbMastersList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbMastersList;
 		private System.Windows.Forms.TextBox _txtTextBox_0;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.TextBox _txtTextBox_1;
 		private System.Windows.Forms.TextBox _txtTextBox_2;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdApprovalGroup;
@@ -251,17 +251,7 @@ namespace Xtreme
 			this.grdApprovalGroup.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtTextBox();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtTextBox()
 		{
 			this.txtTextBox = new System.Windows.Forms.TextBox[3];

@@ -44,7 +44,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _txtDisplayLabel_3;
 		private System.Windows.Forms.Label _txtDisplayLabel_15;
 		public System.Windows.Forms.GroupBox fraPayments;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdVoucherDetails;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdVoucherDetails;
@@ -285,11 +285,7 @@ namespace Xtreme
 			this.cmbMasterList.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonTextBox();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[16];

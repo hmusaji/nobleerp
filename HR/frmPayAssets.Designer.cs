@@ -401,7 +401,7 @@ namespace Xtreme
 			this.txtDWarrantyEnd.Size = new System.Drawing.Size(117, 19);
 			this.txtDWarrantyEnd.TabIndex = 8;
 			this.txtDWarrantyEnd.Text = "18/07/2001";
-			this.txtDWarrantyEnd.Value = 37090;
+			// // this.txtDWarrantyEnd.Value = 37090;
 			// 
 			// Label7_1
 			// 
@@ -424,8 +424,8 @@ namespace Xtreme
 			this.txtDPurchaseDate.Name = "txtDPurchaseDate";
 			this.txtDPurchaseDate.Size = new System.Drawing.Size(117, 19);
 			this.txtDPurchaseDate.TabIndex = 2;
-			this.txtDPurchaseDate.Text = "18/07/2001";
-			this.txtDPurchaseDate.Value = 37090;
+			// this.txtDPurchaseDate.Text = "18/07/2001";
+			// // this.txtDPurchaseDate.Value = 37090;
 			// 
 			// Label5_1
 			// 
@@ -514,41 +514,29 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonNumber();
-			InitializeSystem.Windows.Forms.Label7();
-			InitializeSystem.Windows.Forms.Label5();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
-		void InitializetxtCommonNumber()
-		{
-			this.txtCommonNumber = new System.Windows.Forms.TextBox[5];
-			this.txtCommonNumber[0] = _txtCommonNumber_0;
-			this.txtCommonNumber[2] = _txtCommonNumber_2;
-			this.txtCommonNumber[3] = _txtCommonNumber_3;
-			this.txtCommonNumber[4] = _txtCommonNumber_4;
-			this.txtCommonNumber[1] = _txtCommonNumber_1;
-		}
-		void InitializeSystem.Windows.Forms.Label7()
-		{
-			this.Label7 = new System.Windows.Forms.Label[2];
-			this.Label7[0] = Label7_0;
-			this.Label7[1] = Label7_1;
-		}
-		void InitializeSystem.Windows.Forms.Label5()
-		{
-			this.Label5 = new System.Windows.Forms.Label[3];
-			this.Label5[0] = Label5_0;
-			this.Label5[1] = Label5_1;
-			this.Label5[2] = Label5_2;
-		}
+		//// 
+		//void InitializetxtCommonNumber()
+		//{
+		//	this.txtCommonNumber = new System.Windows.Forms.TextBox[5];
+		//	this.txtCommonNumber[0] = _txtCommonNumber_0;
+		//	this.txtCommonNumber[2] = _txtCommonNumber_2;
+		//	this.txtCommonNumber[3] = _txtCommonNumber_3;
+		//	this.txtCommonNumber[4] = _txtCommonNumber_4;
+		//	this.txtCommonNumber[1] = _txtCommonNumber_1;
+		//}
+		//void InitializeSystem.Windows.Forms.Label7()
+		//{
+		//	this.Label7 = new System.Windows.Forms.Label[2];
+		//	this.Label7[0] = Label7_0;
+		//	this.Label7[1] = Label7_1;
+		//}
+		//void InitializeSystem.Windows.Forms.Label5()
+		//{
+		//	this.Label5 = new System.Windows.Forms.Label[3];
+		//	this.Label5[0] = Label5_0;
+		//	this.Label5[1] = Label5_1;
+		//	this.Label5[2] = Label5_2;
+		//}
 		#endregion
 	}
 }//ENDSHERE

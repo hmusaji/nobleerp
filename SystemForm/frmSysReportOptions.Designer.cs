@@ -821,11 +821,7 @@ namespace Xtreme
 			this.cmbFieldList.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDateRange();
-			InitializelblCommon();
-		}
+		// 
 		void InitializetxtDateRange()
 		{
 			this.txtDateRange = new Syncfusion.WinForms.Input.SfDateTimeEdit[2];

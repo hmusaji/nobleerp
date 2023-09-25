@@ -217,7 +217,7 @@ namespace Xtreme
 			this.txtVoucherDate.PromptChar = "_";
 			this.txtVoucherDate.Size = new System.Drawing.Size(87, 19);
 			this.txtVoucherDate.TabIndex = 1;
-			this.txtVoucherDate.Text = "10/02/2014";
+			// this.txtVoucherDate.Text = "10/02/2014";
 			// 
 			// txtAmount
 			// 
@@ -447,8 +447,8 @@ namespace Xtreme
 			this.cmdGenerate.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.cmdGenerate.Size = new System.Drawing.Size(114, 28);
 			this.cmdGenerate.TabIndex = 15;
-			this.cmdGenerate.Text = "Generate Installment";
-			this.cmdGenerate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// this.cmdGenerate.Text = "Generate Installment";
+			// this.cmdGenerate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.cmdGenerate.UseVisualStyleBackColor = false;
 			// this.cmdGenerate.Click += new System.EventHandler(this.cmdGenerate_Click);
 			// 
@@ -509,7 +509,7 @@ namespace Xtreme
 			this.txtInstallmentStartDate.PromptChar = "_";
 			this.txtInstallmentStartDate.Size = new System.Drawing.Size(87, 19);
 			this.txtInstallmentStartDate.TabIndex = 5;
-			this.txtInstallmentStartDate.Text = "10/02/2014";
+			// this.txtInstallmentStartDate.Text = "10/02/2014";
 			// 
 			// Label_4
 			// 
@@ -684,18 +684,7 @@ namespace Xtreme
 			this.GroupBox2.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeSystem.Windows.Forms.Label1();
-			InitializeSystem.Windows.Forms.Label();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializeSystem.Windows.Forms.Label1()
 		{
 			this.Label1 = new System.Windows.Forms.Label[7];

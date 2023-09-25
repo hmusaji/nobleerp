@@ -219,7 +219,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(102, 19);
 			this.txtVoucherDate.TabIndex = 1;
-			this.txtVoucherDate.Text = "18-Jul-2001";
+			// this.txtVoucherDate.Text = "18-Jul-2001";
 			// this.txtVoucherDate.Value = 37090;
 			// 
 			// grdVoucherDetails
@@ -646,19 +646,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblReconcile();
-			InitializelblCommonLabel();
-			InitializedcReconcile();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblReconcile()
 		{
 			this.lblReconcile = new System.Windows.Forms.Label[18];

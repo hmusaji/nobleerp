@@ -46,7 +46,7 @@ namespace Xtreme
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		public System.Windows.Forms.Label lblToDate;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtToDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtFromDate;
 		public System.Windows.Forms.GroupBox fraDateRange;
@@ -60,7 +60,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLocationCode;
 		public System.Windows.Forms.TextBox txtBatchCode;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTransactionDate;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Label lblLocationCode;
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.Label txtBatchName;
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblToDate.Text = "From Date";
+			// this.lblToDate.Text = "From Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(9, 23);
 			this.lblToDate.Name = "lblToDate";
@@ -148,7 +148,7 @@ namespace Xtreme
 			this.txtToDate.Name = "txtToDate";
 			this.txtToDate.Size = new System.Drawing.Size(96, 19);
 			this.txtToDate.TabIndex = 10;
-			this.txtToDate.Text = "07/18/2001";
+			// this.txtToDate.Text = "07/18/2001";
 			// this.txtToDate.Value = 37090;
 			// 
 			// txtFromDate
@@ -161,7 +161,7 @@ namespace Xtreme
 			this.txtFromDate.Name = "txtFromDate";
 			this.txtFromDate.Size = new System.Drawing.Size(96, 19);
 			this.txtFromDate.TabIndex = 11;
-			this.txtFromDate.Text = "07/18/2001";
+			// this.txtFromDate.Text = "07/18/2001";
 			// this.txtFromDate.Value = 37090;
 			// 
 			// fraVoucherRange
@@ -310,7 +310,7 @@ namespace Xtreme
 			this.txtTransactionDate.Name = "txtTransactionDate";
 			this.txtTransactionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionDate.TabIndex = 14;
-			this.txtTransactionDate.Text = "03/04/2002";
+			// this.txtTransactionDate.Text = "03/04/2002";
 			// this.txtTransactionDate.Value = 37319;
 			// 
 			// System.Windows.Forms.Label1
@@ -401,16 +401,7 @@ namespace Xtreme
 			this.fraVoucherRange.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

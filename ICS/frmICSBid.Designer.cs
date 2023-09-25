@@ -47,9 +47,9 @@ namespace Xtreme
 		public System.Windows.Forms.ToolTip ToolTipMain;
 		private System.Windows.Forms.Label _lblCommon_3;
 		public System.Windows.Forms.Label txtCurrencyName;
-		public System.Windows.Forms.LabelLabel4;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label4;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.CheckBox chkCertifiedCheque;
 		public System.Windows.Forms.CheckBox chkBankGuarantee;
 		private System.Windows.Forms.Panel _Frame1_0;
@@ -58,12 +58,12 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtBidAmount;
 		public System.Windows.Forms.Label lblAmount;
 		public System.Windows.Forms.TextBox txtBGCCNo;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.TextBox txtCurrencyCode;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtIssueDate;
 		public System.Windows.Forms.TextBox txtBankInitials;
-		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.Label Label6;
 		public AxTDBContainer3D6.AxTDBContainer3D fraDetailsInfo;
 		public System.Windows.Forms.TextBox txtBidNo;
 		public System.Windows.Forms.Label lblCode;
@@ -262,14 +262,14 @@ namespace Xtreme
 			this.txtValidityDate.Name = "txtValidityDate";
 			this.txtValidityDate.Size = new System.Drawing.Size(102, 19);
 			this.txtValidityDate.TabIndex = 3;
-			this.txtValidityDate.Text = "7/18/2001";
+			// this.txtValidityDate.Text = "7/18/2001";
 			// this.txtValidityDate.Value = 37090;
 			// 
 			// lblDate
 			// 
 			this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.lblDate.Text = "Validity date";
+			// this.lblDate.Text = "Validity date";
 			this.lblDate.ForeColor = System.Drawing.Color.Black;
 			this.lblDate.Location = new System.Drawing.Point(26, 62);
 			// // this.lblDate.mLabelId = 2041;
@@ -367,7 +367,7 @@ namespace Xtreme
 			this.txtIssueDate.Name = "txtIssueDate";
 			this.txtIssueDate.Size = new System.Drawing.Size(102, 19);
 			this.txtIssueDate.TabIndex = 4;
-			this.txtIssueDate.Text = "7/18/2001";
+			// this.txtIssueDate.Text = "7/18/2001";
 			// this.txtIssueDate.Value = 37090;
 			// 
 			// txtBankInitials
@@ -482,18 +482,7 @@ namespace Xtreme
 			this.fraDetailsInfo.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-			InitializeFrame1();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[4];

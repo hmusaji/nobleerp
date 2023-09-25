@@ -42,7 +42,7 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdBold;
 		public System.Windows.Forms.Button cmdColor;
 		public System.Windows.Forms.Button cmdUnderline;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		private System.Windows.Forms.ComboBox _comCommon_0;
 		private System.Windows.Forms.Label _lblCommonLabel_22;
 		private System.Windows.Forms.ComboBox _comCommon_6;
@@ -90,11 +90,11 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommonLabel_11;
 		private System.Windows.Forms.Label _lblCommonLabel_3;
 		private System.Windows.Forms.Label _lblCommonLabel_0;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtDrawnOnBank;
 		private System.Windows.Forms.ComboBox _comCommon_2;
 		private System.Windows.Forms.Label _lblCommonLabel_12;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.TextBox txtShipmentNo;
 		private System.Windows.Forms.ComboBox _comCommon_3;
 		private System.Windows.Forms.Label _lblCommonLabel_13;
@@ -119,7 +119,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommonTextBox_1;
 		private System.Windows.Forms.Panel _fraMasterInformation_1;
 		public System.Windows.Forms.TextBox txtOldPrescription;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.TextBox txtAddRSph;
 		public System.Windows.Forms.TextBox txtDistRCyl;
 		public System.Windows.Forms.TextBox txtAddRCyl;
@@ -140,7 +140,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtDistLLens;
 		public System.Windows.Forms.TextBox txtAddLLens;
 		public System.Windows.Forms.TextBox txtDistRSph;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label5;
 		public System.Windows.Forms.Label Line5;
 		public System.Windows.Forms.Label Line4;
 		public System.Windows.Forms.Label Line3;
@@ -728,7 +728,7 @@ namespace Xtreme
 			this.txtCreditCardDate.Name = "txtCreditCardDate";
 			this.txtCreditCardDate.Size = new System.Drawing.Size(119, 19);
 			this.txtCreditCardDate.TabIndex = 13;
-			this.txtCreditCardDate.Text = "2/4/2002";
+			// this.txtCreditCardDate.Text = "2/4/2002";
 			// this.txtCreditCardDate.Value = 37291;
 			// 
 			// _lblCommonLabel_7
@@ -757,7 +757,7 @@ namespace Xtreme
 			// 
 			this.lblRefrenceOrderDate.AllowDrop = true;
 			this.lblRefrenceOrderDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblRefrenceOrderDate.Text = "Ref. Order Date";
+			// this.lblRefrenceOrderDate.Text = "Ref. Order Date";
 			this.lblRefrenceOrderDate.Location = new System.Drawing.Point(260, 136);
 			// // this.lblRefrenceOrderDate.mLabelId = 944;
 			this.lblRefrenceOrderDate.Name = "lblRefrenceOrderDate";
@@ -779,7 +779,7 @@ namespace Xtreme
 			// 
 			this.lblChequeDate.AllowDrop = true;
 			this.lblChequeDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblChequeDate.Text = "Cheque Date";
+			// this.lblChequeDate.Text = "Cheque Date";
 			this.lblChequeDate.Location = new System.Drawing.Point(260, 157);
 			// // this.lblChequeDate.mLabelId = 945;
 			this.lblChequeDate.Name = "lblChequeDate";
@@ -790,7 +790,7 @@ namespace Xtreme
 			// 
 			this.lblCreditCardDate.AllowDrop = true;
 			this.lblCreditCardDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblCreditCardDate.Text = "Credit Card Date ";
+			// this.lblCreditCardDate.Text = "Credit Card Date ";
 			this.lblCreditCardDate.Location = new System.Drawing.Point(260, 178);
 			// // this.lblCreditCardDate.mLabelId = 946;
 			this.lblCreditCardDate.Name = "lblCreditCardDate";
@@ -831,7 +831,7 @@ namespace Xtreme
 			this.txtRefrenceOrderDate.Name = "txtRefrenceOrderDate";
 			this.txtRefrenceOrderDate.Size = new System.Drawing.Size(119, 19);
 			this.txtRefrenceOrderDate.TabIndex = 9;
-			this.txtRefrenceOrderDate.Text = "1/4/2002";
+			// this.txtRefrenceOrderDate.Text = "1/4/2002";
 			// this.txtRefrenceOrderDate.Value = 37260;
 			// 
 			// txtChequeDate
@@ -844,7 +844,7 @@ namespace Xtreme
 			this.txtChequeDate.Name = "txtChequeDate";
 			this.txtChequeDate.Size = new System.Drawing.Size(119, 19);
 			this.txtChequeDate.TabIndex = 11;
-			this.txtChequeDate.Text = "1/4/2002";
+			// this.txtChequeDate.Text = "1/4/2002";
 			// this.txtChequeDate.Value = 37260;
 			// 
 			// txtCreditCardNo
@@ -1983,15 +1983,7 @@ namespace Xtreme
 			this._fraMasterInformation_0.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtCommonTextBox();
-			InitializelblDocDetails();
-			InitializelblCommonLabel();
-			InitializefraMasterInformation();
-			InitializecomCommon();
-			InitializeUCOkCancel1();
-		}
+		// 
 		void InitializetxtCommonTextBox()
 		{
 			this.txtCommonTextBox = new System.Windows.Forms.TextBox[2];

@@ -48,18 +48,18 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdPrintReport;
 		private System.Windows.Forms.RadioButton _GenerateOption_1;
 		private System.Windows.Forms.RadioButton _GenerateOption_0;
-		public System.Windows.Forms.LabelLabel11;
+		public System.Windows.Forms.Label Label11;
 		public System.Windows.Forms.Panel Frame1;
 		public System.Windows.Forms.Panel frmLeave;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDToTransDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtDFromTransDate;
-		public System.Windows.Forms.LabelLabel6;
+		public System.Windows.Forms.Label Label6;
 		public System.Windows.Forms.TextBox txtLeaveToTransNo;
 		public System.Windows.Forms.Label lblLeaveEmpBankName;
 		public System.Windows.Forms.TextBox txtLeaveEmpBankCd;
-		public System.Windows.Forms.LabelLabel7;
+		public System.Windows.Forms.Label Label7;
 		public System.Windows.Forms.TextBox txtLeaveCompBankCd;
-		public System.Windows.Forms.LabelLabel8;
+		public System.Windows.Forms.Label Label8;
 		public System.Windows.Forms.Label lblLeaveCompBankName;
 		private System.Windows.Forms.Label _lblCommon_2;
 		public System.Windows.Forms.TextBox txtLeaveSponsorCd;
@@ -68,19 +68,19 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLeaveProjectCd;
 		public System.Windows.Forms.Label lblLeaveProjectName;
 		public System.Windows.Forms.TextBox txtLeaveFilePath;
-		public System.Windows.Forms.LabelLabel12;
+		public System.Windows.Forms.Label Label12;
 		public System.Windows.Forms.TextBox txtLeaveFromTransNo;
-		public System.Windows.Forms.LabelLabel13;
-		public System.Windows.Forms.LabelLabel9;
-		public System.Windows.Forms.LabelLabel10;
+		public System.Windows.Forms.Label Label13;
+		public System.Windows.Forms.Label Label9;
+		public System.Windows.Forms.Label Label10;
 		public System.Windows.Forms.Panel frmResumtion;
 		public System.Windows.Forms.CheckBox chkSelectAll;
-		public System.Windows.Forms.LabelLabel4;
+		public System.Windows.Forms.Label Label4;
 		public System.Windows.Forms.Label txtDepartmentNameTo;
 		public System.Windows.Forms.TextBox txtDepartmentCodeTo;
 		public System.Windows.Forms.Label txtEmpBankName;
 		public System.Windows.Forms.TextBox txtEmpBankAccount;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.TextBox txtBankAccountNo;
 		public System.Windows.Forms.Label lblMasterCode;
 		public System.Windows.Forms.TextBox txtFromEmpNo;
@@ -102,13 +102,13 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtProjectCd;
 		public System.Windows.Forms.Label txtDProjectName;
 		public System.Windows.Forms.TextBox txtFilePath;
-		public System.Windows.Forms.LabelLabel5;
+		public System.Windows.Forms.Label Label5;
 		private System.Windows.Forms.Label _lblCommon_1;
 		public System.Windows.Forms.TextBox txtCompanyCode;
 		public System.Windows.Forms.Label txtDlblCompanyName;
 		public System.Windows.Forms.Label txtDepartmentName;
 		public System.Windows.Forms.TextBox txtDepartmentCode;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		public UpgradeHelpers.Gui.ShapeHelper Shape1;
 		public System.Windows.Forms.Panel frmEmployee;
 		public AxC1SizerLib.AxC1Tab tabBankDisk;
@@ -360,7 +360,7 @@ namespace Xtreme
 			this.txtDToTransDate.PromptChar = "_";
 			this.txtDToTransDate.Size = new System.Drawing.Size(94, 19);
 			this.txtDToTransDate.TabIndex = 58;
-			this.txtDToTransDate.Text = "09-Oct-2012";
+			// this.txtDToTransDate.Text = "09-Oct-2012";
 			// this.txtDToTransDate.Value = 41191;
 			// 
 			// txtDFromTransDate
@@ -373,7 +373,7 @@ namespace Xtreme
 			this.txtDFromTransDate.PromptChar = "_";
 			this.txtDFromTransDate.Size = new System.Drawing.Size(100, 19);
 			this.txtDFromTransDate.TabIndex = 57;
-			this.txtDFromTransDate.Text = "09-Oct-2012";
+			// this.txtDFromTransDate.Text = "09-Oct-2012";
 			// this.txtDFromTransDate.Value = 41191;
 			// 
 			// System.Windows.Forms.Label6
@@ -1176,19 +1176,7 @@ namespace Xtreme
 			this.frmEmployee.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializelblCommon();
-			InitializeSystem.Windows.Forms.Label1();
-			InitializeGenerateOption();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializelblCommon()
 		{
 			this.lblCommon = new System.Windows.Forms.Label[42];

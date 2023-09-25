@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			this.lblTransactionDate.AllowDrop = true;
 			this.lblTransactionDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblTransactionDate.Text = "Transaction  Date";
+			// this.lblTransactionDate.Text = "Transaction  Date";
 			this.lblTransactionDate.ForeColor = System.Drawing.Color.Black;
 			this.lblTransactionDate.Location = new System.Drawing.Point(8, 74);
 			// // this.lblTransactionDate.mLabelId = 1018;
@@ -128,7 +128,7 @@ namespace Xtreme
 			this.txtVoucherDate.Name = "txtVoucherDate";
 			this.txtVoucherDate.Size = new System.Drawing.Size(97, 19);
 			this.txtVoucherDate.TabIndex = 0;
-			this.txtVoucherDate.Text = "15/03/2014";
+			// this.txtVoucherDate.Text = "15/03/2014";
 			// 
 			// txtComments
 			// 
@@ -237,16 +237,7 @@ namespace Xtreme
 			this.cmbCommon.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

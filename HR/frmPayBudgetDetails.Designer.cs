@@ -51,9 +51,9 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtDeptCode;
 		public System.Windows.Forms.Label lblSectionCode;
 		public System.Windows.Forms.Label txtDCategoryName;
-		public System.Windows.Forms.LabelLabel1;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label3;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_grdHeadcountSummary;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_grdHeadcountSummary;
 		public C1.Win.C1TrueDBGrid.C1TrueDBGrid grdHeadcountSummary;
@@ -305,16 +305,7 @@ namespace Xtreme
 			this.grdCurrentPayroll.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

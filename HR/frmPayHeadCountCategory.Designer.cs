@@ -55,12 +55,12 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtDeptCode;
 		public System.Windows.Forms.Label lblDeptCode;
 		public System.Windows.Forms.Label txtDDeptName;
-		public System.Windows.Forms.LabelLabel2;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label2;
+		public System.Windows.Forms.Label Label1;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtEndDate;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtStartDate;
 		public System.Windows.Forms.TextBox txtDesgCode;
-		public System.Windows.Forms.LabelLabel3;
+		public System.Windows.Forms.Label Label3;
 		public System.Windows.Forms.Label txtDlblDesgName;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
@@ -246,7 +246,7 @@ namespace Xtreme
 			this.txtEndDate.Name = "txtEndDate";
 			this.txtEndDate.Size = new System.Drawing.Size(101, 19);
 			this.txtEndDate.TabIndex = 6;
-			this.txtEndDate.Text = "31/12/2011";
+			// this.txtEndDate.Text = "31/12/2011";
 			// this.txtEndDate.Value = 40908;
 			// 
 			// txtStartDate
@@ -259,7 +259,7 @@ namespace Xtreme
 			this.txtStartDate.Name = "txtStartDate";
 			this.txtStartDate.Size = new System.Drawing.Size(107, 19);
 			this.txtStartDate.TabIndex = 5;
-			this.txtStartDate.Text = "01/01/2011";
+			// this.txtStartDate.Text = "01/01/2011";
 			// this.txtStartDate.Value = 40544;
 			// 
 			// txtDesgCode
@@ -338,16 +338,7 @@ namespace Xtreme
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		#endregion
 	}
 }//ENDSHERE

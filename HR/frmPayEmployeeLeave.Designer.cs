@@ -45,7 +45,7 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		private System.Windows.Forms.Label _txtDisplayLabel_7;
 		private System.Windows.Forms.Label _lblCommon_10;
 		private System.Windows.Forms.Label _lblCommon_9;
@@ -805,24 +805,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtDisplayLabel();
-			InitializetxtCommonNumber();
-			InitializetxtCommon();
-			InitializelblSystemComponents();
-			InitializelblCommonLabel();
-			InitializelblCommon();
-			InitializeLine1();
-			InitializeCmbCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtDisplayLabel()
 		{
 			this.txtDisplayLabel = new System.Windows.Forms.Label[8];

@@ -45,10 +45,10 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtLdgrName;
 		public System.Windows.Forms.TextBox txtLdgrNo;
 		public System.Windows.Forms.Label lblLedgerNo;
-		public System.Windows.Forms.LabelLabel3;
-		public System.Windows.Forms.LabelLabel2;
+		public System.Windows.Forms.Label Label3;
+		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.TextBox txtAmountToAdjust;
-		public System.Windows.Forms.LabelLabel1;
+		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.TextBox txtAmountAdjusted;
 		public System.Windows.Forms.Label lblVoucherWiseAdjustment;
 		public System.Windows.Forms.Label Line2;

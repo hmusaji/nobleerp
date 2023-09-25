@@ -190,7 +190,7 @@ namespace Xtreme
 			this.txtDate.PromptChar = "_";
 			this.txtDate.Size = new System.Drawing.Size(89, 19);
 			this.txtDate.TabIndex = 5;
-			this.txtDate.Text = "23/02/2014";
+			// this.txtDate.Text = "23/02/2014";
 			// 
 			// Label_0
 			// 
@@ -290,17 +290,7 @@ namespace Xtreme
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializeSystem.Windows.Forms.Label();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializeSystem.Windows.Forms.Label()
 		{
 			this.Label = new System.Windows.Forms.Label[3];

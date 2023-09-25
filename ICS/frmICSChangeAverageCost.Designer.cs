@@ -199,7 +199,7 @@ namespace Xtreme
 			this.txtTransactionDate.Name = "txtTransactionDate";
 			this.txtTransactionDate.Size = new System.Drawing.Size(101, 19);
 			this.txtTransactionDate.TabIndex = 5;
-			this.txtTransactionDate.Text = "05/01/2005";
+			// this.txtTransactionDate.Text = "05/01/2005";
 			// this.txtTransactionDate.Value = 38357;
 			// 
 			// _txtCommon_1
@@ -482,20 +482,7 @@ namespace Xtreme
 			this.fraCommon.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		void ReLoadForm(bool addEvents)
-		{
-			InitializetxtNCommon();
-			InitializetxtCommonName();
-			InitializetxtCommon();
-			InitializelblCommon();
-			//This form is an MDI child.
-			//This code simulates the VB6 
-			// functionality of automatically
-			// loading and showing an MDI
-			// child's parent.
-			this.MdiParent = Xtreme.frmSysMain.DefInstance;
-			Xtreme.frmSysMain.DefInstance.Show();
-		}
+		// 
 		void InitializetxtNCommon()
 		{
 			this.txtNCommon = new System.Windows.Forms.TextBox[3];
