@@ -93,7 +93,7 @@ InitializeComponent();
 		}
 
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

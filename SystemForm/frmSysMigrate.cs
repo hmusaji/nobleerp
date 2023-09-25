@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Text;
 using System.Windows.Forms;
 using UpgradeHelpers;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -71,7 +71,7 @@ InitializeComponent();
 		//Date  : 11-Dec-2007
 		//Coder: Moiz Hakimiuddin Ghee Wala
 		//*************************************************************************
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

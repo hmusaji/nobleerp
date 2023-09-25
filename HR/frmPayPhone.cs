@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -77,7 +77,7 @@ InitializeComponent();
 		int mThisFormID = 0;
 		private int mFormCallType = 0;
 		private object mSearchValue = null;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

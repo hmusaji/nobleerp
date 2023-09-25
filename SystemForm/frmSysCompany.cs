@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -55,7 +55,7 @@ namespace Xtreme
 		private const int clblSystemEdition = 15;
 		private const int clblSystemColorScheme = 16;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmSysCompany()
 {
 InitializeComponent();

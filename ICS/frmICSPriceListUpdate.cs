@@ -69,7 +69,7 @@ InitializeComponent();
 		//Date  : 03-Dec-2009
 		//Coder: Moiz Hakimi
 		//*************************************************************************
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

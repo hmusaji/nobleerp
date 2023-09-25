@@ -58,7 +58,7 @@ InitializeComponent();
 		private DataSet rsProductList = null;
 		private bool mFirstGridFocus = false;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

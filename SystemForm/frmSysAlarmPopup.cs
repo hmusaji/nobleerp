@@ -77,7 +77,7 @@ InitializeComponent();
 		int mThisFormID = 0;
 		private int mFormCallType = 0;
 		private int mSearchValue = 0;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

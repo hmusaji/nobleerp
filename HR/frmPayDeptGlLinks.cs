@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -15,7 +15,7 @@ namespace Xtreme
 	{
 
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmPayDeptGlLinks()
 {
 InitializeComponent();

@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 using UpgradeHelpers.VB;
 
@@ -16,7 +16,7 @@ namespace Xtreme
 	{
 
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmICSTransactionMaster()
 {
 InitializeComponent();

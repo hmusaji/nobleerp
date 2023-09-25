@@ -53,7 +53,7 @@ InitializeComponent();
 		//Assign the Formid for Each Form
 		private int mThisFormID = 0;
 		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

@@ -1,5 +1,5 @@
 using System;
-using UpgradeHelpers.Gui;
+
 
 
 namespace Xtreme
@@ -50,7 +50,7 @@ InitializeComponent();
 			}
 		}
 		private int mReportId = 0;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

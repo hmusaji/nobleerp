@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -60,7 +60,7 @@ InitializeComponent();
 		int mThisFormID = 0;
 		private clsToolbar oThisFormToolBar = null;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

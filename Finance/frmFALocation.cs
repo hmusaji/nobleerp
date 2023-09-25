@@ -55,7 +55,7 @@ InitializeComponent();
 		}
 		int mThisFormID = 0;
 		object mSearchValue = null;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

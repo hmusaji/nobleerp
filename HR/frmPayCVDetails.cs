@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -61,7 +61,7 @@ InitializeComponent();
 		private XArrayHelper aWorkDetails = null;
 		public Control FirstFocusObject = null;
 		private clsToolbar oThisFormToolBar = null;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

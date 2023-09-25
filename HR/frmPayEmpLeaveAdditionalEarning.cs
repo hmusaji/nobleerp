@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -14,7 +14,7 @@ namespace Xtreme
 		: System.Windows.Forms.Form
 	{
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmPayEmpLeaveAdditionalEarning()
 {
 InitializeComponent();

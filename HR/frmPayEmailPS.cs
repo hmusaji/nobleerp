@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -58,7 +58,7 @@ InitializeComponent();
 				UpgradeHelpers.Gui.ActivateHelper.myActiveForm = (System.Windows.Forms.Form) eventSender;
 			}
 		}
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

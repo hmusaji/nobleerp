@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 using UpgradeHelpers.VB;
 
@@ -68,7 +68,7 @@ InitializeComponent();
 		private string mTimeStamp = "";
 		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0; //Enum for checking the current form mode
 		public clsToolbar oThisFormToolBar = null;
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 using UpgradeHelpers.VB;
 
@@ -163,7 +163,7 @@ InitializeComponent();
 		object mSearchValue = null;
 		int mThisFormID = 0;
 		string mTimeStamp = "";
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

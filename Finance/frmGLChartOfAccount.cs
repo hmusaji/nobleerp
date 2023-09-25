@@ -68,7 +68,7 @@ InitializeComponent();
 		private bool mIsFormOpen = false;
 		private string mTimeStamp = "";
 		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0; //Enum for checking the current form mode
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

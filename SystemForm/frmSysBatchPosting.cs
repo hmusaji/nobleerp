@@ -57,7 +57,7 @@ InitializeComponent();
 		}
 
 		//This class checks for the rights given to the user
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

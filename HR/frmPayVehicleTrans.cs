@@ -57,7 +57,7 @@ InitializeComponent();
 		object mSearchValue = null;
 		object mTimeStamp = null;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

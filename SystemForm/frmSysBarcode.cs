@@ -6,7 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 using UpgradeHelpers.VB;
 
@@ -18,7 +18,7 @@ namespace Xtreme
 	{
 
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmSysBarcode()
 {
 InitializeComponent();

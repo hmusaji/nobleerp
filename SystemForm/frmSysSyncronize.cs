@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 namespace Xtreme
@@ -16,7 +16,7 @@ namespace Xtreme
 		: System.Windows.Forms.Form
 	{
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmSysSyncronize()
 {
 InitializeComponent();

@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -57,7 +57,7 @@ InitializeComponent();
 			}
 		}
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

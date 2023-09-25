@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -20,7 +20,7 @@ namespace Xtreme
 		private object mSearchValue = null;
 		private string mTimeStamp = "";
 		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0; //Enum for checking the current form mode
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmGLLedger()
 {
 InitializeComponent();

@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 using UpgradeHelpers;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -65,7 +65,7 @@ InitializeComponent();
 		private int mThisFormID = 0; //Assign the Formid for Each Form
 		private object mSearchValue = null; //Variable for storing the searchvalue from the Find window
 		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0; //Enum for checking the current form mode
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

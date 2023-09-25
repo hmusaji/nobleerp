@@ -57,7 +57,7 @@ InitializeComponent();
 		object mSearchValue = null;
 		private clsToolbar oThisFormToolBar = null;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

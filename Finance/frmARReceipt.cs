@@ -61,7 +61,7 @@ InitializeComponent();
 		private object mSearchValue = null;
 		int mEntryId = 0;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

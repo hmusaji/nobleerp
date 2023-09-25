@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -131,7 +131,7 @@ InitializeComponent();
 		private DataSet rsBarcodeList = null;
 		private DataSet rsActivityList = null;
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

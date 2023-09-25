@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using UpgradeHelpers;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -17,7 +17,7 @@ namespace Xtreme
 	{
 
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public frmSysPreferencesNew()
 {
 InitializeComponent();

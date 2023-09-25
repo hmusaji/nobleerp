@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Text;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -61,7 +61,7 @@ InitializeComponent();
 		object mSearchValue = null;
 		string mTimeStamp = "";
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get

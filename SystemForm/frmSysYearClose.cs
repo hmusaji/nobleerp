@@ -3,7 +3,7 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using UpgradeHelpers.Gui;
+
 
 
 
@@ -67,7 +67,7 @@ InitializeComponent();
 
 		private const string mProfitAndLossGroupCode = "H";
 
-		private clsAccessAllowed _UserAccess = null;
+		
 		public clsAccessAllowed UserAccess
 		{
 			get
