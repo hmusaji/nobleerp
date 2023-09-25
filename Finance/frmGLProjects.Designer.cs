@@ -235,7 +235,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_0);
 			this.tabMaster.Location = new System.Drawing.Point(4, 128);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(633, 245);
 			this.tabMaster.TabIndex = 7;
 			this.tabMaster.SelectedChanged += new AxXtremeSuiteControls._DTabControlEvents_SelectedChangedEventHandler(this.tabMaster_SelectedChanged);
@@ -247,7 +247,7 @@ namespace Xtreme
 			this._fraLedgerInformation_3.Controls.Add(this.grdActivityDetails);
 			this._fraLedgerInformation_3.Location = new System.Drawing.Point(-4664, 28);
 			this._fraLedgerInformation_3.Name = "_fraLedgerInformation_3";
-			("_fraLedgerInformation_3.OcxState");
+			//
 			this._fraLedgerInformation_3.Size = new System.Drawing.Size(629, 215);
 			this._fraLedgerInformation_3.TabIndex = 60;
 			this._fraLedgerInformation_3.Visible = false;
@@ -315,7 +315,7 @@ namespace Xtreme
 			this._fraLedgerInformation_2.Controls.Add(this.txtBillingCd);
 			this._fraLedgerInformation_2.Location = new System.Drawing.Point(-4664, 28);
 			this._fraLedgerInformation_2.Name = "_fraLedgerInformation_2";
-			("_fraLedgerInformation_2.OcxState");
+			//
 			this._fraLedgerInformation_2.Size = new System.Drawing.Size(629, 215);
 			this._fraLedgerInformation_2.TabIndex = 59;
 			this._fraLedgerInformation_2.Visible = false;
@@ -450,7 +450,7 @@ namespace Xtreme
 			this._fraLedgerInformation_1.Controls.Add(this._lblCommon_39);
 			this._fraLedgerInformation_1.Location = new System.Drawing.Point(-4664, 28);
 			this._fraLedgerInformation_1.Name = "_fraLedgerInformation_1";
-			("_fraLedgerInformation_1.OcxState");
+			//
 			this._fraLedgerInformation_1.Size = new System.Drawing.Size(629, 215);
 			this._fraLedgerInformation_1.TabIndex = 9;
 			this._fraLedgerInformation_1.Visible = false;
@@ -782,7 +782,7 @@ namespace Xtreme
 			this._fraLedgerInformation_0.Controls.Add(this.Label2);
 			this._fraLedgerInformation_0.Location = new System.Drawing.Point(2, 28);
 			this._fraLedgerInformation_0.Name = "_fraLedgerInformation_0";
-			("_fraLedgerInformation_0.OcxState");
+			//
 			this._fraLedgerInformation_0.Size = new System.Drawing.Size(629, 215);
 			this._fraLedgerInformation_0.TabIndex = 8;
 			// 

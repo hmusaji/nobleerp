@@ -100,7 +100,7 @@ namespace Xtreme
 			this.cntOuterFrame.Controls.Add(this.Line1);
 			this.cntOuterFrame.Location = new System.Drawing.Point(6, 6);
 			this.cntOuterFrame.Name = "cntOuterFrame";
-			("cntOuterFrame.OcxState");
+			//
 			this.cntOuterFrame.Size = new System.Drawing.Size(735, 493);
 			this.cntOuterFrame.TabIndex = 7;
 			this.cntOuterFrame.TabStop = false;
@@ -126,7 +126,7 @@ namespace Xtreme
 			this.tabUserGroups.Controls.Add(this._grdUserGroups_4);
 			this.tabUserGroups.Location = new System.Drawing.Point(5, 94);
 			this.tabUserGroups.Name = "tabUserGroups";
-			("tabUserGroups.OcxState");
+			//
 			this.tabUserGroups.Size = new System.Drawing.Size(725, 367);
 			this.tabUserGroups.TabIndex = 2;
 			// 

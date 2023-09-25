@@ -348,7 +348,7 @@ namespace Xtreme
 			this.tabGLVoucherType.Controls.Add(this.Frame1);
 			this.tabGLVoucherType.Location = new System.Drawing.Point(4, 10);
 			this.tabGLVoucherType.Name = "tabGLVoucherType";
-			("tabGLVoucherType.OcxState");
+			//
 			this.tabGLVoucherType.Size = new System.Drawing.Size(461, 347);
 			this.tabGLVoucherType.TabIndex = 64;
 			// 

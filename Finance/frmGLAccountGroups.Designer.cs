@@ -118,7 +118,7 @@ namespace Xtreme
 			this.fraDetailsInfo.Controls.Add(this.txtTypeCode);
 			this.fraDetailsInfo.Location = new System.Drawing.Point(4, 86);
 			this.fraDetailsInfo.Name = "fraDetailsInfo";
-			("fraDetailsInfo.OcxState");
+			//
 			this.fraDetailsInfo.Size = new System.Drawing.Size(565, 143);
 			this.fraDetailsInfo.TabIndex = 6;
 			// 
@@ -129,7 +129,7 @@ namespace Xtreme
 			this.Frame1.Controls.Add(this._lblCommon_8);
 			this.Frame1.Location = new System.Drawing.Point(312, 40);
 			this.Frame1.Name = "Frame1";
-			("Frame1.OcxState");
+			//
 			this.Frame1.Size = new System.Drawing.Size(249, 29);
 			this.Frame1.TabIndex = 17;
 			// 

@@ -1698,11 +1698,11 @@
     <Compile Include="ICS\repProductQuery.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="test.cs">
+    <Compile Include="tset.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="test.Designer.cs">
-      <DependentUpon>test.cs</DependentUpon>
+    <Compile Include="tset.Designer.cs">
+      <DependentUpon>tset.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frmSysMain.resX">
       <DependentUpon>frmSysMain.cs</DependentUpon>
@@ -2491,8 +2491,8 @@
       <DependentUpon>repProductQuery.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="test.resx">
-      <DependentUpon>test.cs</DependentUpon>
+    <EmbeddedResource Include="tset.resx">
+      <DependentUpon>tset.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
   </ItemGroup>

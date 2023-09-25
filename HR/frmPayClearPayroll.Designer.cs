@@ -4,28 +4,7 @@ namespace Xtreme
 	partial class frmPayClearPayroll
 	{
 
-		#region "Upgrade Support "
-		private static frmPayClearPayroll m_vb6FormDefInstance;
-		private static bool m_InitializingDefInstance;
-		public static frmPayClearPayroll DefInstance
-		{
-			get
-			{
-				if (m_vb6FormDefInstance is null || m_vb6FormDefInstance.IsDisposed)
-				{
-					m_InitializingDefInstance = true;
-					m_vb6FormDefInstance = CreateInstance();
-					m_InitializingDefInstance = false;
-				}
-				return m_vb6FormDefInstance;
-			}
-			set
-			{
-				m_vb6FormDefInstance = value;
-			}
-		}
-
-		#endregion
+		
 		#region "Windows Form Designer generated code "
 		public static frmPayClearPayroll CreateInstance()
 		{
@@ -45,7 +24,7 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public AxXtremeSuiteControls.AxProgressBar pbClosePayroll;
+		public Syncfusion.Windows.Forms.Tools.ProgressBarAdv pbClosePayroll;
 		public UCOkCancel cmdOKCancel;
 		public System.Windows.Forms.Label lblMessage;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -57,7 +36,7 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayClearPayroll));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.pbClosePayroll = new AxXtremeSuiteControls.AxProgressBar();
+			this.pbClosePayroll = new Syncfusion.Windows.Forms.Tools.ProgressBarAdv();
 			this.cmdOKCancel = new UCOkCancel();
 			this.lblMessage = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.pbClosePayroll).BeginInit();
@@ -68,7 +47,7 @@ namespace Xtreme
 			this.pbClosePayroll.AllowDrop = true;
 			this.pbClosePayroll.Location = new System.Drawing.Point(16, 62);
 			this.pbClosePayroll.Name = "pbClosePayroll";
-			("pbClosePayroll.OcxState");
+			//
 			this.pbClosePayroll.Size = new System.Drawing.Size(351, 21);
 			this.pbClosePayroll.TabIndex = 2;
 			// 

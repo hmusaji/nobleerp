@@ -212,7 +212,7 @@ namespace Xtreme
 			this._cmdCalc_0.AllowDrop = true;
 			this._cmdCalc_0.Location = new System.Drawing.Point(2, 42);
 			this._cmdCalc_0.Name = "_cmdCalc_0";
-			//("_cmdCalc_0.OcxState");
+			////
 			this._cmdCalc_0.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_0.TabIndex = 4;
 			//// this._cmdCalc_0.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -222,7 +222,7 @@ namespace Xtreme
 			this._cmdCalc_1.AllowDrop = true;
 			this._cmdCalc_1.Location = new System.Drawing.Point(38, 42);
 			this._cmdCalc_1.Name = "_cmdCalc_1";
-			//("_cmdCalc_1.OcxState");
+			////
 			this._cmdCalc_1.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_1.TabIndex = 5;
 			//// this._cmdCalc_1.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -232,7 +232,7 @@ namespace Xtreme
 			this._cmdCalc_2.AllowDrop = true;
 			this._cmdCalc_2.Location = new System.Drawing.Point(74, 42);
 			this._cmdCalc_2.Name = "_cmdCalc_2";
-			//("_cmdCalc_2.OcxState");
+			////
 			this._cmdCalc_2.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_2.TabIndex = 6;
 			//// this._cmdCalc_2.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -242,7 +242,7 @@ namespace Xtreme
 			this._cmdCalc_3.AllowDrop = true;
 			this._cmdCalc_3.Location = new System.Drawing.Point(2, 72);
 			this._cmdCalc_3.Name = "_cmdCalc_3";
-			//("_cmdCalc_3.OcxState");
+			////
 			this._cmdCalc_3.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_3.TabIndex = 7;
 			//// this._cmdCalc_3.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -252,7 +252,7 @@ namespace Xtreme
 			this._cmdCalc_4.AllowDrop = true;
 			this._cmdCalc_4.Location = new System.Drawing.Point(38, 72);
 			this._cmdCalc_4.Name = "_cmdCalc_4";
-			//("_cmdCalc_4.OcxState");
+			////
 			this._cmdCalc_4.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_4.TabIndex = 8;
 			//// this._cmdCalc_4.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -262,7 +262,7 @@ namespace Xtreme
 			this._cmdCalc_5.AllowDrop = true;
 			this._cmdCalc_5.Location = new System.Drawing.Point(74, 72);
 			this._cmdCalc_5.Name = "_cmdCalc_5";
-			//("_cmdCalc_5.OcxState");
+			////
 			this._cmdCalc_5.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_5.TabIndex = 9;
 			//// this._cmdCalc_5.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -272,7 +272,7 @@ namespace Xtreme
 			this._cmdCalc_8.AllowDrop = true;
 			this._cmdCalc_8.Location = new System.Drawing.Point(2, 102);
 			this._cmdCalc_8.Name = "_cmdCalc_8";
-			//("_cmdCalc_8.OcxState");
+			////
 			this._cmdCalc_8.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_8.TabIndex = 10;
 			//// this._cmdCalc_8.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -282,7 +282,7 @@ namespace Xtreme
 			this._cmdCalc_9.AllowDrop = true;
 			this._cmdCalc_9.Location = new System.Drawing.Point(38, 102);
 			this._cmdCalc_9.Name = "_cmdCalc_9";
-			//("_cmdCalc_9.OcxState");
+			////
 			this._cmdCalc_9.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_9.TabIndex = 11;
 			//// this._cmdCalc_9.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -292,7 +292,7 @@ namespace Xtreme
 			this._cmdCalc_29.AllowDrop = true;
 			this._cmdCalc_29.Location = new System.Drawing.Point(74, 102);
 			this._cmdCalc_29.Name = "_cmdCalc_29";
-			//("_cmdCalc_29.OcxState");
+			////
 			this._cmdCalc_29.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_29.TabIndex = 12;
 			//// this._cmdCalc_29.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -302,7 +302,7 @@ namespace Xtreme
 			this._cmdCalc_13.AllowDrop = true;
 			this._cmdCalc_13.Location = new System.Drawing.Point(2, 132);
 			this._cmdCalc_13.Name = "_cmdCalc_13";
-			//("_cmdCalc_13.OcxState");
+			////
 			this._cmdCalc_13.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_13.TabIndex = 13;
 			//// this._cmdCalc_13.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -312,7 +312,7 @@ namespace Xtreme
 			this._cmdCalc_14.AllowDrop = true;
 			this._cmdCalc_14.Location = new System.Drawing.Point(38, 132);
 			this._cmdCalc_14.Name = "_cmdCalc_14";
-			//("_cmdCalc_14.OcxState");
+			////
 			this._cmdCalc_14.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_14.TabIndex = 14;
 			//// this._cmdCalc_14.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -322,7 +322,7 @@ namespace Xtreme
 			this._cmdCalc_15.AllowDrop = true;
 			this._cmdCalc_15.Location = new System.Drawing.Point(74, 132);
 			this._cmdCalc_15.Name = "_cmdCalc_15";
-			//("_cmdCalc_15.OcxState");
+			////
 			this._cmdCalc_15.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_15.TabIndex = 15;
 			//// this._cmdCalc_15.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -332,7 +332,7 @@ namespace Xtreme
 			this._cmdCalc_18.AllowDrop = true;
 			this._cmdCalc_18.Location = new System.Drawing.Point(2, 162);
 			this._cmdCalc_18.Name = "_cmdCalc_18";
-			//("_cmdCalc_18.OcxState");
+			////
 			this._cmdCalc_18.Size = new System.Drawing.Size(69, 27);
 			this._cmdCalc_18.TabIndex = 16;
 			//// this._cmdCalc_18.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -342,7 +342,7 @@ namespace Xtreme
 			this._cmdCalc_19.AllowDrop = true;
 			this._cmdCalc_19.Location = new System.Drawing.Point(110, 42);
 			this._cmdCalc_19.Name = "_cmdCalc_19";
-			//("_cmdCalc_19.OcxState");
+			////
 			this._cmdCalc_19.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_19.TabIndex = 17;
 			//// this._cmdCalc_19.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -352,7 +352,7 @@ namespace Xtreme
 			this._cmdCalc_7.AllowDrop = true;
 			this._cmdCalc_7.Location = new System.Drawing.Point(146, 42);
 			this._cmdCalc_7.Name = "_cmdCalc_7";
-			//("_cmdCalc_7.OcxState");
+			////
 			this._cmdCalc_7.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_7.TabIndex = 18;
 			//// this._cmdCalc_7.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -362,7 +362,7 @@ namespace Xtreme
 			this._cmdCalc_20.AllowDrop = true;
 			this._cmdCalc_20.Location = new System.Drawing.Point(74, 162);
 			this._cmdCalc_20.Name = "_cmdCalc_20";
-			//("_cmdCalc_20.OcxState");
+			////
 			this._cmdCalc_20.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_20.TabIndex = 19;
 			//// this._cmdCalc_20.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -372,7 +372,7 @@ namespace Xtreme
 			this._cmdCalc_21.AllowDrop = true;
 			this._cmdCalc_21.Location = new System.Drawing.Point(110, 162);
 			this._cmdCalc_21.Name = "_cmdCalc_21";
-			//("_cmdCalc_21.OcxState");
+			////
 			this._cmdCalc_21.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_21.TabIndex = 20;
 			//// this._cmdCalc_21.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -382,7 +382,7 @@ namespace Xtreme
 			this._cmdCalc_6.AllowDrop = true;
 			this._cmdCalc_6.Location = new System.Drawing.Point(110, 72);
 			this._cmdCalc_6.Name = "_cmdCalc_6";
-			//("_cmdCalc_6.OcxState");
+			////
 			this._cmdCalc_6.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_6.TabIndex = 21;
 			//// this._cmdCalc_6.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -392,7 +392,7 @@ namespace Xtreme
 			this._cmdCalc_12.AllowDrop = true;
 			this._cmdCalc_12.Location = new System.Drawing.Point(146, 72);
 			this._cmdCalc_12.Name = "_cmdCalc_12";
-			//("_cmdCalc_12.OcxState");
+			////
 			this._cmdCalc_12.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_12.TabIndex = 22;
 			//// this._cmdCalc_12.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -402,7 +402,7 @@ namespace Xtreme
 			this._cmdCalc_11.AllowDrop = true;
 			this._cmdCalc_11.Location = new System.Drawing.Point(110, 102);
 			this._cmdCalc_11.Name = "_cmdCalc_11";
-			//("_cmdCalc_11.OcxState");
+			////
 			this._cmdCalc_11.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_11.TabIndex = 23;
 			//// this._cmdCalc_11.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -412,7 +412,7 @@ namespace Xtreme
 			this._cmdCalc_16.AllowDrop = true;
 			this._cmdCalc_16.Location = new System.Drawing.Point(110, 132);
 			this._cmdCalc_16.Name = "_cmdCalc_16";
-			//("_cmdCalc_16.OcxState");
+			////
 			this._cmdCalc_16.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_16.TabIndex = 24;
 			//// this._cmdCalc_16.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -422,7 +422,7 @@ namespace Xtreme
 			this._cmdCalc_17.AllowDrop = true;
 			this._cmdCalc_17.Location = new System.Drawing.Point(146, 102);
 			this._cmdCalc_17.Name = "_cmdCalc_17";
-			//("_cmdCalc_17.OcxState");
+			////
 			this._cmdCalc_17.Size = new System.Drawing.Size(33, 27);
 			this._cmdCalc_17.TabIndex = 25;
 			//// this._cmdCalc_17.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);
@@ -432,7 +432,7 @@ namespace Xtreme
 			this._cmdCalc_22.AllowDrop = true;
 			this._cmdCalc_22.Location = new System.Drawing.Point(146, 132);
 			this._cmdCalc_22.Name = "_cmdCalc_22";
-			//("_cmdCalc_22.OcxState");
+			////
 			this._cmdCalc_22.Size = new System.Drawing.Size(33, 57);
 			this._cmdCalc_22.TabIndex = 26;
 			//// this._cmdCalc_22.ClickEvent += new System.EventHandler(this.cmdCalc_ClickEvent);

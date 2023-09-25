@@ -144,7 +144,7 @@ namespace Xtreme
 			this.cntMasterDetails.Controls.Add(this.lblNoticeText);
 			this.cntMasterDetails.Location = new System.Drawing.Point(6, 104);
 			this.cntMasterDetails.Name = "cntMasterDetails";
-			("cntMasterDetails.OcxState");
+			//
 			this.cntMasterDetails.Size = new System.Drawing.Size(517, 269);
 			this.cntMasterDetails.TabIndex = 10;
 			// 
@@ -363,7 +363,7 @@ namespace Xtreme
 			this._btnReportOptions_1.AllowDrop = true;
 			this._btnReportOptions_1.Location = new System.Drawing.Point(531, 309);
 			this._btnReportOptions_1.Name = "_btnReportOptions_1";
-			("_btnReportOptions_1.OcxState");
+			//
 			this._btnReportOptions_1.Size = new System.Drawing.Size(96, 28);
 			this._btnReportOptions_1.TabIndex = 3;
 			//// this._btnReportOptions_1.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);
@@ -374,7 +374,7 @@ namespace Xtreme
 			this._btnReportOptions_2.AllowDrop = true;
 			this._btnReportOptions_2.Location = new System.Drawing.Point(531, 338);
 			this._btnReportOptions_2.Name = "_btnReportOptions_2";
-			("_btnReportOptions_2.OcxState");
+			//
 			this._btnReportOptions_2.Size = new System.Drawing.Size(96, 28);
 			this._btnReportOptions_2.TabIndex = 4;
 			//// this._btnReportOptions_2.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);

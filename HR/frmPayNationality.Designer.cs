@@ -89,7 +89,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.lblNatNo);
 			this.cntMainParameter.Location = new System.Drawing.Point(4, 44);
 			this.cntMainParameter.Name = "cntMainParameter";
-			("cntMainParameter.OcxState");
+			//
 			this.cntMainParameter.Size = new System.Drawing.Size(477, 149);
 			this.cntMainParameter.TabIndex = 4;
 			// 

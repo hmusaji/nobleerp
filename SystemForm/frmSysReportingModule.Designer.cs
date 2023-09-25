@@ -209,7 +209,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this.fraLedgerInformation);
 			this.tabMaster.Location = new System.Drawing.Point(4, 14);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(1075, 511);
 			this.tabMaster.TabIndex = 5;
 			this.tabMaster.TabStop = false;
@@ -674,7 +674,7 @@ namespace Xtreme
 			this.rptLevelSlider.AllowDrop = true;
 			this.rptLevelSlider.Location = new System.Drawing.Point(138, 112);
 			this.rptLevelSlider.Name = "rptLevelSlider";
-			("rptLevelSlider.OcxState");
+			//
 			this.rptLevelSlider.Size = new System.Drawing.Size(303, 33);
 			this.rptLevelSlider.TabIndex = 22;
 			// 

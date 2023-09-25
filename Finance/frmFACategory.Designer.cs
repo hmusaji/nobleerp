@@ -114,7 +114,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_3);
 			this.tabMaster.Location = new System.Drawing.Point(6, 51);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(593, 269);
 			this.tabMaster.TabIndex = 6;
 			this.tabMaster.TabStop = false;
@@ -364,7 +364,7 @@ namespace Xtreme
 			this.ElasticOne1.AllowDrop = true;
 			this.ElasticOne1.Location = new System.Drawing.Point(-36, 40);
 			this.ElasticOne1.Name = "ElasticOne1";
-			("ElasticOne1.OcxState");
+			//
 			this.ElasticOne1.Size = new System.Drawing.Size(689, 546);
 			this.ElasticOne1.TabIndex = 16;
 			this.ElasticOne1.TabStop = false;

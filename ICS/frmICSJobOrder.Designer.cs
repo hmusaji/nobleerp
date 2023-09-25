@@ -208,7 +208,7 @@ namespace Xtreme
 			this.tabMain.Controls.Add(this.TabControlPage1);
 			this.tabMain.Location = new System.Drawing.Point(8, 184);
 			this.tabMain.Name = "tabMain";
-			("tabMain.OcxState");
+			//
 			this.tabMain.Size = new System.Drawing.Size(817, 265);
 			this.tabMain.TabIndex = 35;
 			// 
@@ -219,7 +219,7 @@ namespace Xtreme
 			this.TabControlPage2.Controls.Add(this.Frame2);
 			this.TabControlPage2.Location = new System.Drawing.Point(-4664, 26);
 			this.TabControlPage2.Name = "TabControlPage2";
-			("TabControlPage2.OcxState");
+			//
 			this.TabControlPage2.Size = new System.Drawing.Size(813, 237);
 			this.TabControlPage2.TabIndex = 37;
 			this.TabControlPage2.Visible = false;
@@ -473,7 +473,7 @@ namespace Xtreme
 			this.TabControlPage1.Controls.Add(this.cmbMastersList);
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 26);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(813, 237);
 			this.TabControlPage1.TabIndex = 36;
 			// 

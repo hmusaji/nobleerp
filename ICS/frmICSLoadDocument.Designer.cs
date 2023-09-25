@@ -79,7 +79,7 @@ namespace Xtreme
 			this.fraLoadDocument.Controls.Add(this.grdVoucherDetails);
 			this.fraLoadDocument.Location = new System.Drawing.Point(6, 6);
 			this.fraLoadDocument.Name = "fraLoadDocument";
-			("fraLoadDocument.OcxState");
+			//
 			this.fraLoadDocument.Size = new System.Drawing.Size(345, 261);
 			this.fraLoadDocument.TabIndex = 3;
 			// 

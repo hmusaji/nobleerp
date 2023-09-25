@@ -62,7 +62,7 @@ namespace Xtreme
 			this.datePicker.AllowDrop = true;
 			this.datePicker.Location = new System.Drawing.Point(0, 0);
 			this.datePicker.Name = "datePicker";
-			("datePicker.OcxState");
+			//
 			this.datePicker.Size = new System.Drawing.Size(201, 153);
 			this.datePicker.TabIndex = 3;
 			this.datePicker.DateClick += new AxXtremeSuiteControls._DMonthCalendarEvents_DateClickEventHandler(this.datePicker_DateClick);

@@ -239,7 +239,7 @@ namespace Xtreme
 			this.fraMainInformation.Controls.Add(this.Line1);
 			this.fraMainInformation.Location = new System.Drawing.Point(10, 10);
 			this.fraMainInformation.Name = "fraMainInformation";
-			("fraMainInformation.OcxState");
+			//
 			this.fraMainInformation.Size = new System.Drawing.Size(663, 359);
 			this.fraMainInformation.TabIndex = 27;
 			// 
@@ -271,7 +271,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_0);
 			this.tabMaster.Location = new System.Drawing.Point(8, 122);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(642, 227);
 			this.tabMaster.TabIndex = 34;
 			this.tabMaster.TabStop = false;

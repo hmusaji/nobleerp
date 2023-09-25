@@ -295,7 +295,7 @@ namespace Xtreme
 			this.tabBankDisk.Controls.Add(this.frmEmployee);
 			this.tabBankDisk.Location = new System.Drawing.Point(3, 36);
 			this.tabBankDisk.Name = "tabBankDisk";
-			("tabBankDisk.OcxState");
+			//
 			this.tabBankDisk.Size = new System.Drawing.Size(455, 326);
 			this.tabBankDisk.TabIndex = 20;
 			//// this.tabBankDisk.ClickEvent += new System.EventHandler(this.tabBankDisk_ClickEvent);

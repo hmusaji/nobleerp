@@ -122,7 +122,7 @@ namespace Xtreme
 			this.fraDetailsInfo.Controls.Add(this.txtTypeCode);
 			this.fraDetailsInfo.Location = new System.Drawing.Point(5, 118);
 			this.fraDetailsInfo.Name = "fraDetailsInfo";
-			("fraDetailsInfo.OcxState");
+			//
 			this.fraDetailsInfo.Size = new System.Drawing.Size(551, 143);
 			this.fraDetailsInfo.TabIndex = 6;
 			// 

@@ -121,7 +121,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.txtLedgerName);
 			this.cntMainParameter.Location = new System.Drawing.Point(12, 11);
 			this.cntMainParameter.Name = "cntMainParameter";
-			("cntMainParameter.OcxState");
+			//
 			this.cntMainParameter.Size = new System.Drawing.Size(449, 165);
 			this.cntMainParameter.TabIndex = 7;
 			// 

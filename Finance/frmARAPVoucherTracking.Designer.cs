@@ -103,7 +103,7 @@ namespace Xtreme
 			this.cntMasterDetails.Controls.Add(this.chkShowAll);
 			this.cntMasterDetails.Location = new System.Drawing.Point(2, 47);
 			this.cntMasterDetails.Name = "cntMasterDetails";
-			("cntMasterDetails.OcxState");
+			//
 			this.cntMasterDetails.Size = new System.Drawing.Size(625, 331);
 			this.cntMasterDetails.TabIndex = 4;
 			// 
@@ -195,7 +195,7 @@ namespace Xtreme
 			this.cmdClose.AllowDrop = true;
 			this.cmdClose.Location = new System.Drawing.Point(0, 0);
 			this.cmdClose.Name = "cmdClose";
-			("cmdClose.OcxState");
+			//
 			this.cmdClose.Size = new System.Drawing.Size(162, 24);
 			this.cmdClose.TabIndex = 8;
 			this.cmdClose.TabStop = false;

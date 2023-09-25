@@ -84,7 +84,7 @@ namespace Xtreme
 			this.vspReportPrinter.AllowDrop = true;
 			this.vspReportPrinter.Location = new System.Drawing.Point(0, 48);
 			this.vspReportPrinter.Name = "vspReportPrinter";
-			("vspReportPrinter.OcxState");
+			//
 			this.vspReportPrinter.Size = new System.Drawing.Size(581, 121);
 			this.vspReportPrinter.TabIndex = 0;
 			this.vspReportPrinter.Visible = false;
@@ -235,7 +235,7 @@ namespace Xtreme
 			this.CommandBars.AllowDrop = true;
 			this.CommandBars.Location = new System.Drawing.Point(16, 4);
 			this.CommandBars.Name = "CommandBars";
-			("CommandBars.OcxState");
+			//
 			this.CommandBars.Execute += new AxXtremeCommandBars._DCommandBarsEvents_ExecuteEventHandler(this.CommandBars_Execute);
 			// 
 			// frmSysReportDesign1

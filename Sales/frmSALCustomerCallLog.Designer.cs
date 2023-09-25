@@ -187,7 +187,7 @@ namespace Xtreme
 			this.txtCallRcvrTime.AllowDrop = true;
 			this.txtCallRcvrTime.Location = new System.Drawing.Point(418, 20);
 			this.txtCallRcvrTime.Name = "txtCallRcvrTime";
-			("txtCallRcvrTime.OcxState");
+			//
 			this.txtCallRcvrTime.Size = new System.Drawing.Size(101, 21);
 			this.txtCallRcvrTime.TabIndex = 1;
 			// 

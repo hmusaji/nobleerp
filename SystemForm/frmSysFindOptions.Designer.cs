@@ -104,7 +104,7 @@ namespace Xtreme
 			this.tabReportOptions.Controls.Add(this.fraReportOptions);
 			this.tabReportOptions.Location = new System.Drawing.Point(4, 338);
 			this.tabReportOptions.Name = "tabReportOptions";
-			("tabReportOptions.OcxState");
+			//
 			this.tabReportOptions.Size = new System.Drawing.Size(51, 33);
 			this.tabReportOptions.TabIndex = 0;
 			this.tabReportOptions.TabStop = false;
@@ -189,7 +189,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmSysFindOptions
 			// 

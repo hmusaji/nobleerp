@@ -100,7 +100,7 @@ namespace Xtreme
 			this.C1Tab1.Controls.Add(this.Frame1);
 			this.C1Tab1.Location = new System.Drawing.Point(4, 94);
 			this.C1Tab1.Name = "C1Tab1";
-			("C1Tab1.OcxState");
+			//
 			this.C1Tab1.Size = new System.Drawing.Size(1149, 373);
 			this.C1Tab1.TabIndex = 0;
 			this.C1Tab1.TabStop = false;
@@ -174,7 +174,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(18, 16);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(109, 19);
 			this.txtTempDate.TabIndex = 4;
 			this.txtTempDate.TabStop = false;

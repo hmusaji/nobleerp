@@ -64,7 +64,7 @@ namespace Xtreme
 			this.DockingPaneManager.AllowDrop = true;
 			this.DockingPaneManager.Location = new System.Drawing.Point(0, 0);
 			this.DockingPaneManager.Name = "DockingPaneManager";
-			("DockingPaneManager.OcxState");
+			//
 			this.DockingPaneManager.AttachPaneEvent += new AxXtremeDockingPane._DDockingPaneEvents_AttachPaneEventHandler(this.DockingPaneManager_AttachPaneEvent);
 			// 
 			// frmSysDashboard

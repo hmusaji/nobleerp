@@ -602,7 +602,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.txtMasterName);
 			this.cntMainParameter.Location = new System.Drawing.Point(5, 9);
 			this.cntMainParameter.Name = "cntMainParameter";
-			("cntMainParameter.OcxState");
+			//
 			this.cntMainParameter.Size = new System.Drawing.Size(457, 169);
 			this.cntMainParameter.TabIndex = 25;
 			// 

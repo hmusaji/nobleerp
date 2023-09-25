@@ -69,7 +69,7 @@ namespace Xtreme
 			this._cmdOkCancel_2.AllowDrop = true;
 			this._cmdOkCancel_2.Location = new System.Drawing.Point(308, 112);
 			this._cmdOkCancel_2.Name = "_cmdOkCancel_2";
-			("_cmdOkCancel_2.OcxState");
+			//
 			this._cmdOkCancel_2.Size = new System.Drawing.Size(69, 27);
 			this._cmdOkCancel_2.TabIndex = 2;
 			//// this._cmdOkCancel_2.ClickEvent += new System.EventHandler(this.cmdOkCancel_ClickEvent);

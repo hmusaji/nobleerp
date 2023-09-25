@@ -172,7 +172,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(36, 272);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(109, 19);
 			this.txtTempDate.TabIndex = 29;
 			this.txtTempDate.Visible = false;
@@ -289,7 +289,7 @@ namespace Xtreme
 			this.fraTabPage0.Controls.Add(this._lblCommonLabel_9);
 			this.fraTabPage0.Location = new System.Drawing.Point(4, 44);
 			this.fraTabPage0.Name = "fraTabPage0";
-			("fraTabPage0.OcxState");
+			//
 			this.fraTabPage0.Size = new System.Drawing.Size(751, 121);
 			this.fraTabPage0.TabIndex = 12;
 			// 
@@ -687,7 +687,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(274, 6);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// Line1
 			// 

@@ -217,7 +217,7 @@ namespace Xtreme
 			this.txtHolidayDate.AllowDrop = true;
 			this.txtHolidayDate.Location = new System.Drawing.Point(186, 222);
 			this.txtHolidayDate.Name = "txtHolidayDate";
-			("txtHolidayDate.OcxState");
+			//
 			this.txtHolidayDate.Size = new System.Drawing.Size(109, 19);
 			this.txtHolidayDate.TabIndex = 11;
 			this.txtHolidayDate.Visible = false;

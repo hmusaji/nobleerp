@@ -479,7 +479,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this.TabControlPage1);
 			this.tabMaster.Location = new System.Drawing.Point(6, 148);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(865, 327);
 			this.tabMaster.TabIndex = 0;
 			// 
@@ -490,7 +490,7 @@ namespace Xtreme
 			this.TabControlPage2.Controls.Add(this.cmbMastersListOut);
 			this.TabControlPage2.Location = new System.Drawing.Point(-4664, 26);
 			this.TabControlPage2.Name = "TabControlPage2";
-			("TabControlPage2.OcxState");
+			//
 			this.TabControlPage2.Size = new System.Drawing.Size(861, 299);
 			this.TabControlPage2.TabIndex = 2;
 			this.TabControlPage2.Visible = false;
@@ -552,7 +552,7 @@ namespace Xtreme
 			this.TabControlPage1.Controls.Add(this.cmbMastersList);
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 26);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(861, 299);
 			this.TabControlPage1.TabIndex = 1;
 			// 
@@ -611,7 +611,7 @@ namespace Xtreme
 			this.CommandBars.AllowDrop = true;
 			this.CommandBars.Location = new System.Drawing.Point(792, 2);
 			this.CommandBars.Name = "CommandBars";
-			("CommandBars.OcxState");
+			//
 			// 
 			// frmICSExcessShortage
 			// 

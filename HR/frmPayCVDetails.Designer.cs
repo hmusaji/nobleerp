@@ -241,7 +241,7 @@ namespace Xtreme
 			this.tabCV.Controls.Add(this.C1Elastic1);
 			this.tabCV.Location = new System.Drawing.Point(2, 284);
 			this.tabCV.Name = "tabCV";
-			("tabCV.OcxState");
+			//
 			this.tabCV.Size = new System.Drawing.Size(619, 239);
 			this.tabCV.TabIndex = 18;
 			// 
@@ -252,7 +252,7 @@ namespace Xtreme
 			this.C1Elastic4.Controls.Add(this.grdWorkExperenceDetails);
 			this.C1Elastic4.Location = new System.Drawing.Point(700, 24);
 			this.C1Elastic4.Name = "C1Elastic4";
-			("C1Elastic4.OcxState");
+			//
 			this.C1Elastic4.Size = new System.Drawing.Size(617, 214);
 			this.C1Elastic4.TabIndex = 31;
 			this.C1Elastic4.TabStop = false;
@@ -287,7 +287,7 @@ namespace Xtreme
 			this.C1Elastic3.Controls.Add(this.grdSkillDetails);
 			this.C1Elastic3.Location = new System.Drawing.Point(680, 24);
 			this.C1Elastic3.Name = "C1Elastic3";
-			("C1Elastic3.OcxState");
+			//
 			this.C1Elastic3.Size = new System.Drawing.Size(617, 214);
 			this.C1Elastic3.TabIndex = 30;
 			this.C1Elastic3.TabStop = false;
@@ -323,7 +323,7 @@ namespace Xtreme
 			this.C1Elastic2.Controls.Add(this.grdQualificationDetails);
 			this.C1Elastic2.Location = new System.Drawing.Point(660, 24);
 			this.C1Elastic2.Name = "C1Elastic2";
-			("C1Elastic2.OcxState");
+			//
 			this.C1Elastic2.Size = new System.Drawing.Size(617, 214);
 			this.C1Elastic2.TabIndex = 29;
 			this.C1Elastic2.TabStop = false;
@@ -383,7 +383,7 @@ namespace Xtreme
 			this.C1Elastic1.Controls.Add(this.grdLanguageDetails);
 			this.C1Elastic1.Location = new System.Drawing.Point(1, 24);
 			this.C1Elastic1.Name = "C1Elastic1";
-			("C1Elastic1.OcxState");
+			//
 			this.C1Elastic1.Size = new System.Drawing.Size(617, 214);
 			this.C1Elastic1.TabIndex = 27;
 			this.C1Elastic1.TabStop = false;

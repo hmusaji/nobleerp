@@ -792,7 +792,7 @@ namespace Xtreme
 			this.tabVoucherDetails.Controls.Add(this._fraCommon_0);
 			this.tabVoucherDetails.Location = new System.Drawing.Point(6, 122);
 			this.tabVoucherDetails.Name = "tabVoucherDetails";
-			("tabVoucherDetails.OcxState");
+			//
 			this.tabVoucherDetails.Size = new System.Drawing.Size(747, 359);
 			this.tabVoucherDetails.TabIndex = 151;
 			//// this.tabVoucherDetails.ClickEvent += new System.EventHandler(this.tabVoucherDetails_ClickEvent);

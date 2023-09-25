@@ -92,7 +92,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.lblCostNo);
 			this.cntMainParameter.Location = new System.Drawing.Point(4, 44);
 			this.cntMainParameter.Name = "cntMainParameter";
-			("cntMainParameter.OcxState");
+			//
 			this.cntMainParameter.Size = new System.Drawing.Size(467, 145);
 			this.cntMainParameter.TabIndex = 4;
 			// 
@@ -202,7 +202,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(132, 10);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmGLCostCenterCategory
 			// 

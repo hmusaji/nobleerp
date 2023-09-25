@@ -214,7 +214,7 @@ namespace Xtreme
 			this.tabResume.Controls.Add(this.Frame1);
 			this.tabResume.Location = new System.Drawing.Point(3, 273);
 			this.tabResume.Name = "tabResume";
-			("tabResume.OcxState");
+			//
 			this.tabResume.Size = new System.Drawing.Size(616, 133);
 			this.tabResume.TabIndex = 42;
 			// 

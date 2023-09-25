@@ -180,7 +180,7 @@ namespace Xtreme
 			this.cntOuterFrame.Controls.Add(this.Line1);
 			this.cntOuterFrame.Location = new System.Drawing.Point(0, 0);
 			this.cntOuterFrame.Name = "cntOuterFrame";
-			("cntOuterFrame.OcxState");
+			//
 			this.cntOuterFrame.Size = new System.Drawing.Size(651, 343);
 			this.cntOuterFrame.TabIndex = 12;
 			this.cntOuterFrame.TabStop = false;
@@ -194,7 +194,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this._fraMasterInformation_0);
 			this.tabMaster.Location = new System.Drawing.Point(6, 94);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(634, 233);
 			this.tabMaster.TabIndex = 13;
 			this.tabMaster.TabStop = false;

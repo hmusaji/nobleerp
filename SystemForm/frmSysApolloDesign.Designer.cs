@@ -74,7 +74,7 @@ namespace Xtreme
 			this.tcbSystemReport.AllowDrop = true;
 			this.tcbSystemReport.Location = new System.Drawing.Point(16, 56);
 			this.tcbSystemReport.Name = "tcbSystemReport";
-			("tcbSystemReport.OcxState");
+			//
 			this.tcbSystemReport.Execute += new AxXtremeCommandBars._DCommandBarsEvents_ExecuteEventHandler(this.tcbSystemReport_Execute);
 			// 
 			// frmSysApolloDesign

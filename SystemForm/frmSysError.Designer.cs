@@ -321,7 +321,7 @@ namespace Xtreme
 			this.Shortcu.Text1.AllowDrop = true;
 			this.Shortcu.Text1.Location = new System.Drawing.Point(0, 0);
 			this.Shortcu.Text1.Name = "ShortcutCaption1";
-			("ShortcutCaption1.OcxState");
+			//
 			this.Shortcu.Text1.Size = new System.Drawing.Size(367, 135);
 			this.Shortcu.Text1.TabIndex = 13;
 			// 

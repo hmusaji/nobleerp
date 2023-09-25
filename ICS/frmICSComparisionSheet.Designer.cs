@@ -268,7 +268,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(274, 6);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmICSComparisionSheet
 			// 

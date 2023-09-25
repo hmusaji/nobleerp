@@ -189,7 +189,7 @@ namespace Xtreme
 			this.cntOuterFrame.Controls.Add(this.Line1);
 			this.cntOuterFrame.Location = new System.Drawing.Point(0, 38);
 			this.cntOuterFrame.Name = "cntOuterFrame";
-			("cntOuterFrame.OcxState");
+			//
 			this.cntOuterFrame.Size = new System.Drawing.Size(800, 555);
 			this.cntOuterFrame.TabIndex = 25;
 			this.cntOuterFrame.TabStop = false;
@@ -203,7 +203,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this._fraMasterInformation_0);
 			this.tabMaster.Location = new System.Drawing.Point(4, 94);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(598, 261);
 			this.tabMaster.TabIndex = 26;
 			this.tabMaster.TabStop = false;
@@ -918,7 +918,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(206, 7);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmSysCompany
 			// 

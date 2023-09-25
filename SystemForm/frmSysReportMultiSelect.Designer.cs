@@ -363,7 +363,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// fraOuterShadow
 			// 
@@ -385,7 +385,7 @@ namespace Xtreme
 			this.mnuColors.AllowDrop = true;
 			this.mnuColors.Location = new System.Drawing.Point(448, 264);
 			this.mnuColors.Name = "mnuColors";
-			("mnuColors.OcxState");
+			//
 			// 
 			// frmSysReportMultiSelect
 			// 

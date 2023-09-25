@@ -95,7 +95,7 @@ namespace Xtreme
 			this.cntMasterDetails.Controls.Add(this._lblCommon_1);
 			this.cntMasterDetails.Location = new System.Drawing.Point(4, 6);
 			this.cntMasterDetails.Name = "cntMasterDetails";
-			("cntMasterDetails.OcxState");
+			//
 			this.cntMasterDetails.Size = new System.Drawing.Size(686, 396);
 			this.cntMasterDetails.TabIndex = 0;
 			// 

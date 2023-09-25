@@ -105,7 +105,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(24, 172);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(109, 19);
 			this.txtTempDate.TabIndex = 8;
 			this.txtTempDate.Visible = false;
@@ -155,7 +155,7 @@ namespace Xtreme
 			this.cntMasterDetails.Controls.Add(this.grdVoucherDetails);
 			this.cntMasterDetails.Location = new System.Drawing.Point(2, 148);
 			this.cntMasterDetails.Name = "cntMasterDetails";
-			("cntMasterDetails.OcxState");
+			//
 			this.cntMasterDetails.Size = new System.Drawing.Size(753, 268);
 			this.cntMasterDetails.TabIndex = 5;
 			// 
@@ -276,7 +276,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// Line1
 			// 

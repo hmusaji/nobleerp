@@ -255,7 +255,7 @@ namespace Xtreme
 			this.tbleave.Controls.Add(this.TabControlPage1);
 			this.tbleave.Location = new System.Drawing.Point(6, 146);
 			this.tbleave.Name = "tbleave";
-			("tbleave.OcxState");
+			//
 			this.tbleave.Size = new System.Drawing.Size(635, 315);
 			this.tbleave.TabIndex = 21;
 			this.tbleave.TabStop = false;
@@ -269,7 +269,7 @@ namespace Xtreme
 			this.TabControlPage3.Controls.Add(this._lblCommonLabel_28);
 			this.TabControlPage3.Location = new System.Drawing.Point(-4664, 30);
 			this.TabControlPage3.Name = "TabControlPage3";
-			("TabControlPage3.OcxState");
+			//
 			this.TabControlPage3.Size = new System.Drawing.Size(631, 301);
 			this.TabControlPage3.TabIndex = 22;
 			this.TabControlPage3.Visible = false;
@@ -349,7 +349,7 @@ namespace Xtreme
 			this.TabControlPage2.Controls.Add(this.Shape1);
 			this.TabControlPage2.Location = new System.Drawing.Point(-4664, 30);
 			this.TabControlPage2.Name = "TabControlPage2";
-			("TabControlPage2.OcxState");
+			//
 			this.TabControlPage2.Size = new System.Drawing.Size(631, 301);
 			this.TabControlPage2.TabIndex = 27;
 			this.TabControlPage2.Visible = false;
@@ -630,7 +630,7 @@ namespace Xtreme
 			this.TabControlPage1.Controls.Add(this._txtDisplayLabel_12);
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 30);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(631, 283);
 			this.TabControlPage1.TabIndex = 44;
 			// 

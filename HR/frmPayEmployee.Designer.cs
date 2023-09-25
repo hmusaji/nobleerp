@@ -560,7 +560,7 @@ namespace Xtreme
 			this.tabEmployee.Controls.Add(this._fraEmployeeInformation_0);
 			this.tabEmployee.Location = new System.Drawing.Point(6, 198);
 			this.tabEmployee.Name = "tabEmployee";
-			("tabEmployee.OcxState");
+			//
 			this.tabEmployee.Size = new System.Drawing.Size(867, 383);
 			this.tabEmployee.TabIndex = 29;
 			this.tabEmployee.TabStop = false;
@@ -571,7 +571,7 @@ namespace Xtreme
 			this.TabControlPage4.Controls.Add(this._fraEmployeeInformation_1);
 			this.TabControlPage4.Location = new System.Drawing.Point(-4664, 28);
 			this.TabControlPage4.Name = "TabControlPage4";
-			("TabControlPage4.OcxState");
+			//
 			this.TabControlPage4.Size = new System.Drawing.Size(863, 353);
 			this.TabControlPage4.TabIndex = 30;
 			this.TabControlPage4.Visible = false;
@@ -641,7 +641,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_1.Controls.Add(this.Shape2);
 			this._fraEmployeeInformation_1.Location = new System.Drawing.Point(2, 0);
 			this._fraEmployeeInformation_1.Name = "_fraEmployeeInformation_1";
-			("_fraEmployeeInformation_1.OcxState");
+			//
 			this._fraEmployeeInformation_1.Size = new System.Drawing.Size(793, 315);
 			this._fraEmployeeInformation_1.TabIndex = 31;
 			// 
@@ -1432,7 +1432,7 @@ namespace Xtreme
 			this.TabControlPage3.Controls.Add(this._fraEmployeeInformation_2);
 			this.TabControlPage3.Location = new System.Drawing.Point(-4664, 28);
 			this.TabControlPage3.Name = "TabControlPage3";
-			("TabControlPage3.OcxState");
+			//
 			this.TabControlPage3.Size = new System.Drawing.Size(863, 353);
 			this.TabControlPage3.TabIndex = 89;
 			this.TabControlPage3.Visible = false;
@@ -1484,7 +1484,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_2.Controls.Add(this._txtCommonTextBox_64);
 			this._fraEmployeeInformation_2.Location = new System.Drawing.Point(0, 0);
 			this._fraEmployeeInformation_2.Name = "_fraEmployeeInformation_2";
-			("_fraEmployeeInformation_2.OcxState");
+			//
 			this._fraEmployeeInformation_2.Size = new System.Drawing.Size(793, 315);
 			this._fraEmployeeInformation_2.TabIndex = 90;
 			// 
@@ -2211,7 +2211,7 @@ namespace Xtreme
 			this.TabControlPage2.Controls.Add(this._fraEmployeeInformation_3);
 			this.TabControlPage2.Location = new System.Drawing.Point(-4664, 28);
 			this.TabControlPage2.Name = "TabControlPage2";
-			("TabControlPage2.OcxState");
+			//
 			this.TabControlPage2.Size = new System.Drawing.Size(863, 353);
 			this.TabControlPage2.TabIndex = 144;
 			this.TabControlPage2.Visible = false;
@@ -2233,7 +2233,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_3.Controls.Add(this._txtDisplayLabel_13);
 			this._fraEmployeeInformation_3.Location = new System.Drawing.Point(0, 0);
 			this._fraEmployeeInformation_3.Name = "_fraEmployeeInformation_3";
-			("_fraEmployeeInformation_3.OcxState");
+			//
 			this._fraEmployeeInformation_3.Size = new System.Drawing.Size(793, 315);
 			this._fraEmployeeInformation_3.TabIndex = 145;
 			// 
@@ -2391,7 +2391,7 @@ namespace Xtreme
 			this.TabControlPage1.Controls.Add(this._fraEmployeeInformation_4);
 			this.TabControlPage1.Location = new System.Drawing.Point(-4664, 28);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(863, 353);
 			this.TabControlPage1.TabIndex = 158;
 			this.TabControlPage1.Visible = false;
@@ -2404,7 +2404,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_4.Controls.Add(this._txtDisplayLabel_18);
 			this._fraEmployeeInformation_4.Location = new System.Drawing.Point(0, 0);
 			this._fraEmployeeInformation_4.Name = "_fraEmployeeInformation_4";
-			("_fraEmployeeInformation_4.OcxState");
+			//
 			this._fraEmployeeInformation_4.Size = new System.Drawing.Size(793, 315);
 			this._fraEmployeeInformation_4.TabIndex = 159;
 			// 
@@ -2511,7 +2511,7 @@ namespace Xtreme
 			this._fraEmployeeInformation_0.Controls.Add(this.lblNoticePeriod);
 			this._fraEmployeeInformation_0.Location = new System.Drawing.Point(2, 28);
 			this._fraEmployeeInformation_0.Name = "_fraEmployeeInformation_0";
-			("_fraEmployeeInformation_0.OcxState");
+			//
 			this._fraEmployeeInformation_0.Size = new System.Drawing.Size(863, 353);
 			this._fraEmployeeInformation_0.TabIndex = 163;
 			// 

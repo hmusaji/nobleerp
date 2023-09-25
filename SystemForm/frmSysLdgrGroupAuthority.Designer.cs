@@ -87,7 +87,7 @@ namespace Xtreme
 			this.cntOuterFrame.Controls.Add(this.Line1);
 			this.cntOuterFrame.Location = new System.Drawing.Point(0, 38);
 			this.cntOuterFrame.Name = "cntOuterFrame";
-			("cntOuterFrame.OcxState");
+			//
 			this.cntOuterFrame.Size = new System.Drawing.Size(607, 493);
 			this.cntOuterFrame.TabIndex = 0;
 			this.cntOuterFrame.TabStop = false;
@@ -227,7 +227,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmSysLdgrGroupAuthority
 			// 

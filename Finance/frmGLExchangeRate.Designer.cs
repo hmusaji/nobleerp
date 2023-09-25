@@ -101,7 +101,7 @@ namespace Xtreme
 			this.fraMainInformation.Controls.Add(this.Label1);
 			this.fraMainInformation.Location = new System.Drawing.Point(2, 42);
 			this.fraMainInformation.Name = "fraMainInformation";
-			("fraMainInformation.OcxState");
+			//
 			this.fraMainInformation.Size = new System.Drawing.Size(393, 140);
 			this.fraMainInformation.TabIndex = 6;
 			// 
@@ -237,7 +237,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(116, 4);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmGLExchangeRate
 			// 

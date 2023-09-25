@@ -183,7 +183,7 @@ namespace Xtreme
 			this.txtIssueDate.AllowDrop = true;
 			this.txtIssueDate.Location = new System.Drawing.Point(573, 183);
 			this.txtIssueDate.Name = "txtIssueDate";
-			("txtIssueDate.OcxState");
+			//
 			this.txtIssueDate.Size = new System.Drawing.Size(109, 19);
 			this.txtIssueDate.TabIndex = 6;
 			this.txtIssueDate.Visible = false;
@@ -193,7 +193,7 @@ namespace Xtreme
 			this.txtExpireDate.AllowDrop = true;
 			this.txtExpireDate.Location = new System.Drawing.Point(573, 156);
 			this.txtExpireDate.Name = "txtExpireDate";
-			("txtExpireDate.OcxState");
+			//
 			this.txtExpireDate.Size = new System.Drawing.Size(109, 19);
 			this.txtExpireDate.TabIndex = 7;
 			this.txtExpireDate.Visible = false;

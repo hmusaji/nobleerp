@@ -203,7 +203,7 @@ namespace Xtreme
 			this.GroupBox1.Controls.Add(this.Label1_0);
 			this.GroupBox1.Location = new System.Drawing.Point(8, 30);
 			this.GroupBox1.Name = "GroupBox1";
-			("GroupBox1.OcxState");
+			//
 			this.GroupBox1.Size = new System.Drawing.Size(227, 129);
 			this.GroupBox1.TabIndex = 30;
 			// 
@@ -335,7 +335,7 @@ namespace Xtreme
 			this.C1Tab1.Controls.Add(this.Frame1);
 			this.C1Tab1.Location = new System.Drawing.Point(8, 166);
 			this.C1Tab1.Name = "C1Tab1";
-			("C1Tab1.OcxState");
+			//
 			this.C1Tab1.Size = new System.Drawing.Size(551, 339);
 			this.C1Tab1.TabIndex = 16;
 			this.C1Tab1.TabStop = false;
@@ -387,7 +387,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(14, 2);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(109, 19);
 			this.txtTempDate.TabIndex = 18;
 			this.txtTempDate.TabStop = false;
@@ -433,7 +433,7 @@ namespace Xtreme
 			this.GroupBox2.Controls.Add(this.Label1_3);
 			this.GroupBox2.Location = new System.Drawing.Point(240, 30);
 			this.GroupBox2.Name = "GroupBox2";
-			("GroupBox2.OcxState");
+			//
 			this.GroupBox2.Size = new System.Drawing.Size(319, 129);
 			this.GroupBox2.TabIndex = 23;
 			// 

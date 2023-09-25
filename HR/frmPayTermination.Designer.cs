@@ -281,7 +281,7 @@ namespace Xtreme
 			this.tabTermination.Controls.Add(this.frmTermination);
 			this.tabTermination.Location = new System.Drawing.Point(3, 221);
 			this.tabTermination.Name = "tabTermination";
-			("tabTermination.OcxState");
+			//
 			this.tabTermination.Size = new System.Drawing.Size(613, 283);
 			this.tabTermination.TabIndex = 8;
 			// 

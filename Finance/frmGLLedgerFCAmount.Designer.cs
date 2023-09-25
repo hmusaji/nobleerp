@@ -80,7 +80,7 @@ namespace Xtreme
 			this.fraLedgerAmountDetails.Controls.Add(this.txtExchangeRate);
 			this.fraLedgerAmountDetails.Location = new System.Drawing.Point(2, 0);
 			this.fraLedgerAmountDetails.Name = "fraLedgerAmountDetails";
-			("fraLedgerAmountDetails.OcxState");
+			//
 			this.fraLedgerAmountDetails.Size = new System.Drawing.Size(230, 128);
 			this.fraLedgerAmountDetails.TabIndex = 4;
 			// 
@@ -119,7 +119,7 @@ namespace Xtreme
 			this._cmdOkCancel_1.AllowDrop = true;
 			this._cmdOkCancel_1.Location = new System.Drawing.Point(69, 0);
 			this._cmdOkCancel_1.Name = "_cmdOkCancel_1";
-			("_cmdOkCancel_1.OcxState");
+			//
 			this._cmdOkCancel_1.Size = new System.Drawing.Size(67, 24);
 			this._cmdOkCancel_1.TabIndex = 3;
 			this._cmdOkCancel_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdOkCancel_AccessKeyPress);
@@ -131,7 +131,7 @@ namespace Xtreme
 			this._cmdOkCancel_0.AllowDrop = true;
 			this._cmdOkCancel_0.Location = new System.Drawing.Point(0, 0);
 			this._cmdOkCancel_0.Name = "_cmdOkCancel_0";
-			("_cmdOkCancel_0.OcxState");
+			//
 			this._cmdOkCancel_0.Size = new System.Drawing.Size(67, 24);
 			this._cmdOkCancel_0.TabIndex = 2;
 			this._cmdOkCancel_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdOkCancel_AccessKeyPress);

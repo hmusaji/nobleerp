@@ -133,7 +133,7 @@ namespace Xtreme
 			this.TabControl1.Controls.Add(this.TabControlPage1);
 			this.TabControl1.Location = new System.Drawing.Point(8, 182);
 			this.TabControl1.Name = "TabControl1";
-			("TabControl1.OcxState");
+			//
 			this.TabControl1.Size = new System.Drawing.Size(765, 239);
 			this.TabControl1.TabIndex = 10;
 			// 
@@ -142,7 +142,7 @@ namespace Xtreme
 			this.TabControlPage2.AllowDrop = true;
 			this.TabControlPage2.Location = new System.Drawing.Point(-4664, 28);
 			this.TabControlPage2.Name = "TabControlPage2";
-			("TabControlPage2.OcxState");
+			//
 			this.TabControlPage2.Size = new System.Drawing.Size(761, 251);
 			this.TabControlPage2.TabIndex = 12;
 			this.TabControlPage2.Visible = false;
@@ -169,7 +169,7 @@ namespace Xtreme
 			this.TabControlPage1.Controls.Add(this._txtCommonDisplay_5);
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 28);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(761, 209);
 			this.TabControlPage1.TabIndex = 11;
 			// 

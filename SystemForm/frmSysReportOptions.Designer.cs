@@ -321,7 +321,7 @@ namespace Xtreme
 			this.tabReportOptions.Controls.Add(this.tabFields);
 			this.tabReportOptions.Location = new System.Drawing.Point(8, 150);
 			this.tabReportOptions.Name = "tabReportOptions";
-			("tabReportOptions.OcxState");
+			//
 			this.tabReportOptions.Size = new System.Drawing.Size(455, 261);
 			this.tabReportOptions.TabIndex = 2;
 			this.tabReportOptions.SelectedChanged += new AxXtremeSuiteControls._DTabControlEvents_SelectedChangedEventHandler(this.tabReportOptions_SelectedChanged);
@@ -336,7 +336,7 @@ namespace Xtreme
 			this.TabControlPage1.Controls.Add(this.rtbFooter);
 			this.TabControlPage1.Location = new System.Drawing.Point(-4664, 26);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(451, 233);
 			this.TabControlPage1.TabIndex = 28;
 			this.TabControlPage1.Visible = false;
@@ -423,7 +423,7 @@ namespace Xtreme
 			this.tabFormat.Controls.Add(this.cmbFormatList);
 			this.tabFormat.Location = new System.Drawing.Point(-4664, 26);
 			this.tabFormat.Name = "tabFormat";
-			("tabFormat.OcxState");
+			//
 			this.tabFormat.Size = new System.Drawing.Size(451, 233);
 			this.tabFormat.TabIndex = 5;
 			this.tabFormat.Visible = false;
@@ -487,7 +487,7 @@ namespace Xtreme
 			this.tabFilters.Controls.Add(this.cmbFilterList);
 			this.tabFilters.Location = new System.Drawing.Point(-4664, 26);
 			this.tabFilters.Name = "tabFilters";
-			("tabFilters.OcxState");
+			//
 			this.tabFilters.Size = new System.Drawing.Size(451, 233);
 			this.tabFilters.TabIndex = 4;
 			this.tabFilters.Visible = false;
@@ -611,7 +611,7 @@ namespace Xtreme
 			this.tabFields.Controls.Add(this.UpDown);
 			this.tabFields.Location = new System.Drawing.Point(2, 26);
 			this.tabFields.Name = "tabFields";
-			("tabFields.OcxState");
+			//
 			this.tabFields.Size = new System.Drawing.Size(451, 233);
 			this.tabFields.TabIndex = 3;
 			// 
@@ -712,7 +712,7 @@ namespace Xtreme
 			this.UpDown.AllowDrop = true;
 			this.UpDown.Location = new System.Drawing.Point(422, 84);
 			this.UpDown.Name = "UpDown";
-			("UpDown.OcxState");
+			//
 			this.UpDown.Size = new System.Drawing.Size(26, 49);
 			this.UpDown.TabIndex = 20;
 			this.UpDown.TabStop = false;
@@ -745,7 +745,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(360, 76);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(79, 21);
 			this.txtTempDate.TabIndex = 11;
 			this.txtTempDate.Visible = false;
@@ -766,7 +766,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmSysReportOptions
 			// 

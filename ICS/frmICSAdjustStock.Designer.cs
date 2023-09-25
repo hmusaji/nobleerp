@@ -117,7 +117,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this.txtVoucherName);
 			this.cntMainParameter.Location = new System.Drawing.Point(18, 15);
 			this.cntMainParameter.Name = "cntMainParameter";
-			("cntMainParameter.OcxState");
+			//
 			this.cntMainParameter.Size = new System.Drawing.Size(561, 165);
 			this.cntMainParameter.TabIndex = 5;
 			// 

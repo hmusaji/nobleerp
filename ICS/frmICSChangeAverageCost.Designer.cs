@@ -136,7 +136,7 @@ namespace Xtreme
 			this.cmdPostMode.AllowDrop = true;
 			this.cmdPostMode.Location = new System.Drawing.Point(0, 0);
 			this.cmdPostMode.Name = "cmdPostMode";
-			("cmdPostMode.OcxState");
+			//
 			this.cmdPostMode.Size = new System.Drawing.Size(134, 29);
 			this.cmdPostMode.TabIndex = 3;
 			this.cmdPostMode.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdPostMode_AccessKeyPress);

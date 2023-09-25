@@ -514,7 +514,7 @@ namespace Xtreme
 			this.tabEmployee.Controls.Add(this._fraEmployeeInformation_4);
 			this.tabEmployee.Location = new System.Drawing.Point(2, 205);
 			this.tabEmployee.Name = "tabEmployee";
-			("tabEmployee.OcxState");
+			//
 			this.tabEmployee.Size = new System.Drawing.Size(854, 319);
 			this.tabEmployee.TabIndex = 0;
 			// 

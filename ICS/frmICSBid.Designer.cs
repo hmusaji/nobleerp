@@ -146,7 +146,7 @@ namespace Xtreme
 			this.fraDetailsInfo.Controls.Add(this.Label6);
 			this.fraDetailsInfo.Location = new System.Drawing.Point(2, 94);
 			this.fraDetailsInfo.Name = "fraDetailsInfo";
-			("fraDetailsInfo.OcxState");
+			//
 			this.fraDetailsInfo.Size = new System.Drawing.Size(475, 135);
 			this.fraDetailsInfo.TabIndex = 11;
 			// 
@@ -447,7 +447,7 @@ namespace Xtreme
 			this.tcbSystemForm.AllowDrop = true;
 			this.tcbSystemForm.Location = new System.Drawing.Point(52, 0);
 			this.tcbSystemForm.Name = "tcbSystemForm";
-			("tcbSystemForm.OcxState");
+			//
 			// 
 			// frmICSBid
 			// 

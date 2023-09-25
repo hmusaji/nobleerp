@@ -829,7 +829,7 @@ namespace Xtreme
 			this.tabMain.Controls.Add(this.tabGeneral);
 			this.tabMain.Location = new System.Drawing.Point(2, 2);
 			this.tabMain.Name = "tabMain";
-			("tabMain.OcxState");
+			//
 			this.tabMain.Size = new System.Drawing.Size(1203, 501);
 			this.tabMain.TabIndex = 16;
 			this.tabMain.TabStop = false;
@@ -841,7 +841,7 @@ namespace Xtreme
 			this.tabOtherInfo.Controls.Add(this.Frame1);
 			this.tabOtherInfo.Location = new System.Drawing.Point(-4664, 26);
 			this.tabOtherInfo.Name = "tabOtherInfo";
-			("tabOtherInfo.OcxState");
+			//
 			this.tabOtherInfo.Size = new System.Drawing.Size(1199, 473);
 			this.tabOtherInfo.TabIndex = 73;
 			this.tabOtherInfo.Visible = false;
@@ -883,7 +883,7 @@ namespace Xtreme
 			this.tabAdditionalInfo.Controls.Add(this.fraContactDetail);
 			this.tabAdditionalInfo.Location = new System.Drawing.Point(-4664, 26);
 			this.tabAdditionalInfo.Name = "tabAdditionalInfo";
-			("tabAdditionalInfo.OcxState");
+			//
 			this.tabAdditionalInfo.Size = new System.Drawing.Size(1199, 473);
 			this.tabAdditionalInfo.TabIndex = 72;
 			this.tabAdditionalInfo.Visible = false;
@@ -1717,7 +1717,7 @@ namespace Xtreme
 			this.tabGeneral.Controls.Add(this.fraTransactionHeader);
 			this.tabGeneral.Location = new System.Drawing.Point(4, 26);
 			this.tabGeneral.Name = "tabGeneral";
-			("tabGeneral.OcxState");
+			//
 			this.tabGeneral.Size = new System.Drawing.Size(1199, 473);
 			this.tabGeneral.TabIndex = 71;
 			// 
@@ -1729,7 +1729,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this.fraMasterInformation);
 			this.tabMaster.Location = new System.Drawing.Point(0, 216);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(841, 255);
 			this.tabMaster.TabIndex = 147;
 			// 
@@ -1739,7 +1739,7 @@ namespace Xtreme
 			this._TabControlPage3_2.Controls.Add(this.grdSupplierDetails);
 			this._TabControlPage3_2.Location = new System.Drawing.Point(-4664, 22);
 			this._TabControlPage3_2.Name = "_TabControlPage3_2";
-			("_TabControlPage3_2.OcxState");
+			//
 			this._TabControlPage3_2.Size = new System.Drawing.Size(837, 231);
 			this._TabControlPage3_2.TabIndex = 148;
 			this._TabControlPage3_2.Visible = false;
@@ -1769,7 +1769,7 @@ namespace Xtreme
 			this._TabControlPage2_1.Controls.Add(this.grdImportVoucherDetails);
 			this._TabControlPage2_1.Location = new System.Drawing.Point(-4664, 26);
 			this._TabControlPage2_1.Name = "_TabControlPage2_1";
-			("_TabControlPage2_1.OcxState");
+			//
 			this._TabControlPage2_1.Size = new System.Drawing.Size(837, 227);
 			this._TabControlPage2_1.TabIndex = 150;
 			this._TabControlPage2_1.Visible = false;
@@ -1838,7 +1838,7 @@ namespace Xtreme
 			this.fraMasterInformation.Controls.Add(this.grdVoucherDetails);
 			this.fraMasterInformation.Location = new System.Drawing.Point(2, 26);
 			this.fraMasterInformation.Name = "fraMasterInformation";
-			("fraMasterInformation.OcxState");
+			//
 			this.fraMasterInformation.Size = new System.Drawing.Size(837, 227);
 			this.fraMasterInformation.TabIndex = 154;
 			// 
@@ -1889,7 +1889,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(0, 0);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(109, 19);
 			this.txtTempDate.TabIndex = 157;
 			this.txtTempDate.Visible = false;
@@ -1981,7 +1981,7 @@ namespace Xtreme
 			this.cmdAddtionalDetails.AllowDrop = true;
 			this.cmdAddtionalDetails.Location = new System.Drawing.Point(520, 130);
 			this.cmdAddtionalDetails.Name = "cmdAddtionalDetails";
-			("cmdAddtionalDetails.OcxState");
+			//
 			this.cmdAddtionalDetails.Size = new System.Drawing.Size(25, 23);
 			this.cmdAddtionalDetails.TabIndex = 21;
 			this.cmdAddtionalDetails.TabStop = false;
@@ -2987,7 +2987,7 @@ namespace Xtreme
 			this.CommandBars.AllowDrop = true;
 			this.CommandBars.Location = new System.Drawing.Point(0, 554);
 			this.CommandBars.Name = "CommandBars";
-			("CommandBars.OcxState");
+			//
 			// 
 			// frmICSTransactionMaster
 			// 

@@ -188,7 +188,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this._fraMasterInformation_1);
 			this.tabMaster.Location = new System.Drawing.Point(8, 10);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(478, 436);
 			this.tabMaster.TabIndex = 0;
 			this.tabMaster.TabStop = false;

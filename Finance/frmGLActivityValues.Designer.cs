@@ -115,7 +115,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this.tabFGeneral);
 			this.tabMaster.Location = new System.Drawing.Point(6, 128);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(869, 239);
 			this.tabMaster.TabIndex = 0;
 			// 
@@ -125,7 +125,7 @@ namespace Xtreme
 			this.tabFGeneral.Controls.Add(this.grdVoucherDetails);
 			this.tabFGeneral.Location = new System.Drawing.Point(2, 28);
 			this.tabFGeneral.Name = "tabFGeneral";
-			("tabFGeneral.OcxState");
+			//
 			this.tabFGeneral.Size = new System.Drawing.Size(865, 209);
 			this.tabFGeneral.TabIndex = 1;
 			// 

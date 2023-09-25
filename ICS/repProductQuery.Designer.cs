@@ -243,7 +243,7 @@ namespace Xtreme
 			this.tabLocation.Controls.Add(this.tabSummary);
 			this.tabLocation.Location = new System.Drawing.Point(0, 238);
 			this.tabLocation.Name = "tabLocation";
-			("tabLocation.OcxState");
+			//
 			this.tabLocation.Size = new System.Drawing.Size(859, 269);
 			this.tabLocation.TabIndex = 36;
 			// 
@@ -253,7 +253,7 @@ namespace Xtreme
 			this.tabTransactions.Controls.Add(this.Frame2);
 			this.tabTransactions.Location = new System.Drawing.Point(-4664, 28);
 			this.tabTransactions.Name = "tabTransactions";
-			("tabTransactions.OcxState");
+			//
 			this.tabTransactions.Size = new System.Drawing.Size(855, 239);
 			this.tabTransactions.TabIndex = 42;
 			this.tabTransactions.Visible = false;
@@ -647,7 +647,7 @@ namespace Xtreme
 			this.tabDetails.Controls.Add(this._lblCommon_22);
 			this.tabDetails.Location = new System.Drawing.Point(2, 28);
 			this.tabDetails.Name = "tabDetails";
-			("tabDetails.OcxState");
+			//
 			this.tabDetails.Size = new System.Drawing.Size(855, 239);
 			this.tabDetails.TabIndex = 38;
 			// 
@@ -694,7 +694,7 @@ namespace Xtreme
 			this.tabSummary.Controls.Add(this.ChartControl);
 			this.tabSummary.Location = new System.Drawing.Point(-4664, 28);
 			this.tabSummary.Name = "tabSummary";
-			("tabSummary.OcxState");
+			//
 			this.tabSummary.Size = new System.Drawing.Size(855, 239);
 			this.tabSummary.TabIndex = 37;
 			this.tabSummary.Visible = false;
@@ -704,7 +704,7 @@ namespace Xtreme
 			this.ChartControl.AllowDrop = true;
 			this.ChartControl.Location = new System.Drawing.Point(0, 0);
 			this.ChartControl.Name = "ChartControl";
-			("ChartControl.OcxState");
+			//
 			this.ChartControl.Size = new System.Drawing.Size(855, 243);
 			this.ChartControl.TabIndex = 39;
 			this.ChartControl.MouseDownEvent += new AxXtremeChartControl._DChartControlEvents_MouseDownEventHandler(this.ChartControl_MouseDownEvent);

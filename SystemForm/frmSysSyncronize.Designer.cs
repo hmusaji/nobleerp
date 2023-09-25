@@ -41,7 +41,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtImportPath;
 		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label lblImportStatus;
-		public AxXtremeSuiteControls.AxProgressBar ImportProgress;
+		public Syncfusion.Windows.Forms.Tools.ProgressBarAdv ImportProgress;
 		public System.Windows.Forms.GroupBox frmImport2;
 		public System.Windows.Forms.Button cmdImport;
 		public System.Windows.Forms.Label txtImportDisplayLocation;
@@ -60,7 +60,7 @@ namespace Xtreme
 		public System.Windows.Forms.TextBox txtExportPath;
 		public System.Windows.Forms.Label lblPath;
 		public System.Windows.Forms.Label lblExportStatus;
-		public AxXtremeSuiteControls.AxProgressBar ExportProgress;
+		public Syncfusion.Windows.Forms.Tools.ProgressBarAdv ExportProgress;
 		public System.Windows.Forms.GroupBox Frame1;
 		public System.Windows.Forms.Label txtExportDisplayLocation;
 		private System.Windows.Forms.Label Label_0;
@@ -91,7 +91,7 @@ namespace Xtreme
 			this.txtImportPath = new System.Windows.Forms.TextBox();
 			this.Label2 = new System.Windows.Forms.Label();
 			this.lblImportStatus = new System.Windows.Forms.Label();
-			this.ImportProgress = new AxXtremeSuiteControls.AxProgressBar();
+			this.ImportProgress = new Syncfusion.Windows.Forms.Tools.ProgressBarAdv();
 			this.cmdImport = new System.Windows.Forms.Button();
 			this.frmImport1 = new System.Windows.Forms.GroupBox();
 			this.txtImportDisplayLocation = new System.Windows.Forms.Label();
@@ -110,7 +110,7 @@ namespace Xtreme
 			this.txtExportPath = new System.Windows.Forms.TextBox();
 			this.lblPath = new System.Windows.Forms.Label();
 			this.lblExportStatus = new System.Windows.Forms.Label();
-			this.ExportProgress = new AxXtremeSuiteControls.AxProgressBar();
+			this.ExportProgress = new Syncfusion.Windows.Forms.Tools.ProgressBarAdv();
 			this.Frame = new System.Windows.Forms.GroupBox();
 			this.txtExportDisplayLocation = new System.Windows.Forms.Label();
 			this.Label_0 = new System.Windows.Forms.Label();
@@ -144,7 +144,7 @@ namespace Xtreme
 			this.tbTabControl.Controls.Add(this.TabControlPage1);
 			this.tbTabControl.Location = new System.Drawing.Point(-2, 0);
 			this.tbTabControl.Name = "tbTabControl";
-			("tbTabControl.OcxState");
+			//
 			this.tbTabControl.Size = new System.Drawing.Size(443, 249);
 			this.tbTabControl.TabIndex = 0;
 			// 
@@ -156,7 +156,7 @@ namespace Xtreme
 			this.tbExport.Controls.Add(this.frmImport1);
 			this.tbExport.Location = new System.Drawing.Point(-4664, 26);
 			this.tbExport.Name = "tbExport";
-			("tbExport.OcxState");
+			//
 			this.tbExport.Size = new System.Drawing.Size(439, 221);
 			this.tbExport.TabIndex = 3;
 			this.tbExport.Visible = false;
@@ -241,7 +241,7 @@ namespace Xtreme
 			this.ImportProgress.AllowDrop = true;
 			this.ImportProgress.Location = new System.Drawing.Point(6, 54);
 			this.ImportProgress.Name = "ImportProgress";
-			("ImportProgress.OcxState");
+			//
 			this.ImportProgress.Size = new System.Drawing.Size(397, 21);
 			this.ImportProgress.TabIndex = 34;
 			// 
@@ -386,7 +386,7 @@ namespace Xtreme
 			this.tbImport.Controls.Add(this.Frame);
 			this.tbImport.Location = new System.Drawing.Point(2, 26);
 			this.tbImport.Name = "tbImport";
-			("tbImport.OcxState");
+			//
 			this.tbImport.Size = new System.Drawing.Size(439, 221);
 			this.tbImport.TabIndex = 2;
 			// 
@@ -464,7 +464,7 @@ namespace Xtreme
 			this.ExportProgress.AllowDrop = true;
 			this.ExportProgress.Location = new System.Drawing.Point(4, 54);
 			this.ExportProgress.Name = "ExportProgress";
-			("ExportProgress.OcxState");
+			//
 			this.ExportProgress.Size = new System.Drawing.Size(397, 21);
 			this.ExportProgress.TabIndex = 32;
 			// 
@@ -591,7 +591,7 @@ namespace Xtreme
 			this.TabControlPage1.AllowDrop = true;
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 26);
 			this.TabControlPage1.Name = "TabControlPage1";
-			("TabControlPage1.OcxState");
+			//
 			this.TabControlPage1.Size = new System.Drawing.Size(439, 221);
 			this.TabControlPage1.TabIndex = 1;
 			// 

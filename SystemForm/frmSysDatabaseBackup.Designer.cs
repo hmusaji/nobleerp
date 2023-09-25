@@ -45,7 +45,7 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public AxXtremeSuiteControls.AxProgressBar ExportProgress;
+		public Syncfusion.Windows.Forms.Tools.ProgressBarAdv ExportProgress;
 		public System.Windows.Forms.GroupBox Frame4;
 		public System.Windows.Forms.TextBox txtExportPath;
 		public System.Windows.Forms.GroupBox Frame1;
@@ -69,7 +69,7 @@ namespace Xtreme
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
 			this.Frame3 = new System.Windows.Forms.Panel();
 			this.Frame4 = new System.Windows.Forms.GroupBox();
-			this.ExportProgress = new AxXtremeSuiteControls.AxProgressBar();
+			this.ExportProgress = new Syncfusion.Windows.Forms.Tools.ProgressBarAdv();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.txtExportPath = new System.Windows.Forms.TextBox();
 			this.Frame2 = new System.Windows.Forms.GroupBox();
@@ -125,7 +125,7 @@ namespace Xtreme
 			this.ExportProgress.AllowDrop = true;
 			this.ExportProgress.Location = new System.Drawing.Point(4, 16);
 			this.ExportProgress.Name = "ExportProgress";
-			("ExportProgress.OcxState");
+			//
 			this.ExportProgress.Size = new System.Drawing.Size(335, 21);
 			this.ExportProgress.TabIndex = 11;
 			// 

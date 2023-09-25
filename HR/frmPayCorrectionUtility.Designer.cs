@@ -231,7 +231,7 @@ namespace Xtreme
 			this.tabCorrectionUtility.Controls.Add(this.frmEmployee);
 			this.tabCorrectionUtility.Location = new System.Drawing.Point(4, 160);
 			this.tabCorrectionUtility.Name = "tabCorrectionUtility";
-			("tabCorrectionUtility.OcxState");
+			//
 			this.tabCorrectionUtility.Size = new System.Drawing.Size(737, 203);
 			this.tabCorrectionUtility.TabIndex = 5;
 			// 

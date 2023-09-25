@@ -123,7 +123,7 @@ namespace Xtreme
 			this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
-			("_btnFormToolBar_0.OcxState");
+			//
 			this._btnFormToolBar_0.Size = new System.Drawing.Size(55, 34);
 			this._btnFormToolBar_0.TabIndex = 2;
 			this._btnFormToolBar_0.TabStop = false;
@@ -135,7 +135,7 @@ namespace Xtreme
 			this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(63, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
-			("_btnFormToolBar_1.OcxState");
+			//
 			this._btnFormToolBar_1.Size = new System.Drawing.Size(55, 34);
 			this._btnFormToolBar_1.TabIndex = 3;
 			this._btnFormToolBar_1.TabStop = false;

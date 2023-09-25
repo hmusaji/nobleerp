@@ -241,7 +241,7 @@ namespace Xtreme
 			this.tabBillingType.Controls.Add(this._fraEmployeeInformation_2);
 			this.tabBillingType.Location = new System.Drawing.Point(4, 60);
 			this.tabBillingType.Name = "tabBillingType";
-			("tabBillingType.OcxState");
+			//
 			this.tabBillingType.Size = new System.Drawing.Size(477, 239);
 			this.tabBillingType.TabIndex = 0;
 			// 

@@ -282,7 +282,7 @@ namespace Xtreme
 			this.tabSalaryVariation.Controls.Add(this.Frame1);
 			this.tabSalaryVariation.Location = new System.Drawing.Point(3, 195);
 			this.tabSalaryVariation.Name = "tabSalaryVariation";
-			("tabSalaryVariation.OcxState");
+			//
 			this.tabSalaryVariation.Size = new System.Drawing.Size(811, 223);
 			this.tabSalaryVariation.TabIndex = 46;
 			// 
@@ -1069,7 +1069,7 @@ namespace Xtreme
 			this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(264, 63);
 			this.txtTempDate.Name = "txtTempDate";
-			("txtTempDate.OcxState");
+			//
 			this.txtTempDate.Size = new System.Drawing.Size(109, 19);
 			this.txtTempDate.TabIndex = 50;
 			this.txtTempDate.Visible = false;
@@ -1168,7 +1168,7 @@ namespace Xtreme
 			this.fraTabPage0.Controls.Add(this.txtEffectiveDate);
 			this.fraTabPage0.Location = new System.Drawing.Point(4, 42);
 			this.fraTabPage0.Name = "fraTabPage0";
-			("fraTabPage0.OcxState");
+			//
 			this.fraTabPage0.Size = new System.Drawing.Size(809, 145);
 			this.fraTabPage0.TabIndex = 23;
 			// 

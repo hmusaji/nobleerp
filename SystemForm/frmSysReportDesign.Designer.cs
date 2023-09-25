@@ -119,7 +119,7 @@ namespace Xtreme
 			this.pnlFormatOptions.AllowDrop = true;
 			this.pnlFormatOptions.Location = new System.Drawing.Point(0, 0);
 			this.pnlFormatOptions.Name = "pnlFormatOptions";
-			("pnlFormatOptions.OcxState");
+			//
 			this.pnlFormatOptions.Size = new System.Drawing.Size(77, 151);
 			this.pnlFormatOptions.TabIndex = 9;
 			// 
@@ -144,7 +144,7 @@ namespace Xtreme
 			this.pnlFields.AllowDrop = true;
 			this.pnlFields.Location = new System.Drawing.Point(0, 0);
 			this.pnlFields.Name = "pnlFields";
-			("pnlFields.OcxState");
+			//
 			this.pnlFields.Size = new System.Drawing.Size(133, 141);
 			this.pnlFields.TabIndex = 7;
 			// 
@@ -169,7 +169,7 @@ namespace Xtreme
 			this.pnlParameter.AllowDrop = true;
 			this.pnlParameter.Location = new System.Drawing.Point(0, 0);
 			this.pnlParameter.Name = "pnlParameter";
-			("pnlParameter.OcxState");
+			//
 			this.pnlParameter.Size = new System.Drawing.Size(87, 117);
 			this.pnlParameter.TabIndex = 8;
 			// 
@@ -195,7 +195,7 @@ namespace Xtreme
 			this.vspReportPrinter.AllowDrop = true;
 			this.vspReportPrinter.Location = new System.Drawing.Point(10, 96);
 			this.vspReportPrinter.Name = "vspReportPrinter";
-			("vspReportPrinter.OcxState");
+			//
 			this.vspReportPrinter.Size = new System.Drawing.Size(581, 121);
 			this.vspReportPrinter.TabIndex = 2;
 			this.vspReportPrinter.Visible = false;
@@ -346,7 +346,7 @@ namespace Xtreme
 			this.DockingPaneManager.AllowDrop = true;
 			this.DockingPaneManager.Location = new System.Drawing.Point(34, 420);
 			this.DockingPaneManager.Name = "DockingPaneManager";
-			("DockingPaneManager.OcxState");
+			//
 			// 
 			// frmSysReportDesign
 			// 

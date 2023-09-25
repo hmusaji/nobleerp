@@ -735,7 +735,7 @@ namespace Xtreme
 			this.CommandBars.AllowDrop = true;
 			this.CommandBars.Location = new System.Drawing.Point(600, 0);
 			this.CommandBars.Name = "CommandBars";
-			("CommandBars.OcxState");
+			//
 			// 
 			// fraTransactionHeader
 			// 

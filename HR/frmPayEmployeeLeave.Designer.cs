@@ -207,7 +207,7 @@ namespace Xtreme
 			this.cntMasterDetails.Controls.Add(this.grdVoucherDetails);
 			this.cntMasterDetails.Location = new System.Drawing.Point(6, 90);
 			this.cntMasterDetails.Name = "cntMasterDetails";
-			("cntMasterDetails.OcxState");
+			//
 			this.cntMasterDetails.Size = new System.Drawing.Size(677, 269);
 			this.cntMasterDetails.TabIndex = 12;
 			// 

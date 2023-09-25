@@ -105,7 +105,7 @@ namespace Xtreme
 			this.fraVoucherAdjustment.Controls.Add(this.Line1);
 			this.fraVoucherAdjustment.Location = new System.Drawing.Point(0, 0);
 			this.fraVoucherAdjustment.Name = "fraVoucherAdjustment";
-			("fraVoucherAdjustment.OcxState");
+			//
 			this.fraVoucherAdjustment.Size = new System.Drawing.Size(687, 245);
 			this.fraVoucherAdjustment.TabIndex = 2;
 			// 

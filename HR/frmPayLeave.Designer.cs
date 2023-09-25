@@ -688,7 +688,7 @@ namespace Xtreme
 			this.tabLeaveDetails.Controls.Add(this.frmLeaveEarnings);
 			this.tabLeaveDetails.Location = new System.Drawing.Point(8, 392);
 			this.tabLeaveDetails.Name = "tabLeaveDetails";
-			("tabLeaveDetails.OcxState");
+			//
 			this.tabLeaveDetails.Size = new System.Drawing.Size(481, 125);
 			this.tabLeaveDetails.TabIndex = 39;
 			// 
@@ -821,7 +821,7 @@ namespace Xtreme
 			this.frmLeaveEarnings.Controls.Add(this.grdLeaveEarningDetails);
 			this.frmLeaveEarnings.Location = new System.Drawing.Point(522, 23);
 			this.frmLeaveEarnings.Name = "frmLeaveEarnings";
-			("frmLeaveEarnings.OcxState");
+			//
 			this.frmLeaveEarnings.Size = new System.Drawing.Size(479, 101);
 			this.frmLeaveEarnings.TabIndex = 40;
 			this.frmLeaveEarnings.TabStop = false;

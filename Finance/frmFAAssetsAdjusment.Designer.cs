@@ -118,7 +118,7 @@ namespace Xtreme
 			this.cntMainParameter.Controls.Add(this._txtCommonDisplay_2);
 			this.cntMainParameter.Location = new System.Drawing.Point(6, 44);
 			this.cntMainParameter.Name = "cntMainParameter";
-			("cntMainParameter.OcxState");
+			//
 			this.cntMainParameter.Size = new System.Drawing.Size(490, 191);
 			this.cntMainParameter.TabIndex = 7;
 			// 

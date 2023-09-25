@@ -152,7 +152,7 @@ namespace Xtreme
 			this.frmFooter.Controls.Add(this.txtComments);
 			this.frmFooter.Location = new System.Drawing.Point(2, 448);
 			this.frmFooter.Name = "frmFooter";
-			("frmFooter.OcxState");
+			//
 			this.frmFooter.Size = new System.Drawing.Size(815, 65);
 			this.frmFooter.TabIndex = 27;
 			// 
@@ -606,7 +606,7 @@ namespace Xtreme
 			this.CommandBars.AllowDrop = true;
 			this.CommandBars.Location = new System.Drawing.Point(838, 16);
 			this.CommandBars.Name = "CommandBars";
-			("CommandBars.OcxState");
+			//
 			// 
 			// fraCashLedgerDetails
 			// 

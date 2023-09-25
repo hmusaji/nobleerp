@@ -59,7 +59,7 @@ namespace Xtreme
 			this.vsrReportPreviewer.AllowDrop = true;
 			this.vsrReportPreviewer.Location = new System.Drawing.Point(12, 6);
 			this.vsrReportPreviewer.Name = "vsrReportPreviewer";
-			("vsrReportPreviewer.OcxState");
+			//
 			this.vsrReportPreviewer.Size = new System.Drawing.Size(305, 95);
 			this.vsrReportPreviewer.TabIndex = 0;
 			// 
@@ -68,7 +68,7 @@ namespace Xtreme
 			this.vsrReportPrinter.AllowDrop = true;
 			this.vsrReportPrinter.Location = new System.Drawing.Point(324, 8);
 			this.vsrReportPrinter.Name = "vsrReportPrinter";
-			("vsrReportPrinter.OcxState");
+			//
 			// 
 			// frmSysReportPrint
 			// 

@@ -95,7 +95,7 @@ namespace Xtreme
 			this.tabMaster.Controls.Add(this.conFileImport);
 			this.tabMaster.Location = new System.Drawing.Point(4, 2);
 			this.tabMaster.Name = "tabMaster";
-			("tabMaster.OcxState");
+			//
 			this.tabMaster.Size = new System.Drawing.Size(455, 155);
 			this.tabMaster.TabIndex = 0;
 			// 
@@ -105,7 +105,7 @@ namespace Xtreme
 			this.conImportICSTrans.AllowDrop = true;
 			this.conImportICSTrans.Location = new System.Drawing.Point(518, 23);
 			this.conImportICSTrans.Name = "conImportICSTrans";
-			("conImportICSTrans.OcxState");
+			//
 			this.conImportICSTrans.Size = new System.Drawing.Size(449, 129);
 			this.conImportICSTrans.TabIndex = 3;
 			this.conImportICSTrans.TabStop = false;
@@ -121,7 +121,7 @@ namespace Xtreme
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherNo);
 			this.conImportGLVoucher.Location = new System.Drawing.Point(498, 23);
 			this.conImportGLVoucher.Name = "conImportGLVoucher";
-			("conImportGLVoucher.OcxState");
+			//
 			this.conImportGLVoucher.Size = new System.Drawing.Size(449, 129);
 			this.conImportGLVoucher.TabIndex = 2;
 			this.conImportGLVoucher.TabStop = false;
@@ -195,7 +195,7 @@ namespace Xtreme
 			this.conFileImport.Controls.Add(this._txtCommonLable_0);
 			this.conFileImport.Location = new System.Drawing.Point(3, 23);
 			this.conFileImport.Name = "conFileImport";
-			("conFileImport.OcxState");
+			//
 			this.conFileImport.Size = new System.Drawing.Size(449, 129);
 			this.conFileImport.TabIndex = 1;
 			this.conFileImport.TabStop = false;

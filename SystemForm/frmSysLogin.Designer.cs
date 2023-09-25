@@ -84,7 +84,7 @@ namespace Xtreme
 			this.btnLogin.AllowDrop = true;
 			this.btnLogin.Location = new System.Drawing.Point(170, 416);
 			this.btnLogin.Name = "btnLogin";
-			////this.btnLogin.OcxState = (System.Windows.Forms.AxHost.State) resources.GetObject("btnLogin.OcxState");
+			////this.btnLogin.OcxState = (System.Windows.Forms.AxHost.State) resources.GetObject//
 			this.btnLogin.Size = new System.Drawing.Size(79, 33);
 			this.btnLogin.TabIndex = 5;
 			//// this.btnLogin.ClickEvent += new System.EventHandler(this.btnLogin_ClickEvent);
@@ -220,7 +220,7 @@ namespace Xtreme
 			this.btnExit.AllowDrop = true;
 			this.btnExit.Location = new System.Drawing.Point(250, 416);
 			this.btnExit.Name = "btnExit";
-			//this\.\w+\.OcxState\s*=\s*\(\s*System\.Windows\.Forms\.AxHost\.State\s*\) resources\.GetObject("btnExit.OcxState");
+			//this\.\w+\.OcxState\s*=\s*\(\s*System\.Windows\.Forms\.AxHost\.State\s*\) resources\.GetObject//
 			this.btnExit.Size = new System.Drawing.Size(79, 33);
 			this.btnExit.TabIndex = 6;
 			////// this.btnExit.ClickEvent += new System.EventHandler(this.btnExit_ClickEvent);
@@ -374,14 +374,14 @@ namespace Xtreme
 			this.ImageManager.AllowDrop = true;
 			this.ImageManager.Location = new System.Drawing.Point(28, 308);
 			this.ImageManager.Name = "ImageManager";
-			//this\.\w+\.OcxState\s*=\s*\(\s*System\.Windows\.Forms\.AxHost\.State\s*\) resources\.GetObject("ImageManager.OcxState");
+			//this\.\w+\.OcxState\s*=\s*\(\s*System\.Windows\.Forms\.AxHost\.State\s*\) resources\.GetObject//
 			// 
 			// mnuSystemMenu
 			// 
 			//this.mnuSystemMenu.AllowDrop = true;
 			//this.mnuSystemMenu.Location = new System.Drawing.Point(0, 0);
 			//this.mnuSystemMenu.Name = "mnuSystemMenu";
-			////this.mnuSystemMenu.OcxState = (System.Windows.Forms.AxHost.State) resources.GetObject("mnuSystemMenu.OcxState");
+			////this.mnuSystemMenu.OcxState = (System.Windows.Forms.AxHost.State) resources.GetObject//
 			// 
 			// frmSysLogin
 			// 

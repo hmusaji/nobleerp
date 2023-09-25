@@ -157,7 +157,7 @@ namespace Xtreme
 			this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
-			("_btnFormToolBar_0.OcxState");
+			//
 			this._btnFormToolBar_0.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_0.TabIndex = 16;
 			this._btnFormToolBar_0.TabStop = false;
@@ -168,7 +168,7 @@ namespace Xtreme
 			this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(53, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
-			("_btnFormToolBar_1.OcxState");
+			//
 			this._btnFormToolBar_1.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_1.TabIndex = 17;
 			this._btnFormToolBar_1.TabStop = false;
@@ -179,7 +179,7 @@ namespace Xtreme
 			this._btnFormToolBar_5.AllowDrop = true;
 			this._btnFormToolBar_5.Location = new System.Drawing.Point(257, 2);
 			this._btnFormToolBar_5.Name = "_btnFormToolBar_5";
-			("_btnFormToolBar_5.OcxState");
+			//
 			this._btnFormToolBar_5.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_5.TabIndex = 18;
 			this._btnFormToolBar_5.TabStop = false;
@@ -190,7 +190,7 @@ namespace Xtreme
 			this._btnFormToolBar_2.AllowDrop = true;
 			this._btnFormToolBar_2.Location = new System.Drawing.Point(104, 2);
 			this._btnFormToolBar_2.Name = "_btnFormToolBar_2";
-			("_btnFormToolBar_2.OcxState");
+			//
 			this._btnFormToolBar_2.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_2.TabIndex = 19;
 			this._btnFormToolBar_2.TabStop = false;
@@ -201,7 +201,7 @@ namespace Xtreme
 			this._btnFormToolBar_3.AllowDrop = true;
 			this._btnFormToolBar_3.Location = new System.Drawing.Point(155, 2);
 			this._btnFormToolBar_3.Name = "_btnFormToolBar_3";
-			("_btnFormToolBar_3.OcxState");
+			//
 			this._btnFormToolBar_3.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_3.TabIndex = 20;
 			this._btnFormToolBar_3.TabStop = false;
@@ -212,7 +212,7 @@ namespace Xtreme
 			this._btnFormToolBar_6.AllowDrop = true;
 			this._btnFormToolBar_6.Location = new System.Drawing.Point(370, 2);
 			this._btnFormToolBar_6.Name = "_btnFormToolBar_6";
-			("_btnFormToolBar_6.OcxState");
+			//
 			this._btnFormToolBar_6.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_6.TabIndex = 21;
 			this._btnFormToolBar_6.TabStop = false;
@@ -223,7 +223,7 @@ namespace Xtreme
 			this._btnFormToolBar_4.AllowDrop = true;
 			this._btnFormToolBar_4.Location = new System.Drawing.Point(206, 2);
 			this._btnFormToolBar_4.Name = "_btnFormToolBar_4";
-			("_btnFormToolBar_4.OcxState");
+			//
 			this._btnFormToolBar_4.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_4.TabIndex = 22;
 			this._btnFormToolBar_4.TabStop = false;
@@ -234,7 +234,7 @@ namespace Xtreme
 			this._btnFormToolBar_7.AllowDrop = true;
 			this._btnFormToolBar_7.Location = new System.Drawing.Point(308, 2);
 			this._btnFormToolBar_7.Name = "_btnFormToolBar_7";
-			("_btnFormToolBar_7.OcxState");
+			//
 			this._btnFormToolBar_7.Size = new System.Drawing.Size(51, 34);
 			this._btnFormToolBar_7.TabIndex = 23;
 			this._btnFormToolBar_7.TabStop = false;

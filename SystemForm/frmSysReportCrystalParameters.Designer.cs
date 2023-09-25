@@ -126,7 +126,7 @@ namespace Xtreme
 			this.cntOuterFrame.Controls.Add(this._cntButtons_0);
 			this.cntOuterFrame.Location = new System.Drawing.Point(0, 0);
 			this.cntOuterFrame.Name = "cntOuterFrame";
-			("cntOuterFrame.OcxState");
+			//
 			this.cntOuterFrame.Size = new System.Drawing.Size(579, 361);
 			this.cntOuterFrame.TabIndex = 8;
 			this.cntOuterFrame.TabStop = false;
@@ -139,7 +139,7 @@ namespace Xtreme
 			this.tabReportOptions.Controls.Add(this.fraReportOptions);
 			this.tabReportOptions.Location = new System.Drawing.Point(10, 20);
 			this.tabReportOptions.Name = "tabReportOptions";
-			("tabReportOptions.OcxState");
+			//
 			this.tabReportOptions.Size = new System.Drawing.Size(483, 323);
 			this.tabReportOptions.TabIndex = 9;
 			// 
@@ -395,7 +395,7 @@ namespace Xtreme
 			this._btnReportOptions_0.AllowDrop = true;
 			this._btnReportOptions_0.Location = new System.Drawing.Point(505, 219);
 			this._btnReportOptions_0.Name = "_btnReportOptions_0";
-			("_btnReportOptions_0.OcxState");
+			//
 			this._btnReportOptions_0.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_0.TabIndex = 5;
 			this._btnReportOptions_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
@@ -406,7 +406,7 @@ namespace Xtreme
 			this._btnReportOptions_2.AllowDrop = true;
 			this._btnReportOptions_2.Location = new System.Drawing.Point(505, 269);
 			this._btnReportOptions_2.Name = "_btnReportOptions_2";
-			("_btnReportOptions_2.OcxState");
+			//
 			this._btnReportOptions_2.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_2.TabIndex = 7;
 			this._btnReportOptions_2.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
@@ -417,7 +417,7 @@ namespace Xtreme
 			this._btnReportOptions_1.AllowDrop = true;
 			this._btnReportOptions_1.Location = new System.Drawing.Point(505, 244);
 			this._btnReportOptions_1.Name = "_btnReportOptions_1";
-			("_btnReportOptions_1.OcxState");
+			//
 			this._btnReportOptions_1.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_1.TabIndex = 6;
 			this._btnReportOptions_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);

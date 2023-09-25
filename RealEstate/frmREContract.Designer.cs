@@ -177,7 +177,7 @@ namespace Xtreme
 			this.fraTabPage0.Controls.Add(this._txtCommonNumber_1);
 			this.fraTabPage0.Location = new System.Drawing.Point(4, 44);
 			this.fraTabPage0.Name = "fraTabPage0";
-			("fraTabPage0.OcxState");
+			//
 			this.fraTabPage0.Size = new System.Drawing.Size(629, 142);
 			this.fraTabPage0.TabIndex = 18;
 			// 
