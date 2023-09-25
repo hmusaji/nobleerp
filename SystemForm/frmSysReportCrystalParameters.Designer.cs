@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmSysReportCrystalParameters
@@ -117,7 +119,7 @@ namespace Xtreme
 			// 
 			// cntOuterFrame
 			// 
-			this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asFill;
+			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asFill;
 			this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.tabReportOptions);
 			this.cntOuterFrame.Controls.Add(this._btnReportOptions_0);
@@ -133,7 +135,7 @@ namespace Xtreme
 			// 
 			// tabReportOptions
 			// 
-			this.tabReportOptions.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabReportOptions.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabReportOptions.AllowDrop = true;
 			this.tabReportOptions.Controls.Add(this.Frame1);
 			this.tabReportOptions.Controls.Add(this.fraReportOptions);
@@ -398,7 +400,7 @@ namespace Xtreme
 			//
 			this._btnReportOptions_0.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_0.TabIndex = 5;
-			this._btnReportOptions_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
+			//this._btnReportOptions_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
 			//// this._btnReportOptions_0.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);
 			// 
 			// _btnReportOptions_2
@@ -420,7 +422,7 @@ namespace Xtreme
 			//
 			this._btnReportOptions_1.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_1.TabIndex = 6;
-			this._btnReportOptions_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
+			//this._btnReportOptions_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
 			//// this._btnReportOptions_1.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);
 			// 
 			// _cntButtons_0

@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmICSBarcodeDataCollection
@@ -88,7 +90,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.conImportICSTrans);
 			this.tabMaster.Controls.Add(this.conImportGLVoucher);
@@ -101,7 +103,7 @@ namespace Xtreme
 			// 
 			// conImportICSTrans
 			// 
-			this.conImportICSTrans.Align = C1SizerLib.AlignSettings.asNone;
+			//this.conImportICSTrans.Align = C1SizerLib.AlignSettings.asNone;
 			this.conImportICSTrans.AllowDrop = true;
 			this.conImportICSTrans.Location = new System.Drawing.Point(518, 23);
 			this.conImportICSTrans.Name = "conImportICSTrans";
@@ -112,7 +114,7 @@ namespace Xtreme
 			// 
 			// conImportGLVoucher
 			// 
-			this.conImportGLVoucher.Align = C1SizerLib.AlignSettings.asNone;
+			//this.conImportGLVoucher.Align = C1SizerLib.AlignSettings.asNone;
 			this.conImportGLVoucher.AllowDrop = true;
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherName);
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherType);
@@ -188,7 +190,7 @@ namespace Xtreme
 			// 
 			// conFileImport
 			// 
-			this.conFileImport.Align = C1SizerLib.AlignSettings.asNone;
+			//this.conFileImport.Align = C1SizerLib.AlignSettings.asNone;
 			this.conFileImport.AllowDrop = true;
 			this.conFileImport.Controls.Add(this.cmdFileSearch);
 			this.conFileImport.Controls.Add(this.Label1);

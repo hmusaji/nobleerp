@@ -233,7 +233,7 @@ namespace Xtreme
 			// 
 			// tabBillingType
 			// 
-			this.tabBillingType.Align = C1SizerLib.AlignSettings.asNone;
+			////this.tabBillingType.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabBillingType.AllowDrop = true;
 			this.tabBillingType.Controls.Add(this._fraEmployeeInformation_1);
 			this.tabBillingType.Controls.Add(this._fraEmployeeInformation_0);
@@ -318,7 +318,7 @@ namespace Xtreme
 			this.OptNone.Text = "None";
 			this.OptNone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.OptNone.Visible = true;
-			this.OptNone.CheckedChanged += new System.EventHandler(this.OptNone_CheckedChanged);
+			//this.OptNone.CheckedChanged += new System.EventHandler(this.OptNone_CheckedChanged);
 			// 
 			// OptPriodWise
 			// 
@@ -339,7 +339,7 @@ namespace Xtreme
 			this.OptPriodWise.Text = "Period Wise";
 			this.OptPriodWise.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.OptPriodWise.Visible = true;
-			this.OptPriodWise.CheckedChanged += new System.EventHandler(this.OptPriodWise_CheckedChanged);
+			//this.OptPriodWise.CheckedChanged += new System.EventHandler(this.OptPriodWise_CheckedChanged);
 			// 
 			// OptChkCalculate
 			// 
@@ -360,7 +360,7 @@ namespace Xtreme
 			// this.OptChkCalculate.Text = "Percentage";
 			// this.OptChkCalculate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.OptChkCalculate.Visible = true;
-			this.OptChkCalculate.CheckedChanged += new System.EventHandler(this.OptChkCalculate_CheckedChanged);
+			//this.OptChkCalculate.CheckedChanged += new System.EventHandler(this.OptChkCalculate_CheckedChanged);
 			// 
 			// cmbMastersList
 			// 
@@ -397,8 +397,8 @@ namespace Xtreme
 			this.grdLeaveEarningDetails.TabIndex = 66;
 			this.grdLeaveEarningDetails.Columns.Add(this.Column_0_grdLeaveEarningDetails);
 			this.grdLeaveEarningDetails.Columns.Add(this.Column_1_grdLeaveEarningDetails);
-			this.grdLeaveEarningDetails.GotFocus += new System.EventHandler(this.grdLeaveEarningDetails_GotFocus);
-			this.grdLeaveEarningDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLeaveEarningDetails_RowColChange);
+			//this.grdLeaveEarningDetails.GotFocus += new System.EventHandler(this.grdLeaveEarningDetails_GotFocus);
+			//this.grdLeaveEarningDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLeaveEarningDetails_RowColChange);
 			// 
 			// Column_0_grdLeaveEarningDetails
 			// 

@@ -19,7 +19,7 @@ namespace Xtreme
 		int mPurchaseEntry_id = 0;
 		int mtotalLocation = 0;
 
-		private XArrayHelper _aLocationDetails = null;
+		//$0 _aLocationDetails = null;
 		public repItemQuery()
 {
 InitializeComponent();

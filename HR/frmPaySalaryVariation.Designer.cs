@@ -274,7 +274,7 @@ namespace Xtreme
 			// 
 			// tabSalaryVariation
 			// 
-			this.tabSalaryVariation.Align = C1SizerLib.AlignSettings.asNone;
+			////this.tabSalaryVariation.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabSalaryVariation.AllowDrop = true;
 			this.tabSalaryVariation.Controls.Add(this._fraEmployeeInformation_3);
 			this.tabSalaryVariation.Controls.Add(this.Frame3);
@@ -347,7 +347,7 @@ namespace Xtreme
 			this.chkBudget.Text = "Is Budgeted";
 			this.chkBudget.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkBudget.Visible = false;
-			this.chkBudget.CheckStateChanged += new System.EventHandler(this.chkBudget_CheckStateChanged);
+			//this.chkBudget.CheckStateChanged += new System.EventHandler(this.chkBudget_CheckStateChanged);
 			// 
 			// _txtCommonTextBox_72
 			// 
@@ -390,7 +390,7 @@ namespace Xtreme
 			this._txtCommonTextBox_6.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_6.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_6.Location = new System.Drawing.Point(123, 75);
-			this._txtCommonTextBox_6.Locked = true;
+			//this._txtCommonTextBox_6.Locked = true;
 			this._txtCommonTextBox_6.MaxLength = 100;
 			this._txtCommonTextBox_6.Name = "_txtCommonTextBox_6";
 			// this._txtCommonTextBox_6.ShowButton = true;
@@ -1047,12 +1047,12 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 49;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
+			//this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 

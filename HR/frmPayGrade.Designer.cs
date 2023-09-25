@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// tabEmployee
 			// 
-			this.tabEmployee.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabEmployee.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabEmployee.AllowDrop = true;
 			this.tabEmployee.Controls.Add(this.frmIndemnity);
 			this.tabEmployee.Controls.Add(this.frmLeaveDet);

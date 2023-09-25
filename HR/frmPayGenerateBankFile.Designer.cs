@@ -288,7 +288,7 @@ namespace Xtreme
 			// 
 			// tabBankDisk
 			// 
-			this.tabBankDisk.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabBankDisk.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabBankDisk.AllowDrop = true;
 			this.tabBankDisk.Controls.Add(this.frmLeave);
 			this.tabBankDisk.Controls.Add(this.frmResumtion);
@@ -1122,10 +1122,10 @@ namespace Xtreme
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape1.BorderStyle = 1;
+			//
 			this.Shape1.Enabled = false;
-			this.Shape1.FillColor = System.Drawing.Color.Black;
-			this.Shape1.FillStyle = 1;
+			//this.Shape1.FillColor = System.Drawing.Color.Black;
+			//this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(13, 249);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(433, 46);

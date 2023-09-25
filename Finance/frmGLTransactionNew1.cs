@@ -18,7 +18,7 @@ namespace Xtreme
 
 		private int mThisFormID = 0; //Assign the Formid for Each Form
 		private string mTimeStamp = "";
-		private XArrayHelper _aVoucherDetails = null;
+		//$0 _aVoucherDetails = null;
 		public frmGLTransaction()
 {
 InitializeComponent();

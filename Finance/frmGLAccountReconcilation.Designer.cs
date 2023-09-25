@@ -460,7 +460,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_3
 			// 
-			// this._dcReconcile_3.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_3.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_3.AllowDrop = true;
 			this._dcReconcile_3.Location = new System.Drawing.Point(236, 131);
 			this._dcReconcile_3.Name = "_dcReconcile_3";
@@ -469,7 +469,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_9
 			// 
-			// this._dcReconcile_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_9.AllowDrop = true;
 			this._dcReconcile_9.Location = new System.Drawing.Point(236, 167);
 			this._dcReconcile_9.Name = "_dcReconcile_9";
@@ -478,7 +478,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_8
 			// 
-			// this._dcReconcile_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_8.AllowDrop = true;
 			this._dcReconcile_8.Location = new System.Drawing.Point(149, 167);
 			this._dcReconcile_8.Name = "_dcReconcile_8";
@@ -487,7 +487,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_7
 			// 
-			// this._dcReconcile_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_7.AllowDrop = true;
 			this._dcReconcile_7.Location = new System.Drawing.Point(62, 167);
 			this._dcReconcile_7.Name = "_dcReconcile_7";
@@ -496,7 +496,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_6
 			// 
-			// this._dcReconcile_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_6.AllowDrop = true;
 			this._dcReconcile_6.Location = new System.Drawing.Point(236, 149);
 			this._dcReconcile_6.Name = "_dcReconcile_6";
@@ -505,7 +505,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_2
 			// 
-			// this._dcReconcile_2.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_2.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_2.AllowDrop = true;
 			this._dcReconcile_2.Location = new System.Drawing.Point(149, 131);
 			this._dcReconcile_2.Name = "_dcReconcile_2";
@@ -514,7 +514,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_5
 			// 
-			// this._dcReconcile_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_5.AllowDrop = true;
 			this._dcReconcile_5.Location = new System.Drawing.Point(149, 149);
 			this._dcReconcile_5.Name = "_dcReconcile_5";
@@ -523,7 +523,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_4
 			// 
-			// this._dcReconcile_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_4.AllowDrop = true;
 			this._dcReconcile_4.Location = new System.Drawing.Point(62, 149);
 			this._dcReconcile_4.Name = "_dcReconcile_4";
@@ -532,7 +532,7 @@ namespace Xtreme
 			// 
 			// _dcReconcile_1
 			// 
-			// this._dcReconcile_1.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._dcReconcile_1.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._dcReconcile_1.AllowDrop = true;
 			this._dcReconcile_1.Location = new System.Drawing.Point(62, 131);
 			this._dcReconcile_1.Name = "_dcReconcile_1";

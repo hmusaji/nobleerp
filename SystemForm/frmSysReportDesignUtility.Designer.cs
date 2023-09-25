@@ -270,7 +270,7 @@ namespace Xtreme
 			// 
 			// tabProductDetails
 			// 
-			// this.tabProductDetails.Alignment = System.Windows.Forms.TabAlignment.Top;
+			// //this.tabProductDetails.Alignment = System.Windows.Forms.TabAlignment.Top;
 			this.tabProductDetails.AllowDrop = true;
 			this.tabProductDetails.BackColor = System.Drawing.Color.White;
 			this.tabProductDetails.Controls.Add(this._tabProductDetails_TabPage0);

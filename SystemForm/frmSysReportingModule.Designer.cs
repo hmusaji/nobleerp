@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.fraLedgerInformation);
 			this.tabMaster.Location = new System.Drawing.Point(4, 14);

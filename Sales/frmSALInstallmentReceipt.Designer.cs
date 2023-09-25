@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// C1Tab1
 			// 
-			this.C1Tab1.Align = C1SizerLib.AlignSettings.asNone;
+			//this.C1Tab1.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Tab1.AllowDrop = true;
 			this.C1Tab1.Controls.Add(this.Frame1);
 			this.C1Tab1.Location = new System.Drawing.Point(6, 132);

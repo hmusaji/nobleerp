@@ -15,7 +15,7 @@ namespace Xtreme
 		: System.Windows.Forms.Form
 	{
 
-		private XArrayHelper _aVoucherDetails = null;
+		//$0 _aVoucherDetails = null;
 		public frmPayDailyPayrollEntry()
 {
 InitializeComponent();

@@ -373,7 +373,7 @@ namespace Xtreme
 			this._OptCashOrBooked_0.Text = "Cash";
 			this._OptCashOrBooked_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._OptCashOrBooked_0.Visible = true;
-			this._OptCashOrBooked_0.CheckedChanged += new System.EventHandler(this.OptCashOrBooked_CheckedChanged);
+			//this._OptCashOrBooked_0.CheckedChanged += new System.EventHandler(this.OptCashOrBooked_CheckedChanged);
 			// 
 			// _OptCashOrBooked_1
 			// 
@@ -394,7 +394,7 @@ namespace Xtreme
 			this._OptCashOrBooked_1.Text = "Booked";
 			this._OptCashOrBooked_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._OptCashOrBooked_1.Visible = true;
-			this._OptCashOrBooked_1.CheckedChanged += new System.EventHandler(this.OptCashOrBooked_CheckedChanged);
+			//this._OptCashOrBooked_1.CheckedChanged += new System.EventHandler(this.OptCashOrBooked_CheckedChanged);
 			// 
 			// _txtCommonNumber_5
 			// 
@@ -466,7 +466,7 @@ namespace Xtreme
 			this._txtCommonDate_5.TabIndex = 30;
 			this._txtCommonDate_5.Text = "18-Jul-2001";
 			// this._txtCommonDate_5.Value = 37090;
-			this._txtCommonDate_5.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
+			//this._txtCommonDate_5.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
 			// 
 			// _txtCommonTextBox_4
 			// 
@@ -583,10 +583,10 @@ namespace Xtreme
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape1.BorderStyle = 1;
+			//
 			this.Shape1.Enabled = false;
-			this.Shape1.FillColor = System.Drawing.Color.Black;
-			this.Shape1.FillStyle = 1;
+			//this.Shape1.FillColor = System.Drawing.Color.Black;
+			//this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(59, 60);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(547, 53);
@@ -692,7 +692,7 @@ namespace Xtreme
 			this._txtCommonDate_4.TabIndex = 52;
 			this._txtCommonDate_4.Text = "01-Dec-2009";
 			// this._txtCommonDate_4.Value = 40148;
-			this._txtCommonDate_4.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
+			//this._txtCommonDate_4.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
 			// 
 			// _lblCommonLabel_22
 			// 
@@ -720,7 +720,7 @@ namespace Xtreme
 			this._txtCommonDate_3.TabIndex = 50;
 			this._txtCommonDate_3.Text = "01-Dec-2009";
 			// this._txtCommonDate_3.Value = 40148;
-			this._txtCommonDate_3.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
+			//this._txtCommonDate_3.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
 			// 
 			// _lblCommonLabel_15
 			// 
@@ -748,7 +748,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_4
 			// 
-			// this._txtDisplayLabel_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(279, 40);
@@ -942,7 +942,7 @@ namespace Xtreme
 			this._txtCommonDate_2.TabIndex = 57;
 			this._txtCommonDate_2.Text = "18-Jul-2001";
 			// this._txtCommonDate_2.Value = 37090;
-			this._txtCommonDate_2.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
+			//this._txtCommonDate_2.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
 			// 
 			// _lblCommonLabel_20
 			// 
@@ -1003,7 +1003,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_7
 			// 
-			// this._txtDisplayLabel_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_7.AllowDrop = true;
 			this._txtDisplayLabel_7.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_7.Location = new System.Drawing.Point(506, 134);
@@ -1014,7 +1014,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_8
 			// 
-			// this._txtDisplayLabel_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_8.AllowDrop = true;
 			this._txtDisplayLabel_8.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_8.Location = new System.Drawing.Point(506, 192);
@@ -1094,7 +1094,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_10
 			// 
-			// this._txtDisplayLabel_10.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_10.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_10.AllowDrop = true;
 			this._txtDisplayLabel_10.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_10.Location = new System.Drawing.Point(308, 134);
@@ -1146,7 +1146,7 @@ namespace Xtreme
 			this._txtCommonDate_1.TabIndex = 56;
 			this._txtCommonDate_1.Text = "18-Jul-2001";
 			// this._txtCommonDate_1.Value = 37090;
-			this._txtCommonDate_1.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
+			//this._txtCommonDate_1.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
 			// 
 			// _lblCommonLabel_27
 			// 
@@ -1162,7 +1162,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_12
 			// 
-			// this._txtDisplayLabel_12.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_12.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_12.AllowDrop = true;
 			this._txtDisplayLabel_12.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_12.Location = new System.Drawing.Point(506, 174);
@@ -1254,7 +1254,7 @@ namespace Xtreme
 			this._txtCommonDate_0.TabIndex = 1;
 			this._txtCommonDate_0.Text = "18-Jul-2001";
 			// this._txtCommonDate_0.Value = 37090;
-			this._txtCommonDate_0.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
+			//this._txtCommonDate_0.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonDate_Validating);
 			// 
 			// _txtCommonTextBox_0
 			// 
@@ -1342,7 +1342,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_9
 			// 
-			// this._txtDisplayLabel_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_9.AllowDrop = true;
 			this._txtDisplayLabel_9.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_9.Location = new System.Drawing.Point(501, 48);

@@ -507,7 +507,7 @@ namespace Xtreme
 			// 
 			// tabEmployee
 			// 
-			this.tabEmployee.Align = C1SizerLib.AlignSettings.asNone;
+			////this.tabEmployee.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabEmployee.AllowDrop = true;
 			this.tabEmployee.Controls.Add(this.Frame1);
 			this.tabEmployee.Controls.Add(this._fraEmployeeInformation_0);
@@ -1796,7 +1796,7 @@ namespace Xtreme
 			// txtBirthDate
 			// 
 			this.txtBirthDate.AllowDrop = true;
-			this.txtBirthDate.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
+			//this.txtBirthDate.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
 			// this.txtBirthDate.CheckDateRange = false;
 			this.txtBirthDate.Location = new System.Drawing.Point(521, 112);
 			// this.txtBirthDate.MaxDate = 51501;
@@ -1846,7 +1846,7 @@ namespace Xtreme
 			// txtDEntryDate
 			// 
 			this.txtDEntryDate.AllowDrop = true;
-			this.txtDEntryDate.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
+			//this.txtDEntryDate.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
 			// this.txtDEntryDate.CheckDateRange = false;
 			this.txtDEntryDate.Location = new System.Drawing.Point(668, 112);
 			// this.txtDEntryDate.MaxDate = 51501;
@@ -2499,10 +2499,10 @@ namespace Xtreme
 			this.Shape2.AllowDrop = true;
 			this.Shape2.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape2.BorderStyle = 1;
+			//this.Shape2.BorderStyle = 1;
 			this.Shape2.Enabled = false;
-			this.Shape2.FillColor = System.Drawing.Color.Black;
-			this.Shape2.FillStyle = 1;
+			//this.Shape2.FillColor = System.Drawing.Color.Black;
+			//this.Shape2.FillStyle = 1;
 			this.Shape2.Location = new System.Drawing.Point(8, 184);
 			this.Shape2.Name = "Shape2";
 			this.Shape2.Size = new System.Drawing.Size(835, 101);
@@ -2513,10 +2513,10 @@ namespace Xtreme
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape1.BorderStyle = 1;
+			//
 			this.Shape1.Enabled = false;
-			this.Shape1.FillColor = System.Drawing.Color.Black;
-			this.Shape1.FillStyle = 1;
+			//this.Shape1.FillColor = System.Drawing.Color.Black;
+			//this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(8, 10);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(835, 161);

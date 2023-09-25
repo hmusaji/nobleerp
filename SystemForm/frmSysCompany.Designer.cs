@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmSysCompany
@@ -176,7 +178,7 @@ namespace Xtreme
 			// 
 			// cntOuterFrame
 			// 
-			this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
+			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
 			this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.tabMaster);
 			this.cntOuterFrame.Controls.Add(this._txtCommon_1);
@@ -196,7 +198,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this._fraMasterInformation_2);
 			this.tabMaster.Controls.Add(this._fraMasterInformation_1);

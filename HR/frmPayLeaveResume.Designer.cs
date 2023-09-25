@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// tabResume
 			// 
-			this.tabResume.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabResume.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabResume.AllowDrop = true;
 			this.tabResume.Controls.Add(this.Frame2);
 			this.tabResume.Controls.Add(this.Frame1);
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			// txtDisplayVariationDays
 			// 
-			// this.txtDisplayVariationDays.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this.txtDisplayVariationDays.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtDisplayVariationDays.AllowDrop = true;
 			this.txtDisplayVariationDays.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDisplayVariationDays.Enabled = false;
@@ -909,7 +909,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_11
 			// 
-			// this._txtDisplayLabel_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_11.AllowDrop = true;
 			this._txtDisplayLabel_11.Enabled = false;
 			this._txtDisplayLabel_11.Location = new System.Drawing.Point(306, 202);
@@ -920,7 +920,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_10
 			// 
-			// this._txtDisplayLabel_10.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_10.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_10.AllowDrop = true;
 			this._txtDisplayLabel_10.Enabled = false;
 			this._txtDisplayLabel_10.Location = new System.Drawing.Point(104, 202);
@@ -931,7 +931,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_8
 			// 
-			// this._txtDisplayLabel_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_8.AllowDrop = true;
 			this._txtDisplayLabel_8.Enabled = false;
 			this._txtDisplayLabel_8.Location = new System.Drawing.Point(519, 50);
@@ -982,7 +982,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_4
 			// 
-			// this._txtDisplayLabel_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.Enabled = false;
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(519, 125);
@@ -993,7 +993,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_7
 			// 
-			// this._txtDisplayLabel_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_7.AllowDrop = true;
 			this._txtDisplayLabel_7.Enabled = false;
 			this._txtDisplayLabel_7.Location = new System.Drawing.Point(519, 202);
@@ -1024,7 +1024,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_9
 			// 
-			// this._txtDisplayLabel_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_9.AllowDrop = true;
 			this._txtDisplayLabel_9.Enabled = false;
 			this._txtDisplayLabel_9.Location = new System.Drawing.Point(519, 146);

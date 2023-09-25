@@ -1183,7 +1183,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_18
 			// 
-			// this._txtCommon_18.Alignment = 1;
+			// //this._txtCommon_18.Alignment = 1;
 			this._txtCommon_18.AllowDrop = true;
 			this._txtCommon_18.BackColor = System.Drawing.Color.White;
 			// // = false;
@@ -1202,7 +1202,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_17
 			// 
-			// this._txtCommon_17.Alignment = 1;
+			// //this._txtCommon_17.Alignment = 1;
 			this._txtCommon_17.AllowDrop = true;
 			this._txtCommon_17.BackColor = System.Drawing.Color.White;
 			// // = false;
@@ -1221,7 +1221,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_16
 			// 
-			// this._txtCommon_16.Alignment = 1;
+			// //this._txtCommon_16.Alignment = 1;
 			this._txtCommon_16.AllowDrop = true;
 			this._txtCommon_16.BackColor = System.Drawing.Color.White;
 			// // = false;
@@ -1778,7 +1778,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			// this._txtCommon_2.Alignment = 1;
+			// //this._txtCommon_2.Alignment = 1;
 			this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;

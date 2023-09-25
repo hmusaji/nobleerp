@@ -72,7 +72,7 @@ namespace Xtreme
 			// 
 			// txtArabicName
 			// 
-			// this.txtArabicName.Alignment = 1;
+			// //this.txtArabicName.Alignment = 1;
 			this.txtArabicName.AllowDrop = true;
 			this.txtArabicName.BackColor = System.Drawing.Color.White;
 			this.txtArabicName.ForeColor = System.Drawing.Color.Black;

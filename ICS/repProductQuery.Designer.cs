@@ -423,7 +423,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_13
 			// 
-			// this._txtCommanTextbox_13.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_13.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_13.AllowDrop = true;
 			this._txtCommanTextbox_13.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_13.Location = new System.Drawing.Point(86, 98);
@@ -433,7 +433,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_14
 			// 
-			// this._txtCommanTextbox_14.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_14.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_14.AllowDrop = true;
 			this._txtCommanTextbox_14.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_14.Location = new System.Drawing.Point(194, 98);
@@ -443,7 +443,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_16
 			// 
-			// this._txtCommanTextbox_16.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_16.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_16.AllowDrop = true;
 			this._txtCommanTextbox_16.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_16.Location = new System.Drawing.Point(410, 98);
@@ -453,7 +453,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_17
 			// 
-			// this._txtCommanTextbox_17.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_17.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_17.AllowDrop = true;
 			this._txtCommanTextbox_17.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_17.Location = new System.Drawing.Point(516, 98);
@@ -463,7 +463,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_18
 			// 
-			// this._txtCommanTextbox_18.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_18.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_18.AllowDrop = true;
 			this._txtCommanTextbox_18.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_18.Location = new System.Drawing.Point(622, 98);
@@ -474,7 +474,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_15
 			// 
-			// this._txtCommanTextbox_15.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_15.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_15.AllowDrop = true;
 			this._txtCommanTextbox_15.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_15.Location = new System.Drawing.Point(302, 98);
@@ -484,7 +484,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_22
 			// 
-			// this._txtCommanTextbox_22.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_22.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_22.AllowDrop = true;
 			this._txtCommanTextbox_22.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_22.Location = new System.Drawing.Point(410, 128);
@@ -494,7 +494,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_23
 			// 
-			// this._txtCommanTextbox_23.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_23.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_23.AllowDrop = true;
 			this._txtCommanTextbox_23.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_23.Location = new System.Drawing.Point(516, 128);
@@ -504,7 +504,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_24
 			// 
-			// this._txtCommanTextbox_24.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_24.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_24.AllowDrop = true;
 			this._txtCommanTextbox_24.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_24.Location = new System.Drawing.Point(622, 128);
@@ -514,7 +514,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_19
 			// 
-			// this._txtCommanTextbox_19.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_19.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_19.AllowDrop = true;
 			this._txtCommanTextbox_19.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_19.Location = new System.Drawing.Point(86, 128);
@@ -524,7 +524,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_20
 			// 
-			// this._txtCommanTextbox_20.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_20.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_20.AllowDrop = true;
 			this._txtCommanTextbox_20.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_20.Location = new System.Drawing.Point(194, 128);
@@ -534,7 +534,7 @@ namespace Xtreme
 			// 
 			// _txtCommanTextbox_21
 			// 
-			// this._txtCommanTextbox_21.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommanTextbox_21.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommanTextbox_21.AllowDrop = true;
 			this._txtCommanTextbox_21.BackColor = System.Drawing.Color.White;
 			this._txtCommanTextbox_21.Location = new System.Drawing.Point(302, 128);

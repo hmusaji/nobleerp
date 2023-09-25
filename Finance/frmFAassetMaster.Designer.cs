@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_1);
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_0);
@@ -762,7 +762,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_13
 			// 
-			// this._txtCommonDisplay_13.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_13.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_13.AllowDrop = true;
 			this._txtCommonDisplay_13.Location = new System.Drawing.Point(484, 220);
 			this._txtCommonDisplay_13.Name = "_txtCommonDisplay_13";
@@ -779,7 +779,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_8
 			// 
-			// this._txtCommonDisplay_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_8.AllowDrop = true;
 			this._txtCommonDisplay_8.Location = new System.Drawing.Point(305, 220);
 			this._txtCommonDisplay_8.Name = "_txtCommonDisplay_8";
@@ -788,7 +788,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_6
 			// 
-			// this._txtCommonDisplay_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_6.AllowDrop = true;
 			this._txtCommonDisplay_6.Location = new System.Drawing.Point(102, 220);
 			this._txtCommonDisplay_6.Name = "_txtCommonDisplay_6";
@@ -797,7 +797,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_7
 			// 
-			// this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_7.AllowDrop = true;
 			this._txtCommonDisplay_7.Location = new System.Drawing.Point(102, 199);
 			this._txtCommonDisplay_7.Name = "_txtCommonDisplay_7";
@@ -822,7 +822,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_11
 			// 
-			// this._txtCommonDisplay_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_11.AllowDrop = true;
 			this._txtCommonDisplay_11.Location = new System.Drawing.Point(484, 199);
 			this._txtCommonDisplay_11.Name = "_txtCommonDisplay_11";

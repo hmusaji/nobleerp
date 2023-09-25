@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// txtBalAmt
 			// 
-			// this.txtBalAmt.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this.txtBalAmt.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtBalAmt.AllowDrop = true;
 			this.txtBalAmt.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.txtBalAmt.Enabled = false;
@@ -406,8 +406,8 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 10;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
 			// this.grdVoucherDetails.Leave += new System.EventHandler(this.grdVoucherDetails_Leave);
 			// 
 			// Column_0_grdVoucherDetails
@@ -463,7 +463,7 @@ namespace Xtreme
 			// this.Activated += new System.EventHandler(this.frmARReceipt_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
+			//this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
 			//this.Resize += new System.EventHandler(this.Form_Resize);
 			this.grdVoucherDetails.ResumeLayout(false);
 			this.ResumeLayout(false);

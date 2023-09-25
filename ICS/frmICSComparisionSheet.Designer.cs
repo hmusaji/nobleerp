@@ -254,7 +254,7 @@ namespace Xtreme
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(224, 180, 171);
 			// = 0;
-			this.Shape1.BorderStyle = 1;
+			//
 			this.Shape1.Enabled = false;
 			this.Shape1.FillColor = System.Drawing.Color.FromArgb(153, 164, 154);
 			this.Shape1.FillStyle = 0;

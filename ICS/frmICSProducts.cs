@@ -20,9 +20,9 @@ namespace Xtreme
 		private object mSearchValue = null;
 		private string mTimeStamp = "";
 		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0;
-		private XArrayHelper aProductAssemblyDetails = null;
-		private XArrayHelper aProductStockLevels = null;
-		private XArrayHelper _aProductSupplierDetails = null;
+		//$0 aProductAssemblyDetails = null;
+		//$0 aProductStockLevels = null;
+		//$0 _aProductSupplierDetails = null;
 		public frmICSItems()
 {
 InitializeComponent();

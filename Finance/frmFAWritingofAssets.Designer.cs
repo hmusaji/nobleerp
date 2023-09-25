@@ -613,7 +613,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_11
 			// 
-			// this._txtCommonDisplay_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_11.AllowDrop = true;
 			this._txtCommonDisplay_11.Location = new System.Drawing.Point(131, 174);
 			this._txtCommonDisplay_11.Name = "_txtCommonDisplay_11";
@@ -630,7 +630,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_9
 			// 
-			// this._txtCommonDisplay_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_9.AllowDrop = true;
 			this._txtCommonDisplay_9.Location = new System.Drawing.Point(388, 173);
 			this._txtCommonDisplay_9.Name = "_txtCommonDisplay_9";
@@ -639,7 +639,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_8
 			// 
-			// this._txtCommonDisplay_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_8.AllowDrop = true;
 			this._txtCommonDisplay_8.Location = new System.Drawing.Point(388, 151);
 			this._txtCommonDisplay_8.Name = "_txtCommonDisplay_8";
@@ -648,7 +648,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_7
 			// 
-			// this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_7.AllowDrop = true;
 			this._txtCommonDisplay_7.Location = new System.Drawing.Point(388, 129);
 			this._txtCommonDisplay_7.Name = "_txtCommonDisplay_7";
@@ -657,7 +657,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_6
 			// 
-			// this._txtCommonDisplay_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_6.AllowDrop = true;
 			this._txtCommonDisplay_6.Location = new System.Drawing.Point(388, 107);
 			this._txtCommonDisplay_6.Name = "_txtCommonDisplay_6";
@@ -666,7 +666,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_5
 			// 
-			// this._txtCommonDisplay_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_5.AllowDrop = true;
 			this._txtCommonDisplay_5.Location = new System.Drawing.Point(388, 85);
 			this._txtCommonDisplay_5.Name = "_txtCommonDisplay_5";
@@ -675,7 +675,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_4
 			// 
-			// this._txtCommonDisplay_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_4.AllowDrop = true;
 			this._txtCommonDisplay_4.Location = new System.Drawing.Point(131, 151);
 			this._txtCommonDisplay_4.Name = "_txtCommonDisplay_4";
@@ -684,7 +684,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_3
 			// 
-			// this._txtCommonDisplay_3.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_3.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_3.AllowDrop = true;
 			this._txtCommonDisplay_3.Location = new System.Drawing.Point(131, 129);
 			this._txtCommonDisplay_3.Name = "_txtCommonDisplay_3";
@@ -693,7 +693,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_2
 			// 
-			// this._txtCommonDisplay_2.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_2.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_2.AllowDrop = true;
 			this._txtCommonDisplay_2.Location = new System.Drawing.Point(131, 107);
 			this._txtCommonDisplay_2.Name = "_txtCommonDisplay_2";
@@ -702,7 +702,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_1
 			// 
-			// this._txtCommonDisplay_1.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_1.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(131, 85);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";

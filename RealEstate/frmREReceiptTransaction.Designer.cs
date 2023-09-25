@@ -365,7 +365,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_7
 			// 
-			// this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_7.AllowDrop = true;
 			this._txtCommonDisplay_7.Location = new System.Drawing.Point(307, 80);
 			this._txtCommonDisplay_7.Name = "_txtCommonDisplay_7";
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_4
 			// 
-			// this._txtCommonDisplay_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtCommonDisplay_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtCommonDisplay_4.AllowDrop = true;
 			this._txtCommonDisplay_4.Location = new System.Drawing.Point(104, 80);
 			this._txtCommonDisplay_4.Name = "_txtCommonDisplay_4";

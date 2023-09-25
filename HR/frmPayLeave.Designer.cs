@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmPayLeave
@@ -682,7 +684,7 @@ namespace Xtreme
 			// 
 			// tabLeaveDetails
 			// 
-			this.tabLeaveDetails.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabLeaveDetails.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabLeaveDetails.AllowDrop = true;
 			this.tabLeaveDetails.Controls.Add(this.frmvalidityPeriod);
 			this.tabLeaveDetails.Controls.Add(this.frmLeaveEarnings);
@@ -815,7 +817,7 @@ namespace Xtreme
 			// 
 			// frmLeaveEarnings
 			// 
-			this.frmLeaveEarnings.Align = C1SizerLib.AlignSettings.asNone;
+			//this.frmLeaveEarnings.Align = C1SizerLib.AlignSettings.asNone;
 			this.frmLeaveEarnings.AllowDrop = true;
 			this.frmLeaveEarnings.Controls.Add(this.cmbMastersList);
 			this.frmLeaveEarnings.Controls.Add(this.grdLeaveEarningDetails);

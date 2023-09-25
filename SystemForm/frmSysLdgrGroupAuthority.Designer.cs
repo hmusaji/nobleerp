@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmSysLdgrGroupAuthority
@@ -77,7 +79,7 @@ namespace Xtreme
 			// 
 			// cntOuterFrame
 			// 
-			this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
+			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
 			this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.lblLedgerCode);
 			this.cntOuterFrame.Controls.Add(this.txtGroupCode);

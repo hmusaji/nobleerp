@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// C1Elastic4
 			// 
-			//this.C1Elastic4.Align = C1SizerLib.AlignSettings.asNone;
+			////this.C1Elastic4.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic4.AllowDrop = true;
 			this.C1Elastic4.Controls.Add(this.grdWorkExperenceDetails);
 			this.C1Elastic4.Location = new System.Drawing.Point(700, 24);
@@ -284,7 +284,7 @@ namespace Xtreme
 			// 
 			// C1Elastic3
 			// 
-			//this.C1Elastic3.Align = C1SizerLib.AlignSettings.asNone;
+			////this.C1Elastic3.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic3.AllowDrop = true;
 			this.C1Elastic3.Controls.Add(this.grdSkillDetails);
 			this.C1Elastic3.Location = new System.Drawing.Point(680, 24);
@@ -319,7 +319,7 @@ namespace Xtreme
 			// 
 			// C1Elastic2
 			// 
-			//this.C1Elastic2.Align = C1SizerLib.AlignSettings.asNone;
+			////this.C1Elastic2.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic2.AllowDrop = true;
 			this.C1Elastic2.Controls.Add(this.cmbMastersList1);
 			this.C1Elastic2.Controls.Add(this.grdQualificationDetails);
@@ -379,7 +379,7 @@ namespace Xtreme
 			// 
 			// C1Elastic1
 			// 
-			//this.C1Elastic1.Align = C1SizerLib.AlignSettings.asNone;
+			////this.C1Elastic1.Align = C1SizerLib.AlignSettings.asNone;
 			this.C1Elastic1.AllowDrop = true;
 			this.C1Elastic1.Controls.Add(this.cmbMastersList);
 			this.C1Elastic1.Controls.Add(this.grdLanguageDetails);

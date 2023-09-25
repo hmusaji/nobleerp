@@ -246,7 +246,7 @@ namespace Xtreme
 		private Syncfusion.Windows.Forms.Tools.TabPageAdv _fraEmployeeInformation_0;
 		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabEmployee;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		//public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
 		private System.Windows.Forms.ComboBox _cmbCommon_0;
 		private System.Windows.Forms.Label _lblCommon_113;
 		private System.Windows.Forms.TextBox _txtCommonTextBox_0;
@@ -495,7 +495,7 @@ namespace Xtreme
 			this.Label1_5 = new System.Windows.Forms.Label();
 			this.lblNoticePeriod = new System.Windows.Forms.Label();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			//this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
 			this._cmbCommon_0 = new System.Windows.Forms.ComboBox();
 			this._lblCommon_113 = new System.Windows.Forms.Label();
 			this._txtCommonTextBox_0 = new System.Windows.Forms.TextBox();
@@ -1389,10 +1389,10 @@ namespace Xtreme
 			this.Shape3.AllowDrop = true;
 			this.Shape3.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape3.BorderStyle = 1;
+			//this.Shape3.BorderStyle = 1;
 			this.Shape3.Enabled = false;
-			this.Shape3.FillColor = System.Drawing.Color.Black;
-			this.Shape3.FillStyle = 1;
+			//this.Shape3.FillColor = System.Drawing.Color.Black;
+			//this.Shape3.FillStyle = 1;
 			this.Shape3.Location = new System.Drawing.Point(4, 241);
 			this.Shape3.Name = "Shape3";
 			this.Shape3.Size = new System.Drawing.Size(775, 47);
@@ -1403,10 +1403,10 @@ namespace Xtreme
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape1.BorderStyle = 1;
+			////
 			this.Shape1.Enabled = false;
-			this.Shape1.FillColor = System.Drawing.Color.Black;
-			this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(4, 8);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(778, 119);
@@ -1417,10 +1417,10 @@ namespace Xtreme
 			this.Shape2.AllowDrop = true;
 			this.Shape2.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape2.BorderStyle = 1;
+			//this.Shape2.BorderStyle = 1;
 			this.Shape2.Enabled = false;
-			this.Shape2.FillColor = System.Drawing.Color.Black;
-			this.Shape2.FillStyle = 1;
+			//this.Shape2.FillColor = System.Drawing.Color.Black;
+			//this.Shape2.FillStyle = 1;
 			this.Shape2.Location = new System.Drawing.Point(4, 134);
 			this.Shape2.Name = "Shape2";
 			this.Shape2.Size = new System.Drawing.Size(775, 98);
@@ -2376,7 +2376,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_13
 			// 
-			// this._txtDisplayLabel_13.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_13.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_13.AllowDrop = true;
 			this._txtDisplayLabel_13.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_13.Location = new System.Drawing.Point(348, 74);
@@ -2682,7 +2682,7 @@ namespace Xtreme
 			// txtBirthDate
 			// 
 			this.txtBirthDate.AllowDrop = true;
-			this.txtBirthDate.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
+			//this.txtBirthDate.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
 			// this.txtBirthDate.CheckDateRange = false;
 			this.txtBirthDate.Location = new System.Drawing.Point(98, 55);
 			// this.txtBirthDate.MaxDate = 51501;
@@ -3652,8 +3652,8 @@ namespace Xtreme
 			this.imgPicture.Size = new System.Drawing.Size(126, 126);
 			this.imgPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.imgPicture.Visible = true;
-			this.imgPicture.DoubleClick += new System.EventHandler(this.imgPicture_DoubleClick);
-			this.imgPicture.MouseMove += new System.Windows.Forms.MouseEventHandler(this.imgPicture_MouseMove);
+			//this.imgPicture.DoubleClick += new System.EventHandler(this.imgPicture_DoubleClick);
+			//this.imgPicture.MouseMove += new System.Windows.Forms.MouseEventHandler(this.imgPicture_MouseMove);
 			// 
 			// Image1
 			// 

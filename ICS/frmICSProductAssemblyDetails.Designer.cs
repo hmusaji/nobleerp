@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// txtTotalQty
 			// 
-			// this.txtTotalQty.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this.txtTotalQty.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtTotalQty.AllowDrop = true;
 			this.txtTotalQty.Location = new System.Drawing.Point(116, 172);
 			this.txtTotalQty.Name = "txtTotalQty";

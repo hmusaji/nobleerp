@@ -339,7 +339,7 @@ namespace Xtreme
 			// 
 			// tabGLVoucherType
 			// 
-			this.tabGLVoucherType.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabGLVoucherType.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabGLVoucherType.AllowDrop = true;
 			this.tabGLVoucherType.Controls.Add(this.Frame6);
 			this.tabGLVoucherType.Controls.Add(this.Frame5);

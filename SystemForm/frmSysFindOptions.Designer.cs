@@ -99,7 +99,7 @@ namespace Xtreme
 			// 
 			// tabReportOptions
 			// 
-			this.tabReportOptions.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabReportOptions.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabReportOptions.AllowDrop = true;
 			this.tabReportOptions.Controls.Add(this.fraReportOptions);
 			this.tabReportOptions.Location = new System.Drawing.Point(4, 338);

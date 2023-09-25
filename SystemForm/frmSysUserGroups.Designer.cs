@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmSysUserGroups
@@ -89,7 +91,7 @@ namespace Xtreme
 			// 
 			// cntOuterFrame
 			// 
-			this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
+			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
 			this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.lblSystemComponents);
 			this.cntOuterFrame.Controls.Add(this.tabUserGroups);
@@ -117,7 +119,7 @@ namespace Xtreme
 			// 
 			// tabUserGroups
 			// 
-			this.tabUserGroups.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabUserGroups.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabUserGroups.AllowDrop = true;
 			this.tabUserGroups.Controls.Add(this._grdUserGroups_0);
 			this.tabUserGroups.Controls.Add(this._grdUserGroups_1);

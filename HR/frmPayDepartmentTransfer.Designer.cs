@@ -200,7 +200,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_6
 			// 
-			// this._txtDisplayLabel_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this._txtDisplayLabel_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this._txtDisplayLabel_6.AllowDrop = true;
 			this._txtDisplayLabel_6.Location = new System.Drawing.Point(116, 12);
 			this._txtDisplayLabel_6.Name = "_txtDisplayLabel_6";

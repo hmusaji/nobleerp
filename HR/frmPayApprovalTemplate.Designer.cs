@@ -138,8 +138,8 @@ namespace Xtreme
 			this.grdApprovalTemplate.TabIndex = 5;
 			this.grdApprovalTemplate.Columns.Add(this.Column_0_grdApprovalTemplate);
 			this.grdApprovalTemplate.Columns.Add(this.Column_1_grdApprovalTemplate);
-			this.grdApprovalTemplate.GotFocus += new System.EventHandler(this.grdApprovalTemplate_GotFocus);
-			this.grdApprovalTemplate.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdApprovalTemplate_RowColChange);
+			//this.grdApprovalTemplate.GotFocus += new System.EventHandler(this.grdApprovalTemplate_GotFocus);
+			//this.grdApprovalTemplate.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdApprovalTemplate_RowColChange);
 			// 
 			// Column_0_grdApprovalTemplate
 			// 

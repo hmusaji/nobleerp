@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmFACategory
@@ -108,7 +110,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
+			////this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_0);
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_3);
@@ -324,7 +326,7 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 5;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -360,7 +362,7 @@ namespace Xtreme
 			// 
 			// ElasticOne1
 			// 
-			this.ElasticOne1.Align = C1SizerLib.AlignSettings.asNone;
+			////this.ElasticOne1.Align = C1SizerLib.AlignSettings.asNone;
 			this.ElasticOne1.AllowDrop = true;
 			this.ElasticOne1.Location = new System.Drawing.Point(-36, 40);
 			this.ElasticOne1.Name = "ElasticOne1";

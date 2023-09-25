@@ -1,4 +1,6 @@
 
+using Xtreme.UnResolved;
+
 namespace Xtreme
 {
 	partial class frmSysMenus
@@ -76,7 +78,7 @@ namespace Xtreme
 			// 
 			// cntOuterFrame
 			// 
-			this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
+			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
 			this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.tabMaster);
 			this.cntOuterFrame.Location = new System.Drawing.Point(0, 0);
@@ -88,7 +90,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.fraMain);
 			this.tabMaster.Location = new System.Drawing.Point(4, 14);

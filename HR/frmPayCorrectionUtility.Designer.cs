@@ -178,7 +178,7 @@ namespace Xtreme
 			this._optoption_2.Text = "Resumtion";
 			this._optoption_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optoption_2.Visible = true;
-			this._optoption_2.CheckedChanged += new System.EventHandler(this.optoption_CheckedChanged);
+			//this._optoption_2.CheckedChanged += new System.EventHandler(this.optoption_CheckedChanged);
 			// 
 			// _optoption_1
 			// 
@@ -199,7 +199,7 @@ namespace Xtreme
 			this._optoption_1.Text = "Leave ";
 			this._optoption_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optoption_1.Visible = true;
-			this._optoption_1.CheckedChanged += new System.EventHandler(this.optoption_CheckedChanged);
+			//this._optoption_1.CheckedChanged += new System.EventHandler(this.optoption_CheckedChanged);
 			// 
 			// _optoption_0
 			// 
@@ -220,11 +220,11 @@ namespace Xtreme
 			this._optoption_0.Text = "Employee Master";
 			this._optoption_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optoption_0.Visible = true;
-			this._optoption_0.CheckedChanged += new System.EventHandler(this.optoption_CheckedChanged);
+			//this._optoption_0.CheckedChanged += new System.EventHandler(this.optoption_CheckedChanged);
 			// 
 			// tabCorrectionUtility
 			// 
-			this.tabCorrectionUtility.Align = C1SizerLib.AlignSettings.asNone;
+			////this.tabCorrectionUtility.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabCorrectionUtility.AllowDrop = true;
 			this.tabCorrectionUtility.Controls.Add(this.frmResumtion);
 			this.tabCorrectionUtility.Controls.Add(this.frmLeave);
@@ -325,7 +325,7 @@ namespace Xtreme
 			// 
 			// txtDisplayVariationDays
 			// 
-			// this.txtDisplayVariationDays.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
+			// //this.txtDisplayVariationDays.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtDisplayVariationDays.AllowDrop = true;
 			this.txtDisplayVariationDays.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDisplayVariationDays.Enabled = false;

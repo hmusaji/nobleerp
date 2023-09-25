@@ -780,7 +780,7 @@ namespace Xtreme
 			// 
 			// tabVoucherDetails
 			// 
-			this.tabVoucherDetails.Align = C1SizerLib.AlignSettings.asNone;
+			//this.tabVoucherDetails.Align = C1SizerLib.AlignSettings.asNone;
 			this.tabVoucherDetails.AllowDrop = true;
 			this.tabVoucherDetails.Controls.Add(this._fraCommon_1);
 			this.tabVoucherDetails.Controls.Add(this._fraCommon_10);

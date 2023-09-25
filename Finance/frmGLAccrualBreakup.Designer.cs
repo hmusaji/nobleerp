@@ -503,10 +503,10 @@ namespace Xtreme
 			this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(208, 217, 208);
 			// = 1;
-			this.Shape1.BorderStyle = 1;
+			//
 			this.Shape1.Enabled = false;
-			this.Shape1.FillColor = System.Drawing.Color.Black;
-			this.Shape1.FillStyle = 1;
+			//this.Shape1.FillColor = System.Drawing.Color.Black;
+			//this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(0, 70);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(756, 74);
