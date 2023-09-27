@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using UpgradeHelpers.Helpers;
+
 
 namespace Xtreme
 {
@@ -222,46 +222,7 @@ namespace Xtreme
 		}
 
 
-		//**--Load property values from storage
-		//UPGRADE_ISSUE: (2068) PropertyBag object was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2068
-		//UPGRADE_WARNING: (6002) UserControl Event ReadProperties is not supported. More Information: https://docs.mobilize.net/vbuc/ewis#6002
-		private void UserControl_ReadProperties(ref UpgradeStubs.PropertyBag PropBag)
-		{
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.ReadProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			base.Enabled = ReflectionHelper.GetPrimitiveValue<bool>(PropBag.ReadProperty("Enabled", true));
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.ReadProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			cmdButton[mIndexOKButton].Text = ReflectionHelper.GetPrimitiveValue<string>(PropBag.ReadProperty("OkCaption", m_def_OkCaption));
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.ReadProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			cmdButton[mIndexCancelButton].Text = ReflectionHelper.GetPrimitiveValue<string>(PropBag.ReadProperty("CancelCaption", m_def_CancelCaption));
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.ReadProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			cmdButton[mIndexOKButton].Enabled = ReflectionHelper.GetPrimitiveValue<bool>(PropBag.ReadProperty("EnabledOK", true));
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.ReadProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			cmdButton[mIndexCancelButton].Enabled = ReflectionHelper.GetPrimitiveValue<bool>(PropBag.ReadProperty("EnabledCancel", true));
-
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.ReadProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			//UPGRADE_WARNING: (1068) PropBag.ReadProperty() of type Variant is being forced to int. More Information: https://docs.mobilize.net/vbuc/ewis#1068
-			DisplayButton = ReflectionHelper.GetPrimitiveValue<int>(PropBag.ReadProperty("DisplayButton", 2));
-		}
-
-		//**--Write property values to storage
-		//UPGRADE_ISSUE: (2068) PropertyBag object was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2068
-		//UPGRADE_WARNING: (6002) UserControl Event WriteProperties is not supported. More Information: https://docs.mobilize.net/vbuc/ewis#6002
-		private void UserControl_WriteProperties(UpgradeStubs.PropertyBag PropBag)
-		{
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.WriteProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			PropBag.WriteProperty("Enabled", base.Enabled, true);
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.WriteProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			PropBag.WriteProperty("OkCaption", cmdButton[mIndexOKButton].Text, m_def_OkCaption);
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.WriteProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			PropBag.WriteProperty("CancelCaption", cmdButton[mIndexCancelButton].Text, m_def_CancelCaption);
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.WriteProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			PropBag.WriteProperty("DisplayButton", mDisplayButton, 2);
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.WriteProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			PropBag.WriteProperty("EnabledOK", cmdButton[mIndexOKButton].Enabled, true);
-			//UPGRADE_ISSUE: (2064) PropertyBag method PropBag.WriteProperty was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-			PropBag.WriteProperty("EnabledCancel", cmdButton[mIndexCancelButton].Enabled, true);
-		}
-
+		
 		private void cmdButton_KeyDown(Object eventSender, KeyEventArgs eventArgs)
 		{
 			int Index = Array.IndexOf(this.cmdButton, eventSender);

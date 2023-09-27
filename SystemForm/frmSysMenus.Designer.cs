@@ -79,7 +79,7 @@ namespace Xtreme
 			// cntOuterFrame
 			// 
 			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
-			this.cntOuterFrame.AllowDrop = true;
+			//this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.tabMaster);
 			this.cntOuterFrame.Location = new System.Drawing.Point(0, 0);
 			this.cntOuterFrame.Name = "cntOuterFrame";
@@ -91,7 +91,7 @@ namespace Xtreme
 			// tabMaster
 			// 
 			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.fraMain);
 			this.tabMaster.Location = new System.Drawing.Point(4, 14);
 			this.tabMaster.Name = "tabMaster";
@@ -103,9 +103,9 @@ namespace Xtreme
 			// 
 			// fraMain
 			// 
-			this.fraMain.AllowDrop = true;
+			//this.fraMain.AllowDrop = true;
 			this.fraMain.BackColor = System.Drawing.Color.FromArgb(243, 243, 243);
-			this.fraMain.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraMain.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraMain.Controls.Add(this.grdCommon);
 			this.fraMain.Enabled = true;
 			this.fraMain.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// grdCommon
 			// 
-			this.grdCommon.AllowDrop = true;
+			//this.grdCommon.AllowDrop = true;
 			this.grdCommon.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdCommon.CellTipsWidth = 0;
 			this.grdCommon.Location = new System.Drawing.Point(-1, 12);
@@ -128,9 +128,9 @@ namespace Xtreme
 			this.grdCommon.TabIndex = 0;
 			this.grdCommon.Columns.Add(this.Column_0_grdCommon);
 			this.grdCommon.Columns.Add(this.Column_1_grdCommon);
-			this.grdCommon.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdCommon_BeforeColEdit);
+			//this.grdCommon.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdCommon_BeforeColEdit);
 			// this.this.grdCommon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdCommon_KeyPress);
-			this.grdCommon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdCommon_MouseUp);
+			//this.grdCommon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdCommon_MouseUp);
 			// 
 			// Column_0_grdCommon
 			// 

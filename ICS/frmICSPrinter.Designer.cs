@@ -76,7 +76,7 @@ namespace Xtreme
 			// 
 			// cmbPrinter
 			// 
-			this.cmbPrinter.AllowDrop = true;
+			//this.cmbPrinter.AllowDrop = true;
 			this.cmbPrinter.Location = new System.Drawing.Point(128, 116);
 			this.cmbPrinter.Name = "cmbPrinter";
 			this.cmbPrinter.Size = new System.Drawing.Size(201, 21);
@@ -84,7 +84,7 @@ namespace Xtreme
 			// 
 			// txtPrinterNo
 			// 
-			this.txtPrinterNo.AllowDrop = true;
+			//this.txtPrinterNo.AllowDrop = true;
 			this.txtPrinterNo.BackColor = System.Drawing.Color.White;
 			this.txtPrinterNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPrinterNo.Location = new System.Drawing.Point(128, 52);
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(250, 244, 231);
 			this.lblGroupNo.Text = "Printer Code";
 			this.lblGroupNo.ForeColor = System.Drawing.Color.Black;
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(250, 244, 231);
 			this.lblLGroupName.Text = "Printer Name (English)";
 			this.lblLGroupName.ForeColor = System.Drawing.Color.Black;
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// txtLPrinterName
 			// 
-			this.txtLPrinterName.AllowDrop = true;
+			//this.txtLPrinterName.AllowDrop = true;
 			this.txtLPrinterName.BackColor = System.Drawing.Color.White;
 			this.txtLPrinterName.ForeColor = System.Drawing.Color.Black;
 			this.txtLPrinterName.Location = new System.Drawing.Point(128, 73);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(250, 244, 231);
 			this.lblAGroupName.Text = "Printer Name (Arabic)";
 			this.lblAGroupName.ForeColor = System.Drawing.Color.Black;
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// txtAPrinterName
 			// 
-			this.txtAPrinterName.AllowDrop = true;
+			//this.txtAPrinterName.AllowDrop = true;
 			this.txtAPrinterName.BackColor = System.Drawing.Color.White;
 			this.txtAPrinterName.ForeColor = System.Drawing.Color.Black;
 			this.txtAPrinterName.Location = new System.Drawing.Point(128, 94);
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(250, 244, 231);
 			this.lblComments.Text = "Printer Path";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -167,9 +167,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(156, 2);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(156, 2);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmICSPrinter
@@ -188,7 +188,7 @@ namespace Xtreme
 			this.Controls.Add(this.lblAGroupName);
 			this.Controls.Add(this.txtAPrinterName);
 			this.Controls.Add(this.lblComments);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmICSPrinter.Icon");
 			this.KeyPreview = true;

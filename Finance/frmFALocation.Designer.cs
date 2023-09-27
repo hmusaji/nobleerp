@@ -76,7 +76,7 @@ namespace Xtreme
 			// 
 			// txtLocationNo
 			// 
-			this.txtLocationNo.AllowDrop = true;
+			//this.txtLocationNo.AllowDrop = true;
 			this.txtLocationNo.BackColor = System.Drawing.Color.White;
 			// this.txtLocationNo.bolNumericOnly = true;
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
@@ -93,7 +93,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLocationCode.Text = "Location Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// lblLLocationName
 			// 
-			this.lblLLocationName.AllowDrop = true;
+			//this.lblLLocationName.AllowDrop = true;
 			this.lblLLocationName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLLocationName.Text = "Location Name (English)";
 			this.lblLLocationName.ForeColor = System.Drawing.Color.Black;
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// lblALocationName
 			// 
-			this.lblALocationName.AllowDrop = true;
+			//this.lblALocationName.AllowDrop = true;
 			this.lblALocationName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblALocationName.Text = "Location Name (Arabic)";
 			this.lblALocationName.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// txtLLocationName
 			// 
-			this.txtLLocationName.AllowDrop = true;
+			//this.txtLLocationName.AllowDrop = true;
 			this.txtLLocationName.BackColor = System.Drawing.Color.White;
 			this.txtLLocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtLLocationName.Location = new System.Drawing.Point(132, 71);
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// txtALocationName
 			// 
-			this.txtALocationName.AllowDrop = true;
+			//this.txtALocationName.AllowDrop = true;
 			this.txtALocationName.BackColor = System.Drawing.Color.White;
 			this.txtALocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtALocationName.Location = new System.Drawing.Point(132, 92);
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// lblCostCenter
 			// 
-			this.lblCostCenter.AllowDrop = true;
+			//this.lblCostCenter.AllowDrop = true;
 			this.lblCostCenter.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCostCenter.Text = "Cost Center Code";
 			this.lblCostCenter.ForeColor = System.Drawing.Color.Black;
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtCostCenterCd
 			// 
-			this.txtCostCenterCd.AllowDrop = true;
+			//this.txtCostCenterCd.AllowDrop = true;
 			this.txtCostCenterCd.BackColor = System.Drawing.Color.White;
 			// this.txtCostCenterCd.bolNumericOnly = true;
 			this.txtCostCenterCd.ForeColor = System.Drawing.Color.Black;
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// txtCostCenterName
 			// 
-			this.txtCostCenterName.AllowDrop = true;
+			//this.txtCostCenterName.AllowDrop = true;
 			this.txtCostCenterName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtCostCenterName.Enabled = false;
 			this.txtCostCenterName.ForeColor = System.Drawing.Color.Black;

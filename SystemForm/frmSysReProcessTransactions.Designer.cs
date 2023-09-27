@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// _optReprocessType_1
 			// 
-			this._optReprocessType_1.AllowDrop = true;
+			//this._optReprocessType_1.AllowDrop = true;
 			this._optReprocessType_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optReprocessType_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optReprocessType_1.CausesValidation = true;
@@ -102,11 +102,11 @@ namespace Xtreme
 			this._optReprocessType_1.Text = "Repost Vouchers Using Backup Sequence";
 			this._optReprocessType_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optReprocessType_1.Visible = true;
-			this._optReprocessType_1.CheckedChanged += new System.EventHandler(this.optReprocessType_CheckedChanged);
+			//this._optReprocessType_1.CheckedChanged += new System.EventHandler(this.optReprocessType_CheckedChanged);
 			// 
 			// _optReprocessType_0
 			// 
-			this._optReprocessType_0.AllowDrop = true;
+			//this._optReprocessType_0.AllowDrop = true;
 			this._optReprocessType_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optReprocessType_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optReprocessType_0.CausesValidation = true;
@@ -123,23 +123,23 @@ namespace Xtreme
 			this._optReprocessType_0.Text = "Unpost Vouchers";
 			this._optReprocessType_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optReprocessType_0.Visible = true;
-			this._optReprocessType_0.CheckedChanged += new System.EventHandler(this.optReprocessType_CheckedChanged);
+			//this._optReprocessType_0.CheckedChanged += new System.EventHandler(this.optReprocessType_CheckedChanged);
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(132, 194);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 0;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// lblVoucherType
 			// 
-			this.lblVoucherType.AllowDrop = true;
+			//this.lblVoucherType.AllowDrop = true;
 			this.lblVoucherType.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblVoucherType.Text = "Voucher Type";
 			this.lblVoucherType.Location = new System.Drawing.Point(18, 112);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// lblVoucherNo
 			// 
-			this.lblVoucherNo.AllowDrop = true;
+			//this.lblVoucherNo.AllowDrop = true;
 			this.lblVoucherNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblVoucherNo.Text = "Voucher No.";
 			this.lblVoucherNo.Location = new System.Drawing.Point(18, 154);
@@ -159,7 +159,7 @@ namespace Xtreme
 			// 
 			// lblLocatCode
 			// 
-			this.lblLocatCode.AllowDrop = true;
+			//this.lblLocatCode.AllowDrop = true;
 			this.lblLocatCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLocatCode.Text = "Location Code";
 			this.lblLocatCode.Location = new System.Drawing.Point(18, 133);
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// DlblVoucherName
 			// 
-			this.DlblVoucherName.AllowDrop = true;
+			//this.DlblVoucherName.AllowDrop = true;
 			this.DlblVoucherName.Location = new System.Drawing.Point(190, 109);
 			this.DlblVoucherName.Name = "DlblVoucherName";
 			this.DlblVoucherName.Size = new System.Drawing.Size(241, 19);
@@ -177,7 +177,7 @@ namespace Xtreme
 			// 
 			// DlblVoucherNo
 			// 
-			this.DlblVoucherNo.AllowDrop = true;
+			//this.DlblVoucherNo.AllowDrop = true;
 			this.DlblVoucherNo.Location = new System.Drawing.Point(87, 151);
 			this.DlblVoucherNo.Name = "DlblVoucherNo";
 			this.DlblVoucherNo.Size = new System.Drawing.Size(101, 19);
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// DlblVoucherType
 			// 
-			this.DlblVoucherType.AllowDrop = true;
+			//this.DlblVoucherType.AllowDrop = true;
 			this.DlblVoucherType.Location = new System.Drawing.Point(87, 109);
 			this.DlblVoucherType.Name = "DlblVoucherType";
 			this.DlblVoucherType.Size = new System.Drawing.Size(101, 19);
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// DlblLocationCode
 			// 
-			this.DlblLocationCode.AllowDrop = true;
+			//this.DlblLocationCode.AllowDrop = true;
 			this.DlblLocationCode.Location = new System.Drawing.Point(87, 130);
 			this.DlblLocationCode.Name = "DlblLocationCode";
 			this.DlblLocationCode.Size = new System.Drawing.Size(101, 19);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// DlblLocationName
 			// 
-			this.DlblLocationName.AllowDrop = true;
+			//this.DlblLocationName.AllowDrop = true;
 			this.DlblLocationName.Location = new System.Drawing.Point(190, 130);
 			this.DlblLocationName.Name = "DlblLocationName";
 			this.DlblLocationName.Size = new System.Drawing.Size(241, 19);
@@ -209,13 +209,13 @@ namespace Xtreme
 			// 
 			// Shape2
 			// 
-			this.Shape2.AllowDrop = true;
+			//this.Shape2.AllowDrop = true;
 			this.Shape2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// = 1;
-			this.Shape2.BorderStyle = 1;
+			//this.Shape2.BorderStyle = 1;
 			this.Shape2.Enabled = false;
-			this.Shape2.FillColor = System.Drawing.Color.Black;
-			this.Shape2.FillStyle = 1;
+			//this.Shape2.FillColor = System.Drawing.Color.Black;
+			//this.Shape2.FillStyle = 1;
 			this.Shape2.Location = new System.Drawing.Point(12, 103);
 			this.Shape2.Name = "Shape2";
 			this.Shape2.Size = new System.Drawing.Size(444, 82);
@@ -223,13 +223,13 @@ namespace Xtreme
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// = 1;
 			//
 			this.Shape1.Enabled = false;
-			//this.Shape1.FillColor = System.Drawing.Color.Black;
-			//this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(13, 46);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(355, 50);

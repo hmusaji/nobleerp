@@ -84,7 +84,7 @@ namespace Xtreme
 			// 
 			// txtDestinationCd
 			// 
-			this.txtDestinationCd.AllowDrop = true;
+			//this.txtDestinationCd.AllowDrop = true;
 			this.txtDestinationCd.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDestinationCd.ForeColor = System.Drawing.Color.Black;
@@ -99,7 +99,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Ticket Destination Name(ENG)";
 			this.Label1.Location = new System.Drawing.Point(0, 81);
@@ -110,7 +110,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Ticket Destination Name(ARB)";
 			this.Label2.Location = new System.Drawing.Point(0, 104);
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// txtLDestName
 			// 
-			this.txtLDestName.AllowDrop = true;
+			//this.txtLDestName.AllowDrop = true;
 			this.txtLDestName.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtLDestName.ForeColor = System.Drawing.Color.Black;
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// txtADestName
 			// 
-			this.txtADestName.AllowDrop = true;
+			//this.txtADestName.AllowDrop = true;
 			this.txtADestName.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtADestName.ForeColor = System.Drawing.Color.Black;
@@ -147,7 +147,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Nationality Code";
 			this.Label3.Location = new System.Drawing.Point(0, 126);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// txtNatNo
 			// 
-			this.txtNatNo.AllowDrop = true;
+			//this.txtNatNo.AllowDrop = true;
 			this.txtNatNo.BackColor = System.Drawing.Color.White;
 			// this.txtNatNo.bolNumericOnly = true;
 			this.txtNatNo.ForeColor = System.Drawing.Color.Black;
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// txtNatName
 			// 
-			this.txtNatName.AllowDrop = true;
+			//this.txtNatName.AllowDrop = true;
 			this.txtNatName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtNatName.Enabled = false;
 			this.txtNatName.Location = new System.Drawing.Point(247, 124);
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "One Way Ticket Amount";
 			this.Label4.Location = new System.Drawing.Point(0, 176);
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// txtOneWayAmt
 			// 
-			this.txtOneWayAmt.AllowDrop = true;
+			//this.txtOneWayAmt.AllowDrop = true;
 			this.txtOneWayAmt.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtOneWayAmt.Location = new System.Drawing.Point(148, 171);
 			this.txtOneWayAmt.Name = "txtOneWayAmt";
@@ -207,7 +207,7 @@ namespace Xtreme
 			// 
 			// lblReturnAmt
 			// 
-			this.lblReturnAmt.AllowDrop = true;
+			//this.lblReturnAmt.AllowDrop = true;
 			this.lblReturnAmt.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblReturnAmt.Text = "Return Ticket Amount";
 			this.lblReturnAmt.Location = new System.Drawing.Point(2, 148);
@@ -218,7 +218,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "Ticket Destination Code";
 			this.Label5.Location = new System.Drawing.Point(0, 57);
@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// txtReturnAmt
 			// 
-			this.txtReturnAmt.AllowDrop = true;
+			//this.txtReturnAmt.AllowDrop = true;
 			this.txtReturnAmt.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtReturnAmt.Location = new System.Drawing.Point(148, 145);
 			this.txtReturnAmt.Name = "txtReturnAmt";

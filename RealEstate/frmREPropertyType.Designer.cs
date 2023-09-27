@@ -75,7 +75,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(148, 54);
@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(148, 75);
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(148, 96);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// lblAssetsCode
 			// 
-			this.lblAssetsCode.AllowDrop = true;
+			//this.lblAssetsCode.AllowDrop = true;
 			this.lblAssetsCode.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsCode.Text = "Property Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentNo
 			// 
-			this.lblAssetsAdjustmentNo.AllowDrop = true;
+			//this.lblAssetsAdjustmentNo.AllowDrop = true;
 			this.lblAssetsAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentNo.Text = "Property Type Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
@@ -144,7 +144,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label4.Text = "Property Name (Arabic)";
 			this.Label4.ForeColor = System.Drawing.Color.Black;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label1.Text = "Comments";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_3.Location = new System.Drawing.Point(148, 116);

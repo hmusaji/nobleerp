@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// Command1
 			// 
-			this.Command1.AllowDrop = true;
+			//this.Command1.AllowDrop = true;
 			this.Command1.BackColor = System.Drawing.SystemColors.Control;
 			this.Command1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Command1.Location = new System.Drawing.Point(196, 51);
@@ -101,7 +101,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Payroll Date";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// txtDPayrollDate
 			// 
-			this.txtDPayrollDate.AllowDrop = true;
+			//this.txtDPayrollDate.AllowDrop = true;
 			// this.txtDPayrollDate.CheckDateRange = false;
 			this.txtDPayrollDate.Location = new System.Drawing.Point(90, 55);
 			// this.txtDPayrollDate.MaxDate = 2958465;
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_37
 			// 
-			this._lblCommon_37.AllowDrop = true;
+			//this._lblCommon_37.AllowDrop = true;
 			this._lblCommon_37.BackColor = System.Drawing.Color.FromArgb(250, 244, 231);
 			this._lblCommon_37.Text = "Company Code";
 			this._lblCommon_37.ForeColor = System.Drawing.Color.Black;
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// txtCompanyName
 			// 
-			this.txtCompanyName.AllowDrop = true;
+			//this.txtCompanyName.AllowDrop = true;
 			this.txtCompanyName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.txtCompanyName.Location = new System.Drawing.Point(191, 81);
 			this.txtCompanyName.Name = "txtCompanyName";
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// txtCompanyCode
 			// 
-			this.txtCompanyCode.AllowDrop = true;
+			//this.txtCompanyCode.AllowDrop = true;
 			this.txtCompanyCode.BackColor = System.Drawing.Color.White;
 			// this.txtCompanyCode.bolNumericOnly = true;
 			this.txtCompanyCode.ForeColor = System.Drawing.Color.Black;
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Enabled = false;
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(250, 244, 231);
 			this._lblCommon_0.Text = "Budget Code";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -200,7 +200,7 @@ namespace Xtreme
 			// 
 			// txtDlblBudgetName
 			// 
-			this.txtDlblBudgetName.AllowDrop = true;
+			//this.txtDlblBudgetName.AllowDrop = true;
 			this.txtDlblBudgetName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.txtDlblBudgetName.Location = new System.Drawing.Point(191, 105);
 			this.txtDlblBudgetName.Name = "txtDlblBudgetName";
@@ -210,7 +210,7 @@ namespace Xtreme
 			// 
 			// txtBudgetCode
 			// 
-			this.txtBudgetCode.AllowDrop = true;
+			//this.txtBudgetCode.AllowDrop = true;
 			this.txtBudgetCode.BackColor = System.Drawing.Color.White;
 			// this.txtBudgetCode.bolNumericOnly = true;
 			this.txtBudgetCode.ForeColor = System.Drawing.Color.Black;
@@ -227,9 +227,9 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(3, 135);

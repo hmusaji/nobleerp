@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// txtNTotalSalary
 			// 
-			this.txtNTotalSalary.AllowDrop = true;
+			//this.txtNTotalSalary.AllowDrop = true;
 			this.txtNTotalSalary.Enabled = false;
 			this.txtNTotalSalary.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtNTotalSalary.Location = new System.Drawing.Point(360, 165);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// txtStartDate
 			// 
-			this.txtStartDate.AllowDrop = true;
+			//this.txtStartDate.AllowDrop = true;
 			this.txtStartDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtStartDate.CheckDateRange = false;
 			this.txtStartDate.Enabled = false;
@@ -144,7 +144,7 @@ namespace Xtreme
 			// 
 			// chkBudgeted
 			// 
-			this.chkBudgeted.AllowDrop = true;
+			//this.chkBudgeted.AllowDrop = true;
 			this.chkBudgeted.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkBudgeted.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkBudgeted.CausesValidation = true;
@@ -165,9 +165,9 @@ namespace Xtreme
 			// txtComments
 			// 
 			this.txtComments.AcceptsReturn = true;
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtComments.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComments.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComments.Location = new System.Drawing.Point(137, 189);
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// txtHeadcountCode
 			// 
-			this.txtHeadcountCode.AllowDrop = true;
+			//this.txtHeadcountCode.AllowDrop = true;
 			this.txtHeadcountCode.BackColor = System.Drawing.Color.White;
 			// this.txtHeadcountCode.bolNumericOnly = true;
 			this.txtHeadcountCode.ForeColor = System.Drawing.Color.Black;
@@ -195,7 +195,7 @@ namespace Xtreme
 			// 
 			// lblCategoryCode
 			// 
-			this.lblCategoryCode.AllowDrop = true;
+			//this.lblCategoryCode.AllowDrop = true;
 			this.lblCategoryCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryCode.Text = "Headcount Code";
 			this.lblCategoryCode.Location = new System.Drawing.Point(15, 77);
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// txtHCCategoryNo
 			// 
-			this.txtHCCategoryNo.AllowDrop = true;
+			//this.txtHCCategoryNo.AllowDrop = true;
 			this.txtHCCategoryNo.BackColor = System.Drawing.Color.White;
 			// this.txtHCCategoryNo.bolNumericOnly = true;
 			this.txtHCCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// lblDeptCode
 			// 
-			this.lblDeptCode.AllowDrop = true;
+			//this.lblDeptCode.AllowDrop = true;
 			this.lblDeptCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDeptCode.Text = "Category Code";
 			this.lblDeptCode.Location = new System.Drawing.Point(15, 119);
@@ -231,7 +231,7 @@ namespace Xtreme
 			// 
 			// txtHCCategoryName
 			// 
-			this.txtHCCategoryName.AllowDrop = true;
+			//this.txtHCCategoryName.AllowDrop = true;
 			this.txtHCCategoryName.Location = new System.Drawing.Point(240, 117);
 			this.txtHCCategoryName.Name = "txtHCCategoryName";
 			this.txtHCCategoryName.Size = new System.Drawing.Size(239, 19);
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(15, 98);
@@ -251,7 +251,7 @@ namespace Xtreme
 			// 
 			// txtEmpName
 			// 
-			this.txtEmpName.AllowDrop = true;
+			//this.txtEmpName.AllowDrop = true;
 			this.txtEmpName.Location = new System.Drawing.Point(240, 96);
 			this.txtEmpName.Name = "txtEmpName";
 			this.txtEmpName.Size = new System.Drawing.Size(239, 19);
@@ -260,7 +260,7 @@ namespace Xtreme
 			// 
 			// txtEmpCode
 			// 
-			this.txtEmpCode.AllowDrop = true;
+			//this.txtEmpCode.AllowDrop = true;
 			this.txtEmpCode.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtEmpCode.Enabled = false;
 			this.txtEmpCode.ForeColor = System.Drawing.Color.Black;
@@ -274,7 +274,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_102
 			// 
-			this._lblCommon_102.AllowDrop = true;
+			//this._lblCommon_102.AllowDrop = true;
 			this._lblCommon_102.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_102.Text = "Status";
 			this._lblCommon_102.Location = new System.Drawing.Point(15, 142);
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_0
 			// 
-			this._cmbCommon_0.AllowDrop = true;
+			//this._cmbCommon_0.AllowDrop = true;
 			this._cmbCommon_0.Location = new System.Drawing.Point(137, 138);
 			this._cmbCommon_0.Name = "_cmbCommon_0";
 			this._cmbCommon_0.Size = new System.Drawing.Size(101, 21);
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(15, 189);
@@ -304,7 +304,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_66
 			// 
-			this._lblCommon_66.AllowDrop = true;
+			//this._lblCommon_66.AllowDrop = true;
 			this._lblCommon_66.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_66.Text = " Analysis1";
 			this._lblCommon_66.Location = new System.Drawing.Point(15, 261);
@@ -315,7 +315,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_67
 			// 
-			this._lblCommon_67.AllowDrop = true;
+			//this._lblCommon_67.AllowDrop = true;
 			this._lblCommon_67.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_67.Text = " Analysis2";
 			this._lblCommon_67.Location = new System.Drawing.Point(171, 261);
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_69
 			// 
-			this._lblCommon_69.AllowDrop = true;
+			//this._lblCommon_69.AllowDrop = true;
 			this._lblCommon_69.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_69.Text = " Analysis3";
 			this._lblCommon_69.Location = new System.Drawing.Point(330, 261);
@@ -337,7 +337,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_71
 			// 
-			this._lblCommon_71.AllowDrop = true;
+			//this._lblCommon_71.AllowDrop = true;
 			this._lblCommon_71.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_71.Text = " Analysis4";
 			this._lblCommon_71.Location = new System.Drawing.Point(15, 282);
@@ -348,7 +348,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_72
 			// 
-			this._lblCommon_72.AllowDrop = true;
+			//this._lblCommon_72.AllowDrop = true;
 			this._lblCommon_72.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_72.Text = " Analysis5";
 			this._lblCommon_72.Location = new System.Drawing.Point(171, 282);
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// txtAnly1
 			// 
-			this.txtAnly1.AllowDrop = true;
+			//this.txtAnly1.AllowDrop = true;
 			this.txtAnly1.BackColor = System.Drawing.Color.White;
 			this.txtAnly1.ForeColor = System.Drawing.Color.Black;
 			this.txtAnly1.Location = new System.Drawing.Point(78, 258);
@@ -370,7 +370,7 @@ namespace Xtreme
 			// 
 			// txtAnly2
 			// 
-			this.txtAnly2.AllowDrop = true;
+			//this.txtAnly2.AllowDrop = true;
 			this.txtAnly2.BackColor = System.Drawing.Color.White;
 			this.txtAnly2.ForeColor = System.Drawing.Color.Black;
 			this.txtAnly2.Location = new System.Drawing.Point(231, 258);
@@ -381,7 +381,7 @@ namespace Xtreme
 			// 
 			// txtAnly3
 			// 
-			this.txtAnly3.AllowDrop = true;
+			//this.txtAnly3.AllowDrop = true;
 			this.txtAnly3.BackColor = System.Drawing.Color.White;
 			this.txtAnly3.ForeColor = System.Drawing.Color.Black;
 			this.txtAnly3.Location = new System.Drawing.Point(387, 258);
@@ -392,7 +392,7 @@ namespace Xtreme
 			// 
 			// txtAnly4
 			// 
-			this.txtAnly4.AllowDrop = true;
+			//this.txtAnly4.AllowDrop = true;
 			this.txtAnly4.BackColor = System.Drawing.Color.White;
 			this.txtAnly4.ForeColor = System.Drawing.Color.Black;
 			this.txtAnly4.Location = new System.Drawing.Point(78, 279);
@@ -403,7 +403,7 @@ namespace Xtreme
 			// 
 			// txtAnly5
 			// 
-			this.txtAnly5.AllowDrop = true;
+			//this.txtAnly5.AllowDrop = true;
 			this.txtAnly5.BackColor = System.Drawing.Color.White;
 			this.txtAnly5.ForeColor = System.Drawing.Color.Black;
 			this.txtAnly5.Location = new System.Drawing.Point(231, 279);
@@ -414,7 +414,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_65
 			// 
-			this._lblCommon_65.AllowDrop = true;
+			//this._lblCommon_65.AllowDrop = true;
 			this._lblCommon_65.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_65.Text = "GL Segment";
 			this._lblCommon_65.Location = new System.Drawing.Point(15, 243);
@@ -424,7 +424,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_0.Text = "Start Date";
 			this._lblCommon_0.Location = new System.Drawing.Point(15, 164);
@@ -434,7 +434,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_1.Text = "Total Salary";
 			this._lblCommon_1.Location = new System.Drawing.Point(264, 165);
@@ -444,13 +444,13 @@ namespace Xtreme
 			// 
 			// Shape3
 			// 
-			//this.Shape3.AllowDrop = true;
+			////this.Shape3.AllowDrop = true;
 			//this.Shape3.BackColor = System.Drawing.SystemColors.Window;
 			//// = 0;
-			//this.Shape3.BorderStyle = 1;
+			////this.Shape3.BorderStyle = 1;
 			//this.Shape3.Enabled = false;
-			//this.Shape3.FillColor = System.Drawing.Color.Black;
-			//this.Shape3.FillStyle = 1;
+			////this.Shape3.FillColor = System.Drawing.Color.Black;
+			////this.Shape3.FillStyle = 1;
 			//this.Shape3.Location = new System.Drawing.Point(6, 252);
 			//this.Shape3.Name = "Shape3";
 			//this.Shape3.Size = new System.Drawing.Size(472, 62);

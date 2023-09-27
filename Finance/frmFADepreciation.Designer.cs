@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// txtDeprDate
 			// 
-			this.txtDeprDate.AllowDrop = true;
+			//this.txtDeprDate.AllowDrop = true;
 			this.txtDeprDate.Location = new System.Drawing.Point(98, 71);
 			// this.txtDeprDate.MaxDate = 2958465;
 			// this.txtDeprDate.MinDate = 2;
@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// lblDate
 			// 
-			this.lblDate.AllowDrop = true;
+			//this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblDate.Text = "Transaction Date";
 			this.lblDate.ForeColor = System.Drawing.Color.Black;
@@ -93,7 +93,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(98, 93);
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// txtDepreciationNo
 			// 
-			this.txtDepreciationNo.AllowDrop = true;
+			//this.txtDepreciationNo.AllowDrop = true;
 			this.txtDepreciationNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDepreciationNo.bolNumericOnly = true;
 			this.txtDepreciationNo.Enabled = false;
@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// lblDepreciationNo
 			// 
-			this.lblDepreciationNo.AllowDrop = true;
+			//this.lblDepreciationNo.AllowDrop = true;
 			this.lblDepreciationNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDepreciationNo.Text = "Transaction No";
 			this.lblDepreciationNo.ForeColor = System.Drawing.Color.Black;

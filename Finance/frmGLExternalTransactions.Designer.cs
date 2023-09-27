@@ -78,7 +78,7 @@ namespace Xtreme
 			// 
 			// cmdShow
 			// 
-			this.cmdShow.AllowDrop = true;
+			//this.cmdShow.AllowDrop = true;
 			this.cmdShow.BackColor = System.Drawing.Color.FromArgb(249, 238, 221);
 			this.cmdShow.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdShow.Location = new System.Drawing.Point(214, 52);
@@ -93,7 +93,7 @@ namespace Xtreme
 			// 
 			// txtTransDate
 			// 
-			this.txtTransDate.AllowDrop = true;
+			//this.txtTransDate.AllowDrop = true;
 			// this.txtTransDate.CheckDateRange = false;
 			this.txtTransDate.Location = new System.Drawing.Point(90, 57);
 			// this.txtTransDate.MaxDate = 2958465;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// label1
 			// 
-			this.label1.AllowDrop = true;
+			//this.label1.AllowDrop = true;
 			this.label1.BackColor = System.Drawing.SystemColors.Window;
 			this.label1.Text = "As On Date:";
 			this.label1.ForeColor = System.Drawing.Color.Black;
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// grdTransDetails
 			// 
-			this.grdTransDetails.AllowDrop = true;
+			//this.grdTransDetails.AllowDrop = true;
 			this.grdTransDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdTransDetails.CellTipsWidth = 0;
 			this.grdTransDetails.Location = new System.Drawing.Point(3, 96);
@@ -126,9 +126,9 @@ namespace Xtreme
 			this.grdTransDetails.TabIndex = 3;
 			this.grdTransDetails.Columns.Add(this.Column_0_grdTransDetails);
 			this.grdTransDetails.Columns.Add(this.Column_1_grdTransDetails);
-			this.grdTransDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdTransDetails_BeforeColEdit);
+			////this.grdTransDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdTransDetails_BeforeColEdit);
 			// this.this.grdTransDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdTransDetails_KeyPress);
-			this.grdTransDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdTransDetails_MouseUp);
+			////this.grdTransDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdTransDetails_MouseUp);
 			// 
 			// Column_0_grdTransDetails
 			// 
@@ -142,16 +142,16 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(0, 87);
@@ -172,7 +172,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtTransDate);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.grdTransDetails);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.Controls.Add(this.Line1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLExternalTransactions.Icon");
@@ -184,7 +184,7 @@ namespace Xtreme
 			this.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "GL External Transactions";
-			this.commandButtonHelper1.SetStyle(this.cmdShow, 1);
+			//this.commandButtonHelper1.SetStyle(this.cmdShow, 1);
 			// this.Activated += new System.EventHandler(this.Form_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);

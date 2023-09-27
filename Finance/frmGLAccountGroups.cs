@@ -15,7 +15,7 @@ namespace Xtreme
 
 		private int mThisFormID = 0; //Assign the Formid for Each Form
 		private object mSearchValue = null; //Variable for storing the searchvalue from the Find window
-		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0; //Enum for checking the current form mode
+		//private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0; //Enum for checking the current form mode
 		
 		public frmGLAccountGroups()
 {

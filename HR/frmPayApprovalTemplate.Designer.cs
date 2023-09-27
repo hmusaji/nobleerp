@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// txtDlblApprovalTypeNAme
 			// 
-			this.txtDlblApprovalTypeNAme.AllowDrop = true;
+			//this.txtDlblApprovalTypeNAme.AllowDrop = true;
 			this.txtDlblApprovalTypeNAme.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.txtDlblApprovalTypeNAme.Enabled = false;
 			this.txtDlblApprovalTypeNAme.Location = new System.Drawing.Point(235, 97);
@@ -104,7 +104,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(132, 240);
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			this.grdApprovalTemplate.AllowAddNew = true;
 			this.grdApprovalTemplate.AllowDelete = true;
-			this.grdApprovalTemplate.AllowDrop = true;
+			//this.grdApprovalTemplate.AllowDrop = true;
 			this.grdApprovalTemplate.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdApprovalTemplate.CellTipsWidth = 0;
 			this.grdApprovalTemplate.Location = new System.Drawing.Point(0, 176);
@@ -138,8 +138,8 @@ namespace Xtreme
 			this.grdApprovalTemplate.TabIndex = 5;
 			this.grdApprovalTemplate.Columns.Add(this.Column_0_grdApprovalTemplate);
 			this.grdApprovalTemplate.Columns.Add(this.Column_1_grdApprovalTemplate);
-			//this.grdApprovalTemplate.GotFocus += new System.EventHandler(this.grdApprovalTemplate_GotFocus);
-			//this.grdApprovalTemplate.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdApprovalTemplate_RowColChange);
+			////this.grdApprovalTemplate.GotFocus += new System.EventHandler(this.grdApprovalTemplate_GotFocus);
+			////this.grdApprovalTemplate.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdApprovalTemplate_RowColChange);
 			// 
 			// Column_0_grdApprovalTemplate
 			// 
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// _txtTextBox_0
 			// 
-			this._txtTextBox_0.AllowDrop = true;
+			//this._txtTextBox_0.AllowDrop = true;
 			this._txtTextBox_0.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtTextBox_0.ForeColor = System.Drawing.Color.Black;
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Template Name(ARB)";
 			this.Label3.Location = new System.Drawing.Point(7, 144);
@@ -177,7 +177,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Template Name(ENG)";
 			this.Label2.Location = new System.Drawing.Point(7, 121);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// Label1_0
 			// 
-			this.Label1_0.AllowDrop = true;
+			//this.Label1_0.AllowDrop = true;
 			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_0.Text = "Template Code";
 			this.Label1_0.Location = new System.Drawing.Point(7, 79);
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// _txtTextBox_1
 			// 
-			this._txtTextBox_1.AllowDrop = true;
+			//this._txtTextBox_1.AllowDrop = true;
 			this._txtTextBox_1.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtTextBox_1.ForeColor = System.Drawing.Color.Black;
@@ -210,7 +210,7 @@ namespace Xtreme
 			// 
 			// _txtTextBox_2
 			// 
-			this._txtTextBox_2.AllowDrop = true;
+			//this._txtTextBox_2.AllowDrop = true;
 			this._txtTextBox_2.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtTextBox_2.ForeColor = System.Drawing.Color.Black;
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// txtApprovalTypeCode
 			// 
-			this.txtApprovalTypeCode.AllowDrop = true;
+			//this.txtApprovalTypeCode.AllowDrop = true;
 			this.txtApprovalTypeCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtApprovalTypeCode.ForeColor = System.Drawing.Color.Black;
@@ -239,7 +239,7 @@ namespace Xtreme
 			// 
 			// Label1_1
 			// 
-			this.Label1_1.AllowDrop = true;
+			//this.Label1_1.AllowDrop = true;
 			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_1.Text = "Approval Type Code";
 			this.Label1_1.Location = new System.Drawing.Point(7, 100);
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 172);

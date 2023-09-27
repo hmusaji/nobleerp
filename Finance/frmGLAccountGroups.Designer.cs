@@ -104,7 +104,7 @@ namespace Xtreme
 			// 
 			// fraDetailsInfo
 			// 
-			this.fraDetailsInfo.AllowDrop = true;
+			//this.fraDetailsInfo.AllowDrop = true;
 			this.fraDetailsInfo.Controls.Add(this.Frame1);
 			this.fraDetailsInfo.Controls.Add(this.txtComment);
 			this.fraDetailsInfo.Controls.Add(this._cmdCommon_0);
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.Controls.Add(this._lblCommon_7);
 			this.Frame1.Controls.Add(this._lblCommon_8);
 			this.Frame1.Location = new System.Drawing.Point(312, 40);
@@ -135,7 +135,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_7.Text = "Total 0 Ledger Accounts (Under This Group)";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.FromArgb(166, 166, 166);
@@ -147,7 +147,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_8.Text = "Total 0 Sub Groups (Under This Group)";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.FromArgb(166, 166, 166);
@@ -160,9 +160,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(135, 96);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// _cmdCommon_0
 			// 
-			this._cmdCommon_0.AllowDrop = true;
+			//this._cmdCommon_0.AllowDrop = true;
 			this._cmdCommon_0.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdCommon_0.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._cmdCommon_0.Location = new System.Drawing.Point(441, 16);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_4.Text = "Parent Group";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -202,7 +202,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Comments";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -214,7 +214,7 @@ namespace Xtreme
 			// 
 			// txtParentGroupNo
 			// 
-			this.txtParentGroupNo.AllowDrop = true;
+			//this.txtParentGroupNo.AllowDrop = true;
 			this.txtParentGroupNo.BackColor = System.Drawing.Color.White;
 			// this.txtParentGroupNo.bolNumericOnly = true;
 			this.txtParentGroupNo.ForeColor = System.Drawing.Color.Black;
@@ -231,7 +231,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_6
 			// 
-			this._lblCommon_6.AllowDrop = true;
+			//this._lblCommon_6.AllowDrop = true;
 			this._lblCommon_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_6.Text = " (Parent Group Name) ";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -243,7 +243,7 @@ namespace Xtreme
 			// 
 			// txtParentGroupName
 			// 
-			this.txtParentGroupName.AllowDrop = true;
+			//this.txtParentGroupName.AllowDrop = true;
 			this.txtParentGroupName.Location = new System.Drawing.Point(238, 16);
 			this.txtParentGroupName.Name = "txtParentGroupName";
 			this.txtParentGroupName.Size = new System.Drawing.Size(201, 19);
@@ -251,7 +251,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_41
 			// 
-			this._lblCommon_41.AllowDrop = true;
+			//this._lblCommon_41.AllowDrop = true;
 			this._lblCommon_41.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_41.Text = "Type Code";
 			this._lblCommon_41.ForeColor = System.Drawing.Color.Black;
@@ -263,7 +263,7 @@ namespace Xtreme
 			// 
 			// txtDTypeName
 			// 
-			this.txtDTypeName.AllowDrop = true;
+			//this.txtDTypeName.AllowDrop = true;
 			this.txtDTypeName.Location = new System.Drawing.Point(238, 74);
 			this.txtDTypeName.Name = "txtDTypeName";
 			this.txtDTypeName.Size = new System.Drawing.Size(201, 19);
@@ -271,7 +271,7 @@ namespace Xtreme
 			// 
 			// txtTypeCode
 			// 
-			this.txtTypeCode.AllowDrop = true;
+			//this.txtTypeCode.AllowDrop = true;
 			this.txtTypeCode.BackColor = System.Drawing.Color.White;
 			// this.txtTypeCode.bolNumericOnly = true;
 			this.txtTypeCode.ForeColor = System.Drawing.Color.Black;
@@ -288,7 +288,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_0.Text = "Group Code";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// txtGroupNo
 			// 
-			this.txtGroupNo.AllowDrop = true;
+			//this.txtGroupNo.AllowDrop = true;
 			this.txtGroupNo.BackColor = System.Drawing.Color.White;
 			// this.txtGroupNo.bolNumericOnly = true;
 			this.txtGroupNo.ForeColor = System.Drawing.Color.Black;
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_1.Text = "Group Name (English)";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -328,7 +328,7 @@ namespace Xtreme
 			// 
 			// txtLGroupName
 			// 
-			this.txtLGroupName.AllowDrop = true;
+			//this.txtLGroupName.AllowDrop = true;
 			this.txtLGroupName.BackColor = System.Drawing.Color.White;
 			this.txtLGroupName.ForeColor = System.Drawing.Color.Black;
 			this.txtLGroupName.Location = new System.Drawing.Point(138, 40);
@@ -341,7 +341,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_2.Text = "Group Name (Arabic)";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -353,7 +353,7 @@ namespace Xtreme
 			// 
 			// txtAGroupName
 			// 
-			this.txtAGroupName.AllowDrop = true;
+			//this.txtAGroupName.AllowDrop = true;
 			this.txtAGroupName.BackColor = System.Drawing.Color.White;
 			this.txtAGroupName.ForeColor = System.Drawing.Color.Black;
 			this.txtAGroupName.Location = new System.Drawing.Point(138, 61);

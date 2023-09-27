@@ -66,7 +66,7 @@ namespace Xtreme
 			// 
 			// btnMore
 			// 
-			this.btnMore.AllowDrop = true;
+			//this.btnMore.AllowDrop = true;
 			this.btnMore.BackColor = System.Drawing.SystemColors.Control;
 			this.btnMore.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnMore.Location = new System.Drawing.Point(374, 90);
@@ -82,7 +82,7 @@ namespace Xtreme
 			// 
 			// cmdCancel
 			// 
-			this.cmdCancel.AllowDrop = true;
+			//this.cmdCancel.AllowDrop = true;
 			this.cmdCancel.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdCancel.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdCancel.Location = new System.Drawing.Point(256, 90);
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// cmdOk
 			// 
-			this.cmdOk.AllowDrop = true;
+			//this.cmdOk.AllowDrop = true;
 			this.cmdOk.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdOk.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdOk.Location = new System.Drawing.Point(184, 90);
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// cmdRetry
 			// 
-			this.cmdRetry.AllowDrop = true;
+			//this.cmdRetry.AllowDrop = true;
 			this.cmdRetry.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdRetry.CausesValidation = false;
 			this.cmdRetry.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -131,9 +131,9 @@ namespace Xtreme
 			// 
 			// txtLineNo
 			// 
-			this.txtLineNo.AllowDrop = true;
+			//this.txtLineNo.AllowDrop = true;
 			this.txtLineNo.BackColor = System.Drawing.Color.White;
-			this.txtLineNo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.txtLineNo.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.txtLineNo.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.txtLineNo.Location = new System.Drawing.Point(58, 366);
 			this.txtLineNo.Name = "txtLineNo";
@@ -143,9 +143,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.White;
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Label1.Location = new System.Drawing.Point(10, 366);
@@ -157,9 +157,9 @@ namespace Xtreme
 			// 
 			// txtModule
 			// 
-			this.txtModule.AllowDrop = true;
+			//this.txtModule.AllowDrop = true;
 			this.txtModule.BackColor = System.Drawing.Color.White;
-			this.txtModule.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.txtModule.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.txtModule.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.txtModule.Location = new System.Drawing.Point(58, 340);
 			this.txtModule.Name = "txtModule";
@@ -169,9 +169,9 @@ namespace Xtreme
 			// 
 			// lblMod
 			// 
-			this.lblMod.AllowDrop = true;
+			//this.lblMod.AllowDrop = true;
 			this.lblMod.BackColor = System.Drawing.Color.White;
-			this.lblMod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblMod.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblMod.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblMod.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblMod.Location = new System.Drawing.Point(10, 340);
@@ -183,9 +183,9 @@ namespace Xtreme
 			// 
 			// lblReason
 			// 
-			this.lblReason.AllowDrop = true;
+			//this.lblReason.AllowDrop = true;
 			this.lblReason.BackColor = System.Drawing.Color.White;
-			this.lblReason.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblReason.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblReason.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblReason.Location = new System.Drawing.Point(474, 148);
 			this.lblReason.Name = "lblReason";
@@ -195,9 +195,9 @@ namespace Xtreme
 			// 
 			// lblError
 			// 
-			this.lblError.AllowDrop = true;
+			//this.lblError.AllowDrop = true;
 			this.lblError.BackColor = System.Drawing.Color.Transparent;
-			this.lblError.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblError.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblError.ForeColor = System.Drawing.Color.Blue;
 			this.lblError.Location = new System.Drawing.Point(108, 28);
@@ -208,9 +208,9 @@ namespace Xtreme
 			// 
 			// lblRes
 			// 
-			this.lblRes.AllowDrop = true;
+			//this.lblRes.AllowDrop = true;
 			this.lblRes.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
-			this.lblRes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblRes.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblRes.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblRes.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblRes.Location = new System.Drawing.Point(474, 126);
@@ -223,9 +223,9 @@ namespace Xtreme
 			// 
 			// txtSolution
 			// 
-			this.txtSolution.AllowDrop = true;
+			//this.txtSolution.AllowDrop = true;
 			this.txtSolution.BackColor = System.Drawing.Color.White;
-			this.txtSolution.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.txtSolution.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.txtSolution.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.txtSolution.Location = new System.Drawing.Point(8, 254);
 			this.txtSolution.Name = "txtSolution";
@@ -235,9 +235,9 @@ namespace Xtreme
 			// 
 			// lblSolution
 			// 
-			this.lblSolution.AllowDrop = true;
+			//this.lblSolution.AllowDrop = true;
 			this.lblSolution.BackColor = System.Drawing.Color.White;
-			this.lblSolution.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblSolution.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblSolution.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblSolution.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblSolution.Location = new System.Drawing.Point(8, 228);
@@ -249,8 +249,8 @@ namespace Xtreme
 			// 
 			// ImgQuestion
 			// 
-			this.ImgQuestion.AllowDrop = true;
-			this.ImgQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.ImgQuestion.AllowDrop = true;
+			//this.ImgQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.ImgQuestion.Enabled = true;
 			//this.ImgQuestion.Image = (System.Drawing.Image) resources.GetObject("ImgQuestion.Image");
 			this.ImgQuestion.Location = new System.Drawing.Point(10, 14);
@@ -261,8 +261,8 @@ namespace Xtreme
 			// 
 			// ImgExclamation
 			// 
-			this.ImgExclamation.AllowDrop = true;
-			this.ImgExclamation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.ImgExclamation.AllowDrop = true;
+			//this.ImgExclamation.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.ImgExclamation.Enabled = true;
 			//this.ImgExclamation.Image = (System.Drawing.Image) resources.GetObject("ImgExclamation.Image");
 			this.ImgExclamation.Location = new System.Drawing.Point(10, 12);
@@ -273,8 +273,8 @@ namespace Xtreme
 			// 
 			// ImgInformation
 			// 
-			this.ImgInformation.AllowDrop = true;
-			this.ImgInformation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.ImgInformation.AllowDrop = true;
+			//this.ImgInformation.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.ImgInformation.Enabled = true;
 			//this.ImgInformation.Image = (System.Drawing.Image) resources.GetObject("ImgInformation.Image");
 			this.ImgInformation.Location = new System.Drawing.Point(10, 12);
@@ -285,8 +285,8 @@ namespace Xtreme
 			// 
 			// ImgCritical
 			// 
-			this.ImgCritical.AllowDrop = true;
-			this.ImgCritical.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.ImgCritical.AllowDrop = true;
+			//this.ImgCritical.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.ImgCritical.Enabled = true;
 			//this.ImgCritical.Image = (System.Drawing.Image) resources.GetObject("ImgCritical.Image");
 			this.ImgCritical.Location = new System.Drawing.Point(10, 12);

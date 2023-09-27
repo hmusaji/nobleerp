@@ -79,7 +79,7 @@ namespace Xtreme
 			// 
 			// cntMasterDetails
 			// 
-			this.cntMasterDetails.AllowDrop = true;
+			//this.cntMasterDetails.AllowDrop = true;
 			this.cntMasterDetails.Controls.Add(this.grdVoucherDetails);
 			this.cntMasterDetails.Location = new System.Drawing.Point(2, 98);
 			this.cntMasterDetails.Name = "cntMasterDetails";
@@ -89,20 +89,20 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 0);
 			this.grdVoucherDetails.Name = "grdVoucherDetails";
 			this.grdVoucherDetails.RowDivider.Color = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.Size = new System.Drawing.Size(521, 174);
 			this.grdVoucherDetails.TabIndex = 1;
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// 
 			// txtProductCode
 			// 
-			this.txtProductCode.AllowDrop = true;
+			//this.txtProductCode.AllowDrop = true;
 			this.txtProductCode.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtProductCode.Enabled = false;
 			this.txtProductCode.ForeColor = System.Drawing.Color.Black;
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// lblLedgerNo
 			// 
-			this.lblLedgerNo.AllowDrop = true;
+			//this.lblLedgerNo.AllowDrop = true;
 			this.lblLedgerNo.BackColor = System.Drawing.SystemColors.Window;
 			this.lblLedgerNo.Text = "Product Code";
 			this.lblLedgerNo.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// cmbCommon
 			// 
-			this.cmbCommon.AllowDrop = true;
+			//this.cmbCommon.AllowDrop = true;
 			this.cmbCommon.ColumnHeaders = true;
 			this.cmbCommon.Enabled = true;
 			this.cmbCommon.Location = new System.Drawing.Point(468, 50);
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// txtProductName
 			// 
-			this.txtProductName.AllowDrop = true;
+			//this.txtProductName.AllowDrop = true;
 			this.txtProductName.Enabled = false;
 			this.txtProductName.Location = new System.Drawing.Point(196, 54);
 			this.txtProductName.Name = "txtProductName";
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 86);

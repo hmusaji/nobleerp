@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// chkPayrollEarning
 			// 
-			this.chkPayrollEarning.AllowDrop = true;
+			//this.chkPayrollEarning.AllowDrop = true;
 			this.chkPayrollEarning.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkPayrollEarning.BackColor = System.Drawing.Color.White;
 			this.chkPayrollEarning.CausesValidation = true;
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(6, 46);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 67);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Designation Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(6, 88);
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(96, 44);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_4
 			// 
-			this._txtDisplayLabel_4.AllowDrop = true;
+			//this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.Enabled = false;
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(199, 44);
 			this._txtDisplayLabel_4.Name = "_txtDisplayLabel_4";
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Enabled = false;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(199, 86);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
@@ -207,7 +207,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Enabled = false;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(96, 86);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
@@ -217,7 +217,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Enabled = false;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(199, 65);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
@@ -227,7 +227,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Enabled = false;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(96, 65);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
@@ -237,7 +237,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Start Date";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(6, 120);
@@ -248,7 +248,7 @@ namespace Xtreme
 			// 
 			// txtStartDate
 			// 
-			this.txtStartDate.AllowDrop = true;
+			//this.txtStartDate.AllowDrop = true;
 			this.txtStartDate.BackColor = System.Drawing.Color.White;
 			// this.txtStartDate.CheckDateRange = false;
 			this.txtStartDate.Location = new System.Drawing.Point(94, 116);
@@ -263,7 +263,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Resume Date";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(260, 120);
@@ -274,7 +274,7 @@ namespace Xtreme
 			// 
 			// txtResumeDate
 			// 
-			this.txtResumeDate.AllowDrop = true;
+			//this.txtResumeDate.AllowDrop = true;
 			this.txtResumeDate.BackColor = System.Drawing.Color.White;
 			// this.txtResumeDate.CheckDateRange = false;
 			this.txtResumeDate.Location = new System.Drawing.Point(350, 116);
@@ -287,11 +287,11 @@ namespace Xtreme
 			// this.txtResumeDate.Text = "13/04/2010";
 			// this.txtResumeDate.Value = 40281;
 			// this.this.txtResumeDate.Change += new Syncfusion.WinForms.Input.SfDateTimeEdit.ChangeHandler(this.txtResumeDate_Change);
-			this.txtResumeDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtResumeDate_Validating);
+			//this.txtResumeDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtResumeDate_Validating);
 			// 
 			// frmDetail
 			// 
-			this.frmDetail.AllowDrop = true;
+			//this.frmDetail.AllowDrop = true;
 			this.frmDetail.BackColor = System.Drawing.Color.White;
 			this.frmDetail.Controls.Add(this.CHKOldWithZeroAccrual);
 			this.frmDetail.Controls.Add(this.CHkOldWithNoPay);
@@ -317,7 +317,7 @@ namespace Xtreme
 			// 
 			// CHKOldWithZeroAccrual
 			// 
-			this.CHKOldWithZeroAccrual.AllowDrop = true;
+			//this.CHKOldWithZeroAccrual.AllowDrop = true;
 			this.CHKOldWithZeroAccrual.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.CHKOldWithZeroAccrual.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.CHKOldWithZeroAccrual.CausesValidation = true;
@@ -334,11 +334,11 @@ namespace Xtreme
 			this.CHKOldWithZeroAccrual.Text = "As Old Employee But Zero Accrual";
 			this.CHKOldWithZeroAccrual.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.CHKOldWithZeroAccrual.Visible = true;
-			this.CHKOldWithZeroAccrual.CheckedChanged += new System.EventHandler(this.CHKOldWithZeroAccrual_CheckedChanged);
+			//this.CHKOldWithZeroAccrual.CheckedChanged += new System.EventHandler(this.CHKOldWithZeroAccrual_CheckedChanged);
 			// 
 			// CHkOldWithNoPay
 			// 
-			this.CHkOldWithNoPay.AllowDrop = true;
+			//this.CHkOldWithNoPay.AllowDrop = true;
 			this.CHkOldWithNoPay.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.CHkOldWithNoPay.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.CHkOldWithNoPay.CausesValidation = true;
@@ -355,11 +355,11 @@ namespace Xtreme
 			this.CHkOldWithNoPay.Text = "As Old Employee But with No Paid Days";
 			this.CHkOldWithNoPay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.CHkOldWithNoPay.Visible = true;
-			this.CHkOldWithNoPay.CheckedChanged += new System.EventHandler(this.CHkOldWithNoPay_CheckedChanged);
+			//this.CHkOldWithNoPay.CheckedChanged += new System.EventHandler(this.CHkOldWithNoPay_CheckedChanged);
 			// 
 			// CHKOldWithPayDays
 			// 
-			this.CHKOldWithPayDays.AllowDrop = true;
+			//this.CHKOldWithPayDays.AllowDrop = true;
 			this.CHKOldWithPayDays.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.CHKOldWithPayDays.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.CHKOldWithPayDays.CausesValidation = true;
@@ -376,11 +376,11 @@ namespace Xtreme
 			this.CHKOldWithPayDays.Text = "As Old Employee But with All PayDays";
 			this.CHKOldWithPayDays.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.CHKOldWithPayDays.Visible = true;
-			this.CHKOldWithPayDays.CheckedChanged += new System.EventHandler(this.CHKOldWithPayDays_CheckedChanged);
+			//this.CHKOldWithPayDays.CheckedChanged += new System.EventHandler(this.CHKOldWithPayDays_CheckedChanged);
 			// 
 			// ChkNewEmp
 			// 
-			this.ChkNewEmp.AllowDrop = true;
+			//this.ChkNewEmp.AllowDrop = true;
 			this.ChkNewEmp.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.ChkNewEmp.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.ChkNewEmp.CausesValidation = true;
@@ -397,11 +397,11 @@ namespace Xtreme
 			this.ChkNewEmp.Text = "As New Employee";
 			this.ChkNewEmp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.ChkNewEmp.Visible = true;
-			this.ChkNewEmp.CheckedChanged += new System.EventHandler(this.ChkNewEmp_CheckedChanged);
+			//this.ChkNewEmp.CheckedChanged += new System.EventHandler(this.ChkNewEmp_CheckedChanged);
 			// 
 			// txtNewEmpNo
 			// 
-			this.txtNewEmpNo.AllowDrop = true;
+			//this.txtNewEmpNo.AllowDrop = true;
 			this.txtNewEmpNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this.txtNewEmpNo.Enabled = false;
@@ -416,7 +416,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.SystemColors.Window;
 			this.Label4.Text = "Employee No";
 			this.Label4.Location = new System.Drawing.Point(234, 41);
@@ -427,7 +427,7 @@ namespace Xtreme
 			// 
 			// txtnopaydays
 			// 
-			this.txtnopaydays.AllowDrop = true;
+			//this.txtnopaydays.AllowDrop = true;
 			this.txtnopaydays.BackColor = System.Drawing.SystemColors.InactiveBorder;
 			this.txtnopaydays.Enabled = false;
 			this.txtnopaydays.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -438,7 +438,7 @@ namespace Xtreme
 			// 
 			// txtLastAccrualDate
 			// 
-			this.txtLastAccrualDate.AllowDrop = true;
+			//this.txtLastAccrualDate.AllowDrop = true;
 			this.txtLastAccrualDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtLastAccrualDate.CheckDateRange = false;
 			this.txtLastAccrualDate.Enabled = false;
@@ -455,7 +455,7 @@ namespace Xtreme
 			// 
 			// txtDateOfJoining
 			// 
-			this.txtDateOfJoining.AllowDrop = true;
+			//this.txtDateOfJoining.AllowDrop = true;
 			this.txtDateOfJoining.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDateOfJoining.CheckDateRange = false;
 			this.txtDateOfJoining.Enabled = false;
@@ -471,7 +471,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.SystemColors.Window;
 			this.Label3.Text = "No PayDays";
 			this.Label3.Location = new System.Drawing.Point(234, 93);
@@ -482,7 +482,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.SystemColors.Window;
 			this.Label2.Text = "Last Accrual Date";
 			this.Label2.Location = new System.Drawing.Point(234, 70);
@@ -493,7 +493,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Date Of Joining";
 			this.Label1.Location = new System.Drawing.Point(236, 19);
@@ -504,7 +504,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 62);

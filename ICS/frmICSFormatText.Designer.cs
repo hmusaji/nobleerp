@@ -64,7 +64,7 @@ namespace Xtreme
 			// 
 			// cmdUnderline
 			// 
-			this.cmdUnderline.AllowDrop = true;
+			//this.cmdUnderline.AllowDrop = true;
 			this.cmdUnderline.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdUnderline.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdUnderline.Location = new System.Drawing.Point(160, 348);
@@ -79,7 +79,7 @@ namespace Xtreme
 			// 
 			// cmdColor
 			// 
-			this.cmdColor.AllowDrop = true;
+			//this.cmdColor.AllowDrop = true;
 			this.cmdColor.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdColor.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdColor.Location = new System.Drawing.Point(238, 348);
@@ -94,19 +94,19 @@ namespace Xtreme
 			// 
 			// cmdOkCancel
 			// 
-			this.cmdOkCancel.AllowDrop = true;
+			//this.cmdOkCancel.AllowDrop = true;
 			this.cmdOkCancel.DisplayButton = 0;
 			this.cmdOkCancel.Location = new System.Drawing.Point(316, 348);
 			this.cmdOkCancel.Name = "cmdOkCancel";
 			this.cmdOkCancel.OkCaption = "&Ok";
 			this.cmdOkCancel.Size = new System.Drawing.Size(205, 29);
 			this.cmdOkCancel.TabIndex = 4;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOkCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOkCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOkCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOkCancel_OKClick);
 			// 
 			// cmdBold
 			// 
-			this.cmdBold.AllowDrop = true;
+			//this.cmdBold.AllowDrop = true;
 			this.cmdBold.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdBold.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdBold.Location = new System.Drawing.Point(2, 348);
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// cmdItalic
 			// 
-			this.cmdItalic.AllowDrop = true;
+			//this.cmdItalic.AllowDrop = true;
 			this.cmdItalic.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdItalic.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdItalic.Location = new System.Drawing.Point(82, 348);
@@ -136,12 +136,12 @@ namespace Xtreme
 			// 
 			// rtbProdDesc
 			// 
-			this.rtbProdDesc.AllowDrop = true;
-			this.rtbProdDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.rtbProdDesc.AllowDrop = true;
+			//this.rtbProdDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.rtbProdDesc.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.rtbProdDesc.Location = new System.Drawing.Point(0, 32);
 			this.rtbProdDesc.Name = "rtbProdDesc";
-			this.rtbProdDesc.Rtf = resources.GetString("rtbProdDesc.TextRTF");
+			//this.rtbProdDesc.Rtf = resources.GetString("rtbProdDesc.TextRTF");
 			this.rtbProdDesc.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
 			this.rtbProdDesc.Size = new System.Drawing.Size(523, 309);
 			this.rtbProdDesc.TabIndex = 0;
@@ -149,9 +149,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Control;
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Label1.Location = new System.Drawing.Point(4, 6);
 			this.Label1.Name = "Label1";

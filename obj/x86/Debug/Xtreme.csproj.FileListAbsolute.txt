@@ -1,3 +1,4 @@
+C:\Users\HP\Documents\GitHub\nobleerp1\obj\x86\Debug\Xtreme.csprojAssemblyReference.cache
 C:\Users\HP\Documents\GitHub\nobleerp1\obj\x86\Debug\Interop.CrystalPrintControlLib.dll
 C:\Users\HP\Documents\GitHub\nobleerp1\obj\x86\Debug\Interop.CRDESIGNERLib.dll
 C:\Users\HP\Documents\GitHub\nobleerp1\obj\x86\Debug\Xtreme.csproj.ResolveComReference.cache

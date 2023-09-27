@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// txtConsignmentNo
 			// 
-			this.txtConsignmentNo.AllowDrop = true;
+			//this.txtConsignmentNo.AllowDrop = true;
 			this.txtConsignmentNo.BackColor = System.Drawing.Color.White;
 			this.txtConsignmentNo.ForeColor = System.Drawing.Color.Black;
 			this.txtConsignmentNo.Location = new System.Drawing.Point(146, 10);
@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// lblLNatName
 			// 
-			this.lblLNatName.AllowDrop = true;
+			//this.lblLNatName.AllowDrop = true;
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Consignment Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(8, 35);
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// txtLConsignmentName
 			// 
-			this.txtLConsignmentName.AllowDrop = true;
+			//this.txtLConsignmentName.AllowDrop = true;
 			this.txtLConsignmentName.BackColor = System.Drawing.Color.White;
 			this.txtLConsignmentName.ForeColor = System.Drawing.Color.Black;
 			this.txtLConsignmentName.Location = new System.Drawing.Point(146, 33);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// lblANatName
 			// 
-			this.lblANatName.AllowDrop = true;
+			//this.lblANatName.AllowDrop = true;
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Consignment Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(8, 58);
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// txtAConsignmentName
 			// 
-			this.txtAConsignmentName.AllowDrop = true;
+			//this.txtAConsignmentName.AllowDrop = true;
 			this.txtAConsignmentName.BackColor = System.Drawing.Color.White;
 			this.txtAConsignmentName.ForeColor = System.Drawing.Color.Black;
 			this.txtAConsignmentName.Location = new System.Drawing.Point(146, 56);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// lblNatNo
 			// 
-			this.lblNatNo.AllowDrop = true;
+			//this.lblNatNo.AllowDrop = true;
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Consignment Code";
 			this.lblNatNo.Location = new System.Drawing.Point(8, 12);

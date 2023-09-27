@@ -97,7 +97,7 @@ namespace Xtreme
 			// 
 			// txtBudgetCode
 			// 
-			this.txtBudgetCode.AllowDrop = true;
+			//this.txtBudgetCode.AllowDrop = true;
 			this.txtBudgetCode.BackColor = System.Drawing.Color.White;
 			// this.txtBudgetCode.bolNumericOnly = true;
 			this.txtBudgetCode.ForeColor = System.Drawing.Color.Black;
@@ -113,7 +113,7 @@ namespace Xtreme
 			// 
 			// lblBudgetCode
 			// 
-			this.lblBudgetCode.AllowDrop = true;
+			//this.lblBudgetCode.AllowDrop = true;
 			this.lblBudgetCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblBudgetCode.Text = "Budget Code";
 			this.lblBudgetCode.Location = new System.Drawing.Point(17, 87);
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// txtDBudgetName
 			// 
-			this.txtDBudgetName.AllowDrop = true;
+			//this.txtDBudgetName.AllowDrop = true;
 			this.txtDBudgetName.Location = new System.Drawing.Point(245, 85);
 			this.txtDBudgetName.Name = "txtDBudgetName";
 			this.txtDBudgetName.Size = new System.Drawing.Size(239, 19);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// txtDeptCode
 			// 
-			this.txtDeptCode.AllowDrop = true;
+			//this.txtDeptCode.AllowDrop = true;
 			this.txtDeptCode.BackColor = System.Drawing.Color.White;
 			// this.txtDeptCode.bolNumericOnly = true;
 			this.txtDeptCode.ForeColor = System.Drawing.Color.Black;
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// lblSectionCode
 			// 
-			this.lblSectionCode.AllowDrop = true;
+			//this.lblSectionCode.AllowDrop = true;
 			this.lblSectionCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSectionCode.Text = "Section Code";
 			this.lblSectionCode.Location = new System.Drawing.Point(17, 109);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// txtDCategoryName
 			// 
-			this.txtDCategoryName.AllowDrop = true;
+			//this.txtDCategoryName.AllowDrop = true;
 			this.txtDCategoryName.Location = new System.Drawing.Point(245, 107);
 			this.txtDCategoryName.Name = "txtDCategoryName";
 			this.txtDCategoryName.Size = new System.Drawing.Size(239, 19);
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.Label1.Text = "Current Payroll Details";
 			this.Label1.Location = new System.Drawing.Point(557, 358);
@@ -177,7 +177,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Additional Headcount Details";
 			this.Label2.Location = new System.Drawing.Point(16, 358);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Headcount Summary";
 			this.Label3.Location = new System.Drawing.Point(18, 154);
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// grdHeadcountSummary
 			// 
-			this.grdHeadcountSummary.AllowDrop = true;
+			//this.grdHeadcountSummary.AllowDrop = true;
 			this.grdHeadcountSummary.BackColor = System.Drawing.Color.Silver;
 			this.grdHeadcountSummary.CellTipsWidth = 0;
 			this.grdHeadcountSummary.Location = new System.Drawing.Point(9, 168);
@@ -207,7 +207,7 @@ namespace Xtreme
 			this.grdHeadcountSummary.TabIndex = 3;
 			this.grdHeadcountSummary.Columns.Add(this.Column_0_grdHeadcountSummary);
 			this.grdHeadcountSummary.Columns.Add(this.Column_1_grdHeadcountSummary);
-			this.grdHeadcountSummary.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdHeadcountSummary_RowColChange);
+			//this.grdHeadcountSummary.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdHeadcountSummary_RowColChange);
 			// 
 			// Column_0_grdHeadcountSummary
 			// 
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// grdAddHeadcountDetails
 			// 
-			this.grdAddHeadcountDetails.AllowDrop = true;
+			//this.grdAddHeadcountDetails.AllowDrop = true;
 			this.grdAddHeadcountDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdAddHeadcountDetails.CellTipsWidth = 0;
 			this.grdAddHeadcountDetails.Location = new System.Drawing.Point(9, 375);
@@ -231,8 +231,8 @@ namespace Xtreme
 			this.grdAddHeadcountDetails.TabIndex = 4;
 			this.grdAddHeadcountDetails.Columns.Add(this.Column_0_grdAddHeadcountDetails);
 			this.grdAddHeadcountDetails.Columns.Add(this.Column_1_grdAddHeadcountDetails);
-			this.grdAddHeadcountDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdAddHeadcountDetails_AfterColUpdate);
-			this.grdAddHeadcountDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdAddHeadcountDetails_BeforeColUpdate);
+			//this.grdAddHeadcountDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdAddHeadcountDetails_AfterColUpdate);
+			//this.grdAddHeadcountDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdAddHeadcountDetails_BeforeColUpdate);
 			// 
 			// Column_0_grdAddHeadcountDetails
 			// 
@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// grdCurrentPayroll
 			// 
-			this.grdCurrentPayroll.AllowDrop = true;
+			//this.grdCurrentPayroll.AllowDrop = true;
 			this.grdCurrentPayroll.BackColor = System.Drawing.Color.Silver;
 			this.grdCurrentPayroll.CellTipsWidth = 0;
 			this.grdCurrentPayroll.Location = new System.Drawing.Point(552, 375);

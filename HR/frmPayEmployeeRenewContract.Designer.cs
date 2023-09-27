@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// txtNewContractPeriod
 			// 
-			this.txtNewContractPeriod.AllowDrop = true;
+			//this.txtNewContractPeriod.AllowDrop = true;
 			this.txtNewContractPeriod.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtNewContractPeriod.Location = new System.Drawing.Point(120, 142);
 			this.txtNewContractPeriod.Name = "txtNewContractPeriod";
@@ -100,7 +100,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 57);
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(4, 77);
@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Designation Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(4, 98);
@@ -133,7 +133,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(120, 54);
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_4
 			// 
-			this._txtDisplayLabel_4.AllowDrop = true;
+			//this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(223, 54);
 			this._txtDisplayLabel_4.Name = "_txtDisplayLabel_4";
 			this._txtDisplayLabel_4.Size = new System.Drawing.Size(263, 19);
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(223, 96);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
 			this._txtDisplayLabel_3.Size = new System.Drawing.Size(263, 19);
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(120, 96);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
 			this._txtDisplayLabel_2.Size = new System.Drawing.Size(101, 19);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(223, 75);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(263, 19);
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(120, 75);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(101, 19);
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Start Date";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(4, 122);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "End Date";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(264, 122);
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "New Contract Period";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(4, 145);
@@ -226,7 +226,7 @@ namespace Xtreme
 			// 
 			// txtContractStartDate
 			// 
-			this.txtContractStartDate.AllowDrop = true;
+			//this.txtContractStartDate.AllowDrop = true;
 			this.txtContractStartDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtContractStartDate.CausesValidation = false;
 			// this.txtContractStartDate.CheckDateRange = false;
@@ -242,7 +242,7 @@ namespace Xtreme
 			// 
 			// txtContractEndDate
 			// 
-			this.txtContractEndDate.AllowDrop = true;
+			//this.txtContractEndDate.AllowDrop = true;
 			this.txtContractEndDate.BackColor = System.Drawing.Color.White;
 			// this.txtContractEndDate.CheckDateRange = false;
 			this.txtContractEndDate.Location = new System.Drawing.Point(343, 118);

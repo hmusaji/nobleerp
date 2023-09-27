@@ -71,7 +71,7 @@ namespace Xtreme
 			// 
 			// cmdGenerate
 			// 
-			this.cmdGenerate.AllowDrop = true;
+			//this.cmdGenerate.AllowDrop = true;
 			this.cmdGenerate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdGenerate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdGenerate.Location = new System.Drawing.Point(1065, 57);
@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// cmdRefresh
 			// 
-			this.cmdRefresh.AllowDrop = true;
+			//this.cmdRefresh.AllowDrop = true;
 			this.cmdRefresh.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdRefresh.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdRefresh.Location = new System.Drawing.Point(957, 57);
@@ -101,7 +101,7 @@ namespace Xtreme
 			// 
 			// grdSocialSecurityDet
 			// 
-			this.grdSocialSecurityDet.AllowDrop = true;
+			//this.grdSocialSecurityDet.AllowDrop = true;
 			this.grdSocialSecurityDet.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdSocialSecurityDet.CellTipsWidth = 0;
 			this.grdSocialSecurityDet.Location = new System.Drawing.Point(3, 102);
@@ -111,7 +111,7 @@ namespace Xtreme
 			this.grdSocialSecurityDet.TabIndex = 0;
 			this.grdSocialSecurityDet.Columns.Add(this.Column_0_grdSocialSecurityDet);
 			this.grdSocialSecurityDet.Columns.Add(this.Column_1_grdSocialSecurityDet);
-			this.grdSocialSecurityDet.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdSocialSecurityDet_AfterColUpdate);
+			//this.grdSocialSecurityDet.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdSocialSecurityDet_AfterColUpdate);
 			// 
 			// Column_0_grdSocialSecurityDet
 			// 
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(3, 96);

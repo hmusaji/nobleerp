@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// frmRatee
 			// 
-			this.frmRatee.AllowDrop = true;
+			//this.frmRatee.AllowDrop = true;
 			this.frmRatee.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.frmRatee.Controls.Add(this.txtDlblDepartment);
 			this.frmRatee.Controls.Add(this.txtDlblRateeName);
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// txtDlblDepartment
 			// 
-			this.txtDlblDepartment.AllowDrop = true;
+			//this.txtDlblDepartment.AllowDrop = true;
 			this.txtDlblDepartment.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblDepartment.Enabled = false;
 			this.txtDlblDepartment.Location = new System.Drawing.Point(105, 42);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// txtDlblRateeName
 			// 
-			this.txtDlblRateeName.AllowDrop = true;
+			//this.txtDlblRateeName.AllowDrop = true;
 			this.txtDlblRateeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblRateeName.Enabled = false;
 			this.txtDlblRateeName.Location = new System.Drawing.Point(225, 21);
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtRateeCode
 			// 
-			this.txtRateeCode.AllowDrop = true;
+			//this.txtRateeCode.AllowDrop = true;
 			this.txtRateeCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtRateeCode.ForeColor = System.Drawing.Color.Black;
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Ratee Code";
 			this.Label3.Location = new System.Drawing.Point(9, 21);
@@ -195,7 +195,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "Department";
 			this.Label4.Location = new System.Drawing.Point(9, 44);
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "Designation";
 			this.Label5.Location = new System.Drawing.Point(9, 65);
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// txtDlblDesignation
 			// 
-			this.txtDlblDesignation.AllowDrop = true;
+			//this.txtDlblDesignation.AllowDrop = true;
 			this.txtDlblDesignation.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblDesignation.Enabled = false;
 			this.txtDlblDesignation.Location = new System.Drawing.Point(105, 63);
@@ -225,7 +225,7 @@ namespace Xtreme
 			// 
 			// txtDlblDepartmentName
 			// 
-			this.txtDlblDepartmentName.AllowDrop = true;
+			//this.txtDlblDepartmentName.AllowDrop = true;
 			this.txtDlblDepartmentName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblDepartmentName.Enabled = false;
 			this.txtDlblDepartmentName.Location = new System.Drawing.Point(225, 42);
@@ -235,7 +235,7 @@ namespace Xtreme
 			// 
 			// txtDlblDesignationName
 			// 
-			this.txtDlblDesignationName.AllowDrop = true;
+			//this.txtDlblDesignationName.AllowDrop = true;
 			this.txtDlblDesignationName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblDesignationName.Enabled = false;
 			this.txtDlblDesignationName.Location = new System.Drawing.Point(225, 63);
@@ -245,7 +245,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label6.Text = "Requested By";
 			this.Label6.Location = new System.Drawing.Point(9, 87);
@@ -255,7 +255,7 @@ namespace Xtreme
 			// 
 			// txtDlblRequestedByName
 			// 
-			this.txtDlblRequestedByName.AllowDrop = true;
+			//this.txtDlblRequestedByName.AllowDrop = true;
 			this.txtDlblRequestedByName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblRequestedByName.Enabled = false;
 			this.txtDlblRequestedByName.Location = new System.Drawing.Point(225, 84);
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// txtRequestedBy
 			// 
-			this.txtRequestedBy.AllowDrop = true;
+			//this.txtRequestedBy.AllowDrop = true;
 			this.txtRequestedBy.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtRequestedBy.ForeColor = System.Drawing.Color.Black;
@@ -282,7 +282,7 @@ namespace Xtreme
 			// 
 			// txtEndDate
 			// 
-			this.txtEndDate.AllowDrop = true;
+			//this.txtEndDate.AllowDrop = true;
 			// this.txtEndDate.CheckDateRange = false;
 			this.txtEndDate.Location = new System.Drawing.Point(109, 105);
 			// this.txtEndDate.MaxDate = 2958465;
@@ -296,7 +296,7 @@ namespace Xtreme
 			// 
 			// txtStartDate
 			// 
-			this.txtStartDate.AllowDrop = true;
+			//this.txtStartDate.AllowDrop = true;
 			// this.txtStartDate.CheckDateRange = false;
 			this.txtStartDate.Location = new System.Drawing.Point(109, 81);
 			// this.txtStartDate.MaxDate = 2958465;
@@ -310,7 +310,7 @@ namespace Xtreme
 			// 
 			// txtAppraisal
 			// 
-			this.txtAppraisal.AllowDrop = true;
+			//this.txtAppraisal.AllowDrop = true;
 			this.txtAppraisal.BackColor = System.Drawing.Color.White;
 			// this.txtAppraisal.bolNumericOnly = true;
 			this.txtAppraisal.ForeColor = System.Drawing.Color.Black;
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Appraisal Code";
 			this.lblCategoryNo.Location = new System.Drawing.Point(6, 59);
@@ -336,7 +336,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(369, 59);
@@ -347,7 +347,7 @@ namespace Xtreme
 			// 
 			// txtTransactionDate
 			// 
-			this.txtTransactionDate.AllowDrop = true;
+			//this.txtTransactionDate.AllowDrop = true;
 			// this.txtTransactionDate.CheckDateRange = false;
 			this.txtTransactionDate.Location = new System.Drawing.Point(478, 57);
 			// this.txtTransactionDate.MaxDate = 2958465;
@@ -360,7 +360,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "End Date";
 			this.Label1.Location = new System.Drawing.Point(6, 107);
@@ -370,7 +370,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Start Date";
 			this.Label2.Location = new System.Drawing.Point(6, 83);
@@ -380,7 +380,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.Label7.AllowDrop = true;
+			//this.Label7.AllowDrop = true;
 			this.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label7.Text = "Survey Template";
 			this.Label7.Location = new System.Drawing.Point(9, 252);
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// txtSuveyTemplate
 			// 
-			this.txtSuveyTemplate.AllowDrop = true;
+			//this.txtSuveyTemplate.AllowDrop = true;
 			this.txtSuveyTemplate.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtSuveyTemplate.ForeColor = System.Drawing.Color.Black;
@@ -407,7 +407,7 @@ namespace Xtreme
 			// 
 			// txtDlBLSurveyTemplateName
 			// 
-			this.txtDlBLSurveyTemplateName.AllowDrop = true;
+			//this.txtDlBLSurveyTemplateName.AllowDrop = true;
 			this.txtDlBLSurveyTemplateName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlBLSurveyTemplateName.Enabled = false;
 			this.txtDlBLSurveyTemplateName.Location = new System.Drawing.Point(228, 249);
@@ -417,7 +417,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(351, 339);
@@ -441,7 +441,7 @@ namespace Xtreme
 			// 
 			this.grdSurveyDetails.AllowAddNew = true;
 			this.grdSurveyDetails.AllowDelete = true;
-			this.grdSurveyDetails.AllowDrop = true;
+			//this.grdSurveyDetails.AllowDrop = true;
 			this.grdSurveyDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdSurveyDetails.CellTipsWidth = 0;
 			this.grdSurveyDetails.Location = new System.Drawing.Point(0, 276);
@@ -451,8 +451,8 @@ namespace Xtreme
 			this.grdSurveyDetails.TabIndex = 23;
 			this.grdSurveyDetails.Columns.Add(this.Column_0_grdSurveyDetails);
 			this.grdSurveyDetails.Columns.Add(this.Column_1_grdSurveyDetails);
-			this.grdSurveyDetails.GotFocus += new System.EventHandler(this.grdSurveyDetails_GotFocus);
-			this.grdSurveyDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdSurveyDetails_RowColChange);
+			//this.grdSurveyDetails.GotFocus += new System.EventHandler(this.grdSurveyDetails_GotFocus);
+			//this.grdSurveyDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdSurveyDetails_RowColChange);
 			// 
 			// Column_0_grdSurveyDetails
 			// 

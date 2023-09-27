@@ -117,9 +117,9 @@ namespace Xtreme
 			// 
 			// picPostMode
 			// 
-			this.picPostMode.AllowDrop = true;
+			//this.picPostMode.AllowDrop = true;
 			this.picPostMode.BackColor = System.Drawing.Color.Navy;
-			this.picPostMode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.picPostMode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.picPostMode.CausesValidation = true;
 			this.picPostMode.Controls.Add(this.cmdPostMode);
 			this.picPostMode.Dock = System.Windows.Forms.DockStyle.None;
@@ -133,20 +133,20 @@ namespace Xtreme
 			// 
 			// cmdPostMode
 			// 
-			this.cmdPostMode.AllowDrop = true;
+			//this.cmdPostMode.AllowDrop = true;
 			this.cmdPostMode.Location = new System.Drawing.Point(0, 0);
 			this.cmdPostMode.Name = "cmdPostMode";
 			//
 			this.cmdPostMode.Size = new System.Drawing.Size(134, 29);
 			this.cmdPostMode.TabIndex = 3;
-			this.cmdPostMode.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdPostMode_AccessKeyPress);
+			//this.cmdPostMode.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdPostMode_AccessKeyPress);
 			//// this.cmdPostMode.ClickEvent += new System.EventHandler(this.cmdPostMode_ClickEvent);
 			// 
 			// fraCommon
 			// 
-			this.fraCommon.AllowDrop = true;
+			//this.fraCommon.AllowDrop = true;
 			this.fraCommon.BackColor = System.Drawing.Color.FromArgb(239, 221, 211);
-			this.fraCommon.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraCommon.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraCommon.Controls.Add(this._lblCommon_3);
 			this.fraCommon.Controls.Add(this._lblCommon_4);
 			this.fraCommon.Controls.Add(this.txtTransactionDate);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_3.Text = "Transaction Date";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_4.Text = "Location Code";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// txtTransactionDate
 			// 
-			this.txtTransactionDate.AllowDrop = true;
+			//this.txtTransactionDate.AllowDrop = true;
 			this.txtTransactionDate.Location = new System.Drawing.Point(122, 16);
 			// this.txtTransactionDate.MaxDate = 2958465;
 			// this.txtTransactionDate.MinDate = 2;
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_1.bolNumericOnly = true;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -220,7 +220,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_5.Text = "Adj. Voucher (- Qty)";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -231,7 +231,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommon_2.bolNumericOnly = true;
 			this._txtCommon_2.Enabled = false;
@@ -248,7 +248,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_7.Text = "Adj. Voucher (+ Qty)";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommon_3.bolNumericOnly = true;
 			this._txtCommon_3.Enabled = false;
@@ -276,7 +276,7 @@ namespace Xtreme
 			// 
 			// _txtCommonName_3
 			// 
-			this._txtCommonName_3.AllowDrop = true;
+			//this._txtCommonName_3.AllowDrop = true;
 			this._txtCommonName_3.Location = new System.Drawing.Point(225, 79);
 			this._txtCommonName_3.Name = "_txtCommonName_3";
 			this._txtCommonName_3.Size = new System.Drawing.Size(201, 19);
@@ -284,7 +284,7 @@ namespace Xtreme
 			// 
 			// _txtCommonName_2
 			// 
-			this._txtCommonName_2.AllowDrop = true;
+			//this._txtCommonName_2.AllowDrop = true;
 			this._txtCommonName_2.Location = new System.Drawing.Point(225, 58);
 			this._txtCommonName_2.Name = "_txtCommonName_2";
 			this._txtCommonName_2.Size = new System.Drawing.Size(201, 19);
@@ -292,7 +292,7 @@ namespace Xtreme
 			// 
 			// _txtCommonName_1
 			// 
-			this._txtCommonName_1.AllowDrop = true;
+			//this._txtCommonName_1.AllowDrop = true;
 			this._txtCommonName_1.Location = new System.Drawing.Point(225, 37);
 			this._txtCommonName_1.Name = "_txtCommonName_1";
 			this._txtCommonName_1.Size = new System.Drawing.Size(201, 19);
@@ -300,19 +300,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(223, 100);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 4;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// _txtNCommon_0
 			// 
-			this._txtNCommon_0.AllowDrop = true;
+			//this._txtNCommon_0.AllowDrop = true;
 			this._txtNCommon_0.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this._txtNCommon_0.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtNCommon_0.Enabled = false;
@@ -327,7 +327,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(125, 16);
@@ -342,7 +342,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_2.Text = "New Average Cost";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -353,7 +353,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_1.Text = "Current Average Cost";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -364,7 +364,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_0.Text = "Product Code";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -376,7 +376,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_1
 			// 
-			this._txtNCommon_1.AllowDrop = true;
+			//this._txtNCommon_1.AllowDrop = true;
 			// this._txtNCommon_1.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtNCommon_1.Format = "###########0.000";
 			this._txtNCommon_1.Location = new System.Drawing.Point(125, 58);
@@ -389,7 +389,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_6
 			// 
-			this._lblCommon_6.AllowDrop = true;
+			//this._lblCommon_6.AllowDrop = true;
 			this._lblCommon_6.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_6.Text = " Transation Details  ";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -400,7 +400,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_2
 			// 
-			this._txtNCommon_2.AllowDrop = true;
+			//this._txtNCommon_2.AllowDrop = true;
 			this._txtNCommon_2.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this._txtNCommon_2.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtNCommon_2.Enabled = false;
@@ -415,7 +415,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_8.Text = "Current Qty";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
@@ -426,7 +426,7 @@ namespace Xtreme
 			// 
 			// _txtCommonName_0
 			// 
-			this._txtCommonName_0.AllowDrop = true;
+			//this._txtCommonName_0.AllowDrop = true;
 			this._txtCommonName_0.Location = new System.Drawing.Point(228, 16);
 			this._txtCommonName_0.Name = "_txtCommonName_0";
 			this._txtCommonName_0.Size = new System.Drawing.Size(201, 19);
@@ -434,7 +434,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(98, 156);

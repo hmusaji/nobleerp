@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(150, 100);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtQalfnNo
 			// 
-			this.txtQalfnNo.AllowDrop = true;
+			//this.txtQalfnNo.AllowDrop = true;
 			this.txtQalfnNo.BackColor = System.Drawing.Color.White;
 			// this.txtQalfnNo.bolNumericOnly = true;
 			this.txtQalfnNo.ForeColor = System.Drawing.Color.Black;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// lblLNatName
 			// 
-			this.lblLNatName.AllowDrop = true;
+			//this.lblLNatName.AllowDrop = true;
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Qualification Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(12, 59);
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// txtLQalfnName
 			// 
-			this.txtLQalfnName.AllowDrop = true;
+			//this.txtLQalfnName.AllowDrop = true;
 			this.txtLQalfnName.BackColor = System.Drawing.Color.White;
 			this.txtLQalfnName.ForeColor = System.Drawing.Color.Black;
 			this.txtLQalfnName.Location = new System.Drawing.Point(150, 57);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// lblANatName
 			// 
-			this.lblANatName.AllowDrop = true;
+			//this.lblANatName.AllowDrop = true;
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Qualification Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(12, 80);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtAQalfnName
 			// 
-			this.txtAQalfnName.AllowDrop = true;
+			//this.txtAQalfnName.AllowDrop = true;
 			this.txtAQalfnName.BackColor = System.Drawing.Color.White;
 			this.txtAQalfnName.ForeColor = System.Drawing.Color.Black;
 			this.txtAQalfnName.Location = new System.Drawing.Point(150, 78);
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(12, 100);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// lblNatNo
 			// 
-			this.lblNatNo.AllowDrop = true;
+			//this.lblNatNo.AllowDrop = true;
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Qualification Code";
 			this.lblNatNo.Location = new System.Drawing.Point(12, 38);

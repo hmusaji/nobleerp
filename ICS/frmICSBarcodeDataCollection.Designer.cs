@@ -52,7 +52,7 @@ namespace Xtreme
 		public AxC1Elastic conFileImport;
 		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		public System.Windows.Forms.OpenFileDialog cdgFileSystemOpen;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog cdgFileSystem;
+		public AxCommonDialog cdgFileSystem;
 		public UCOkCancel UCOkCancel1;
 		public System.Windows.Forms.Label[] txtCommonLable = new System.Windows.Forms.Label[1];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -77,7 +77,7 @@ namespace Xtreme
 			this.Label1 = new System.Windows.Forms.Label();
 			this._txtCommonLable_0 = new System.Windows.Forms.Label();
 			this.cdgFileSystemOpen = new System.Windows.Forms.OpenFileDialog();
-			this.cdgFileSystem = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.cdgFileSystem = new AxCommonDialog();
 			this.UCOkCancel1 = new UCOkCancel();
 			// //((System.ComponentModel.ISupportInitialize) this.conImportICSTrans).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.conImportGLVoucher).BeginInit();
@@ -91,7 +91,7 @@ namespace Xtreme
 			// tabMaster
 			// 
 			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.conImportICSTrans);
 			this.tabMaster.Controls.Add(this.conImportGLVoucher);
 			this.tabMaster.Controls.Add(this.conFileImport);
@@ -104,7 +104,7 @@ namespace Xtreme
 			// conImportICSTrans
 			// 
 			//this.conImportICSTrans.Align = C1SizerLib.AlignSettings.asNone;
-			this.conImportICSTrans.AllowDrop = true;
+			//this.conImportICSTrans.AllowDrop = true;
 			this.conImportICSTrans.Location = new System.Drawing.Point(518, 23);
 			this.conImportICSTrans.Name = "conImportICSTrans";
 			//
@@ -115,7 +115,7 @@ namespace Xtreme
 			// conImportGLVoucher
 			// 
 			//this.conImportGLVoucher.Align = C1SizerLib.AlignSettings.asNone;
-			this.conImportGLVoucher.AllowDrop = true;
+			//this.conImportGLVoucher.AllowDrop = true;
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherName);
 			this.conImportGLVoucher.Controls.Add(this.txtGLVoucherType);
 			this.conImportGLVoucher.Controls.Add(this.Label2);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// txtGLVoucherName
 			// 
-			this.txtGLVoucherName.AllowDrop = true;
+			//this.txtGLVoucherName.AllowDrop = true;
 			this.txtGLVoucherName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtGLVoucherName.Enabled = false;
 			this.txtGLVoucherName.Location = new System.Drawing.Point(177, 29);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtGLVoucherType
 			// 
-			this.txtGLVoucherType.AllowDrop = true;
+			//this.txtGLVoucherType.AllowDrop = true;
 			this.txtGLVoucherType.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtGLVoucherType.ForeColor = System.Drawing.Color.Black;
@@ -155,7 +155,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Voucher Type";
 			this.Label2.Location = new System.Drawing.Point(16, 32);
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Voucher No";
 			this.Label3.Location = new System.Drawing.Point(16, 52);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// txtGLVoucherNo
 			// 
-			this.txtGLVoucherNo.AllowDrop = true;
+			//this.txtGLVoucherNo.AllowDrop = true;
 			this.txtGLVoucherNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtGLVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -191,7 +191,7 @@ namespace Xtreme
 			// conFileImport
 			// 
 			//this.conFileImport.Align = C1SizerLib.AlignSettings.asNone;
-			this.conFileImport.AllowDrop = true;
+			//this.conFileImport.AllowDrop = true;
 			this.conFileImport.Controls.Add(this.cmdFileSearch);
 			this.conFileImport.Controls.Add(this.Label1);
 			this.conFileImport.Controls.Add(this._txtCommonLable_0);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// cmdFileSearch
 			// 
-			this.cmdFileSearch.AllowDrop = true;
+			//this.cmdFileSearch.AllowDrop = true;
 			this.cmdFileSearch.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdFileSearch.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdFileSearch.Location = new System.Drawing.Point(407, 10);
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "File Name";
 			this.Label1.Location = new System.Drawing.Point(8, 12);
@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLable_0
 			// 
-			this._txtCommonLable_0.AllowDrop = true;
+			//this._txtCommonLable_0.AllowDrop = true;
 			this._txtCommonLable_0.Location = new System.Drawing.Point(60, 10);
 			this._txtCommonLable_0.Name = "_txtCommonLable_0";
 			this._txtCommonLable_0.Size = new System.Drawing.Size(345, 19);
@@ -237,15 +237,15 @@ namespace Xtreme
 			// 
 			// UCOkCancel1
 			// 
-			this.UCOkCancel1.AllowDrop = true;
+			//this.UCOkCancel1.AllowDrop = true;
 			this.UCOkCancel1.DisplayButton = 0;
 			this.UCOkCancel1.Location = new System.Drawing.Point(250, 162);
 			this.UCOkCancel1.Name = "UCOkCancel1";
 			this.UCOkCancel1.OkCaption = "&Ok";
 			this.UCOkCancel1.Size = new System.Drawing.Size(206, 31);
 			this.UCOkCancel1.TabIndex = 7;
-			this.UCOkCancel1.CancelClick += new UCOkCancel.CancelClickHandler(this.UCOkCancel1_CancelClick);
-			this.UCOkCancel1.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
+			////this.UCOkCancel1.CancelClick += new UCOkCancel.CancelClickHandler(this.UCOkCancel1_CancelClick);
+			////this.UCOkCancel1.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
 			// 
 			// frmICSBarcodeDataCollection
 			// 

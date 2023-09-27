@@ -92,7 +92,7 @@ namespace Xtreme
 			// 
 			// chkDiscontinue
 			// 
-			this.chkDiscontinue.AllowDrop = true;
+			//this.chkDiscontinue.AllowDrop = true;
 			this.chkDiscontinue.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkDiscontinue.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkDiscontinue.CausesValidation = true;
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// txtCategoryCode
 			// 
-			this.txtCategoryCode.AllowDrop = true;
+			//this.txtCategoryCode.AllowDrop = true;
 			this.txtCategoryCode.BackColor = System.Drawing.Color.White;
 			// this.txtCategoryCode.bolNumericOnly = true;
 			this.txtCategoryCode.ForeColor = System.Drawing.Color.Black;
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// lblCategoryCode
 			// 
-			this.lblCategoryCode.AllowDrop = true;
+			//this.lblCategoryCode.AllowDrop = true;
 			this.lblCategoryCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryCode.Text = "Category Code";
 			this.lblCategoryCode.Location = new System.Drawing.Point(10, 68);
@@ -137,7 +137,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Category Name (English)";
 			this.lblLCategoryName.Location = new System.Drawing.Point(10, 90);
@@ -147,7 +147,7 @@ namespace Xtreme
 			// 
 			// txtLCategoryName
 			// 
-			this.txtLCategoryName.AllowDrop = true;
+			//this.txtLCategoryName.AllowDrop = true;
 			this.txtLCategoryName.BackColor = System.Drawing.Color.White;
 			this.txtLCategoryName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCategoryName.Location = new System.Drawing.Point(138, 87);
@@ -159,7 +159,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Category Name (Arabic)";
 			this.lblACategoryName.Location = new System.Drawing.Point(10, 111);
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// txtACategoryName
 			// 
-			this.txtACategoryName.AllowDrop = true;
+			//this.txtACategoryName.AllowDrop = true;
 			this.txtACategoryName.BackColor = System.Drawing.Color.White;
 			this.txtACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.txtACategoryName.Location = new System.Drawing.Point(138, 108);
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// txtDeptCode
 			// 
-			this.txtDeptCode.AllowDrop = true;
+			//this.txtDeptCode.AllowDrop = true;
 			this.txtDeptCode.BackColor = System.Drawing.Color.White;
 			// this.txtDeptCode.bolNumericOnly = true;
 			this.txtDeptCode.ForeColor = System.Drawing.Color.Black;
@@ -198,7 +198,7 @@ namespace Xtreme
 			// 
 			// lblDeptCode
 			// 
-			this.lblDeptCode.AllowDrop = true;
+			//this.lblDeptCode.AllowDrop = true;
 			this.lblDeptCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDeptCode.Text = "Department Code";
 			this.lblDeptCode.Location = new System.Drawing.Point(10, 132);
@@ -209,7 +209,7 @@ namespace Xtreme
 			// 
 			// txtDDeptName
 			// 
-			this.txtDDeptName.AllowDrop = true;
+			//this.txtDDeptName.AllowDrop = true;
 			this.txtDDeptName.Location = new System.Drawing.Point(241, 130);
 			this.txtDDeptName.Name = "txtDDeptName";
 			this.txtDDeptName.Size = new System.Drawing.Size(239, 19);
@@ -218,7 +218,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "End Date";
 			this.Label2.Location = new System.Drawing.Point(279, 204);
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Start Date";
 			this.Label1.Location = new System.Drawing.Point(9, 204);
@@ -238,7 +238,7 @@ namespace Xtreme
 			// 
 			// txtEndDate
 			// 
-			this.txtEndDate.AllowDrop = true;
+			//this.txtEndDate.AllowDrop = true;
 			// this.txtEndDate.CheckDateRange = false;
 			this.txtEndDate.Location = new System.Drawing.Point(338, 201);
 			// this.txtEndDate.MaxDate = 2958465;
@@ -251,7 +251,7 @@ namespace Xtreme
 			// 
 			// txtStartDate
 			// 
-			this.txtStartDate.AllowDrop = true;
+			//this.txtStartDate.AllowDrop = true;
 			// this.txtStartDate.CheckDateRange = false;
 			this.txtStartDate.Location = new System.Drawing.Point(135, 201);
 			// this.txtStartDate.MaxDate = 2958465;
@@ -264,7 +264,7 @@ namespace Xtreme
 			// 
 			// txtDesgCode
 			// 
-			this.txtDesgCode.AllowDrop = true;
+			//this.txtDesgCode.AllowDrop = true;
 			this.txtDesgCode.BackColor = System.Drawing.Color.White;
 			// this.txtDesgCode.bolNumericOnly = true;
 			this.txtDesgCode.ForeColor = System.Drawing.Color.Black;
@@ -280,7 +280,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Designation Code";
 			this.Label3.Location = new System.Drawing.Point(8, 155);
@@ -291,7 +291,7 @@ namespace Xtreme
 			// 
 			// txtDlblDesgName
 			// 
-			this.txtDlblDesgName.AllowDrop = true;
+			//this.txtDlblDesgName.AllowDrop = true;
 			this.txtDlblDesgName.Location = new System.Drawing.Point(241, 153);
 			this.txtDlblDesgName.Name = "txtDlblDesgName";
 			this.txtDlblDesgName.Size = new System.Drawing.Size(239, 19);

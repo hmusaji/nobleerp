@@ -147,9 +147,9 @@ namespace Xtreme
 			// 
 			// picFormToolbar
 			// 
-			this.picFormToolbar.AllowDrop = true;
+			//this.picFormToolbar.AllowDrop = true;
 			this.picFormToolbar.BackColor = System.Drawing.SystemColors.Control;
-			this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.picFormToolbar.CausesValidation = true;
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_0);
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_1);
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_0
 			// 
-			this._btnFormToolBar_0.AllowDrop = true;
+			//this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
 			//
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_1
 			// 
-			this._btnFormToolBar_1.AllowDrop = true;
+			//this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(53, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
 			//
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_5
 			// 
-			this._btnFormToolBar_5.AllowDrop = true;
+			//this._btnFormToolBar_5.AllowDrop = true;
 			this._btnFormToolBar_5.Location = new System.Drawing.Point(257, 2);
 			this._btnFormToolBar_5.Name = "_btnFormToolBar_5";
 			//
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_2
 			// 
-			this._btnFormToolBar_2.AllowDrop = true;
+			//this._btnFormToolBar_2.AllowDrop = true;
 			this._btnFormToolBar_2.Location = new System.Drawing.Point(104, 2);
 			this._btnFormToolBar_2.Name = "_btnFormToolBar_2";
 			//
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_3
 			// 
-			this._btnFormToolBar_3.AllowDrop = true;
+			//this._btnFormToolBar_3.AllowDrop = true;
 			this._btnFormToolBar_3.Location = new System.Drawing.Point(155, 2);
 			this._btnFormToolBar_3.Name = "_btnFormToolBar_3";
 			//
@@ -226,7 +226,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_6
 			// 
-			this._btnFormToolBar_6.AllowDrop = true;
+			//this._btnFormToolBar_6.AllowDrop = true;
 			this._btnFormToolBar_6.Location = new System.Drawing.Point(308, 2);
 			this._btnFormToolBar_6.Name = "_btnFormToolBar_6";
 			//
@@ -237,7 +237,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_8
 			// 
-			this._btnFormToolBar_8.AllowDrop = true;
+			//this._btnFormToolBar_8.AllowDrop = true;
 			this._btnFormToolBar_8.Location = new System.Drawing.Point(444, 2);
 			this._btnFormToolBar_8.Name = "_btnFormToolBar_8";
 			//
@@ -248,7 +248,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_4
 			// 
-			this._btnFormToolBar_4.AllowDrop = true;
+			//this._btnFormToolBar_4.AllowDrop = true;
 			this._btnFormToolBar_4.Location = new System.Drawing.Point(206, 2);
 			this._btnFormToolBar_4.Name = "_btnFormToolBar_4";
 			//
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_7
 			// 
-			this._btnFormToolBar_7.AllowDrop = true;
+			//this._btnFormToolBar_7.AllowDrop = true;
 			this._btnFormToolBar_7.Location = new System.Drawing.Point(371, 2);
 			this._btnFormToolBar_7.Name = "_btnFormToolBar_7";
 			//
@@ -271,7 +271,7 @@ namespace Xtreme
 			// tabProductDetails
 			// 
 			// //this.tabProductDetails.Alignment = System.Windows.Forms.TabAlignment.Top;
-			this.tabProductDetails.AllowDrop = true;
+			//this.tabProductDetails.AllowDrop = true;
 			this.tabProductDetails.BackColor = System.Drawing.Color.White;
 			this.tabProductDetails.Controls.Add(this._tabProductDetails_TabPage0);
 			this.tabProductDetails.Controls.Add(this._tabProductDetails_TabPage1);
@@ -314,7 +314,7 @@ namespace Xtreme
 			// 
 			// txtVariablesDeclarationSQL
 			// 
-			this.txtVariablesDeclarationSQL.AllowDrop = true;
+			//this.txtVariablesDeclarationSQL.AllowDrop = true;
 			this.txtVariablesDeclarationSQL.BackColor = System.Drawing.Color.White;
 			this.txtVariablesDeclarationSQL.ForeColor = System.Drawing.Color.Black;
 			this.txtVariablesDeclarationSQL.Location = new System.Drawing.Point(90, 289);
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// chkShowDateRange
 			// 
-			this.chkShowDateRange.AllowDrop = true;
+			//this.chkShowDateRange.AllowDrop = true;
 			this.chkShowDateRange.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowDateRange.BackColor = System.Drawing.SystemColors.Control;
 			this.chkShowDateRange.CausesValidation = true;
@@ -346,7 +346,7 @@ namespace Xtreme
 			// 
 			// chkShowDrillDownReport
 			// 
-			this.chkShowDrillDownReport.AllowDrop = true;
+			//this.chkShowDrillDownReport.AllowDrop = true;
 			this.chkShowDrillDownReport.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowDrillDownReport.BackColor = System.Drawing.SystemColors.Control;
 			this.chkShowDrillDownReport.CausesValidation = true;
@@ -366,7 +366,7 @@ namespace Xtreme
 			// 
 			// chkShowFilterCondition
 			// 
-			this.chkShowFilterCondition.AllowDrop = true;
+			//this.chkShowFilterCondition.AllowDrop = true;
 			this.chkShowFilterCondition.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowFilterCondition.BackColor = System.Drawing.SystemColors.Control;
 			this.chkShowFilterCondition.CausesValidation = true;
@@ -386,7 +386,7 @@ namespace Xtreme
 			// 
 			// chkShow
 			// 
-			this.chkShow.AllowDrop = true;
+			//this.chkShow.AllowDrop = true;
 			this.chkShow.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShow.BackColor = System.Drawing.SystemColors.Control;
 			this.chkShow.CausesValidation = true;
@@ -406,7 +406,7 @@ namespace Xtreme
 			// 
 			// chkProtected
 			// 
-			this.chkProtected.AllowDrop = true;
+			//this.chkProtected.AllowDrop = true;
 			this.chkProtected.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkProtected.BackColor = System.Drawing.SystemColors.Control;
 			this.chkProtected.CausesValidation = true;
@@ -427,9 +427,9 @@ namespace Xtreme
 			// txtFromClause
 			// 
 			this.txtFromClause.AcceptsReturn = true;
-			this.txtFromClause.AllowDrop = true;
+			//this.txtFromClause.AllowDrop = true;
 			this.txtFromClause.BackColor = System.Drawing.SystemColors.Window;
-			this.txtFromClause.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtFromClause.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtFromClause.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtFromClause.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtFromClause.Location = new System.Drawing.Point(90, 103);
@@ -442,7 +442,7 @@ namespace Xtreme
 			// 
 			// lblVariableDeclaration
 			// 
-			this.lblVariableDeclaration.AllowDrop = true;
+			//this.lblVariableDeclaration.AllowDrop = true;
 			this.lblVariableDeclaration.BackColor = System.Drawing.SystemColors.Window;
 			this.lblVariableDeclaration.Text = "Variable Decla.";
 			this.lblVariableDeclaration.Location = new System.Drawing.Point(9, 289);
@@ -452,7 +452,7 @@ namespace Xtreme
 			// 
 			// txtOrderByClause
 			// 
-			this.txtOrderByClause.AllowDrop = true;
+			//this.txtOrderByClause.AllowDrop = true;
 			this.txtOrderByClause.BackColor = System.Drawing.Color.White;
 			this.txtOrderByClause.ForeColor = System.Drawing.Color.Black;
 			this.txtOrderByClause.Location = new System.Drawing.Point(90, 262);
@@ -464,7 +464,7 @@ namespace Xtreme
 			// 
 			// txtWhereClause
 			// 
-			this.txtWhereClause.AllowDrop = true;
+			//this.txtWhereClause.AllowDrop = true;
 			this.txtWhereClause.BackColor = System.Drawing.Color.White;
 			this.txtWhereClause.ForeColor = System.Drawing.Color.Black;
 			this.txtWhereClause.Location = new System.Drawing.Point(90, 238);
@@ -476,7 +476,7 @@ namespace Xtreme
 			// 
 			// txtChildFormId
 			// 
-			this.txtChildFormId.AllowDrop = true;
+			//this.txtChildFormId.AllowDrop = true;
 			this.txtChildFormId.BackColor = System.Drawing.Color.White;
 			this.txtChildFormId.ForeColor = System.Drawing.Color.Black;
 			this.txtChildFormId.Location = new System.Drawing.Point(603, 68);
@@ -488,7 +488,7 @@ namespace Xtreme
 			// 
 			// txtChildReportId2
 			// 
-			this.txtChildReportId2.AllowDrop = true;
+			//this.txtChildReportId2.AllowDrop = true;
 			this.txtChildReportId2.BackColor = System.Drawing.Color.White;
 			this.txtChildReportId2.ForeColor = System.Drawing.Color.Black;
 			this.txtChildReportId2.Location = new System.Drawing.Point(309, 70);
@@ -500,7 +500,7 @@ namespace Xtreme
 			// 
 			// txtChildReportId
 			// 
-			this.txtChildReportId.AllowDrop = true;
+			//this.txtChildReportId.AllowDrop = true;
 			this.txtChildReportId.BackColor = System.Drawing.Color.White;
 			this.txtChildReportId.ForeColor = System.Drawing.Color.Black;
 			this.txtChildReportId.Location = new System.Drawing.Point(90, 70);
@@ -512,7 +512,7 @@ namespace Xtreme
 			// 
 			// lblOrderByClause
 			// 
-			this.lblOrderByClause.AllowDrop = true;
+			//this.lblOrderByClause.AllowDrop = true;
 			this.lblOrderByClause.BackColor = System.Drawing.SystemColors.Window;
 			this.lblOrderByClause.Text = "Order By Clause";
 			this.lblOrderByClause.Location = new System.Drawing.Point(9, 265);
@@ -522,7 +522,7 @@ namespace Xtreme
 			// 
 			// lblWhereClause
 			// 
-			this.lblWhereClause.AllowDrop = true;
+			//this.lblWhereClause.AllowDrop = true;
 			this.lblWhereClause.BackColor = System.Drawing.SystemColors.Window;
 			this.lblWhereClause.Text = "Where Clause";
 			this.lblWhereClause.Location = new System.Drawing.Point(9, 241);
@@ -532,7 +532,7 @@ namespace Xtreme
 			// 
 			// lblFromClause
 			// 
-			this.lblFromClause.AllowDrop = true;
+			//this.lblFromClause.AllowDrop = true;
 			this.lblFromClause.BackColor = System.Drawing.SystemColors.Window;
 			this.lblFromClause.Text = "From Clause";
 			this.lblFromClause.Location = new System.Drawing.Point(9, 103);
@@ -542,7 +542,7 @@ namespace Xtreme
 			// 
 			// lblChildReportId
 			// 
-			this.lblChildReportId.AllowDrop = true;
+			//this.lblChildReportId.AllowDrop = true;
 			this.lblChildReportId.BackColor = System.Drawing.SystemColors.Window;
 			this.lblChildReportId.Text = "Child Report Id";
 			this.lblChildReportId.Location = new System.Drawing.Point(9, 71);
@@ -552,7 +552,7 @@ namespace Xtreme
 			// 
 			// lblChildReportId2
 			// 
-			this.lblChildReportId2.AllowDrop = true;
+			//this.lblChildReportId2.AllowDrop = true;
 			this.lblChildReportId2.BackColor = System.Drawing.SystemColors.Window;
 			this.lblChildReportId2.Text = "Child Report Id-2";
 			this.lblChildReportId2.Location = new System.Drawing.Point(219, 71);
@@ -562,7 +562,7 @@ namespace Xtreme
 			// 
 			// lblChildFormId
 			// 
-			this.lblChildFormId.AllowDrop = true;
+			//this.lblChildFormId.AllowDrop = true;
 			this.lblChildFormId.BackColor = System.Drawing.SystemColors.Window;
 			this.lblChildFormId.Text = "Child Form Id";
 			this.lblChildFormId.Location = new System.Drawing.Point(531, 71);
@@ -572,7 +572,7 @@ namespace Xtreme
 			// 
 			// txtLReportName
 			// 
-			this.txtLReportName.AllowDrop = true;
+			//this.txtLReportName.AllowDrop = true;
 			this.txtLReportName.BackColor = System.Drawing.Color.White;
 			this.txtLReportName.ForeColor = System.Drawing.Color.Black;
 			this.txtLReportName.Location = new System.Drawing.Point(309, 34);
@@ -584,7 +584,7 @@ namespace Xtreme
 			// 
 			// lblL_Report_Name
 			// 
-			this.lblL_Report_Name.AllowDrop = true;
+			//this.lblL_Report_Name.AllowDrop = true;
 			this.lblL_Report_Name.BackColor = System.Drawing.SystemColors.Window;
 			this.lblL_Report_Name.Text = "L_Report_Name";
 			this.lblL_Report_Name.Location = new System.Drawing.Point(219, 37);
@@ -594,7 +594,7 @@ namespace Xtreme
 			// 
 			// lblReportId
 			// 
-			this.lblReportId.AllowDrop = true;
+			//this.lblReportId.AllowDrop = true;
 			this.lblReportId.BackColor = System.Drawing.SystemColors.Window;
 			this.lblReportId.Text = "Report Id ";
 			this.lblReportId.Location = new System.Drawing.Point(9, 37);
@@ -604,7 +604,7 @@ namespace Xtreme
 			// 
 			// txtReportID
 			// 
-			this.txtReportID.AllowDrop = true;
+			//this.txtReportID.AllowDrop = true;
 			this.txtReportID.Location = new System.Drawing.Point(90, 34);
 			this.txtReportID.Name = "txtReportID";
 			this.txtReportID.Size = new System.Drawing.Size(113, 19);
@@ -619,9 +619,9 @@ namespace Xtreme
 			// 
 			this.grdVoucherDetails.AllowAddNew = true;
 			this.grdVoucherDetails.AllowDelete = true;
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(6, 10);
 			this.grdVoucherDetails.Name = "grdVoucherDetails";
@@ -653,7 +653,7 @@ namespace Xtreme
 			this.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "Report Design Utilities";
-			UpgradeHelpers.Gui.SSTabHelper.SetSelectedIndex(this.tabProductDetails, 2);
+			//UpgradeHelpers.Gui.SSTabHelper.SetSelectedIndex(this.tabProductDetails, 2);
 			// this.Activated += new System.EventHandler(this.frmSysReportDesignUtility_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			//((System.ComponentModel.ISupportInitialize) this._btnFormToolBar_0).EndInit();

@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// txtRemarkNo
 			// 
-			this.txtRemarkNo.AllowDrop = true;
+			//this.txtRemarkNo.AllowDrop = true;
 			this.txtRemarkNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtRemarkNo.ForeColor = System.Drawing.Color.Black;
@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// lblCurrNameA
 			// 
-			this.lblCurrNameA.AllowDrop = true;
+			//this.lblCurrNameA.AllowDrop = true;
 			this.lblCurrNameA.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNameA.Text = "Remark Name(AR)";
 			this.lblCurrNameA.Location = new System.Drawing.Point(9, 60);
@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// txtARemarkName
 			// 
-			this.txtARemarkName.AllowDrop = true;
+			//this.txtARemarkName.AllowDrop = true;
 			this.txtARemarkName.BackColor = System.Drawing.Color.White;
 			this.txtARemarkName.ForeColor = System.Drawing.Color.Black;
 			this.txtARemarkName.Location = new System.Drawing.Point(114, 58);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// txtlRemarkName
 			// 
-			this.txtlRemarkName.AllowDrop = true;
+			//this.txtlRemarkName.AllowDrop = true;
 			this.txtlRemarkName.BackColor = System.Drawing.Color.White;
 			this.txtlRemarkName.ForeColor = System.Drawing.Color.Black;
 			this.txtlRemarkName.Location = new System.Drawing.Point(114, 37);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// lblCurrNameL
 			// 
-			this.lblCurrNameL.AllowDrop = true;
+			//this.lblCurrNameL.AllowDrop = true;
 			this.lblCurrNameL.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNameL.Text = "Remark Name";
 			this.lblCurrNameL.Location = new System.Drawing.Point(9, 39);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Remark No";
 			this.Label1.Location = new System.Drawing.Point(9, 18);

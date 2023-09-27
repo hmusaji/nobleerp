@@ -71,7 +71,7 @@ namespace Xtreme
 			// 
 			// lblAssetsCode
 			// 
-			this.lblAssetsCode.AllowDrop = true;
+			//this.lblAssetsCode.AllowDrop = true;
 			this.lblAssetsCode.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsCode.Text = "Area Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
@@ -83,7 +83,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentNo
 			// 
-			this.lblAssetsAdjustmentNo.AllowDrop = true;
+			//this.lblAssetsAdjustmentNo.AllowDrop = true;
 			this.lblAssetsAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentNo.Text = "Area Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(128, 56);
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(128, 77);
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label4.Text = "Area Name (Arabic)";
 			this.Label4.ForeColor = System.Drawing.Color.Black;
@@ -137,7 +137,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(128, 98);

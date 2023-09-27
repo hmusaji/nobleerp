@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "Project";
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "Time";
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -107,7 +107,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "To Date";
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "From Date";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Employee Code";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_5
 			// 
-			this._txtDisplayLabel_5.AllowDrop = true;
+			//this._txtDisplayLabel_5.AllowDrop = true;
 			this._txtDisplayLabel_5.Location = new System.Drawing.Point(223, 64);
 			this._txtDisplayLabel_5.Name = "_txtDisplayLabel_5";
 			this._txtDisplayLabel_5.Size = new System.Drawing.Size(242, 19);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_1
 			// 
-			this._txtCommonDate_1.AllowDrop = true;
+			//this._txtCommonDate_1.AllowDrop = true;
 			// this._txtCommonDate_1.CheckDateRange = false;
 			this._txtCommonDate_1.Location = new System.Drawing.Point(120, 112);
 			// this._txtCommonDate_1.MaxDate = 2958465;
@@ -162,7 +162,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.Enabled = false;
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(120, 64);
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_0
 			// 
-			this._txtCommonDate_0.AllowDrop = true;
+			//this._txtCommonDate_0.AllowDrop = true;
 			// this._txtCommonDate_0.CheckDateRange = false;
 			this._txtCommonDate_0.Location = new System.Drawing.Point(120, 88);
 			// this._txtCommonDate_0.MaxDate = 2958465;
@@ -206,7 +206,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(223, 160);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(242, 19);
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_2
 			// 
-			this._txtCommonTextBox_2.AllowDrop = true;
+			//this._txtCommonTextBox_2.AllowDrop = true;
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(120, 160);

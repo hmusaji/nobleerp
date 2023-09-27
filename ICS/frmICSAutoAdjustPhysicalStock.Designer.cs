@@ -100,7 +100,7 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraDateRange.Controls.Add(this.lblToDate);
 			this.fraDateRange.Controls.Add(this.Label2);
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblToDate.Text = "From Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "To Date";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			// this.txtToDate.CheckDateRange = false;
 			this.txtToDate.Location = new System.Drawing.Point(85, 41);
 			// this.txtToDate.MaxDate = 2958465;
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			// this.txtFromDate.CheckDateRange = false;
 			this.txtFromDate.Location = new System.Drawing.Point(85, 20);
 			// this.txtFromDate.MaxDate = 2958465;
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// fraVoucherRange
 			// 
-			this.fraVoucherRange.AllowDrop = true;
+			//this.fraVoucherRange.AllowDrop = true;
 			this.fraVoucherRange.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraVoucherRange.Controls.Add(this.txtToVoucherNo);
 			this.fraVoucherRange.Controls.Add(this.lblToVoucherNo);
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			// txtToVoucherNo
 			// 
-			this.txtToVoucherNo.AllowDrop = true;
+			//this.txtToVoucherNo.AllowDrop = true;
 			this.txtToVoucherNo.BackColor = System.Drawing.Color.White;
 			// this.txtToVoucherNo.bolNumericOnly = true;
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -200,7 +200,7 @@ namespace Xtreme
 			// 
 			// lblToVoucherNo
 			// 
-			this.lblToVoucherNo.AllowDrop = true;
+			//this.lblToVoucherNo.AllowDrop = true;
 			this.lblToVoucherNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblToVoucherNo.Text = "To Voucher No";
 			this.lblToVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -212,7 +212,7 @@ namespace Xtreme
 			// 
 			// txtFromVoucherNo
 			// 
-			this.txtFromVoucherNo.AllowDrop = true;
+			//this.txtFromVoucherNo.AllowDrop = true;
 			this.txtFromVoucherNo.BackColor = System.Drawing.Color.White;
 			// this.txtFromVoucherNo.bolNumericOnly = true;
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// lblFromVoucherNo
 			// 
-			this.lblFromVoucherNo.AllowDrop = true;
+			//this.lblFromVoucherNo.AllowDrop = true;
 			this.lblFromVoucherNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblFromVoucherNo.Text = "From Voucher No";
 			this.lblFromVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// chkIncludeProcessed
 			// 
-			this.chkIncludeProcessed.AllowDrop = true;
+			//this.chkIncludeProcessed.AllowDrop = true;
 			this.chkIncludeProcessed.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIncludeProcessed.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkIncludeProcessed.CausesValidation = true;
@@ -260,19 +260,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(124, 178);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 0;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// txtLocationCode
 			// 
-			this.txtLocationCode.AllowDrop = true;
+			//this.txtLocationCode.AllowDrop = true;
 			this.txtLocationCode.BackColor = System.Drawing.Color.White;
 			this.txtLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.txtLocationCode.Location = new System.Drawing.Point(120, 33);
@@ -287,7 +287,7 @@ namespace Xtreme
 			// 
 			// txtBatchCode
 			// 
-			this.txtBatchCode.AllowDrop = true;
+			//this.txtBatchCode.AllowDrop = true;
 			this.txtBatchCode.BackColor = System.Drawing.Color.White;
 			this.txtBatchCode.ForeColor = System.Drawing.Color.Black;
 			this.txtBatchCode.Location = new System.Drawing.Point(120, 12);
@@ -302,7 +302,7 @@ namespace Xtreme
 			// 
 			// txtTransactionDate
 			// 
-			this.txtTransactionDate.AllowDrop = true;
+			//this.txtTransactionDate.AllowDrop = true;
 			// this.txtTransactionDate.CheckDateRange = false;
 			this.txtTransactionDate.Location = new System.Drawing.Point(120, 54);
 			// this.txtTransactionDate.MaxDate = 2958465;
@@ -315,7 +315,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Transaction Date";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -327,7 +327,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLocationCode.Text = "Location Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -339,7 +339,7 @@ namespace Xtreme
 			// 
 			// lblMasterCode
 			// 
-			this.lblMasterCode.AllowDrop = true;
+			//this.lblMasterCode.AllowDrop = true;
 			this.lblMasterCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblMasterCode.Text = "Batch Code";
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
@@ -350,7 +350,7 @@ namespace Xtreme
 			// 
 			// txtBatchName
 			// 
-			this.txtBatchName.AllowDrop = true;
+			//this.txtBatchName.AllowDrop = true;
 			this.txtBatchName.Location = new System.Drawing.Point(223, 12);
 			this.txtBatchName.Name = "txtBatchName";
 			this.txtBatchName.Size = new System.Drawing.Size(201, 19);
@@ -358,7 +358,7 @@ namespace Xtreme
 			// 
 			// txtLocationName
 			// 
-			this.txtLocationName.AllowDrop = true;
+			//this.txtLocationName.AllowDrop = true;
 			this.txtLocationName.Location = new System.Drawing.Point(223, 33);
 			this.txtLocationName.Name = "txtLocationName";
 			this.txtLocationName.Size = new System.Drawing.Size(201, 19);

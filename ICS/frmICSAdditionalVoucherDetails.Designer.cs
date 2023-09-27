@@ -319,19 +319,19 @@ namespace Xtreme
 			// 
 			// _UCOkCancel1_14
 			// 
-			this._UCOkCancel1_14.AllowDrop = true;
+			//this._UCOkCancel1_14.AllowDrop = true;
 			this._UCOkCancel1_14.DisplayButton = 1;
 			this._UCOkCancel1_14.Location = new System.Drawing.Point(208, 422);
 			this._UCOkCancel1_14.Name = "_UCOkCancel1_14";
 			this._UCOkCancel1_14.OkCaption = "&Close";
 			this._UCOkCancel1_14.Size = new System.Drawing.Size(104, 31);
 			this._UCOkCancel1_14.TabIndex = 47;
-			this._UCOkCancel1_14.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
+			//this._UCOkCancel1_14.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
 			// 
 			// tabMaster
 			// 
 			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this._fraMasterInformation_2);
 			this.tabMaster.Controls.Add(this._fraMasterInformation_1);
 			this.tabMaster.Controls.Add(this._fraMasterInformation_0);
@@ -344,9 +344,9 @@ namespace Xtreme
 			// 
 			// _fraMasterInformation_2
 			// 
-			this._fraMasterInformation_2.AllowDrop = true;
+			//this._fraMasterInformation_2.AllowDrop = true;
 			this._fraMasterInformation_2.BackColor = System.Drawing.Color.FromArgb(249, 240, 236);
-			this._fraMasterInformation_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraMasterInformation_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraMasterInformation_2.Controls.Add(this.cmdItalic);
 			this._fraMasterInformation_2.Controls.Add(this.cmdBold);
 			this._fraMasterInformation_2.Controls.Add(this.cmdColor);
@@ -382,7 +382,7 @@ namespace Xtreme
 			// 
 			// cmdItalic
 			// 
-			this.cmdItalic.AllowDrop = true;
+			//this.cmdItalic.AllowDrop = true;
 			this.cmdItalic.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdItalic.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdItalic.Location = new System.Drawing.Point(174, 112);
@@ -397,7 +397,7 @@ namespace Xtreme
 			// 
 			// cmdBold
 			// 
-			this.cmdBold.AllowDrop = true;
+			//this.cmdBold.AllowDrop = true;
 			this.cmdBold.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdBold.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdBold.Location = new System.Drawing.Point(98, 112);
@@ -412,7 +412,7 @@ namespace Xtreme
 			// 
 			// cmdColor
 			// 
-			this.cmdColor.AllowDrop = true;
+			//this.cmdColor.AllowDrop = true;
 			this.cmdColor.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdColor.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdColor.Location = new System.Drawing.Point(326, 112);
@@ -427,7 +427,7 @@ namespace Xtreme
 			// 
 			// cmdUnderline
 			// 
-			this.cmdUnderline.AllowDrop = true;
+			//this.cmdUnderline.AllowDrop = true;
 			this.cmdUnderline.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdUnderline.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdUnderline.Location = new System.Drawing.Point(250, 112);
@@ -442,7 +442,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.SystemColors.Window;
 			this.Label3.Text = "Narration";
 			this.Label3.Location = new System.Drawing.Point(52, 18);
@@ -452,7 +452,7 @@ namespace Xtreme
 			// 
 			// _comCommon_0
 			// 
-			this._comCommon_0.AllowDrop = true;
+			//this._comCommon_0.AllowDrop = true;
 			this._comCommon_0.Location = new System.Drawing.Point(98, 144);
 			this._comCommon_0.Name = "_comCommon_0";
 			this._comCommon_0.Size = new System.Drawing.Size(101, 21);
@@ -461,7 +461,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_22
 			// 
-			this._lblCommonLabel_22.AllowDrop = true;
+			//this._lblCommonLabel_22.AllowDrop = true;
 			this._lblCommonLabel_22.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_22.Text = "Flex 6";
 			this._lblCommonLabel_22.Location = new System.Drawing.Point(52, 148);
@@ -472,7 +472,7 @@ namespace Xtreme
 			// 
 			// _comCommon_6
 			// 
-			this._comCommon_6.AllowDrop = true;
+			//this._comCommon_6.AllowDrop = true;
 			this._comCommon_6.Location = new System.Drawing.Point(98, 218);
 			this._comCommon_6.Name = "_comCommon_6";
 			this._comCommon_6.Size = new System.Drawing.Size(101, 21);
@@ -481,7 +481,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_23
 			// 
-			this._lblCommonLabel_23.AllowDrop = true;
+			//this._lblCommonLabel_23.AllowDrop = true;
 			this._lblCommonLabel_23.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_23.Text = "Flex 9";
 			this._lblCommonLabel_23.Location = new System.Drawing.Point(52, 220);
@@ -492,7 +492,7 @@ namespace Xtreme
 			// 
 			// _comCommon_7
 			// 
-			this._comCommon_7.AllowDrop = true;
+			//this._comCommon_7.AllowDrop = true;
 			this._comCommon_7.Location = new System.Drawing.Point(98, 168);
 			this._comCommon_7.Name = "_comCommon_7";
 			this._comCommon_7.Size = new System.Drawing.Size(101, 21);
@@ -501,7 +501,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_24
 			// 
-			this._lblCommonLabel_24.AllowDrop = true;
+			//this._lblCommonLabel_24.AllowDrop = true;
 			this._lblCommonLabel_24.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_24.Text = "Flex 7";
 			this._lblCommonLabel_24.Location = new System.Drawing.Point(52, 172);
@@ -512,7 +512,7 @@ namespace Xtreme
 			// 
 			// _comCommon_8
 			// 
-			this._comCommon_8.AllowDrop = true;
+			//this._comCommon_8.AllowDrop = true;
 			this._comCommon_8.Location = new System.Drawing.Point(98, 194);
 			this._comCommon_8.Name = "_comCommon_8";
 			this._comCommon_8.Size = new System.Drawing.Size(101, 21);
@@ -521,7 +521,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_25
 			// 
-			this._lblCommonLabel_25.AllowDrop = true;
+			//this._lblCommonLabel_25.AllowDrop = true;
 			this._lblCommonLabel_25.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_25.Text = "Flex 8";
 			this._lblCommonLabel_25.Location = new System.Drawing.Point(52, 194);
@@ -532,7 +532,7 @@ namespace Xtreme
 			// 
 			// _comCommon_9
 			// 
-			this._comCommon_9.AllowDrop = true;
+			//this._comCommon_9.AllowDrop = true;
 			this._comCommon_9.Location = new System.Drawing.Point(98, 242);
 			this._comCommon_9.Name = "_comCommon_9";
 			this._comCommon_9.Size = new System.Drawing.Size(101, 21);
@@ -541,7 +541,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_26
 			// 
-			this._lblCommonLabel_26.AllowDrop = true;
+			//this._lblCommonLabel_26.AllowDrop = true;
 			this._lblCommonLabel_26.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_26.Text = "Flex 10";
 			this._lblCommonLabel_26.Location = new System.Drawing.Point(52, 244);
@@ -552,7 +552,7 @@ namespace Xtreme
 			// 
 			// _comCommon_11
 			// 
-			this._comCommon_11.AllowDrop = true;
+			//this._comCommon_11.AllowDrop = true;
 			this._comCommon_11.Location = new System.Drawing.Point(98, 268);
 			this._comCommon_11.Name = "_comCommon_11";
 			this._comCommon_11.Size = new System.Drawing.Size(101, 21);
@@ -561,7 +561,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_28
 			// 
-			this._lblCommonLabel_28.AllowDrop = true;
+			//this._lblCommonLabel_28.AllowDrop = true;
 			this._lblCommonLabel_28.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_28.Text = "Flex 11";
 			this._lblCommonLabel_28.Location = new System.Drawing.Point(52, 272);
@@ -572,7 +572,7 @@ namespace Xtreme
 			// 
 			// _comCommon_12
 			// 
-			this._comCommon_12.AllowDrop = true;
+			//this._comCommon_12.AllowDrop = true;
 			this._comCommon_12.Location = new System.Drawing.Point(98, 294);
 			this._comCommon_12.Name = "_comCommon_12";
 			this._comCommon_12.Size = new System.Drawing.Size(101, 21);
@@ -581,7 +581,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_29
 			// 
-			this._lblCommonLabel_29.AllowDrop = true;
+			//this._lblCommonLabel_29.AllowDrop = true;
 			this._lblCommonLabel_29.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_29.Text = "Flex 12";
 			this._lblCommonLabel_29.Location = new System.Drawing.Point(52, 298);
@@ -592,7 +592,7 @@ namespace Xtreme
 			// 
 			// _comCommon_13
 			// 
-			this._comCommon_13.AllowDrop = true;
+			//this._comCommon_13.AllowDrop = true;
 			this._comCommon_13.Location = new System.Drawing.Point(98, 320);
 			this._comCommon_13.Name = "_comCommon_13";
 			this._comCommon_13.Size = new System.Drawing.Size(101, 21);
@@ -601,7 +601,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_30
 			// 
-			this._lblCommonLabel_30.AllowDrop = true;
+			//this._lblCommonLabel_30.AllowDrop = true;
 			this._lblCommonLabel_30.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_30.Text = "Flex 13";
 			this._lblCommonLabel_30.Location = new System.Drawing.Point(52, 324);
@@ -612,7 +612,7 @@ namespace Xtreme
 			// 
 			// _comCommon_14
 			// 
-			this._comCommon_14.AllowDrop = true;
+			//this._comCommon_14.AllowDrop = true;
 			this._comCommon_14.Location = new System.Drawing.Point(98, 346);
 			this._comCommon_14.Name = "_comCommon_14";
 			this._comCommon_14.Size = new System.Drawing.Size(101, 21);
@@ -621,7 +621,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_31
 			// 
-			this._lblCommonLabel_31.AllowDrop = true;
+			//this._lblCommonLabel_31.AllowDrop = true;
 			this._lblCommonLabel_31.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_31.Text = "Flex 14";
 			this._lblCommonLabel_31.Location = new System.Drawing.Point(52, 350);
@@ -632,21 +632,21 @@ namespace Xtreme
 			// 
 			// txtNarration2
 			// 
-			this.txtNarration2.AllowDrop = true;
-			this.txtNarration2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtNarration2.AllowDrop = true;
+			//this.txtNarration2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtNarration2.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.txtNarration2.Location = new System.Drawing.Point(98, 14);
 			this.txtNarration2.Name = "txtNarration2";
-			this.txtNarration2.Rtf = resources.GetString("txtNarration2.TextRTF");
+			//this.txtNarration2.Rtf = resources.GetString("txtNarration2.TextRTF");
 			this.txtNarration2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Both;
 			this.txtNarration2.Size = new System.Drawing.Size(395, 97);
 			this.txtNarration2.TabIndex = 118;
 			// 
 			// _fraMasterInformation_1
 			// 
-			this._fraMasterInformation_1.AllowDrop = true;
+			//this._fraMasterInformation_1.AllowDrop = true;
 			this._fraMasterInformation_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraMasterInformation_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraMasterInformation_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraMasterInformation_1.Controls.Add(this._comCommon_1);
 			this._fraMasterInformation_1.Controls.Add(this.txtCreditCardDate);
 			this._fraMasterInformation_1.Controls.Add(this._lblCommonLabel_7);
@@ -712,7 +712,7 @@ namespace Xtreme
 			// 
 			// _comCommon_1
 			// 
-			this._comCommon_1.AllowDrop = true;
+			//this._comCommon_1.AllowDrop = true;
 			this._comCommon_1.Location = new System.Drawing.Point(126, 370);
 			this._comCommon_1.Name = "_comCommon_1";
 			this._comCommon_1.Size = new System.Drawing.Size(345, 21);
@@ -720,7 +720,7 @@ namespace Xtreme
 			// 
 			// txtCreditCardDate
 			// 
-			this.txtCreditCardDate.AllowDrop = true;
+			//this.txtCreditCardDate.AllowDrop = true;
 			// this.txtCreditCardDate.CheckDateRange = false;
 			this.txtCreditCardDate.Location = new System.Drawing.Point(352, 176);
 			// this.txtCreditCardDate.MaxDate = 2958465;
@@ -733,7 +733,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_7
 			// 
-			this._lblCommonLabel_7.AllowDrop = true;
+			//this._lblCommonLabel_7.AllowDrop = true;
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "City";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(25, 115);
@@ -744,7 +744,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Block No.";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(260, 94);
@@ -755,7 +755,7 @@ namespace Xtreme
 			// 
 			// lblRefrenceOrderDate
 			// 
-			this.lblRefrenceOrderDate.AllowDrop = true;
+			//this.lblRefrenceOrderDate.AllowDrop = true;
 			this.lblRefrenceOrderDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblRefrenceOrderDate.Text = "Ref. Order Date";
 			this.lblRefrenceOrderDate.Location = new System.Drawing.Point(260, 136);
@@ -766,7 +766,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Country";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(260, 115);
@@ -777,7 +777,7 @@ namespace Xtreme
 			// 
 			// lblChequeDate
 			// 
-			this.lblChequeDate.AllowDrop = true;
+			//this.lblChequeDate.AllowDrop = true;
 			this.lblChequeDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblChequeDate.Text = "Cheque Date";
 			this.lblChequeDate.Location = new System.Drawing.Point(260, 157);
@@ -788,7 +788,7 @@ namespace Xtreme
 			// 
 			// lblCreditCardDate
 			// 
-			this.lblCreditCardDate.AllowDrop = true;
+			//this.lblCreditCardDate.AllowDrop = true;
 			this.lblCreditCardDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblCreditCardDate.Text = "Credit Card Date ";
 			this.lblCreditCardDate.Location = new System.Drawing.Point(260, 178);
@@ -799,7 +799,7 @@ namespace Xtreme
 			// 
 			// txtBlockNo
 			// 
-			this.txtBlockNo.AllowDrop = true;
+			//this.txtBlockNo.AllowDrop = true;
 			this.txtBlockNo.BackColor = System.Drawing.Color.White;
 			this.txtBlockNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBlockNo.Location = new System.Drawing.Point(352, 92);
@@ -811,7 +811,7 @@ namespace Xtreme
 			// 
 			// txtCountry
 			// 
-			this.txtCountry.AllowDrop = true;
+			//this.txtCountry.AllowDrop = true;
 			this.txtCountry.BackColor = System.Drawing.Color.White;
 			this.txtCountry.ForeColor = System.Drawing.Color.Black;
 			this.txtCountry.Location = new System.Drawing.Point(352, 113);
@@ -823,7 +823,7 @@ namespace Xtreme
 			// 
 			// txtRefrenceOrderDate
 			// 
-			this.txtRefrenceOrderDate.AllowDrop = true;
+			//this.txtRefrenceOrderDate.AllowDrop = true;
 			// this.txtRefrenceOrderDate.CheckDateRange = false;
 			this.txtRefrenceOrderDate.Location = new System.Drawing.Point(352, 134);
 			// this.txtRefrenceOrderDate.MaxDate = 2958465;
@@ -836,7 +836,7 @@ namespace Xtreme
 			// 
 			// txtChequeDate
 			// 
-			this.txtChequeDate.AllowDrop = true;
+			//this.txtChequeDate.AllowDrop = true;
 			// this.txtChequeDate.CheckDateRange = false;
 			this.txtChequeDate.Location = new System.Drawing.Point(352, 155);
 			// this.txtChequeDate.MaxDate = 2958465;
@@ -849,7 +849,7 @@ namespace Xtreme
 			// 
 			// txtCreditCardNo
 			// 
-			this.txtCreditCardNo.AllowDrop = true;
+			//this.txtCreditCardNo.AllowDrop = true;
 			this.txtCreditCardNo.BackColor = System.Drawing.Color.White;
 			this.txtCreditCardNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCreditCardNo.Location = new System.Drawing.Point(126, 176);
@@ -861,7 +861,7 @@ namespace Xtreme
 			// 
 			// txtPhone
 			// 
-			this.txtPhone.AllowDrop = true;
+			//this.txtPhone.AllowDrop = true;
 			this.txtPhone.BackColor = System.Drawing.Color.White;
 			this.txtPhone.ForeColor = System.Drawing.Color.Black;
 			this.txtPhone.Location = new System.Drawing.Point(126, 71);
@@ -873,7 +873,7 @@ namespace Xtreme
 			// 
 			// txtStreetNo
 			// 
-			this.txtStreetNo.AllowDrop = true;
+			//this.txtStreetNo.AllowDrop = true;
 			this.txtStreetNo.BackColor = System.Drawing.Color.White;
 			this.txtStreetNo.ForeColor = System.Drawing.Color.Black;
 			this.txtStreetNo.Location = new System.Drawing.Point(126, 92);
@@ -885,7 +885,7 @@ namespace Xtreme
 			// 
 			// txtCity
 			// 
-			this.txtCity.AllowDrop = true;
+			//this.txtCity.AllowDrop = true;
 			this.txtCity.BackColor = System.Drawing.Color.White;
 			this.txtCity.ForeColor = System.Drawing.Color.Black;
 			this.txtCity.Location = new System.Drawing.Point(126, 113);
@@ -897,7 +897,7 @@ namespace Xtreme
 			// 
 			// txtRefOrderNo
 			// 
-			this.txtRefOrderNo.AllowDrop = true;
+			//this.txtRefOrderNo.AllowDrop = true;
 			this.txtRefOrderNo.BackColor = System.Drawing.Color.White;
 			this.txtRefOrderNo.ForeColor = System.Drawing.Color.Black;
 			this.txtRefOrderNo.Location = new System.Drawing.Point(126, 134);
@@ -909,7 +909,7 @@ namespace Xtreme
 			// 
 			// txtChequeNo
 			// 
-			this.txtChequeNo.AllowDrop = true;
+			//this.txtChequeNo.AllowDrop = true;
 			this.txtChequeNo.BackColor = System.Drawing.Color.White;
 			this.txtChequeNo.ForeColor = System.Drawing.Color.Black;
 			this.txtChequeNo.Location = new System.Drawing.Point(126, 155);
@@ -921,7 +921,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Street No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(25, 94);
@@ -932,7 +932,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Customer Name";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(25, 8);
@@ -943,7 +943,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Address 1";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(25, 31);
@@ -954,7 +954,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Phone";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(25, 73);
@@ -965,7 +965,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Ref. Order No.";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(25, 136);
@@ -976,7 +976,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_10
 			// 
-			this._lblCommonLabel_10.AllowDrop = true;
+			//this._lblCommonLabel_10.AllowDrop = true;
 			this._lblCommonLabel_10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_10.Text = "Cheque No.";
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(25, 157);
@@ -987,7 +987,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_11
 			// 
-			this._lblCommonLabel_11.AllowDrop = true;
+			//this._lblCommonLabel_11.AllowDrop = true;
 			this._lblCommonLabel_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_11.Text = "Credit Card No.";
 			this._lblCommonLabel_11.Location = new System.Drawing.Point(25, 178);
@@ -998,7 +998,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Address 2";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(25, 52);
@@ -1009,7 +1009,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Payment Mode";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(25, 372);
@@ -1020,7 +1020,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Drawn on Bank";
 			this.Label1.Location = new System.Drawing.Point(260, 200);
@@ -1031,7 +1031,7 @@ namespace Xtreme
 			// 
 			// txtDrawnOnBank
 			// 
-			this.txtDrawnOnBank.AllowDrop = true;
+			//this.txtDrawnOnBank.AllowDrop = true;
 			this.txtDrawnOnBank.BackColor = System.Drawing.Color.White;
 			this.txtDrawnOnBank.ForeColor = System.Drawing.Color.Black;
 			this.txtDrawnOnBank.Location = new System.Drawing.Point(352, 198);
@@ -1043,7 +1043,7 @@ namespace Xtreme
 			// 
 			// _comCommon_2
 			// 
-			this._comCommon_2.AllowDrop = true;
+			//this._comCommon_2.AllowDrop = true;
 			this._comCommon_2.Location = new System.Drawing.Point(126, 346);
 			this._comCommon_2.Name = "_comCommon_2";
 			this._comCommon_2.Size = new System.Drawing.Size(101, 21);
@@ -1051,7 +1051,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_12
 			// 
-			this._lblCommonLabel_12.AllowDrop = true;
+			//this._lblCommonLabel_12.AllowDrop = true;
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_12.Text = "Shipment Mode";
 			this._lblCommonLabel_12.Location = new System.Drawing.Point(25, 348);
@@ -1062,7 +1062,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Shipment No.";
 			this.Label2.Location = new System.Drawing.Point(260, 249);
@@ -1073,7 +1073,7 @@ namespace Xtreme
 			// 
 			// txtShipmentNo
 			// 
-			this.txtShipmentNo.AllowDrop = true;
+			//this.txtShipmentNo.AllowDrop = true;
 			this.txtShipmentNo.BackColor = System.Drawing.Color.White;
 			this.txtShipmentNo.ForeColor = System.Drawing.Color.Black;
 			this.txtShipmentNo.Location = new System.Drawing.Point(352, 247);
@@ -1085,7 +1085,7 @@ namespace Xtreme
 			// 
 			// _comCommon_3
 			// 
-			this._comCommon_3.AllowDrop = true;
+			//this._comCommon_3.AllowDrop = true;
 			this._comCommon_3.Location = new System.Drawing.Point(352, 346);
 			this._comCommon_3.Name = "_comCommon_3";
 			this._comCommon_3.Size = new System.Drawing.Size(119, 21);
@@ -1093,7 +1093,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_13
 			// 
-			this._lblCommonLabel_13.AllowDrop = true;
+			//this._lblCommonLabel_13.AllowDrop = true;
 			this._lblCommonLabel_13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_13.Text = "Shipment No. Type";
 			this._lblCommonLabel_13.Location = new System.Drawing.Point(260, 348);
@@ -1104,7 +1104,7 @@ namespace Xtreme
 			// 
 			// _comCommon_4
 			// 
-			this._comCommon_4.AllowDrop = true;
+			//this._comCommon_4.AllowDrop = true;
 			this._comCommon_4.Location = new System.Drawing.Point(352, 322);
 			this._comCommon_4.Name = "_comCommon_4";
 			this._comCommon_4.Size = new System.Drawing.Size(119, 21);
@@ -1112,7 +1112,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_14
 			// 
-			this._lblCommonLabel_14.AllowDrop = true;
+			//this._lblCommonLabel_14.AllowDrop = true;
 			this._lblCommonLabel_14.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_14.Text = "Delivery Period";
 			this._lblCommonLabel_14.Location = new System.Drawing.Point(260, 322);
@@ -1123,7 +1123,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_15
 			// 
-			this._lblCommonLabel_15.AllowDrop = true;
+			//this._lblCommonLabel_15.AllowDrop = true;
 			this._lblCommonLabel_15.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_15.Text = "Delivery Location";
 			this._lblCommonLabel_15.Location = new System.Drawing.Point(260, 275);
@@ -1134,7 +1134,7 @@ namespace Xtreme
 			// 
 			// txtDeliveryTerms
 			// 
-			this.txtDeliveryTerms.AllowDrop = true;
+			//this.txtDeliveryTerms.AllowDrop = true;
 			this.txtDeliveryTerms.BackColor = System.Drawing.Color.White;
 			this.txtDeliveryTerms.ForeColor = System.Drawing.Color.Black;
 			this.txtDeliveryTerms.Location = new System.Drawing.Point(126, 298);
@@ -1146,7 +1146,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_16
 			// 
-			this._lblCommonLabel_16.AllowDrop = true;
+			//this._lblCommonLabel_16.AllowDrop = true;
 			this._lblCommonLabel_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_16.Text = "Payment Terms";
 			this._lblCommonLabel_16.Location = new System.Drawing.Point(25, 224);
@@ -1157,7 +1157,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_17
 			// 
-			this._lblCommonLabel_17.AllowDrop = true;
+			//this._lblCommonLabel_17.AllowDrop = true;
 			this._lblCommonLabel_17.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_17.Text = "Delivery Terms";
 			this._lblCommonLabel_17.Location = new System.Drawing.Point(25, 300);
@@ -1168,7 +1168,7 @@ namespace Xtreme
 			// 
 			// txtPackingListNo
 			// 
-			this.txtPackingListNo.AllowDrop = true;
+			//this.txtPackingListNo.AllowDrop = true;
 			this.txtPackingListNo.BackColor = System.Drawing.Color.White;
 			this.txtPackingListNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPackingListNo.Location = new System.Drawing.Point(126, 246);
@@ -1180,7 +1180,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_18
 			// 
-			this._lblCommonLabel_18.AllowDrop = true;
+			//this._lblCommonLabel_18.AllowDrop = true;
 			this._lblCommonLabel_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_18.Text = "Packing List No.";
 			this._lblCommonLabel_18.Location = new System.Drawing.Point(25, 250);
@@ -1191,7 +1191,7 @@ namespace Xtreme
 			// 
 			// txtNAdditionalExpenses
 			// 
-			this.txtNAdditionalExpenses.AllowDrop = true;
+			//this.txtNAdditionalExpenses.AllowDrop = true;
 			// this.txtNAdditionalExpenses.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNAdditionalExpenses.Format = "###########0.000";
 			this.txtNAdditionalExpenses.Location = new System.Drawing.Point(126, 198);
@@ -1204,7 +1204,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_20
 			// 
-			this._lblCommonLabel_20.AllowDrop = true;
+			//this._lblCommonLabel_20.AllowDrop = true;
 			this._lblCommonLabel_20.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_20.Text = "Additional Expenses";
 			this._lblCommonLabel_20.Location = new System.Drawing.Point(25, 202);
@@ -1214,7 +1214,7 @@ namespace Xtreme
 			// 
 			// txtAdd1
 			// 
-			this.txtAdd1.AllowDrop = true;
+			//this.txtAdd1.AllowDrop = true;
 			this.txtAdd1.BackColor = System.Drawing.Color.White;
 			this.txtAdd1.ForeColor = System.Drawing.Color.Black;
 			this.txtAdd1.Location = new System.Drawing.Point(126, 29);
@@ -1226,7 +1226,7 @@ namespace Xtreme
 			// 
 			// txtAdd2
 			// 
-			this.txtAdd2.AllowDrop = true;
+			//this.txtAdd2.AllowDrop = true;
 			this.txtAdd2.BackColor = System.Drawing.Color.White;
 			this.txtAdd2.ForeColor = System.Drawing.Color.Black;
 			this.txtAdd2.Location = new System.Drawing.Point(126, 50);
@@ -1238,7 +1238,7 @@ namespace Xtreme
 			// 
 			// txtPaymentTerms
 			// 
-			this.txtPaymentTerms.AllowDrop = true;
+			//this.txtPaymentTerms.AllowDrop = true;
 			this.txtPaymentTerms.BackColor = System.Drawing.Color.White;
 			this.txtPaymentTerms.ForeColor = System.Drawing.Color.Black;
 			this.txtPaymentTerms.Location = new System.Drawing.Point(126, 222);
@@ -1250,7 +1250,7 @@ namespace Xtreme
 			// 
 			// txtLdgrName
 			// 
-			this.txtLdgrName.AllowDrop = true;
+			//this.txtLdgrName.AllowDrop = true;
 			this.txtLdgrName.BackColor = System.Drawing.Color.White;
 			this.txtLdgrName.ForeColor = System.Drawing.Color.Black;
 			this.txtLdgrName.Location = new System.Drawing.Point(126, 8);
@@ -1263,7 +1263,7 @@ namespace Xtreme
 			// 
 			// txtDeliveryLocation
 			// 
-			this.txtDeliveryLocation.AllowDrop = true;
+			//this.txtDeliveryLocation.AllowDrop = true;
 			this.txtDeliveryLocation.BackColor = System.Drawing.Color.White;
 			this.txtDeliveryLocation.ForeColor = System.Drawing.Color.Black;
 			this.txtDeliveryLocation.Location = new System.Drawing.Point(352, 272);
@@ -1275,7 +1275,7 @@ namespace Xtreme
 			// 
 			// _comCommon_5
 			// 
-			this._comCommon_5.AllowDrop = true;
+			//this._comCommon_5.AllowDrop = true;
 			this._comCommon_5.Location = new System.Drawing.Point(126, 322);
 			this._comCommon_5.Name = "_comCommon_5";
 			this._comCommon_5.Size = new System.Drawing.Size(101, 21);
@@ -1283,7 +1283,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_19
 			// 
-			this._lblCommonLabel_19.AllowDrop = true;
+			//this._lblCommonLabel_19.AllowDrop = true;
 			this._lblCommonLabel_19.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_19.Text = "Trans Type";
 			this._lblCommonLabel_19.Location = new System.Drawing.Point(25, 322);
@@ -1294,7 +1294,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_21
 			// 
-			this._lblCommonLabel_21.AllowDrop = true;
+			//this._lblCommonLabel_21.AllowDrop = true;
 			this._lblCommonLabel_21.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_21.Text = "Bid No";
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(25, 274);
@@ -1306,7 +1306,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(126, 272);
@@ -1321,9 +1321,9 @@ namespace Xtreme
 			// 
 			// _fraMasterInformation_0
 			// 
-			this._fraMasterInformation_0.AllowDrop = true;
+			//this._fraMasterInformation_0.AllowDrop = true;
 			this._fraMasterInformation_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraMasterInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraMasterInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraMasterInformation_0.Controls.Add(this.txtOldPrescription);
 			this._fraMasterInformation_0.Controls.Add(this.Label4);
 			this._fraMasterInformation_0.Controls.Add(this.txtAddRSph);
@@ -1380,9 +1380,9 @@ namespace Xtreme
 			// txtOldPrescription
 			// 
 			this.txtOldPrescription.AcceptsReturn = true;
-			this.txtOldPrescription.AllowDrop = true;
+			//this.txtOldPrescription.AllowDrop = true;
 			this.txtOldPrescription.BackColor = System.Drawing.SystemColors.Window;
-			this.txtOldPrescription.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtOldPrescription.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtOldPrescription.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtOldPrescription.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtOldPrescription.Location = new System.Drawing.Point(12, 164);
@@ -1397,7 +1397,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.SystemColors.Window;
 			this.Label4.Text = "New Prescription";
 			this.Label4.Enabled = false;
@@ -1409,7 +1409,7 @@ namespace Xtreme
 			// 
 			// txtAddRSph
 			// 
-			this.txtAddRSph.AllowDrop = true;
+			//this.txtAddRSph.AllowDrop = true;
 			this.txtAddRSph.BackColor = System.Drawing.Color.White;
 			this.txtAddRSph.ForeColor = System.Drawing.Color.Black;
 			this.txtAddRSph.Location = new System.Drawing.Point(84, 111);
@@ -1421,7 +1421,7 @@ namespace Xtreme
 			// 
 			// txtDistRCyl
 			// 
-			this.txtDistRCyl.AllowDrop = true;
+			//this.txtDistRCyl.AllowDrop = true;
 			this.txtDistRCyl.BackColor = System.Drawing.Color.White;
 			this.txtDistRCyl.ForeColor = System.Drawing.Color.Black;
 			this.txtDistRCyl.Location = new System.Drawing.Point(124, 92);
@@ -1433,7 +1433,7 @@ namespace Xtreme
 			// 
 			// txtAddRCyl
 			// 
-			this.txtAddRCyl.AllowDrop = true;
+			//this.txtAddRCyl.AllowDrop = true;
 			this.txtAddRCyl.BackColor = System.Drawing.Color.White;
 			this.txtAddRCyl.ForeColor = System.Drawing.Color.Black;
 			this.txtAddRCyl.Location = new System.Drawing.Point(124, 111);
@@ -1445,7 +1445,7 @@ namespace Xtreme
 			// 
 			// txtDistRAxis
 			// 
-			this.txtDistRAxis.AllowDrop = true;
+			//this.txtDistRAxis.AllowDrop = true;
 			this.txtDistRAxis.BackColor = System.Drawing.Color.White;
 			this.txtDistRAxis.ForeColor = System.Drawing.Color.Black;
 			this.txtDistRAxis.Location = new System.Drawing.Point(164, 92);
@@ -1457,7 +1457,7 @@ namespace Xtreme
 			// 
 			// txtAddRAxis
 			// 
-			this.txtAddRAxis.AllowDrop = true;
+			//this.txtAddRAxis.AllowDrop = true;
 			this.txtAddRAxis.BackColor = System.Drawing.Color.White;
 			this.txtAddRAxis.ForeColor = System.Drawing.Color.Black;
 			this.txtAddRAxis.Location = new System.Drawing.Point(164, 111);
@@ -1469,7 +1469,7 @@ namespace Xtreme
 			// 
 			// txtDistLSph
 			// 
-			this.txtDistLSph.AllowDrop = true;
+			//this.txtDistLSph.AllowDrop = true;
 			this.txtDistLSph.BackColor = System.Drawing.Color.White;
 			this.txtDistLSph.ForeColor = System.Drawing.Color.Black;
 			this.txtDistLSph.Location = new System.Drawing.Point(204, 92);
@@ -1481,7 +1481,7 @@ namespace Xtreme
 			// 
 			// txtAddLSph
 			// 
-			this.txtAddLSph.AllowDrop = true;
+			//this.txtAddLSph.AllowDrop = true;
 			this.txtAddLSph.BackColor = System.Drawing.Color.White;
 			this.txtAddLSph.ForeColor = System.Drawing.Color.Black;
 			this.txtAddLSph.Location = new System.Drawing.Point(204, 111);
@@ -1493,7 +1493,7 @@ namespace Xtreme
 			// 
 			// txtDistLCyl
 			// 
-			this.txtDistLCyl.AllowDrop = true;
+			//this.txtDistLCyl.AllowDrop = true;
 			this.txtDistLCyl.BackColor = System.Drawing.Color.White;
 			this.txtDistLCyl.ForeColor = System.Drawing.Color.Black;
 			this.txtDistLCyl.Location = new System.Drawing.Point(244, 92);
@@ -1505,7 +1505,7 @@ namespace Xtreme
 			// 
 			// txtAddLCyl
 			// 
-			this.txtAddLCyl.AllowDrop = true;
+			//this.txtAddLCyl.AllowDrop = true;
 			this.txtAddLCyl.BackColor = System.Drawing.Color.White;
 			this.txtAddLCyl.ForeColor = System.Drawing.Color.Black;
 			this.txtAddLCyl.Location = new System.Drawing.Point(244, 111);
@@ -1517,7 +1517,7 @@ namespace Xtreme
 			// 
 			// txtDistLAxis
 			// 
-			this.txtDistLAxis.AllowDrop = true;
+			//this.txtDistLAxis.AllowDrop = true;
 			this.txtDistLAxis.BackColor = System.Drawing.Color.White;
 			this.txtDistLAxis.ForeColor = System.Drawing.Color.Black;
 			this.txtDistLAxis.Location = new System.Drawing.Point(284, 92);
@@ -1529,7 +1529,7 @@ namespace Xtreme
 			// 
 			// txtAddLAxis
 			// 
-			this.txtAddLAxis.AllowDrop = true;
+			//this.txtAddLAxis.AllowDrop = true;
 			this.txtAddLAxis.BackColor = System.Drawing.Color.White;
 			this.txtAddLAxis.ForeColor = System.Drawing.Color.Black;
 			this.txtAddLAxis.Location = new System.Drawing.Point(284, 111);
@@ -1541,7 +1541,7 @@ namespace Xtreme
 			// 
 			// txtDistIPD
 			// 
-			this.txtDistIPD.AllowDrop = true;
+			//this.txtDistIPD.AllowDrop = true;
 			this.txtDistIPD.BackColor = System.Drawing.Color.White;
 			this.txtDistIPD.ForeColor = System.Drawing.Color.Black;
 			this.txtDistIPD.Location = new System.Drawing.Point(324, 92);
@@ -1553,7 +1553,7 @@ namespace Xtreme
 			// 
 			// txtAddIPD
 			// 
-			this.txtAddIPD.AllowDrop = true;
+			//this.txtAddIPD.AllowDrop = true;
 			this.txtAddIPD.BackColor = System.Drawing.Color.White;
 			this.txtAddIPD.ForeColor = System.Drawing.Color.Black;
 			this.txtAddIPD.Location = new System.Drawing.Point(324, 111);
@@ -1565,7 +1565,7 @@ namespace Xtreme
 			// 
 			// txtDistSGH
 			// 
-			this.txtDistSGH.AllowDrop = true;
+			//this.txtDistSGH.AllowDrop = true;
 			this.txtDistSGH.BackColor = System.Drawing.Color.White;
 			this.txtDistSGH.ForeColor = System.Drawing.Color.Black;
 			this.txtDistSGH.Location = new System.Drawing.Point(364, 92);
@@ -1577,7 +1577,7 @@ namespace Xtreme
 			// 
 			// txtAddSGH
 			// 
-			this.txtAddSGH.AllowDrop = true;
+			//this.txtAddSGH.AllowDrop = true;
 			this.txtAddSGH.BackColor = System.Drawing.Color.White;
 			this.txtAddSGH.ForeColor = System.Drawing.Color.Black;
 			this.txtAddSGH.Location = new System.Drawing.Point(364, 111);
@@ -1589,7 +1589,7 @@ namespace Xtreme
 			// 
 			// txtDistRLens
 			// 
-			this.txtDistRLens.AllowDrop = true;
+			//this.txtDistRLens.AllowDrop = true;
 			this.txtDistRLens.BackColor = System.Drawing.Color.White;
 			this.txtDistRLens.ForeColor = System.Drawing.Color.Black;
 			this.txtDistRLens.Location = new System.Drawing.Point(404, 92);
@@ -1601,7 +1601,7 @@ namespace Xtreme
 			// 
 			// txtAddRLens
 			// 
-			this.txtAddRLens.AllowDrop = true;
+			//this.txtAddRLens.AllowDrop = true;
 			this.txtAddRLens.BackColor = System.Drawing.Color.White;
 			this.txtAddRLens.ForeColor = System.Drawing.Color.Black;
 			this.txtAddRLens.Location = new System.Drawing.Point(404, 111);
@@ -1613,7 +1613,7 @@ namespace Xtreme
 			// 
 			// txtDistLLens
 			// 
-			this.txtDistLLens.AllowDrop = true;
+			//this.txtDistLLens.AllowDrop = true;
 			this.txtDistLLens.BackColor = System.Drawing.Color.White;
 			this.txtDistLLens.ForeColor = System.Drawing.Color.Black;
 			this.txtDistLLens.Location = new System.Drawing.Point(444, 92);
@@ -1625,7 +1625,7 @@ namespace Xtreme
 			// 
 			// txtAddLLens
 			// 
-			this.txtAddLLens.AllowDrop = true;
+			//this.txtAddLLens.AllowDrop = true;
 			this.txtAddLLens.BackColor = System.Drawing.Color.White;
 			this.txtAddLLens.ForeColor = System.Drawing.Color.Black;
 			this.txtAddLLens.Location = new System.Drawing.Point(444, 111);
@@ -1637,7 +1637,7 @@ namespace Xtreme
 			// 
 			// txtDistRSph
 			// 
-			this.txtDistRSph.AllowDrop = true;
+			//this.txtDistRSph.AllowDrop = true;
 			this.txtDistRSph.BackColor = System.Drawing.Color.White;
 			this.txtDistRSph.ForeColor = System.Drawing.Color.Black;
 			this.txtDistRSph.Location = new System.Drawing.Point(84, 92);
@@ -1649,7 +1649,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.SystemColors.Window;
 			this.Label5.Text = "Old Prescription";
 			this.Label5.Enabled = false;
@@ -1661,7 +1661,7 @@ namespace Xtreme
 			// 
 			// Line5
 			// 
-			this.Line5.AllowDrop = true;
+			//this.Line5.AllowDrop = true;
 			this.Line5.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line5.Enabled = false;
 			this.Line5.Location = new System.Drawing.Point(10, 160);
@@ -1671,7 +1671,7 @@ namespace Xtreme
 			// 
 			// Line4
 			// 
-			this.Line4.AllowDrop = true;
+			//this.Line4.AllowDrop = true;
 			this.Line4.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line4.Enabled = false;
 			this.Line4.Location = new System.Drawing.Point(10, 158);
@@ -1681,7 +1681,7 @@ namespace Xtreme
 			// 
 			// Line3
 			// 
-			this.Line3.AllowDrop = true;
+			//this.Line3.AllowDrop = true;
 			this.Line3.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line3.Enabled = false;
 			this.Line3.Location = new System.Drawing.Point(12, 40);
@@ -1691,7 +1691,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(10, 136);
@@ -1701,7 +1701,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(12, 38);
@@ -1711,9 +1711,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_14
 			// 
-			this._lblDocDetails_14.AllowDrop = true;
+			//this._lblDocDetails_14.AllowDrop = true;
 			this._lblDocDetails_14.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_14.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_14.Location = new System.Drawing.Point(14, 112);
 			this._lblDocDetails_14.Name = "_lblDocDetails_14";
@@ -1725,9 +1725,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_13
 			// 
-			this._lblDocDetails_13.AllowDrop = true;
+			//this._lblDocDetails_13.AllowDrop = true;
 			this._lblDocDetails_13.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_13.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_13.Location = new System.Drawing.Point(84, 72);
 			this._lblDocDetails_13.Name = "_lblDocDetails_13";
@@ -1739,9 +1739,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_12
 			// 
-			this._lblDocDetails_12.AllowDrop = true;
+			//this._lblDocDetails_12.AllowDrop = true;
 			this._lblDocDetails_12.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_12.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_12.Location = new System.Drawing.Point(124, 72);
 			this._lblDocDetails_12.Name = "_lblDocDetails_12";
@@ -1753,9 +1753,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_11
 			// 
-			this._lblDocDetails_11.AllowDrop = true;
+			//this._lblDocDetails_11.AllowDrop = true;
 			this._lblDocDetails_11.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_11.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_11.Location = new System.Drawing.Point(164, 72);
 			this._lblDocDetails_11.Name = "_lblDocDetails_11";
@@ -1767,9 +1767,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_10
 			// 
-			this._lblDocDetails_10.AllowDrop = true;
+			//this._lblDocDetails_10.AllowDrop = true;
 			this._lblDocDetails_10.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_10.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_10.Location = new System.Drawing.Point(204, 72);
 			this._lblDocDetails_10.Name = "_lblDocDetails_10";
@@ -1781,9 +1781,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_9
 			// 
-			this._lblDocDetails_9.AllowDrop = true;
+			//this._lblDocDetails_9.AllowDrop = true;
 			this._lblDocDetails_9.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_9.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_9.Location = new System.Drawing.Point(244, 72);
 			this._lblDocDetails_9.Name = "_lblDocDetails_9";
@@ -1795,9 +1795,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_8
 			// 
-			this._lblDocDetails_8.AllowDrop = true;
+			//this._lblDocDetails_8.AllowDrop = true;
 			this._lblDocDetails_8.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_8.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_8.Location = new System.Drawing.Point(284, 72);
 			this._lblDocDetails_8.Name = "_lblDocDetails_8";
@@ -1809,9 +1809,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_7
 			// 
-			this._lblDocDetails_7.AllowDrop = true;
+			//this._lblDocDetails_7.AllowDrop = true;
 			this._lblDocDetails_7.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_7.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_7.Location = new System.Drawing.Point(324, 72);
 			this._lblDocDetails_7.Name = "_lblDocDetails_7";
@@ -1823,9 +1823,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_6
 			// 
-			this._lblDocDetails_6.AllowDrop = true;
+			//this._lblDocDetails_6.AllowDrop = true;
 			this._lblDocDetails_6.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_6.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_6.Location = new System.Drawing.Point(364, 72);
 			this._lblDocDetails_6.Name = "_lblDocDetails_6";
@@ -1837,9 +1837,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_5
 			// 
-			this._lblDocDetails_5.AllowDrop = true;
+			//this._lblDocDetails_5.AllowDrop = true;
 			this._lblDocDetails_5.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_5.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_5.Location = new System.Drawing.Point(444, 72);
 			this._lblDocDetails_5.Name = "_lblDocDetails_5";
@@ -1851,9 +1851,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_4
 			// 
-			this._lblDocDetails_4.AllowDrop = true;
+			//this._lblDocDetails_4.AllowDrop = true;
 			this._lblDocDetails_4.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_4.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_4.Location = new System.Drawing.Point(404, 72);
 			this._lblDocDetails_4.Name = "_lblDocDetails_4";
@@ -1865,9 +1865,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_3
 			// 
-			this._lblDocDetails_3.AllowDrop = true;
+			//this._lblDocDetails_3.AllowDrop = true;
 			this._lblDocDetails_3.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_3.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_3.Location = new System.Drawing.Point(84, 52);
 			this._lblDocDetails_3.Name = "_lblDocDetails_3";
@@ -1879,9 +1879,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_2
 			// 
-			this._lblDocDetails_2.AllowDrop = true;
+			//this._lblDocDetails_2.AllowDrop = true;
 			this._lblDocDetails_2.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_2.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_2.Location = new System.Drawing.Point(204, 52);
 			this._lblDocDetails_2.Name = "_lblDocDetails_2";
@@ -1893,9 +1893,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_0
 			// 
-			this._lblDocDetails_0.AllowDrop = true;
+			//this._lblDocDetails_0.AllowDrop = true;
 			this._lblDocDetails_0.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_0.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_0.Location = new System.Drawing.Point(404, 52);
 			this._lblDocDetails_0.Name = "_lblDocDetails_0";
@@ -1907,9 +1907,9 @@ namespace Xtreme
 			// 
 			// _lblDocDetails_1
 			// 
-			this._lblDocDetails_1.AllowDrop = true;
+			//this._lblDocDetails_1.AllowDrop = true;
 			this._lblDocDetails_1.BackColor = System.Drawing.SystemColors.Control;
-			this._lblDocDetails_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this._lblDocDetails_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this._lblDocDetails_1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._lblDocDetails_1.Location = new System.Drawing.Point(14, 92);
 			this._lblDocDetails_1.Name = "_lblDocDetails_1";
@@ -1921,13 +1921,13 @@ namespace Xtreme
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
 			//
 			this.Shape1.Enabled = false;
-			//this.Shape1.FillColor = System.Drawing.Color.Black;
-			//this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(10, 6);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(487, 387);
@@ -1935,7 +1935,7 @@ namespace Xtreme
 			// 
 			// _comCommon_10
 			// 
-			this._comCommon_10.AllowDrop = true;
+			//this._comCommon_10.AllowDrop = true;
 			this._comCommon_10.Location = new System.Drawing.Point(108, 266);
 			this._comCommon_10.Name = "_comCommon_10";
 			this._comCommon_10.Size = new System.Drawing.Size(101, 21);
@@ -1943,7 +1943,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_27
 			// 
-			this._lblCommonLabel_27.AllowDrop = true;
+			//this._lblCommonLabel_27.AllowDrop = true;
 			this._lblCommonLabel_27.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_27.Text = "Flex 10";
 			this._lblCommonLabel_27.Location = new System.Drawing.Point(62, 268);

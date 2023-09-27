@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// txtCommPercent
 			// 
-			this.txtCommPercent.AllowDrop = true;
+			//this.txtCommPercent.AllowDrop = true;
 			// this.txtCommPercent.DisplayFormat = "########0.00###;;0.000;0.00";
 			this.txtCommPercent.Location = new System.Drawing.Point(332, 166);
 			// // = 2147483647;
@@ -129,9 +129,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(135, 230);
@@ -144,7 +144,7 @@ namespace Xtreme
 			// 
 			// lblFax
 			// 
-			this.lblFax.AllowDrop = true;
+			//this.lblFax.AllowDrop = true;
 			this.lblFax.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblFax.Text = "Fax";
 			this.lblFax.ForeColor = System.Drawing.Color.Black;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// lblPfNo
 			// 
-			this.lblPfNo.AllowDrop = true;
+			//this.lblPfNo.AllowDrop = true;
 			this.lblPfNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPfNo.Text = "PF No.";
 			this.lblPfNo.ForeColor = System.Drawing.Color.Black;
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// lblSmanNo
 			// 
-			this.lblSmanNo.AllowDrop = true;
+			//this.lblSmanNo.AllowDrop = true;
 			this.lblSmanNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSmanNo.Text = "Salesman Code";
 			this.lblSmanNo.ForeColor = System.Drawing.Color.Black;
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// lblLSmanName
 			// 
-			this.lblLSmanName.AllowDrop = true;
+			//this.lblLSmanName.AllowDrop = true;
 			this.lblLSmanName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLSmanName.Text = "Salesman Name (English)";
 			this.lblLSmanName.ForeColor = System.Drawing.Color.Black;
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// lblAddr_1
 			// 
-			this.lblAddr_1.AllowDrop = true;
+			//this.lblAddr_1.AllowDrop = true;
 			this.lblAddr_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAddr_1.Text = "Address 1";
 			this.lblAddr_1.ForeColor = System.Drawing.Color.Black;
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// lblAddr_2
 			// 
-			this.lblAddr_2.AllowDrop = true;
+			//this.lblAddr_2.AllowDrop = true;
 			this.lblAddr_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAddr_2.Text = "Address2";
 			this.lblAddr_2.ForeColor = System.Drawing.Color.Black;
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// lblPhone
 			// 
-			this.lblPhone.AllowDrop = true;
+			//this.lblPhone.AllowDrop = true;
 			this.lblPhone.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPhone.Text = "Phone";
 			this.lblPhone.ForeColor = System.Drawing.Color.Black;
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// lblCivilId
 			// 
-			this.lblCivilId.AllowDrop = true;
+			//this.lblCivilId.AllowDrop = true;
 			this.lblCivilId.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCivilId.Text = "Civil ID";
 			this.lblCivilId.ForeColor = System.Drawing.Color.Black;
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// lblASmanName
 			// 
-			this.lblASmanName.AllowDrop = true;
+			//this.lblASmanName.AllowDrop = true;
 			this.lblASmanName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblASmanName.Text = "Salesman Name (Arabic)";
 			this.lblASmanName.ForeColor = System.Drawing.Color.Black;
@@ -252,7 +252,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -264,7 +264,7 @@ namespace Xtreme
 			// 
 			// lblEmail
 			// 
-			this.lblEmail.AllowDrop = true;
+			//this.lblEmail.AllowDrop = true;
 			this.lblEmail.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblEmail.Text = "Email";
 			this.lblEmail.ForeColor = System.Drawing.Color.Black;
@@ -276,7 +276,7 @@ namespace Xtreme
 			// 
 			// lblMobile
 			// 
-			this.lblMobile.AllowDrop = true;
+			//this.lblMobile.AllowDrop = true;
 			this.lblMobile.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblMobile.Text = "Mobile";
 			this.lblMobile.ForeColor = System.Drawing.Color.Black;
@@ -288,7 +288,7 @@ namespace Xtreme
 			// 
 			// lblCommission
 			// 
-			this.lblCommission.AllowDrop = true;
+			//this.lblCommission.AllowDrop = true;
 			this.lblCommission.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCommission.Text = "Commission (in %)";
 			this.lblCommission.ForeColor = System.Drawing.Color.Black;
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// txtEmail
 			// 
-			this.txtEmail.AllowDrop = true;
+			//this.txtEmail.AllowDrop = true;
 			this.txtEmail.BackColor = System.Drawing.Color.White;
 			this.txtEmail.ForeColor = System.Drawing.Color.Black;
 			this.txtEmail.Location = new System.Drawing.Point(135, 187);
@@ -313,7 +313,7 @@ namespace Xtreme
 			// 
 			// txtMobile
 			// 
-			this.txtMobile.AllowDrop = true;
+			//this.txtMobile.AllowDrop = true;
 			this.txtMobile.BackColor = System.Drawing.Color.White;
 			this.txtMobile.ForeColor = System.Drawing.Color.Black;
 			this.txtMobile.Location = new System.Drawing.Point(332, 124);
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// txtPfNo
 			// 
-			this.txtPfNo.AllowDrop = true;
+			//this.txtPfNo.AllowDrop = true;
 			this.txtPfNo.BackColor = System.Drawing.Color.White;
 			this.txtPfNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPfNo.Location = new System.Drawing.Point(135, 166);
@@ -339,7 +339,7 @@ namespace Xtreme
 			// 
 			// txtSmanNo
 			// 
-			this.txtSmanNo.AllowDrop = true;
+			//this.txtSmanNo.AllowDrop = true;
 			this.txtSmanNo.BackColor = System.Drawing.Color.White;
 			// this.txtSmanNo.bolNumericOnly = true;
 			this.txtSmanNo.ForeColor = System.Drawing.Color.Black;
@@ -356,7 +356,7 @@ namespace Xtreme
 			// 
 			// txtLSmanName
 			// 
-			this.txtLSmanName.AllowDrop = true;
+			//this.txtLSmanName.AllowDrop = true;
 			this.txtLSmanName.BackColor = System.Drawing.Color.White;
 			this.txtLSmanName.ForeColor = System.Drawing.Color.Black;
 			this.txtLSmanName.Location = new System.Drawing.Point(135, 40);
@@ -370,7 +370,7 @@ namespace Xtreme
 			// 
 			// txtAdd1
 			// 
-			this.txtAdd1.AllowDrop = true;
+			//this.txtAdd1.AllowDrop = true;
 			this.txtAdd1.BackColor = System.Drawing.Color.White;
 			this.txtAdd1.ForeColor = System.Drawing.Color.Black;
 			this.txtAdd1.Location = new System.Drawing.Point(135, 82);
@@ -383,7 +383,7 @@ namespace Xtreme
 			// 
 			// txtPhone
 			// 
-			this.txtPhone.AllowDrop = true;
+			//this.txtPhone.AllowDrop = true;
 			this.txtPhone.BackColor = System.Drawing.Color.White;
 			this.txtPhone.ForeColor = System.Drawing.Color.Black;
 			this.txtPhone.Location = new System.Drawing.Point(135, 124);
@@ -396,7 +396,7 @@ namespace Xtreme
 			// 
 			// txtFax
 			// 
-			this.txtFax.AllowDrop = true;
+			//this.txtFax.AllowDrop = true;
 			this.txtFax.BackColor = System.Drawing.Color.White;
 			this.txtFax.ForeColor = System.Drawing.Color.Black;
 			this.txtFax.Location = new System.Drawing.Point(135, 145);
@@ -409,7 +409,7 @@ namespace Xtreme
 			// 
 			// txtCivilId
 			// 
-			this.txtCivilId.AllowDrop = true;
+			//this.txtCivilId.AllowDrop = true;
 			this.txtCivilId.BackColor = System.Drawing.Color.White;
 			this.txtCivilId.ForeColor = System.Drawing.Color.Black;
 			this.txtCivilId.Location = new System.Drawing.Point(332, 144);
@@ -422,7 +422,7 @@ namespace Xtreme
 			// 
 			// txtASmanName
 			// 
-			this.txtASmanName.AllowDrop = true;
+			//this.txtASmanName.AllowDrop = true;
 			this.txtASmanName.BackColor = System.Drawing.Color.White;
 			this.txtASmanName.ForeColor = System.Drawing.Color.Black;
 			this.txtASmanName.Location = new System.Drawing.Point(135, 61);
@@ -436,7 +436,7 @@ namespace Xtreme
 			// 
 			// txtAdd2
 			// 
-			this.txtAdd2.AllowDrop = true;
+			//this.txtAdd2.AllowDrop = true;
 			this.txtAdd2.BackColor = System.Drawing.Color.White;
 			this.txtAdd2.ForeColor = System.Drawing.Color.Black;
 			this.txtAdd2.Location = new System.Drawing.Point(135, 103);
@@ -449,7 +449,7 @@ namespace Xtreme
 			// 
 			// txtLocatCode
 			// 
-			this.txtLocatCode.AllowDrop = true;
+			//this.txtLocatCode.AllowDrop = true;
 			this.txtLocatCode.BackColor = System.Drawing.Color.White;
 			// this.txtLocatCode.bolNumericOnly = true;
 			this.txtLocatCode.ForeColor = System.Drawing.Color.Black;
@@ -466,7 +466,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Location Code";
 			this._lblCommonLabel_2.ForeColor = System.Drawing.Color.Black;
@@ -478,7 +478,7 @@ namespace Xtreme
 			// 
 			// txtDisplayLocatCode
 			// 
-			this.txtDisplayLocatCode.AllowDrop = true;
+			//this.txtDisplayLocatCode.AllowDrop = true;
 			this.txtDisplayLocatCode.Location = new System.Drawing.Point(238, 208);
 			this.txtDisplayLocatCode.Name = "txtDisplayLocatCode";
 			this.txtDisplayLocatCode.Size = new System.Drawing.Size(187, 19);

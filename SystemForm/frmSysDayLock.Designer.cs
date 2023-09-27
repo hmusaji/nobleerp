@@ -76,7 +76,7 @@ namespace Xtreme
 			// 
 			// cmdSelect
 			// 
-			this.cmdSelect.AllowDrop = true;
+			//this.cmdSelect.AllowDrop = true;
 			this.cmdSelect.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdSelect.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdSelect.Location = new System.Drawing.Point(204, 36);
@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			// this.txtFromDate.CheckDateRange = false;
 			this.txtFromDate.Location = new System.Drawing.Point(92, 12);
 			// this.txtFromDate.MaxDate = 2958465;
@@ -104,7 +104,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_6.Text = "From Date :";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
@@ -115,7 +115,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			// this.txtToDate.CheckDateRange = false;
 			this.txtToDate.Location = new System.Drawing.Point(92, 36);
 			// this.txtToDate.MaxDate = 2958465;
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_0.Text = "To Date :";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// grdDays
 			// 
-			this.grdDays.AllowDrop = true;
+			//this.grdDays.AllowDrop = true;
 			this.grdDays.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdDays.CellTipsWidth = 0;
 			this.grdDays.Location = new System.Drawing.Point(2, 68);
@@ -150,7 +150,7 @@ namespace Xtreme
 			this.grdDays.Columns.Add(this.Column_0_grdDays);
 			this.grdDays.Columns.Add(this.Column_1_grdDays);
 			// this.this.grdDays.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdDays_KeyPress);
-			this.grdDays.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdDays_MouseUp);
+			//this.grdDays.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdDays_MouseUp);
 			// 
 			// Column_0_grdDays
 			// 

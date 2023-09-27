@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// cmbStatus
 			// 
-			this.cmbStatus.AllowDrop = true;
+			//this.cmbStatus.AllowDrop = true;
 			this.cmbStatus.Location = new System.Drawing.Point(104, 209);
 			this.cmbStatus.Name = "cmbStatus";
 			this.cmbStatus.Size = new System.Drawing.Size(102, 21);
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_7
 			// 
-			this._lblCommonLabel_7.AllowDrop = true;
+			//this._lblCommonLabel_7.AllowDrop = true;
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Document No.";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(10, 191);
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(10, 53);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(10, 75);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_0
 			// 
-			this._txtCommonDate_0.AllowDrop = true;
+			//this._txtCommonDate_0.AllowDrop = true;
 			// this._txtCommonDate_0.CheckDateRange = false;
 			this._txtCommonDate_0.Location = new System.Drawing.Point(104, 72);
 			// this._txtCommonDate_0.MaxDate = 2958465;
@@ -173,7 +173,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(10, 107);
@@ -200,7 +200,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(10, 128);
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Designation Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(10, 149);
@@ -222,7 +222,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(10, 277);
@@ -233,7 +233,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_4
 			// 
-			this._txtCommonTextBox_4.AllowDrop = true;
+			//this._txtCommonTextBox_4.AllowDrop = true;
 			this._txtCommonTextBox_4.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_4.Location = new System.Drawing.Point(104, 274);
@@ -247,7 +247,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_19
 			// 
-			this._lblCommonLabel_19.AllowDrop = true;
+			//this._lblCommonLabel_19.AllowDrop = true;
 			this._lblCommonLabel_19.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_19.Text = "Return Date";
 			this._lblCommonLabel_19.Location = new System.Drawing.Point(276, 235);
@@ -258,7 +258,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_20
 			// 
-			this._lblCommonLabel_20.AllowDrop = true;
+			//this._lblCommonLabel_20.AllowDrop = true;
 			this._lblCommonLabel_20.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_20.Text = "Delivery Date";
 			this._lblCommonLabel_20.Location = new System.Drawing.Point(10, 235);
@@ -269,7 +269,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Document Code";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(10, 170);
@@ -280,7 +280,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_3.bolNumericOnly = true;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
@@ -296,7 +296,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_2
 			// 
-			this._txtCommonDate_2.AllowDrop = true;
+			//this._txtCommonDate_2.AllowDrop = true;
 			// this._txtCommonDate_2.CheckDateRange = false;
 			this._txtCommonDate_2.Location = new System.Drawing.Point(384, 233);
 			// this._txtCommonDate_2.MaxDate = 2958465;
@@ -309,7 +309,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_1
 			// 
-			this._txtCommonDate_1.AllowDrop = true;
+			//this._txtCommonDate_1.AllowDrop = true;
 			// this._txtCommonDate_1.CheckDateRange = false;
 			this._txtCommonDate_1.Location = new System.Drawing.Point(104, 232);
 			// this._txtCommonDate_1.MaxDate = 2958465;
@@ -322,7 +322,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Status";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(10, 212);
@@ -333,7 +333,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Actual Return Date";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(10, 256);
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_3
 			// 
-			this._txtCommonDate_3.AllowDrop = true;
+			//this._txtCommonDate_3.AllowDrop = true;
 			// this._txtCommonDate_3.CheckDateRange = false;
 			this._txtCommonDate_3.Location = new System.Drawing.Point(104, 253);
 			// this._txtCommonDate_3.MaxDate = 2958465;
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(104, 104);
@@ -374,7 +374,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_6
 			// 
-			this._txtDisplayLabel_6.AllowDrop = true;
+			//this._txtDisplayLabel_6.AllowDrop = true;
 			this._txtDisplayLabel_6.Location = new System.Drawing.Point(104, 188);
 			this._txtDisplayLabel_6.Name = "_txtDisplayLabel_6";
 			this._txtDisplayLabel_6.Size = new System.Drawing.Size(101, 19);
@@ -382,7 +382,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_4
 			// 
-			this._txtDisplayLabel_4.AllowDrop = true;
+			//this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(207, 167);
 			this._txtDisplayLabel_4.Name = "_txtDisplayLabel_4";
 			this._txtDisplayLabel_4.Size = new System.Drawing.Size(279, 19);
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_5
 			// 
-			this._txtDisplayLabel_5.AllowDrop = true;
+			//this._txtDisplayLabel_5.AllowDrop = true;
 			this._txtDisplayLabel_5.Location = new System.Drawing.Point(207, 104);
 			this._txtDisplayLabel_5.Name = "_txtDisplayLabel_5";
 			this._txtDisplayLabel_5.Size = new System.Drawing.Size(279, 19);
@@ -398,7 +398,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(207, 146);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
 			this._txtDisplayLabel_3.Size = new System.Drawing.Size(279, 19);
@@ -406,7 +406,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(104, 146);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
 			this._txtDisplayLabel_2.Size = new System.Drawing.Size(101, 19);
@@ -414,7 +414,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(207, 125);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(279, 19);
@@ -422,7 +422,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(104, 125);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(101, 19);

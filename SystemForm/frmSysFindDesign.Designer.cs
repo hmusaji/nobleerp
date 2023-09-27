@@ -80,7 +80,7 @@ namespace Xtreme
 			// 
 			// _btnReportOptions_5
 			// 
-			this._btnReportOptions_5.AllowDrop = true;
+			//this._btnReportOptions_5.AllowDrop = true;
 			this._btnReportOptions_5.BackColor = System.Drawing.SystemColors.Control;
 			this._btnReportOptions_5.ForeColor = System.Drawing.SystemColors.ControlText;
 			//this._btnReportOptions_5.Image = (System.Drawing.Image) resources.GetObject("_btnReportOptions_5.Image");
@@ -99,9 +99,9 @@ namespace Xtreme
 			// txtCriteriaBox
 			// 
 			this.txtCriteriaBox.AcceptsReturn = true;
-			this.txtCriteriaBox.AllowDrop = true;
+			//this.txtCriteriaBox.AllowDrop = true;
 			this.txtCriteriaBox.BackColor = System.Drawing.Color.White;
-			this.txtCriteriaBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.txtCriteriaBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.txtCriteriaBox.CausesValidation = false;
 			this.txtCriteriaBox.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtCriteriaBox.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -113,11 +113,11 @@ namespace Xtreme
 			this.txtCriteriaBox.TabIndex = 2;
 			// this.this.txtCriteriaBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCriteriaBox_KeyDown);
 			// this.this.txtCriteriaBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCriteriaBox_KeyPress);
-			this.txtCriteriaBox.TextChanged += new System.EventHandler(this.txtCriteriaBox_TextChanged);
+			//this.txtCriteriaBox.TextChanged += new System.EventHandler(this.txtCriteriaBox_TextChanged);
 			// 
 			// _chkCommonSettings_0
 			// 
-			this._chkCommonSettings_0.AllowDrop = true;
+			//this._chkCommonSettings_0.AllowDrop = true;
 			this._chkCommonSettings_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonSettings_0.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this._chkCommonSettings_0.CausesValidation = true;
@@ -134,11 +134,11 @@ namespace Xtreme
 			this._chkCommonSettings_0.Text = "S&earch Substring";
 			this._chkCommonSettings_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonSettings_0.Visible = false;
-			this._chkCommonSettings_0.CheckStateChanged += new System.EventHandler(this.chkCommonSettings_CheckStateChanged);
+			//this._chkCommonSettings_0.CheckStateChanged += new System.EventHandler(this.chkCommonSettings_CheckStateChanged);
 			// 
 			// _chkCommonSettings_1
 			// 
-			this._chkCommonSettings_1.AllowDrop = true;
+			//this._chkCommonSettings_1.AllowDrop = true;
 			this._chkCommonSettings_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonSettings_1.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this._chkCommonSettings_1.CausesValidation = true;
@@ -155,11 +155,11 @@ namespace Xtreme
 			this._chkCommonSettings_1.Text = "Show &All Records";
 			this._chkCommonSettings_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonSettings_1.Visible = true;
-			this._chkCommonSettings_1.CheckStateChanged += new System.EventHandler(this.chkCommonSettings_CheckStateChanged);
+			//this._chkCommonSettings_1.CheckStateChanged += new System.EventHandler(this.chkCommonSettings_CheckStateChanged);
 			// 
 			// lblFindResult
 			// 
-			this.lblFindResult.AllowDrop = true;
+			//this.lblFindResult.AllowDrop = true;
 			this.lblFindResult.Location = new System.Drawing.Point(30, 182);
 			this.lblFindResult.Name = "lblFindResult";
 			this.lblFindResult.Size = new System.Drawing.Size(60, 13);
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// lblRecordsCriteria
 			// 
-			this.lblRecordsCriteria.AllowDrop = true;
+			//this.lblRecordsCriteria.AllowDrop = true;
 			this.lblRecordsCriteria.Location = new System.Drawing.Point(36, 68);
 			this.lblRecordsCriteria.Name = "lblRecordsCriteria";
 			this.lblRecordsCriteria.Size = new System.Drawing.Size(79, 13);
@@ -179,7 +179,7 @@ namespace Xtreme
 			// grdRecordsCriteria
 			// 
 			this.grdRecordsCriteria.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdRecordsCriteria.AllowDrop = true;
+			//this.grdRecordsCriteria.AllowDrop = true;
 			this.grdRecordsCriteria.AllowEditing = false;
 			this.grdRecordsCriteria.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdRecordsCriteria.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -190,8 +190,8 @@ namespace Xtreme
 			this.grdRecordsCriteria.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdRecordsCriteria.AutoSearchDelay = 2;
 			this.grdRecordsCriteria.BackColor = System.Drawing.SystemColors.Window;
-			this.grdRecordsCriteria.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdRecordsCriteria.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdRecordsCriteria.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdRecordsCriteria.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdRecordsCriteria.Cols.Count = 10;
 			this.grdRecordsCriteria.Cols.Fixed = 1;
 			this.grdRecordsCriteria.Cols.Frozen = 0;
@@ -245,16 +245,16 @@ namespace Xtreme
 			this.grdRecordsCriteria.Tree.Column = 0;
 			this.grdRecordsCriteria.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdRecordsCriteria.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdRecordsCriteria.AfterResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdRecordsCriteria_AfterResizeColumn);
-			this.grdRecordsCriteria.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdRecordsCriteria_AfterScroll);
-			this.grdRecordsCriteria.BeforeRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdRecordsCriteria_BeforeRowColChange);
+			//this.grdRecordsCriteria.AfterResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdRecordsCriteria_AfterResizeColumn);
+			//this.grdRecordsCriteria.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdRecordsCriteria_AfterScroll);
+			//this.grdRecordsCriteria.BeforeRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdRecordsCriteria_BeforeRowColChange);
 			// this.grdRecordsCriteria.Enter += new System.EventHandler(this.grdRecordsCriteria_Enter);
-			this.grdRecordsCriteria.RowColChange += new System.EventHandler(this.grdRecordsCriteria_RowColChange);
+			//this.grdRecordsCriteria.RowColChange += new System.EventHandler(this.grdRecordsCriteria_RowColChange);
 			// 
 			// grdFindResult
 			// 
 			this.grdFindResult.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdFindResult.AllowDrop = true;
+			//this.grdFindResult.AllowDrop = true;
 			this.grdFindResult.AllowEditing = false;
 			this.grdFindResult.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdFindResult.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -265,8 +265,8 @@ namespace Xtreme
 			this.grdFindResult.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdFindResult.AutoSearchDelay = 2;
 			this.grdFindResult.BackColor = System.Drawing.SystemColors.Window;
-			this.grdFindResult.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdFindResult.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdFindResult.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdFindResult.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdFindResult.Cols.Count = 3;
 			this.grdFindResult.Cols.Fixed = 1;
 			this.grdFindResult.Cols.Frozen = 0;
@@ -320,16 +320,16 @@ namespace Xtreme
 			this.grdFindResult.Tree.Column = 0;
 			this.grdFindResult.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdFindResult.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdFindResult.AfterResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdFindResult_AfterResizeColumn);
-			this.grdFindResult.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdFindResult_AfterScroll);
-			this.grdFindResult.AfterSort += new C1.Win.C1FlexGrid.SortColEventHandler(this.grdFindResult_AfterSort);
-			this.grdFindResult.BeforeResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdFindResult_BeforeResizeColumn);
-			this.grdFindResult.DoubleClick += new System.EventHandler(this.grdFindResult_DoubleClick);
+			//this.grdFindResult.AfterResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdFindResult_AfterResizeColumn);
+			//this.grdFindResult.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdFindResult_AfterScroll);
+			//this.grdFindResult.AfterSort += new C1.Win.C1FlexGrid.SortColEventHandler(this.grdFindResult_AfterSort);
+			//this.grdFindResult.BeforeResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdFindResult_BeforeResizeColumn);
+			//this.grdFindResult.DoubleClick += new System.EventHandler(this.grdFindResult_DoubleClick);
 			// this.this.grdFindResult.KeyDown += new System.Windows.Forms.KeyEventHandler(this.grdFindResult_KeyDown);
 			// 
 			// lblTips1
 			// 
-			this.lblTips1.AllowDrop = true;
+			//this.lblTips1.AllowDrop = true;
 			this.lblTips1.Location = new System.Drawing.Point(196, 148);
 			this.lblTips1.Name = "lblTips1";
 			this.lblTips1.Size = new System.Drawing.Size(254, 13);
@@ -338,28 +338,28 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// mnuColors
 			// 
-			this.mnuColors.AllowDrop = true;
-			this.mnuColors.Location = new System.Drawing.Point(448, 264);
-			this.mnuColors.Name = "mnuColors";
+			//this.mnuColors.AllowDrop = true;
+			//this.mnuColors.Location = new System.Drawing.Point(448, 264);
+			//this.mnuColors.Name = "mnuColors";
 			//
 			// 
 			// fraOuterShadow
 			// 
-			this.fraOuterShadow.AllowDrop = true;
+			//this.fraOuterShadow.AllowDrop = true;
 			this.fraOuterShadow.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// = 1;
-			this.fraOuterShadow.BorderColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.fraOuterShadow.BorderStyle = 1;
+			//this.fraOuterShadow.BorderColor = System.Drawing.Color.FromArgb(220, 226, 231);
+			//this.fraOuterShadow.BorderStyle = 1;
 			this.fraOuterShadow.Enabled = false;
-			this.fraOuterShadow.FillColor = System.Drawing.Color.Black;
-			this.fraOuterShadow.FillStyle = 1;
+			//this.fraOuterShadow.FillColor = System.Drawing.Color.Black;
+			//this.fraOuterShadow.FillStyle = 1;
 			this.fraOuterShadow.Location = new System.Drawing.Point(6, 26);
 			this.fraOuterShadow.Name = "fraOuterShadow";
 			this.fraOuterShadow.Size = new System.Drawing.Size(567, 317);
@@ -381,8 +381,8 @@ namespace Xtreme
 			this.Controls.Add(this.grdRecordsCriteria);
 			this.Controls.Add(this.grdFindResult);
 			this.Controls.Add(this.lblTips1);
-			this.Controls.Add(this.tcbSystemForm);
-			this.Controls.Add(this.mnuColors);
+			//this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.mnuColors);
 			this.Controls.Add(this.fraOuterShadow);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysFindDesign.Icon");
@@ -395,7 +395,7 @@ namespace Xtreme
 			this.ShowInTaskbar = false;
 			this.Tag = "Find Record";
 			this.Text = "Find Record";
-			this.commandButtonHelper1.SetStyle(this._btnReportOptions_5, 1);
+			//this.commandButtonHelper1.SetStyle(this._btnReportOptions_5, 1);
 			// this.Activated += new System.EventHandler(this.Form_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);

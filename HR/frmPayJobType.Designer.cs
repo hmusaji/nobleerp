@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(145, 118);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtJobTypeNo
 			// 
-			this.txtJobTypeNo.AllowDrop = true;
+			//this.txtJobTypeNo.AllowDrop = true;
 			this.txtJobTypeNo.BackColor = System.Drawing.Color.White;
 			// this.txtJobTypeNo.bolNumericOnly = true;
 			this.txtJobTypeNo.ForeColor = System.Drawing.Color.Black;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// lblDesgNo
 			// 
-			this.lblDesgNo.AllowDrop = true;
+			//this.lblDesgNo.AllowDrop = true;
 			this.lblDesgNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDesgNo.Text = "Job Type No";
 			this.lblDesgNo.Location = new System.Drawing.Point(9, 56);
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// lblLDesgName
 			// 
-			this.lblLDesgName.AllowDrop = true;
+			//this.lblLDesgName.AllowDrop = true;
 			this.lblLDesgName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLDesgName.Text = "JobType Name(ENG)";
 			this.lblLDesgName.Location = new System.Drawing.Point(9, 78);
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// txtLJobTypeName
 			// 
-			this.txtLJobTypeName.AllowDrop = true;
+			//this.txtLJobTypeName.AllowDrop = true;
 			this.txtLJobTypeName.BackColor = System.Drawing.Color.White;
 			this.txtLJobTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtLJobTypeName.Location = new System.Drawing.Point(145, 75);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "JobType Name(ARB)";
 			this.lblAGroupName.Location = new System.Drawing.Point(9, 99);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// txtAJobTypeName
 			// 
-			this.txtAJobTypeName.AllowDrop = true;
+			//this.txtAJobTypeName.AllowDrop = true;
 			this.txtAJobTypeName.BackColor = System.Drawing.Color.White;
 			this.txtAJobTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtAJobTypeName.Location = new System.Drawing.Point(145, 96);
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 118);

@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_4
 			// 
-			this._txtCommon_4.AllowDrop = true;
+			//this._txtCommon_4.AllowDrop = true;
 			this._txtCommon_4.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_4.bolNumericOnly = true;
 			this._txtCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_5
 			// 
-			this._txtCommon_5.AllowDrop = true;
+			//this._txtCommon_5.AllowDrop = true;
 			this._txtCommon_5.BackColor = System.Drawing.Color.White;
 			this._txtCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_5.Location = new System.Drawing.Point(144, 155);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_3.bolNumericOnly = true;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_6
 			// 
-			this._txtCommon_6.AllowDrop = true;
+			//this._txtCommon_6.AllowDrop = true;
 			this._txtCommon_6.BackColor = System.Drawing.Color.White;
 			this._txtCommon_6.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_6.Location = new System.Drawing.Point(347, 155);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_8
 			// 
-			this._txtCommon_8.AllowDrop = true;
+			//this._txtCommon_8.AllowDrop = true;
 			this._txtCommon_8.BackColor = System.Drawing.Color.White;
 			this._txtCommon_8.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_8.Location = new System.Drawing.Point(347, 176);
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// lblAssetsCode
 			// 
-			this.lblAssetsCode.AllowDrop = true;
+			//this.lblAssetsCode.AllowDrop = true;
 			this.lblAssetsCode.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsCode.Text = "Tenant Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
@@ -217,7 +217,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentNo
 			// 
-			this.lblAssetsAdjustmentNo.AllowDrop = true;
+			//this.lblAssetsAdjustmentNo.AllowDrop = true;
 			this.lblAssetsAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentNo.Text = "Tenant Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentAccount
 			// 
-			this.lblAssetsAdjustmentAccount.AllowDrop = true;
+			//this.lblAssetsAdjustmentAccount.AllowDrop = true;
 			this.lblAssetsAdjustmentAccount.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentAccount.Text = "Bank Code";
 			this.lblAssetsAdjustmentAccount.ForeColor = System.Drawing.Color.Black;
@@ -241,7 +241,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label1.Text = "Passport No";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -253,7 +253,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label3.Text = "Nationality Code";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label4.Text = "Civil Id";
 			this.Label4.ForeColor = System.Drawing.Color.Black;
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// Label6_0
 			// 
-			this.Label6_0.AllowDrop = true;
+			//this.Label6_0.AllowDrop = true;
 			this.Label6_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6_0.Text = "Tenant Name (Arabic)";
 			this.Label6_0.ForeColor = System.Drawing.Color.Black;
@@ -289,7 +289,7 @@ namespace Xtreme
 			// 
 			// Label7_0
 			// 
-			this.Label7_0.AllowDrop = true;
+			//this.Label7_0.AllowDrop = true;
 			this.Label7_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label7_0.Text = "Mobile No";
 			this.Label7_0.ForeColor = System.Drawing.Color.Black;
@@ -301,7 +301,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_7
 			// 
-			this._txtCommon_7.AllowDrop = true;
+			//this._txtCommon_7.AllowDrop = true;
 			this._txtCommon_7.BackColor = System.Drawing.Color.White;
 			this._txtCommon_7.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_7.Location = new System.Drawing.Point(144, 197);
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -328,7 +328,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label5.Text = "Fax No";
 			this.Label5.ForeColor = System.Drawing.Color.Black;
@@ -340,7 +340,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(144, 92);
@@ -356,7 +356,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_9
 			// 
-			this._txtCommon_9.AllowDrop = true;
+			//this._txtCommon_9.AllowDrop = true;
 			this._txtCommon_9.BackColor = System.Drawing.Color.White;
 			this._txtCommon_9.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_9.Location = new System.Drawing.Point(144, 302);
@@ -371,7 +371,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(144, 50);
@@ -388,7 +388,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(144, 71);
@@ -403,7 +403,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_1
 			// 
-			this._txtCommonDisplay_1.AllowDrop = true;
+			//this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(247, 134);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";
 			this._txtCommonDisplay_1.Size = new System.Drawing.Size(201, 19);
@@ -411,7 +411,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(247, 113);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);
@@ -419,7 +419,7 @@ namespace Xtreme
 			// 
 			// Label7_1
 			// 
-			this.Label7_1.AllowDrop = true;
+			//this.Label7_1.AllowDrop = true;
 			this.Label7_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label7_1.Text = "Tel. No.";
 			this.Label7_1.ForeColor = System.Drawing.Color.Black;
@@ -430,7 +430,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_10
 			// 
-			this._txtCommon_10.AllowDrop = true;
+			//this._txtCommon_10.AllowDrop = true;
 			this._txtCommon_10.BackColor = System.Drawing.Color.White;
 			this._txtCommon_10.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_10.Location = new System.Drawing.Point(144, 176);
@@ -445,7 +445,7 @@ namespace Xtreme
 			// 
 			// Label6_1
 			// 
-			this.Label6_1.AllowDrop = true;
+			//this.Label6_1.AllowDrop = true;
 			this.Label6_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6_1.Text = "Address 1";
 			this.Label6_1.ForeColor = System.Drawing.Color.Black;
@@ -456,7 +456,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_11
 			// 
-			this._txtCommon_11.AllowDrop = true;
+			//this._txtCommon_11.AllowDrop = true;
 			this._txtCommon_11.BackColor = System.Drawing.Color.White;
 			this._txtCommon_11.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_11.Location = new System.Drawing.Point(144, 218);
@@ -472,7 +472,7 @@ namespace Xtreme
 			// 
 			// Label6_2
 			// 
-			this.Label6_2.AllowDrop = true;
+			//this.Label6_2.AllowDrop = true;
 			this.Label6_2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6_2.Text = "Address 2";
 			this.Label6_2.ForeColor = System.Drawing.Color.Black;
@@ -483,7 +483,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_12
 			// 
-			this._txtCommon_12.AllowDrop = true;
+			//this._txtCommon_12.AllowDrop = true;
 			this._txtCommon_12.BackColor = System.Drawing.Color.White;
 			this._txtCommon_12.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_12.Location = new System.Drawing.Point(144, 239);
@@ -499,7 +499,7 @@ namespace Xtreme
 			// 
 			// Label6_3
 			// 
-			this.Label6_3.AllowDrop = true;
+			//this.Label6_3.AllowDrop = true;
 			this.Label6_3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6_3.Text = "Email Id";
 			this.Label6_3.ForeColor = System.Drawing.Color.Black;
@@ -510,7 +510,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_13
 			// 
-			this._txtCommon_13.AllowDrop = true;
+			//this._txtCommon_13.AllowDrop = true;
 			this._txtCommon_13.BackColor = System.Drawing.Color.White;
 			this._txtCommon_13.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_13.Location = new System.Drawing.Point(144, 260);
@@ -526,7 +526,7 @@ namespace Xtreme
 			// 
 			// Label6_4
 			// 
-			this.Label6_4.AllowDrop = true;
+			//this.Label6_4.AllowDrop = true;
 			this.Label6_4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6_4.Text = "Website";
 			this.Label6_4.ForeColor = System.Drawing.Color.Black;
@@ -537,7 +537,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_14
 			// 
-			this._txtCommon_14.AllowDrop = true;
+			//this._txtCommon_14.AllowDrop = true;
 			this._txtCommon_14.BackColor = System.Drawing.Color.White;
 			this._txtCommon_14.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_14.Location = new System.Drawing.Point(144, 281);

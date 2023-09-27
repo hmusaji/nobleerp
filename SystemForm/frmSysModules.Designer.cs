@@ -65,7 +65,7 @@ namespace Xtreme
 			// 
 			// grdCommon
 			// 
-			this.grdCommon.AllowDrop = true;
+			//this.grdCommon.AllowDrop = true;
 			this.grdCommon.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdCommon.CellTipsWidth = 0;
 			this.grdCommon.Location = new System.Drawing.Point(2, 2);
@@ -75,9 +75,9 @@ namespace Xtreme
 			this.grdCommon.TabIndex = 0;
 			this.grdCommon.Columns.Add(this.Column_0_grdCommon);
 			this.grdCommon.Columns.Add(this.Column_1_grdCommon);
-			this.grdCommon.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdCommon_BeforeColEdit);
+			//this.grdCommon.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdCommon_BeforeColEdit);
 			// this.this.grdCommon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdCommon_KeyPress);
-			this.grdCommon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdCommon_MouseUp);
+			//this.grdCommon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdCommon_MouseUp);
 			// 
 			// Column_0_grdCommon
 			// 

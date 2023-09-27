@@ -84,7 +84,7 @@ namespace Xtreme
 			// 
 			// lblTransactionDate
 			// 
-			this.lblTransactionDate.AllowDrop = true;
+			//this.lblTransactionDate.AllowDrop = true;
 			this.lblTransactionDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblTransactionDate.Text = "Transaction  Date";
 			this.lblTransactionDate.ForeColor = System.Drawing.Color.Black;
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// lblRemarks
 			// 
-			this.lblRemarks.AllowDrop = true;
+			//this.lblRemarks.AllowDrop = true;
 			this.lblRemarks.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblRemarks.Text = "Comments";
 			this.lblRemarks.ForeColor = System.Drawing.Color.Black;
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// lblTransactionNumber
 			// 
-			this.lblTransactionNumber.AllowDrop = true;
+			//this.lblTransactionNumber.AllowDrop = true;
 			this.lblTransactionNumber.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblTransactionNumber.Text = "Transaction Number";
 			this.lblTransactionNumber.ForeColor = System.Drawing.Color.Black;
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			// this.txtVoucherDate.CheckDateRange = false;
 			this.txtVoucherDate.Location = new System.Drawing.Point(126, 71);
 			// this.txtVoucherDate.MaxDate = 2958465;
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(126, 92);
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// txtVoucherNo
 			// 
-			this.txtVoucherNo.AllowDrop = true;
+			//this.txtVoucherNo.AllowDrop = true;
 			this.txtVoucherNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtVoucherNo.bolNumericOnly = true;
 			this.txtVoucherNo.Enabled = false;
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(6, 118);
@@ -170,8 +170,8 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 2;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			////this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			////this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// cmbCommon
 			// 
-			this.cmbCommon.AllowDrop = true;
+			//this.cmbCommon.AllowDrop = true;
 			this.cmbCommon.ColumnHeaders = true;
 			this.cmbCommon.Enabled = true;
 			this.cmbCommon.Location = new System.Drawing.Point(52, 178);

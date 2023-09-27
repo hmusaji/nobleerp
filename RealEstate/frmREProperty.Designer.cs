@@ -183,7 +183,7 @@ namespace Xtreme
 			// tabMaster
 			// 
 			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this._fraMasterInformation_0);
 			this.tabMaster.Controls.Add(this._fraMasterInformation_1);
 			this.tabMaster.Location = new System.Drawing.Point(8, 10);
@@ -195,9 +195,9 @@ namespace Xtreme
 			// 
 			// _fraMasterInformation_0
 			// 
-			this._fraMasterInformation_0.AllowDrop = true;
+			//this._fraMasterInformation_0.AllowDrop = true;
 			this._fraMasterInformation_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraMasterInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraMasterInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraMasterInformation_0.Controls.Add(this.txtRemarks);
 			this._fraMasterInformation_0.Controls.Add(this.txtValue);
 			this._fraMasterInformation_0.Controls.Add(this._txtCommon_0);
@@ -250,9 +250,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtRemarks.Location = new System.Drawing.Point(157, 366);
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// txtValue
 			// 
-			this.txtValue.AllowDrop = true;
+			//this.txtValue.AllowDrop = true;
 			// this.txtValue.DisplayFormat = "####0.000;;Null";
 			this.txtValue.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtValue.Location = new System.Drawing.Point(354, 284);
@@ -275,7 +275,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(157, 11);
@@ -292,7 +292,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_1.Text = "Property Name  (English)";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -304,7 +304,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_10
 			// 
-			this._lblCommon_10.AllowDrop = true;
+			//this._lblCommon_10.AllowDrop = true;
 			this._lblCommon_10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_10.Text = "Comments";
 			this._lblCommon_10.ForeColor = System.Drawing.Color.Black;
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_0.Text = "Property Code";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -328,7 +328,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_4.Text = "Area Code";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -340,7 +340,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_2.bolNumericOnly = true;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -357,7 +357,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(157, 32);
@@ -372,7 +372,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_7.Text = "Total Floors";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
@@ -384,7 +384,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_3.bolNumericOnly = true;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -400,7 +400,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_3.Text = "Property Type Code";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -412,7 +412,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_5
 			// 
-			this._txtCommon_5.AllowDrop = true;
+			//this._txtCommon_5.AllowDrop = true;
 			this._txtCommon_5.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_5.bolNumericOnly = true;
 			this._txtCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -429,7 +429,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_8.Text = "Other Facilities";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
@@ -441,7 +441,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_7
 			// 
-			this._txtCommon_7.AllowDrop = true;
+			//this._txtCommon_7.AllowDrop = true;
 			this._txtCommon_7.BackColor = System.Drawing.Color.White;
 			this._txtCommon_7.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_7.Location = new System.Drawing.Point(157, 345);
@@ -457,7 +457,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_9
 			// 
-			this._lblCommon_9.AllowDrop = true;
+			//this._lblCommon_9.AllowDrop = true;
 			this._lblCommon_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_9.Text = "Address";
 			this._lblCommon_9.ForeColor = System.Drawing.Color.Black;
@@ -469,7 +469,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_2.Text = "Property Name  (Arabic)";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -481,7 +481,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_8
 			// 
-			this._txtCommon_8.AllowDrop = true;
+			//this._txtCommon_8.AllowDrop = true;
 			this._txtCommon_8.BackColor = System.Drawing.Color.White;
 			this._txtCommon_8.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_8.Location = new System.Drawing.Point(157, 53);
@@ -497,7 +497,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Guard Code";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -509,7 +509,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_4
 			// 
-			this._txtCommon_4.AllowDrop = true;
+			//this._txtCommon_4.AllowDrop = true;
 			this._txtCommon_4.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_4.bolNumericOnly = true;
 			this._txtCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -526,7 +526,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_6
 			// 
-			this._lblCommon_6.AllowDrop = true;
+			//this._lblCommon_6.AllowDrop = true;
 			this._lblCommon_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_6.Text = "Status Code";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -538,7 +538,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_9
 			// 
-			this._txtCommon_9.AllowDrop = true;
+			//this._txtCommon_9.AllowDrop = true;
 			this._txtCommon_9.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_9.bolNumericOnly = true;
 			this._txtCommon_9.ForeColor = System.Drawing.Color.Black;
@@ -555,7 +555,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_6
 			// 
-			this._txtCommon_6.AllowDrop = true;
+			//this._txtCommon_6.AllowDrop = true;
 			this._txtCommon_6.BackColor = System.Drawing.Color.White;
 			this._txtCommon_6.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_6.Location = new System.Drawing.Point(157, 305);
@@ -571,7 +571,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_3
 			// 
-			this._txtCommonDisplay_3.AllowDrop = true;
+			//this._txtCommonDisplay_3.AllowDrop = true;
 			this._txtCommonDisplay_3.Location = new System.Drawing.Point(260, 137);
 			this._txtCommonDisplay_3.Name = "_txtCommonDisplay_3";
 			this._txtCommonDisplay_3.Size = new System.Drawing.Size(201, 19);
@@ -579,7 +579,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_2
 			// 
-			this._txtCommonDisplay_2.AllowDrop = true;
+			//this._txtCommonDisplay_2.AllowDrop = true;
 			this._txtCommonDisplay_2.Location = new System.Drawing.Point(260, 116);
 			this._txtCommonDisplay_2.Name = "_txtCommonDisplay_2";
 			this._txtCommonDisplay_2.Size = new System.Drawing.Size(201, 19);
@@ -587,7 +587,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_1
 			// 
-			this._txtCommonDisplay_1.AllowDrop = true;
+			//this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(260, 95);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";
 			this._txtCommonDisplay_1.Size = new System.Drawing.Size(201, 19);
@@ -595,7 +595,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(260, 74);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);
@@ -603,7 +603,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_16
 			// 
-			this._lblCommon_16.AllowDrop = true;
+			//this._lblCommon_16.AllowDrop = true;
 			this._lblCommon_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_16.Text = "Region(In English)";
 			this._lblCommon_16.ForeColor = System.Drawing.Color.Black;
@@ -614,7 +614,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_15
 			// 
-			this._txtCommon_15.AllowDrop = true;
+			//this._txtCommon_15.AllowDrop = true;
 			this._txtCommon_15.BackColor = System.Drawing.Color.White;
 			this._txtCommon_15.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_15.Location = new System.Drawing.Point(157, 158);
@@ -629,7 +629,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_16
 			// 
-			this._txtCommon_16.AllowDrop = true;
+			//this._txtCommon_16.AllowDrop = true;
 			this._txtCommon_16.BackColor = System.Drawing.Color.White;
 			this._txtCommon_16.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_16.Location = new System.Drawing.Point(157, 200);
@@ -644,7 +644,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_17
 			// 
-			this._lblCommon_17.AllowDrop = true;
+			//this._lblCommon_17.AllowDrop = true;
 			this._lblCommon_17.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_17.Text = "Building No.";
 			this._lblCommon_17.ForeColor = System.Drawing.Color.Black;
@@ -655,7 +655,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_18
 			// 
-			this._lblCommon_18.AllowDrop = true;
+			//this._lblCommon_18.AllowDrop = true;
 			this._lblCommon_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_18.Text = "Street Name(In English)";
 			this._lblCommon_18.ForeColor = System.Drawing.Color.Black;
@@ -666,7 +666,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_17
 			// 
-			this._txtCommon_17.AllowDrop = true;
+			//this._txtCommon_17.AllowDrop = true;
 			this._txtCommon_17.BackColor = System.Drawing.Color.White;
 			this._txtCommon_17.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_17.Location = new System.Drawing.Point(157, 221);
@@ -681,7 +681,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_19
 			// 
-			this._lblCommon_19.AllowDrop = true;
+			//this._lblCommon_19.AllowDrop = true;
 			this._lblCommon_19.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_19.Text = "Plot";
 			this._lblCommon_19.ForeColor = System.Drawing.Color.Black;
@@ -692,7 +692,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_18
 			// 
-			this._txtCommon_18.AllowDrop = true;
+			//this._txtCommon_18.AllowDrop = true;
 			this._txtCommon_18.BackColor = System.Drawing.Color.White;
 			this._txtCommon_18.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_18.Location = new System.Drawing.Point(157, 263);
@@ -707,7 +707,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_20
 			// 
-			this._lblCommon_20.AllowDrop = true;
+			//this._lblCommon_20.AllowDrop = true;
 			this._lblCommon_20.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_20.Text = "Region(In Arabic)";
 			this._lblCommon_20.ForeColor = System.Drawing.Color.Black;
@@ -718,7 +718,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_19
 			// 
-			this._txtCommon_19.AllowDrop = true;
+			//this._txtCommon_19.AllowDrop = true;
 			this._txtCommon_19.BackColor = System.Drawing.Color.White;
 			this._txtCommon_19.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_19.Location = new System.Drawing.Point(157, 179);
@@ -734,7 +734,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_21
 			// 
-			this._lblCommon_21.AllowDrop = true;
+			//this._lblCommon_21.AllowDrop = true;
 			this._lblCommon_21.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_21.Text = "Street Name(In Arabic)";
 			this._lblCommon_21.ForeColor = System.Drawing.Color.Black;
@@ -745,7 +745,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_20
 			// 
-			this._txtCommon_20.AllowDrop = true;
+			//this._txtCommon_20.AllowDrop = true;
 			this._txtCommon_20.BackColor = System.Drawing.Color.White;
 			this._txtCommon_20.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_20.Location = new System.Drawing.Point(157, 242);
@@ -761,7 +761,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_22
 			// 
-			this._lblCommon_22.AllowDrop = true;
+			//this._lblCommon_22.AllowDrop = true;
 			this._lblCommon_22.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_22.Text = "Property Value";
 			this._lblCommon_22.ForeColor = System.Drawing.Color.Black;
@@ -773,9 +773,9 @@ namespace Xtreme
 			// 
 			// _fraMasterInformation_1
 			// 
-			this._fraMasterInformation_1.AllowDrop = true;
+			//this._fraMasterInformation_1.AllowDrop = true;
 			this._fraMasterInformation_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraMasterInformation_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraMasterInformation_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraMasterInformation_1.Controls.Add(this._lblCommon_11);
 			this._fraMasterInformation_1.Controls.Add(this._txtCommon_10);
 			this._fraMasterInformation_1.Controls.Add(this._lblCommon_12);
@@ -802,7 +802,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_11
 			// 
-			this._lblCommon_11.AllowDrop = true;
+			//this._lblCommon_11.AllowDrop = true;
 			this._lblCommon_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_11.Text = "GL Revenue A/c";
 			this._lblCommon_11.ForeColor = System.Drawing.Color.Black;
@@ -814,7 +814,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_10
 			// 
-			this._txtCommon_10.AllowDrop = true;
+			//this._txtCommon_10.AllowDrop = true;
 			this._txtCommon_10.BackColor = System.Drawing.Color.White;
 			this._txtCommon_10.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_10.Location = new System.Drawing.Point(124, 33);
@@ -830,7 +830,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_12
 			// 
-			this._lblCommon_12.AllowDrop = true;
+			//this._lblCommon_12.AllowDrop = true;
 			this._lblCommon_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_12.Text = "Accrued Charges A/c";
 			this._lblCommon_12.ForeColor = System.Drawing.Color.Black;
@@ -842,7 +842,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_13
 			// 
-			this._lblCommon_13.AllowDrop = true;
+			//this._lblCommon_13.AllowDrop = true;
 			this._lblCommon_13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_13.Text = "Cash / Bank A/c";
 			this._lblCommon_13.ForeColor = System.Drawing.Color.Black;
@@ -854,7 +854,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_14
 			// 
-			this._lblCommon_14.AllowDrop = true;
+			//this._lblCommon_14.AllowDrop = true;
 			this._lblCommon_14.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_14.Text = "Advance Receipt A/c";
 			this._lblCommon_14.ForeColor = System.Drawing.Color.Black;
@@ -866,7 +866,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_15
 			// 
-			this._lblCommon_15.AllowDrop = true;
+			//this._lblCommon_15.AllowDrop = true;
 			this._lblCommon_15.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_15.Text = "Discount Allowed A/c";
 			this._lblCommon_15.ForeColor = System.Drawing.Color.Black;
@@ -878,7 +878,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_11
 			// 
-			this._txtCommon_11.AllowDrop = true;
+			//this._txtCommon_11.AllowDrop = true;
 			this._txtCommon_11.BackColor = System.Drawing.Color.White;
 			this._txtCommon_11.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_11.Location = new System.Drawing.Point(124, 54);
@@ -894,7 +894,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_12
 			// 
-			this._txtCommon_12.AllowDrop = true;
+			//this._txtCommon_12.AllowDrop = true;
 			this._txtCommon_12.BackColor = System.Drawing.Color.White;
 			this._txtCommon_12.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_12.Location = new System.Drawing.Point(124, 75);
@@ -910,7 +910,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_13
 			// 
-			this._txtCommon_13.AllowDrop = true;
+			//this._txtCommon_13.AllowDrop = true;
 			this._txtCommon_13.BackColor = System.Drawing.Color.White;
 			this._txtCommon_13.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_13.Location = new System.Drawing.Point(124, 96);
@@ -926,7 +926,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_14
 			// 
-			this._txtCommon_14.AllowDrop = true;
+			//this._txtCommon_14.AllowDrop = true;
 			this._txtCommon_14.BackColor = System.Drawing.Color.White;
 			this._txtCommon_14.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_14.Location = new System.Drawing.Point(124, 117);
@@ -942,7 +942,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_5
 			// 
-			this._txtCommonDisplay_5.AllowDrop = true;
+			//this._txtCommonDisplay_5.AllowDrop = true;
 			this._txtCommonDisplay_5.Location = new System.Drawing.Point(228, 54);
 			this._txtCommonDisplay_5.Name = "_txtCommonDisplay_5";
 			this._txtCommonDisplay_5.Size = new System.Drawing.Size(201, 19);
@@ -950,7 +950,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_6
 			// 
-			this._txtCommonDisplay_6.AllowDrop = true;
+			//this._txtCommonDisplay_6.AllowDrop = true;
 			this._txtCommonDisplay_6.Location = new System.Drawing.Point(228, 75);
 			this._txtCommonDisplay_6.Name = "_txtCommonDisplay_6";
 			this._txtCommonDisplay_6.Size = new System.Drawing.Size(201, 19);
@@ -958,7 +958,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_7
 			// 
-			this._txtCommonDisplay_7.AllowDrop = true;
+			//this._txtCommonDisplay_7.AllowDrop = true;
 			this._txtCommonDisplay_7.Location = new System.Drawing.Point(228, 96);
 			this._txtCommonDisplay_7.Name = "_txtCommonDisplay_7";
 			this._txtCommonDisplay_7.Size = new System.Drawing.Size(201, 19);
@@ -966,7 +966,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_8
 			// 
-			this._txtCommonDisplay_8.AllowDrop = true;
+			//this._txtCommonDisplay_8.AllowDrop = true;
 			this._txtCommonDisplay_8.Location = new System.Drawing.Point(228, 117);
 			this._txtCommonDisplay_8.Name = "_txtCommonDisplay_8";
 			this._txtCommonDisplay_8.Size = new System.Drawing.Size(201, 19);
@@ -974,7 +974,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_4
 			// 
-			this._txtCommonDisplay_4.AllowDrop = true;
+			//this._txtCommonDisplay_4.AllowDrop = true;
 			this._txtCommonDisplay_4.Location = new System.Drawing.Point(228, 33);
 			this._txtCommonDisplay_4.Name = "_txtCommonDisplay_4";
 			this._txtCommonDisplay_4.Size = new System.Drawing.Size(201, 19);

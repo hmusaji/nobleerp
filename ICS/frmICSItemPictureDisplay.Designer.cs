@@ -59,15 +59,15 @@ namespace Xtreme
 			// 
 			// ImgItem
 			// 
-			this.ImgItem.AllowDrop = true;
-			this.ImgItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.ImgItem.AllowDrop = true;
+			//this.ImgItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.ImgItem.Enabled = true;
 			this.ImgItem.Location = new System.Drawing.Point(0, 0);
 			this.ImgItem.Name = "ImgItem";
 			this.ImgItem.Size = new System.Drawing.Size(252, 233);
 			this.ImgItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.ImgItem.Visible = true;
-			this.ImgItem.DoubleClick += new System.EventHandler(this.ImgItem_DoubleClick);
+			//this.ImgItem.DoubleClick += new System.EventHandler(this.ImgItem_DoubleClick);
 			// 
 			// frmICSItemPictureDisplay
 			// 

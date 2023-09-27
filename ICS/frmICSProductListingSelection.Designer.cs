@@ -67,7 +67,7 @@ namespace Xtreme
 			// oReportGrid
 			// 
 			this.oReportGrid.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.oReportGrid.AllowDrop = true;
+			//this.oReportGrid.AllowDrop = true;
 			this.oReportGrid.AllowEditing = false;
 			this.oReportGrid.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.oReportGrid.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -78,8 +78,8 @@ namespace Xtreme
 			this.oReportGrid.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.oReportGrid.AutoSearchDelay = 2;
 			this.oReportGrid.BackColor = System.Drawing.SystemColors.Window;
-			this.oReportGrid.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
-			this.oReportGrid.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.oReportGrid.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
+			//this.oReportGrid.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.oReportGrid.Cols.Count = 10;
 			this.oReportGrid.Cols.Fixed = 1;
 			this.oReportGrid.Cols.Frozen = 0;
@@ -136,7 +136,7 @@ namespace Xtreme
 			// 
 			// txtPrice
 			// 
-			this.txtPrice.AllowDrop = true;
+			//this.txtPrice.AllowDrop = true;
 			this.txtPrice.BackColor = System.Drawing.Color.White;
 			// this.txtPrice.bolNumericOnly = true;
 			this.txtPrice.ForeColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// txtPriceName
 			// 
-			this.txtPriceName.AllowDrop = true;
+			//this.txtPriceName.AllowDrop = true;
 			this.txtPriceName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtPriceName.Enabled = false;
 			this.txtPriceName.ForeColor = System.Drawing.Color.Black;
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// lblPriceList
 			// 
-			this.lblPriceList.AllowDrop = true;
+			//this.lblPriceList.AllowDrop = true;
 			this.lblPriceList.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPriceList.Text = "Price :";
 			this.lblPriceList.ForeColor = System.Drawing.Color.Black;

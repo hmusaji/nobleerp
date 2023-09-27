@@ -113,7 +113,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_3.Text = " Bid Information ";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// fraDetailsInfo
 			// 
-			this.fraDetailsInfo.AllowDrop = true;
+			//this.fraDetailsInfo.AllowDrop = true;
 			this.fraDetailsInfo.Controls.Add(this.txtCurrencyName);
 			this.fraDetailsInfo.Controls.Add(this.Label4);
 			this.fraDetailsInfo.Controls.Add(this.Label3);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// txtCurrencyName
 			// 
-			this.txtCurrencyName.AllowDrop = true;
+			//this.txtCurrencyName.AllowDrop = true;
 			this.txtCurrencyName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtCurrencyName.Enabled = false;
 			this.txtCurrencyName.Location = new System.Drawing.Point(372, 61);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label4.Text = "Currency Code";
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label3.Text = "Certified Cheque";
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label2.Text = "Bank Guarantee";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -199,7 +199,7 @@ namespace Xtreme
 			// 
 			// chkCertifiedCheque
 			// 
-			this.chkCertifiedCheque.AllowDrop = true;
+			//this.chkCertifiedCheque.AllowDrop = true;
 			this.chkCertifiedCheque.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkCertifiedCheque.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkCertifiedCheque.CausesValidation = true;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// chkBankGuarantee
 			// 
-			this.chkBankGuarantee.AllowDrop = true;
+			//this.chkBankGuarantee.AllowDrop = true;
 			this.chkBankGuarantee.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkBankGuarantee.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkBankGuarantee.CausesValidation = true;
@@ -239,9 +239,9 @@ namespace Xtreme
 			// 
 			// _Frame1_0
 			// 
-			this._Frame1_0.AllowDrop = true;
+			//this._Frame1_0.AllowDrop = true;
 			this._Frame1_0.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this._Frame1_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Frame1_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Frame1_0.Enabled = true;
 			this._Frame1_0.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this._Frame1_0.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
@@ -254,7 +254,7 @@ namespace Xtreme
 			// 
 			// txtValidityDate
 			// 
-			this.txtValidityDate.AllowDrop = true;
+			//this.txtValidityDate.AllowDrop = true;
 			// this.txtValidityDate.CheckDateRange = false;
 			this.txtValidityDate.Location = new System.Drawing.Point(104, 60);
 			// this.txtValidityDate.MaxDate = 2958465;
@@ -267,7 +267,7 @@ namespace Xtreme
 			// 
 			// lblDate
 			// 
-			this.lblDate.AllowDrop = true;
+			//this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			// this.lblDate.Text = "Validity date";
 			this.lblDate.ForeColor = System.Drawing.Color.Black;
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// txtBidAmount
 			// 
-			this.txtBidAmount.AllowDrop = true;
+			//this.txtBidAmount.AllowDrop = true;
 			// this.txtBidAmount.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtBidAmount.Format = "###########0.000";
 			this.txtBidAmount.Location = new System.Drawing.Point(104, 102);
@@ -292,7 +292,7 @@ namespace Xtreme
 			// 
 			// lblAmount
 			// 
-			this.lblAmount.AllowDrop = true;
+			//this.lblAmount.AllowDrop = true;
 			this.lblAmount.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblAmount.Text = "BG/CC Amount";
 			this.lblAmount.ForeColor = System.Drawing.Color.Black;
@@ -304,7 +304,7 @@ namespace Xtreme
 			// 
 			// txtBGCCNo
 			// 
-			this.txtBGCCNo.AllowDrop = true;
+			//this.txtBGCCNo.AllowDrop = true;
 			this.txtBGCCNo.BackColor = System.Drawing.Color.White;
 			// this.txtBGCCNo.bolNumericOnly = true;
 			this.txtBGCCNo.ForeColor = System.Drawing.Color.Black;
@@ -318,7 +318,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label1.Text = "BG/CC No.";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -330,7 +330,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label5.Text = "Issue Date";
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -342,7 +342,7 @@ namespace Xtreme
 			// 
 			// txtCurrencyCode
 			// 
-			this.txtCurrencyCode.AllowDrop = true;
+			//this.txtCurrencyCode.AllowDrop = true;
 			this.txtCurrencyCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtCurrencyCode.ForeColor = System.Drawing.Color.Black;
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// txtIssueDate
 			// 
-			this.txtIssueDate.AllowDrop = true;
+			//this.txtIssueDate.AllowDrop = true;
 			// this.txtIssueDate.CheckDateRange = false;
 			this.txtIssueDate.Location = new System.Drawing.Point(104, 81);
 			// this.txtIssueDate.MaxDate = 2958465;
@@ -372,7 +372,7 @@ namespace Xtreme
 			// 
 			// txtBankInitials
 			// 
-			this.txtBankInitials.AllowDrop = true;
+			//this.txtBankInitials.AllowDrop = true;
 			this.txtBankInitials.BackColor = System.Drawing.Color.White;
 			this.txtBankInitials.ForeColor = System.Drawing.Color.Black;
 			this.txtBankInitials.Location = new System.Drawing.Point(316, 103);
@@ -385,7 +385,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label6.Text = "Bank Initails";
 			this.Label6.ForeColor = System.Drawing.Color.Black;
@@ -397,7 +397,7 @@ namespace Xtreme
 			// 
 			// txtBidNo
 			// 
-			this.txtBidNo.AllowDrop = true;
+			//this.txtBidNo.AllowDrop = true;
 			this.txtBidNo.BackColor = System.Drawing.Color.White;
 			this.txtBidNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBidNo.Location = new System.Drawing.Point(94, 48);
@@ -412,7 +412,7 @@ namespace Xtreme
 			// 
 			// lblCode
 			// 
-			this.lblCode.AllowDrop = true;
+			//this.lblCode.AllowDrop = true;
 			this.lblCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCode.Text = "Bid Code";
 			this.lblCode.ForeColor = System.Drawing.Color.Black;
@@ -424,7 +424,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(0, 86);
@@ -434,7 +434,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 0);
@@ -444,9 +444,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(52, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(52, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmICSBid
@@ -463,7 +463,7 @@ namespace Xtreme
 			this.Controls.Add(this.lblCode);
 			this.Controls.Add(this.Line2);
 			this.Controls.Add(this.Line1);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmICSBid.Icon");
 			this.KeyPreview = true;

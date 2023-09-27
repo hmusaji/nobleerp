@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// cntMasterDetails
 			// 
-			this.cntMasterDetails.AllowDrop = true;
+			//this.cntMasterDetails.AllowDrop = true;
 			this.cntMasterDetails.Controls.Add(this.lblAdjustmentDetails);
 			this.cntMasterDetails.Controls.Add(this._grdVoucherDetails_1);
 			this.cntMasterDetails.Controls.Add(this._grdVoucherDetails_0);
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// lblAdjustmentDetails
 			// 
-			this.lblAdjustmentDetails.AllowDrop = true;
+			//this.lblAdjustmentDetails.AllowDrop = true;
 			this.lblAdjustmentDetails.BackColor = System.Drawing.Color.FromArgb(238, 239, 214);
 			this.lblAdjustmentDetails.Text = "Adjust Voucher With :";
 			this.lblAdjustmentDetails.ForeColor = System.Drawing.Color.Black;
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// _grdVoucherDetails_1
 			// 
-			this._grdVoucherDetails_1.AllowDrop = true;
+			//this._grdVoucherDetails_1.AllowDrop = true;
 			this._grdVoucherDetails_1.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this._grdVoucherDetails_1.CellTipsWidth = 0;
 			this._grdVoucherDetails_1.Location = new System.Drawing.Point(0, 156);
@@ -130,11 +130,11 @@ namespace Xtreme
 			this._grdVoucherDetails_1.TabIndex = 2;
 			this._grdVoucherDetails_1.Columns.Add(this.Column_0__grdVoucherDetails_1);
 			this._grdVoucherDetails_1.Columns.Add(this.Column_1__grdVoucherDetails_1);
-			this._grdVoucherDetails_1.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this._grdVoucherDetails_1.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
-			this._grdVoucherDetails_1.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this._grdVoucherDetails_1.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
-			this._grdVoucherDetails_1.UnboundColumnFetch += new C1.Win.C1TrueDBGrid.UnboundColumnFetchEventHandler(this.grdVoucherDetails_UnboundColumnFetch);
+			//this._grdVoucherDetails_1.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this._grdVoucherDetails_1.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			////this._grdVoucherDetails_1.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			////this._grdVoucherDetails_1.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this._grdVoucherDetails_1.UnboundColumnFetch += new C1.Win.C1TrueDBGrid.UnboundColumnFetchEventHandler(this.grdVoucherDetails_UnboundColumnFetch);
 			// 
 			// Column_0__grdVoucherDetails_1
 			// 
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// _grdVoucherDetails_0
 			// 
-			this._grdVoucherDetails_0.AllowDrop = true;
+			//this._grdVoucherDetails_0.AllowDrop = true;
 			this._grdVoucherDetails_0.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this._grdVoucherDetails_0.CellTipsWidth = 0;
 			this._grdVoucherDetails_0.Location = new System.Drawing.Point(0, 0);
@@ -158,11 +158,11 @@ namespace Xtreme
 			this._grdVoucherDetails_0.TabIndex = 1;
 			this._grdVoucherDetails_0.Columns.Add(this.Column_0__grdVoucherDetails_0);
 			this._grdVoucherDetails_0.Columns.Add(this.Column_1__grdVoucherDetails_0);
-			this._grdVoucherDetails_0.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this._grdVoucherDetails_0.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
-			this._grdVoucherDetails_0.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this._grdVoucherDetails_0.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
-			this._grdVoucherDetails_0.UnboundColumnFetch += new C1.Win.C1TrueDBGrid.UnboundColumnFetchEventHandler(this.grdVoucherDetails_UnboundColumnFetch);
+			//this._grdVoucherDetails_0.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this._grdVoucherDetails_0.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			////this._grdVoucherDetails_0.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			////this._grdVoucherDetails_0.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this._grdVoucherDetails_0.UnboundColumnFetch += new C1.Win.C1TrueDBGrid.UnboundColumnFetchEventHandler(this.grdVoucherDetails_UnboundColumnFetch);
 			// 
 			// Column_0__grdVoucherDetails_0
 			// 
@@ -176,9 +176,9 @@ namespace Xtreme
 			// 
 			// picOkCancel
 			// 
-			this.picOkCancel.AllowDrop = true;
+			//this.picOkCancel.AllowDrop = true;
 			this.picOkCancel.BackColor = System.Drawing.Color.Navy;
-			this.picOkCancel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.picOkCancel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.picOkCancel.CausesValidation = true;
 			this.picOkCancel.Controls.Add(this.cmdClose);
 			this.picOkCancel.Dock = System.Windows.Forms.DockStyle.None;
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// cmdClose
 			// 
-			this.cmdClose.AllowDrop = true;
+			//this.cmdClose.AllowDrop = true;
 			this.cmdClose.Location = new System.Drawing.Point(0, 0);
 			this.cmdClose.Name = "cmdClose";
 			//
@@ -203,7 +203,7 @@ namespace Xtreme
 			// 
 			// chkShowAll
 			// 
-			this.chkShowAll.AllowDrop = true;
+			//this.chkShowAll.AllowDrop = true;
 			this.chkShowAll.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowAll.BackColor = System.Drawing.Color.FromArgb(238, 239, 214);
 			this.chkShowAll.CausesValidation = true;
@@ -220,11 +220,11 @@ namespace Xtreme
 			this.chkShowAll.Text = "&Show All Vouchers";
 			this.chkShowAll.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkShowAll.Visible = true;
-			this.chkShowAll.CheckStateChanged += new System.EventHandler(this.chkShowAll_CheckStateChanged);
+			////this.chkShowAll.CheckStateChanged += new System.EventHandler(this.chkShowAll_CheckStateChanged);
 			// 
 			// txtLdgrName
 			// 
-			this.txtLdgrName.AllowDrop = true;
+			//this.txtLdgrName.AllowDrop = true;
 			this.txtLdgrName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtLdgrName.Enabled = false;
 			this.txtLdgrName.ForeColor = System.Drawing.Color.Black;
@@ -236,7 +236,7 @@ namespace Xtreme
 			// 
 			// txtLdgrNo
 			// 
-			this.txtLdgrNo.AllowDrop = true;
+			//this.txtLdgrNo.AllowDrop = true;
 			this.txtLdgrNo.BackColor = System.Drawing.Color.White;
 			this.txtLdgrNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLdgrNo.Location = new System.Drawing.Point(84, 12);
@@ -250,7 +250,7 @@ namespace Xtreme
 			// 
 			// lblLedgerNo
 			// 
-			this.lblLedgerNo.AllowDrop = true;
+			//this.lblLedgerNo.AllowDrop = true;
 			this.lblLedgerNo.BackColor = System.Drawing.Color.FromArgb(238, 239, 214);
 			this.lblLedgerNo.Text = "Ledger Code";
 			this.lblLedgerNo.ForeColor = System.Drawing.Color.Black;
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(-1, 36);

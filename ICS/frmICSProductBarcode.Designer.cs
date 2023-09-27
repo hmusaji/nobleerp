@@ -79,7 +79,7 @@ namespace Xtreme
 			// 
 			// cntMasterDetails
 			// 
-			this.cntMasterDetails.AllowDrop = true;
+			//this.cntMasterDetails.AllowDrop = true;
 			this.cntMasterDetails.Controls.Add(this.cmbCommon);
 			this.cntMasterDetails.Controls.Add(this.txtProductCode);
 			this.cntMasterDetails.Controls.Add(this.lblLedgerNo);
@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// cmbCommon
 			// 
-			this.cmbCommon.AllowDrop = true;
+			//this.cmbCommon.AllowDrop = true;
 			this.cmbCommon.ColumnHeaders = true;
 			this.cmbCommon.Enabled = true;
 			this.cmbCommon.Location = new System.Drawing.Point(280, 64);
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// txtProductCode
 			// 
-			this.txtProductCode.AllowDrop = true;
+			//this.txtProductCode.AllowDrop = true;
 			this.txtProductCode.BackColor = System.Drawing.Color.White;
 			this.txtProductCode.ForeColor = System.Drawing.Color.Black;
 			this.txtProductCode.Location = new System.Drawing.Point(82, 13);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// lblLedgerNo
 			// 
-			this.lblLedgerNo.AllowDrop = true;
+			//this.lblLedgerNo.AllowDrop = true;
 			this.lblLedgerNo.BackColor = System.Drawing.SystemColors.Window;
 			this.lblLedgerNo.Text = "Product Code";
 			this.lblLedgerNo.Location = new System.Drawing.Point(7, 15);
@@ -140,20 +140,20 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 56);
 			this.grdVoucherDetails.Name = "grdVoucherDetails";
 			this.grdVoucherDetails.RowDivider.Color = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.Size = new System.Drawing.Size(507, 160);
 			this.grdVoucherDetails.TabIndex = 3;
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// 
 			// txtProductName
 			// 
-			this.txtProductName.AllowDrop = true;
+			//this.txtProductName.AllowDrop = true;
 			this.txtProductName.Location = new System.Drawing.Point(190, 13);
 			this.txtProductName.Name = "txtProductName";
 			this.txtProductName.Size = new System.Drawing.Size(241, 19);
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 44);

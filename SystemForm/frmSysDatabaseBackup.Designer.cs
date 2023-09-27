@@ -55,9 +55,9 @@ namespace Xtreme
 		public System.Windows.Forms.Panel Frame3;
 		public System.Windows.Forms.CheckBox chkBackupSysDb;
 		public System.Windows.Forms.Label Label1;
-		public UpgradeHelpers.Gui.DirListBoxHelper Dir1;
-		public UpgradeHelpers.Gui.DriveListBoxHelper Drive1;
-		public UpgradeHelpers.Gui.ListBoxHelper listBoxHelper1;
+		public DirListBoxHelper Dir1;
+		public DriveListBoxHelper Drive1;
+		//public UpgradeHelpers.Gui.ListBoxHelper listBoxHelper1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -77,21 +77,21 @@ namespace Xtreme
 			this.cmdOKCancel = new UCOkCancel();
 			this.chkBackupSysDb = new System.Windows.Forms.CheckBox();
 			this.Label1 = new System.Windows.Forms.Label();
-			this.Dir1 = new UpgradeHelpers.Gui.DirListBoxHelper();
-			this.Drive1 = new UpgradeHelpers.Gui.DriveListBoxHelper();
+			this.Dir1 = new DirListBoxHelper();
+			this.Drive1 = new DriveListBoxHelper();
 			// //((System.ComponentModel.ISupportInitialize) this.ExportProgress).BeginInit();
 			//this.Frame3.SuspendLayout();
 			//this.Frame4.SuspendLayout();
 			//this.Frame1.SuspendLayout();
 			//this.Frame2.SuspendLayout();
 			this.SuspendLayout();
-			this.listBoxHelper1 = new UpgradeHelpers.Gui.ListBoxHelper(this.components);
+			//this.listBoxHelper1 = new UpgradeHelpers.Gui.ListBoxHelper(this.components);
 			// 
 			// Frame3
 			// 
-			this.Frame3.AllowDrop = true;
+			//this.Frame3.AllowDrop = true;
 			this.Frame3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Frame3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame3.Controls.Add(this.Frame4);
 			this.Frame3.Controls.Add(this.Frame1);
 			this.Frame3.Controls.Add(this.Frame2);
@@ -107,7 +107,7 @@ namespace Xtreme
 			// 
 			// Frame4
 			// 
-			this.Frame4.AllowDrop = true;
+			//this.Frame4.AllowDrop = true;
 			this.Frame4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame4.Controls.Add(this.ExportProgress);
 			this.Frame4.Enabled = true;
@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// ExportProgress
 			// 
-			this.ExportProgress.AllowDrop = true;
+			//this.ExportProgress.AllowDrop = true;
 			this.ExportProgress.Location = new System.Drawing.Point(4, 16);
 			this.ExportProgress.Name = "ExportProgress";
 			//
@@ -131,7 +131,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this.txtExportPath);
 			this.Frame1.Enabled = true;
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// txtExportPath
 			// 
-			this.txtExportPath.AllowDrop = true;
+			//this.txtExportPath.AllowDrop = true;
 			this.txtExportPath.BackColor = System.Drawing.Color.White;
 			this.txtExportPath.ForeColor = System.Drawing.Color.Black;
 			this.txtExportPath.Location = new System.Drawing.Point(6, 20);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// Frame2
 			// 
-			this.Frame2.AllowDrop = true;
+			//this.Frame2.AllowDrop = true;
 			this.Frame2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame2.Controls.Add(this.lstDatabase);
 			this.Frame2.Enabled = true;
@@ -175,9 +175,9 @@ namespace Xtreme
 			// 
 			// lstDatabase
 			// 
-			this.lstDatabase.AllowDrop = true;
+			//this.lstDatabase.AllowDrop = true;
 			this.lstDatabase.BackColor = System.Drawing.SystemColors.Window;
-			this.lstDatabase.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.lstDatabase.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.lstDatabase.CausesValidation = true;
 			this.lstDatabase.Enabled = true;
 			this.lstDatabase.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -194,17 +194,17 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.Location = new System.Drawing.Point(144, 242);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 9;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// chkBackupSysDb
 			// 
-			this.chkBackupSysDb.AllowDrop = true;
+			//this.chkBackupSysDb.AllowDrop = true;
 			this.chkBackupSysDb.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkBackupSysDb.BackColor = System.Drawing.Color.FromArgb(239, 221, 211);
 			this.chkBackupSysDb.CausesValidation = true;
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.Location = new System.Drawing.Point(6, 396);
 			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(167, 16);
@@ -233,33 +233,33 @@ namespace Xtreme
 			// 
 			// Dir1
 			// 
-			this.Dir1.AllowDrop = true;
-			this.Dir1.BackColor = System.Drawing.SystemColors.Window;
-			this.Dir1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.Dir1.CausesValidation = true;
-			this.Dir1.Enabled = true;
-			this.Dir1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.Dir1.Location = new System.Drawing.Point(10, 398);
-			this.Dir1.Name = "Dir1";
-			this.Dir1.Size = new System.Drawing.Size(305, 231);
-			this.Dir1.TabIndex = 2;
-			this.Dir1.TabStop = true;
-			this.Dir1.Visible = false;
+			////this.Dir1.AllowDrop = true;
+			//this.Dir1.BackColor = System.Drawing.SystemColors.Window;
+			////this.Dir1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.Dir1.CausesValidation = true;
+			//this.Dir1.Enabled = true;
+			//this.Dir1.ForeColor = System.Drawing.SystemColors.WindowText;
+			//this.Dir1.Location = new System.Drawing.Point(10, 398);
+			//this.Dir1.Name = "Dir1";
+			//this.Dir1.Size = new System.Drawing.Size(305, 231);
+			//this.Dir1.TabIndex = 2;
+			//this.Dir1.TabStop = true;
+			//this.Dir1.Visible = false;
 			// 
 			// Drive1
 			// 
-			this.Drive1.AllowDrop = true;
-			this.Drive1.BackColor = System.Drawing.SystemColors.Window;
-			this.Drive1.CausesValidation = true;
-			this.Drive1.Enabled = true;
-			this.Drive1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.Drive1.Location = new System.Drawing.Point(12, 368);
-			this.Drive1.Name = "Drive1";
-			this.Drive1.Size = new System.Drawing.Size(305, 21);
-			this.Drive1.TabIndex = 1;
-			this.Drive1.TabStop = true;
-			this.Drive1.Visible = false;
-			this.Drive1.SelectedIndexChanged += new System.EventHandler(this.Drive1_SelectedIndexChanged);
+			////this.Drive1.AllowDrop = true;
+			//this.Drive1.BackColor = System.Drawing.SystemColors.Window;
+			//this.Drive1.CausesValidation = true;
+			//this.Drive1.Enabled = true;
+			//this.Drive1.ForeColor = System.Drawing.SystemColors.WindowText;
+			//this.Drive1.Location = new System.Drawing.Point(12, 368);
+			//this.Drive1.Name = "Drive1";
+			//this.Drive1.Size = new System.Drawing.Size(305, 21);
+			//this.Drive1.TabIndex = 1;
+			//this.Drive1.TabStop = true;
+			//this.Drive1.Visible = false;
+			//this.Drive1.SelectedIndexChanged += new System.EventHandler(this.Drive1_SelectedIndexChanged);
 			// 
 			// frmSysDatabaseBackup
 			// 
@@ -272,8 +272,8 @@ namespace Xtreme
 			this.Controls.Add(this.Frame3);
 			this.Controls.Add(this.chkBackupSysDb);
 			this.Controls.Add(this.Label1);
-			this.Controls.Add(this.Dir1);
-			this.Controls.Add(this.Drive1);
+			//this.Controls.Add(this.Dir1);
+			//this.Controls.Add(this.Drive1);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysDatabaseBackup.Icon");
 			this.KeyPreview = true;
 			this.Location = new System.Drawing.Point(215, 193);
@@ -283,7 +283,7 @@ namespace Xtreme
 			this.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "Database Backup";
-			this.listBoxHelper1.SetSelectionMode(this.lstDatabase, System.Windows.Forms.SelectionMode.One);
+			//this.listBoxHelper1.SetSelectionMode(this.lstDatabase, System.Windows.Forms.SelectionMode.One);
 			// this.Activated += new System.EventHandler(this.frmSysDatabaseBackup_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);

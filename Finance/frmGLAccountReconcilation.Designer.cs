@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// chkShowReconciled
 			// 
-			this.chkShowReconciled.AllowDrop = true;
+			//this.chkShowReconciled.AllowDrop = true;
 			this.chkShowReconciled.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowReconciled.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkShowReconciled.CausesValidation = true;
@@ -155,11 +155,11 @@ namespace Xtreme
 			this.chkShowReconciled.Text = "Show all Transactions";
 			this.chkShowReconciled.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkShowReconciled.Visible = true;
-			this.chkShowReconciled.CheckStateChanged += new System.EventHandler(this.chkShowReconciled_CheckStateChanged);
+			//this.chkShowReconciled.CheckStateChanged += new System.EventHandler(this.chkShowReconciled_CheckStateChanged);
 			// 
 			// txtLdgrName
 			// 
-			this.txtLdgrName.AllowDrop = true;
+			//this.txtLdgrName.AllowDrop = true;
 			this.txtLdgrName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtLdgrName.Enabled = false;
 			this.txtLdgrName.ForeColor = System.Drawing.Color.Black;
@@ -172,7 +172,7 @@ namespace Xtreme
 			// 
 			// txtLdgrNo
 			// 
-			this.txtLdgrNo.AllowDrop = true;
+			//this.txtLdgrNo.AllowDrop = true;
 			this.txtLdgrNo.BackColor = System.Drawing.Color.White;
 			this.txtLdgrNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLdgrNo.Location = new System.Drawing.Point(84, 58);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// lblLedgerNo
 			// 
-			this.lblLedgerNo.AllowDrop = true;
+			//this.lblLedgerNo.AllowDrop = true;
 			this.lblLedgerNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLedgerNo.Text = "Ledger Code";
 			this.lblLedgerNo.ForeColor = System.Drawing.Color.Black;
@@ -199,7 +199,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Statement Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			// this.txtVoucherDate.CheckDateRange = false;
 			this.txtVoucherDate.Location = new System.Drawing.Point(616, 58);
 			// this.txtVoucherDate.MaxDate = 2958465;
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(8, 216);
@@ -234,12 +234,12 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 6;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
-			this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			////this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
+			//this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			////this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
+			////this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -253,7 +253,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_0
 			// 
-			this._lblReconcile_0.AllowDrop = true;
+			//this._lblReconcile_0.AllowDrop = true;
 			this._lblReconcile_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_0.Text = "Debit";
 			this._lblReconcile_0.ForeColor = System.Drawing.Color.Black;
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_7
 			// 
-			this._lblReconcile_7.AllowDrop = true;
+			//this._lblReconcile_7.AllowDrop = true;
 			this._lblReconcile_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_7.Text = "Credit";
 			this._lblReconcile_7.ForeColor = System.Drawing.Color.Black;
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_3
 			// 
-			this._lblReconcile_3.AllowDrop = true;
+			//this._lblReconcile_3.AllowDrop = true;
 			this._lblReconcile_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_3.Text = "Total";
 			this._lblReconcile_3.ForeColor = System.Drawing.Color.Black;
@@ -289,7 +289,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_2
 			// 
-			this._lblReconcile_2.AllowDrop = true;
+			//this._lblReconcile_2.AllowDrop = true;
 			this._lblReconcile_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_2.Text = "Reconciled";
 			this._lblReconcile_2.ForeColor = System.Drawing.Color.Black;
@@ -301,7 +301,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_11
 			// 
-			this._lblReconcile_11.AllowDrop = true;
+			//this._lblReconcile_11.AllowDrop = true;
 			this._lblReconcile_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_11.Text = "Balance";
 			this._lblReconcile_11.ForeColor = System.Drawing.Color.Black;
@@ -313,7 +313,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_16
 			// 
-			this._lblReconcile_16.AllowDrop = true;
+			//this._lblReconcile_16.AllowDrop = true;
 			this._lblReconcile_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_16.Text = "Unreconciled Debit Amount (+)";
 			this._lblReconcile_16.ForeColor = System.Drawing.Color.Black;
@@ -325,7 +325,7 @@ namespace Xtreme
 			// 
 			// txtUnreconciledDebitAmount
 			// 
-			this.txtUnreconciledDebitAmount.AllowDrop = true;
+			//this.txtUnreconciledDebitAmount.AllowDrop = true;
 			this.txtUnreconciledDebitAmount.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtUnreconciledDebitAmount.DisplayFormat = "###########0.000;; ; ";
 			this.txtUnreconciledDebitAmount.Enabled = false;
@@ -340,7 +340,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_17
 			// 
-			this._lblReconcile_17.AllowDrop = true;
+			//this._lblReconcile_17.AllowDrop = true;
 			this._lblReconcile_17.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_17.Text = "Diff. in Account Reconcilation";
 			this._lblReconcile_17.ForeColor = System.Drawing.Color.Black;
@@ -352,7 +352,7 @@ namespace Xtreme
 			// 
 			// txtAccountReconcilationDiff
 			// 
-			this.txtAccountReconcilationDiff.AllowDrop = true;
+			//this.txtAccountReconcilationDiff.AllowDrop = true;
 			this.txtAccountReconcilationDiff.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtAccountReconcilationDiff.DisplayFormat = "###########0.000;; ; ";
 			this.txtAccountReconcilationDiff.Enabled = false;
@@ -367,7 +367,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_1
 			// 
-			this._lblReconcile_1.AllowDrop = true;
+			//this._lblReconcile_1.AllowDrop = true;
 			this._lblReconcile_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_1.Text = "Unreconciled";
 			this._lblReconcile_1.ForeColor = System.Drawing.Color.Black;
@@ -379,7 +379,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_4
 			// 
-			this._lblReconcile_4.AllowDrop = true;
+			//this._lblReconcile_4.AllowDrop = true;
 			this._lblReconcile_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_4.Text = "Unreconciled Credit Amount (-)";
 			this._lblReconcile_4.ForeColor = System.Drawing.Color.Black;
@@ -391,7 +391,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_5
 			// 
-			this._lblReconcile_5.AllowDrop = true;
+			//this._lblReconcile_5.AllowDrop = true;
 			this._lblReconcile_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_5.Text = "GL (System) Balance (-)";
 			this._lblReconcile_5.ForeColor = System.Drawing.Color.Black;
@@ -403,7 +403,7 @@ namespace Xtreme
 			// 
 			// txtGLSystemBalance
 			// 
-			this.txtGLSystemBalance.AllowDrop = true;
+			//this.txtGLSystemBalance.AllowDrop = true;
 			this.txtGLSystemBalance.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtGLSystemBalance.DisplayFormat = "###########0.000;; ; ";
 			this.txtGLSystemBalance.Enabled = false;
@@ -418,7 +418,7 @@ namespace Xtreme
 			// 
 			// txtUnreconciledCreditAmount
 			// 
-			this.txtUnreconciledCreditAmount.AllowDrop = true;
+			//this.txtUnreconciledCreditAmount.AllowDrop = true;
 			this.txtUnreconciledCreditAmount.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtUnreconciledCreditAmount.DisplayFormat = "###########0.000;; ; ";
 			this.txtUnreconciledCreditAmount.Enabled = false;
@@ -433,7 +433,7 @@ namespace Xtreme
 			// 
 			// _lblReconcile_15
 			// 
-			this._lblReconcile_15.AllowDrop = true;
+			//this._lblReconcile_15.AllowDrop = true;
 			this._lblReconcile_15.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblReconcile_15.Text = "Statement Ending Balance";
 			this._lblReconcile_15.ForeColor = System.Drawing.Color.Black;
@@ -445,7 +445,7 @@ namespace Xtreme
 			// 
 			// txtStatementEndingBalance
 			// 
-			this.txtStatementEndingBalance.AllowDrop = true;
+			//this.txtStatementEndingBalance.AllowDrop = true;
 			this.txtStatementEndingBalance.BackColor = System.Drawing.Color.White;
 			// this.txtStatementEndingBalance.DisplayFormat = "#######0.000###;; ; ";
 			// this.txtStatementEndingBalance.Format = "#######0.000###";
@@ -461,7 +461,7 @@ namespace Xtreme
 			// _dcReconcile_3
 			// 
 			// //this._dcReconcile_3.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_3.AllowDrop = true;
+			//this._dcReconcile_3.AllowDrop = true;
 			this._dcReconcile_3.Location = new System.Drawing.Point(236, 131);
 			this._dcReconcile_3.Name = "_dcReconcile_3";
 			this._dcReconcile_3.Size = new System.Drawing.Size(88, 19);
@@ -470,7 +470,7 @@ namespace Xtreme
 			// _dcReconcile_9
 			// 
 			// //this._dcReconcile_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_9.AllowDrop = true;
+			//this._dcReconcile_9.AllowDrop = true;
 			this._dcReconcile_9.Location = new System.Drawing.Point(236, 167);
 			this._dcReconcile_9.Name = "_dcReconcile_9";
 			this._dcReconcile_9.Size = new System.Drawing.Size(88, 19);
@@ -479,7 +479,7 @@ namespace Xtreme
 			// _dcReconcile_8
 			// 
 			// //this._dcReconcile_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_8.AllowDrop = true;
+			//this._dcReconcile_8.AllowDrop = true;
 			this._dcReconcile_8.Location = new System.Drawing.Point(149, 167);
 			this._dcReconcile_8.Name = "_dcReconcile_8";
 			this._dcReconcile_8.Size = new System.Drawing.Size(88, 19);
@@ -488,7 +488,7 @@ namespace Xtreme
 			// _dcReconcile_7
 			// 
 			// //this._dcReconcile_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_7.AllowDrop = true;
+			//this._dcReconcile_7.AllowDrop = true;
 			this._dcReconcile_7.Location = new System.Drawing.Point(62, 167);
 			this._dcReconcile_7.Name = "_dcReconcile_7";
 			this._dcReconcile_7.Size = new System.Drawing.Size(88, 19);
@@ -497,7 +497,7 @@ namespace Xtreme
 			// _dcReconcile_6
 			// 
 			// //this._dcReconcile_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_6.AllowDrop = true;
+			//this._dcReconcile_6.AllowDrop = true;
 			this._dcReconcile_6.Location = new System.Drawing.Point(236, 149);
 			this._dcReconcile_6.Name = "_dcReconcile_6";
 			this._dcReconcile_6.Size = new System.Drawing.Size(88, 19);
@@ -506,7 +506,7 @@ namespace Xtreme
 			// _dcReconcile_2
 			// 
 			// //this._dcReconcile_2.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_2.AllowDrop = true;
+			//this._dcReconcile_2.AllowDrop = true;
 			this._dcReconcile_2.Location = new System.Drawing.Point(149, 131);
 			this._dcReconcile_2.Name = "_dcReconcile_2";
 			this._dcReconcile_2.Size = new System.Drawing.Size(88, 19);
@@ -515,7 +515,7 @@ namespace Xtreme
 			// _dcReconcile_5
 			// 
 			// //this._dcReconcile_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_5.AllowDrop = true;
+			//this._dcReconcile_5.AllowDrop = true;
 			this._dcReconcile_5.Location = new System.Drawing.Point(149, 149);
 			this._dcReconcile_5.Name = "_dcReconcile_5";
 			this._dcReconcile_5.Size = new System.Drawing.Size(88, 19);
@@ -524,7 +524,7 @@ namespace Xtreme
 			// _dcReconcile_4
 			// 
 			// //this._dcReconcile_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_4.AllowDrop = true;
+			//this._dcReconcile_4.AllowDrop = true;
 			this._dcReconcile_4.Location = new System.Drawing.Point(62, 149);
 			this._dcReconcile_4.Name = "_dcReconcile_4";
 			this._dcReconcile_4.Size = new System.Drawing.Size(88, 19);
@@ -533,7 +533,7 @@ namespace Xtreme
 			// _dcReconcile_1
 			// 
 			// //this._dcReconcile_1.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._dcReconcile_1.AllowDrop = true;
+			//this._dcReconcile_1.AllowDrop = true;
 			this._dcReconcile_1.Location = new System.Drawing.Point(62, 131);
 			this._dcReconcile_1.Name = "_dcReconcile_1";
 			this._dcReconcile_1.Size = new System.Drawing.Size(88, 19);
@@ -541,7 +541,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -553,7 +553,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
@@ -566,7 +566,7 @@ namespace Xtreme
 			// 
 			// Line
 			// 
-			this.Line.AllowDrop = true;
+			//this.Line.AllowDrop = true;
 			this.Line.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line.Enabled = false;
 			this.Line.Location = new System.Drawing.Point(463, 189);
@@ -576,7 +576,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(-1, 82);

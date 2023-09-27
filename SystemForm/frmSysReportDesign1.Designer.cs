@@ -50,8 +50,8 @@ namespace Xtreme
 		public System.Windows.Forms.FontDialog cdgCreateFileFont;
 		public System.Windows.Forms.ColorDialog cdgCreateFileColor;
 		public System.Windows.Forms.PrintDialog cdgCreateFilePrint;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog cdgCreateFile;
-		public AxVSPrinter8Lib.AxVSPrinter vspReportPrinter;
+		public AxCommonDialog cdgCreateFile;
+		//public AxVSPrinter8Lib.AxVSPrinter vspReportPrinter;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdReportHeader;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdReportDesign;
 		public Syncfusion.Windows.Forms.Tools.CommandBarController CommandBars;
@@ -69,8 +69,8 @@ namespace Xtreme
 			this.cdgCreateFileFont = new System.Windows.Forms.FontDialog();
 			this.cdgCreateFileColor = new System.Windows.Forms.ColorDialog();
 			this.cdgCreateFilePrint = new System.Windows.Forms.PrintDialog();
-			this.cdgCreateFile = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
-			this.vspReportPrinter = new AxVSPrinter8Lib.AxVSPrinter();
+			this.cdgCreateFile = new AxCommonDialog();
+			//this.vspReportPrinter = new AxVSPrinter8Lib.AxVSPrinter();
 			this.grdReportDesign = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.grdReportHeader = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.CommandBars = new Syncfusion.Windows.Forms.Tools.CommandBarController();
@@ -81,18 +81,18 @@ namespace Xtreme
 			// 
 			// vspReportPrinter
 			// 
-			this.vspReportPrinter.AllowDrop = true;
-			this.vspReportPrinter.Location = new System.Drawing.Point(0, 48);
-			this.vspReportPrinter.Name = "vspReportPrinter";
-			//
-			this.vspReportPrinter.Size = new System.Drawing.Size(581, 121);
-			this.vspReportPrinter.TabIndex = 0;
-			this.vspReportPrinter.Visible = false;
+			////this.vspReportPrinter.AllowDrop = true;
+			//this.vspReportPrinter.Location = new System.Drawing.Point(0, 48);
+			//this.vspReportPrinter.Name = "vspReportPrinter";
+			////
+			//this.vspReportPrinter.Size = new System.Drawing.Size(581, 121);
+			//this.vspReportPrinter.TabIndex = 0;
+			//this.vspReportPrinter.Visible = false;
 			// 
 			// grdReportDesign
 			// 
 			this.grdReportDesign.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdReportDesign.AllowDrop = true;
+			//this.grdReportDesign.AllowDrop = true;
 			this.grdReportDesign.AllowEditing = false;
 			this.grdReportDesign.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdReportDesign.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -103,8 +103,8 @@ namespace Xtreme
 			this.grdReportDesign.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdReportDesign.AutoSearchDelay = 2;
 			this.grdReportDesign.BackColor = System.Drawing.SystemColors.Window;
-			this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
-			this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
+			//this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdReportDesign.Cols.Count = 10;
 			this.grdReportDesign.Cols.Fixed = 0;
 			this.grdReportDesign.Cols.Frozen = 0;
@@ -163,7 +163,7 @@ namespace Xtreme
 			// grdReportHeader
 			// 
 			this.grdReportHeader.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdReportHeader.AllowDrop = true;
+			//this.grdReportHeader.AllowDrop = true;
 			this.grdReportHeader.AllowEditing = false;
 			this.grdReportHeader.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdReportHeader.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -174,8 +174,8 @@ namespace Xtreme
 			this.grdReportHeader.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdReportHeader.AutoSearchDelay = 2;
 			this.grdReportHeader.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
-			this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdReportHeader.Cols.Count = 10;
 			this.grdReportHeader.Cols.Fixed = 1;
 			this.grdReportHeader.Cols.Frozen = 0;
@@ -232,11 +232,11 @@ namespace Xtreme
 			// 
 			// CommandBars
 			// 
-			this.CommandBars.AllowDrop = true;
-			this.CommandBars.Location = new System.Drawing.Point(16, 4);
-			this.CommandBars.Name = "CommandBars";
+			////this.CommandBars.AllowDrop = true;
+			//this.CommandBars.Location = new System.Drawing.Point(16, 4);
+			//this.CommandBars.Name = "CommandBars";
 			//
-			this.CommandBars.Execute += new AxXtremeCommandBars._DCommandBarsEvents_ExecuteEventHandler(this.CommandBars_Execute);
+			//this.CommandBars.Execute += new AxXtremeCommandBars._DCommandBarsEvents_ExecuteEventHandler(this.CommandBars_Execute);
 			// 
 			// frmSysReportDesign1
 			// 
@@ -246,9 +246,9 @@ namespace Xtreme
 			this.AutoScroll = true;
 			this.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.ClientSize = new System.Drawing.Size(811, 527);
-			this.Controls.Add(this.vspReportPrinter);
+			//this.Controls.Add(this.vspReportPrinter);
 			this.Controls.Add(this.grdReportDesign);
-			this.Controls.Add(this.CommandBars);
+			//this.Controls.Add(this.CommandBars);
 			this.Location = new System.Drawing.Point(393, 145);
 			this.MaximizeBox = true;
 			this.MinimizeBox = true;

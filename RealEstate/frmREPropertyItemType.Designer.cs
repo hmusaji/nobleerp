@@ -75,7 +75,7 @@ namespace Xtreme
 			// 
 			// DetailsRequired
 			// 
-			this.DetailsRequired.AllowDrop = true;
+			//this.DetailsRequired.AllowDrop = true;
 			this.DetailsRequired.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.DetailsRequired.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.DetailsRequired.CausesValidation = true;
@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(150, 50);
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// lblAssetsCode
 			// 
-			this.lblAssetsCode.AllowDrop = true;
+			//this.lblAssetsCode.AllowDrop = true;
 			this.lblAssetsCode.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsCode.Text = "Item Type Name (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentNo
 			// 
-			this.lblAssetsAdjustmentNo.AllowDrop = true;
+			//this.lblAssetsAdjustmentNo.AllowDrop = true;
 			this.lblAssetsAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentNo.Text = "Item Type  Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
@@ -135,7 +135,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(150, 71);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6.Text = "Item Type Name (Arabic)";
 			this.Label6.ForeColor = System.Drawing.Color.Black;
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(150, 92);
@@ -176,7 +176,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label1.Text = "Details Required";
 			this.Label1.ForeColor = System.Drawing.Color.Black;

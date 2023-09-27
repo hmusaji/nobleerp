@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// txtSupplier
 			// 
-			this.txtSupplier.AllowDrop = true;
+			//this.txtSupplier.AllowDrop = true;
 			this.txtSupplier.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtSupplier.ForeColor = System.Drawing.Color.Black;
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_0
 			// 
-			this._txtCommonNumber_0.AllowDrop = true;
+			//this._txtCommonNumber_0.AllowDrop = true;
 			// this._txtCommonNumber_0.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtCommonNumber_0.ForeColor = System.Drawing.SystemColors.WindowText;
 			// this._txtCommonNumber_0.Format = "###########0.000";
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// txtAssetTypeName
 			// 
-			this.txtAssetTypeName.AllowDrop = true;
+			//this.txtAssetTypeName.AllowDrop = true;
 			this.txtAssetTypeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtAssetTypeName.Enabled = false;
 			this.txtAssetTypeName.Location = new System.Drawing.Point(239, 124);
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtAssetNo
 			// 
-			this.txtAssetNo.AllowDrop = true;
+			//this.txtAssetNo.AllowDrop = true;
 			this.txtAssetNo.BackColor = System.Drawing.Color.White;
 			this.txtAssetNo.ForeColor = System.Drawing.Color.Black;
 			this.txtAssetNo.Location = new System.Drawing.Point(136, 60);
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Assets Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(7, 62);
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Asset Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(7, 84);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// txtLAssetName
 			// 
-			this.txtLAssetName.AllowDrop = true;
+			//this.txtLAssetName.AllowDrop = true;
 			this.txtLAssetName.BackColor = System.Drawing.Color.White;
 			this.txtLAssetName.ForeColor = System.Drawing.Color.Black;
 			this.txtLAssetName.Location = new System.Drawing.Point(135, 81);
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Asset Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(7, 105);
@@ -227,7 +227,7 @@ namespace Xtreme
 			// 
 			// txtAAssetName
 			// 
-			this.txtAAssetName.AllowDrop = true;
+			//this.txtAAssetName.AllowDrop = true;
 			this.txtAAssetName.BackColor = System.Drawing.Color.White;
 			this.txtAAssetName.ForeColor = System.Drawing.Color.Black;
 			this.txtAAssetName.Location = new System.Drawing.Point(135, 102);
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Asset Type Code";
 			this.Label1.Location = new System.Drawing.Point(7, 126);
@@ -251,7 +251,7 @@ namespace Xtreme
 			// 
 			// txtAssetTypeCode
 			// 
-			this.txtAssetTypeCode.AllowDrop = true;
+			//this.txtAssetTypeCode.AllowDrop = true;
 			this.txtAssetTypeCode.BackColor = System.Drawing.Color.White;
 			// this.txtAssetTypeCode.bolNumericOnly = true;
 			this.txtAssetTypeCode.ForeColor = System.Drawing.Color.Black;
@@ -268,7 +268,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Asset Value";
 			this.Label2.Location = new System.Drawing.Point(7, 152);
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Asset Quantity";
 			this.Label3.Location = new System.Drawing.Point(267, 152);
@@ -290,7 +290,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "Issued Quantity";
 			this.Label4.Location = new System.Drawing.Point(7, 174);
@@ -301,7 +301,7 @@ namespace Xtreme
 			// 
 			// Label5_0
 			// 
-			this.Label5_0.AllowDrop = true;
+			//this.Label5_0.AllowDrop = true;
 			this.Label5_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5_0.Text = "Damage Quantity";
 			this.Label5_0.Location = new System.Drawing.Point(7, 198);
@@ -312,7 +312,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label6.Text = "Balance Quantity";
 			this.Label6.Location = new System.Drawing.Point(267, 198);
@@ -323,7 +323,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_2
 			// 
-			this._txtCommonNumber_2.AllowDrop = true;
+			//this._txtCommonNumber_2.AllowDrop = true;
 			this._txtCommonNumber_2.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtCommonNumber_2.Enabled = false;
 			this._txtCommonNumber_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -335,7 +335,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_3
 			// 
-			this._txtCommonNumber_3.AllowDrop = true;
+			//this._txtCommonNumber_3.AllowDrop = true;
 			this._txtCommonNumber_3.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtCommonNumber_3.Enabled = false;
 			this._txtCommonNumber_3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -347,7 +347,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_4
 			// 
-			this._txtCommonNumber_4.AllowDrop = true;
+			//this._txtCommonNumber_4.AllowDrop = true;
 			this._txtCommonNumber_4.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtCommonNumber_4.Enabled = false;
 			this._txtCommonNumber_4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// Label7_0
 			// 
-			this.Label7_0.AllowDrop = true;
+			//this.Label7_0.AllowDrop = true;
 			this.Label7_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label7_0.Text = "Warranty End";
 			this.Label7_0.Location = new System.Drawing.Point(267, 173);
@@ -370,7 +370,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_1
 			// 
-			this._txtCommonNumber_1.AllowDrop = true;
+			//this._txtCommonNumber_1.AllowDrop = true;
 			this._txtCommonNumber_1.ForeColor = System.Drawing.SystemColors.WindowText;
 			// this._txtCommonNumber_1.Format = "###########0.000";
 			this._txtCommonNumber_1.Location = new System.Drawing.Point(385, 149);
@@ -381,7 +381,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.Label8.AllowDrop = true;
+			//this.Label8.AllowDrop = true;
 			this.Label8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label8.Text = "Comments";
 			this.Label8.Location = new System.Drawing.Point(7, 267);
@@ -392,7 +392,7 @@ namespace Xtreme
 			// 
 			// txtDWarrantyEnd
 			// 
-			this.txtDWarrantyEnd.AllowDrop = true;
+			//this.txtDWarrantyEnd.AllowDrop = true;
 			// this.txtDWarrantyEnd.CheckDateRange = false;
 			this.txtDWarrantyEnd.Location = new System.Drawing.Point(385, 171);
 			// this.txtDWarrantyEnd.MaxDate = 2958465;
@@ -405,7 +405,7 @@ namespace Xtreme
 			// 
 			// Label7_1
 			// 
-			this.Label7_1.AllowDrop = true;
+			//this.Label7_1.AllowDrop = true;
 			this.Label7_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label7_1.Text = "Purchase Date";
 			this.Label7_1.Location = new System.Drawing.Point(270, 62);
@@ -416,7 +416,7 @@ namespace Xtreme
 			// 
 			// txtDPurchaseDate
 			// 
-			this.txtDPurchaseDate.AllowDrop = true;
+			//this.txtDPurchaseDate.AllowDrop = true;
 			// this.txtDPurchaseDate.CheckDateRange = false;
 			this.txtDPurchaseDate.Location = new System.Drawing.Point(385, 60);
 			// this.txtDPurchaseDate.MaxDate = 2958465;
@@ -429,7 +429,7 @@ namespace Xtreme
 			// 
 			// Label5_1
 			// 
-			this.Label5_1.AllowDrop = true;
+			//this.Label5_1.AllowDrop = true;
 			this.Label5_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5_1.Text = "Supplier";
 			this.Label5_1.Location = new System.Drawing.Point(7, 222);
@@ -440,7 +440,7 @@ namespace Xtreme
 			// 
 			// Label5_2
 			// 
-			this.Label5_2.AllowDrop = true;
+			//this.Label5_2.AllowDrop = true;
 			this.Label5_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5_2.Text = "Specification";
 			this.Label5_2.Location = new System.Drawing.Point(7, 246);
@@ -451,7 +451,7 @@ namespace Xtreme
 			// 
 			// txtSpecification
 			// 
-			this.txtSpecification.AllowDrop = true;
+			//this.txtSpecification.AllowDrop = true;
 			this.txtSpecification.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtSpecification.ForeColor = System.Drawing.Color.Black;

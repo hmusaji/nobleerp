@@ -60,7 +60,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label txtDepartmentName;
 		public System.Windows.Forms.GroupBox Frame1;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.Label Line2;
 		public System.Windows.Forms.Label Line1;
 		public System.Windows.Forms.Label lblTimeAtt;
@@ -90,7 +90,7 @@ namespace Xtreme
 			this.txtDepartmentName = new System.Windows.Forms.Label();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.CommonDialog1 = new AxCommonDialog();
 			this.Line2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.lblTimeAtt = new System.Windows.Forms.Label();
@@ -100,7 +100,7 @@ namespace Xtreme
 			// 
 			// Frame2
 			// 
-			this.Frame2.AllowDrop = true;
+			//this.Frame2.AllowDrop = true;
 			this.Frame2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame2.Controls.Add(this.cmdImportPhoneDeduction);
 			this.Frame2.Controls.Add(this.cmdClear);
@@ -115,7 +115,7 @@ namespace Xtreme
 			// 
 			// cmdImportPhoneDeduction
 			// 
-			this.cmdImportPhoneDeduction.AllowDrop = true;
+			//this.cmdImportPhoneDeduction.AllowDrop = true;
 			this.cmdImportPhoneDeduction.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdImportPhoneDeduction.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdImportPhoneDeduction.Location = new System.Drawing.Point(210, 9);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// cmdClear
 			// 
-			this.cmdClear.AllowDrop = true;
+			//this.cmdClear.AllowDrop = true;
 			this.cmdClear.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdClear.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdClear.Location = new System.Drawing.Point(63, 9);
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// cmdFilterByDept
 			// 
-			this.cmdFilterByDept.AllowDrop = true;
+			//this.cmdFilterByDept.AllowDrop = true;
 			this.cmdFilterByDept.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdFilterByDept.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdFilterByDept.Location = new System.Drawing.Point(410, 86);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// txtDeductionCodeName
 			// 
-			this.txtDeductionCodeName.AllowDrop = true;
+			//this.txtDeductionCodeName.AllowDrop = true;
 			this.txtDeductionCodeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDeductionCodeName.Enabled = false;
 			this.txtDeductionCodeName.Location = new System.Drawing.Point(203, 46);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// txtDeductionCode
 			// 
-			this.txtDeductionCode.AllowDrop = true;
+			//this.txtDeductionCode.AllowDrop = true;
 			this.txtDeductionCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDeductionCode.ForeColor = System.Drawing.Color.Black;
@@ -186,7 +186,7 @@ namespace Xtreme
 			// 
 			// grdPhoneDetails
 			// 
-			this.grdPhoneDetails.AllowDrop = true;
+			//this.grdPhoneDetails.AllowDrop = true;
 			this.grdPhoneDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdPhoneDetails.CellTipsWidth = 0;
 			this.grdPhoneDetails.Location = new System.Drawing.Point(0, 148);
@@ -196,7 +196,7 @@ namespace Xtreme
 			this.grdPhoneDetails.TabIndex = 0;
 			this.grdPhoneDetails.Columns.Add(this.Column_0_grdPhoneDetails);
 			this.grdPhoneDetails.Columns.Add(this.Column_1_grdPhoneDetails);
-			this.grdPhoneDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdPhoneDetails_AfterColUpdate);
+			//this.grdPhoneDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdPhoneDetails_AfterColUpdate);
 			// 
 			// Column_0_grdPhoneDetails
 			// 
@@ -210,7 +210,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Deduction Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 48);
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// txtDepartmentCode
 			// 
-			this.txtDepartmentCode.AllowDrop = true;
+			//this.txtDepartmentCode.AllowDrop = true;
 			this.txtDepartmentCode.BackColor = System.Drawing.Color.White;
 			// this.txtDepartmentCode.bolNumericOnly = true;
 			this.txtDepartmentCode.ForeColor = System.Drawing.Color.Black;
@@ -237,7 +237,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_116
 			// 
-			this._lblCommon_116.AllowDrop = true;
+			//this._lblCommon_116.AllowDrop = true;
 			this._lblCommon_116.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_116.Text = "Department Code";
 			this._lblCommon_116.Location = new System.Drawing.Point(8, 90);
@@ -248,7 +248,7 @@ namespace Xtreme
 			// 
 			// txtDepartmentName
 			// 
-			this.txtDepartmentName.AllowDrop = true;
+			//this.txtDepartmentName.AllowDrop = true;
 			this.txtDepartmentName.Location = new System.Drawing.Point(217, 86);
 			this.txtDepartmentName.Name = "txtDepartmentName";
 			this.txtDepartmentName.Size = new System.Drawing.Size(191, 19);
@@ -257,7 +257,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -271,7 +271,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(145, 132);
@@ -281,7 +281,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 132);
@@ -291,9 +291,9 @@ namespace Xtreme
 			// 
 			// lblTimeAtt
 			// 
-			this.lblTimeAtt.AllowDrop = true;
+			//this.lblTimeAtt.AllowDrop = true;
 			this.lblTimeAtt.BackColor = System.Drawing.Color.Transparent;
-			this.lblTimeAtt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblTimeAtt.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblTimeAtt.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblTimeAtt.ForeColor = System.Drawing.Color.Navy;
 			this.lblTimeAtt.Location = new System.Drawing.Point(54, 124);

@@ -61,7 +61,7 @@ namespace Xtreme
 		public System.Windows.Forms.Button btnLoadGrid;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdMigrate2;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.Label lblmsg;
 		public System.Windows.Forms.RadioButton[] optDownloadFormat = new System.Windows.Forms.RadioButton[4];
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -89,14 +89,14 @@ namespace Xtreme
 			this.btnLoadGrid = new System.Windows.Forms.Button();
 			this.grdMigrate2 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.CommonDialog1 = new AxCommonDialog();
 			this.lblmsg = new System.Windows.Forms.Label();
 			//this.Frame1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// chkIncludeLeaveEmployee
 			// 
-			this.chkIncludeLeaveEmployee.AllowDrop = true;
+			//this.chkIncludeLeaveEmployee.AllowDrop = true;
 			this.chkIncludeLeaveEmployee.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIncludeLeaveEmployee.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.chkIncludeLeaveEmployee.CausesValidation = true;
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// lblerrorpath
 			// 
-			this.lblerrorpath.AllowDrop = true;
+			//this.lblerrorpath.AllowDrop = true;
 			this.lblerrorpath.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblerrorpath.Text = "Error File Path";
 			this.lblerrorpath.Location = new System.Drawing.Point(123, 15);
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// txtErrorFilePAth
 			// 
-			this.txtErrorFilePAth.AllowDrop = true;
+			//this.txtErrorFilePAth.AllowDrop = true;
 			this.txtErrorFilePAth.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtErrorFilePAth.ForeColor = System.Drawing.Color.Black;
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this._optDownloadFormat_3);
 			this.Frame1.Controls.Add(this.txtDate);
@@ -159,7 +159,7 @@ namespace Xtreme
 			// 
 			// _optDownloadFormat_3
 			// 
-			this._optDownloadFormat_3.AllowDrop = true;
+			//this._optDownloadFormat_3.AllowDrop = true;
 			this._optDownloadFormat_3.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optDownloadFormat_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optDownloadFormat_3.CausesValidation = true;
@@ -176,11 +176,11 @@ namespace Xtreme
 			this._optDownloadFormat_3.Text = "Import Approved Attendance";
 			this._optDownloadFormat_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optDownloadFormat_3.Visible = false;
-			this._optDownloadFormat_3.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
+			//this._optDownloadFormat_3.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
 			// 
 			// txtDate
 			// 
-			this.txtDate.AllowDrop = true;
+			//this.txtDate.AllowDrop = true;
 			// this.txtDate.CheckDateRange = false;
 			this.txtDate.Location = new System.Drawing.Point(94, 51);
 			// this.txtDate.MaxDate = 2958465;
@@ -195,7 +195,7 @@ namespace Xtreme
 			// 
 			// lblDate
 			// 
-			this.lblDate.AllowDrop = true;
+			//this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblDate.Text = "For The Period";
 			this.lblDate.Location = new System.Drawing.Point(12, 54);
@@ -206,7 +206,7 @@ namespace Xtreme
 			// 
 			// _optDownloadFormat_2
 			// 
-			this._optDownloadFormat_2.AllowDrop = true;
+			//this._optDownloadFormat_2.AllowDrop = true;
 			this._optDownloadFormat_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optDownloadFormat_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optDownloadFormat_2.CausesValidation = true;
@@ -223,11 +223,11 @@ namespace Xtreme
 			this._optDownloadFormat_2.Text = "Import OverTime For Project";
 			this._optDownloadFormat_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optDownloadFormat_2.Visible = true;
-			this._optDownloadFormat_2.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
+			//this._optDownloadFormat_2.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
 			// 
 			// _optDownloadFormat_1
 			// 
-			this._optDownloadFormat_1.AllowDrop = true;
+			//this._optDownloadFormat_1.AllowDrop = true;
 			this._optDownloadFormat_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optDownloadFormat_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optDownloadFormat_1.CausesValidation = true;
@@ -244,11 +244,11 @@ namespace Xtreme
 			this._optDownloadFormat_1.Text = "Import OverTime For Payroll";
 			this._optDownloadFormat_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optDownloadFormat_1.Visible = true;
-			this._optDownloadFormat_1.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
+			//this._optDownloadFormat_1.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
 			// 
 			// _optDownloadFormat_0
 			// 
-			this._optDownloadFormat_0.AllowDrop = true;
+			//this._optDownloadFormat_0.AllowDrop = true;
 			this._optDownloadFormat_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optDownloadFormat_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optDownloadFormat_0.CausesValidation = true;
@@ -265,11 +265,11 @@ namespace Xtreme
 			this._optDownloadFormat_0.Text = "Import Time & Attendance";
 			this._optDownloadFormat_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optDownloadFormat_0.Visible = true;
-			this._optDownloadFormat_0.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
+			//this._optDownloadFormat_0.CheckedChanged += new System.EventHandler(this.optDownloadFormat_CheckedChanged);
 			// 
 			// btnDeleteLine
 			// 
-			this.btnDeleteLine.AllowDrop = true;
+			//this.btnDeleteLine.AllowDrop = true;
 			this.btnDeleteLine.BackColor = System.Drawing.SystemColors.Control;
 			this.btnDeleteLine.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnDeleteLine.Location = new System.Drawing.Point(544, 24);
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// cmdMigrate
 			// 
-			this.cmdMigrate.AllowDrop = true;
+			//this.cmdMigrate.AllowDrop = true;
 			this.cmdMigrate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdMigrate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdMigrate.Location = new System.Drawing.Point(3, 39);
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// cmdVerify
 			// 
-			this.cmdVerify.AllowDrop = true;
+			//this.cmdVerify.AllowDrop = true;
 			this.cmdVerify.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdVerify.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdVerify.Location = new System.Drawing.Point(544, 2);
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// btnLoadGrid
 			// 
-			this.btnLoadGrid.AllowDrop = true;
+			//this.btnLoadGrid.AllowDrop = true;
 			this.btnLoadGrid.BackColor = System.Drawing.SystemColors.Control;
 			this.btnLoadGrid.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnLoadGrid.Location = new System.Drawing.Point(3, 4);
@@ -332,7 +332,7 @@ namespace Xtreme
 			// grdMigrate2
 			// 
 			this.grdMigrate2.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdMigrate2.AllowDrop = true;
+			//this.grdMigrate2.AllowDrop = true;
 			this.grdMigrate2.AllowEditing = true;
 			this.grdMigrate2.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdMigrate2.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -343,8 +343,8 @@ namespace Xtreme
 			this.grdMigrate2.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdMigrate2.AutoSearchDelay = 5;
 			this.grdMigrate2.BackColor = System.Drawing.SystemColors.Window;
-			this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdMigrate2.Cols.Count = 10;
 			this.grdMigrate2.Cols.Fixed = 1;
 			this.grdMigrate2.Cols.Frozen = 0;
@@ -402,9 +402,9 @@ namespace Xtreme
 			// 
 			// lblmsg
 			// 
-			this.lblmsg.AllowDrop = true;
+			//this.lblmsg.AllowDrop = true;
 			this.lblmsg.BackColor = System.Drawing.Color.Transparent;
-			this.lblmsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblmsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblmsg.Font = new System.Drawing.Font("Arial", 9.75f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblmsg.ForeColor = System.Drawing.Color.FromArgb(192, 0, 0);
 			this.lblmsg.Location = new System.Drawing.Point(112, 44);

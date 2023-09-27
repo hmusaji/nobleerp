@@ -48,7 +48,7 @@ namespace Xtreme
 		public System.Windows.Forms.ComboBox cmbPreferenceDataList;
 		public System.Windows.Forms.TextBox txtRemarks;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdPreference;
-		public UCStatusBar UCStatusBar;
+		public Syncfusion.Windows.Forms.Tools.StatusBarAdv UCStatusBar;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -61,12 +61,12 @@ namespace Xtreme
 			this.cmbPreferenceDataList = new System.Windows.Forms.ComboBox();
 			this.txtRemarks = new System.Windows.Forms.TextBox();
 			this.grdPreference = new C1.Win.C1FlexGrid.C1FlexGrid();
-			this.UCStatusBar = new UCStatusBar();
+			this.UCStatusBar = new Syncfusion.Windows.Forms.Tools.StatusBarAdv();
 			this.SuspendLayout();
 			// 
 			// cmbPreferenceDataList
 			// 
-			this.cmbPreferenceDataList.AllowDrop = true;
+			//this.cmbPreferenceDataList.AllowDrop = true;
 			this.cmbPreferenceDataList.BackColor = System.Drawing.SystemColors.Window;
 			this.cmbPreferenceDataList.CausesValidation = true;
 			this.cmbPreferenceDataList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
@@ -87,9 +87,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.Font = new System.Drawing.Font("Arial", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// grdPreference
 			// 
 			this.grdPreference.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdPreference.AllowDrop = true;
+			//this.grdPreference.AllowDrop = true;
 			this.grdPreference.AllowEditing = true;
 			this.grdPreference.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdPreference.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -117,8 +117,8 @@ namespace Xtreme
 			this.grdPreference.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdPreference.AutoSearchDelay = 4;
 			this.grdPreference.BackColor = System.Drawing.SystemColors.Window;
-			this.grdPreference.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
-			this.grdPreference.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdPreference.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
+			//this.grdPreference.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdPreference.Cols.Count = 10;
 			this.grdPreference.Cols.Fixed = 1;
 			this.grdPreference.Cols.Frozen = 0;
@@ -173,16 +173,16 @@ namespace Xtreme
 			this.grdPreference.Tree.Column = 0;
 			this.grdPreference.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdPreference.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdPreference.AfterRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdPreference_AfterRowColChange);
-			this.grdPreference.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdPreference_AfterScroll);
-			this.grdPreference.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdPreference_BeforeEdit);
-			this.grdPreference.BeforeResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdPreference_BeforeResizeColumn);
-			this.grdPreference.KeyPressEdit += new C1.Win.C1FlexGrid.KeyPressEditEventHandler(this.grdPreference_KeyPressEdit);
-			this.grdPreference.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdPreference_StartEdit);
+			//this.grdPreference.AfterRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdPreference_AfterRowColChange);
+			//this.grdPreference.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdPreference_AfterScroll);
+			////this.grdPreference.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdPreference_BeforeEdit);
+			//this.grdPreference.BeforeResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdPreference_BeforeResizeColumn);
+			//this.grdPreference.KeyPressEdit += new C1.Win.C1FlexGrid.KeyPressEditEventHandler(this.grdPreference_KeyPressEdit);
+			////this.grdPreference.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdPreference_StartEdit);
 			// 
 			// UCStatusBar
 			// 
-			this.UCStatusBar.AllowDrop = true;
+			//this.UCStatusBar.AllowDrop = true;
 			this.UCStatusBar.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.UCStatusBar.Location = new System.Drawing.Point(0, 491);
 			this.UCStatusBar.Name = "UCStatusBar";

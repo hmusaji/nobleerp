@@ -31,8 +31,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControlAdv1 = new Syncfusion.Windows.Forms.Tools.TabControlAdv();
             this.tabPageAdv1 = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
+            this.statusBarAdv1 = new Syncfusion.Windows.Forms.Tools.StatusBarAdv();
             ((System.ComponentModel.ISupportInitialize)(this.tabControlAdv1)).BeginInit();
             this.tabControlAdv1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.statusBarAdv1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,17 +65,31 @@
             this.tabPageAdv1.Text = "tabPageAdv1";
             this.tabPageAdv1.ThemesEnabled = false;
             // 
+            // statusBarAdv1
+            // 
+            this.statusBarAdv1.BeforeTouchSize = new System.Drawing.Size(800, 26);
+            this.statusBarAdv1.CustomLayoutBounds = new System.Drawing.Rectangle(0, 0, 0, 0);
+            this.statusBarAdv1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.statusBarAdv1.Location = new System.Drawing.Point(0, 424);
+            this.statusBarAdv1.Name = "statusBarAdv1";
+            this.statusBarAdv1.Padding = new System.Windows.Forms.Padding(3);
+            this.statusBarAdv1.Size = new System.Drawing.Size(800, 26);
+            this.statusBarAdv1.Spacing = new System.Drawing.Size(2, 2);
+            this.statusBarAdv1.TabIndex = 2;
+            // 
             // tset
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.statusBarAdv1);
             this.Controls.Add(this.tabControlAdv1);
             this.Controls.Add(this.panel1);
             this.Name = "tset";
             this.Text = "tset";
             ((System.ComponentModel.ISupportInitialize)(this.tabControlAdv1)).EndInit();
             this.tabControlAdv1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.statusBarAdv1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -83,5 +99,6 @@
         private System.Windows.Forms.Panel panel1;
         private Syncfusion.Windows.Forms.Tools.TabControlAdv tabControlAdv1;
         private Syncfusion.Windows.Forms.Tools.TabPageAdv tabPageAdv1;
+        private Syncfusion.Windows.Forms.Tools.StatusBarAdv statusBarAdv1;
     }
 }

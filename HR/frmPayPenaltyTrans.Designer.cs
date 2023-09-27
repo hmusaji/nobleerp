@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(6, 50);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(260, 51);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			// this.txtVoucherDate.CheckDateRange = false;
 			this.txtVoucherDate.Location = new System.Drawing.Point(380, 48);
 			// this.txtVoucherDate.MaxDate = 2958465;
@@ -176,7 +176,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(6, 73);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 114);
@@ -198,7 +198,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Designation Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(6, 135);
@@ -209,7 +209,7 @@ namespace Xtreme
 			// 
 			// txtMonthPercent
 			// 
-			this.txtMonthPercent.AllowDrop = true;
+			//this.txtMonthPercent.AllowDrop = true;
 			// this.txtMonthPercent.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtMonthPercent.Format = "###########0.000";
 			this.txtMonthPercent.Location = new System.Drawing.Point(132, 174);
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_10
 			// 
-			this._lblCommonLabel_10.AllowDrop = true;
+			//this._lblCommonLabel_10.AllowDrop = true;
 			this._lblCommonLabel_10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_10.Text = "Penalty %   ";
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(6, 176);
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// txtPenaltyDeductionAmount
 			// 
-			this.txtPenaltyDeductionAmount.AllowDrop = true;
+			//this.txtPenaltyDeductionAmount.AllowDrop = true;
 			this.txtPenaltyDeductionAmount.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtPenaltyDeductionAmount.DisplayFormat = "####0.000###;;0.000;0.000";
 			this.txtPenaltyDeductionAmount.Enabled = false;
@@ -250,7 +250,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Penalty Deduction Amount ";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(244, 218);
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_8.Text = "Start Deduction Date";
 			this._lblCommonLabel_8.Enabled = false;
@@ -272,7 +272,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_16
 			// 
-			this._lblCommonLabel_16.AllowDrop = true;
+			//this._lblCommonLabel_16.AllowDrop = true;
 			this._lblCommonLabel_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_16.Text = "Repeat No Of Time";
 			this._lblCommonLabel_16.Location = new System.Drawing.Point(6, 240);
@@ -283,7 +283,7 @@ namespace Xtreme
 			// 
 			// txtStartDeductionDate
 			// 
-			this.txtStartDeductionDate.AllowDrop = true;
+			//this.txtStartDeductionDate.AllowDrop = true;
 			this.txtStartDeductionDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtStartDeductionDate.CheckDateRange = false;
 			this.txtStartDeductionDate.Enabled = false;
@@ -298,7 +298,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Comments  ";
 			this.Label12.Location = new System.Drawing.Point(6, 282);
@@ -309,7 +309,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(131, 281);
@@ -324,7 +324,7 @@ namespace Xtreme
 			// _txtDisplayLabel_5
 			// 
 			// //this._txtDisplayLabel_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtDisplayLabel_5.AllowDrop = true;
+			//this._txtDisplayLabel_5.AllowDrop = true;
 			this._txtDisplayLabel_5.Enabled = false;
 			this._txtDisplayLabel_5.Location = new System.Drawing.Point(132, 238);
 			this._txtDisplayLabel_5.Name = "_txtDisplayLabel_5";
@@ -334,7 +334,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(235, 132);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
 			this._txtDisplayLabel_3.Size = new System.Drawing.Size(247, 19);
@@ -343,7 +343,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(132, 132);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
 			this._txtDisplayLabel_2.Size = new System.Drawing.Size(101, 19);
@@ -351,7 +351,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(235, 111);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(247, 19);
@@ -360,7 +360,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(132, 111);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(101, 19);
@@ -368,7 +368,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_13
 			// 
-			this._txtDisplayLabel_13.AllowDrop = true;
+			//this._txtDisplayLabel_13.AllowDrop = true;
 			this._txtDisplayLabel_13.Location = new System.Drawing.Point(235, 70);
 			this._txtDisplayLabel_13.Name = "_txtDisplayLabel_13";
 			this._txtDisplayLabel_13.Size = new System.Drawing.Size(247, 19);
@@ -377,7 +377,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_18
 			// 
-			this._lblCommonLabel_18.AllowDrop = true;
+			//this._lblCommonLabel_18.AllowDrop = true;
 			this._lblCommonLabel_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_18.Text = "Penalty Code";
 			this._lblCommonLabel_18.Location = new System.Drawing.Point(6, 94);
@@ -388,7 +388,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_4
 			// 
-			this._txtCommonTextBox_4.AllowDrop = true;
+			//this._txtCommonTextBox_4.AllowDrop = true;
 			this._txtCommonTextBox_4.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_4.Location = new System.Drawing.Point(132, 91);
@@ -403,7 +403,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_14
 			// 
-			this._txtDisplayLabel_14.AllowDrop = true;
+			//this._txtDisplayLabel_14.AllowDrop = true;
 			this._txtDisplayLabel_14.Location = new System.Drawing.Point(235, 91);
 			this._txtDisplayLabel_14.Name = "_txtDisplayLabel_14";
 			this._txtDisplayLabel_14.Size = new System.Drawing.Size(247, 19);
@@ -412,7 +412,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Penalty Action ";
 			this.Label1.Location = new System.Drawing.Point(6, 261);
@@ -423,7 +423,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_5
 			// 
-			this._txtCommonTextBox_5.AllowDrop = true;
+			//this._txtCommonTextBox_5.AllowDrop = true;
 			this._txtCommonTextBox_5.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_5.Location = new System.Drawing.Point(131, 259);
@@ -437,7 +437,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
@@ -453,7 +453,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(132, 70);
@@ -468,7 +468,7 @@ namespace Xtreme
 			// 
 			// txtPenaltyDays
 			// 
-			this.txtPenaltyDays.AllowDrop = true;
+			//this.txtPenaltyDays.AllowDrop = true;
 			// this.txtPenaltyDays.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtPenaltyDays.Format = "###########0.000";
 			this.txtPenaltyDays.Location = new System.Drawing.Point(132, 195);
@@ -482,7 +482,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Penalty Days";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(6, 197);
@@ -493,7 +493,7 @@ namespace Xtreme
 			// 
 			// txtPenaltyAmount
 			// 
-			this.txtPenaltyAmount.AllowDrop = true;
+			//this.txtPenaltyAmount.AllowDrop = true;
 			// this.txtPenaltyAmount.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtPenaltyAmount.Format = "###########0.000";
 			this.txtPenaltyAmount.Location = new System.Drawing.Point(132, 217);
@@ -507,7 +507,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_7
 			// 
-			this._lblCommonLabel_7.AllowDrop = true;
+			//this._lblCommonLabel_7.AllowDrop = true;
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Penalty Amount";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(6, 219);
@@ -518,7 +518,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Deduction  Date  ";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(244, 176);
@@ -529,7 +529,7 @@ namespace Xtreme
 			// 
 			// txtDeductionDate
 			// 
-			this.txtDeductionDate.AllowDrop = true;
+			//this.txtDeductionDate.AllowDrop = true;
 			// this.txtDeductionDate.CheckDateRange = false;
 			this.txtDeductionDate.Location = new System.Drawing.Point(380, 174);
 			// this.txtDeductionDate.MaxDate = 2958465;
@@ -542,7 +542,7 @@ namespace Xtreme
 			// 
 			// txtNRepeatDeductPer
 			// 
-			this.txtNRepeatDeductPer.AllowDrop = true;
+			//this.txtNRepeatDeductPer.AllowDrop = true;
 			// this.txtNRepeatDeductPer.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNRepeatDeductPer.Format = "###########0.000";
 			this.txtNRepeatDeductPer.Location = new System.Drawing.Point(380, 195);
@@ -556,7 +556,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_11
 			// 
-			this._lblCommonLabel_11.AllowDrop = true;
+			//this._lblCommonLabel_11.AllowDrop = true;
 			this._lblCommonLabel_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_11.Text = "Repeat Deduct  %";
 			this._lblCommonLabel_11.Location = new System.Drawing.Point(244, 197);
@@ -566,7 +566,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_12
 			// 
-			this._lblCommonLabel_12.AllowDrop = true;
+			//this._lblCommonLabel_12.AllowDrop = true;
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_12.Text = "Actual Penalty From";
 			this._lblCommonLabel_12.Location = new System.Drawing.Point(7, 155);
@@ -576,7 +576,7 @@ namespace Xtreme
 			// 
 			// txtActualPenaltyDate
 			// 
-			this.txtActualPenaltyDate.AllowDrop = true;
+			//this.txtActualPenaltyDate.AllowDrop = true;
 			// this.txtActualPenaltyDate.CheckDateRange = false;
 			this.txtActualPenaltyDate.Location = new System.Drawing.Point(131, 153);
 			// this.txtActualPenaltyDate.MaxDate = 2958465;
@@ -590,7 +590,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_13
 			// 
-			this._lblCommonLabel_13.AllowDrop = true;
+			//this._lblCommonLabel_13.AllowDrop = true;
 			this._lblCommonLabel_13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_13.Text = "Actual Penalty To";
 			this._lblCommonLabel_13.Location = new System.Drawing.Point(246, 156);
@@ -600,7 +600,7 @@ namespace Xtreme
 			// 
 			// txtActualPenaltyTo
 			// 
-			this.txtActualPenaltyTo.AllowDrop = true;
+			//this.txtActualPenaltyTo.AllowDrop = true;
 			// this.txtActualPenaltyTo.CheckDateRange = false;
 			this.txtActualPenaltyTo.Location = new System.Drawing.Point(380, 153);
 			// this.txtActualPenaltyTo.MaxDate = 2958465;

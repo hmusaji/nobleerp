@@ -79,7 +79,7 @@ namespace Xtreme
 			// 
 			this.grdRatingDetails.AllowAddNew = true;
 			this.grdRatingDetails.AllowDelete = true;
-			this.grdRatingDetails.AllowDrop = true;
+			//this.grdRatingDetails.AllowDrop = true;
 			this.grdRatingDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdRatingDetails.CellTipsWidth = 0;
 			this.grdRatingDetails.Location = new System.Drawing.Point(3, 129);
@@ -102,7 +102,7 @@ namespace Xtreme
 			// 
 			// txtRatingTypeCode
 			// 
-			this.txtRatingTypeCode.AllowDrop = true;
+			//this.txtRatingTypeCode.AllowDrop = true;
 			this.txtRatingTypeCode.BackColor = System.Drawing.Color.White;
 			// this.txtRatingTypeCode.bolNumericOnly = true;
 			this.txtRatingTypeCode.ForeColor = System.Drawing.Color.Black;
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Rating Type Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Type Name (Arb)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Type Name (Eng)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// txtLRatingTypeName
 			// 
-			this.txtLRatingTypeName.AllowDrop = true;
+			//this.txtLRatingTypeName.AllowDrop = true;
 			this.txtLRatingTypeName.BackColor = System.Drawing.Color.White;
 			this.txtLRatingTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtLRatingTypeName.Location = new System.Drawing.Point(106, 81);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// txtARatingTypeName
 			// 
-			this.txtARatingTypeName.AllowDrop = true;
+			//this.txtARatingTypeName.AllowDrop = true;
 			this.txtARatingTypeName.BackColor = System.Drawing.Color.White;
 			this.txtARatingTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtARatingTypeName.Location = new System.Drawing.Point(106, 102);

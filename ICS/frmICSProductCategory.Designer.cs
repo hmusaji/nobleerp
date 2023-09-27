@@ -84,7 +84,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Category Name (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
@@ -97,9 +97,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(141, 129);
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// txtCatNo
 			// 
-			this.txtCatNo.AllowDrop = true;
+			//this.txtCatNo.AllowDrop = true;
 			this.txtCatNo.BackColor = System.Drawing.Color.White;
 			// this.txtCatNo.bolNumericOnly = true;
 			this.txtCatNo.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Category Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Category Name (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// txtLCatName
 			// 
-			this.txtLCatName.AllowDrop = true;
+			//this.txtLCatName.AllowDrop = true;
 			this.txtLCatName.BackColor = System.Drawing.Color.White;
 			this.txtLCatName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCatName.Location = new System.Drawing.Point(141, 42);
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// txtACatName
 			// 
-			this.txtACatName.AllowDrop = true;
+			//this.txtACatName.AllowDrop = true;
 			this.txtACatName.BackColor = System.Drawing.Color.White;
 			this.txtACatName.ForeColor = System.Drawing.Color.Black;
 			this.txtACatName.Location = new System.Drawing.Point(141, 63);
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// txtParentCatName
 			// 
-			this.txtParentCatName.AllowDrop = true;
+			//this.txtParentCatName.AllowDrop = true;
 			this.txtParentCatName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtParentCatName.Enabled = false;
 			this.txtParentCatName.ForeColor = System.Drawing.Color.Black;
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// lblParentCategory
 			// 
-			this.lblParentCategory.AllowDrop = true;
+			//this.lblParentCategory.AllowDrop = true;
 			this.lblParentCategory.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblParentCategory.Text = "Parent Category Code";
 			this.lblParentCategory.ForeColor = System.Drawing.Color.Black;
@@ -206,7 +206,7 @@ namespace Xtreme
 			// 
 			// txtParentCatNo
 			// 
-			this.txtParentCatNo.AllowDrop = true;
+			//this.txtParentCatNo.AllowDrop = true;
 			this.txtParentCatNo.BackColor = System.Drawing.Color.White;
 			// this.txtParentCatNo.bolNumericOnly = true;
 			this.txtParentCatNo.ForeColor = System.Drawing.Color.Black;
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -235,7 +235,7 @@ namespace Xtreme
 			// 
 			// txtShortName
 			// 
-			this.txtShortName.AllowDrop = true;
+			//this.txtShortName.AllowDrop = true;
 			this.txtShortName.BackColor = System.Drawing.Color.White;
 			this.txtShortName.ForeColor = System.Drawing.Color.Black;
 			this.txtShortName.Location = new System.Drawing.Point(141, 85);
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Short Name";
 			this.Label1.ForeColor = System.Drawing.Color.Black;

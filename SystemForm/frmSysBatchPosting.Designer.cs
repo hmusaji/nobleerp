@@ -73,7 +73,7 @@ namespace Xtreme
 		public System.Windows.Forms.ComboBox cmbLocation;
 		public System.Windows.Forms.Label Label2;
 		private System.Windows.Forms.Label Label1_0;
-		public System.Windows.Forms.Label Label2;
+		//public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.GroupBox VoucherFrame;
 		public System.Windows.Forms.ComboBox cmbModule;
@@ -89,7 +89,7 @@ namespace Xtreme
 		private System.Windows.Forms.Panel _fraStep_3;
 		public System.Windows.Forms.Label[] Label3 = new System.Windows.Forms.Label[1];
 		public System.Windows.Forms.Label[] Line1 = new System.Windows.Forms.Label[1];
-		public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[2];
+		//public System.Windows.Forms.Label[] Label1 = new System.Windows.Forms.Label[2];
 		public System.Windows.Forms.CheckBox[] chkCommonInclude = new System.Windows.Forms.CheckBox[2];
 		public System.Windows.Forms.CheckBox[] chkCommonPost = new System.Windows.Forms.CheckBox[6];
 		public System.Windows.Forms.Button[] cmdNav = new System.Windows.Forms.Button[5];
@@ -172,9 +172,9 @@ namespace Xtreme
 			// 
 			// picNav
 			// 
-			this.picNav.AllowDrop = true;
+			//this.picNav.AllowDrop = true;
 			this.picNav.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.picNav.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.picNav.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.picNav.CausesValidation = true;
 			this.picNav.Controls.Add(this._cmdNav_4);
 			this.picNav.Controls.Add(this._cmdNav_3);
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// _cmdNav_4
 			// 
-			this._cmdNav_4.AllowDrop = true;
+			//this._cmdNav_4.AllowDrop = true;
 			this._cmdNav_4.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdNav_4.Enabled = false;
 			this._cmdNav_4.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// _cmdNav_3
 			// 
-			this._cmdNav_3.AllowDrop = true;
+			//this._cmdNav_3.AllowDrop = true;
 			this._cmdNav_3.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdNav_3.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._cmdNav_3.Location = new System.Drawing.Point(303, 8);
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// _cmdNav_2
 			// 
-			this._cmdNav_2.AllowDrop = true;
+			//this._cmdNav_2.AllowDrop = true;
 			this._cmdNav_2.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdNav_2.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._cmdNav_2.Location = new System.Drawing.Point(229, 8);
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// _cmdNav_1
 			// 
-			this._cmdNav_1.AllowDrop = true;
+			//this._cmdNav_1.AllowDrop = true;
 			this._cmdNav_1.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdNav_1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._cmdNav_1.Location = new System.Drawing.Point(150, 8);
@@ -256,7 +256,7 @@ namespace Xtreme
 			// 
 			// _Line1_0
 			// 
-			this._Line1_0.AllowDrop = true;
+			//this._Line1_0.AllowDrop = true;
 			this._Line1_0.BackColor = System.Drawing.Color.White;
 			this._Line1_0.Enabled = false;
 			this._Line1_0.Location = new System.Drawing.Point(1, 0);
@@ -266,9 +266,9 @@ namespace Xtreme
 			// 
 			// _fraStep_2
 			// 
-			this._fraStep_2.AllowDrop = true;
+			//this._fraStep_2.AllowDrop = true;
 			this._fraStep_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraStep_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraStep_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraStep_2.Controls.Add(this.AdvanceOptionFrame);
 			this._fraStep_2.Controls.Add(this.cmdDefaultSetting);
 			this._fraStep_2.Controls.Add(this._imgStep_3);
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// AdvanceOptionFrame
 			// 
-			this.AdvanceOptionFrame.AllowDrop = true;
+			//this.AdvanceOptionFrame.AllowDrop = true;
 			this.AdvanceOptionFrame.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.AdvanceOptionFrame.Controls.Add(this._chkCommonPost_0);
 			this.AdvanceOptionFrame.Controls.Add(this._chkCommonPost_1);
@@ -305,7 +305,7 @@ namespace Xtreme
 			// 
 			// _chkCommonPost_0
 			// 
-			this._chkCommonPost_0.AllowDrop = true;
+			//this._chkCommonPost_0.AllowDrop = true;
 			this._chkCommonPost_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonPost_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._chkCommonPost_0.CausesValidation = true;
@@ -322,11 +322,11 @@ namespace Xtreme
 			this._chkCommonPost_0.Text = "Approve Transactions (Read Only Status)";
 			this._chkCommonPost_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonPost_0.Visible = true;
-			this._chkCommonPost_0.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
+			//this._chkCommonPost_0.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
 			// 
 			// _chkCommonPost_1
 			// 
-			this._chkCommonPost_1.AllowDrop = true;
+			//this._chkCommonPost_1.AllowDrop = true;
 			this._chkCommonPost_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonPost_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._chkCommonPost_1.CausesValidation = true;
@@ -343,11 +343,11 @@ namespace Xtreme
 			this._chkCommonPost_1.Text = "Post Transactions To ICS";
 			this._chkCommonPost_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonPost_1.Visible = true;
-			this._chkCommonPost_1.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
+			//this._chkCommonPost_1.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
 			// 
 			// _chkCommonPost_2
 			// 
-			this._chkCommonPost_2.AllowDrop = true;
+			//this._chkCommonPost_2.AllowDrop = true;
 			this._chkCommonPost_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonPost_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._chkCommonPost_2.CausesValidation = true;
@@ -364,11 +364,11 @@ namespace Xtreme
 			this._chkCommonPost_2.Text = "Post Transactions To GLS";
 			this._chkCommonPost_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonPost_2.Visible = true;
-			this._chkCommonPost_2.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
+			//this._chkCommonPost_2.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
 			// 
 			// _chkCommonPost_3
 			// 
-			this._chkCommonPost_3.AllowDrop = true;
+			//this._chkCommonPost_3.AllowDrop = true;
 			this._chkCommonPost_3.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonPost_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._chkCommonPost_3.CausesValidation = true;
@@ -385,11 +385,11 @@ namespace Xtreme
 			this._chkCommonPost_3.Text = "Party / Cash / Bank Accounts Only";
 			this._chkCommonPost_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonPost_3.Visible = true;
-			this._chkCommonPost_3.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
+			//this._chkCommonPost_3.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
 			// 
 			// _chkCommonPost_4
 			// 
-			this._chkCommonPost_4.AllowDrop = true;
+			//this._chkCommonPost_4.AllowDrop = true;
 			this._chkCommonPost_4.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonPost_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._chkCommonPost_4.CausesValidation = true;
@@ -406,11 +406,11 @@ namespace Xtreme
 			this._chkCommonPost_4.Text = "Voucher Expenses Only";
 			this._chkCommonPost_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonPost_4.Visible = true;
-			this._chkCommonPost_4.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
+			//this._chkCommonPost_4.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
 			// 
 			// _chkCommonPost_5
 			// 
-			this._chkCommonPost_5.AllowDrop = true;
+			//this._chkCommonPost_5.AllowDrop = true;
 			this._chkCommonPost_5.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonPost_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._chkCommonPost_5.CausesValidation = true;
@@ -427,11 +427,11 @@ namespace Xtreme
 			this._chkCommonPost_5.Text = "Inventory Accounts (With Item Costing) Only";
 			this._chkCommonPost_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommonPost_5.Visible = true;
-			this._chkCommonPost_5.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
+			//this._chkCommonPost_5.CheckStateChanged += new System.EventHandler(this.chkCommonPost_CheckStateChanged);
 			// 
 			// cmdDefaultSetting
 			// 
-			this.cmdDefaultSetting.AllowDrop = true;
+			//this.cmdDefaultSetting.AllowDrop = true;
 			this.cmdDefaultSetting.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdDefaultSetting.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.cmdDefaultSetting.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -447,8 +447,8 @@ namespace Xtreme
 			// 
 			// _imgStep_3
 			// 
-			this._imgStep_3.AllowDrop = true;
-			this._imgStep_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._imgStep_3.AllowDrop = true;
+			//this._imgStep_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._imgStep_3.Enabled = true;
 			//this._imgStep_3.Image = (System.Drawing.Image) resources.GetObject("_imgStep_3.Image");
 			this._imgStep_3.Location = new System.Drawing.Point(0, 0);
@@ -459,9 +459,9 @@ namespace Xtreme
 			// 
 			// _lblStep_3
 			// 
-			this._lblStep_3.AllowDrop = true;
+			//this._lblStep_3.AllowDrop = true;
 			this._lblStep_3.BackColor = System.Drawing.Color.Transparent;
-			this._lblStep_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._lblStep_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._lblStep_3.Font = new System.Drawing.Font("Arial", 14.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this._lblStep_3.ForeColor = System.Drawing.Color.FromArgb(0, 64, 128);
 			this._lblStep_3.Location = new System.Drawing.Point(186, 24);
@@ -474,9 +474,9 @@ namespace Xtreme
 			// 
 			// _fraStep_1
 			// 
-			this._fraStep_1.AllowDrop = true;
+			//this._fraStep_1.AllowDrop = true;
 			this._fraStep_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraStep_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraStep_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraStep_1.Controls.Add(this.VoucherRange);
 			this._fraStep_1.Controls.Add(this.DateRangeFrame);
 			this._fraStep_1.Controls.Add(this._lblStep_0);
@@ -494,7 +494,7 @@ namespace Xtreme
 			// 
 			// VoucherRange
 			// 
-			this.VoucherRange.AllowDrop = true;
+			//this.VoucherRange.AllowDrop = true;
 			this.VoucherRange.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.VoucherRange.Controls.Add(this.txtToVoucherNo);
 			this.VoucherRange.Controls.Add(this.txtFromVoucherNo);
@@ -512,7 +512,7 @@ namespace Xtreme
 			// 
 			// txtToVoucherNo
 			// 
-			this.txtToVoucherNo.AllowDrop = true;
+			//this.txtToVoucherNo.AllowDrop = true;
 			this.txtToVoucherNo.BackColor = System.Drawing.Color.White;
 			// this.txtToVoucherNo.bolNumericOnly = true;
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -527,7 +527,7 @@ namespace Xtreme
 			// 
 			// txtFromVoucherNo
 			// 
-			this.txtFromVoucherNo.AllowDrop = true;
+			//this.txtFromVoucherNo.AllowDrop = true;
 			this.txtFromVoucherNo.BackColor = System.Drawing.Color.White;
 			// this.txtFromVoucherNo.bolNumericOnly = true;
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -542,7 +542,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "To Voucher No";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -553,7 +553,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_4.Text = "From Voucher No";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -564,7 +564,7 @@ namespace Xtreme
 			// 
 			// DateRangeFrame
 			// 
-			this.DateRangeFrame.AllowDrop = true;
+			//this.DateRangeFrame.AllowDrop = true;
 			this.DateRangeFrame.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.DateRangeFrame.Controls.Add(this._lblCommon_3);
 			this.DateRangeFrame.Controls.Add(this._lblCommon_2);
@@ -582,7 +582,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_3.Text = "To Date";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -593,7 +593,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_2.Text = "From Date";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -604,7 +604,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			// this.txtFromDate.CheckDateRange = false;
 			this.txtFromDate.Location = new System.Drawing.Point(118, 26);
 			// this.txtFromDate.MaxDate = 2958465;
@@ -617,7 +617,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			// this.txtToDate.CheckDateRange = false;
 			this.txtToDate.Location = new System.Drawing.Point(118, 57);
 			// this.txtToDate.MaxDate = 2958465;
@@ -630,9 +630,9 @@ namespace Xtreme
 			// 
 			// _lblStep_0
 			// 
-			this._lblStep_0.AllowDrop = true;
+			//this._lblStep_0.AllowDrop = true;
 			this._lblStep_0.BackColor = System.Drawing.Color.Transparent;
-			this._lblStep_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._lblStep_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._lblStep_0.Font = new System.Drawing.Font("Arial", 14.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this._lblStep_0.ForeColor = System.Drawing.Color.FromArgb(0, 64, 128);
 			this._lblStep_0.Location = new System.Drawing.Point(180, 8);
@@ -645,8 +645,8 @@ namespace Xtreme
 			// 
 			// _imgStep_0
 			// 
-			this._imgStep_0.AllowDrop = true;
-			this._imgStep_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._imgStep_0.AllowDrop = true;
+			//this._imgStep_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._imgStep_0.Enabled = true;
 			//this._imgStep_0.Image = (System.Drawing.Image) resources.GetObject("_imgStep_0.Image");
 			this._imgStep_0.Location = new System.Drawing.Point(0, 0);
@@ -657,9 +657,9 @@ namespace Xtreme
 			// 
 			// _fraStep_0
 			// 
-			this._fraStep_0.AllowDrop = true;
+			//this._fraStep_0.AllowDrop = true;
 			this._fraStep_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraStep_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraStep_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraStep_0.Controls.Add(this.VoucherFrame);
 			this._fraStep_0.Controls.Add(this.Frame1);
 			this._fraStep_0.Controls.Add(this._lblStep_1);
@@ -677,7 +677,7 @@ namespace Xtreme
 			// 
 			// VoucherFrame
 			// 
-			this.VoucherFrame.AllowDrop = true;
+			//this.VoucherFrame.AllowDrop = true;
 			this.VoucherFrame.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.VoucherFrame.Controls.Add(this._chkCommonInclude_1);
 			this.VoucherFrame.Controls.Add(this._chkCommonInclude_0);
@@ -699,7 +699,7 @@ namespace Xtreme
 			// 
 			// _chkCommonInclude_1
 			// 
-			this._chkCommonInclude_1.AllowDrop = true;
+			//this._chkCommonInclude_1.AllowDrop = true;
 			this._chkCommonInclude_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonInclude_1.BackColor = System.Drawing.Color.FromArgb(248, 247, 239);
 			this._chkCommonInclude_1.CausesValidation = true;
@@ -719,7 +719,7 @@ namespace Xtreme
 			// 
 			// _chkCommonInclude_0
 			// 
-			this._chkCommonInclude_0.AllowDrop = true;
+			//this._chkCommonInclude_0.AllowDrop = true;
 			this._chkCommonInclude_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommonInclude_0.BackColor = System.Drawing.Color.FromArgb(248, 247, 239);
 			this._chkCommonInclude_0.CausesValidation = true;
@@ -739,7 +739,7 @@ namespace Xtreme
 			// 
 			// cmbVoucherTypes
 			// 
-			this.cmbVoucherTypes.AllowDrop = true;
+			//this.cmbVoucherTypes.AllowDrop = true;
 			this.cmbVoucherTypes.Location = new System.Drawing.Point(10, 40);
 			this.cmbVoucherTypes.Name = "cmbVoucherTypes";
 			this.cmbVoucherTypes.Size = new System.Drawing.Size(173, 21);
@@ -747,7 +747,7 @@ namespace Xtreme
 			// 
 			// cmbLocation
 			// 
-			this.cmbLocation.AllowDrop = true;
+			//this.cmbLocation.AllowDrop = true;
 			this.cmbLocation.Location = new System.Drawing.Point(10, 90);
 			this.cmbLocation.Name = "cmbLocation";
 			this.cmbLocation.Size = new System.Drawing.Size(173, 21);
@@ -755,7 +755,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Select Location";
 			this.Label2.Location = new System.Drawing.Point(10, 72);
@@ -765,7 +765,7 @@ namespace Xtreme
 			// 
 			// Label1_0
 			// 
-			this.Label1_0.AllowDrop = true;
+			//this.Label1_0.AllowDrop = true;
 			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_0.Text = "Select Transaction Type";
 			this.Label1_0.Location = new System.Drawing.Point(10, 22);
@@ -775,9 +775,9 @@ namespace Xtreme
 			// 
 			// Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label2.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Label2.Location = new System.Drawing.Point(208, 92);
 			this.Label2.Name = "Label2";
@@ -788,9 +788,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Label1.Location = new System.Drawing.Point(208, 44);
 			this.Label1.Name = "Label1";
@@ -801,7 +801,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this.cmbModule);
 			this.Frame1.Controls.Add(this.Label1_1);
@@ -817,7 +817,7 @@ namespace Xtreme
 			// 
 			// cmbModule
 			// 
-			this.cmbModule.AllowDrop = true;
+			//this.cmbModule.AllowDrop = true;
 			this.cmbModule.Location = new System.Drawing.Point(10, 36);
 			this.cmbModule.Name = "cmbModule";
 			this.cmbModule.Size = new System.Drawing.Size(173, 21);
@@ -826,7 +826,7 @@ namespace Xtreme
 			// 
 			// Label1_1
 			// 
-			this.Label1_1.AllowDrop = true;
+			//this.Label1_1.AllowDrop = true;
 			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_1.Text = "Select Module";
 			this.Label1_1.Location = new System.Drawing.Point(10, 18);
@@ -836,9 +836,9 @@ namespace Xtreme
 			// 
 			// _lblStep_1
 			// 
-			this._lblStep_1.AllowDrop = true;
+			//this._lblStep_1.AllowDrop = true;
 			this._lblStep_1.BackColor = System.Drawing.Color.Transparent;
-			this._lblStep_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._lblStep_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._lblStep_1.Font = new System.Drawing.Font("Arial", 18f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this._lblStep_1.ForeColor = System.Drawing.Color.FromArgb(0, 64, 128);
 			this._lblStep_1.Location = new System.Drawing.Point(192, 16);
@@ -851,8 +851,8 @@ namespace Xtreme
 			// 
 			// _imgStep_1
 			// 
-			this._imgStep_1.AllowDrop = true;
-			this._imgStep_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._imgStep_1.AllowDrop = true;
+			//this._imgStep_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._imgStep_1.Enabled = true;
 			//this._imgStep_1.Image = (System.Drawing.Image) resources.GetObject("_imgStep_1.Image");
 			this._imgStep_1.Location = new System.Drawing.Point(0, 0);
@@ -863,9 +863,9 @@ namespace Xtreme
 			// 
 			// _fraStep_3
 			// 
-			this._fraStep_3.AllowDrop = true;
+			//this._fraStep_3.AllowDrop = true;
 			this._fraStep_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._fraStep_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraStep_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraStep_3.Controls.Add(this.ProgressBar1);
 			this._fraStep_3.Controls.Add(this._Label3_0);
 			this._fraStep_3.Controls.Add(this._lblStep_2);
@@ -882,7 +882,7 @@ namespace Xtreme
 			// 
 			// ProgressBar1
 			// 
-			this.ProgressBar1.AllowDrop = true;
+			//this.ProgressBar1.AllowDrop = true;
 			this.ProgressBar1.Location = new System.Drawing.Point(164, 244);
 			this.ProgressBar1.Name = "ProgressBar1";
 			this.ProgressBar1.Size = new System.Drawing.Size(349, 25);
@@ -890,9 +890,9 @@ namespace Xtreme
 			// 
 			// _Label3_0
 			// 
-			this._Label3_0.AllowDrop = true;
+			//this._Label3_0.AllowDrop = true;
 			this._Label3_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label3_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label3_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label3_0.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label3_0.Location = new System.Drawing.Point(170, 218);
 			this._Label3_0.Name = "_Label3_0";
@@ -903,9 +903,9 @@ namespace Xtreme
 			// 
 			// _lblStep_2
 			// 
-			this._lblStep_2.AllowDrop = true;
+			//this._lblStep_2.AllowDrop = true;
 			this._lblStep_2.BackColor = System.Drawing.Color.Transparent;
-			this._lblStep_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._lblStep_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._lblStep_2.Font = new System.Drawing.Font("Arial", 14.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this._lblStep_2.ForeColor = System.Drawing.Color.FromArgb(0, 64, 128);
 			this._lblStep_2.Location = new System.Drawing.Point(186, 24);
@@ -918,8 +918,8 @@ namespace Xtreme
 			// 
 			// _imgStep_2
 			// 
-			this._imgStep_2.AllowDrop = true;
-			this._imgStep_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._imgStep_2.AllowDrop = true;
+			//this._imgStep_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._imgStep_2.Enabled = true;
 			//this._imgStep_2.Image = (System.Drawing.Image) resources.GetObject("_imgStep_2.Image");
 			this._imgStep_2.Location = new System.Drawing.Point(0, 0);
@@ -952,7 +952,7 @@ namespace Xtreme
 			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Post Wizard";
-			this.commandButtonHelper1.SetStyle(this.cmdDefaultSetting, 1);
+			//this.commandButtonHelper1.SetStyle(this.cmdDefaultSetting, 1);
 			// this.Activated += new System.EventHandler(this.frmSysBatchPosting_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
@@ -1025,12 +1025,12 @@ namespace Xtreme
 			this.chkCommonInclude[1] = _chkCommonInclude_1;
 			this.chkCommonInclude[0] = _chkCommonInclude_0;
 		}
-		void InitializeSystemWindowsFormsLabel1()
-		{
-			this.Label1 = new System.Windows.Forms.Label[2];
-			this.Label1[0] = Label1_0;
-			this.Label1[1] = Label1_1;
-		}
+		//void InitializeSystemWindowsFormsLabel1()
+		//{
+		//	this.Label1 = new System.Windows.Forms.Label[2];
+		//	this.Label1[0] = Label1_0;
+		//	this.Label1[1] = Label1_1;
+		//}
 		void InitializeLine1()
 		{
 			this.Line1 = new System.Windows.Forms.Label[1];

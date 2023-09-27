@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// btnLogin
 			// 
-			this.btnLogin.AllowDrop = true;
+			//this.btnLogin.AllowDrop = true;
 			this.btnLogin.Location = new System.Drawing.Point(170, 416);
 			this.btnLogin.Name = "btnLogin";
 			////this.btnLogin.OcxState = (System.Windows.Forms.AxHost.State) resources.GetObject//
@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// chkSaveUser
 			// 
-			this.chkSaveUser.AllowDrop = true;
+			//this.chkSaveUser.AllowDrop = true;
 			this.chkSaveUser.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkSaveUser.BackColor = System.Drawing.SystemColors.Highlight;
 			this.chkSaveUser.CausesValidation = true;
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// chkSavePassword
 			// 
-			this.chkSavePassword.AllowDrop = true;
+			//this.chkSavePassword.AllowDrop = true;
 			this.chkSavePassword.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkSavePassword.BackColor = System.Drawing.SystemColors.Highlight;
 			this.chkSavePassword.CausesValidation = true;
@@ -131,7 +131,7 @@ namespace Xtreme
 			// 
 			// cmdVerify
 			// 
-			this.cmdVerify.AllowDrop = true;
+			//this.cmdVerify.AllowDrop = true;
 			this.cmdVerify.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdVerify.Font = new System.Drawing.Font("Wingdings", 14.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 2);
 			this.cmdVerify.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// txtPassword
 			// 
-			this.txtPassword.AllowDrop = true;
+			//this.txtPassword.AllowDrop = true;
 			this.txtPassword.BackColor = System.Drawing.Color.White;
 			// this.// this.this.txtPassword.bolIsRequired = true;
 			this.txtPassword.ForeColor = System.Drawing.Color.Black;
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtUserID
 			// 
-			this.txtUserID.AllowDrop = true;
+			//this.txtUserID.AllowDrop = true;
 			this.txtUserID.BackColor = System.Drawing.Color.White;
 			// this.this.txtUserID.bolIsRequired = true;
 			this.txtUserID.ForeColor = System.Drawing.Color.Black;
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// txtLocationNo
 			// 
-			this.txtLocationNo.AllowDrop = true;
+			//this.txtLocationNo.AllowDrop = true;
 			this.txtLocationNo.BackColor = System.Drawing.Color.White;
 			// this.this.txtLocationNo.bolIsRequired = true;
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
@@ -199,7 +199,7 @@ namespace Xtreme
 			// 
 			// txtLocationName
 			// 
-			this.txtLocationName.AllowDrop = true;
+			//this.txtLocationName.AllowDrop = true;
 			this.txtLocationName.Location = new System.Drawing.Point(160, 390);
 			this.txtLocationName.Name = "txtLocationName";
 			this.txtLocationName.Size = new System.Drawing.Size(169, 19);
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// _cmbLanguage_0
 			// 
-			this._cmbLanguage_0.AllowDrop = true;
+			//this._cmbLanguage_0.AllowDrop = true;
 			this._cmbLanguage_0.Location = new System.Drawing.Point(92, 458);
 			this._cmbLanguage_0.Name = "_cmbLanguage_0";
 			this._cmbLanguage_0.Size = new System.Drawing.Size(237, 21);
@@ -217,7 +217,7 @@ namespace Xtreme
 			// 
 			// btnExit
 			// 
-			this.btnExit.AllowDrop = true;
+			//this.btnExit.AllowDrop = true;
 			this.btnExit.Location = new System.Drawing.Point(250, 416);
 			this.btnExit.Name = "btnExit";
 			//this\.\w+\.OcxState\s*=\s*\(\s*System\.Windows\.Forms\.AxHost\.State\s*\) resources\.GetObject//
@@ -227,7 +227,7 @@ namespace Xtreme
 			// 
 			// cmbCompany
 			// 
-			this.cmbCompany.AllowDrop = true;
+			//this.cmbCompany.AllowDrop = true;
 			this.cmbCompany.Location = new System.Drawing.Point(92, 322);
 			this.cmbCompany.Name = "cmbCompany";
 			this.cmbCompany.Size = new System.Drawing.Size(237, 21);
@@ -237,8 +237,8 @@ namespace Xtreme
 			// 
 			// Image2
 			// 
-			this.Image2.AllowDrop = true;
-			this.Image2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Image2.AllowDrop = true;
+			//this.Image2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Image2.Enabled = true;
 			//this.Image2.Image = (System.Drawing.Image) resources.GetObject("Image2.Image");
 			this.Image2.Location = new System.Drawing.Point(0, 50);
@@ -249,8 +249,8 @@ namespace Xtreme
 			// 
 			// Image3
 			// 
-			this.Image3.AllowDrop = true;
-			this.Image3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Image3.AllowDrop = true;
+			//this.Image3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Image3.Enabled = true;
 			//this.Image3.Image = (System.Drawing.Image) resources.GetObject("Image3.Image");
 			this.Image3.Location = new System.Drawing.Point(484, 214);
@@ -261,9 +261,9 @@ namespace Xtreme
 			// 
 			// Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.Transparent;
-			this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label2.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.Label2.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.Label2.Location = new System.Drawing.Point(10, 432);
@@ -275,9 +275,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.Transparent;
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.Label1.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.Label1.Location = new System.Drawing.Point(10, 414);
@@ -289,9 +289,9 @@ namespace Xtreme
 			// 
 			// lblLanguage
 			// 
-			this.lblLanguage.AllowDrop = true;
+			//this.lblLanguage.AllowDrop = true;
 			this.lblLanguage.BackColor = System.Drawing.Color.Transparent;
-			this.lblLanguage.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblLanguage.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblLanguage.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblLanguage.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.lblLanguage.Location = new System.Drawing.Point(10, 460);
@@ -303,9 +303,9 @@ namespace Xtreme
 			// 
 			// lblCompanyCode
 			// 
-			this.lblCompanyCode.AllowDrop = true;
+			//this.lblCompanyCode.AllowDrop = true;
 			this.lblCompanyCode.BackColor = System.Drawing.Color.Transparent;
-			this.lblCompanyCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblCompanyCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblCompanyCode.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblCompanyCode.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.lblCompanyCode.Location = new System.Drawing.Point(8, 326);
@@ -317,9 +317,9 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.Transparent;
-			this.lblLocationCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblLocationCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblLocationCode.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblLocationCode.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.lblLocationCode.Location = new System.Drawing.Point(10, 394);
@@ -331,9 +331,9 @@ namespace Xtreme
 			// 
 			// lblPassword
 			// 
-			this.lblPassword.AllowDrop = true;
+			//this.lblPassword.AllowDrop = true;
 			this.lblPassword.BackColor = System.Drawing.Color.Transparent;
-			this.lblPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblPassword.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.lblPassword.Location = new System.Drawing.Point(10, 372);
@@ -345,9 +345,9 @@ namespace Xtreme
 			// 
 			// lblUserID
 			// 
-			this.lblUserID.AllowDrop = true;
+			//this.lblUserID.AllowDrop = true;
 			this.lblUserID.BackColor = System.Drawing.Color.Transparent;
-			this.lblUserID.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblUserID.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblUserID.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblUserID.ForeColor = System.Drawing.Color.FromArgb(0, 0, 64);
 			this.lblUserID.Location = new System.Drawing.Point(10, 350);
@@ -359,8 +359,8 @@ namespace Xtreme
 			// 
 			// Image1
 			// 
-			this.Image1.AllowDrop = true;
-			this.Image1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Image1.AllowDrop = true;
+			//this.Image1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Image1.Enabled = true;
 			//this.Image1.Image = (System.Drawing.Image) resources.GetObject("Image1.Image");
 			this.Image1.Location = new System.Drawing.Point(0, 294);
@@ -371,14 +371,14 @@ namespace Xtreme
 			// 
 			// ImageManager
 			// 
-			this.ImageManager.AllowDrop = true;
+			//this.ImageManager.AllowDrop = true;
 			this.ImageManager.Location = new System.Drawing.Point(28, 308);
 			this.ImageManager.Name = "ImageManager";
 			//this\.\w+\.OcxState\s*=\s*\(\s*System\.Windows\.Forms\.AxHost\.State\s*\) resources\.GetObject//
 			// 
 			// mnuSystemMenu
 			// 
-			//this.mnuSystemMenu.AllowDrop = true;
+			////this.mnuSystemMenu.AllowDrop = true;
 			//this.mnuSystemMenu.Location = new System.Drawing.Point(0, 0);
 			//this.mnuSystemMenu.Name = "mnuSystemMenu";
 			////this.mnuSystemMenu.OcxState = (System.Windows.Forms.AxHost.State) resources.GetObject//

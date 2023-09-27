@@ -61,7 +61,7 @@ namespace Xtreme
 			// 
 			// cmdOK
 			// 
-			this.cmdOK.AllowDrop = true;
+			//this.cmdOK.AllowDrop = true;
 			this.cmdOK.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdOK.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdOK.Location = new System.Drawing.Point(186, 118);
@@ -76,7 +76,7 @@ namespace Xtreme
 			// 
 			// cmdCancle
 			// 
-			this.cmdCancle.AllowDrop = true;
+			//this.cmdCancle.AllowDrop = true;
 			this.cmdCancle.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdCancle.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdCancle.Location = new System.Drawing.Point(258, 118);
@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// rptGrid
 			// 
-			this.rptGrid.AllowDrop = true;
+			//this.rptGrid.AllowDrop = true;
 			this.rptGrid.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.rptGrid.CellTipsWidth = 0;
 			this.rptGrid.Location = new System.Drawing.Point(4, 4);
@@ -102,7 +102,7 @@ namespace Xtreme
 			this.rptGrid.Columns.Add(this.Column_0_rptGrid);
 			this.rptGrid.Columns.Add(this.Column_1_rptGrid);
 			// this.this.rptGrid.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.rptGrid_KeyPress);
-			this.rptGrid.MouseUp += new System.Windows.Forms.MouseEventHandler(this.rptGrid_MouseUp);
+			//this.rptGrid.MouseUp += new System.Windows.Forms.MouseEventHandler(this.rptGrid_MouseUp);
 			// 
 			// Column_0_rptGrid
 			// 

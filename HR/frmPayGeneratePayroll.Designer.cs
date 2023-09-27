@@ -83,7 +83,7 @@ namespace Xtreme
 			// 
 			// chkClearPayroll
 			// 
-			this.chkClearPayroll.AllowDrop = true;
+			//this.chkClearPayroll.AllowDrop = true;
 			this.chkClearPayroll.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkClearPayroll.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkClearPayroll.CausesValidation = true;
@@ -104,9 +104,9 @@ namespace Xtreme
 			// txtGeneratedEmployee
 			// 
 			this.txtGeneratedEmployee.AcceptsReturn = true;
-			this.txtGeneratedEmployee.AllowDrop = true;
+			//this.txtGeneratedEmployee.AllowDrop = true;
 			this.txtGeneratedEmployee.BackColor = System.Drawing.SystemColors.Window;
-			this.txtGeneratedEmployee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtGeneratedEmployee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtGeneratedEmployee.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtGeneratedEmployee.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtGeneratedEmployee.Location = new System.Drawing.Point(6, 166);
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// chkGenerateAll
 			// 
-			this.chkGenerateAll.AllowDrop = true;
+			//this.chkGenerateAll.AllowDrop = true;
 			this.chkGenerateAll.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkGenerateAll.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkGenerateAll.CausesValidation = true;
@@ -138,11 +138,11 @@ namespace Xtreme
 			this.chkGenerateAll.Text = "Generate All";
 			this.chkGenerateAll.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkGenerateAll.Visible = true;
-			this.chkGenerateAll.CheckStateChanged += new System.EventHandler(this.chkGenerateAll_CheckStateChanged);
+			//this.chkGenerateAll.CheckStateChanged += new System.EventHandler(this.chkGenerateAll_CheckStateChanged);
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(119, 14);
@@ -159,7 +159,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "From Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(12, 16);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(119, 34);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "To Employee Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(12, 36);
@@ -198,19 +198,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(160, 115);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Generate";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 4;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(222, 34);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(201, 19);
@@ -218,7 +218,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(222, 14);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(201, 19);
@@ -226,7 +226,7 @@ namespace Xtreme
 			// 
 			// cmdPostMode
 			// 
-			this.cmdPostMode.AllowDrop = true;
+			//this.cmdPostMode.AllowDrop = true;
 			this.cmdPostMode.DisplayButton = 1;
 			this.cmdPostMode.Location = new System.Drawing.Point(0, 115);
 			this.cmdPostMode.Name = "cmdPostMode";
@@ -234,7 +234,7 @@ namespace Xtreme
 			this.cmdPostMode.Size = new System.Drawing.Size(205, 29);
 			this.cmdPostMode.TabIndex = 5;
 			this.cmdPostMode.Visible = false;
-			this.cmdPostMode.OKClick += new UCOkCancel.OKClickHandler(this.cmdPostMode_OKClick);
+			//this.cmdPostMode.OKClick += new UCOkCancel.OKClickHandler(this.cmdPostMode_OKClick);
 			// 
 			// frmPayGeneratePayroll
 			// 

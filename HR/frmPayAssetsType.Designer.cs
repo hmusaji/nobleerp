@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(138, 124);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtAssetsNo
 			// 
-			this.txtAssetsNo.AllowDrop = true;
+			//this.txtAssetsNo.AllowDrop = true;
 			this.txtAssetsNo.BackColor = System.Drawing.Color.White;
 			// this.txtAssetsNo.bolNumericOnly = true;
 			this.txtAssetsNo.ForeColor = System.Drawing.Color.Black;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Asset Type Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(10, 62);
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Asset Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(10, 84);
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// txtLAssetTypeName
 			// 
-			this.txtLAssetTypeName.AllowDrop = true;
+			//this.txtLAssetTypeName.AllowDrop = true;
 			this.txtLAssetTypeName.BackColor = System.Drawing.Color.White;
 			this.txtLAssetTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtLAssetTypeName.Location = new System.Drawing.Point(138, 81);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Asset Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(10, 105);
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// txtAAssetTypeName
 			// 
-			this.txtAAssetTypeName.AllowDrop = true;
+			//this.txtAAssetTypeName.AllowDrop = true;
 			this.txtAAssetTypeName.BackColor = System.Drawing.Color.White;
 			this.txtAAssetTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtAAssetTypeName.Location = new System.Drawing.Point(138, 102);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(10, 124);

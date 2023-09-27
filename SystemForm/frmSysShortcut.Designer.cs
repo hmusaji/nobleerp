@@ -32,7 +32,7 @@ namespace Xtreme
 			// 
 			// wndTaskPanel
 			// 
-			this.wndTaskPanel.AllowDrop = true;
+			//this.wndTaskPanel.AllowDrop = true;
 			this.wndTaskPanel.Location = new System.Drawing.Point(4, 0);
 			this.wndTaskPanel.Name = "wndTaskPanel";
 		

@@ -65,7 +65,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 0);
@@ -75,9 +75,9 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 0;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.DoubleClick += new System.EventHandler(this.grdVoucherDetails_DoubleClick);
+			//this.grdVoucherDetails.DoubleClick += new System.EventHandler(this.grdVoucherDetails_DoubleClick);
 			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
 			// 
 			// Column_0_grdVoucherDetails
 			// 

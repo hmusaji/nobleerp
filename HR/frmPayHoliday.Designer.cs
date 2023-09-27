@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_1
 			// 
-			this._txtCommonDate_1.AllowDrop = true;
+			//this._txtCommonDate_1.AllowDrop = true;
 			// this._txtCommonDate_1.CheckDateRange = false;
 			this._txtCommonDate_1.Location = new System.Drawing.Point(207, 135);
 			// this._txtCommonDate_1.MaxDate = 2958465;
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_0
 			// 
-			this._txtCommonDate_0.AllowDrop = true;
+			//this._txtCommonDate_0.AllowDrop = true;
 			// this._txtCommonDate_0.CheckDateRange = false;
 			this._txtCommonDate_0.Location = new System.Drawing.Point(60, 135);
 			// this._txtCommonDate_0.MaxDate = 2958465;
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// cmdGenerate
 			// 
-			this.cmdGenerate.AllowDrop = true;
+			//this.cmdGenerate.AllowDrop = true;
 			this.cmdGenerate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdGenerate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdGenerate.Location = new System.Drawing.Point(324, 135);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// txtHolidayNo
 			// 
-			this.txtHolidayNo.AllowDrop = true;
+			//this.txtHolidayNo.AllowDrop = true;
 			this.txtHolidayNo.BackColor = System.Drawing.Color.White;
 			// this.txtHolidayNo.bolNumericOnly = true;
 			this.txtHolidayNo.ForeColor = System.Drawing.Color.Black;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// lblHolidayCode
 			// 
-			this.lblHolidayCode.AllowDrop = true;
+			//this.lblHolidayCode.AllowDrop = true;
 			this.lblHolidayCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblHolidayCode.Text = "Holiday Code";
 			this.lblHolidayCode.Location = new System.Drawing.Point(6, 44);
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Holiday Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(6, 66);
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// txtLHolidayName
 			// 
-			this.txtLHolidayName.AllowDrop = true;
+			//this.txtLHolidayName.AllowDrop = true;
 			this.txtLHolidayName.BackColor = System.Drawing.Color.White;
 			this.txtLHolidayName.ForeColor = System.Drawing.Color.Black;
 			this.txtLHolidayName.Location = new System.Drawing.Point(122, 63);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Holiday Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(6, 87);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// txtAHolidayName
 			// 
-			this.txtAHolidayName.AllowDrop = true;
+			//this.txtAHolidayName.AllowDrop = true;
 			this.txtAHolidayName.BackColor = System.Drawing.Color.White;
 			this.txtAHolidayName.ForeColor = System.Drawing.Color.Black;
 			this.txtAHolidayName.Location = new System.Drawing.Point(122, 84);
@@ -214,7 +214,7 @@ namespace Xtreme
 			// 
 			// txtHolidayDate
 			// 
-			this.txtHolidayDate.AllowDrop = true;
+			//this.txtHolidayDate.AllowDrop = true;
 			this.txtHolidayDate.Location = new System.Drawing.Point(186, 222);
 			this.txtHolidayDate.Name = "txtHolidayDate";
 			//
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// grdHolidayDetails
 			// 
-			this.grdHolidayDetails.AllowDrop = true;
+			//this.grdHolidayDetails.AllowDrop = true;
 			this.grdHolidayDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdHolidayDetails.CellTipsWidth = 0;
 			this.grdHolidayDetails.Location = new System.Drawing.Point(0, 165);
@@ -247,7 +247,7 @@ namespace Xtreme
 			// 
 			// Label1_0
 			// 
-			this.Label1_0.AllowDrop = true;
+			//this.Label1_0.AllowDrop = true;
 			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_0.Text = "FromDate";
 			this.Label1_0.Location = new System.Drawing.Point(3, 137);
@@ -257,7 +257,7 @@ namespace Xtreme
 			// 
 			// Label1_1
 			// 
-			this.Label1_1.AllowDrop = true;
+			//this.Label1_1.AllowDrop = true;
 			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_1.Text = "ToDate";
 			this.Label1_1.Location = new System.Drawing.Point(168, 137);
@@ -267,7 +267,7 @@ namespace Xtreme
 			// 
 			// lblCalendar
 			// 
-			this.lblCalendar.AllowDrop = true;
+			//this.lblCalendar.AllowDrop = true;
 			this.lblCalendar.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCalendar.Text = "Calendar Code";
 			this.lblCalendar.Location = new System.Drawing.Point(6, 111);
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// txtCalendarCd
 			// 
-			this.txtCalendarCd.AllowDrop = true;
+			//this.txtCalendarCd.AllowDrop = true;
 			this.txtCalendarCd.BackColor = System.Drawing.Color.White;
 			// this.txtCalendarCd.bolNumericOnly = true;
 			this.txtCalendarCd.ForeColor = System.Drawing.Color.Black;
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// txtDlblCalendarName
 			// 
-			this.txtDlblCalendarName.AllowDrop = true;
+			//this.txtDlblCalendarName.AllowDrop = true;
 			this.txtDlblCalendarName.Location = new System.Drawing.Point(225, 105);
 			this.txtDlblCalendarName.Name = "txtDlblCalendarName";
 			this.txtDlblCalendarName.Size = new System.Drawing.Size(170, 19);

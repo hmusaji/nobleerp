@@ -21,7 +21,7 @@ namespace Xtreme
 		//''the cash_cd on icsadditionalvouchedetails will be taken from its parent voucher eg. sales
 		//''
 
-		private SystemICSConstants.ShowOptions mPostOptionType = (SystemICSConstants.ShowOptions) 0;
+		//private SystemICSConstants.ShowOptions mPostOptionType = (SystemICSConstants.ShowOptions) 0;
 
 		private const int mNormalHeight = 3735;
 		private const int mAdvancedHeight = 4695;

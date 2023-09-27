@@ -67,7 +67,7 @@ namespace Xtreme
 			// 
 			// cmdRefreshCategory
 			// 
-			this.cmdRefreshCategory.AllowDrop = true;
+			//this.cmdRefreshCategory.AllowDrop = true;
 			this.cmdRefreshCategory.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdRefreshCategory.Enabled = false;
 			this.cmdRefreshCategory.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -82,7 +82,7 @@ namespace Xtreme
 			// 
 			// cmdRefreshPayroll
 			// 
-			this.cmdRefreshPayroll.AllowDrop = true;
+			//this.cmdRefreshPayroll.AllowDrop = true;
 			this.cmdRefreshPayroll.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdRefreshPayroll.Enabled = false;
 			this.cmdRefreshPayroll.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -97,7 +97,7 @@ namespace Xtreme
 			// 
 			// chkFreezed
 			// 
-			this.chkFreezed.AllowDrop = true;
+			//this.chkFreezed.AllowDrop = true;
 			this.chkFreezed.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkFreezed.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkFreezed.CausesValidation = true;
@@ -118,9 +118,9 @@ namespace Xtreme
 			// txtComments
 			// 
 			this.txtComments.AcceptsReturn = true;
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtComments.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComments.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComments.Location = new System.Drawing.Point(137, 216);
@@ -133,7 +133,7 @@ namespace Xtreme
 			// 
 			// txtBudgetCode
 			// 
-			this.txtBudgetCode.AllowDrop = true;
+			//this.txtBudgetCode.AllowDrop = true;
 			this.txtBudgetCode.BackColor = System.Drawing.Color.White;
 			// this.txtBudgetCode.bolNumericOnly = true;
 			this.txtBudgetCode.ForeColor = System.Drawing.Color.Black;
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// lblCategoryCode
 			// 
-			this.lblCategoryCode.AllowDrop = true;
+			//this.lblCategoryCode.AllowDrop = true;
 			this.lblCategoryCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryCode.Text = "Budget Code";
 			this.lblCategoryCode.Location = new System.Drawing.Point(10, 80);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Budget Name (English)";
 			this.lblLCategoryName.Location = new System.Drawing.Point(10, 102);
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtLBudgetName
 			// 
-			this.txtLBudgetName.AllowDrop = true;
+			//this.txtLBudgetName.AllowDrop = true;
 			this.txtLBudgetName.BackColor = System.Drawing.Color.White;
 			this.txtLBudgetName.ForeColor = System.Drawing.Color.Black;
 			this.txtLBudgetName.Location = new System.Drawing.Point(138, 99);
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Budget Name (Arabic)";
 			this.lblACategoryName.Location = new System.Drawing.Point(10, 123);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// txtABudgetName
 			// 
-			this.txtABudgetName.AllowDrop = true;
+			//this.txtABudgetName.AllowDrop = true;
 			this.txtABudgetName.BackColor = System.Drawing.Color.White;
 			this.txtABudgetName.ForeColor = System.Drawing.Color.Black;
 			this.txtABudgetName.Location = new System.Drawing.Point(138, 120);
@@ -203,7 +203,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "End Date";
 			this.Label2.Location = new System.Drawing.Point(10, 168);
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Start Date";
 			this.Label1.Location = new System.Drawing.Point(10, 147);
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// txtEndDate
 			// 
-			this.txtEndDate.AllowDrop = true;
+			//this.txtEndDate.AllowDrop = true;
 			// this.txtEndDate.CheckDateRange = false;
 			this.txtEndDate.Location = new System.Drawing.Point(137, 165);
 			// this.txtEndDate.MaxDate = 2958465;
@@ -236,7 +236,7 @@ namespace Xtreme
 			// 
 			// txtStartDate
 			// 
-			this.txtStartDate.AllowDrop = true;
+			//this.txtStartDate.AllowDrop = true;
 			// this.txtStartDate.CheckDateRange = false;
 			this.txtStartDate.Location = new System.Drawing.Point(137, 144);
 			// this.txtStartDate.MaxDate = 2958465;
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(10, 219);

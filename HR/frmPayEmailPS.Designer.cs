@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// ChkIncludeSentEmployee
 			// 
-			this.ChkIncludeSentEmployee.AllowDrop = true;
+			//this.ChkIncludeSentEmployee.AllowDrop = true;
 			this.ChkIncludeSentEmployee.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.ChkIncludeSentEmployee.BackColor = System.Drawing.Color.White;
 			this.ChkIncludeSentEmployee.CausesValidation = true;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// txtEmployeeComplete
 			// 
-			this.txtEmployeeComplete.AllowDrop = true;
+			//this.txtEmployeeComplete.AllowDrop = true;
 			this.txtEmployeeComplete.BackColor = System.Drawing.SystemColors.Window;
 			this.txtEmployeeComplete.Enabled = false;
 			this.txtEmployeeComplete.Location = new System.Drawing.Point(102, 106);
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// chkAllEmployees
 			// 
-			this.chkAllEmployees.AllowDrop = true;
+			//this.chkAllEmployees.AllowDrop = true;
 			this.chkAllEmployees.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkAllEmployees.BackColor = System.Drawing.Color.White;
 			this.chkAllEmployees.CausesValidation = true;
@@ -133,11 +133,11 @@ namespace Xtreme
 			this.chkAllEmployees.Text = "All Employees";
 			this.chkAllEmployees.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkAllEmployees.Visible = true;
-			this.chkAllEmployees.CheckStateChanged += new System.EventHandler(this.chkAllEmployees_CheckStateChanged);
+			//this.chkAllEmployees.CheckStateChanged += new System.EventHandler(this.chkAllEmployees_CheckStateChanged);
 			// 
 			// cmdCancel
 			// 
-			this.cmdCancel.AllowDrop = true;
+			//this.cmdCancel.AllowDrop = true;
 			this.cmdCancel.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdCancel.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdCancel.Location = new System.Drawing.Point(204, 140);
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// cmdOk
 			// 
-			this.cmdOk.AllowDrop = true;
+			//this.cmdOk.AllowDrop = true;
 			this.cmdOk.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdOk.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdOk.Location = new System.Drawing.Point(128, 140);
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// txtFromEmp
 			// 
-			this.txtFromEmp.AllowDrop = true;
+			//this.txtFromEmp.AllowDrop = true;
 			this.txtFromEmp.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtFromEmp.ForeColor = System.Drawing.Color.Black;
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// lblFromEmp
 			// 
-			this.lblFromEmp.AllowDrop = true;
+			//this.lblFromEmp.AllowDrop = true;
 			this.lblFromEmp.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblFromEmp.Text = "From Employee";
 			this.lblFromEmp.Location = new System.Drawing.Point(4, 44);
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// lblToEmp
 			// 
-			this.lblToEmp.AllowDrop = true;
+			//this.lblToEmp.AllowDrop = true;
 			this.lblToEmp.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblToEmp.Text = "To Employee";
 			this.lblToEmp.Location = new System.Drawing.Point(4, 65);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// txtToEmp
 			// 
-			this.txtToEmp.AllowDrop = true;
+			//this.txtToEmp.AllowDrop = true;
 			this.txtToEmp.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtToEmp.ForeColor = System.Drawing.Color.Black;
@@ -220,7 +220,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Month";
 			this.Label1.Location = new System.Drawing.Point(4, 88);
@@ -231,7 +231,7 @@ namespace Xtreme
 			// 
 			// txtFrmEmpCodeName
 			// 
-			this.txtFrmEmpCodeName.AllowDrop = true;
+			//this.txtFrmEmpCodeName.AllowDrop = true;
 			this.txtFrmEmpCodeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtFrmEmpCodeName.Enabled = false;
 			this.txtFrmEmpCodeName.Location = new System.Drawing.Point(226, 42);
@@ -241,7 +241,7 @@ namespace Xtreme
 			// 
 			// txtToEmpCodeName
 			// 
-			this.txtToEmpCodeName.AllowDrop = true;
+			//this.txtToEmpCodeName.AllowDrop = true;
 			this.txtToEmpCodeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtToEmpCodeName.Enabled = false;
 			this.txtToEmpCodeName.Location = new System.Drawing.Point(226, 63);
@@ -251,7 +251,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Employee Complete";
 			this.Label2.Location = new System.Drawing.Point(4, 110);
@@ -261,8 +261,8 @@ namespace Xtreme
 			// 
 			// txtMonth
 			// 
-			this.txtMonth.AllowDrop = true;
-			this.txtMonth.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
+			//this.txtMonth.AllowDrop = true;
+			//this.txtMonth.CenturyMode = TDBDate6.dbiCenturyModeConst.dbiDateWindow;
 			// this.txtMonth.CheckDateRange = false;
 			this.txtMonth.Location = new System.Drawing.Point(102, 84);
 			// this.txtMonth.MaxDate = 51501;

@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// Frame2
 			// 
-			this.Frame2.AllowDrop = true;
+			//this.Frame2.AllowDrop = true;
 			this.Frame2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame2.Controls.Add(this.txtLeaveDaysAfterSOP);
 			this.Frame2.Controls.Add(this.Label2);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// txtLeaveDaysAfterSOP
 			// 
-			this.txtLeaveDaysAfterSOP.AllowDrop = true;
+			//this.txtLeaveDaysAfterSOP.AllowDrop = true;
 			// this.txtLeaveDaysAfterSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtLeaveDaysAfterSOP.Format = "###########0.000";
 			this.txtLeaveDaysAfterSOP.Location = new System.Drawing.Point(134, 16);
@@ -214,7 +214,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Working Days Per Month";
 			this.Label2.Location = new System.Drawing.Point(12, 39);
@@ -225,7 +225,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Leave Days";
 			this.Label3.Location = new System.Drawing.Point(12, 18);
@@ -236,7 +236,7 @@ namespace Xtreme
 			// 
 			// txtWDPerMonthAfterSOP
 			// 
-			this.txtWDPerMonthAfterSOP.AllowDrop = true;
+			//this.txtWDPerMonthAfterSOP.AllowDrop = true;
 			// this.txtWDPerMonthAfterSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtWDPerMonthAfterSOP.Format = "###########0.000";
 			this.txtWDPerMonthAfterSOP.Location = new System.Drawing.Point(134, 37);
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this.txtLeaveDaysBeforeSOP);
 			this.Frame1.Controls.Add(this.Label8);
@@ -267,7 +267,7 @@ namespace Xtreme
 			// 
 			// txtLeaveDaysBeforeSOP
 			// 
-			this.txtLeaveDaysBeforeSOP.AllowDrop = true;
+			//this.txtLeaveDaysBeforeSOP.AllowDrop = true;
 			// this.txtLeaveDaysBeforeSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtLeaveDaysBeforeSOP.Format = "###########0.000";
 			this.txtLeaveDaysBeforeSOP.Location = new System.Drawing.Point(138, 16);
@@ -280,7 +280,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.Label8.AllowDrop = true;
+			//this.Label8.AllowDrop = true;
 			this.Label8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label8.Text = "Working Days Per Month";
 			this.Label8.Location = new System.Drawing.Point(8, 39);
@@ -291,7 +291,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label9
 			// 
-			this.Label9.AllowDrop = true;
+			//this.Label9.AllowDrop = true;
 			this.Label9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label9.Text = "Leave Days";
 			this.Label9.Location = new System.Drawing.Point(8, 18);
@@ -302,7 +302,7 @@ namespace Xtreme
 			// 
 			// txtWDPerMonthBeforeSOP
 			// 
-			this.txtWDPerMonthBeforeSOP.AllowDrop = true;
+			//this.txtWDPerMonthBeforeSOP.AllowDrop = true;
 			// this.txtWDPerMonthBeforeSOP.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtWDPerMonthBeforeSOP.Format = "###########0.000";
 			this.txtWDPerMonthBeforeSOP.Location = new System.Drawing.Point(138, 37);
@@ -316,9 +316,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(143, 292);
@@ -331,7 +331,7 @@ namespace Xtreme
 			// 
 			// chkIncludeInDefaultLeaveTypes
 			// 
-			this.chkIncludeInDefaultLeaveTypes.AllowDrop = true;
+			//this.chkIncludeInDefaultLeaveTypes.AllowDrop = true;
 			this.chkIncludeInDefaultLeaveTypes.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIncludeInDefaultLeaveTypes.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkIncludeInDefaultLeaveTypes.CausesValidation = true;
@@ -351,7 +351,7 @@ namespace Xtreme
 			// 
 			// cmdUpdateEmployees
 			// 
-			this.cmdUpdateEmployees.AllowDrop = true;
+			//this.cmdUpdateEmployees.AllowDrop = true;
 			this.cmdUpdateEmployees.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdUpdateEmployees.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdUpdateEmployees.Location = new System.Drawing.Point(381, 520);
@@ -366,7 +366,7 @@ namespace Xtreme
 			// 
 			// Frame3
 			// 
-			this.Frame3.AllowDrop = true;
+			//this.Frame3.AllowDrop = true;
 			this.Frame3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame3.Controls.Add(this._txtCommonTextBox_0);
 			this.Frame3.Controls.Add(this._txtDisplayLabel_0);
@@ -386,7 +386,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(138, 22);
@@ -402,7 +402,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(239, 22);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(227, 19);
@@ -411,7 +411,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.Label7.AllowDrop = true;
+			//this.Label7.AllowDrop = true;
 			this.Label7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label7.Text = "Earning";
 			this.Label7.Location = new System.Drawing.Point(10, 25);
@@ -422,7 +422,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label10
 			// 
-			this.Label10.AllowDrop = true;
+			//this.Label10.AllowDrop = true;
 			this.Label10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label10.Text = "Deduction";
 			this.Label10.Location = new System.Drawing.Point(10, 44);
@@ -433,7 +433,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(138, 41);
@@ -449,7 +449,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(239, 41);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(227, 19);
@@ -458,7 +458,7 @@ namespace Xtreme
 			// 
 			// chkIncludeWeekend
 			// 
-			this.chkIncludeWeekend.AllowDrop = true;
+			//this.chkIncludeWeekend.AllowDrop = true;
 			this.chkIncludeWeekend.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIncludeWeekend.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkIncludeWeekend.CausesValidation = true;
@@ -478,7 +478,7 @@ namespace Xtreme
 			// 
 			// chkCalcOnCalendarDays
 			// 
-			this.chkCalcOnCalendarDays.AllowDrop = true;
+			//this.chkCalcOnCalendarDays.AllowDrop = true;
 			this.chkCalcOnCalendarDays.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkCalcOnCalendarDays.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkCalcOnCalendarDays.CausesValidation = true;
@@ -498,7 +498,7 @@ namespace Xtreme
 			// 
 			// cmbLeaveType
 			// 
-			this.cmbLeaveType.AllowDrop = true;
+			//this.cmbLeaveType.AllowDrop = true;
 			this.cmbLeaveType.Location = new System.Drawing.Point(149, 101);
 			this.cmbLeaveType.Name = "cmbLeaveType";
 			this.cmbLeaveType.Size = new System.Drawing.Size(115, 21);
@@ -506,7 +506,7 @@ namespace Xtreme
 			// 
 			// txtLeaveNo
 			// 
-			this.txtLeaveNo.AllowDrop = true;
+			//this.txtLeaveNo.AllowDrop = true;
 			this.txtLeaveNo.BackColor = System.Drawing.Color.White;
 			// this.txtLeaveNo.bolNumericOnly = true;
 			this.txtLeaveNo.ForeColor = System.Drawing.Color.Black;
@@ -523,7 +523,7 @@ namespace Xtreme
 			// 
 			// lblLeaveName
 			// 
-			this.lblLeaveName.AllowDrop = true;
+			//this.lblLeaveName.AllowDrop = true;
 			this.lblLeaveName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLeaveName.Text = "Leave Name (English)";
 			this.lblLeaveName.Location = new System.Drawing.Point(11, 61);
@@ -534,7 +534,7 @@ namespace Xtreme
 			// 
 			// txtLLeaveName
 			// 
-			this.txtLLeaveName.AllowDrop = true;
+			//this.txtLLeaveName.AllowDrop = true;
 			this.txtLLeaveName.BackColor = System.Drawing.Color.White;
 			this.txtLLeaveName.ForeColor = System.Drawing.Color.Black;
 			this.txtLLeaveName.Location = new System.Drawing.Point(149, 59);
@@ -547,7 +547,7 @@ namespace Xtreme
 			// 
 			// lblALeaveName
 			// 
-			this.lblALeaveName.AllowDrop = true;
+			//this.lblALeaveName.AllowDrop = true;
 			this.lblALeaveName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblALeaveName.Text = "Leave Name (Arabic)";
 			this.lblALeaveName.Location = new System.Drawing.Point(11, 82);
@@ -558,7 +558,7 @@ namespace Xtreme
 			// 
 			// txtALeaveName
 			// 
-			this.txtALeaveName.AllowDrop = true;
+			//this.txtALeaveName.AllowDrop = true;
 			this.txtALeaveName.BackColor = System.Drawing.Color.White;
 			this.txtALeaveName.ForeColor = System.Drawing.Color.Black;
 			this.txtALeaveName.Location = new System.Drawing.Point(149, 80);
@@ -572,7 +572,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(11, 292);
@@ -583,7 +583,7 @@ namespace Xtreme
 			// 
 			// lblLeaveNo
 			// 
-			this.lblLeaveNo.AllowDrop = true;
+			//this.lblLeaveNo.AllowDrop = true;
 			this.lblLeaveNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLeaveNo.Text = "Leave Code";
 			this.lblLeaveNo.Location = new System.Drawing.Point(11, 40);
@@ -594,7 +594,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label6.Text = "Leave Switch Over Period";
 			this.Label6.Location = new System.Drawing.Point(11, 143);
@@ -605,7 +605,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Leave Type";
 			this.Label1.Location = new System.Drawing.Point(11, 104);
@@ -616,7 +616,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "Deduct Paid Days";
 			this.Label4.Location = new System.Drawing.Point(8, 243);
@@ -627,7 +627,7 @@ namespace Xtreme
 			// 
 			// cmbDeductUnpaidDays
 			// 
-			this.cmbDeductUnpaidDays.AllowDrop = true;
+			//this.cmbDeductUnpaidDays.AllowDrop = true;
 			this.cmbDeductUnpaidDays.Location = new System.Drawing.Point(390, 238);
 			this.cmbDeductUnpaidDays.Name = "cmbDeductUnpaidDays";
 			this.cmbDeductUnpaidDays.Size = new System.Drawing.Size(99, 21);
@@ -635,7 +635,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "Deduct Unpaid Days";
 			this.Label5.Location = new System.Drawing.Point(258, 241);
@@ -646,7 +646,7 @@ namespace Xtreme
 			// 
 			// txtLeaveSwitchOverPeriod
 			// 
-			this.txtLeaveSwitchOverPeriod.AllowDrop = true;
+			//this.txtLeaveSwitchOverPeriod.AllowDrop = true;
 			// this.txtLeaveSwitchOverPeriod.DisplayFormat = "####0;;0";
 			this.txtLeaveSwitchOverPeriod.Location = new System.Drawing.Point(149, 140);
 			// // = 2147483647;
@@ -657,7 +657,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label11
 			// 
-			this.Label11.AllowDrop = true;
+			//this.Label11.AllowDrop = true;
 			this.Label11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label11.Text = "Deduct Absent Days";
 			this.Label11.Location = new System.Drawing.Point(8, 266);
@@ -668,7 +668,7 @@ namespace Xtreme
 			// 
 			// cmbDeductPaidDays
 			// 
-			this.cmbDeductPaidDays.AllowDrop = true;
+			//this.cmbDeductPaidDays.AllowDrop = true;
 			this.cmbDeductPaidDays.Location = new System.Drawing.Point(143, 240);
 			this.cmbDeductPaidDays.Name = "cmbDeductPaidDays";
 			this.cmbDeductPaidDays.Size = new System.Drawing.Size(96, 21);
@@ -676,7 +676,7 @@ namespace Xtreme
 			// 
 			// cmbDeductAbsentDays
 			// 
-			this.cmbDeductAbsentDays.AllowDrop = true;
+			//this.cmbDeductAbsentDays.AllowDrop = true;
 			this.cmbDeductAbsentDays.Location = new System.Drawing.Point(143, 263);
 			this.cmbDeductAbsentDays.Name = "cmbDeductAbsentDays";
 			this.cmbDeductAbsentDays.Size = new System.Drawing.Size(96, 21);
@@ -685,7 +685,7 @@ namespace Xtreme
 			// tabLeaveDetails
 			// 
 			//this.tabLeaveDetails.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabLeaveDetails.AllowDrop = true;
+			//this.tabLeaveDetails.AllowDrop = true;
 			this.tabLeaveDetails.Controls.Add(this.frmvalidityPeriod);
 			this.tabLeaveDetails.Controls.Add(this.frmLeaveEarnings);
 			this.tabLeaveDetails.Location = new System.Drawing.Point(8, 392);
@@ -696,7 +696,7 @@ namespace Xtreme
 			// 
 			// frmvalidityPeriod
 			// 
-			this.frmvalidityPeriod.AllowDrop = true;
+			//this.frmvalidityPeriod.AllowDrop = true;
 			this.frmvalidityPeriod.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.frmvalidityPeriod.Controls.Add(this._optValidity_0);
 			this.frmvalidityPeriod.Controls.Add(this._optValidity_1);
@@ -716,7 +716,7 @@ namespace Xtreme
 			// 
 			// _optValidity_0
 			// 
-			this._optValidity_0.AllowDrop = true;
+			//this._optValidity_0.AllowDrop = true;
 			this._optValidity_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optValidity_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optValidity_0.CausesValidation = true;
@@ -733,11 +733,11 @@ namespace Xtreme
 			this._optValidity_0.Text = "Per Fiscal Year";
 			this._optValidity_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optValidity_0.Visible = true;
-			this._optValidity_0.CheckedChanged += new System.EventHandler(this.optValidity_CheckedChanged);
+			//this._optValidity_0.CheckedChanged += new System.EventHandler(this.optValidity_CheckedChanged);
 			// 
 			// _optValidity_1
 			// 
-			this._optValidity_1.AllowDrop = true;
+			//this._optValidity_1.AllowDrop = true;
 			this._optValidity_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optValidity_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optValidity_1.CausesValidation = true;
@@ -754,11 +754,11 @@ namespace Xtreme
 			this._optValidity_1.Text = "Per Year";
 			this._optValidity_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optValidity_1.Visible = true;
-			this._optValidity_1.CheckedChanged += new System.EventHandler(this.optValidity_CheckedChanged);
+			//this._optValidity_1.CheckedChanged += new System.EventHandler(this.optValidity_CheckedChanged);
 			// 
 			// _optValidity_2
 			// 
-			this._optValidity_2.AllowDrop = true;
+			//this._optValidity_2.AllowDrop = true;
 			this._optValidity_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optValidity_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._optValidity_2.CausesValidation = true;
@@ -775,11 +775,11 @@ namespace Xtreme
 			this._optValidity_2.Text = "Per Employment";
 			this._optValidity_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optValidity_2.Visible = true;
-			this._optValidity_2.CheckedChanged += new System.EventHandler(this.optValidity_CheckedChanged);
+			//this._optValidity_2.CheckedChanged += new System.EventHandler(this.optValidity_CheckedChanged);
 			// 
 			// cmbMonth
 			// 
-			this.cmbMonth.AllowDrop = true;
+			//this.cmbMonth.AllowDrop = true;
 			this.cmbMonth.Location = new System.Drawing.Point(92, 38);
 			this.cmbMonth.Name = "cmbMonth";
 			this.cmbMonth.Size = new System.Drawing.Size(79, 21);
@@ -787,7 +787,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Month";
 			this.Label12.Location = new System.Drawing.Point(54, 41);
@@ -797,7 +797,7 @@ namespace Xtreme
 			// 
 			// txtEligibilityDays
 			// 
-			this.txtEligibilityDays.AllowDrop = true;
+			//this.txtEligibilityDays.AllowDrop = true;
 			// this.txtEligibilityDays.DisplayFormat = "####0;;0";
 			this.txtEligibilityDays.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtEligibilityDays.Location = new System.Drawing.Point(338, 22);
@@ -807,7 +807,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label13
 			// 
-			this.Label13.AllowDrop = true;
+			//this.Label13.AllowDrop = true;
 			this.Label13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label13.Text = "Eligbility Days";
 			this.Label13.Location = new System.Drawing.Point(240, 26);
@@ -818,7 +818,7 @@ namespace Xtreme
 			// frmLeaveEarnings
 			// 
 			//this.frmLeaveEarnings.Align = C1SizerLib.AlignSettings.asNone;
-			this.frmLeaveEarnings.AllowDrop = true;
+			//this.frmLeaveEarnings.AllowDrop = true;
 			this.frmLeaveEarnings.Controls.Add(this.cmbMastersList);
 			this.frmLeaveEarnings.Controls.Add(this.grdLeaveEarningDetails);
 			this.frmLeaveEarnings.Location = new System.Drawing.Point(522, 23);
@@ -830,7 +830,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(16, 120);
@@ -852,7 +852,7 @@ namespace Xtreme
 			// 
 			// grdLeaveEarningDetails
 			// 
-			this.grdLeaveEarningDetails.AllowDrop = true;
+			//this.grdLeaveEarningDetails.AllowDrop = true;
 			this.grdLeaveEarningDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdLeaveEarningDetails.CellTipsWidth = 0;
 			this.grdLeaveEarningDetails.Location = new System.Drawing.Point(0, 0);
@@ -862,8 +862,8 @@ namespace Xtreme
 			this.grdLeaveEarningDetails.TabIndex = 42;
 			this.grdLeaveEarningDetails.Columns.Add(this.Column_0_grdLeaveEarningDetails);
 			this.grdLeaveEarningDetails.Columns.Add(this.Column_1_grdLeaveEarningDetails);
-			this.grdLeaveEarningDetails.GotFocus += new System.EventHandler(this.grdLeaveEarningDetails_GotFocus);
-			this.grdLeaveEarningDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLeaveEarningDetails_RowColChange);
+			//this.grdLeaveEarningDetails.GotFocus += new System.EventHandler(this.grdLeaveEarningDetails_GotFocus);
+			//this.grdLeaveEarningDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLeaveEarningDetails_RowColChange);
 			// 
 			// Column_0_grdLeaveEarningDetails
 			// 

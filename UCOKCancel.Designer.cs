@@ -32,7 +32,7 @@ namespace Xtreme
 			// 
 			// _cmdButton_1
 			// 
-			this._cmdButton_1.AllowDrop = true;
+			//this._cmdButton_1.AllowDrop = true;
 			this._cmdButton_1.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdButton_1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._cmdButton_1.Location = new System.Drawing.Point(104, 0);
@@ -48,7 +48,7 @@ namespace Xtreme
 			// 
 			// _cmdButton_0
 			// 
-			this._cmdButton_0.AllowDrop = true;
+			//this._cmdButton_0.AllowDrop = true;
 			this._cmdButton_0.BackColor = System.Drawing.SystemColors.Control;
 			this._cmdButton_0.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._cmdButton_0.Location = new System.Drawing.Point(0, 0);

@@ -60,7 +60,7 @@ namespace Xtreme
 			// 
 			// cmdClose
 			// 
-			this.cmdClose.AllowDrop = true;
+			//this.cmdClose.AllowDrop = true;
 			this.cmdClose.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdClose.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdClose.Location = new System.Drawing.Point(364, 230);
@@ -75,9 +75,9 @@ namespace Xtreme
 			// 
 			// lblLicensedToCompnayName
 			// 
-			this.lblLicensedToCompnayName.AllowDrop = true;
+			//this.lblLicensedToCompnayName.AllowDrop = true;
 			this.lblLicensedToCompnayName.BackColor = System.Drawing.Color.Transparent;
-			this.lblLicensedToCompnayName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblLicensedToCompnayName.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblLicensedToCompnayName.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblLicensedToCompnayName.Location = new System.Drawing.Point(0, 200);
 			this.lblLicensedToCompnayName.Name = "lblLicensedToCompnayName";
@@ -88,9 +88,9 @@ namespace Xtreme
 			// 
 			// lblLastUpdateDate
 			// 
-			this.lblLastUpdateDate.AllowDrop = true;
+			//this.lblLastUpdateDate.AllowDrop = true;
 			this.lblLastUpdateDate.BackColor = System.Drawing.Color.Transparent;
-			this.lblLastUpdateDate.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblLastUpdateDate.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblLastUpdateDate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblLastUpdateDate.Location = new System.Drawing.Point(280, 8);
 			this.lblLastUpdateDate.Name = "lblLastUpdateDate";
@@ -101,9 +101,9 @@ namespace Xtreme
 			// 
 			// lblCopyright
 			// 
-			this.lblCopyright.AllowDrop = true;
+			//this.lblCopyright.AllowDrop = true;
 			this.lblCopyright.BackColor = System.Drawing.Color.Transparent;
-			this.lblCopyright.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblCopyright.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblCopyright.Font = new System.Drawing.Font("Tahoma", 6.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblCopyright.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblCopyright.Location = new System.Drawing.Point(2, 224);
@@ -115,8 +115,8 @@ namespace Xtreme
 			// 
 			// imgBackground
 			// 
-			this.imgBackground.AllowDrop = true;
-			this.imgBackground.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.imgBackground.AllowDrop = true;
+			//this.imgBackground.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.imgBackground.Enabled = true;
 			//this.imgBackground.Image = (System.Drawing.Image) resources.GetObject("imgBackground.Image");
 			this.imgBackground.Location = new System.Drawing.Point(0, 0);

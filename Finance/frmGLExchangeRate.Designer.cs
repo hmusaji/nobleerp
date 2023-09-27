@@ -87,7 +87,7 @@ namespace Xtreme
 			// 
 			// fraMainInformation
 			// 
-			this.fraMainInformation.AllowDrop = true;
+			//this.fraMainInformation.AllowDrop = true;
 			this.fraMainInformation.Controls.Add(this.txtSaleRate);
 			this.fraMainInformation.Controls.Add(this.txtBuyRate);
 			this.fraMainInformation.Controls.Add(this.txtStdRate);
@@ -107,7 +107,7 @@ namespace Xtreme
 			// 
 			// txtSaleRate
 			// 
-			this.txtSaleRate.AllowDrop = true;
+			//this.txtSaleRate.AllowDrop = true;
 			// this.txtSaleRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtSaleRate.Format = "###########0.000";
 			this.txtSaleRate.Location = new System.Drawing.Point(103, 100);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// txtBuyRate
 			// 
-			this.txtBuyRate.AllowDrop = true;
+			//this.txtBuyRate.AllowDrop = true;
 			// this.txtBuyRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtBuyRate.Format = "###########0.000";
 			this.txtBuyRate.Location = new System.Drawing.Point(103, 79);
@@ -133,7 +133,7 @@ namespace Xtreme
 			// 
 			// txtStdRate
 			// 
-			this.txtStdRate.AllowDrop = true;
+			//this.txtStdRate.AllowDrop = true;
 			// this.txtStdRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtStdRate.Format = "###########0.000";
 			this.txtStdRate.Location = new System.Drawing.Point(103, 58);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// lblSaleRate
 			// 
-			this.lblSaleRate.AllowDrop = true;
+			//this.lblSaleRate.AllowDrop = true;
 			this.lblSaleRate.BackColor = System.Drawing.SystemColors.Window;
 			// this.lblSaleRate.Text = "Selling Rate";
 			this.lblSaleRate.Location = new System.Drawing.Point(12, 102);
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// lblBuyRate
 			// 
-			this.lblBuyRate.AllowDrop = true;
+			//this.lblBuyRate.AllowDrop = true;
 			this.lblBuyRate.BackColor = System.Drawing.SystemColors.Window;
 			// this.lblBuyRate.Text = "Buying Rate";
 			this.lblBuyRate.Location = new System.Drawing.Point(12, 81);
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// lblDate
 			// 
-			this.lblDate.AllowDrop = true;
+			//this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.SystemColors.Window;
 			// this.lblDate.Text = "Date";
 			this.lblDate.Location = new System.Drawing.Point(12, 18);
@@ -176,7 +176,7 @@ namespace Xtreme
 			// 
 			// txtdate
 			// 
-			this.txtdate.AllowDrop = true;
+			//this.txtdate.AllowDrop = true;
 			this.txtdate.Location = new System.Drawing.Point(103, 16);
 			// this.txtdate.MaxDate = 2958465;
 			// this.txtdate.MinDate = -657434;
@@ -188,7 +188,7 @@ namespace Xtreme
 			// 
 			// lblStdRate
 			// 
-			this.lblStdRate.AllowDrop = true;
+			//this.lblStdRate.AllowDrop = true;
 			this.lblStdRate.BackColor = System.Drawing.SystemColors.Window;
 			// this.lblStdRate.Text = "Standard Rate";
 			this.lblStdRate.Location = new System.Drawing.Point(12, 60);
@@ -198,7 +198,7 @@ namespace Xtreme
 			// 
 			// txtCurrSymbol
 			// 
-			this.txtCurrSymbol.AllowDrop = true;
+			//this.txtCurrSymbol.AllowDrop = true;
 			this.txtCurrSymbol.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtCurrSymbol.Enabled = false;
 			this.txtCurrSymbol.ForeColor = System.Drawing.Color.Black;
@@ -210,7 +210,7 @@ namespace Xtreme
 			// 
 			// txtCurrNo
 			// 
-			this.txtCurrNo.AllowDrop = true;
+			//this.txtCurrNo.AllowDrop = true;
 			this.txtCurrNo.BackColor = System.Drawing.Color.White;
 			this.txtCurrNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCurrNo.Location = new System.Drawing.Point(103, 37);
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Currency Code";
 			this.Label1.Location = new System.Drawing.Point(12, 39);
@@ -234,9 +234,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(116, 4);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(116, 4);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmGLExchangeRate
@@ -248,7 +248,7 @@ namespace Xtreme
 			this.BackColor = System.Drawing.Color.FromArgb(213, 213, 213);
 			this.ClientSize = new System.Drawing.Size(400, 186);
 			this.Controls.Add(this.fraMainInformation);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLExchangeRate.Icon");
 			this.KeyPreview = true;

@@ -53,7 +53,7 @@ namespace Xtreme
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtImportToDate;
 		private System.Windows.Forms.Label Label_4;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		//public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		//public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.GroupBox frmImport1;
 		public Syncfusion.Windows.Forms.Tools.TabPageAdv tbExport;
 		public System.Windows.Forms.Button cmdExport;
@@ -103,7 +103,7 @@ namespace Xtreme
 			this.txtImportToDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.Label_4 = new System.Windows.Forms.Label();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			//this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			//this.CommonDialog1 = new AxCommonDialog();
 			this.tbImport = new Syncfusion.Windows.Forms.Tools.TabPageAdv();
 			this.cmdExport = new System.Windows.Forms.Button();
 			this.Frame1 = new System.Windows.Forms.GroupBox();
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// tbTabControl
 			// 
-			this.tbTabControl.AllowDrop = true;
+			//this.tbTabControl.AllowDrop = true;
 			this.tbTabControl.Controls.Add(this.tbExport);
 			this.tbTabControl.Controls.Add(this.tbImport);
 			this.tbTabControl.Controls.Add(this.TabControlPage1);
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// tbExport
 			// 
-			this.tbExport.AllowDrop = true;
+			//this.tbExport.AllowDrop = true;
 			this.tbExport.Controls.Add(this.frmImport2);
 			this.tbExport.Controls.Add(this.cmdImport);
 			this.tbExport.Controls.Add(this.frmImport1);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// frmImport2
 			// 
-			this.frmImport2.AllowDrop = true;
+			//this.frmImport2.AllowDrop = true;
 			this.frmImport2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.frmImport2.Controls.Add(this.chkPostTransactions);
 			this.frmImport2.Controls.Add(this.txtImportPath);
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// chkPostTransactions
 			// 
-			this.chkPostTransactions.AllowDrop = true;
+			//this.chkPostTransactions.AllowDrop = true;
 			this.chkPostTransactions.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkPostTransactions.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkPostTransactions.CausesValidation = true;
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// txtImportPath
 			// 
-			this.txtImportPath.AllowDrop = true;
+			//this.txtImportPath.AllowDrop = true;
 			this.txtImportPath.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtImportPath.ForeColor = System.Drawing.Color.Black;
@@ -217,7 +217,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "File Path";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// lblImportStatus
 			// 
-			this.lblImportStatus.AllowDrop = true;
+			//this.lblImportStatus.AllowDrop = true;
 			this.lblImportStatus.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblImportStatus.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.lblImportStatus.Location = new System.Drawing.Point(10, 36);
@@ -238,7 +238,7 @@ namespace Xtreme
 			// 
 			// ImportProgress
 			// 
-			this.ImportProgress.AllowDrop = true;
+			//this.ImportProgress.AllowDrop = true;
 			this.ImportProgress.Location = new System.Drawing.Point(6, 54);
 			this.ImportProgress.Name = "ImportProgress";
 			//
@@ -247,7 +247,7 @@ namespace Xtreme
 			// 
 			// cmdImport
 			// 
-			this.cmdImport.AllowDrop = true;
+			//this.cmdImport.AllowDrop = true;
 			this.cmdImport.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdImport.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdImport.Location = new System.Drawing.Point(340, 190);
@@ -262,7 +262,7 @@ namespace Xtreme
 			// 
 			// frmImport1
 			// 
-			this.frmImport1.AllowDrop = true;
+			//this.frmImport1.AllowDrop = true;
 			this.frmImport1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.frmImport1.Controls.Add(this.txtImportDisplayLocation);
 			this.frmImport1.Controls.Add(this.Label_2);
@@ -283,7 +283,7 @@ namespace Xtreme
 			// 
 			// txtImportDisplayLocation
 			// 
-			this.txtImportDisplayLocation.AllowDrop = true;
+			//this.txtImportDisplayLocation.AllowDrop = true;
 			this.txtImportDisplayLocation.BackColor = System.Drawing.Color.White;
 			this.txtImportDisplayLocation.Enabled = false;
 			this.txtImportDisplayLocation.Location = new System.Drawing.Point(172, 12);
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// Label_2
 			// 
-			this.Label_2.AllowDrop = true;
+			//this.Label_2.AllowDrop = true;
 			this.Label_2.BackColor = System.Drawing.SystemColors.Window;
 			// = VSReport8Lib.BackStyleSettings.vsrTransparent;
 			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -304,7 +304,7 @@ namespace Xtreme
 			// 
 			// lblImportLocation
 			// 
-			this.lblImportLocation.AllowDrop = true;
+			//this.lblImportLocation.AllowDrop = true;
 			this.lblImportLocation.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblImportLocation.Text = "From Location";
 			this.lblImportLocation.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -315,7 +315,7 @@ namespace Xtreme
 			// 
 			// txtImportLocationCode
 			// 
-			this.txtImportLocationCode.AllowDrop = true;
+			//this.txtImportLocationCode.AllowDrop = true;
 			this.txtImportLocationCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtImportLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -332,7 +332,7 @@ namespace Xtreme
 			// 
 			// txtImportFromDate
 			// 
-			this.txtImportFromDate.AllowDrop = true;
+			//this.txtImportFromDate.AllowDrop = true;
 			// this.txtImportFromDate.CheckDateRange = false;
 			this.txtImportFromDate.Location = new System.Drawing.Point(80, 34);
 			// this.txtImportFromDate.MaxDate = 2958465;
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// Label_3
 			// 
-			this.Label_3.AllowDrop = true;
+			//this.Label_3.AllowDrop = true;
 			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_3.Text = "From Date";
 			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -356,7 +356,7 @@ namespace Xtreme
 			// 
 			// txtImportToDate
 			// 
-			this.txtImportToDate.AllowDrop = true;
+			//this.txtImportToDate.AllowDrop = true;
 			// this.txtImportToDate.CheckDateRange = false;
 			this.txtImportToDate.Location = new System.Drawing.Point(80, 56);
 			// this.txtImportToDate.MaxDate = 2958465;
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			// Label_4
 			// 
-			this.Label_4.AllowDrop = true;
+			//this.Label_4.AllowDrop = true;
 			this.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_4.Text = "To Date";
 			this.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -380,7 +380,7 @@ namespace Xtreme
 			// 
 			// tbImport
 			// 
-			this.tbImport.AllowDrop = true;
+			//this.tbImport.AllowDrop = true;
 			this.tbImport.Controls.Add(this.cmdExport);
 			this.tbImport.Controls.Add(this.Frame1);
 			this.tbImport.Controls.Add(this.Frame);
@@ -392,7 +392,7 @@ namespace Xtreme
 			// 
 			// cmdExport
 			// 
-			this.cmdExport.AllowDrop = true;
+			//this.cmdExport.AllowDrop = true;
 			this.cmdExport.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdExport.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdExport.Location = new System.Drawing.Point(340, 190);
@@ -407,7 +407,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame1.Controls.Add(this.txtExportPath);
 			this.Frame1.Controls.Add(this.lblPath);
@@ -424,7 +424,7 @@ namespace Xtreme
 			// 
 			// txtExportPath
 			// 
-			this.txtExportPath.AllowDrop = true;
+			//this.txtExportPath.AllowDrop = true;
 			this.txtExportPath.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtExportPath.ForeColor = System.Drawing.Color.Black;
@@ -440,7 +440,7 @@ namespace Xtreme
 			// 
 			// lblPath
 			// 
-			this.lblPath.AllowDrop = true;
+			//this.lblPath.AllowDrop = true;
 			this.lblPath.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPath.Text = "File Path";
 			this.lblPath.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -451,7 +451,7 @@ namespace Xtreme
 			// 
 			// lblExportStatus
 			// 
-			this.lblExportStatus.AllowDrop = true;
+			//this.lblExportStatus.AllowDrop = true;
 			this.lblExportStatus.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblExportStatus.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.lblExportStatus.Location = new System.Drawing.Point(8, 36);
@@ -461,7 +461,7 @@ namespace Xtreme
 			// 
 			// ExportProgress
 			// 
-			this.ExportProgress.AllowDrop = true;
+			//this.ExportProgress.AllowDrop = true;
 			this.ExportProgress.Location = new System.Drawing.Point(4, 54);
 			this.ExportProgress.Name = "ExportProgress";
 			//
@@ -470,7 +470,7 @@ namespace Xtreme
 			// 
 			// Frame
 			// 
-			this.Frame.AllowDrop = true;
+			//this.Frame.AllowDrop = true;
 			this.Frame.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Frame.Controls.Add(this.txtExportDisplayLocation);
 			this.Frame.Controls.Add(this.Label_0);
@@ -491,7 +491,7 @@ namespace Xtreme
 			// 
 			// txtExportDisplayLocation
 			// 
-			this.txtExportDisplayLocation.AllowDrop = true;
+			//this.txtExportDisplayLocation.AllowDrop = true;
 			this.txtExportDisplayLocation.BackColor = System.Drawing.Color.White;
 			this.txtExportDisplayLocation.Enabled = false;
 			this.txtExportDisplayLocation.Location = new System.Drawing.Point(170, 12);
@@ -501,7 +501,7 @@ namespace Xtreme
 			// 
 			// Label_0
 			// 
-			this.Label_0.AllowDrop = true;
+			//this.Label_0.AllowDrop = true;
 			this.Label_0.BackColor = System.Drawing.SystemColors.Window;
 			// = VSReport8Lib.BackStyleSettings.vsrTransparent;
 			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -512,7 +512,7 @@ namespace Xtreme
 			// 
 			// lblExportLocation
 			// 
-			this.lblExportLocation.AllowDrop = true;
+			//this.lblExportLocation.AllowDrop = true;
 			this.lblExportLocation.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblExportLocation.Text = "To Location";
 			this.lblExportLocation.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -523,7 +523,7 @@ namespace Xtreme
 			// 
 			// txtExportLocationCode
 			// 
-			this.txtExportLocationCode.AllowDrop = true;
+			//this.txtExportLocationCode.AllowDrop = true;
 			this.txtExportLocationCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtExportLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -540,7 +540,7 @@ namespace Xtreme
 			// 
 			// txtExportFromDate
 			// 
-			this.txtExportFromDate.AllowDrop = true;
+			//this.txtExportFromDate.AllowDrop = true;
 			// this.txtExportFromDate.CheckDateRange = false;
 			this.txtExportFromDate.Location = new System.Drawing.Point(80, 34);
 			// this.txtExportFromDate.MaxDate = 2958465;
@@ -553,7 +553,7 @@ namespace Xtreme
 			// 
 			// Label_7
 			// 
-			this.Label_7.AllowDrop = true;
+			//this.Label_7.AllowDrop = true;
 			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_7.Text = "From Date";
 			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -564,7 +564,7 @@ namespace Xtreme
 			// 
 			// txtExportToDate
 			// 
-			this.txtExportToDate.AllowDrop = true;
+			//this.txtExportToDate.AllowDrop = true;
 			// this.txtExportToDate.CheckDateRange = false;
 			this.txtExportToDate.Location = new System.Drawing.Point(80, 56);
 			// this.txtExportToDate.MaxDate = 2958465;
@@ -577,7 +577,7 @@ namespace Xtreme
 			// 
 			// Label_1
 			// 
-			this.Label_1.AllowDrop = true;
+			//this.Label_1.AllowDrop = true;
 			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_1.Text = "To Date";
 			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -588,7 +588,7 @@ namespace Xtreme
 			// 
 			// TabControlPage1
 			// 
-			this.TabControlPage1.AllowDrop = true;
+			//this.TabControlPage1.AllowDrop = true;
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 26);
 			this.TabControlPage1.Name = "TabControlPage1";
 			//

@@ -74,7 +74,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Document Place (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// txtDocNo
 			// 
-			this.txtDocNo.AllowDrop = true;
+			//this.txtDocNo.AllowDrop = true;
 			this.txtDocNo.BackColor = System.Drawing.Color.White;
 			// this.txtDocNo.bolNumericOnly = true;
 			this.txtDocNo.ForeColor = System.Drawing.Color.Black;
@@ -102,7 +102,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Document Place Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Document Place (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// txtLDocName
 			// 
-			this.txtLDocName.AllowDrop = true;
+			//this.txtLDocName.AllowDrop = true;
 			this.txtLDocName.BackColor = System.Drawing.Color.White;
 			this.txtLDocName.ForeColor = System.Drawing.Color.Black;
 			this.txtLDocName.Location = new System.Drawing.Point(131, 78);
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// txtADocName
 			// 
-			this.txtADocName.AllowDrop = true;
+			//this.txtADocName.AllowDrop = true;
 			this.txtADocName.BackColor = System.Drawing.Color.White;
 			this.txtADocName.ForeColor = System.Drawing.Color.Black;
 			this.txtADocName.Location = new System.Drawing.Point(130, 99);
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(130, 120);

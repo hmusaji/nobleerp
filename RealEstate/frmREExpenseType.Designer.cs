@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// lblExpNo
 			// 
-			this.lblExpNo.AllowDrop = true;
+			//this.lblExpNo.AllowDrop = true;
 			this.lblExpNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblExpNo.Text = "Expense Type Code";
 			this.lblExpNo.ForeColor = System.Drawing.Color.Black;
@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// txtSmanNo
 			// 
-			this.txtSmanNo.AllowDrop = true;
+			//this.txtSmanNo.AllowDrop = true;
 			this.txtSmanNo.BackColor = System.Drawing.Color.White;
 			// this.txtSmanNo.bolNumericOnly = true;
 			this.txtSmanNo.ForeColor = System.Drawing.Color.Black;
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// lblLSmanName
 			// 
-			this.lblLSmanName.AllowDrop = true;
+			//this.lblLSmanName.AllowDrop = true;
 			this.lblLSmanName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLSmanName.Text = "Expense Name (English)";
 			this.lblLSmanName.ForeColor = System.Drawing.Color.Black;
@@ -107,7 +107,7 @@ namespace Xtreme
 			// 
 			// lblASmanName
 			// 
-			this.lblASmanName.AllowDrop = true;
+			//this.lblASmanName.AllowDrop = true;
 			this.lblASmanName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblASmanName.Text = "Expense Name (Arabic)";
 			this.lblASmanName.ForeColor = System.Drawing.Color.Black;
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// txtLSmanName
 			// 
-			this.txtLSmanName.AllowDrop = true;
+			//this.txtLSmanName.AllowDrop = true;
 			this.txtLSmanName.BackColor = System.Drawing.Color.White;
 			this.txtLSmanName.ForeColor = System.Drawing.Color.Black;
 			this.txtLSmanName.Location = new System.Drawing.Point(135, 64);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// txtASmanName
 			// 
-			this.txtASmanName.AllowDrop = true;
+			//this.txtASmanName.AllowDrop = true;
 			this.txtASmanName.BackColor = System.Drawing.Color.White;
 			this.txtASmanName.ForeColor = System.Drawing.Color.Black;
 			this.txtASmanName.Location = new System.Drawing.Point(135, 92);

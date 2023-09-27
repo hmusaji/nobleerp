@@ -91,19 +91,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(141, 202);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 4;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.chkIncludeAllLocations);
 			this.cntMainParameter.Controls.Add(this.lblDateRange);
 			this.cntMainParameter.Controls.Add(this.fraDateRange);
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// chkIncludeAllLocations
 			// 
-			this.chkIncludeAllLocations.AllowDrop = true;
+			//this.chkIncludeAllLocations.AllowDrop = true;
 			this.chkIncludeAllLocations.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIncludeAllLocations.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			this.chkIncludeAllLocations.CausesValidation = true;
@@ -140,11 +140,11 @@ namespace Xtreme
 			this.chkIncludeAllLocations.Text = "Include All Locations";
 			this.chkIncludeAllLocations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkIncludeAllLocations.Visible = true;
-			this.chkIncludeAllLocations.CheckStateChanged += new System.EventHandler(this.chkIncludeAllLocations_CheckStateChanged);
+			//this.chkIncludeAllLocations.CheckStateChanged += new System.EventHandler(this.chkIncludeAllLocations_CheckStateChanged);
 			// 
 			// lblDateRange
 			// 
-			this.lblDateRange.AllowDrop = true;
+			//this.lblDateRange.AllowDrop = true;
 			this.lblDateRange.BackColor = System.Drawing.SystemColors.Window;
 			this.lblDateRange.Text = "  Date Range ";
 			this.lblDateRange.ForeColor = System.Drawing.Color.Black;
@@ -156,9 +156,9 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
-			this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraDateRange.Controls.Add(this.lblToDate);
 			this.fraDateRange.Controls.Add(this.txtAsOnDate);
 			this.fraDateRange.Enabled = true;
@@ -172,7 +172,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.SystemColors.Window;
 			// this.lblToDate.Text = "As On Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// txtAsOnDate
 			// 
-			this.txtAsOnDate.AllowDrop = true;
+			//this.txtAsOnDate.AllowDrop = true;
 			// this.txtAsOnDate.CheckDateRange = false;
 			this.txtAsOnDate.Location = new System.Drawing.Point(85, 20);
 			// this.txtAsOnDate.MaxDate = 2958465;
@@ -196,7 +196,7 @@ namespace Xtreme
 			// 
 			// txtLocationCode
 			// 
-			this.txtLocationCode.AllowDrop = true;
+			//this.txtLocationCode.AllowDrop = true;
 			this.txtLocationCode.BackColor = System.Drawing.Color.White;
 			this.txtLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.txtLocationCode.Location = new System.Drawing.Point(101, 32);
@@ -210,7 +210,7 @@ namespace Xtreme
 			// 
 			// txtVoucherType
 			// 
-			this.txtVoucherType.AllowDrop = true;
+			//this.txtVoucherType.AllowDrop = true;
 			this.txtVoucherType.BackColor = System.Drawing.Color.White;
 			this.txtVoucherType.ForeColor = System.Drawing.Color.Black;
 			this.txtVoucherType.Location = new System.Drawing.Point(101, 11);
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// txtTransactionDate
 			// 
-			this.txtTransactionDate.AllowDrop = true;
+			//this.txtTransactionDate.AllowDrop = true;
 			// this.txtTransactionDate.CheckDateRange = false;
 			this.txtTransactionDate.Location = new System.Drawing.Point(101, 53);
 			// this.txtTransactionDate.MaxDate = 2958465;
@@ -237,7 +237,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Transaction Date";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblLocationCode.Text = "Location Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// lblMasterCode
 			// 
-			this.lblMasterCode.AllowDrop = true;
+			//this.lblMasterCode.AllowDrop = true;
 			this.lblMasterCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblMasterCode.Text = "Voucher Type";
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
@@ -272,7 +272,7 @@ namespace Xtreme
 			// 
 			// txtLocationName
 			// 
-			this.txtLocationName.AllowDrop = true;
+			//this.txtLocationName.AllowDrop = true;
 			this.txtLocationName.Location = new System.Drawing.Point(204, 32);
 			this.txtLocationName.Name = "txtLocationName";
 			this.txtLocationName.Size = new System.Drawing.Size(201, 19);
@@ -280,7 +280,7 @@ namespace Xtreme
 			// 
 			// txtVoucherName
 			// 
-			this.txtVoucherName.AllowDrop = true;
+			//this.txtVoucherName.AllowDrop = true;
 			this.txtVoucherName.Location = new System.Drawing.Point(204, 11);
 			this.txtVoucherName.Name = "txtVoucherName";
 			this.txtVoucherName.Size = new System.Drawing.Size(201, 19);

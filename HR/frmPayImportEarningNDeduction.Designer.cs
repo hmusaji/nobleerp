@@ -53,7 +53,7 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdMigrate;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdMigrate2;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.Label lblProgress;
 		public System.Windows.Forms.Label Line1;
 		//NOTE: The following procedure is required by the Windows Form Designer
@@ -73,14 +73,14 @@ namespace Xtreme
 			this.cmdMigrate = new System.Windows.Forms.Button();
 			this.grdMigrate2 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.CommonDialog1 = new AxCommonDialog();
 			this.lblProgress = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// btnDeleteLine
 			// 
-			this.btnDeleteLine.AllowDrop = true;
+			//this.btnDeleteLine.AllowDrop = true;
 			this.btnDeleteLine.BackColor = System.Drawing.SystemColors.Control;
 			this.btnDeleteLine.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnDeleteLine.Location = new System.Drawing.Point(225, 36);
@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Enabled = false;
 			this.Label1.Location = new System.Drawing.Point(12, 9);
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// txtDMonthDate
 			// 
-			this.txtDMonthDate.AllowDrop = true;
+			//this.txtDMonthDate.AllowDrop = true;
 			this.txtDMonthDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDMonthDate.CheckDateRange = false;
 			this.txtDMonthDate.Enabled = false;
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// chkExcludeLeaveEmployee
 			// 
-			this.chkExcludeLeaveEmployee.AllowDrop = true;
+			//this.chkExcludeLeaveEmployee.AllowDrop = true;
 			this.chkExcludeLeaveEmployee.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkExcludeLeaveEmployee.BackColor = System.Drawing.SystemColors.Control;
 			this.chkExcludeLeaveEmployee.CausesValidation = true;
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// btnLoadGrid
 			// 
-			this.btnLoadGrid.AllowDrop = true;
+			//this.btnLoadGrid.AllowDrop = true;
 			this.btnLoadGrid.BackColor = System.Drawing.SystemColors.Control;
 			this.btnLoadGrid.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnLoadGrid.Location = new System.Drawing.Point(12, 66);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// cmdMigrate
 			// 
-			this.cmdMigrate.AllowDrop = true;
+			//this.cmdMigrate.AllowDrop = true;
 			this.cmdMigrate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdMigrate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdMigrate.Location = new System.Drawing.Point(114, 66);
@@ -174,7 +174,7 @@ namespace Xtreme
 			// grdMigrate2
 			// 
 			this.grdMigrate2.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdMigrate2.AllowDrop = true;
+			//this.grdMigrate2.AllowDrop = true;
 			this.grdMigrate2.AllowEditing = true;
 			this.grdMigrate2.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdMigrate2.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -185,8 +185,8 @@ namespace Xtreme
 			this.grdMigrate2.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdMigrate2.AutoSearchDelay = 5;
 			this.grdMigrate2.BackColor = System.Drawing.SystemColors.Window;
-			this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdMigrate2.Cols.Count = 10;
 			this.grdMigrate2.Cols.Fixed = 1;
 			this.grdMigrate2.Cols.Frozen = 0;
@@ -244,9 +244,9 @@ namespace Xtreme
 			// 
 			// lblProgress
 			// 
-			this.lblProgress.AllowDrop = true;
+			//this.lblProgress.AllowDrop = true;
 			this.lblProgress.BackColor = System.Drawing.SystemColors.Control;
-			this.lblProgress.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblProgress.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblProgress.ForeColor = System.Drawing.Color.Red;
 			this.lblProgress.Location = new System.Drawing.Point(225, 66);
 			this.lblProgress.Name = "lblProgress";
@@ -256,9 +256,9 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(3, 99);
 			this.Line1.Name = "Line1";

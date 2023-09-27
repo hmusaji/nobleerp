@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.BackColor = System.Drawing.SystemColors.Window;
 			this._txtDisplayLabel_0.Enabled = false;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(198, 96);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(338, 52);
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// txtTransDate
 			// 
-			this.txtTransDate.AllowDrop = true;
+			//this.txtTransDate.AllowDrop = true;
 			// this.txtTransDate.CheckDateRange = false;
 			this.txtTransDate.Location = new System.Drawing.Point(431, 50);
 			// this.txtTransDate.MaxDate = 2958465;
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(2, 52);
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.CausesValidation = false;
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Employee Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(2, 98);
@@ -172,7 +172,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_2
 			// 
-			this._txtCommonTextBox_2.AllowDrop = true;
+			//this._txtCommonTextBox_2.AllowDrop = true;
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(90, 96);
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(90, 118);
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Transaction Type";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(2, 74);
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Remarks";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 120);
@@ -227,7 +227,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_0
 			// 
-			this._cmbCommon_0.AllowDrop = true;
+			//this._cmbCommon_0.AllowDrop = true;
 			this._cmbCommon_0.Location = new System.Drawing.Point(90, 72);
 			this._cmbCommon_0.Name = "_cmbCommon_0";
 			this._cmbCommon_0.Size = new System.Drawing.Size(107, 21);
@@ -236,7 +236,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(8, 340);
@@ -258,7 +258,7 @@ namespace Xtreme
 			// 
 			// grdAssetTransDetails
 			// 
-			this.grdAssetTransDetails.AllowDrop = true;
+			//this.grdAssetTransDetails.AllowDrop = true;
 			this.grdAssetTransDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdAssetTransDetails.CellTipsWidth = 0;
 			this.grdAssetTransDetails.Location = new System.Drawing.Point(4, 144);
@@ -268,8 +268,8 @@ namespace Xtreme
 			this.grdAssetTransDetails.TabIndex = 5;
 			this.grdAssetTransDetails.Columns.Add(this.Column_0_grdAssetTransDetails);
 			this.grdAssetTransDetails.Columns.Add(this.Column_1_grdAssetTransDetails);
-			this.grdAssetTransDetails.GotFocus += new System.EventHandler(this.grdAssetTransDetails_GotFocus);
-			this.grdAssetTransDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdAssetTransDetails_RowColChange);
+			//this.grdAssetTransDetails.GotFocus += new System.EventHandler(this.grdAssetTransDetails_GotFocus);
+			//this.grdAssetTransDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdAssetTransDetails_RowColChange);
 			// 
 			// Column_0_grdAssetTransDetails
 			// 

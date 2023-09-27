@@ -79,7 +79,7 @@ namespace Xtreme
 			// 
 			// Label1_2079
 			// 
-			this.Label1_2079.AllowDrop = true;
+			//this.Label1_2079.AllowDrop = true;
 			this.Label1_2079.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1_2079.Text = "Popup Type";
 			this.Label1_2079.Location = new System.Drawing.Point(8, 46);
@@ -89,7 +89,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.SystemColors.Window;
 			this.Label2.Text = "Assign User For Popup";
 			this.Label2.Location = new System.Drawing.Point(4, 82);
@@ -100,7 +100,7 @@ namespace Xtreme
 			// 
 			// txtPopupTypeCdName
 			// 
-			this.txtPopupTypeCdName.AllowDrop = true;
+			//this.txtPopupTypeCdName.AllowDrop = true;
 			this.txtPopupTypeCdName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtPopupTypeCdName.Enabled = false;
 			this.txtPopupTypeCdName.Location = new System.Drawing.Point(205, 44);
@@ -110,7 +110,7 @@ namespace Xtreme
 			// 
 			// txtPopupTypeCd
 			// 
-			this.txtPopupTypeCd.AllowDrop = true;
+			//this.txtPopupTypeCd.AllowDrop = true;
 			this.txtPopupTypeCd.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtPopupTypeCd.ForeColor = System.Drawing.Color.Black;
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 106);
@@ -137,7 +137,7 @@ namespace Xtreme
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
 			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -151,16 +151,16 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(60, 2);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(60, 2);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(0, 100);
@@ -182,7 +182,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtPopupTypeCdName);
 			this.Controls.Add(this.txtPopupTypeCd);
 			this.Controls.Add(this.grdVoucherDetails);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.Controls.Add(this.Line1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysPopupUserAssign.Icon");

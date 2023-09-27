@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// txtVisaTypeNo
 			// 
-			this.txtVisaTypeNo.AllowDrop = true;
+			//this.txtVisaTypeNo.AllowDrop = true;
 			this.txtVisaTypeNo.BackColor = System.Drawing.Color.White;
 			// this.txtVisaTypeNo.bolNumericOnly = true;
 			this.txtVisaTypeNo.ForeColor = System.Drawing.Color.Black;
@@ -84,7 +84,7 @@ namespace Xtreme
 			// 
 			// lblLNatName
 			// 
-			this.lblLNatName.AllowDrop = true;
+			//this.lblLNatName.AllowDrop = true;
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Visa Type Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(22, 73);
@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// txtLVisaTypeName
 			// 
-			this.txtLVisaTypeName.AllowDrop = true;
+			//this.txtLVisaTypeName.AllowDrop = true;
 			this.txtLVisaTypeName.BackColor = System.Drawing.Color.White;
 			this.txtLVisaTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtLVisaTypeName.Location = new System.Drawing.Point(160, 71);
@@ -107,7 +107,7 @@ namespace Xtreme
 			// 
 			// lblANatName
 			// 
-			this.lblANatName.AllowDrop = true;
+			//this.lblANatName.AllowDrop = true;
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Visa Type Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(22, 94);
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// txtAVisaTypeName
 			// 
-			this.txtAVisaTypeName.AllowDrop = true;
+			//this.txtAVisaTypeName.AllowDrop = true;
 			this.txtAVisaTypeName.BackColor = System.Drawing.Color.White;
 			this.txtAVisaTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtAVisaTypeName.Location = new System.Drawing.Point(160, 92);
@@ -131,7 +131,7 @@ namespace Xtreme
 			// 
 			// lblNatNo
 			// 
-			this.lblNatNo.AllowDrop = true;
+			//this.lblNatNo.AllowDrop = true;
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Visa Type No.";
 			this.lblNatNo.Location = new System.Drawing.Point(22, 52);

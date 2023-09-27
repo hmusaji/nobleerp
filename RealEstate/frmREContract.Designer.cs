@@ -133,9 +133,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtRemarks.Location = new System.Drawing.Point(71, 349);
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// fraTabPage0
 			// 
-			this.fraTabPage0.AllowDrop = true;
+			//this.fraTabPage0.AllowDrop = true;
 			this.fraTabPage0.Controls.Add(this._txtCommonNumber_0);
 			this.fraTabPage0.Controls.Add(this._lblCommon_5);
 			this.fraTabPage0.Controls.Add(this._txtCommonDate_0);
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_0
 			// 
-			this._txtCommonNumber_0.AllowDrop = true;
+			//this._txtCommonNumber_0.AllowDrop = true;
 			// this._txtCommonNumber_0.DisplayFormat = "#,###,##0.000#;;0.000;0.000";
 			// this._txtCommonNumber_0.Format = "#########0.000#";
 			this._txtCommonNumber_0.Location = new System.Drawing.Point(516, 94);
@@ -196,7 +196,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_5.Text = "Starting Date";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_0
 			// 
-			this._txtCommonDate_0.AllowDrop = true;
+			//this._txtCommonDate_0.AllowDrop = true;
 			// this._txtCommonDate_0.CheckDateRange = false;
 			this._txtCommonDate_0.Location = new System.Drawing.Point(516, 10);
 			// this._txtCommonDate_0.MaxDate = 2958465;
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommon_0.Enabled = false;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -238,7 +238,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_0.Text = "Contract No.";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -250,7 +250,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_3.Text = "Status Code";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -262,7 +262,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommon_2.bolNumericOnly = true;
 			this._txtCommon_2.Enabled = false;
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_1.Text = "Tenant Code";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -291,7 +291,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_1.bolNumericOnly = true;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -308,7 +308,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_2.Text = "Pay. Method Code";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -320,7 +320,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_3.bolNumericOnly = true;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -337,7 +337,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_7.Text = "Signed Date";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
@@ -349,7 +349,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_6
 			// 
-			this._lblCommon_6.AllowDrop = true;
+			//this._lblCommon_6.AllowDrop = true;
 			this._lblCommon_6.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_6.Text = "Ending Date";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -361,7 +361,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_1
 			// 
-			this._txtCommonDate_1.AllowDrop = true;
+			//this._txtCommonDate_1.AllowDrop = true;
 			// this._txtCommonDate_1.CheckDateRange = false;
 			this._txtCommonDate_1.Location = new System.Drawing.Point(516, 31);
 			// this._txtCommonDate_1.MaxDate = 2958465;
@@ -374,7 +374,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_2
 			// 
-			this._txtCommonDate_2.AllowDrop = true;
+			//this._txtCommonDate_2.AllowDrop = true;
 			// this._txtCommonDate_2.CheckDateRange = false;
 			this._txtCommonDate_2.Location = new System.Drawing.Point(516, 52);
 			// this._txtCommonDate_2.MaxDate = 2958465;
@@ -387,7 +387,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_4.Text = "Reference No.";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -399,7 +399,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_4
 			// 
-			this._txtCommon_4.AllowDrop = true;
+			//this._txtCommon_4.AllowDrop = true;
 			this._txtCommon_4.BackColor = System.Drawing.Color.White;
 			this._txtCommon_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_4.Location = new System.Drawing.Point(516, 73);
@@ -415,7 +415,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_9
 			// 
-			this._lblCommon_9.AllowDrop = true;
+			//this._lblCommon_9.AllowDrop = true;
 			this._lblCommon_9.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_9.Text = "Property Code";
 			this._lblCommon_9.ForeColor = System.Drawing.Color.Black;
@@ -427,7 +427,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_5
 			// 
-			this._txtCommon_5.AllowDrop = true;
+			//this._txtCommon_5.AllowDrop = true;
 			this._txtCommon_5.BackColor = System.Drawing.Color.White;
 			this._txtCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_5.Location = new System.Drawing.Point(101, 73);
@@ -443,7 +443,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_10
 			// 
-			this._lblCommon_10.AllowDrop = true;
+			//this._lblCommon_10.AllowDrop = true;
 			this._lblCommon_10.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_10.Text = "Opening Due";
 			this._lblCommon_10.ForeColor = System.Drawing.Color.Black;
@@ -454,7 +454,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_3
 			// 
-			this._txtCommonDisplay_3.AllowDrop = true;
+			//this._txtCommonDisplay_3.AllowDrop = true;
 			this._txtCommonDisplay_3.Location = new System.Drawing.Point(204, 73);
 			this._txtCommonDisplay_3.Name = "_txtCommonDisplay_3";
 			this._txtCommonDisplay_3.Size = new System.Drawing.Size(201, 19);
@@ -463,7 +463,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_2
 			// 
-			this._txtCommonDisplay_2.AllowDrop = true;
+			//this._txtCommonDisplay_2.AllowDrop = true;
 			this._txtCommonDisplay_2.Location = new System.Drawing.Point(204, 52);
 			this._txtCommonDisplay_2.Name = "_txtCommonDisplay_2";
 			this._txtCommonDisplay_2.Size = new System.Drawing.Size(201, 19);
@@ -472,7 +472,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_1
 			// 
-			this._txtCommonDisplay_1.AllowDrop = true;
+			//this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(204, 94);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";
 			this._txtCommonDisplay_1.Size = new System.Drawing.Size(201, 19);
@@ -481,7 +481,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(204, 31);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);
@@ -490,7 +490,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_11
 			// 
-			this._lblCommon_11.AllowDrop = true;
+			//this._lblCommon_11.AllowDrop = true;
 			this._lblCommon_11.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this._lblCommon_11.Text = "Security Deposit";
 			this._lblCommon_11.ForeColor = System.Drawing.Color.Black;
@@ -501,7 +501,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_1
 			// 
-			this._txtCommonNumber_1.AllowDrop = true;
+			//this._txtCommonNumber_1.AllowDrop = true;
 			// this._txtCommonNumber_1.DisplayFormat = "#,###,##0.000#;;0.000;0.000";
 			// this._txtCommonNumber_1.Format = "#########0.000#";
 			this._txtCommonNumber_1.Location = new System.Drawing.Point(516, 115);
@@ -514,22 +514,22 @@ namespace Xtreme
 			// 
 			// grdContractDetails
 			// 
-			this.grdContractDetails.AllowDrop = true;
+			//this.grdContractDetails.AllowDrop = true;
 			this.grdContractDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdContractDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdContractDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdContractDetails.CellTipsWidth = 0;
 			this.grdContractDetails.Location = new System.Drawing.Point(2, 192);
 			this.grdContractDetails.Name = "grdContractDetails";
 			this.grdContractDetails.RowDivider.Color = System.Drawing.Color.Silver;
 			this.grdContractDetails.Size = new System.Drawing.Size(631, 148);
 			this.grdContractDetails.TabIndex = 15;
-			this.grdContractDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdContractDetails_AfterColUpdate);
-			this.grdContractDetails.GotFocus += new System.EventHandler(this.grdContractDetails_GotFocus);
-			this.grdContractDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdContractDetails_RowColChange);
+			//this.grdContractDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdContractDetails_AfterColUpdate);
+			//this.grdContractDetails.GotFocus += new System.EventHandler(this.grdContractDetails_GotFocus);
+			//this.grdContractDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdContractDetails_RowColChange);
 			// 
 			// cmbCommon
 			// 
-			this.cmbCommon.AllowDrop = true;
+			//this.cmbCommon.AllowDrop = true;
 			this.cmbCommon.ColumnHeaders = true;
 			this.cmbCommon.Enabled = true;
 			this.cmbCommon.Location = new System.Drawing.Point(264, 231);
@@ -551,7 +551,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.BackColor = System.Drawing.Color.FromArgb(202, 213, 223);
 			this._lblCommon_8.Text = "Comments";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
@@ -585,7 +585,7 @@ namespace Xtreme
 			this.Text = "Contract";
 			// this.Activated += new System.EventHandler(this.Form_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
-			this.Deactivate += new System.EventHandler(this.Form_Deactivate);
+			//this.Deactivate += new System.EventHandler(this.Form_Deactivate);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			//((System.ComponentModel.ISupportInitialize) this.fraTabPage0).EndInit();
 			this.fraTabPage0.ResumeLayout(false);

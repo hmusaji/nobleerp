@@ -68,19 +68,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(97, 102);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Save";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 3;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// lblUserID
 			// 
-			this.lblUserID.AllowDrop = true;
+			//this.lblUserID.AllowDrop = true;
 			this.lblUserID.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUserID.Text = "Label ID";
 			this.lblUserID.Location = new System.Drawing.Point(14, 18);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtArabicName
 			// 
-			this.txtArabicName.AllowDrop = true;
+			//this.txtArabicName.AllowDrop = true;
 			this.txtArabicName.BackColor = System.Drawing.Color.White;
 			this.txtArabicName.ForeColor = System.Drawing.Color.Black;
 			this.txtArabicName.Location = new System.Drawing.Point(108, 60);
@@ -103,7 +103,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLocationCode.Text = "Arabic Name";
 			this.lblLocationCode.Location = new System.Drawing.Point(14, 63);
@@ -113,7 +113,7 @@ namespace Xtreme
 			// 
 			// txtEngName
 			// 
-			this.txtEngName.AllowDrop = true;
+			//this.txtEngName.AllowDrop = true;
 			this.txtEngName.BackColor = System.Drawing.Color.White;
 			this.txtEngName.ForeColor = System.Drawing.Color.Black;
 			this.txtEngName.Location = new System.Drawing.Point(108, 37);
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// lblCompanyCode
 			// 
-			this.lblCompanyCode.AllowDrop = true;
+			//this.lblCompanyCode.AllowDrop = true;
 			this.lblCompanyCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCompanyCode.Text = "English Name";
 			this.lblCompanyCode.Location = new System.Drawing.Point(14, 40);
@@ -135,7 +135,7 @@ namespace Xtreme
 			// 
 			// lblLableId
 			// 
-			this.lblLableId.AllowDrop = true;
+			//this.lblLableId.AllowDrop = true;
 			this.lblLableId.Location = new System.Drawing.Point(108, 14);
 			this.lblLableId.Name = "lblLableId";
 			this.lblLableId.Size = new System.Drawing.Size(91, 19);
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Module ID";
 			this.Label1.Location = new System.Drawing.Point(240, 18);
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// txtModuleId
 			// 
-			this.txtModuleId.AllowDrop = true;
+			//this.txtModuleId.AllowDrop = true;
 			this.txtModuleId.BackColor = System.Drawing.Color.White;
 			this.txtModuleId.ForeColor = System.Drawing.Color.Black;
 			this.txtModuleId.Location = new System.Drawing.Point(302, 14);

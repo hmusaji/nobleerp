@@ -60,9 +60,9 @@ namespace Xtreme
 			// 
 			// crvReportDesign
 			// 
-			this.crvReportDesign.AllowDrop = true;
+			//this.crvReportDesign.AllowDrop = true;
 			this.crvReportDesign.BackColor = System.Drawing.SystemColors.Control;
-			this.crvReportDesign.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.crvReportDesign.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.crvReportDesign.CausesValidation = true;
 			this.crvReportDesign.Dock = System.Windows.Forms.DockStyle.None;
 			this.crvReportDesign.Enabled = true;
@@ -96,7 +96,7 @@ namespace Xtreme
 			this.Text = "Report Designer";
 			// this.Activated += new System.EventHandler(this.Form_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
-			this.Deactivate += new System.EventHandler(this.Form_Deactivate);
+			//this.Deactivate += new System.EventHandler(this.Form_Deactivate);
 			//this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			//this.Resize += new System.EventHandler(this.Form_Resize);

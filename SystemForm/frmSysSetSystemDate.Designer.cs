@@ -59,17 +59,17 @@ namespace Xtreme
 			// 
 			// datePicker
 			// 
-			this.datePicker.AllowDrop = true;
+			//this.datePicker.AllowDrop = true;
 			this.datePicker.Location = new System.Drawing.Point(0, 0);
 			this.datePicker.Name = "datePicker";
 			//
 			this.datePicker.Size = new System.Drawing.Size(201, 153);
 			this.datePicker.TabIndex = 3;
-			this.datePicker.DateClick += new AxXtremeSuiteControls._DMonthCalendarEvents_DateClickEventHandler(this.datePicker_DateClick);
+			//this.datePicker.DateClick += new AxXtremeSuiteControls._DMonthCalendarEvents_DateClickEventHandler(this.datePicker_DateClick);
 			// 
 			// txtSystemDate
 			// 
-			this.txtSystemDate.AllowDrop = true;
+			//this.txtSystemDate.AllowDrop = true;
 			this.txtSystemDate.Location = new System.Drawing.Point(111, 38);
 			// this.txtSystemDate.MaxDate = 2958465;
 			// this.txtSystemDate.MinDate = 2;
@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Date";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -93,7 +93,7 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(43, 166);
 			this.cmdOKCancel.Name = "cmdOKCancel";
@@ -101,8 +101,8 @@ namespace Xtreme
 			this.cmdOKCancel.Size = new System.Drawing.Size(205, 29);
 			this.cmdOKCancel.TabIndex = 1;
 			this.cmdOKCancel.Visible = false;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// frmSysSetSystemDate
 			// 

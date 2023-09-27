@@ -87,7 +87,7 @@ namespace Xtreme
 			// 
 			// fraPayments
 			// 
-			this.fraPayments.AllowDrop = true;
+			//this.fraPayments.AllowDrop = true;
 			this.fraPayments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraPayments.Controls.Add(this._txtCommonTextBox_5);
 			this.fraPayments.Controls.Add(this.txtCashAmt);
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_5
 			// 
-			this._txtCommonTextBox_5.AllowDrop = true;
+			//this._txtCommonTextBox_5.AllowDrop = true;
 			this._txtCommonTextBox_5.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommonTextBox_5.Enabled = false;
 			this._txtCommonTextBox_5.ForeColor = System.Drawing.Color.Black;
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// txtCashAmt
 			// 
-			this.txtCashAmt.AllowDrop = true;
+			//this.txtCashAmt.AllowDrop = true;
 			// this.txtCashAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtCashAmt.Format = "###########0.000";
 			this.txtCashAmt.Location = new System.Drawing.Point(170, 10);
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_6
 			// 
-			this._txtCommonTextBox_6.AllowDrop = true;
+			//this._txtCommonTextBox_6.AllowDrop = true;
 			this._txtCommonTextBox_6.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommonTextBox_6.Enabled = false;
 			this._txtCommonTextBox_6.ForeColor = System.Drawing.Color.Black;
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// txtCCAmt
 			// 
-			this.txtCCAmt.AllowDrop = true;
+			//this.txtCCAmt.AllowDrop = true;
 			// this.txtCCAmt.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtCCAmt.Format = "###########0.000";
 			this.txtCCAmt.Location = new System.Drawing.Point(170, 38);
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(72, 10);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
 			this._txtDisplayLabel_3.Size = new System.Drawing.Size(97, 23);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_15
 			// 
-			this._txtDisplayLabel_15.AllowDrop = true;
+			//this._txtDisplayLabel_15.AllowDrop = true;
 			this._txtDisplayLabel_15.Location = new System.Drawing.Point(72, 38);
 			this._txtDisplayLabel_15.Name = "_txtDisplayLabel_15";
 			this._txtDisplayLabel_15.Size = new System.Drawing.Size(97, 23);
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			// = VSReport8Lib.BackStyleSettings.vsrTransparent;
 			this.Label1.Text = "Total No.";
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(4, 6);
@@ -201,8 +201,8 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 0;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -216,17 +216,17 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.Location = new System.Drawing.Point(86, 260);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 2;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// cmbMasterList
 			// 
-			this.cmbMasterList.AllowDrop = true;
+			//this.cmbMasterList.AllowDrop = true;
 			this.cmbMasterList.ColumnHeaders = true;
 			this.cmbMasterList.Enabled = true;
 			this.cmbMasterList.Location = new System.Drawing.Point(310, 130);
@@ -248,7 +248,7 @@ namespace Xtreme
 			// 
 			// txtTotalSerialNo
 			// 
-			this.txtTotalSerialNo.AllowDrop = true;
+			//this.txtTotalSerialNo.AllowDrop = true;
 			this.txtTotalSerialNo.Location = new System.Drawing.Point(78, 226);
 			this.txtTotalSerialNo.Name = "txtTotalSerialNo";
 			this.txtTotalSerialNo.Size = new System.Drawing.Size(75, 19);

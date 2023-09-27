@@ -71,19 +71,19 @@ namespace Xtreme
 			// 
 			// txtOkCancel
 			// 
-			this.txtOkCancel.AllowDrop = true;
+			//this.txtOkCancel.AllowDrop = true;
 			this.txtOkCancel.DisplayButton = 0;
 			this.txtOkCancel.Location = new System.Drawing.Point(62, 70);
 			this.txtOkCancel.Name = "txtOkCancel";
 			this.txtOkCancel.OkCaption = "Close &Month";
 			this.txtOkCancel.Size = new System.Drawing.Size(206, 31);
 			this.txtOkCancel.TabIndex = 0;
-			this.txtOkCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.txtOkCancel_CancelClick);
-			this.txtOkCancel.OKClick += new UCOkCancel.OKClickHandler(this.txtOkCancel_OKClick);
+			//this.txtOkCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.txtOkCancel_CancelClick);
+			//this.txtOkCancel.OKClick += new UCOkCancel.OKClickHandler(this.txtOkCancel_OKClick);
 			// 
 			// txtMonthEndDate
 			// 
-			this.txtMonthEndDate.AllowDrop = true;
+			//this.txtMonthEndDate.AllowDrop = true;
 			this.txtMonthEndDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtMonthEndDate.CheckDateRange = false;
 			this.txtMonthEndDate.Enabled = false;
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_0.Text = "Month Ending On :";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -110,7 +110,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_1.Text = "C a u t i o n :";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Black;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(72, 140);
@@ -132,9 +132,9 @@ namespace Xtreme
 			// 
 			// lblNoticeText
 			// 
-			this.lblNoticeText.AllowDrop = true;
+			//this.lblNoticeText.AllowDrop = true;
 			this.lblNoticeText.BackColor = System.Drawing.Color.FromArgb(255, 106, 106);
-			this.lblNoticeText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.lblNoticeText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.lblNoticeText.ForeColor = System.Drawing.Color.Black;
 			this.lblNoticeText.Location = new System.Drawing.Point(7, 150);
 			this.lblNoticeText.Name = "lblNoticeText";

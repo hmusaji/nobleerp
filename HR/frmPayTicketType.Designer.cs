@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// txtNTicketInDigit
 			// 
-			this.txtNTicketInDigit.AllowDrop = true;
+			//this.txtNTicketInDigit.AllowDrop = true;
 			// this.txtNTicketInDigit.DisplayFormat = "####0.00;;Null";
 			this.txtNTicketInDigit.ForeColor = System.Drawing.SystemColors.WindowText;
 			// this.txtNTicketInDigit.Format = "####0.00";
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// txtATicketTypeName
 			// 
-			this.txtATicketTypeName.AllowDrop = true;
+			//this.txtATicketTypeName.AllowDrop = true;
 			this.txtATicketTypeName.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtATicketTypeName.ForeColor = System.Drawing.Color.Black;
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// txtLTicketTypeName
 			// 
-			this.txtLTicketTypeName.AllowDrop = true;
+			//this.txtLTicketTypeName.AllowDrop = true;
 			this.txtLTicketTypeName.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtLTicketTypeName.ForeColor = System.Drawing.Color.Black;
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Ticket Type Name (ENG)";
 			this.Label1.Location = new System.Drawing.Point(8, 89);
@@ -135,7 +135,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Ticket Type Name (ARB) ";
 			this.Label2.Location = new System.Drawing.Point(8, 112);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Ticket Type Name ENG ";
 			this.Label3.Location = new System.Drawing.Point(4, 181);
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "Ticket Type Code";
 			this.Label5.Location = new System.Drawing.Point(8, 65);
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtTicketTypeCode
 			// 
-			this.txtTicketTypeCode.AllowDrop = true;
+			//this.txtTicketTypeCode.AllowDrop = true;
 			this.txtTicketTypeCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtTicketTypeCode.ForeColor = System.Drawing.Color.Black;
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// lblEarBillName
 			// 
-			this.lblEarBillName.AllowDrop = true;
+			//this.lblEarBillName.AllowDrop = true;
 			this.lblEarBillName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblEarBillName.Text = "Earning Bill Code";
 			this.lblEarBillName.Location = new System.Drawing.Point(8, 134);
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// txtEarBillNo
 			// 
-			this.txtEarBillNo.AllowDrop = true;
+			//this.txtEarBillNo.AllowDrop = true;
 			this.txtEarBillNo.BackColor = System.Drawing.Color.White;
 			// this.txtEarBillNo.bolNumericOnly = true;
 			this.txtEarBillNo.ForeColor = System.Drawing.Color.Black;
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// txtEarBillCdName
 			// 
-			this.txtEarBillCdName.AllowDrop = true;
+			//this.txtEarBillCdName.AllowDrop = true;
 			this.txtEarBillCdName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtEarBillCdName.Enabled = false;
 			this.txtEarBillCdName.Location = new System.Drawing.Point(230, 132);
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// lblDedBillName
 			// 
-			this.lblDedBillName.AllowDrop = true;
+			//this.lblDedBillName.AllowDrop = true;
 			this.lblDedBillName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDedBillName.Text = "Deduction Bill Code";
 			this.lblDedBillName.Location = new System.Drawing.Point(8, 156);
@@ -232,7 +232,7 @@ namespace Xtreme
 			// 
 			// txtDedBillNo
 			// 
-			this.txtDedBillNo.AllowDrop = true;
+			//this.txtDedBillNo.AllowDrop = true;
 			this.txtDedBillNo.BackColor = System.Drawing.Color.White;
 			// this.txtDedBillNo.bolNumericOnly = true;
 			this.txtDedBillNo.ForeColor = System.Drawing.Color.Black;
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// txtDedBillCdName
 			// 
-			this.txtDedBillCdName.AllowDrop = true;
+			//this.txtDedBillCdName.AllowDrop = true;
 			this.txtDedBillCdName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDedBillCdName.Enabled = false;
 			this.txtDedBillCdName.Location = new System.Drawing.Point(230, 154);

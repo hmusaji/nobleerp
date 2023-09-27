@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.txtComment);
 			this.cntMainParameter.Controls.Add(this.txtCatNo);
 			this.cntMainParameter.Controls.Add(this.lblLCostName);
@@ -99,9 +99,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(146, 75);
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// txtCatNo
 			// 
-			this.txtCatNo.AllowDrop = true;
+			//this.txtCatNo.AllowDrop = true;
 			this.txtCatNo.BackColor = System.Drawing.Color.White;
 			// this.txtCatNo.bolNumericOnly = true;
 			this.txtCatNo.ForeColor = System.Drawing.Color.Black;
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// lblLCostName
 			// 
-			this.lblLCostName.AllowDrop = true;
+			//this.lblLCostName.AllowDrop = true;
 			this.lblLCostName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblLCostName.Text = "Cost Center Name (English)";
 			this.lblLCostName.Location = new System.Drawing.Point(8, 35);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// txtLCatName
 			// 
-			this.txtLCatName.AllowDrop = true;
+			//this.txtLCatName.AllowDrop = true;
 			this.txtLCatName.BackColor = System.Drawing.Color.White;
 			this.txtLCatName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCatName.Location = new System.Drawing.Point(146, 33);
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblACostName
 			// 
-			this.lblACostName.AllowDrop = true;
+			//this.lblACostName.AllowDrop = true;
 			this.lblACostName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblACostName.Text = "Cost Center Name (Arabic)";
 			this.lblACostName.Location = new System.Drawing.Point(8, 56);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// txtACatName
 			// 
-			this.txtACatName.AllowDrop = true;
+			//this.txtACatName.AllowDrop = true;
 			this.txtACatName.BackColor = System.Drawing.Color.White;
 			this.txtACatName.ForeColor = System.Drawing.Color.Black;
 			this.txtACatName.Location = new System.Drawing.Point(146, 54);
@@ -177,7 +177,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(8, 76);
@@ -188,7 +188,7 @@ namespace Xtreme
 			// 
 			// lblCostNo
 			// 
-			this.lblCostNo.AllowDrop = true;
+			//this.lblCostNo.AllowDrop = true;
 			this.lblCostNo.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblCostNo.Text = "Cost Center Code";
 			this.lblCostNo.Location = new System.Drawing.Point(8, 14);
@@ -199,9 +199,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(132, 10);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			////this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(132, 10);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmGLCostCenterCategory
@@ -213,7 +213,7 @@ namespace Xtreme
 			this.BackColor = System.Drawing.Color.FromArgb(205, 184, 196);
 			this.ClientSize = new System.Drawing.Size(479, 197);
 			this.Controls.Add(this.cntMainParameter);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLCostCenterCategory.Icon");
 			this.KeyPreview = true;

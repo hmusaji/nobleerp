@@ -71,11 +71,11 @@ namespace Xtreme
 			// 
 			// tcbSystemReport
 			// 
-			this.tcbSystemReport.AllowDrop = true;
-			this.tcbSystemReport.Location = new System.Drawing.Point(16, 56);
-			this.tcbSystemReport.Name = "tcbSystemReport";
+			//this.tcbSystemReport.AllowDrop = true;
+			//this.tcbSystemReport.Location = new System.Drawing.Point(16, 56);
+			//this.tcbSystemReport.Name = "tcbSystemReport";
 			//
-			this.tcbSystemReport.Execute += new AxXtremeCommandBars._DCommandBarsEvents_ExecuteEventHandler(this.tcbSystemReport_Execute);
+			//this.tcbSystemReport.Execute += new AxXtremeCommandBars._DCommandBarsEvents_ExecuteEventHandler(this.tcbSystemReport_Execute);
 			// 
 			// frmSysApolloDesign
 			// 
@@ -86,7 +86,7 @@ namespace Xtreme
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(761, 455);
 			this.Controls.Add(this.WebBrowser1);
-			this.Controls.Add(this.tcbSystemReport);
+			//this.Controls.Add(this.tcbSystemReport);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysApolloDesign.Icon");
 			this.Location = new System.Drawing.Point(160, 245);
 			this.MaximizeBox = false;

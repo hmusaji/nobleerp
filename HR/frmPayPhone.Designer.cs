@@ -77,7 +77,7 @@ namespace Xtreme
 			// 
 			// grdPhone
 			// 
-			this.grdPhone.AllowDrop = true;
+			//this.grdPhone.AllowDrop = true;
 			this.grdPhone.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdPhone.CellTipsWidth = 0;
 			this.grdPhone.Location = new System.Drawing.Point(2, 106);
@@ -87,7 +87,7 @@ namespace Xtreme
 			this.grdPhone.TabIndex = 0;
 			this.grdPhone.Columns.Add(this.Column_0_grdPhone);
 			this.grdPhone.Columns.Add(this.Column_1_grdPhone);
-			this.grdPhone.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdPhone_AfterColUpdate);
+			//this.grdPhone.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdPhone_AfterColUpdate);
 			// 
 			// Column_0_grdPhone
 			// 
@@ -101,7 +101,7 @@ namespace Xtreme
 			// 
 			// txtDeductionCode
 			// 
-			this.txtDeductionCode.AllowDrop = true;
+			//this.txtDeductionCode.AllowDrop = true;
 			this.txtDeductionCode.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDeductionCode.bolNumericOnly = true;
 			this.txtDeductionCode.Enabled = false;
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Deduction Code";
 			this.Label1.Location = new System.Drawing.Point(6, 75);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// txtEmployeeCode
 			// 
-			this.txtEmployeeCode.AllowDrop = true;
+			//this.txtEmployeeCode.AllowDrop = true;
 			this.txtEmployeeCode.BackColor = System.Drawing.Color.White;
 			this.txtEmployeeCode.ForeColor = System.Drawing.Color.Black;
 			this.txtEmployeeCode.Location = new System.Drawing.Point(116, 52);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// lblHolidayCode
 			// 
-			this.lblHolidayCode.AllowDrop = true;
+			//this.lblHolidayCode.AllowDrop = true;
 			this.lblHolidayCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblHolidayCode.Text = "Employee Code";
 			this.lblHolidayCode.Location = new System.Drawing.Point(6, 54);
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// txtDeductionCodeName
 			// 
-			this.txtDeductionCodeName.AllowDrop = true;
+			//this.txtDeductionCodeName.AllowDrop = true;
 			this.txtDeductionCodeName.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.txtDeductionCodeName.Enabled = false;
 			this.txtDeductionCodeName.Location = new System.Drawing.Point(218, 73);
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// txtEmployeeCodeName
 			// 
-			this.txtEmployeeCodeName.AllowDrop = true;
+			//this.txtEmployeeCodeName.AllowDrop = true;
 			this.txtEmployeeCodeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtEmployeeCodeName.Enabled = false;
 			this.txtEmployeeCodeName.Location = new System.Drawing.Point(218, 52);

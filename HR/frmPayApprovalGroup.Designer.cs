@@ -87,7 +87,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(96, 232);
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// _txtTextBox_0
 			// 
-			this._txtTextBox_0.AllowDrop = true;
+			//this._txtTextBox_0.AllowDrop = true;
 			this._txtTextBox_0.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtTextBox_0.ForeColor = System.Drawing.Color.Black;
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Group Name(ARB)";
 			this.Label3.Location = new System.Drawing.Point(4, 123);
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Group Name(ENG)";
 			this.Label2.Location = new System.Drawing.Point(4, 99);
@@ -144,7 +144,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Group Code";
 			this.Label1.Location = new System.Drawing.Point(4, 75);
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// _txtTextBox_1
 			// 
-			this._txtTextBox_1.AllowDrop = true;
+			//this._txtTextBox_1.AllowDrop = true;
 			this._txtTextBox_1.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtTextBox_1.ForeColor = System.Drawing.Color.Black;
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// _txtTextBox_2
 			// 
-			this._txtTextBox_2.AllowDrop = true;
+			//this._txtTextBox_2.AllowDrop = true;
 			this._txtTextBox_2.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtTextBox_2.ForeColor = System.Drawing.Color.Black;
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			this.grdApprovalGroup.AllowAddNew = true;
 			this.grdApprovalGroup.AllowDelete = true;
-			this.grdApprovalGroup.AllowDrop = true;
+			//this.grdApprovalGroup.AllowDrop = true;
 			this.grdApprovalGroup.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdApprovalGroup.CellTipsWidth = 0;
 			this.grdApprovalGroup.Location = new System.Drawing.Point(0, 150);
@@ -194,8 +194,8 @@ namespace Xtreme
 			this.grdApprovalGroup.TabIndex = 7;
 			this.grdApprovalGroup.Columns.Add(this.Column_0_grdApprovalGroup);
 			this.grdApprovalGroup.Columns.Add(this.Column_1_grdApprovalGroup);
-			this.grdApprovalGroup.GotFocus += new System.EventHandler(this.grdApprovalGroup_GotFocus);
-			this.grdApprovalGroup.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdApprovalGroup_RowColChange);
+			//this.grdApprovalGroup.GotFocus += new System.EventHandler(this.grdApprovalGroup_GotFocus);
+			//this.grdApprovalGroup.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdApprovalGroup_RowColChange);
 			// 
 			// Column_0_grdApprovalGroup
 			// 
@@ -209,7 +209,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 148);

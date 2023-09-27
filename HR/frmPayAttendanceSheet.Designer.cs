@@ -97,7 +97,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(10, 66);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayEmp_1
 			// 
-			this._txtDisplayEmp_1.AllowDrop = true;
+			//this._txtDisplayEmp_1.AllowDrop = true;
 			this._txtDisplayEmp_1.Enabled = false;
 			this._txtDisplayEmp_1.Location = new System.Drawing.Point(116, 64);
 			this._txtDisplayEmp_1.Name = "_txtDisplayEmp_1";
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonTextBox_3.bolNumericOnly = true;
 			this._txtCommonTextBox_3.Enabled = false;
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_114
 			// 
-			this._lblCommon_114.AllowDrop = true;
+			//this._lblCommon_114.AllowDrop = true;
 			this._lblCommon_114.BackColor = System.Drawing.Color.FromArgb(227, 226, 219);
 			this._lblCommon_114.Text = "Department Code";
 			this._lblCommon_114.Location = new System.Drawing.Point(10, 87);
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_4
 			// 
-			this._txtDisplayLabel_4.AllowDrop = true;
+			//this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(223, 85);
 			this._txtDisplayLabel_4.Name = "_txtDisplayLabel_4";
 			this._txtDisplayLabel_4.Size = new System.Drawing.Size(201, 19);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 140);
@@ -162,9 +162,9 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 6;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			//this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
 			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Month";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(536, 87);
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_6
 			// 
-			this._txtDisplayLabel_6.AllowDrop = true;
+			//this._txtDisplayLabel_6.AllowDrop = true;
 			this._txtDisplayLabel_6.Location = new System.Drawing.Point(602, 85);
 			this._txtDisplayLabel_6.Name = "_txtDisplayLabel_6";
 			this._txtDisplayLabel_6.Size = new System.Drawing.Size(57, 19);
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Year";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(536, 66);
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayEmpName_2
 			// 
-			this._txtDisplayEmpName_2.AllowDrop = true;
+			//this._txtDisplayEmpName_2.AllowDrop = true;
 			this._txtDisplayEmpName_2.Location = new System.Drawing.Point(223, 64);
 			this._txtDisplayEmpName_2.Name = "_txtDisplayEmpName_2";
 			this._txtDisplayEmpName_2.Size = new System.Drawing.Size(201, 19);
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_5
 			// 
-			this._txtDisplayLabel_5.AllowDrop = true;
+			//this._txtDisplayLabel_5.AllowDrop = true;
 			this._txtDisplayLabel_5.Location = new System.Drawing.Point(602, 64);
 			this._txtDisplayLabel_5.Name = "_txtDisplayLabel_5";
 			this._txtDisplayLabel_5.Size = new System.Drawing.Size(57, 19);
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(61, 52);
@@ -234,9 +234,9 @@ namespace Xtreme
 			// 
 			// lblTimeAtt
 			// 
-			this.lblTimeAtt.AllowDrop = true;
+			//this.lblTimeAtt.AllowDrop = true;
 			this.lblTimeAtt.BackColor = System.Drawing.Color.Transparent;
-			this.lblTimeAtt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblTimeAtt.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblTimeAtt.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblTimeAtt.ForeColor = System.Drawing.Color.Navy;
 			this.lblTimeAtt.Location = new System.Drawing.Point(56, 120);
@@ -248,7 +248,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 52);

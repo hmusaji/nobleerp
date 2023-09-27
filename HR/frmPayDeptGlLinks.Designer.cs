@@ -83,7 +83,7 @@ namespace Xtreme
 			// 
 			// cmdUpdateEmpGLLink
 			// 
-			this.cmdUpdateEmpGLLink.AllowDrop = true;
+			//this.cmdUpdateEmpGLLink.AllowDrop = true;
 			this.cmdUpdateEmpGLLink.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdUpdateEmpGLLink.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdUpdateEmpGLLink.Location = new System.Drawing.Point(760, 44);
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(27, 141);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// txtDeptCode
 			// 
-			this.txtDeptCode.AllowDrop = true;
+			//this.txtDeptCode.AllowDrop = true;
 			this.txtDeptCode.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDeptCode.bolNumericOnly = true;
 			this.txtDeptCode.Enabled = false;
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Department Code";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// txtDeptName
 			// 
-			this.txtDeptName.AllowDrop = true;
+			//this.txtDeptName.AllowDrop = true;
 			this.txtDeptName.Location = new System.Drawing.Point(199, 45);
 			this.txtDeptName.Name = "txtDeptName";
 			this.txtDeptName.Size = new System.Drawing.Size(201, 19);
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Enabled = false;
@@ -165,10 +165,10 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 5;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -182,9 +182,9 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(0, 74);

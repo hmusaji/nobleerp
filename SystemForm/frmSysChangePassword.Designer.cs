@@ -68,7 +68,7 @@ namespace Xtreme
 			// 
 			// txtConfirmPassword
 			// 
-			this.txtConfirmPassword.AllowDrop = true;
+			//this.txtConfirmPassword.AllowDrop = true;
 			this.txtConfirmPassword.BackColor = System.Drawing.Color.White;
 			this.txtConfirmPassword.ForeColor = System.Drawing.Color.Black;
 			this.txtConfirmPassword.Location = new System.Drawing.Point(156, 93);
@@ -82,7 +82,7 @@ namespace Xtreme
 			// 
 			// txtPassword
 			// 
-			this.txtPassword.AllowDrop = true;
+			//this.txtPassword.AllowDrop = true;
 			this.txtPassword.BackColor = System.Drawing.Color.White;
 			this.txtPassword.ForeColor = System.Drawing.Color.Black;
 			this.txtPassword.Location = new System.Drawing.Point(156, 72);
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// lblConfirmPassword
 			// 
-			this.lblConfirmPassword.AllowDrop = true;
+			//this.lblConfirmPassword.AllowDrop = true;
 			this.lblConfirmPassword.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblConfirmPassword.Text = "Confirm New  Password";
 			this.lblConfirmPassword.ForeColor = System.Drawing.Color.Black;
@@ -107,7 +107,7 @@ namespace Xtreme
 			// 
 			// lblPassword
 			// 
-			this.lblPassword.AllowDrop = true;
+			//this.lblPassword.AllowDrop = true;
 			this.lblPassword.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPassword.Text = "New Password";
 			this.lblPassword.ForeColor = System.Drawing.Color.Black;
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "User ID";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Old Password";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtOldPassword
 			// 
-			this.txtOldPassword.AllowDrop = true;
+			//this.txtOldPassword.AllowDrop = true;
 			this.txtOldPassword.BackColor = System.Drawing.Color.White;
 			this.txtOldPassword.ForeColor = System.Drawing.Color.Black;
 			this.txtOldPassword.Location = new System.Drawing.Point(156, 51);
@@ -154,19 +154,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(43, 128);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "C&hange";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 3;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// lblUserID
 			// 
-			this.lblUserID.AllowDrop = true;
+			//this.lblUserID.AllowDrop = true;
 			this.lblUserID.Location = new System.Drawing.Point(156, 24);
 			this.lblUserID.Name = "lblUserID";
 			this.lblUserID.Size = new System.Drawing.Size(121, 19);

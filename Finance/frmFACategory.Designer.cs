@@ -111,7 +111,7 @@ namespace Xtreme
 			// tabMaster
 			// 
 			////this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_0);
 			this.tabMaster.Controls.Add(this._fraLedgerInformation_3);
 			this.tabMaster.Location = new System.Drawing.Point(6, 51);
@@ -123,9 +123,9 @@ namespace Xtreme
 			// 
 			// _fraLedgerInformation_0
 			// 
-			this._fraLedgerInformation_0.AllowDrop = true;
+			//this._fraLedgerInformation_0.AllowDrop = true;
 			this._fraLedgerInformation_0.BackColor = System.Drawing.Color.White;
-			this._fraLedgerInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraLedgerInformation_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraLedgerInformation_0.Controls.Add(this.txtComment);
 			this._fraLedgerInformation_0.Controls.Add(this.txtCatNo);
 			this._fraLedgerInformation_0.Controls.Add(this.lblGroupNo);
@@ -149,9 +149,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(150, 104);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// txtCatNo
 			// 
-			this.txtCatNo.AllowDrop = true;
+			//this.txtCatNo.AllowDrop = true;
 			this.txtCatNo.BackColor = System.Drawing.Color.White;
 			// this.txtCatNo.bolNumericOnly = true;
 			this.txtCatNo.ForeColor = System.Drawing.Color.Black;
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.SystemColors.Window;
 			this.lblGroupNo.Text = "Category Code";
 			this.lblGroupNo.ForeColor = System.Drawing.Color.Black;
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.SystemColors.Window;
 			this.lblLGroupName.Text = "Category Name (English)";
 			this.lblLGroupName.ForeColor = System.Drawing.Color.Black;
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// txtLCatName
 			// 
-			this.txtLCatName.AllowDrop = true;
+			//this.txtLCatName.AllowDrop = true;
 			this.txtLCatName.BackColor = System.Drawing.Color.White;
 			this.txtLCatName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCatName.Location = new System.Drawing.Point(150, 39);
@@ -218,7 +218,7 @@ namespace Xtreme
 			// 
 			// lblParentGroup
 			// 
-			this.lblParentGroup.AllowDrop = true;
+			//this.lblParentGroup.AllowDrop = true;
 			this.lblParentGroup.BackColor = System.Drawing.SystemColors.Window;
 			this.lblParentGroup.Text = "Parent Category Code";
 			this.lblParentGroup.ForeColor = System.Drawing.Color.Black;
@@ -230,7 +230,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.SystemColors.Window;
 			this.lblAGroupName.Text = "Category Name (Arabic)";
 			this.lblAGroupName.ForeColor = System.Drawing.Color.Black;
@@ -242,7 +242,7 @@ namespace Xtreme
 			// 
 			// txtACatName
 			// 
-			this.txtACatName.AllowDrop = true;
+			//this.txtACatName.AllowDrop = true;
 			this.txtACatName.BackColor = System.Drawing.Color.White;
 			this.txtACatName.ForeColor = System.Drawing.Color.Black;
 			this.txtACatName.Location = new System.Drawing.Point(150, 60);
@@ -256,7 +256,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.SystemColors.Window;
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -268,7 +268,7 @@ namespace Xtreme
 			// 
 			// txtParentCatNo
 			// 
-			this.txtParentCatNo.AllowDrop = true;
+			//this.txtParentCatNo.AllowDrop = true;
 			this.txtParentCatNo.BackColor = System.Drawing.Color.White;
 			// this.txtParentCatNo.bolNumericOnly = true;
 			this.txtParentCatNo.ForeColor = System.Drawing.Color.Black;
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// txtParentCatName
 			// 
-			this.txtParentCatName.AllowDrop = true;
+			//this.txtParentCatName.AllowDrop = true;
 			this.txtParentCatName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtParentCatName.Enabled = false;
 			this.txtParentCatName.ForeColor = System.Drawing.Color.Black;
@@ -299,9 +299,9 @@ namespace Xtreme
 			// 
 			// _fraLedgerInformation_3
 			// 
-			this._fraLedgerInformation_3.AllowDrop = true;
+			//this._fraLedgerInformation_3.AllowDrop = true;
 			this._fraLedgerInformation_3.BackColor = System.Drawing.Color.White;
-			this._fraLedgerInformation_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._fraLedgerInformation_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._fraLedgerInformation_3.Controls.Add(this.grdVoucherDetails);
 			this._fraLedgerInformation_3.Controls.Add(this.cmbCommon);
 			this._fraLedgerInformation_3.Enabled = true;
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 12);
@@ -326,7 +326,7 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 5;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			////this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -340,7 +340,7 @@ namespace Xtreme
 			// 
 			// cmbCommon
 			// 
-			this.cmbCommon.AllowDrop = true;
+			//this.cmbCommon.AllowDrop = true;
 			this.cmbCommon.ColumnHeaders = true;
 			this.cmbCommon.Enabled = true;
 			this.cmbCommon.Location = new System.Drawing.Point(38, 74);
@@ -363,7 +363,7 @@ namespace Xtreme
 			// ElasticOne1
 			// 
 			////this.ElasticOne1.Align = C1SizerLib.AlignSettings.asNone;
-			this.ElasticOne1.AllowDrop = true;
+			//this.ElasticOne1.AllowDrop = true;
 			this.ElasticOne1.Location = new System.Drawing.Point(-36, 40);
 			this.ElasticOne1.Name = "ElasticOne1";
 			//

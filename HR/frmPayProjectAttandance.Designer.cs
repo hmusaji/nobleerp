@@ -97,7 +97,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList1
 			// 
-			this.cmbMastersList1.AllowDrop = true;
+			//this.cmbMastersList1.AllowDrop = true;
 			this.cmbMastersList1.ColumnHeaders = true;
 			this.cmbMastersList1.Enabled = true;
 			this.cmbMastersList1.Location = new System.Drawing.Point(777, 240);
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// txtDlBlProjectName
 			// 
-			this.txtDlBlProjectName.AllowDrop = true;
+			//this.txtDlBlProjectName.AllowDrop = true;
 			this.txtDlBlProjectName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlBlProjectName.Enabled = false;
 			this.txtDlBlProjectName.Location = new System.Drawing.Point(192, 90);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// cmdGetRecord
 			// 
-			this.cmdGetRecord.AllowDrop = true;
+			//this.cmdGetRecord.AllowDrop = true;
 			this.cmdGetRecord.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdGetRecord.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdGetRecord.Location = new System.Drawing.Point(660, 90);
@@ -144,7 +144,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(708, 240);
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_0
 			// 
-			this._cmbCommon_0.AllowDrop = true;
+			//this._cmbCommon_0.AllowDrop = true;
 			this._cmbCommon_0.Location = new System.Drawing.Point(513, 90);
 			this._cmbCommon_0.Name = "_cmbCommon_0";
 			this._cmbCommon_0.Size = new System.Drawing.Size(109, 21);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// txtProjectNo
 			// 
-			this.txtProjectNo.AllowDrop = true;
+			//this.txtProjectNo.AllowDrop = true;
 			this.txtProjectNo.BackColor = System.Drawing.Color.White;
 			this.txtProjectNo.ForeColor = System.Drawing.Color.Black;
 			this.txtProjectNo.Location = new System.Drawing.Point(90, 90);
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// txtDAttandanceDate
 			// 
-			this.txtDAttandanceDate.AllowDrop = true;
+			//this.txtDAttandanceDate.AllowDrop = true;
 			this.txtDAttandanceDate.CausesValidation = false;
 			// this.txtDAttandanceDate.CheckDateRange = false;
 			this.txtDAttandanceDate.Location = new System.Drawing.Point(90, 66);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// grdProjectAttendance
 			// 
 			this.grdProjectAttendance.AllowAddNew = true;
-			this.grdProjectAttendance.AllowDrop = true;
+			//this.grdProjectAttendance.AllowDrop = true;
 			this.grdProjectAttendance.BackColor = System.Drawing.Color.Silver;
 			this.grdProjectAttendance.CellTipsWidth = 0;
 			this.grdProjectAttendance.Location = new System.Drawing.Point(3, 117);
@@ -214,12 +214,12 @@ namespace Xtreme
 			this.grdProjectAttendance.TabIndex = 4;
 			this.grdProjectAttendance.Columns.Add(this.Column_0_grdProjectAttendance);
 			this.grdProjectAttendance.Columns.Add(this.Column_1_grdProjectAttendance);
-			this.grdProjectAttendance.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdProjectAttendance_AfterColUpdate);
-			this.grdProjectAttendance.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdProjectAttendance_BeforeColUpdate);
-			this.grdProjectAttendance.GotFocus += new System.EventHandler(this.grdProjectAttendance_GotFocus);
+			//this.grdProjectAttendance.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdProjectAttendance_AfterColUpdate);
+			//this.grdProjectAttendance.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdProjectAttendance_BeforeColUpdate);
+			//this.grdProjectAttendance.GotFocus += new System.EventHandler(this.grdProjectAttendance_GotFocus);
 			// this.this.grdProjectAttendance.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdProjectAttendance_KeyPress);
-			this.grdProjectAttendance.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdProjectAttendance_MouseUp);
-			this.grdProjectAttendance.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdProjectAttendance_RowColChange);
+			//this.grdProjectAttendance.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdProjectAttendance_MouseUp);
+			//this.grdProjectAttendance.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdProjectAttendance_RowColChange);
 			// 
 			// Column_0_grdProjectAttendance
 			// 
@@ -233,7 +233,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Project No";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(9, 92);
@@ -243,7 +243,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Employee Type";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(426, 93);
@@ -253,7 +253,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Date";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(9, 68);

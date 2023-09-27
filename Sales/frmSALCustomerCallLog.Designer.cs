@@ -52,7 +52,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label txtSalesmanName;
 		public System.Windows.Forms.TextBox txtSalesmanCode;
 		public System.Windows.Forms.TextBox txtComment;
-		public AxXtremeSuiteControls.AxDateTimePicker txtCallRcvrTime;
+		//public AxXtremeSuiteControls.AxDateTimePicker txtCallRcvrTime;
 		public System.Windows.Forms.ComboBox cmbCallTime;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtCallDate;
 		private System.Windows.Forms.Label Label_2;
@@ -82,7 +82,7 @@ namespace Xtreme
 			this.txtSalesmanName = new System.Windows.Forms.Label();
 			this.txtSalesmanCode = new System.Windows.Forms.TextBox();
 			this.txtComment = new System.Windows.Forms.TextBox();
-			this.txtCallRcvrTime = new AxXtremeSuiteControls.AxDateTimePicker();
+			//this.txtCallRcvrTime = new AxXtremeSuiteControls.AxDateTimePicker();
 			this.cmbCallTime = new System.Windows.Forms.ComboBox();
 			this.txtCallDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
 			this.Label_2 = new System.Windows.Forms.Label();
@@ -100,7 +100,7 @@ namespace Xtreme
 			// 
 			// txtCustomerName
 			// 
-			this.txtCustomerName.AllowDrop = true;
+			//this.txtCustomerName.AllowDrop = true;
 			this.txtCustomerName.Location = new System.Drawing.Point(208, 68);
 			this.txtCustomerName.Name = "txtCustomerName";
 			this.txtCustomerName.Size = new System.Drawing.Size(313, 19);
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// txtCustomerCode
 			// 
-			this.txtCustomerCode.AllowDrop = true;
+			//this.txtCustomerCode.AllowDrop = true;
 			this.txtCustomerCode.BackColor = System.Drawing.Color.White;
 			this.txtCustomerCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCustomerCode.Location = new System.Drawing.Point(114, 68);
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			this.txtVoucherDate.Location = new System.Drawing.Point(114, 20);
 			// this.txtVoucherDate.MaxDate = 2958465;
 			// this.txtVoucherDate.MinDate = -657434;
@@ -136,7 +136,7 @@ namespace Xtreme
 			// 
 			// txtVoucherNo
 			// 
-			this.txtVoucherNo.AllowDrop = true;
+			//this.txtVoucherNo.AllowDrop = true;
 			this.txtVoucherNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtVoucherNo.Enabled = false;
 			this.txtVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// txtSalesmanName
 			// 
-			this.txtSalesmanName.AllowDrop = true;
+			//this.txtSalesmanName.AllowDrop = true;
 			this.txtSalesmanName.Location = new System.Drawing.Point(208, 92);
 			this.txtSalesmanName.Name = "txtSalesmanName";
 			this.txtSalesmanName.Size = new System.Drawing.Size(313, 19);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// txtSalesmanCode
 			// 
-			this.txtSalesmanCode.AllowDrop = true;
+			//this.txtSalesmanCode.AllowDrop = true;
 			this.txtSalesmanCode.BackColor = System.Drawing.Color.White;
 			this.txtSalesmanCode.ForeColor = System.Drawing.Color.Black;
 			this.txtSalesmanCode.Location = new System.Drawing.Point(114, 92);
@@ -173,7 +173,7 @@ namespace Xtreme
 			// 
 			// txtComment
 			// 
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
 			this.txtComment.Location = new System.Drawing.Point(114, 142);
@@ -184,16 +184,16 @@ namespace Xtreme
 			// 
 			// txtCallRcvrTime
 			// 
-			this.txtCallRcvrTime.AllowDrop = true;
-			this.txtCallRcvrTime.Location = new System.Drawing.Point(418, 20);
-			this.txtCallRcvrTime.Name = "txtCallRcvrTime";
-			//
-			this.txtCallRcvrTime.Size = new System.Drawing.Size(101, 21);
-			this.txtCallRcvrTime.TabIndex = 1;
+			////this.txtCallRcvrTime.AllowDrop = true;
+			//this.txtCallRcvrTime.Location = new System.Drawing.Point(418, 20);
+			//this.txtCallRcvrTime.Name = "txtCallRcvrTime";
+			////
+			//this.txtCallRcvrTime.Size = new System.Drawing.Size(101, 21);
+			//this.txtCallRcvrTime.TabIndex = 1;
 			// 
 			// cmbCallTime
 			// 
-			this.cmbCallTime.AllowDrop = true;
+			//this.cmbCallTime.AllowDrop = true;
 			this.cmbCallTime.Location = new System.Drawing.Point(416, 116);
 			this.cmbCallTime.Name = "cmbCallTime";
 			this.cmbCallTime.Size = new System.Drawing.Size(101, 21);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// txtCallDate
 			// 
-			this.txtCallDate.AllowDrop = true;
+			//this.txtCallDate.AllowDrop = true;
 			this.txtCallDate.Location = new System.Drawing.Point(114, 116);
 			// this.txtCallDate.MaxDate = 2958465;
 			// this.txtCallDate.MinDate = -657434;
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// Label_2
 			// 
-			this.Label_2.AllowDrop = true;
+			//this.Label_2.AllowDrop = true;
 			this.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_2.Text = "Voucher No";
 			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// Label_0
 			// 
-			this.Label_0.AllowDrop = true;
+			//this.Label_0.AllowDrop = true;
 			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_0.Text = "Customer Name";
 			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -235,7 +235,7 @@ namespace Xtreme
 			// 
 			// Label_1
 			// 
-			this.Label_1.AllowDrop = true;
+			//this.Label_1.AllowDrop = true;
 			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_1.Text = "Voucher Date";
 			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// Label_3
 			// 
-			this.Label_3.AllowDrop = true;
+			//this.Label_3.AllowDrop = true;
 			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_3.Text = "Salesman";
 			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -257,7 +257,7 @@ namespace Xtreme
 			// 
 			// Label_4
 			// 
-			this.Label_4.AllowDrop = true;
+			//this.Label_4.AllowDrop = true;
 			this.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_4.Text = "Appointment Date";
 			this.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -268,7 +268,7 @@ namespace Xtreme
 			// 
 			// Label_5
 			// 
-			this.Label_5.AllowDrop = true;
+			//this.Label_5.AllowDrop = true;
 			this.Label_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_5.Text = "Remarks";
 			this.Label_5.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// Label_6
 			// 
-			this.Label_6.AllowDrop = true;
+			//this.Label_6.AllowDrop = true;
 			this.Label_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_6.Text = "Call Recd At";
 			this.Label_6.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -290,7 +290,7 @@ namespace Xtreme
 			// 
 			// Label_7
 			// 
-			this.Label_7.AllowDrop = true;
+			//this.Label_7.AllowDrop = true;
 			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_7.Text = "Time Selection";
 			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -301,7 +301,7 @@ namespace Xtreme
 			// 
 			// txtComment2
 			// 
-			this.txtComment2.AllowDrop = true;
+			//this.txtComment2.AllowDrop = true;
 			this.txtComment2.BackColor = System.Drawing.Color.White;
 			this.txtComment2.ForeColor = System.Drawing.Color.Black;
 			this.txtComment2.Location = new System.Drawing.Point(114, 204);
@@ -312,7 +312,7 @@ namespace Xtreme
 			// 
 			// Label_8
 			// 
-			this.Label_8.AllowDrop = true;
+			//this.Label_8.AllowDrop = true;
 			this.Label_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_8.Text = "Remarks 2";
 			this.Label_8.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -336,7 +336,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtSalesmanName);
 			this.Controls.Add(this.txtSalesmanCode);
 			this.Controls.Add(this.txtComment);
-			this.Controls.Add(this.txtCallRcvrTime);
+			//this.Controls.Add(this.txtCallRcvrTime);
 			this.Controls.Add(this.cmbCallTime);
 			this.Controls.Add(this.txtCallDate);
 			this.Controls.Add(this.Label_2);
@@ -362,7 +362,7 @@ namespace Xtreme
 			// this.Activated += new System.EventHandler(this.frmSALCustomerCallLog_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
+			//this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
 			//((System.ComponentModel.ISupportInitialize) this.txtCallRcvrTime).EndInit();
 			this.ResumeLayout(false);
 		}

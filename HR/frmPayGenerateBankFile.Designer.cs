@@ -202,7 +202,7 @@ namespace Xtreme
 			// 
 			// cmdPrintReport
 			// 
-			this.cmdPrintReport.AllowDrop = true;
+			//this.cmdPrintReport.AllowDrop = true;
 			this.cmdPrintReport.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdPrintReport.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdPrintReport.Location = new System.Drawing.Point(291, 366);
@@ -218,9 +218,9 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this._GenerateOption_1);
 			this.Frame1.Controls.Add(this._GenerateOption_0);
 			this.Frame1.Controls.Add(this.Label11);
@@ -235,7 +235,7 @@ namespace Xtreme
 			// 
 			// _GenerateOption_1
 			// 
-			this._GenerateOption_1.AllowDrop = true;
+			//this._GenerateOption_1.AllowDrop = true;
 			this._GenerateOption_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._GenerateOption_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._GenerateOption_1.CausesValidation = true;
@@ -252,11 +252,11 @@ namespace Xtreme
 			this._GenerateOption_1.Text = "Leave";
 			this._GenerateOption_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._GenerateOption_1.Visible = true;
-			this._GenerateOption_1.CheckedChanged += new System.EventHandler(this.GenerateOption_CheckedChanged);
+			//this._GenerateOption_1.CheckedChanged += new System.EventHandler(this.GenerateOption_CheckedChanged);
 			// 
 			// _GenerateOption_0
 			// 
-			this._GenerateOption_0.AllowDrop = true;
+			//this._GenerateOption_0.AllowDrop = true;
 			this._GenerateOption_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._GenerateOption_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._GenerateOption_0.CausesValidation = true;
@@ -273,11 +273,11 @@ namespace Xtreme
 			this._GenerateOption_0.Text = "Payroll";
 			this._GenerateOption_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._GenerateOption_0.Visible = true;
-			this._GenerateOption_0.CheckedChanged += new System.EventHandler(this.GenerateOption_CheckedChanged);
+			//this._GenerateOption_0.CheckedChanged += new System.EventHandler(this.GenerateOption_CheckedChanged);
 			// 
 			// System.Windows.Forms.Label11
 			// 
-			this.Label11.AllowDrop = true;
+			//this.Label11.AllowDrop = true;
 			this.Label11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label11.Text = "Generate For :";
 			this.Label11.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -289,7 +289,7 @@ namespace Xtreme
 			// tabBankDisk
 			// 
 			//this.tabBankDisk.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabBankDisk.AllowDrop = true;
+			//this.tabBankDisk.AllowDrop = true;
 			this.tabBankDisk.Controls.Add(this.frmLeave);
 			this.tabBankDisk.Controls.Add(this.frmResumtion);
 			this.tabBankDisk.Controls.Add(this.frmEmployee);
@@ -302,9 +302,9 @@ namespace Xtreme
 			// 
 			// frmLeave
 			// 
-			this.frmLeave.AllowDrop = true;
+			//this.frmLeave.AllowDrop = true;
 			this.frmLeave.BackColor = System.Drawing.Color.White;
-			this.frmLeave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.frmLeave.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.frmLeave.Enabled = true;
 			this.frmLeave.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.frmLeave.Location = new System.Drawing.Point(516, 23);
@@ -316,9 +316,9 @@ namespace Xtreme
 			// 
 			// frmResumtion
 			// 
-			this.frmResumtion.AllowDrop = true;
+			//this.frmResumtion.AllowDrop = true;
 			this.frmResumtion.BackColor = System.Drawing.Color.White;
-			this.frmResumtion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.frmResumtion.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.frmResumtion.Controls.Add(this.txtDToTransDate);
 			this.frmResumtion.Controls.Add(this.txtDFromTransDate);
 			this.frmResumtion.Controls.Add(this.Label6);
@@ -352,7 +352,7 @@ namespace Xtreme
 			// 
 			// txtDToTransDate
 			// 
-			this.txtDToTransDate.AllowDrop = true;
+			//this.txtDToTransDate.AllowDrop = true;
 			this.txtDToTransDate.Location = new System.Drawing.Point(351, 144);
 			// this.txtDToTransDate.MaxDate = 2958465;
 			// this.txtDToTransDate.MinDate = -657434;
@@ -365,7 +365,7 @@ namespace Xtreme
 			// 
 			// txtDFromTransDate
 			// 
-			this.txtDFromTransDate.AllowDrop = true;
+			//this.txtDFromTransDate.AllowDrop = true;
 			this.txtDFromTransDate.Location = new System.Drawing.Point(141, 144);
 			// this.txtDFromTransDate.MaxDate = 2958465;
 			// this.txtDFromTransDate.MinDate = -657434;
@@ -378,7 +378,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.White;
 			this.Label6.Text = "To Transaction No";
 			this.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// txtLeaveToTransNo
 			// 
-			this.txtLeaveToTransNo.AllowDrop = true;
+			//this.txtLeaveToTransNo.AllowDrop = true;
 			this.txtLeaveToTransNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtLeaveToTransNo.ForeColor = System.Drawing.Color.Black;
@@ -407,7 +407,7 @@ namespace Xtreme
 			// 
 			// lblLeaveEmpBankName
 			// 
-			this.lblLeaveEmpBankName.AllowDrop = true;
+			//this.lblLeaveEmpBankName.AllowDrop = true;
 			this.lblLeaveEmpBankName.Enabled = false;
 			this.lblLeaveEmpBankName.Location = new System.Drawing.Point(243, 34);
 			this.lblLeaveEmpBankName.Name = "lblLeaveEmpBankName";
@@ -417,7 +417,7 @@ namespace Xtreme
 			// 
 			// txtLeaveEmpBankCd
 			// 
-			this.txtLeaveEmpBankCd.AllowDrop = true;
+			//this.txtLeaveEmpBankCd.AllowDrop = true;
 			this.txtLeaveEmpBankCd.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtLeaveEmpBankCd.ForeColor = System.Drawing.Color.Black;
@@ -434,7 +434,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.Label7.AllowDrop = true;
+			//this.Label7.AllowDrop = true;
 			this.Label7.BackColor = System.Drawing.Color.White;
 			this.Label7.Text = "Bank Code";
 			this.Label7.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -446,7 +446,7 @@ namespace Xtreme
 			// 
 			// txtLeaveCompBankCd
 			// 
-			this.txtLeaveCompBankCd.AllowDrop = true;
+			//this.txtLeaveCompBankCd.AllowDrop = true;
 			this.txtLeaveCompBankCd.BackColor = System.Drawing.Color.White;
 			this.txtLeaveCompBankCd.ForeColor = System.Drawing.Color.Black;
 			this.txtLeaveCompBankCd.Location = new System.Drawing.Point(140, 12);
@@ -461,7 +461,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.Label8.AllowDrop = true;
+			//this.Label8.AllowDrop = true;
 			this.Label8.BackColor = System.Drawing.Color.White;
 			this.Label8.Text = "Comapny Bank Account";
 			this.Label8.ForeColor = System.Drawing.Color.Black;
@@ -473,7 +473,7 @@ namespace Xtreme
 			// 
 			// lblLeaveCompBankName
 			// 
-			this.lblLeaveCompBankName.AllowDrop = true;
+			//this.lblLeaveCompBankName.AllowDrop = true;
 			this.lblLeaveCompBankName.Location = new System.Drawing.Point(243, 13);
 			this.lblLeaveCompBankName.Name = "lblLeaveCompBankName";
 			this.lblLeaveCompBankName.Size = new System.Drawing.Size(201, 19);
@@ -482,7 +482,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.White;
 			this._lblCommon_2.Text = "Sponsor Code";
 			this._lblCommon_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -494,7 +494,7 @@ namespace Xtreme
 			// 
 			// txtLeaveSponsorCd
 			// 
-			this.txtLeaveSponsorCd.AllowDrop = true;
+			//this.txtLeaveSponsorCd.AllowDrop = true;
 			this.txtLeaveSponsorCd.BackColor = System.Drawing.Color.White;
 			// this.txtLeaveSponsorCd.bolNumericOnly = true;
 			this.txtLeaveSponsorCd.ForeColor = System.Drawing.Color.Black;
@@ -511,7 +511,7 @@ namespace Xtreme
 			// 
 			// lblLeaveSponsorName
 			// 
-			this.lblLeaveSponsorName.AllowDrop = true;
+			//this.lblLeaveSponsorName.AllowDrop = true;
 			this.lblLeaveSponsorName.Location = new System.Drawing.Point(243, 55);
 			this.lblLeaveSponsorName.Name = "lblLeaveSponsorName";
 			this.lblLeaveSponsorName.Size = new System.Drawing.Size(201, 22);
@@ -520,7 +520,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.White;
 			this._lblCommon_3.Text = "Project Code";
 			this._lblCommon_3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -532,7 +532,7 @@ namespace Xtreme
 			// 
 			// txtLeaveProjectCd
 			// 
-			this.txtLeaveProjectCd.AllowDrop = true;
+			//this.txtLeaveProjectCd.AllowDrop = true;
 			this.txtLeaveProjectCd.BackColor = System.Drawing.Color.White;
 			this.txtLeaveProjectCd.ForeColor = System.Drawing.Color.Black;
 			this.txtLeaveProjectCd.Location = new System.Drawing.Point(140, 78);
@@ -548,7 +548,7 @@ namespace Xtreme
 			// 
 			// lblLeaveProjectName
 			// 
-			this.lblLeaveProjectName.AllowDrop = true;
+			//this.lblLeaveProjectName.AllowDrop = true;
 			this.lblLeaveProjectName.Location = new System.Drawing.Point(243, 78);
 			this.lblLeaveProjectName.Name = "lblLeaveProjectName";
 			this.lblLeaveProjectName.Size = new System.Drawing.Size(201, 19);
@@ -557,7 +557,7 @@ namespace Xtreme
 			// 
 			// txtLeaveFilePath
 			// 
-			this.txtLeaveFilePath.AllowDrop = true;
+			//this.txtLeaveFilePath.AllowDrop = true;
 			this.txtLeaveFilePath.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtLeaveFilePath.ForeColor = System.Drawing.Color.Black;
@@ -571,7 +571,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.White;
 			this.Label12.Text = "Bank Disk File Path";
 			this.Label12.ForeColor = System.Drawing.Color.Black;
@@ -583,7 +583,7 @@ namespace Xtreme
 			// 
 			// txtLeaveFromTransNo
 			// 
-			this.txtLeaveFromTransNo.AllowDrop = true;
+			//this.txtLeaveFromTransNo.AllowDrop = true;
 			this.txtLeaveFromTransNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtLeaveFromTransNo.ForeColor = System.Drawing.Color.Black;
@@ -600,7 +600,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label13
 			// 
-			this.Label13.AllowDrop = true;
+			//this.Label13.AllowDrop = true;
 			this.Label13.BackColor = System.Drawing.Color.White;
 			this.Label13.Text = "From Transaction No";
 			this.Label13.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -611,7 +611,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label9
 			// 
-			this.Label9.AllowDrop = true;
+			//this.Label9.AllowDrop = true;
 			this.Label9.BackColor = System.Drawing.Color.White;
 			this.Label9.Text = "To Transaction Date";
 			this.Label9.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -623,7 +623,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label10
 			// 
-			this.Label10.AllowDrop = true;
+			//this.Label10.AllowDrop = true;
 			this.Label10.BackColor = System.Drawing.Color.White;
 			this.Label10.Text = "From Transaction Date";
 			this.Label10.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -634,9 +634,9 @@ namespace Xtreme
 			// 
 			// frmEmployee
 			// 
-			this.frmEmployee.AllowDrop = true;
+			//this.frmEmployee.AllowDrop = true;
 			this.frmEmployee.BackColor = System.Drawing.Color.White;
-			this.frmEmployee.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.frmEmployee.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.frmEmployee.Controls.Add(this.chkSelectAll);
 			this.frmEmployee.Controls.Add(this.Label4);
 			this.frmEmployee.Controls.Add(this.txtDepartmentNameTo);
@@ -684,7 +684,7 @@ namespace Xtreme
 			// 
 			// chkSelectAll
 			// 
-			this.chkSelectAll.AllowDrop = true;
+			//this.chkSelectAll.AllowDrop = true;
 			this.chkSelectAll.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkSelectAll.BackColor = System.Drawing.Color.White;
 			this.chkSelectAll.CausesValidation = true;
@@ -701,11 +701,11 @@ namespace Xtreme
 			this.chkSelectAll.Text = "Select All";
 			this.chkSelectAll.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkSelectAll.Visible = true;
-			this.chkSelectAll.CheckStateChanged += new System.EventHandler(this.chkSelectAll_CheckStateChanged);
+			//this.chkSelectAll.CheckStateChanged += new System.EventHandler(this.chkSelectAll_CheckStateChanged);
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.White;
 			this.Label4.Text = "To Department";
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -717,7 +717,7 @@ namespace Xtreme
 			// 
 			// txtDepartmentNameTo
 			// 
-			this.txtDepartmentNameTo.AllowDrop = true;
+			//this.txtDepartmentNameTo.AllowDrop = true;
 			this.txtDepartmentNameTo.Enabled = false;
 			this.txtDepartmentNameTo.Location = new System.Drawing.Point(242, 118);
 			this.txtDepartmentNameTo.Name = "txtDepartmentNameTo";
@@ -726,7 +726,7 @@ namespace Xtreme
 			// 
 			// txtDepartmentCodeTo
 			// 
-			this.txtDepartmentCodeTo.AllowDrop = true;
+			//this.txtDepartmentCodeTo.AllowDrop = true;
 			this.txtDepartmentCodeTo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDepartmentCodeTo.ForeColor = System.Drawing.Color.Black;
@@ -743,7 +743,7 @@ namespace Xtreme
 			// 
 			// txtEmpBankName
 			// 
-			this.txtEmpBankName.AllowDrop = true;
+			//this.txtEmpBankName.AllowDrop = true;
 			this.txtEmpBankName.Enabled = false;
 			this.txtEmpBankName.Location = new System.Drawing.Point(242, 31);
 			this.txtEmpBankName.Name = "txtEmpBankName";
@@ -753,7 +753,7 @@ namespace Xtreme
 			// 
 			// txtEmpBankAccount
 			// 
-			this.txtEmpBankAccount.AllowDrop = true;
+			//this.txtEmpBankAccount.AllowDrop = true;
 			this.txtEmpBankAccount.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtEmpBankAccount.ForeColor = System.Drawing.Color.Black;
@@ -770,7 +770,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.White;
 			this.Label2.Text = "Bank Code";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -782,7 +782,7 @@ namespace Xtreme
 			// 
 			// txtBankAccountNo
 			// 
-			this.txtBankAccountNo.AllowDrop = true;
+			//this.txtBankAccountNo.AllowDrop = true;
 			this.txtBankAccountNo.BackColor = System.Drawing.Color.White;
 			this.txtBankAccountNo.ForeColor = System.Drawing.Color.Black;
 			this.txtBankAccountNo.Location = new System.Drawing.Point(139, 9);
@@ -797,7 +797,7 @@ namespace Xtreme
 			// 
 			// lblMasterCode
 			// 
-			this.lblMasterCode.AllowDrop = true;
+			//this.lblMasterCode.AllowDrop = true;
 			this.lblMasterCode.BackColor = System.Drawing.Color.White;
 			this.lblMasterCode.Text = "Comapny Bank Account";
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
@@ -809,7 +809,7 @@ namespace Xtreme
 			// 
 			// txtFromEmpNo
 			// 
-			this.txtFromEmpNo.AllowDrop = true;
+			//this.txtFromEmpNo.AllowDrop = true;
 			this.txtFromEmpNo.BackColor = System.Drawing.Color.White;
 			this.txtFromEmpNo.ForeColor = System.Drawing.Color.Black;
 			this.txtFromEmpNo.Location = new System.Drawing.Point(139, 158);
@@ -824,7 +824,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.White;
 			this.lblLocationCode.Text = "From Employee";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -836,7 +836,7 @@ namespace Xtreme
 			// 
 			// txtToEmpNo
 			// 
-			this.txtToEmpNo.AllowDrop = true;
+			//this.txtToEmpNo.AllowDrop = true;
 			this.txtToEmpNo.BackColor = System.Drawing.Color.White;
 			this.txtToEmpNo.ForeColor = System.Drawing.Color.Black;
 			this.txtToEmpNo.Location = new System.Drawing.Point(139, 178);
@@ -851,7 +851,7 @@ namespace Xtreme
 			// 
 			// Label1_0
 			// 
-			this.Label1_0.AllowDrop = true;
+			//this.Label1_0.AllowDrop = true;
 			this.Label1_0.BackColor = System.Drawing.Color.White;
 			this.Label1_0.Text = "To Employee";
 			this.Label1_0.ForeColor = System.Drawing.Color.Black;
@@ -863,7 +863,7 @@ namespace Xtreme
 			// 
 			// lblVoucherRange
 			// 
-			this.lblVoucherRange.AllowDrop = true;
+			//this.lblVoucherRange.AllowDrop = true;
 			this.lblVoucherRange.BackColor = System.Drawing.Color.White;
 			this.lblVoucherRange.Text = " Period ";
 			this.lblVoucherRange.ForeColor = System.Drawing.Color.Black;
@@ -875,7 +875,7 @@ namespace Xtreme
 			// 
 			// txtToEmpName
 			// 
-			this.txtToEmpName.AllowDrop = true;
+			//this.txtToEmpName.AllowDrop = true;
 			this.txtToEmpName.Location = new System.Drawing.Point(242, 178);
 			this.txtToEmpName.Name = "txtToEmpName";
 			this.txtToEmpName.Size = new System.Drawing.Size(201, 19);
@@ -884,7 +884,7 @@ namespace Xtreme
 			// 
 			// txtFromEmpName
 			// 
-			this.txtFromEmpName.AllowDrop = true;
+			//this.txtFromEmpName.AllowDrop = true;
 			this.txtFromEmpName.Location = new System.Drawing.Point(242, 158);
 			this.txtFromEmpName.Name = "txtFromEmpName";
 			this.txtFromEmpName.Size = new System.Drawing.Size(201, 19);
@@ -893,7 +893,7 @@ namespace Xtreme
 			// 
 			// txtBankName
 			// 
-			this.txtBankName.AllowDrop = true;
+			//this.txtBankName.AllowDrop = true;
 			this.txtBankName.Location = new System.Drawing.Point(242, 10);
 			this.txtBankName.Name = "txtBankName";
 			this.txtBankName.Size = new System.Drawing.Size(201, 19);
@@ -902,7 +902,7 @@ namespace Xtreme
 			// 
 			// cmbMonth
 			// 
-			this.cmbMonth.AllowDrop = true;
+			//this.cmbMonth.AllowDrop = true;
 			this.cmbMonth.Location = new System.Drawing.Point(278, 262);
 			this.cmbMonth.Name = "cmbMonth";
 			this.cmbMonth.Size = new System.Drawing.Size(79, 21);
@@ -910,7 +910,7 @@ namespace Xtreme
 			// 
 			// cmbYear
 			// 
-			this.cmbYear.AllowDrop = true;
+			//this.cmbYear.AllowDrop = true;
 			this.cmbYear.Location = new System.Drawing.Point(136, 264);
 			this.cmbYear.Name = "cmbYear";
 			this.cmbYear.Size = new System.Drawing.Size(87, 21);
@@ -918,7 +918,7 @@ namespace Xtreme
 			// 
 			// lblToVoucherNo
 			// 
-			this.lblToVoucherNo.AllowDrop = true;
+			//this.lblToVoucherNo.AllowDrop = true;
 			this.lblToVoucherNo.BackColor = System.Drawing.Color.White;
 			this.lblToVoucherNo.Text = "Month";
 			this.lblToVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -930,7 +930,7 @@ namespace Xtreme
 			// 
 			// lblFromVoucherNo
 			// 
-			this.lblFromVoucherNo.AllowDrop = true;
+			//this.lblFromVoucherNo.AllowDrop = true;
 			this.lblFromVoucherNo.BackColor = System.Drawing.Color.White;
 			this.lblFromVoucherNo.Text = "Year";
 			this.lblFromVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -942,7 +942,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_41
 			// 
-			this._lblCommon_41.AllowDrop = true;
+			//this._lblCommon_41.AllowDrop = true;
 			this._lblCommon_41.BackColor = System.Drawing.Color.White;
 			this._lblCommon_41.Text = "Sponsor Code";
 			this._lblCommon_41.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -954,7 +954,7 @@ namespace Xtreme
 			// 
 			// txtSponsorCd
 			// 
-			this.txtSponsorCd.AllowDrop = true;
+			//this.txtSponsorCd.AllowDrop = true;
 			this.txtSponsorCd.BackColor = System.Drawing.Color.White;
 			// this.txtSponsorCd.bolNumericOnly = true;
 			this.txtSponsorCd.ForeColor = System.Drawing.Color.Black;
@@ -971,7 +971,7 @@ namespace Xtreme
 			// 
 			// txtDlblSponsorName
 			// 
-			this.txtDlblSponsorName.AllowDrop = true;
+			//this.txtDlblSponsorName.AllowDrop = true;
 			this.txtDlblSponsorName.Location = new System.Drawing.Point(242, 52);
 			this.txtDlblSponsorName.Name = "txtDlblSponsorName";
 			this.txtDlblSponsorName.Size = new System.Drawing.Size(201, 22);
@@ -980,7 +980,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.White;
 			this._lblCommon_0.Text = "Project Code";
 			this._lblCommon_0.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -992,7 +992,7 @@ namespace Xtreme
 			// 
 			// txtProjectCd
 			// 
-			this.txtProjectCd.AllowDrop = true;
+			//this.txtProjectCd.AllowDrop = true;
 			this.txtProjectCd.BackColor = System.Drawing.Color.White;
 			this.txtProjectCd.ForeColor = System.Drawing.Color.Black;
 			this.txtProjectCd.Location = new System.Drawing.Point(139, 75);
@@ -1008,7 +1008,7 @@ namespace Xtreme
 			// 
 			// txtDProjectName
 			// 
-			this.txtDProjectName.AllowDrop = true;
+			//this.txtDProjectName.AllowDrop = true;
 			this.txtDProjectName.Location = new System.Drawing.Point(242, 75);
 			this.txtDProjectName.Name = "txtDProjectName";
 			this.txtDProjectName.Size = new System.Drawing.Size(201, 19);
@@ -1017,7 +1017,7 @@ namespace Xtreme
 			// 
 			// txtFilePath
 			// 
-			this.txtFilePath.AllowDrop = true;
+			//this.txtFilePath.AllowDrop = true;
 			this.txtFilePath.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtFilePath.ForeColor = System.Drawing.Color.Black;
@@ -1031,7 +1031,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.White;
 			this.Label5.Text = "Bank Disk File Path";
 			this.Label5.ForeColor = System.Drawing.Color.Black;
@@ -1043,7 +1043,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.White;
 			this._lblCommon_1.Text = "Company Code";
 			this._lblCommon_1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -1055,7 +1055,7 @@ namespace Xtreme
 			// 
 			// txtCompanyCode
 			// 
-			this.txtCompanyCode.AllowDrop = true;
+			//this.txtCompanyCode.AllowDrop = true;
 			this.txtCompanyCode.BackColor = System.Drawing.Color.White;
 			this.txtCompanyCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCompanyCode.Location = new System.Drawing.Point(139, 138);
@@ -1071,7 +1071,7 @@ namespace Xtreme
 			// 
 			// txtDlblCompanyName
 			// 
-			this.txtDlblCompanyName.AllowDrop = true;
+			//this.txtDlblCompanyName.AllowDrop = true;
 			this.txtDlblCompanyName.Location = new System.Drawing.Point(242, 138);
 			this.txtDlblCompanyName.Name = "txtDlblCompanyName";
 			this.txtDlblCompanyName.Size = new System.Drawing.Size(201, 19);
@@ -1080,7 +1080,7 @@ namespace Xtreme
 			// 
 			// txtDepartmentName
 			// 
-			this.txtDepartmentName.AllowDrop = true;
+			//this.txtDepartmentName.AllowDrop = true;
 			this.txtDepartmentName.Enabled = false;
 			this.txtDepartmentName.Location = new System.Drawing.Point(242, 97);
 			this.txtDepartmentName.Name = "txtDepartmentName";
@@ -1090,7 +1090,7 @@ namespace Xtreme
 			// 
 			// txtDepartmentCode
 			// 
-			this.txtDepartmentCode.AllowDrop = true;
+			//this.txtDepartmentCode.AllowDrop = true;
 			this.txtDepartmentCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDepartmentCode.ForeColor = System.Drawing.Color.Black;
@@ -1107,7 +1107,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.White;
 			this.Label3.Text = "From Department";
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -1119,13 +1119,13 @@ namespace Xtreme
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
 			//
 			this.Shape1.Enabled = false;
-			//this.Shape1.FillColor = System.Drawing.Color.Black;
-			//this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(13, 249);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(433, 46);
@@ -1133,15 +1133,15 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(81, 366);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(205, 29);
 			this.cmdOKCancel.TabIndex = 61;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// frmPayGenerateBankFile
 			// 

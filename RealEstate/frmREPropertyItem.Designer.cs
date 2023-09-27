@@ -83,9 +83,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtRemarks.Location = new System.Drawing.Point(140, 134);
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(140, 50);
@@ -115,7 +115,7 @@ namespace Xtreme
 			// 
 			// lblAssetsCode
 			// 
-			this.lblAssetsCode.AllowDrop = true;
+			//this.lblAssetsCode.AllowDrop = true;
 			this.lblAssetsCode.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsCode.Text = "Item Name  (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentNo
 			// 
-			this.lblAssetsAdjustmentNo.AllowDrop = true;
+			//this.lblAssetsAdjustmentNo.AllowDrop = true;
 			this.lblAssetsAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentNo.Text = "Item Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(140, 71);
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6.Text = "Item Name  (Arabic)";
 			this.Label6.ForeColor = System.Drawing.Color.Black;
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(140, 92);
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label3.Text = "Item Type  Code";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_3.bolNumericOnly = true;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(243, 113);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);

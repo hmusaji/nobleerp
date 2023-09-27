@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(130, 88);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtTypeNo
 			// 
-			this.txtTypeNo.AllowDrop = true;
+			//this.txtTypeNo.AllowDrop = true;
 			this.txtTypeNo.BackColor = System.Drawing.Color.White;
 			// this.txtTypeNo.bolNumericOnly = true;
 			this.txtTypeNo.ForeColor = System.Drawing.Color.Black;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// lblUnitNo
 			// 
-			this.lblUnitNo.AllowDrop = true;
+			//this.lblUnitNo.AllowDrop = true;
 			this.lblUnitNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNo.Text = "Unit Code";
 			this.lblUnitNo.Location = new System.Drawing.Point(4, 26);
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// lblLUnitName
 			// 
-			this.lblLUnitName.AllowDrop = true;
+			//this.lblLUnitName.AllowDrop = true;
 			this.lblLUnitName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLUnitName.Text = "Name (English)";
 			this.lblLUnitName.Location = new System.Drawing.Point(4, 46);
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// lblAUnitName
 			// 
-			this.lblAUnitName.AllowDrop = true;
+			//this.lblAUnitName.AllowDrop = true;
 			this.lblAUnitName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAUnitName.Text = "Name (Arabic)";
 			this.lblAUnitName.Location = new System.Drawing.Point(4, 68);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// txtLTypeName
 			// 
-			this.txtLTypeName.AllowDrop = true;
+			//this.txtLTypeName.AllowDrop = true;
 			this.txtLTypeName.BackColor = System.Drawing.Color.White;
 			this.txtLTypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtLTypeName.Location = new System.Drawing.Point(130, 44);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// txtATypeName
 			// 
-			this.txtATypeName.AllowDrop = true;
+			//this.txtATypeName.AllowDrop = true;
 			this.txtATypeName.BackColor = System.Drawing.Color.White;
 			this.txtATypeName.ForeColor = System.Drawing.Color.Black;
 			this.txtATypeName.Location = new System.Drawing.Point(130, 66);
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(4, 88);

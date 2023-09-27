@@ -83,7 +83,7 @@ namespace Xtreme
 			// 
 			// _mnuChartOfAccount1_2
 			// 
-			this._mnuChartOfAccount1_2.AllowDrop = true;
+			//this._mnuChartOfAccount1_2.AllowDrop = true;
 			this._mnuChartOfAccount1_2.Available = true;
 			this._mnuChartOfAccount1_2.Enabled = true;
 			this._mnuChartOfAccount1_2.Name = "_mnuChartOfAccount1_2";
@@ -110,7 +110,7 @@ namespace Xtreme
 			// fg
 			// 
 			this.fg.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.fg.AllowDrop = true;
+			//this.fg.AllowDrop = true;
 			this.fg.AllowEditing = false;
 			this.fg.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.fg.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -121,8 +121,8 @@ namespace Xtreme
 			this.fg.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.fg.AutoSearchDelay = 2;
 			this.fg.BackColor = System.Drawing.SystemColors.Window;
-			this.fg.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.fg.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.fg.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.fg.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.fg.Cols.Count = 10;
 			this.fg.Cols.Fixed = 1;
 			this.fg.Cols.Frozen = 0;
@@ -179,15 +179,15 @@ namespace Xtreme
 			// this.this.fg.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fg_KeyDown);
 			//this.fg.KeyUp += new System.Windows.Forms.KeyEventHandler(this.fg_KeyUp);
 			//this.fg.MouseDown += new System.Windows.Forms.MouseEventHandler(this.fg_MouseDown);
-			//this.fg.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fg_MouseMove);
-			//this.fg.MouseUp += new System.Windows.Forms.MouseEventHandler(this.fg_MouseUp);
-			//this.fg.RowColChange += new System.EventHandler(this.fg_RowColChange);
+			////this.fg.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fg_MouseMove);
+			////this.fg.MouseUp += new System.Windows.Forms.MouseEventHandler(this.fg_MouseUp);
+			////this.fg.RowColChange += new System.EventHandler(this.fg_RowColChange);
 			//this.fg.SelChange += new System.EventHandler(this.fg_SelChange);
 			// 
 			// ImgOpenFolder
 			// 
-			this.ImgOpenFolder.AllowDrop = true;
-			this.ImgOpenFolder.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.ImgOpenFolder.AllowDrop = true;
+			//this.ImgOpenFolder.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.ImgOpenFolder.Enabled = true;
 			//this.ImgOpenFolder.Image = (System.Drawing.Image) resources.GetObject("ImgOpenFolder.Image");
 			this.ImgOpenFolder.Location = new System.Drawing.Point(118, 72);
@@ -198,8 +198,8 @@ namespace Xtreme
 			// 
 			// imgFolder
 			// 
-			this.imgFolder.AllowDrop = true;
-			this.imgFolder.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.imgFolder.AllowDrop = true;
+			//this.imgFolder.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.imgFolder.Enabled = true;
 			//this.imgFolder.Image = (System.Drawing.Image) resources.GetObject("imgFolder.Image");
 			this.imgFolder.Location = new System.Drawing.Point(2, 48);

@@ -103,9 +103,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(142, 167);
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// lblCompNo
 			// 
-			this.lblCompNo.AllowDrop = true;
+			//this.lblCompNo.AllowDrop = true;
 			this.lblCompNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCompNo.Text = "Company Code";
 			this.lblCompNo.Location = new System.Drawing.Point(10, 49);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Company Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(10, 109);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtLCompName
 			// 
-			this.txtLCompName.AllowDrop = true;
+			//this.txtLCompName.AllowDrop = true;
 			this.txtLCompName.BackColor = System.Drawing.Color.White;
 			this.txtLCompName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCompName.Location = new System.Drawing.Point(359, 4);
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Company Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(10, 128);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// txtACompName
 			// 
-			this.txtACompName.AllowDrop = true;
+			//this.txtACompName.AllowDrop = true;
 			this.txtACompName.BackColor = System.Drawing.Color.White;
 			this.txtACompName.ForeColor = System.Drawing.Color.Black;
 			this.txtACompName.Location = new System.Drawing.Point(359, 25);
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 170);
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// txtLThirdName
 			// 
-			this.txtLThirdName.AllowDrop = true;
+			//this.txtLThirdName.AllowDrop = true;
 			this.txtLThirdName.BackColor = System.Drawing.Color.White;
 			this.txtLThirdName.ForeColor = System.Drawing.Color.Black;
 			this.txtLThirdName.Location = new System.Drawing.Point(326, 106);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// txtLFourthName
 			// 
-			this.txtLFourthName.AllowDrop = true;
+			//this.txtLFourthName.AllowDrop = true;
 			this.txtLFourthName.BackColor = System.Drawing.Color.White;
 			this.txtLFourthName.ForeColor = System.Drawing.Color.Black;
 			this.txtLFourthName.Location = new System.Drawing.Point(419, 106);
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// txtAFirstName
 			// 
-			this.txtAFirstName.AllowDrop = true;
+			//this.txtAFirstName.AllowDrop = true;
 			this.txtAFirstName.BackColor = System.Drawing.Color.White;
 			this.txtAFirstName.ForeColor = System.Drawing.Color.Black;
 			this.txtAFirstName.Location = new System.Drawing.Point(142, 125);
@@ -225,7 +225,7 @@ namespace Xtreme
 			// 
 			// txtASecondName
 			// 
-			this.txtASecondName.AllowDrop = true;
+			//this.txtASecondName.AllowDrop = true;
 			this.txtASecondName.BackColor = System.Drawing.Color.White;
 			this.txtASecondName.ForeColor = System.Drawing.Color.Black;
 			this.txtASecondName.Location = new System.Drawing.Point(235, 125);
@@ -237,7 +237,7 @@ namespace Xtreme
 			// 
 			// txtAThirdName
 			// 
-			this.txtAThirdName.AllowDrop = true;
+			//this.txtAThirdName.AllowDrop = true;
 			this.txtAThirdName.BackColor = System.Drawing.Color.White;
 			this.txtAThirdName.ForeColor = System.Drawing.Color.Black;
 			this.txtAThirdName.Location = new System.Drawing.Point(326, 125);
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// txtAFourthName
 			// 
-			this.txtAFourthName.AllowDrop = true;
+			//this.txtAFourthName.AllowDrop = true;
 			this.txtAFourthName.BackColor = System.Drawing.Color.White;
 			this.txtAFourthName.ForeColor = System.Drawing.Color.Black;
 			this.txtAFourthName.Location = new System.Drawing.Point(419, 125);
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// txtCompNo
 			// 
-			this.txtCompNo.AllowDrop = true;
+			//this.txtCompNo.AllowDrop = true;
 			this.txtCompNo.BackColor = System.Drawing.Color.White;
 			// this.txtCompNo.bolNumericOnly = true;
 			this.txtCompNo.ForeColor = System.Drawing.Color.Black;
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// txtLFirstName
 			// 
-			this.txtLFirstName.AllowDrop = true;
+			//this.txtLFirstName.AllowDrop = true;
 			this.txtLFirstName.BackColor = System.Drawing.Color.White;
 			this.txtLFirstName.ForeColor = System.Drawing.Color.Black;
 			this.txtLFirstName.Location = new System.Drawing.Point(142, 106);
@@ -289,7 +289,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "First Name";
 			this.Label1.Location = new System.Drawing.Point(158, 84);
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Third Name";
 			this.Label3.Location = new System.Drawing.Point(345, 84);
@@ -311,7 +311,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Text = "Fourth Name";
 			this.Label4.Location = new System.Drawing.Point(434, 84);
@@ -322,7 +322,7 @@ namespace Xtreme
 			// 
 			// txtLSecondName
 			// 
-			this.txtLSecondName.AllowDrop = true;
+			//this.txtLSecondName.AllowDrop = true;
 			this.txtLSecondName.BackColor = System.Drawing.Color.White;
 			this.txtLSecondName.ForeColor = System.Drawing.Color.Black;
 			this.txtLSecondName.Location = new System.Drawing.Point(235, 106);
@@ -334,7 +334,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Second Name";
 			this.Label2.Location = new System.Drawing.Point(247, 84);
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Text = "License No.";
 			this.Label5.Location = new System.Drawing.Point(10, 149);
@@ -356,7 +356,7 @@ namespace Xtreme
 			// 
 			// txtLicenseNo
 			// 
-			this.txtLicenseNo.AllowDrop = true;
+			//this.txtLicenseNo.AllowDrop = true;
 			this.txtLicenseNo.BackColor = System.Drawing.Color.White;
 			this.txtLicenseNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLicenseNo.Location = new System.Drawing.Point(142, 146);

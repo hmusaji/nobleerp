@@ -78,7 +78,7 @@ namespace Xtreme
 			// 
 			// chkAdvancedOptions
 			// 
-			this.chkAdvancedOptions.AllowDrop = true;
+			//this.chkAdvancedOptions.AllowDrop = true;
 			this.chkAdvancedOptions.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkAdvancedOptions.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkAdvancedOptions.CausesValidation = true;
@@ -95,12 +95,12 @@ namespace Xtreme
 			this.chkAdvancedOptions.Text = "Show Advanced O&ptions";
 			this.chkAdvancedOptions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkAdvancedOptions.Visible = false;
-			this.chkAdvancedOptions.CheckStateChanged += new System.EventHandler(this.chkAdvancedOptions_CheckStateChanged);
+			//this.chkAdvancedOptions.CheckStateChanged += new System.EventHandler(this.chkAdvancedOptions_CheckStateChanged);
 			// 
 			// tabReportOptions
 			// 
 			//this.tabReportOptions.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabReportOptions.AllowDrop = true;
+			//this.tabReportOptions.AllowDrop = true;
 			this.tabReportOptions.Controls.Add(this.fraReportOptions);
 			this.tabReportOptions.Location = new System.Drawing.Point(4, 338);
 			this.tabReportOptions.Name = "tabReportOptions";
@@ -112,9 +112,9 @@ namespace Xtreme
 			// 
 			// fraReportOptions
 			// 
-			this.fraReportOptions.AllowDrop = true;
+			//this.fraReportOptions.AllowDrop = true;
 			this.fraReportOptions.BackColor = System.Drawing.SystemColors.Control;
-			this.fraReportOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraReportOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraReportOptions.Enabled = true;
 			this.fraReportOptions.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.fraReportOptions.Location = new System.Drawing.Point(2, 24);
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_3.Text = "Filter Range:";
 			this._lblCommon_3.Location = new System.Drawing.Point(2, 42);
@@ -137,7 +137,7 @@ namespace Xtreme
 			// 
 			// grdReportOptions
 			// 
-			this.grdReportOptions.AllowDrop = true;
+			//this.grdReportOptions.AllowDrop = true;
 			this.grdReportOptions.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdReportOptions.CellTipsWidth = 0;
 			this.grdReportOptions.Location = new System.Drawing.Point(102, 62);
@@ -147,10 +147,10 @@ namespace Xtreme
 			this.grdReportOptions.TabIndex = 4;
 			this.grdReportOptions.Columns.Add(this.Column_0_grdReportOptions);
 			this.grdReportOptions.Columns.Add(this.Column_1_grdReportOptions);
-			this.grdReportOptions.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportOptions_BeforeColEdit);
+			//this.grdReportOptions.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportOptions_BeforeColEdit);
 			// this.this.grdReportOptions.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdReportOptions_KeyPress);
-			this.grdReportOptions.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportOptions_MouseUp);
-			this.grdReportOptions.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportOptions_RowColChange);
+			//this.grdReportOptions.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportOptions_MouseUp);
+			//this.grdReportOptions.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportOptions_RowColChange);
 			// 
 			// Column_0_grdReportOptions
 			// 
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// cmbSearchList
 			// 
-			this.cmbSearchList.AllowDrop = true;
+			//this.cmbSearchList.AllowDrop = true;
 			this.cmbSearchList.ColumnHeaders = true;
 			this.cmbSearchList.Enabled = true;
 			this.cmbSearchList.Location = new System.Drawing.Point(0, 62);
@@ -186,9 +186,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmSysFindOptions
@@ -204,7 +204,7 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommon_3);
 			this.Controls.Add(this.grdReportOptions);
 			this.Controls.Add(this.cmbSearchList);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysFindOptions.Icon");
 			this.KeyPreview = true;

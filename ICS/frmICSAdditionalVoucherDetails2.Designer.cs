@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.cntMainParameter.Controls.Add(this.fraCashInfo);
 			this.cntMainParameter.Controls.Add(this._txtNCommon_0);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// fraCashInfo
 			// 
-			this.fraCashInfo.AllowDrop = true;
+			//this.fraCashInfo.AllowDrop = true;
 			this.fraCashInfo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraCashInfo.Controls.Add(this._lblCommonLabel_3);
 			this.fraCashInfo.Controls.Add(this._txtNCommon_4);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Total Amount";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(528, 10);
@@ -174,7 +174,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_4
 			// 
-			this._txtNCommon_4.AllowDrop = true;
+			//this._txtNCommon_4.AllowDrop = true;
 			this._txtNCommon_4.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this._txtNCommon_4.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtNCommon_4.Enabled = false;
@@ -187,11 +187,11 @@ namespace Xtreme
 			this._txtNCommon_4.TabIndex = 12;
 			this._txtNCommon_4.Text = "0.000";
 			// this.this._txtNCommon_4.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_4.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_4.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// _lblCommonLabel_7
 			// 
-			this._lblCommonLabel_7.AllowDrop = true;
+			//this._lblCommonLabel_7.AllowDrop = true;
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Cash";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(45, 10);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Credit Card";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(121, 10);
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_1
 			// 
-			this._txtNCommon_1.AllowDrop = true;
+			//this._txtNCommon_1.AllowDrop = true;
 			// this._txtNCommon_1.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtNCommon_1.Format = "###########0.000";
 			this._txtNCommon_1.Location = new System.Drawing.Point(14, 26);
@@ -222,11 +222,11 @@ namespace Xtreme
 			this._txtNCommon_1.TabIndex = 15;
 			this._txtNCommon_1.Text = "0.000";
 			// this.this._txtNCommon_1.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_1.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_1.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// _txtNCommon_2
 			// 
-			this._txtNCommon_2.AllowDrop = true;
+			//this._txtNCommon_2.AllowDrop = true;
 			// this._txtNCommon_2.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtNCommon_2.Format = "###########0.000";
 			this._txtNCommon_2.Location = new System.Drawing.Point(104, 26);
@@ -237,11 +237,11 @@ namespace Xtreme
 			this._txtNCommon_2.TabIndex = 16;
 			this._txtNCommon_2.Text = "0.000";
 			// this.this._txtNCommon_2.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_2.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_2.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Credit Voucher";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(203, 10);
@@ -251,7 +251,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_6
 			// 
-			this._txtNCommon_6.AllowDrop = true;
+			//this._txtNCommon_6.AllowDrop = true;
 			// this._txtNCommon_6.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtNCommon_6.Format = "###########0.000";
 			this._txtNCommon_6.Location = new System.Drawing.Point(194, 26);
@@ -262,11 +262,11 @@ namespace Xtreme
 			this._txtNCommon_6.TabIndex = 24;
 			this._txtNCommon_6.Text = "0.000";
 			// this.this._txtNCommon_6.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_6.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_6.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Credit Voucher No.";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(293, 10);
@@ -276,7 +276,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(284, 26);
@@ -290,7 +290,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_0
 			// 
-			this._txtNCommon_0.AllowDrop = true;
+			//this._txtNCommon_0.AllowDrop = true;
 			this._txtNCommon_0.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this._txtNCommon_0.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtNCommon_0.Enabled = false;
@@ -305,11 +305,11 @@ namespace Xtreme
 			this._txtNCommon_0.TabIndex = 17;
 			this._txtNCommon_0.Text = "0.000";
 			// this.this._txtNCommon_0.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_0.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_0.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Voucher Amount";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(36, 16);
@@ -319,7 +319,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_3
 			// 
-			this._txtNCommon_3.AllowDrop = true;
+			//this._txtNCommon_3.AllowDrop = true;
 			this._txtNCommon_3.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this._txtNCommon_3.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtNCommon_3.Enabled = false;
@@ -332,11 +332,11 @@ namespace Xtreme
 			this._txtNCommon_3.TabIndex = 19;
 			this._txtNCommon_3.Text = "0.000";
 			// this.this._txtNCommon_3.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_3.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_3.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Amount Received";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(36, 37);
@@ -346,7 +346,7 @@ namespace Xtreme
 			// 
 			// _txtNCommon_5
 			// 
-			this._txtNCommon_5.AllowDrop = true;
+			//this._txtNCommon_5.AllowDrop = true;
 			// this._txtNCommon_5.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this._txtNCommon_5.Format = "###########0.000";
 			this._txtNCommon_5.Location = new System.Drawing.Point(126, 35);
@@ -357,14 +357,14 @@ namespace Xtreme
 			this._txtNCommon_5.TabIndex = 21;
 			this._txtNCommon_5.Text = "0.000";
 			// this.this._txtNCommon_5.Change += new System.Windows.Forms.TextBox.ChangeHandler(this.txtNCommon_Change);
-			this._txtNCommon_5.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
+			//this._txtNCommon_5.Validating += new System.ComponentModel.CancelEventHandler(this.txtNCommon_Validating);
 			// 
 			// lblChange
 			// 
-			this.lblChange.AllowDrop = true;
+			//this.lblChange.AllowDrop = true;
 			this.lblChange.AutoSize = true;
 			this.lblChange.BackColor = System.Drawing.Color.Transparent;
-			this.lblChange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblChange.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblChange.Font = new System.Drawing.Font("Arial", 18f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblChange.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblChange.Location = new System.Drawing.Point(228, 23);
@@ -376,7 +376,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(0, 82);
@@ -386,9 +386,9 @@ namespace Xtreme
 			// 
 			// picPostMode
 			// 
-			this.picPostMode.AllowDrop = true;
+			//this.picPostMode.AllowDrop = true;
 			this.picPostMode.BackColor = System.Drawing.Color.Navy;
-			this.picPostMode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.picPostMode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.picPostMode.CausesValidation = true;
 			this.picPostMode.Controls.Add(this.cmdPostMode);
 			this.picPostMode.Dock = System.Windows.Forms.DockStyle.None;
@@ -402,30 +402,30 @@ namespace Xtreme
 			// 
 			// cmdPostMode
 			// 
-			this.cmdPostMode.AllowDrop = true;
+			//this.cmdPostMode.AllowDrop = true;
 			this.cmdPostMode.Location = new System.Drawing.Point(0, 0);
 			this.cmdPostMode.Name = "cmdPostMode";
 			//
 			this.cmdPostMode.Size = new System.Drawing.Size(133, 29);
 			this.cmdPostMode.TabIndex = 1;
-			this.cmdPostMode.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdPostMode_AccessKeyPress);
+			//this.cmdPostMode.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdPostMode_AccessKeyPress);
 			//// this.cmdPostMode.ClickEvent += new System.EventHandler(this.cmdPostMode_ClickEvent);
 			// 
 			// UCOkCancel1
 			// 
-			this.UCOkCancel1.AllowDrop = true;
+			//this.UCOkCancel1.AllowDrop = true;
 			this.UCOkCancel1.DisplayButton = 0;
 			this.UCOkCancel1.Location = new System.Drawing.Point(438, 186);
 			this.UCOkCancel1.Name = "UCOkCancel1";
 			this.UCOkCancel1.OkCaption = "&Ok";
 			this.UCOkCancel1.Size = new System.Drawing.Size(206, 31);
 			this.UCOkCancel1.TabIndex = 0;
-			this.UCOkCancel1.CancelClick += new UCOkCancel.CancelClickHandler(this.UCOkCancel1_CancelClick);
-			this.UCOkCancel1.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
+			//this.UCOkCancel1.CancelClick += new UCOkCancel.CancelClickHandler(this.UCOkCancel1_CancelClick);
+			//this.UCOkCancel1.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
 			// 
 			// _lblCommonLabel_60
 			// 
-			this._lblCommonLabel_60.AllowDrop = true;
+			//this._lblCommonLabel_60.AllowDrop = true;
 			this._lblCommonLabel_60.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_60.Text = "GL A/c";
 			this._lblCommonLabel_60.ForeColor = System.Drawing.Color.Black;
@@ -436,9 +436,9 @@ namespace Xtreme
 			// 
 			// fraOptions
 			// 
-			this.fraOptions.AllowDrop = true;
+			//this.fraOptions.AllowDrop = true;
 			this.fraOptions.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.fraOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraOptions.Controls.Add(this._lblCommonLabel_5);
 			this.fraOptions.Controls.Add(this._txtCommon_2);
 			this.fraOptions.Controls.Add(this._txtCommon_3);
@@ -457,7 +457,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Cash A/c";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(12, 20);
@@ -467,7 +467,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommon_2.Enabled = false;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -483,7 +483,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_3.Location = new System.Drawing.Point(262, 18);
@@ -498,7 +498,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Credit Card A/c";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(184, 20);
@@ -508,7 +508,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(432, 18);
@@ -523,7 +523,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Voucher A/c";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(354, 20);
@@ -533,7 +533,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(38, 232);

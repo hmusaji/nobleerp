@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// cmbSetObject
 			// 
-			this.cmbSetObject.AllowDrop = true;
+			//this.cmbSetObject.AllowDrop = true;
 			this.cmbSetObject.Location = new System.Drawing.Point(124, 14);
 			this.cmbSetObject.Name = "cmbSetObject";
 			this.cmbSetObject.Size = new System.Drawing.Size(101, 21);
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_11
 			// 
-			this._txtCommonTextBox_11.AllowDrop = true;
+			//this._txtCommonTextBox_11.AllowDrop = true;
 			this._txtCommonTextBox_11.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_11.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_11.Location = new System.Drawing.Point(62, 387);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_9.Text = "Narration";
 			this._lblCommonLabel_9.ForeColor = System.Drawing.Color.Black;
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_12
 			// 
-			this._lblCommonLabel_12.AllowDrop = true;
+			//this._lblCommonLabel_12.AllowDrop = true;
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_12.Text = "Product Details :";
 			this._lblCommonLabel_12.ForeColor = System.Drawing.Color.Black;
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(6, 220);
@@ -174,7 +174,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_2.Text = "Set Name (English)";
 			this._lblCommonLabel_2.ForeColor = System.Drawing.Color.Black;
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_5.Text = "Set Object";
 			this._lblCommonLabel_5.ForeColor = System.Drawing.Color.Black;
@@ -196,7 +196,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_21
 			// 
-			this._lblCommonLabel_21.AllowDrop = true;
+			//this._lblCommonLabel_21.AllowDrop = true;
 			this._lblCommonLabel_21.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_21.Text = "Set Short Name(Arabic)";
 			this._lblCommonLabel_21.ForeColor = System.Drawing.Color.Black;
@@ -207,7 +207,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.Label12.Text = "Comments";
 			this.Label12.ForeColor = System.Drawing.Color.Black;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_2
 			// 
-			this._txtCommonTextBox_2.AllowDrop = true;
+			//this._txtCommonTextBox_2.AllowDrop = true;
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(124, 102);
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_0.Text = "Set Name(Arabic)";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
@@ -245,7 +245,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_0.Location = new System.Drawing.Point(124, 60);
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_3.Text = "Set Short Name(English)";
 			this._lblCommonLabel_3.ForeColor = System.Drawing.Color.Black;
@@ -270,7 +270,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(4, 178);
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(124, 81);
@@ -307,7 +307,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_4
 			// 
-			this._txtCommonTextBox_4.AllowDrop = true;
+			//this._txtCommonTextBox_4.AllowDrop = true;
 			this._txtCommonTextBox_4.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_4.Location = new System.Drawing.Point(124, 144);
@@ -322,7 +322,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(124, 123);
@@ -337,7 +337,7 @@ namespace Xtreme
 			// 
 			// cmbSetCode
 			// 
-			this.cmbSetCode.AllowDrop = true;
+			//this.cmbSetCode.AllowDrop = true;
 			this.cmbSetCode.Location = new System.Drawing.Point(124, 37);
 			this.cmbSetCode.Name = "cmbSetCode";
 			this.cmbSetCode.Size = new System.Drawing.Size(101, 21);
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._lblCommonLabel_1.Text = "Set Code";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;

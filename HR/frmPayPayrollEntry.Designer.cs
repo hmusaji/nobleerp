@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// cmdRefresh
 			// 
-			this.cmdRefresh.AllowDrop = true;
+			//this.cmdRefresh.AllowDrop = true;
 			this.cmdRefresh.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdRefresh.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdRefresh.Location = new System.Drawing.Point(372, 54);
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// txtDlblDeptName
 			// 
-			this.txtDlblDeptName.AllowDrop = true;
+			//this.txtDlblDeptName.AllowDrop = true;
 			this.txtDlblDeptName.Enabled = false;
 			this.txtDlblDeptName.Location = new System.Drawing.Point(100, 31);
 			this.txtDlblDeptName.Name = "txtDlblDeptName";
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// txtDlblPayrollEmployee
 			// 
-			this.txtDlblPayrollEmployee.AllowDrop = true;
+			//this.txtDlblPayrollEmployee.AllowDrop = true;
 			this.txtDlblPayrollEmployee.Enabled = false;
 			this.txtDlblPayrollEmployee.Location = new System.Drawing.Point(432, 31);
 			this.txtDlblPayrollEmployee.Name = "txtDlblPayrollEmployee";
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommonTextBox_0.ForeColor = System.Drawing.Color.Black;
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// txtEmployeeCode
 			// 
-			this.txtEmployeeCode.AllowDrop = true;
+			//this.txtEmployeeCode.AllowDrop = true;
 			this.txtEmployeeCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtEmployeeCode.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// lblSystemComponents
 			// 
-			this.lblSystemComponents.AllowDrop = true;
+			//this.lblSystemComponents.AllowDrop = true;
 			this.lblSystemComponents.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSystemComponents.Text = " Payroll Information ";
 			this.lblSystemComponents.Location = new System.Drawing.Point(14, 126);
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(6, 12);
@@ -230,7 +230,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Month";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(7, 56);
@@ -241,7 +241,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Year";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(7, 80);
@@ -252,7 +252,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Basic Salary";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(209, 54);
@@ -263,7 +263,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Total  Salary";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(209, 77);
@@ -275,7 +275,7 @@ namespace Xtreme
 			// _txtDisplayLabel_4
 			// 
 			// //this._txtDisplayLabel_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtDisplayLabel_4.AllowDrop = true;
+			//this._txtDisplayLabel_4.AllowDrop = true;
 			this._txtDisplayLabel_4.Location = new System.Drawing.Point(275, 52);
 			this._txtDisplayLabel_4.Name = "_txtDisplayLabel_4";
 			this._txtDisplayLabel_4.Size = new System.Drawing.Size(87, 19);
@@ -284,7 +284,7 @@ namespace Xtreme
 			// _txtDisplayLabel_5
 			// 
 			// //this._txtDisplayLabel_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtDisplayLabel_5.AllowDrop = true;
+			//this._txtDisplayLabel_5.AllowDrop = true;
 			this._txtDisplayLabel_5.Location = new System.Drawing.Point(275, 75);
 			this._txtDisplayLabel_5.Name = "_txtDisplayLabel_5";
 			this._txtDisplayLabel_5.Size = new System.Drawing.Size(87, 19);
@@ -292,7 +292,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(732, 12);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
 			this._txtDisplayLabel_3.Size = new System.Drawing.Size(11, 19);
@@ -301,7 +301,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(597, 3);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
 			this._txtDisplayLabel_2.Size = new System.Drawing.Size(11, 19);
@@ -310,7 +310,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(100, 10);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(71, 19);
@@ -318,7 +318,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(173, 10);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(189, 19);
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
@@ -341,7 +341,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(6, 102);
@@ -352,7 +352,7 @@ namespace Xtreme
 			// 
 			// cmbMonth
 			// 
-			this.cmbMonth.AllowDrop = true;
+			//this.cmbMonth.AllowDrop = true;
 			this.cmbMonth.Location = new System.Drawing.Point(101, 52);
 			this.cmbMonth.Name = "cmbMonth";
 			this.cmbMonth.Size = new System.Drawing.Size(101, 21);
@@ -360,7 +360,7 @@ namespace Xtreme
 			// 
 			// cmbYear
 			// 
-			this.cmbYear.AllowDrop = true;
+			//this.cmbYear.AllowDrop = true;
 			this.cmbYear.Location = new System.Drawing.Point(101, 76);
 			this.cmbYear.Name = "cmbYear";
 			this.cmbYear.Size = new System.Drawing.Size(101, 21);
@@ -368,7 +368,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Payroll Emp";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(372, 34);
@@ -378,7 +378,7 @@ namespace Xtreme
 			// 
 			// txtDlblStatus
 			// 
-			this.txtDlblStatus.AllowDrop = true;
+			//this.txtDlblStatus.AllowDrop = true;
 			this.txtDlblStatus.Location = new System.Drawing.Point(432, 10);
 			this.txtDlblStatus.Name = "txtDlblStatus";
 			this.txtDlblStatus.Size = new System.Drawing.Size(71, 19);
@@ -387,7 +387,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_0.Text = "Department Name";
 			this._lblCommon_0.Location = new System.Drawing.Point(6, 33);
@@ -397,7 +397,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Status";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(372, 12);
@@ -407,7 +407,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(6, 142);
@@ -417,10 +417,10 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 26;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.ButtonClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_ButtonClick);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.ButtonClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_ButtonClick);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -434,7 +434,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(4, 160);

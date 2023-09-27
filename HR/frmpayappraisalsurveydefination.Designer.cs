@@ -107,9 +107,9 @@ namespace Xtreme
 			// txtAPurpose
 			// 
 			this.txtAPurpose.AcceptsReturn = true;
-			this.txtAPurpose.AllowDrop = true;
+			//this.txtAPurpose.AllowDrop = true;
 			this.txtAPurpose.BackColor = System.Drawing.SystemColors.Window;
-			this.txtAPurpose.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtAPurpose.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtAPurpose.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtAPurpose.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtAPurpose.Location = new System.Drawing.Point(109, 360);
@@ -123,9 +123,9 @@ namespace Xtreme
 			// txtLPurpose
 			// 
 			this.txtLPurpose.AcceptsReturn = true;
-			this.txtLPurpose.AllowDrop = true;
+			//this.txtLPurpose.AllowDrop = true;
 			this.txtLPurpose.BackColor = System.Drawing.SystemColors.Window;
-			this.txtLPurpose.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtLPurpose.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtLPurpose.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtLPurpose.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtLPurpose.Location = new System.Drawing.Point(109, 315);
@@ -139,9 +139,9 @@ namespace Xtreme
 			// txtLInstruction
 			// 
 			this.txtLInstruction.AcceptsReturn = true;
-			this.txtLInstruction.AllowDrop = true;
+			//this.txtLInstruction.AllowDrop = true;
 			this.txtLInstruction.BackColor = System.Drawing.SystemColors.Window;
-			this.txtLInstruction.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtLInstruction.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtLInstruction.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtLInstruction.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtLInstruction.Location = new System.Drawing.Point(109, 147);
@@ -155,9 +155,9 @@ namespace Xtreme
 			// txtAInstruction
 			// 
 			this.txtAInstruction.AcceptsReturn = true;
-			this.txtAInstruction.AllowDrop = true;
+			//this.txtAInstruction.AllowDrop = true;
 			this.txtAInstruction.BackColor = System.Drawing.SystemColors.Window;
-			this.txtAInstruction.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtAInstruction.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtAInstruction.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtAInstruction.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtAInstruction.Location = new System.Drawing.Point(109, 231);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// txtSurveyDefinationCode
 			// 
-			this.txtSurveyDefinationCode.AllowDrop = true;
+			//this.txtSurveyDefinationCode.AllowDrop = true;
 			this.txtSurveyDefinationCode.BackColor = System.Drawing.Color.White;
 			// this.txtSurveyDefinationCode.bolNumericOnly = true;
 			this.txtSurveyDefinationCode.ForeColor = System.Drawing.Color.Black;
@@ -186,7 +186,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Survey Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Survey Name (Arb)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Survey Name (Eng)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// txtLSurveyDefination
 			// 
-			this.txtLSurveyDefination.AllowDrop = true;
+			//this.txtLSurveyDefination.AllowDrop = true;
 			this.txtLSurveyDefination.BackColor = System.Drawing.Color.White;
 			this.txtLSurveyDefination.ForeColor = System.Drawing.Color.Black;
 			this.txtLSurveyDefination.Location = new System.Drawing.Point(109, 78);
@@ -231,7 +231,7 @@ namespace Xtreme
 			// 
 			// txtASurveyDefination
 			// 
-			this.txtASurveyDefination.AllowDrop = true;
+			//this.txtASurveyDefination.AllowDrop = true;
 			this.txtASurveyDefination.BackColor = System.Drawing.Color.White;
 			this.txtASurveyDefination.ForeColor = System.Drawing.Color.Black;
 			this.txtASurveyDefination.Location = new System.Drawing.Point(109, 99);
@@ -244,7 +244,7 @@ namespace Xtreme
 			// 
 			// txtDlblRatingTypeName
 			// 
-			this.txtDlblRatingTypeName.AllowDrop = true;
+			//this.txtDlblRatingTypeName.AllowDrop = true;
 			this.txtDlblRatingTypeName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblRatingTypeName.Enabled = false;
 			this.txtDlblRatingTypeName.Location = new System.Drawing.Point(220, 123);
@@ -254,7 +254,7 @@ namespace Xtreme
 			// 
 			// lblPurposeArb
 			// 
-			this.lblPurposeArb.AllowDrop = true;
+			//this.lblPurposeArb.AllowDrop = true;
 			this.lblPurposeArb.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPurposeArb.Text = "Message (Arb)";
 			this.lblPurposeArb.ForeColor = System.Drawing.Color.Black;
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Message (Eng)";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -276,7 +276,7 @@ namespace Xtreme
 			// 
 			// txtRatingType
 			// 
-			this.txtRatingType.AllowDrop = true;
+			//this.txtRatingType.AllowDrop = true;
 			this.txtRatingType.BackColor = System.Drawing.Color.White;
 			// this.txtRatingType.bolNumericOnly = true;
 			this.txtRatingType.ForeColor = System.Drawing.Color.Black;
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Rating Type Code";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -304,7 +304,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Purpose (Arb)";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -315,7 +315,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label3.Text = "Purpose (Eng)";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(444, 468);
@@ -350,7 +350,7 @@ namespace Xtreme
 			// 
 			this.grdSurveyDetails.AllowAddNew = true;
 			this.grdSurveyDetails.AllowDelete = true;
-			this.grdSurveyDetails.AllowDrop = true;
+			//this.grdSurveyDetails.AllowDrop = true;
 			this.grdSurveyDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdSurveyDetails.CellTipsWidth = 0;
 			this.grdSurveyDetails.Location = new System.Drawing.Point(0, 408);
@@ -360,8 +360,8 @@ namespace Xtreme
 			this.grdSurveyDetails.TabIndex = 9;
 			this.grdSurveyDetails.Columns.Add(this.Column_0_grdSurveyDetails);
 			this.grdSurveyDetails.Columns.Add(this.Column_1_grdSurveyDetails);
-			this.grdSurveyDetails.GotFocus += new System.EventHandler(this.grdSurveyDetails_GotFocus);
-			this.grdSurveyDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdSurveyDetails_RowColChange);
+			//this.grdSurveyDetails.GotFocus += new System.EventHandler(this.grdSurveyDetails_GotFocus);
+			//this.grdSurveyDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdSurveyDetails_RowColChange);
 			// 
 			// Column_0_grdSurveyDetails
 			// 

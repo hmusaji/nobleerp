@@ -49,7 +49,7 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdLoadSQL;
 		public System.Windows.Forms.TextBox txtSQLCommand;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.ComboBox cmbDatabase;
 		public System.Windows.Forms.Label Label2;
 		public System.Windows.Forms.Label Label1;
@@ -67,7 +67,7 @@ namespace Xtreme
 			this.cmdLoadSQL = new System.Windows.Forms.Button();
 			this.txtSQLCommand = new System.Windows.Forms.TextBox();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.CommonDialog1 = new AxCommonDialog();
 			this.cmbDatabase = new System.Windows.Forms.ComboBox();
 			this.Label2 = new System.Windows.Forms.Label();
 			this.Label1 = new System.Windows.Forms.Label();
@@ -76,7 +76,7 @@ namespace Xtreme
 			// 
 			// cmdExecuteSQL
 			// 
-			this.cmdExecuteSQL.AllowDrop = true;
+			//this.cmdExecuteSQL.AllowDrop = true;
 			this.cmdExecuteSQL.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdExecuteSQL.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdExecuteSQL.Location = new System.Drawing.Point(634, 392);
@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// cmdLoadSQL
 			// 
-			this.cmdLoadSQL.AllowDrop = true;
+			//this.cmdLoadSQL.AllowDrop = true;
 			this.cmdLoadSQL.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdLoadSQL.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdLoadSQL.Location = new System.Drawing.Point(542, 392);
@@ -107,9 +107,9 @@ namespace Xtreme
 			// txtSQLCommand
 			// 
 			this.txtSQLCommand.AcceptsReturn = true;
-			this.txtSQLCommand.AllowDrop = true;
+			//this.txtSQLCommand.AllowDrop = true;
 			this.txtSQLCommand.BackColor = System.Drawing.SystemColors.Window;
-			this.txtSQLCommand.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtSQLCommand.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtSQLCommand.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtSQLCommand.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.txtSQLCommand.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// cmbDatabase
 			// 
-			this.cmbDatabase.AllowDrop = true;
+			//this.cmbDatabase.AllowDrop = true;
 			this.cmbDatabase.Location = new System.Drawing.Point(571, 11);
 			this.cmbDatabase.Name = "cmbDatabase";
 			this.cmbDatabase.Size = new System.Drawing.Size(166, 21);
@@ -133,9 +133,9 @@ namespace Xtreme
 			// 
 			// Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label2.Font = new System.Drawing.Font("Arial", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label2.Location = new System.Drawing.Point(500, 14);
@@ -147,9 +147,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.Font = new System.Drawing.Font("Arial", 9.75f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.Label1.Location = new System.Drawing.Point(4, 22);
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(1, 41);

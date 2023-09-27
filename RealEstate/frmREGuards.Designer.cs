@@ -96,9 +96,9 @@ namespace Xtreme
 			// _txtRemarks_7
 			// 
 			this._txtRemarks_7.AcceptsReturn = true;
-			this._txtRemarks_7.AllowDrop = true;
+			//this._txtRemarks_7.AllowDrop = true;
 			this._txtRemarks_7.BackColor = System.Drawing.SystemColors.Window;
-			this._txtRemarks_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this._txtRemarks_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this._txtRemarks_7.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this._txtRemarks_7.ForeColor = System.Drawing.SystemColors.WindowText;
 			this._txtRemarks_7.Location = new System.Drawing.Point(142, 184);
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_0.bolNumericOnly = true;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// lblAssetsCode
 			// 
-			this.lblAssetsCode.AllowDrop = true;
+			//this.lblAssetsCode.AllowDrop = true;
 			this.lblAssetsCode.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsCode.Text = "Guard  Name  (English)";
 			this.lblAssetsCode.ForeColor = System.Drawing.Color.Black;
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblComments.Text = "comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentNo
 			// 
-			this.lblAssetsAdjustmentNo.AllowDrop = true;
+			//this.lblAssetsAdjustmentNo.AllowDrop = true;
 			this.lblAssetsAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.lblAssetsAdjustmentNo.Text = "Guard Code";
 			this.lblAssetsAdjustmentNo.ForeColor = System.Drawing.Color.Black;
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(142, 79);
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label1.Text = "Passport No";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_4
 			// 
-			this._txtCommon_4.AllowDrop = true;
+			//this._txtCommon_4.AllowDrop = true;
 			this._txtCommon_4.BackColor = System.Drawing.Color.White;
 			this._txtCommon_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_4.Location = new System.Drawing.Point(142, 142);
@@ -207,7 +207,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label2.Text = "Civil Id";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_5
 			// 
-			this._txtCommon_5.AllowDrop = true;
+			//this._txtCommon_5.AllowDrop = true;
 			this._txtCommon_5.BackColor = System.Drawing.Color.White;
 			this._txtCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_5.Location = new System.Drawing.Point(345, 142);
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label3.Text = "Nationality Code";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_3.bolNumericOnly = true;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -263,7 +263,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label4.Text = "Telephone No";
 			this.Label4.ForeColor = System.Drawing.Color.Black;
@@ -275,7 +275,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this.Label6.Text = "Guard  Name  (Arabic)";
 			this.Label6.ForeColor = System.Drawing.Color.Black;
@@ -287,7 +287,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(142, 100);
@@ -303,7 +303,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_6
 			// 
-			this._txtCommon_6.AllowDrop = true;
+			//this._txtCommon_6.AllowDrop = true;
 			this._txtCommon_6.BackColor = System.Drawing.Color.White;
 			this._txtCommon_6.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_6.Location = new System.Drawing.Point(142, 163);
@@ -318,7 +318,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(245, 121);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);

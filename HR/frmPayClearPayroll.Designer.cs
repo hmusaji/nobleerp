@@ -44,7 +44,7 @@ namespace Xtreme
 			// 
 			// pbClosePayroll
 			// 
-			this.pbClosePayroll.AllowDrop = true;
+			//this.pbClosePayroll.AllowDrop = true;
 			this.pbClosePayroll.Location = new System.Drawing.Point(16, 62);
 			this.pbClosePayroll.Name = "pbClosePayroll";
 			//
@@ -53,21 +53,21 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(85, 91);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 0;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// lblMessage
 			// 
-			this.lblMessage.AllowDrop = true;
+			//this.lblMessage.AllowDrop = true;
 			this.lblMessage.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblMessage.Font = new System.Drawing.Font("Arial", 13.5f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblMessage.ForeColor = System.Drawing.Color.FromArgb(255, 128, 128);
 			this.lblMessage.Location = new System.Drawing.Point(16, 20);

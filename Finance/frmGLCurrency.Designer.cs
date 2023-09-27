@@ -83,7 +83,7 @@ namespace Xtreme
 			// 
 			// lblCurrNameA
 			// 
-			this.lblCurrNameA.AllowDrop = true;
+			//this.lblCurrNameA.AllowDrop = true;
 			this.lblCurrNameA.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNameA.Text = "Currency Name (Arabic)";
 			this.lblCurrNameA.Location = new System.Drawing.Point(9, 90);
@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// txtACurrName
 			// 
-			this.txtACurrName.AllowDrop = true;
+			//this.txtACurrName.AllowDrop = true;
 			this.txtACurrName.BackColor = System.Drawing.Color.White;
 			this.txtACurrName.ForeColor = System.Drawing.Color.Black;
 			this.txtACurrName.Location = new System.Drawing.Point(158, 88);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// lblDecimal
 			// 
-			this.lblDecimal.AllowDrop = true;
+			//this.lblDecimal.AllowDrop = true;
 			this.lblDecimal.BackColor = System.Drawing.SystemColors.Window;
 			this.lblDecimal.Text = "Decimal";
 			this.lblDecimal.Location = new System.Drawing.Point(248, 48);
@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// lblSymbol
 			// 
-			this.lblSymbol.AllowDrop = true;
+			//this.lblSymbol.AllowDrop = true;
 			this.lblSymbol.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSymbol.Text = "Symbol";
 			this.lblSymbol.Location = new System.Drawing.Point(9, 48);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// txtLCurrName
 			// 
-			this.txtLCurrName.AllowDrop = true;
+			//this.txtLCurrName.AllowDrop = true;
 			this.txtLCurrName.BackColor = System.Drawing.Color.White;
 			this.txtLCurrName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCurrName.Location = new System.Drawing.Point(158, 67);
@@ -142,7 +142,7 @@ namespace Xtreme
 			// 
 			// txtCurrNo
 			// 
-			this.txtCurrNo.AllowDrop = true;
+			//this.txtCurrNo.AllowDrop = true;
 			this.txtCurrNo.BackColor = System.Drawing.Color.White;
 			// this.txtCurrNo.bolNumericOnly = true;
 			this.txtCurrNo.ForeColor = System.Drawing.Color.Black;
@@ -159,7 +159,7 @@ namespace Xtreme
 			// 
 			// lblCurrNameL
 			// 
-			this.lblCurrNameL.AllowDrop = true;
+			//this.lblCurrNameL.AllowDrop = true;
 			this.lblCurrNameL.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNameL.Text = "Currency Name (English)";
 			this.lblCurrNameL.Location = new System.Drawing.Point(9, 69);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// lblCurrNo
 			// 
-			this.lblCurrNo.AllowDrop = true;
+			//this.lblCurrNo.AllowDrop = true;
 			this.lblCurrNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCurrNo.Text = "Currency Code";
 			this.lblCurrNo.Location = new System.Drawing.Point(9, 27);
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// txtSymbol
 			// 
-			this.txtSymbol.AllowDrop = true;
+			//this.txtSymbol.AllowDrop = true;
 			this.txtSymbol.BackColor = System.Drawing.Color.White;
 			this.txtSymbol.ForeColor = System.Drawing.Color.Black;
 			this.txtSymbol.Location = new System.Drawing.Point(158, 46);
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// txtDecimal
 			// 
-			this.txtDecimal.AllowDrop = true;
+			//this.txtDecimal.AllowDrop = true;
 			this.txtDecimal.BackColor = System.Drawing.Color.White;
 			// this.txtDecimal.bolNumericOnly = true;
 			this.txtDecimal.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// txtExchangeRate
 			// 
-			this.txtExchangeRate.AllowDrop = true;
+			//this.txtExchangeRate.AllowDrop = true;
 			// this.txtExchangeRate.DisplayFormat = "####0.000######;; ; ";
 			// this.txtExchangeRate.Format = "####0.000######";
 			this.txtExchangeRate.Location = new System.Drawing.Point(158, 109);
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_14
 			// 
-			this._lblCommonLabel_14.AllowDrop = true;
+			//this._lblCommonLabel_14.AllowDrop = true;
 			this._lblCommonLabel_14.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_14.Text = "Exchange Rate";
 			this._lblCommonLabel_14.Location = new System.Drawing.Point(9, 111);

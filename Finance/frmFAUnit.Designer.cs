@@ -53,7 +53,7 @@ namespace Xtreme
 			// 
 			// txtUnitNo
 			// 
-			this.txtUnitNo.AllowDrop = true;
+			//this.txtUnitNo.AllowDrop = true;
 			this.txtUnitNo.BackColor = System.Drawing.Color.White;
 			// this.txtUnitNo.bolNumericOnly = true;
 			this.txtUnitNo.ForeColor = System.Drawing.Color.Black;
@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// lblUnitNo
 			// 
-			this.lblUnitNo.AllowDrop = true;
+			//this.lblUnitNo.AllowDrop = true;
 			this.lblUnitNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNo.Text = "Unit Code";
 			this.lblUnitNo.ForeColor = System.Drawing.Color.Black;
@@ -82,7 +82,7 @@ namespace Xtreme
 			// 
 			// lblLUnitName
 			// 
-			this.lblLUnitName.AllowDrop = true;
+			//this.lblLUnitName.AllowDrop = true;
 			this.lblLUnitName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLUnitName.Text = "Unit Name (English)";
 			this.lblLUnitName.ForeColor = System.Drawing.Color.Black;
@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// lblAUnitName
 			// 
-			this.lblAUnitName.AllowDrop = true;
+			//this.lblAUnitName.AllowDrop = true;
 			this.lblAUnitName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAUnitName.Text = "Unit Name (Arabic)";
 			this.lblAUnitName.ForeColor = System.Drawing.Color.Black;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// txtLUnitName
 			// 
-			this.txtLUnitName.AllowDrop = true;
+			//this.txtLUnitName.AllowDrop = true;
 			this.txtLUnitName.BackColor = System.Drawing.Color.White;
 			this.txtLUnitName.ForeColor = System.Drawing.Color.Black;
 			this.txtLUnitName.Location = new System.Drawing.Point(152, 93);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// txtAUnitName
 			// 
-			this.txtAUnitName.AllowDrop = true;
+			//this.txtAUnitName.AllowDrop = true;
 			this.txtAUnitName.BackColor = System.Drawing.Color.White;
 			this.txtAUnitName.ForeColor = System.Drawing.Color.Black;
 			this.txtAUnitName.Location = new System.Drawing.Point(152, 114);
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// lblSymbol
 			// 
-			this.lblSymbol.AllowDrop = true;
+			//this.lblSymbol.AllowDrop = true;
 			this.lblSymbol.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSymbol.Text = "Symbol";
 			this.lblSymbol.ForeColor = System.Drawing.Color.Black;
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// txtSymbol
 			// 
-			this.txtSymbol.AllowDrop = true;
+			//this.txtSymbol.AllowDrop = true;
 			this.txtSymbol.BackColor = System.Drawing.Color.White;
 			this.txtSymbol.ForeColor = System.Drawing.Color.Black;
 			this.txtSymbol.Location = new System.Drawing.Point(152, 72);

@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(142, 121);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtLocationNo
 			// 
-			this.txtLocationNo.AllowDrop = true;
+			//this.txtLocationNo.AllowDrop = true;
 			this.txtLocationNo.BackColor = System.Drawing.Color.White;
 			// this.txtLocationNo.bolNumericOnly = true;
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// lblDesgNo
 			// 
-			this.lblDesgNo.AllowDrop = true;
+			//this.lblDesgNo.AllowDrop = true;
 			this.lblDesgNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDesgNo.Text = "Location No";
 			this.lblDesgNo.Location = new System.Drawing.Point(6, 59);
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// lblLDesgName
 			// 
-			this.lblLDesgName.AllowDrop = true;
+			//this.lblLDesgName.AllowDrop = true;
 			this.lblLDesgName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLDesgName.Text = "Location Name(Eng)";
 			this.lblLDesgName.Location = new System.Drawing.Point(6, 81);
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// txtLLocationName
 			// 
-			this.txtLLocationName.AllowDrop = true;
+			//this.txtLLocationName.AllowDrop = true;
 			this.txtLLocationName.BackColor = System.Drawing.Color.White;
 			this.txtLLocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtLLocationName.Location = new System.Drawing.Point(142, 78);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Location Name(Arb)";
 			this.lblAGroupName.Location = new System.Drawing.Point(6, 102);
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// txtALocationName
 			// 
-			this.txtALocationName.AllowDrop = true;
+			//this.txtALocationName.AllowDrop = true;
 			this.txtALocationName.BackColor = System.Drawing.Color.White;
 			this.txtALocationName.ForeColor = System.Drawing.Color.Black;
 			this.txtALocationName.Location = new System.Drawing.Point(142, 99);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(6, 121);

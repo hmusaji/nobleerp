@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(130, 117);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// lblLCostName
 			// 
-			this.lblLCostName.AllowDrop = true;
+			//this.lblLCostName.AllowDrop = true;
 			this.lblLCostName.BackColor = System.Drawing.Color.FromArgb(205, 184, 196);
 			this.lblLCostName.Text = "Batch Name (English)";
 			this.lblLCostName.ForeColor = System.Drawing.Color.Black;
@@ -101,7 +101,7 @@ namespace Xtreme
 			// 
 			// txtLBatchName
 			// 
-			this.txtLBatchName.AllowDrop = true;
+			//this.txtLBatchName.AllowDrop = true;
 			this.txtLBatchName.BackColor = System.Drawing.Color.White;
 			this.txtLBatchName.ForeColor = System.Drawing.Color.Black;
 			this.txtLBatchName.Location = new System.Drawing.Point(130, 75);
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// lblACostName
 			// 
-			this.lblACostName.AllowDrop = true;
+			//this.lblACostName.AllowDrop = true;
 			this.lblACostName.BackColor = System.Drawing.Color.FromArgb(205, 184, 196);
 			this.lblACostName.Text = "Batch Name (Arabic)";
 			this.lblACostName.ForeColor = System.Drawing.Color.Black;
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// txtABatchName
 			// 
-			this.txtABatchName.AllowDrop = true;
+			//this.txtABatchName.AllowDrop = true;
 			this.txtABatchName.BackColor = System.Drawing.Color.White;
 			this.txtABatchName.ForeColor = System.Drawing.Color.Black;
 			this.txtABatchName.Location = new System.Drawing.Point(130, 96);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(205, 184, 196);
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// txtBatchNo
 			// 
-			this.txtBatchNo.AllowDrop = true;
+			//this.txtBatchNo.AllowDrop = true;
 			this.txtBatchNo.BackColor = System.Drawing.Color.White;
 			// this.txtBatchNo.bolNumericOnly = true;
 			this.txtBatchNo.ForeColor = System.Drawing.Color.Black;
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// lblCostNo
 			// 
-			this.lblCostNo.AllowDrop = true;
+			//this.lblCostNo.AllowDrop = true;
 			this.lblCostNo.BackColor = System.Drawing.Color.FromArgb(205, 184, 196);
 			this.lblCostNo.Text = "Batch Code";
 			this.lblCostNo.ForeColor = System.Drawing.Color.Black;

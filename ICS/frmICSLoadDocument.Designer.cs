@@ -70,7 +70,7 @@ namespace Xtreme
 			// 
 			// fraLoadDocument
 			// 
-			this.fraLoadDocument.AllowDrop = true;
+			//this.fraLoadDocument.AllowDrop = true;
 			this.fraLoadDocument.Controls.Add(this.cmdOKCancel);
 			this.fraLoadDocument.Controls.Add(this.cmbVoucherTypes);
 			this.fraLoadDocument.Controls.Add(this.lblVoucherType);
@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.Location = new System.Drawing.Point(72, 218);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// cmbVoucherTypes
 			// 
-			this.cmbVoucherTypes.AllowDrop = true;
+			//this.cmbVoucherTypes.AllowDrop = true;
 			this.cmbVoucherTypes.Location = new System.Drawing.Point(97, 12);
 			this.cmbVoucherTypes.Name = "cmbVoucherTypes";
 			this.cmbVoucherTypes.Size = new System.Drawing.Size(237, 21);
@@ -102,7 +102,7 @@ namespace Xtreme
 			// 
 			// lblVoucherType
 			// 
-			this.lblVoucherType.AllowDrop = true;
+			//this.lblVoucherType.AllowDrop = true;
 			this.lblVoucherType.BackColor = System.Drawing.Color.White;
 			this.lblVoucherType.Text = "Voucher Type";
 			this.lblVoucherType.Location = new System.Drawing.Point(16, 16);
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// cmbLocation
 			// 
-			this.cmbLocation.AllowDrop = true;
+			//this.cmbLocation.AllowDrop = true;
 			this.cmbLocation.Location = new System.Drawing.Point(97, 36);
 			this.cmbLocation.Name = "cmbLocation";
 			this.cmbLocation.Size = new System.Drawing.Size(237, 21);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// lblLocation
 			// 
-			this.lblLocation.AllowDrop = true;
+			//this.lblLocation.AllowDrop = true;
 			this.lblLocation.BackColor = System.Drawing.Color.White;
 			this.lblLocation.Text = "Location";
 			this.lblLocation.Location = new System.Drawing.Point(16, 42);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(12, 68);

@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.txtComment);
 			this.cntMainParameter.Controls.Add(this.txtCostNo);
 			this.cntMainParameter.Controls.Add(this.lblLCostName);
@@ -114,9 +114,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(146, 118);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// txtCostNo
 			// 
-			this.txtCostNo.AllowDrop = true;
+			//this.txtCostNo.AllowDrop = true;
 			this.txtCostNo.BackColor = System.Drawing.Color.White;
 			// this.txtCostNo.bolNumericOnly = true;
 			this.txtCostNo.ForeColor = System.Drawing.Color.Black;
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// lblLCostName
 			// 
-			this.lblLCostName.AllowDrop = true;
+			//this.lblLCostName.AllowDrop = true;
 			this.lblLCostName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblLCostName.Text = "Cost Center Name (English)";
 			this.lblLCostName.ForeColor = System.Drawing.Color.Black;
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// txtLCostName
 			// 
-			this.txtLCostName.AllowDrop = true;
+			//this.txtLCostName.AllowDrop = true;
 			this.txtLCostName.BackColor = System.Drawing.Color.White;
 			this.txtLCostName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCostName.Location = new System.Drawing.Point(146, 33);
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// lblACostName
 			// 
-			this.lblACostName.AllowDrop = true;
+			//this.lblACostName.AllowDrop = true;
 			this.lblACostName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblACostName.Text = "Cost Center Name (Arabic)";
 			this.lblACostName.ForeColor = System.Drawing.Color.Black;
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// txtACostName
 			// 
-			this.txtACostName.AllowDrop = true;
+			//this.txtACostName.AllowDrop = true;
 			this.txtACostName.BackColor = System.Drawing.Color.White;
 			this.txtACostName.ForeColor = System.Drawing.Color.Black;
 			this.txtACostName.Location = new System.Drawing.Point(146, 54);
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// lblParentCost
 			// 
-			this.lblParentCost.AllowDrop = true;
+			//this.lblParentCost.AllowDrop = true;
 			this.lblParentCost.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblParentCost.Text = "Under Cost Center";
 			this.lblParentCost.ForeColor = System.Drawing.Color.Black;
@@ -206,7 +206,7 @@ namespace Xtreme
 			// 
 			// txtParentCostNo
 			// 
-			this.txtParentCostNo.AllowDrop = true;
+			//this.txtParentCostNo.AllowDrop = true;
 			this.txtParentCostNo.BackColor = System.Drawing.Color.White;
 			// this.txtParentCostNo.bolNumericOnly = true;
 			this.txtParentCostNo.ForeColor = System.Drawing.Color.Black;
@@ -222,7 +222,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// lblCostNo
 			// 
-			this.lblCostNo.AllowDrop = true;
+			//this.lblCostNo.AllowDrop = true;
 			this.lblCostNo.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblCostNo.Text = "Cost Center Code";
 			this.lblCostNo.ForeColor = System.Drawing.Color.Black;
@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// lblCostCategory
 			// 
-			this.lblCostCategory.AllowDrop = true;
+			//this.lblCostCategory.AllowDrop = true;
 			this.lblCostCategory.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblCostCategory.Text = "Under Cost Category";
 			this.lblCostCategory.ForeColor = System.Drawing.Color.Black;
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// txtCostCategoryNo
 			// 
-			this.txtCostCategoryNo.AllowDrop = true;
+			//this.txtCostCategoryNo.AllowDrop = true;
 			this.txtCostCategoryNo.BackColor = System.Drawing.Color.White;
 			// this.txtCostCategoryNo.bolNumericOnly = true;
 			this.txtCostCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -276,7 +276,7 @@ namespace Xtreme
 			// 
 			// txtCostCategoryName
 			// 
-			this.txtCostCategoryName.AllowDrop = true;
+			//this.txtCostCategoryName.AllowDrop = true;
 			this.txtCostCategoryName.Location = new System.Drawing.Point(249, 96);
 			this.txtCostCategoryName.Name = "txtCostCategoryName";
 			this.txtCostCategoryName.Size = new System.Drawing.Size(201, 19);
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// txtParentCostName
 			// 
-			this.txtParentCostName.AllowDrop = true;
+			//this.txtParentCostName.AllowDrop = true;
 			this.txtParentCostName.Location = new System.Drawing.Point(249, 75);
 			this.txtParentCostName.Name = "txtParentCostName";
 			this.txtParentCostName.Size = new System.Drawing.Size(201, 19);

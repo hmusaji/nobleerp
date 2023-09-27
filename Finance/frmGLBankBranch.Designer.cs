@@ -81,9 +81,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(134, 126);
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// txtBranchNo
 			// 
-			this.txtBranchNo.AllowDrop = true;
+			//this.txtBranchNo.AllowDrop = true;
 			this.txtBranchNo.BackColor = System.Drawing.Color.White;
 			// this.txtBranchNo.bolNumericOnly = true;
 			this.txtBranchNo.ForeColor = System.Drawing.Color.Black;
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Bank Branch Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(10, 42);
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Branch Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(10, 64);
@@ -134,7 +134,7 @@ namespace Xtreme
 			// 
 			// txtLBranchName
 			// 
-			this.txtLBranchName.AllowDrop = true;
+			//this.txtLBranchName.AllowDrop = true;
 			this.txtLBranchName.BackColor = System.Drawing.Color.White;
 			this.txtLBranchName.ForeColor = System.Drawing.Color.Black;
 			this.txtLBranchName.Location = new System.Drawing.Point(134, 61);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// lblParentGroup
 			// 
-			this.lblParentGroup.AllowDrop = true;
+			//this.lblParentGroup.AllowDrop = true;
 			this.lblParentGroup.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblParentGroup.Text = "Bank Code";
 			this.lblParentGroup.Location = new System.Drawing.Point(10, 106);
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Branch Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(10, 85);
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// txtABranchName
 			// 
-			this.txtABranchName.AllowDrop = true;
+			//this.txtABranchName.AllowDrop = true;
 			this.txtABranchName.BackColor = System.Drawing.Color.White;
 			this.txtABranchName.ForeColor = System.Drawing.Color.Black;
 			this.txtABranchName.Location = new System.Drawing.Point(134, 82);
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(10, 126);
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// txtParentBankNo
 			// 
-			this.txtParentBankNo.AllowDrop = true;
+			//this.txtParentBankNo.AllowDrop = true;
 			this.txtParentBankNo.BackColor = System.Drawing.Color.White;
 			// this.txtParentBankNo.bolNumericOnly = true;
 			this.txtParentBankNo.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// txtParentBranchName
 			// 
-			this.txtParentBranchName.AllowDrop = true;
+			//this.txtParentBranchName.AllowDrop = true;
 			this.txtParentBranchName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtParentBranchName.Enabled = false;
 			this.txtParentBranchName.ForeColor = System.Drawing.Color.Black;

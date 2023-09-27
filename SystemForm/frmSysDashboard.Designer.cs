@@ -61,11 +61,11 @@ namespace Xtreme
 			// 
 			// DockingPaneManager
 			// 
-			this.DockingPaneManager.AllowDrop = true;
-			this.DockingPaneManager.Location = new System.Drawing.Point(0, 0);
-			this.DockingPaneManager.Name = "DockingPaneManager";
+			////this.DockingPaneManager.AllowDrop = true;
+			//this.DockingPaneManager.Location = new System.Drawing.Point(0, 0);
+			//this.DockingPaneManager.Name = "DockingPaneManager";
 			//
-			this.DockingPaneManager.AttachPaneEvent += new AxXtremeDockingPane._DDockingPaneEvents_AttachPaneEventHandler(this.DockingPaneManager_AttachPaneEvent);
+			//this.DockingPaneManager.AttachPaneEvent += new AxXtremeDockingPane._DDockingPaneEvents_AttachPaneEventHandler(//this.DockingPaneManager_AttachPaneEvent);
 			// 
 			// frmSysDashboard
 			// 
@@ -75,7 +75,7 @@ namespace Xtreme
 			this.AutoScroll = true;
 			this.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.ClientSize = new System.Drawing.Size(439, 539);
-			this.Controls.Add(this.DockingPaneManager);
+			//this.Controls.Add(this.DockingPaneManager);
 			this.Location = new System.Drawing.Point(176, 127);
 			this.MaximizeBox = true;
 			this.MinimizeBox = true;

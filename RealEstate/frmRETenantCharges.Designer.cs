@@ -109,9 +109,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtRemarks.Location = new System.Drawing.Point(71, 327);
@@ -124,9 +124,9 @@ namespace Xtreme
 			// 
 			// picFormToolbar
 			// 
-			this.picFormToolbar.AllowDrop = true;
+			//this.picFormToolbar.AllowDrop = true;
 			this.picFormToolbar.BackColor = System.Drawing.SystemColors.Control;
-			this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.picFormToolbar.CausesValidation = true;
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_0);
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_1);
@@ -147,7 +147,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_0
 			// 
-			this._btnFormToolBar_0.AllowDrop = true;
+			//this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
 			//
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_1
 			// 
-			this._btnFormToolBar_1.AllowDrop = true;
+			//this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(53, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
 			//
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_3
 			// 
-			this._btnFormToolBar_3.AllowDrop = true;
+			//this._btnFormToolBar_3.AllowDrop = true;
 			this._btnFormToolBar_3.Location = new System.Drawing.Point(104, 2);
 			this._btnFormToolBar_3.Name = "_btnFormToolBar_3";
 			//
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_7
 			// 
-			this._btnFormToolBar_7.AllowDrop = true;
+			//this._btnFormToolBar_7.AllowDrop = true;
 			this._btnFormToolBar_7.Location = new System.Drawing.Point(328, 2);
 			this._btnFormToolBar_7.Name = "_btnFormToolBar_7";
 			//
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_8
 			// 
-			this._btnFormToolBar_8.AllowDrop = true;
+			//this._btnFormToolBar_8.AllowDrop = true;
 			this._btnFormToolBar_8.Location = new System.Drawing.Point(379, 2);
 			this._btnFormToolBar_8.Name = "_btnFormToolBar_8";
 			//
@@ -202,7 +202,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_6
 			// 
-			this._btnFormToolBar_6.AllowDrop = true;
+			//this._btnFormToolBar_6.AllowDrop = true;
 			this._btnFormToolBar_6.Location = new System.Drawing.Point(155, 2);
 			this._btnFormToolBar_6.Name = "_btnFormToolBar_6";
 			//
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_5
 			// 
-			this._btnFormToolBar_5.AllowDrop = true;
+			//this._btnFormToolBar_5.AllowDrop = true;
 			this._btnFormToolBar_5.Location = new System.Drawing.Point(277, 2);
 			this._btnFormToolBar_5.Name = "_btnFormToolBar_5";
 			//
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_9
 			// 
-			this._btnFormToolBar_9.AllowDrop = true;
+			//this._btnFormToolBar_9.AllowDrop = true;
 			this._btnFormToolBar_9.Location = new System.Drawing.Point(216, 2);
 			this._btnFormToolBar_9.Name = "_btnFormToolBar_9";
 			//
@@ -235,9 +235,9 @@ namespace Xtreme
 			// 
 			// grdContractDetails
 			// 
-			this.grdContractDetails.AllowDrop = true;
+			//this.grdContractDetails.AllowDrop = true;
 			this.grdContractDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdContractDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdContractDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdContractDetails.CellTipsWidth = 0;
 			this.grdContractDetails.Location = new System.Drawing.Point(8, 118);
 			this.grdContractDetails.Name = "grdContractDetails";
@@ -247,7 +247,7 @@ namespace Xtreme
 			// 
 			// cmbCommon
 			// 
-			this.cmbCommon.AllowDrop = true;
+			//this.cmbCommon.AllowDrop = true;
 			this.cmbCommon.ColumnHeaders = true;
 			this.cmbCommon.Enabled = true;
 			this.cmbCommon.Location = new System.Drawing.Point(254, 160);
@@ -269,7 +269,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.Location = new System.Drawing.Point(8, 329);
 			this._lblCommon_8.Name = "_lblCommon_8";
 			this._lblCommon_8.Size = new System.Drawing.Size(50, 14);
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.Location = new System.Drawing.Point(6, 74);
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(61, 14);
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(99, 72);
@@ -297,7 +297,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(202, 72);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);

@@ -113,9 +113,9 @@ namespace Xtreme
 			// 
 			// picFormToolbar
 			// 
-			this.picFormToolbar.AllowDrop = true;
+			//this.picFormToolbar.AllowDrop = true;
 			this.picFormToolbar.BackColor = System.Drawing.SystemColors.Control;
-			this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.picFormToolbar.CausesValidation = true;
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_0);
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_1);
@@ -135,7 +135,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_0
 			// 
-			this._btnFormToolBar_0.AllowDrop = true;
+			//this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
 			//
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_1
 			// 
-			this._btnFormToolBar_1.AllowDrop = true;
+			//this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(53, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
 			//
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_5
 			// 
-			this._btnFormToolBar_5.AllowDrop = true;
+			//this._btnFormToolBar_5.AllowDrop = true;
 			this._btnFormToolBar_5.Location = new System.Drawing.Point(257, 2);
 			this._btnFormToolBar_5.Name = "_btnFormToolBar_5";
 			//
@@ -168,7 +168,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_2
 			// 
-			this._btnFormToolBar_2.AllowDrop = true;
+			//this._btnFormToolBar_2.AllowDrop = true;
 			this._btnFormToolBar_2.Location = new System.Drawing.Point(104, 2);
 			this._btnFormToolBar_2.Name = "_btnFormToolBar_2";
 			//
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_3
 			// 
-			this._btnFormToolBar_3.AllowDrop = true;
+			//this._btnFormToolBar_3.AllowDrop = true;
 			this._btnFormToolBar_3.Location = new System.Drawing.Point(155, 2);
 			this._btnFormToolBar_3.Name = "_btnFormToolBar_3";
 			//
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_6
 			// 
-			this._btnFormToolBar_6.AllowDrop = true;
+			//this._btnFormToolBar_6.AllowDrop = true;
 			this._btnFormToolBar_6.Location = new System.Drawing.Point(308, 2);
 			this._btnFormToolBar_6.Name = "_btnFormToolBar_6";
 			//
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_4
 			// 
-			this._btnFormToolBar_4.AllowDrop = true;
+			//this._btnFormToolBar_4.AllowDrop = true;
 			this._btnFormToolBar_4.Location = new System.Drawing.Point(206, 2);
 			this._btnFormToolBar_4.Name = "_btnFormToolBar_4";
 			//
@@ -212,7 +212,7 @@ namespace Xtreme
 			// 
 			// TDBContainer3D1
 			// 
-			this.TDBContainer3D1.AllowDrop = true;
+			//this.TDBContainer3D1.AllowDrop = true;
 			this.TDBContainer3D1.Controls.Add(this._txtDateCommonDisplay_0);
 			this.TDBContainer3D1.Controls.Add(this.txtRemarks);
 			this.TDBContainer3D1.Controls.Add(this.lblComments);
@@ -233,7 +233,7 @@ namespace Xtreme
 			// 
 			// _txtDateCommonDisplay_0
 			// 
-			this._txtDateCommonDisplay_0.AllowDrop = true;
+			//this._txtDateCommonDisplay_0.AllowDrop = true;
 			this._txtDateCommonDisplay_0.Location = new System.Drawing.Point(106, 54);
 			// this._txtDateCommonDisplay_0.MaxDate = 2958465;
 			// this._txtDateCommonDisplay_0.MinDate = 2;
@@ -246,9 +246,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtRemarks.Location = new System.Drawing.Point(106, 75);
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -273,7 +273,7 @@ namespace Xtreme
 			// 
 			// lblAssetsAdjustmentAccount
 			// 
-			this.lblAssetsAdjustmentAccount.AllowDrop = true;
+			//this.lblAssetsAdjustmentAccount.AllowDrop = true;
 			this.lblAssetsAdjustmentAccount.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblAssetsAdjustmentAccount.Text = "Guard Code";
 			this.lblAssetsAdjustmentAccount.ForeColor = System.Drawing.Color.Black;
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_1.bolNumericOnly = true;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label1.Text = "Starting Date";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -312,7 +312,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label2.Text = "Ending Date";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -324,7 +324,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label3.Text = "Property No";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -336,7 +336,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_0.bolNumericOnly = true;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -351,7 +351,7 @@ namespace Xtreme
 			// 
 			// _txtDateCommonDisplay_1
 			// 
-			this._txtDateCommonDisplay_1.AllowDrop = true;
+			//this._txtDateCommonDisplay_1.AllowDrop = true;
 			this._txtDateCommonDisplay_1.Location = new System.Drawing.Point(328, 54);
 			// this._txtDateCommonDisplay_1.MaxDate = 2958465;
 			// this._txtDateCommonDisplay_1.MinDate = 2;
@@ -363,7 +363,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(207, 12);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);
@@ -371,7 +371,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_1
 			// 
-			this._txtCommonDisplay_1.AllowDrop = true;
+			//this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(207, 33);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";
 			this._txtCommonDisplay_1.Size = new System.Drawing.Size(201, 19);

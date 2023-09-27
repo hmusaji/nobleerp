@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// chkIsGenerate
 			// 
-			this.chkIsGenerate.AllowDrop = true;
+			//this.chkIsGenerate.AllowDrop = true;
 			this.chkIsGenerate.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIsGenerate.BackColor = System.Drawing.SystemColors.Control;
 			this.chkIsGenerate.CausesValidation = true;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// chkIsCompShare
 			// 
-			this.chkIsCompShare.AllowDrop = true;
+			//this.chkIsCompShare.AllowDrop = true;
 			this.chkIsCompShare.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkIsCompShare.BackColor = System.Drawing.SystemColors.Control;
 			this.chkIsCompShare.CausesValidation = true;
@@ -126,9 +126,9 @@ namespace Xtreme
 			// txtComments
 			// 
 			this.txtComments.AcceptsReturn = true;
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtComments.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComments.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComments.Location = new System.Drawing.Point(114, 177);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// txtNTotalSalary
 			// 
-			this.txtNTotalSalary.AllowDrop = true;
+			//this.txtNTotalSalary.AllowDrop = true;
 			this.txtNTotalSalary.Location = new System.Drawing.Point(114, 84);
 			this.txtNTotalSalary.Name = "txtNTotalSalary";
 			this.txtNTotalSalary.Size = new System.Drawing.Size(100, 19);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(6, 62);
 			this._lblCommonLabel_2.Name = "_lblCommonLabel_2";
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// txtEmpCode
 			// 
-			this.txtEmpCode.AllowDrop = true;
+			//this.txtEmpCode.AllowDrop = true;
 			this.txtEmpCode.BackColor = System.Drawing.Color.White;
 			this.txtEmpCode.ForeColor = System.Drawing.Color.Black;
 			this.txtEmpCode.Location = new System.Drawing.Point(115, 60);
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// txtDEmpName
 			// 
-			this.txtDEmpName.AllowDrop = true;
+			//this.txtDEmpName.AllowDrop = true;
 			this.txtDEmpName.Location = new System.Drawing.Point(203, 60);
 			this.txtDEmpName.Name = "txtDEmpName";
 			this.txtDEmpName.Size = new System.Drawing.Size(234, 19);
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 86);
 			this._lblCommonLabel_0.Name = "_lblCommonLabel_0";
@@ -188,7 +188,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(6, 110);
 			this._lblCommonLabel_1.Name = "_lblCommonLabel_1";
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// txtNAdditionSalary
 			// 
-			this.txtNAdditionSalary.AllowDrop = true;
+			//this.txtNAdditionSalary.AllowDrop = true;
 			this.txtNAdditionSalary.Location = new System.Drawing.Point(114, 108);
 			this.txtNAdditionSalary.Name = "txtNAdditionSalary";
 			this.txtNAdditionSalary.Size = new System.Drawing.Size(100, 19);
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label4.Location = new System.Drawing.Point(6, 134);
 			this.Label4.Name="Label4";
@@ -214,7 +214,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label5.Location = new System.Drawing.Point(6, 155);
 			this.Label5.Name="Label5";
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Location = new System.Drawing.Point(6, 179);
 			this.Label12.Name="Label12";

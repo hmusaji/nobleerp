@@ -133,7 +133,7 @@ namespace Xtreme
 			// 
 			// _cmbTrainingType_0
 			// 
-			this._cmbTrainingType_0.AllowDrop = true;
+			//this._cmbTrainingType_0.AllowDrop = true;
 			this._cmbTrainingType_0.Location = new System.Drawing.Point(87, 94);
 			this._cmbTrainingType_0.Name = "_cmbTrainingType_0";
 			this._cmbTrainingType_0.Size = new System.Drawing.Size(101, 21);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_11
 			// 
-			this._txtCommonTextBox_11.AllowDrop = true;
+			//this._txtCommonTextBox_11.AllowDrop = true;
 			this._txtCommonTextBox_11.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_11.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_11.Location = new System.Drawing.Point(62, 403);
@@ -155,7 +155,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(213, 213, 213);
 			this._lblCommonLabel_9.Text = "Narration";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(7, 406);
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_12
 			// 
-			this._lblCommonLabel_12.AllowDrop = true;
+			//this._lblCommonLabel_12.AllowDrop = true;
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(213, 213, 213);
 			this._lblCommonLabel_12.Text = "Product Details :";
 			this._lblCommonLabel_12.Location = new System.Drawing.Point(2, 442);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(6, 260);
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "Duration Hours";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(403, 98);
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(87, 73);
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Training Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 75);
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(4, 54);
@@ -245,7 +245,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "From Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(225, 54);
@@ -256,7 +256,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_2
 			// 
-			this._txtCommonDate_2.AllowDrop = true;
+			//this._txtCommonDate_2.AllowDrop = true;
 			// this._txtCommonDate_2.CheckDateRange = false;
 			this._txtCommonDate_2.Location = new System.Drawing.Point(289, 52);
 			// this._txtCommonDate_2.MaxDate = 2958465;
@@ -269,7 +269,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.White;
 			// // = false;
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
@@ -286,7 +286,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_23
 			// 
-			this._lblCommonLabel_23.AllowDrop = true;
+			//this._lblCommonLabel_23.AllowDrop = true;
 			this._lblCommonLabel_23.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_23.Text = "Duration Minutes";
 			this._lblCommonLabel_23.Location = new System.Drawing.Point(403, 119);
@@ -297,7 +297,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_21
 			// 
-			this._lblCommonLabel_21.AllowDrop = true;
+			//this._lblCommonLabel_21.AllowDrop = true;
 			this._lblCommonLabel_21.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_21.Text = "Venue";
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(4, 141);
@@ -308,7 +308,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(4, 162);
@@ -319,7 +319,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_2
 			// 
-			this._txtCommonTextBox_2.AllowDrop = true;
+			//this._txtCommonTextBox_2.AllowDrop = true;
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(87, 159);
@@ -334,7 +334,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Trainer Name";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(4, 120);
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(87, 117);
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(190, 73);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(201, 19);
@@ -367,7 +367,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "To Date";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(403, 54);
@@ -378,7 +378,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_3
 			// 
-			this._txtCommonDate_3.AllowDrop = true;
+			//this._txtCommonDate_3.AllowDrop = true;
 			// this._txtCommonDate_3.CheckDateRange = false;
 			this._txtCommonDate_3.Location = new System.Drawing.Point(489, 52);
 			// this._txtCommonDate_3.MaxDate = 2958465;
@@ -391,7 +391,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Training Type";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(4, 98);
@@ -402,7 +402,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_7
 			// 
-			this._lblCommonLabel_7.AllowDrop = true;
+			//this._lblCommonLabel_7.AllowDrop = true;
 			this._lblCommonLabel_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_7.Text = "Total Cost";
 			this._lblCommonLabel_7.Location = new System.Drawing.Point(403, 138);
@@ -413,7 +413,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(4, 194);
@@ -423,12 +423,12 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 12;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -442,7 +442,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_4
 			// 
-			this._txtCommonTextBox_4.AllowDrop = true;
+			//this._txtCommonTextBox_4.AllowDrop = true;
 			this._txtCommonTextBox_4.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_4.Location = new System.Drawing.Point(87, 138);
@@ -456,7 +456,7 @@ namespace Xtreme
 			// 
 			// txtcost
 			// 
-			this.txtcost.AllowDrop = true;
+			//this.txtcost.AllowDrop = true;
 			// this.txtcost.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtcost.Format = "###########0.000";
 			this.txtcost.Location = new System.Drawing.Point(489, 135);
@@ -469,7 +469,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_7
 			// 
-			this._txtCommonTextBox_7.AllowDrop = true;
+			//this._txtCommonTextBox_7.AllowDrop = true;
 			this._txtCommonTextBox_7.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_7.bolNumericOnly = true;
 			this._txtCommonTextBox_7.ForeColor = System.Drawing.Color.Black;
@@ -483,7 +483,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "No. Of Trainers";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(403, 76);
@@ -494,7 +494,7 @@ namespace Xtreme
 			// 
 			// txtDurationMins
 			// 
-			this.txtDurationMins.AllowDrop = true;
+			//this.txtDurationMins.AllowDrop = true;
 			// this.txtDurationMins.DisplayFormat = "####0.000###;;0;0";
 			// this.txtDurationMins.Format = "###########0";
 			this.txtDurationMins.Location = new System.Drawing.Point(489, 114);
@@ -506,7 +506,7 @@ namespace Xtreme
 			// 
 			// txtDurationHRS
 			// 
-			this.txtDurationHRS.AllowDrop = true;
+			//this.txtDurationHRS.AllowDrop = true;
 			// this.txtDurationHRS.DisplayFormat = "####0.000###;;0;0";
 			// this.txtDurationHRS.Format = "###########0";
 			this.txtDurationHRS.Location = new System.Drawing.Point(489, 94);

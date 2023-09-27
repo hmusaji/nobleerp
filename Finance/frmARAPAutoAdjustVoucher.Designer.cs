@@ -81,19 +81,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(141, 202);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 3;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.chkUnAdjust);
 			this.cntMainParameter.Controls.Add(this.lblDateRange);
 			this.cntMainParameter.Controls.Add(this.fraDateRange);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// chkUnAdjust
 			// 
-			this.chkUnAdjust.AllowDrop = true;
+			//this.chkUnAdjust.AllowDrop = true;
 			this.chkUnAdjust.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkUnAdjust.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			this.chkUnAdjust.CausesValidation = true;
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// lblDateRange
 			// 
-			this.lblDateRange.AllowDrop = true;
+			//this.lblDateRange.AllowDrop = true;
 			this.lblDateRange.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			this.lblDateRange.Text = "  Date Range ";
 			this.lblDateRange.ForeColor = System.Drawing.Color.Black;
@@ -140,9 +140,9 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
-			this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraDateRange.Controls.Add(this.lblToDate);
 			this.fraDateRange.Controls.Add(this.txtAsOnDate);
 			this.fraDateRange.Enabled = true;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			// this.lblToDate.Text = "As On Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// txtAsOnDate
 			// 
-			this.txtAsOnDate.AllowDrop = true;
+			//this.txtAsOnDate.AllowDrop = true;
 			// this.txtAsOnDate.CheckDateRange = false;
 			this.txtAsOnDate.Location = new System.Drawing.Point(79, 10);
 			// this.txtAsOnDate.MaxDate = 2958465;
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// txtGroupType
 			// 
-			this.txtGroupType.AllowDrop = true;
+			//this.txtGroupType.AllowDrop = true;
 			this.txtGroupType.BackColor = System.Drawing.Color.White;
 			this.txtGroupType.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupType.Location = new System.Drawing.Point(99, 26);
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// lblMasterCode
 			// 
-			this.lblMasterCode.AllowDrop = true;
+			//this.lblMasterCode.AllowDrop = true;
 			this.lblMasterCode.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			this.lblMasterCode.Text = "Group Type";
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// txtGroupName
 			// 
-			this.txtGroupName.AllowDrop = true;
+			//this.txtGroupName.AllowDrop = true;
 			this.txtGroupName.Location = new System.Drawing.Point(202, 26);
 			this.txtGroupName.Name = "txtGroupName";
 			this.txtGroupName.Size = new System.Drawing.Size(201, 19);

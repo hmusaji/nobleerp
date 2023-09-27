@@ -64,7 +64,7 @@ namespace Xtreme
 			// 
 			// cmdGetRecords
 			// 
-			this.cmdGetRecords.AllowDrop = true;
+			//this.cmdGetRecords.AllowDrop = true;
 			this.cmdGetRecords.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdGetRecords.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdGetRecords.Location = new System.Drawing.Point(495, 105);
@@ -79,7 +79,7 @@ namespace Xtreme
 			// 
 			// txtBudgetCode
 			// 
-			this.txtBudgetCode.AllowDrop = true;
+			//this.txtBudgetCode.AllowDrop = true;
 			this.txtBudgetCode.BackColor = System.Drawing.Color.White;
 			// this.txtBudgetCode.bolNumericOnly = true;
 			this.txtBudgetCode.ForeColor = System.Drawing.Color.Black;
@@ -95,7 +95,7 @@ namespace Xtreme
 			// 
 			// lblBudgetCode
 			// 
-			this.lblBudgetCode.AllowDrop = true;
+			//this.lblBudgetCode.AllowDrop = true;
 			this.lblBudgetCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblBudgetCode.Text = "Budget Code";
 			this.lblBudgetCode.Location = new System.Drawing.Point(12, 65);
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// txtDBudgetName
 			// 
-			this.txtDBudgetName.AllowDrop = true;
+			//this.txtDBudgetName.AllowDrop = true;
 			this.txtDBudgetName.Location = new System.Drawing.Point(240, 63);
 			this.txtDBudgetName.Name = "txtDBudgetName";
 			this.txtDBudgetName.Size = new System.Drawing.Size(239, 19);
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// txtDeptCode
 			// 
-			this.txtDeptCode.AllowDrop = true;
+			//this.txtDeptCode.AllowDrop = true;
 			this.txtDeptCode.BackColor = System.Drawing.Color.White;
 			// this.txtDeptCode.bolNumericOnly = true;
 			this.txtDeptCode.ForeColor = System.Drawing.Color.Black;
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// lblSectionCode
 			// 
-			this.lblSectionCode.AllowDrop = true;
+			//this.lblSectionCode.AllowDrop = true;
 			this.lblSectionCode.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.lblSectionCode.Text = "Section Code";
 			this.lblSectionCode.Location = new System.Drawing.Point(12, 87);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtDCategoryName
 			// 
-			this.txtDCategoryName.AllowDrop = true;
+			//this.txtDCategoryName.AllowDrop = true;
 			this.txtDCategoryName.Location = new System.Drawing.Point(240, 85);
 			this.txtDCategoryName.Name = "txtDCategoryName";
 			this.txtDCategoryName.Size = new System.Drawing.Size(239, 19);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// grdAddHeadcountDetails
 			// 
-			this.grdAddHeadcountDetails.AllowDrop = true;
+			//this.grdAddHeadcountDetails.AllowDrop = true;
 			this.grdAddHeadcountDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdAddHeadcountDetails.CellTipsWidth = 0;
 			this.grdAddHeadcountDetails.Location = new System.Drawing.Point(6, 138);
@@ -172,7 +172,7 @@ namespace Xtreme
 			// 
 			// txtHCCategoryNo
 			// 
-			this.txtHCCategoryNo.AllowDrop = true;
+			//this.txtHCCategoryNo.AllowDrop = true;
 			this.txtHCCategoryNo.BackColor = System.Drawing.Color.White;
 			// this.txtHCCategoryNo.bolNumericOnly = true;
 			this.txtHCCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -188,7 +188,7 @@ namespace Xtreme
 			// 
 			// lblDeptCode
 			// 
-			this.lblDeptCode.AllowDrop = true;
+			//this.lblDeptCode.AllowDrop = true;
 			this.lblDeptCode.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.lblDeptCode.Text = "Category Code";
 			this.lblDeptCode.Location = new System.Drawing.Point(12, 110);
@@ -198,7 +198,7 @@ namespace Xtreme
 			// 
 			// txtHCCategoryName
 			// 
-			this.txtHCCategoryName.AllowDrop = true;
+			//this.txtHCCategoryName.AllowDrop = true;
 			this.txtHCCategoryName.Location = new System.Drawing.Point(240, 108);
 			this.txtHCCategoryName.Name = "txtHCCategoryName";
 			this.txtHCCategoryName.Size = new System.Drawing.Size(239, 19);

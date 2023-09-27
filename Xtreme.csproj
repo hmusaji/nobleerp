@@ -10,7 +10,6 @@
     <MyType>WindowsFormsWithCustomSubMain</MyType>
     <AssemblyName>Innova</AssemblyName>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Xtreme.SystemProcedure</StartupObject>
     <AssemblyMajorVersion>6</AssemblyMajorVersion>
     <AssemblyMinorVersion>0</AssemblyMinorVersion>
     <AssemblyRevisionNumber>12</AssemblyRevisionNumber>
@@ -1716,6 +1715,13 @@
     <Compile Include="UnResolved\AxC1Elastic.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UnResolved\AxCommonDialog.cs" />
+    <Compile Include="UnResolved\AxUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UnResolved\DirListBoxHelper.cs" />
+    <Compile Include="UnResolved\DriveListBoxHelper.cs" />
+    <Compile Include="UnResolved\FileListBoxHelper.cs" />
     <EmbeddedResource Include="frmSysMain.resX">
       <DependentUpon>frmSysMain.cs</DependentUpon>
     </EmbeddedResource>

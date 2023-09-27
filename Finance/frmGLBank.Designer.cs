@@ -79,9 +79,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(158, 122);
@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// txtBankNo
 			// 
-			this.txtBankNo.AllowDrop = true;
+			//this.txtBankNo.AllowDrop = true;
 			this.txtBankNo.BackColor = System.Drawing.Color.White;
 			// this.txtBankNo.bolNumericOnly = true;
 			this.txtBankNo.ForeColor = System.Drawing.Color.Black;
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// lblLNatName
 			// 
-			this.lblLNatName.AllowDrop = true;
+			//this.lblLNatName.AllowDrop = true;
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Bank Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(20, 82);
@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// txtLBankName
 			// 
-			this.txtLBankName.AllowDrop = true;
+			//this.txtLBankName.AllowDrop = true;
 			this.txtLBankName.BackColor = System.Drawing.Color.White;
 			this.txtLBankName.ForeColor = System.Drawing.Color.Black;
 			this.txtLBankName.Location = new System.Drawing.Point(158, 80);
@@ -135,7 +135,7 @@ namespace Xtreme
 			// 
 			// lblANatName
 			// 
-			this.lblANatName.AllowDrop = true;
+			//this.lblANatName.AllowDrop = true;
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Bank Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(20, 103);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// txtABankName
 			// 
-			this.txtABankName.AllowDrop = true;
+			//this.txtABankName.AllowDrop = true;
 			this.txtABankName.BackColor = System.Drawing.Color.White;
 			this.txtABankName.ForeColor = System.Drawing.Color.Black;
 			this.txtABankName.Location = new System.Drawing.Point(158, 101);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(20, 122);
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// lblNatNo
 			// 
-			this.lblNatNo.AllowDrop = true;
+			//this.lblNatNo.AllowDrop = true;
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Bank Code";
 			this.lblNatNo.Location = new System.Drawing.Point(20, 40);
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// txtAccountNo
 			// 
-			this.txtAccountNo.AllowDrop = true;
+			//this.txtAccountNo.AllowDrop = true;
 			this.txtAccountNo.BackColor = System.Drawing.Color.White;
 			this.txtAccountNo.ForeColor = System.Drawing.Color.Black;
 			this.txtAccountNo.Location = new System.Drawing.Point(158, 59);
@@ -196,7 +196,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Account No.";
 			this.Label1.Location = new System.Drawing.Point(20, 61);

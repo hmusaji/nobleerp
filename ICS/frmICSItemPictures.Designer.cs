@@ -77,7 +77,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 60);
@@ -87,9 +87,9 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 0;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.HeadClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_HeadClick);
-			this.grdVoucherDetails.KeyUp += new System.Windows.Forms.KeyEventHandler(this.grdVoucherDetails_KeyUp);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.HeadClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_HeadClick);
+			//this.grdVoucherDetails.KeyUp += new System.Windows.Forms.KeyEventHandler(this.grdVoucherDetails_KeyUp);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -103,9 +103,9 @@ namespace Xtreme
 			// 
 			// picFormToolbar
 			// 
-			this.picFormToolbar.AllowDrop = true;
+			//this.picFormToolbar.AllowDrop = true;
 			this.picFormToolbar.BackColor = System.Drawing.SystemColors.Control;
-			this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.picFormToolbar.CausesValidation = true;
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_0);
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_1);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_0
 			// 
-			this._btnFormToolBar_0.AllowDrop = true;
+			//this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
 			//
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_1
 			// 
-			this._btnFormToolBar_1.AllowDrop = true;
+			//this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(63, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
 			//
@@ -144,15 +144,15 @@ namespace Xtreme
 			// 
 			// ImgItem
 			// 
-			this.ImgItem.AllowDrop = true;
-			this.ImgItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.ImgItem.AllowDrop = true;
+			//this.ImgItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.ImgItem.Enabled = true;
 			this.ImgItem.Location = new System.Drawing.Point(327, 60);
 			this.ImgItem.Name = "ImgItem";
 			this.ImgItem.Size = new System.Drawing.Size(416, 397);
 			this.ImgItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.ImgItem.Visible = true;
-			this.ImgItem.DoubleClick += new System.EventHandler(this.ImgItem_DoubleClick);
+			//this.ImgItem.DoubleClick += new System.EventHandler(this.ImgItem_DoubleClick);
 			// 
 			// frmICSItemPictures
 			// 

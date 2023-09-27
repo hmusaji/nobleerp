@@ -55,7 +55,7 @@ namespace Xtreme
 			// 
 			// cmdSeekPage
 			// 
-			this.cmdSeekPage.AllowDrop = true;
+			//this.cmdSeekPage.AllowDrop = true;
 			this.cmdSeekPage.CancelCaption = "&Close";
 			this.cmdSeekPage.DisplayButton = 0;
 			this.cmdSeekPage.Location = new System.Drawing.Point(32, 78);
@@ -63,12 +63,12 @@ namespace Xtreme
 			this.cmdSeekPage.OkCaption = "&Seek";
 			this.cmdSeekPage.Size = new System.Drawing.Size(206, 31);
 			this.cmdSeekPage.TabIndex = 1;
-			this.cmdSeekPage.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdSeekPage_CancelClick);
-			this.cmdSeekPage.OKClick += new UCOkCancel.OKClickHandler(this.cmdSeekPage_OKClick);
+			//this.cmdSeekPage.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdSeekPage_CancelClick);
+			//this.cmdSeekPage.OKClick += new UCOkCancel.OKClickHandler(this.cmdSeekPage_OKClick);
 			// 
 			// lblSeekPage
 			// 
-			this.lblSeekPage.AllowDrop = true;
+			//this.lblSeekPage.AllowDrop = true;
 			this.lblSeekPage.BackColor = System.Drawing.Color.FromArgb(215, 225, 238);
 			this.lblSeekPage.Text = "Seek Page #";
 			this.lblSeekPage.Location = new System.Drawing.Point(40, 34);
@@ -78,7 +78,7 @@ namespace Xtreme
 			// 
 			// txtSeekPage
 			// 
-			this.txtSeekPage.AllowDrop = true;
+			//this.txtSeekPage.AllowDrop = true;
 			this.txtSeekPage.BackColor = System.Drawing.Color.White;
 			this.txtSeekPage.Location = new System.Drawing.Point(120, 31);
 			this.txtSeekPage.Name = "txtSeekPage";

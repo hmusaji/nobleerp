@@ -66,7 +66,7 @@ namespace Xtreme
 			// 
 			// _cmdOkCancel_2
 			// 
-			this._cmdOkCancel_2.AllowDrop = true;
+			//this._cmdOkCancel_2.AllowDrop = true;
 			this._cmdOkCancel_2.Location = new System.Drawing.Point(308, 112);
 			this._cmdOkCancel_2.Name = "_cmdOkCancel_2";
 			//
@@ -76,7 +76,7 @@ namespace Xtreme
 			// 
 			// cmbAltUnit
 			// 
-			this.cmbAltUnit.AllowDrop = true;
+			//this.cmbAltUnit.AllowDrop = true;
 			this.cmbAltUnit.ColumnHeaders = true;
 			this.cmbAltUnit.Enabled = true;
 			this.cmbAltUnit.Location = new System.Drawing.Point(18, 110);
@@ -100,7 +100,7 @@ namespace Xtreme
 			// 
 			this.grdVoucherDetails.AllowAddNew = true;
 			this.grdVoucherDetails.AllowDelete = true;
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(2, 2);

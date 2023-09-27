@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_0.Text = " Adjustment Details :  ";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
@@ -131,7 +131,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_0
 			// 
-			this._fraCommon_0.AllowDrop = true;
+			//this._fraCommon_0.AllowDrop = true;
 			this._fraCommon_0.BackColor = System.Drawing.Color.FromArgb(208, 217, 208);
 			this._fraCommon_0.Controls.Add(this.cmdAdjust);
 			this._fraCommon_0.Enabled = true;
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// cmdAdjust
 			// 
-			this.cmdAdjust.AllowDrop = true;
+			//this.cmdAdjust.AllowDrop = true;
 			this.cmdAdjust.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdAdjust.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdAdjust.Location = new System.Drawing.Point(11, 10);
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// grdAdjustmentDetails
 			// 
-			this.grdAdjustmentDetails.AllowDrop = true;
+			//this.grdAdjustmentDetails.AllowDrop = true;
 			this.grdAdjustmentDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdAdjustmentDetails.CellTipsWidth = 0;
 			this.grdAdjustmentDetails.Location = new System.Drawing.Point(0, 360);
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// grdAccountSelect
 			// 
-			this.grdAccountSelect.AllowDrop = true;
+			//this.grdAccountSelect.AllowDrop = true;
 			this.grdAccountSelect.BackColor = System.Drawing.Color.Silver;
 			this.grdAccountSelect.CellTipsWidth = 0;
 			this.grdAccountSelect.Location = new System.Drawing.Point(0, 150);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_1.Text = " Account Select : ";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			// this._txtCommonTextBox_1.bolNumericOnly = true;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_21
 			// 
-			this._lblCommonLabel_21.AllowDrop = true;
+			//this._lblCommonLabel_21.AllowDrop = true;
 			this._lblCommonLabel_21.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_21.Text = "Voucher Type";
 			this._lblCommonLabel_21.ForeColor = System.Drawing.Color.Black;
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// txtAdjustmentDate
 			// 
-			this.txtAdjustmentDate.AllowDrop = true;
+			//this.txtAdjustmentDate.AllowDrop = true;
 			// this.txtAdjustmentDate.CheckDateRange = false;
 			this.txtAdjustmentDate.Location = new System.Drawing.Point(101, 74);
 			// this.txtAdjustmentDate.MaxDate = 2958465;
@@ -253,7 +253,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_6.Text = "Adjustment Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_5.Text = "Adjustment No.";
 			this._lblCommonLabel_5.ForeColor = System.Drawing.Color.Black;
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// txtAdjustmentNo
 			// 
-			this.txtAdjustmentNo.AllowDrop = true;
+			//this.txtAdjustmentNo.AllowDrop = true;
 			this.txtAdjustmentNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtAdjustmentNo.bolNumericOnly = true;
 			this.txtAdjustmentNo.Enabled = false;
@@ -290,7 +290,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(101, 95);
@@ -302,7 +302,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_9.Text = "Comments";
 			this._lblCommonLabel_9.ForeColor = System.Drawing.Color.Black;
@@ -314,7 +314,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_2.Text = " Currency Rate Adjustment : ";
 			this._lblCommonLabel_2.ForeColor = System.Drawing.Color.Black;
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// grdRateAdjustment
 			// 
-			this.grdRateAdjustment.AllowDrop = true;
+			//this.grdRateAdjustment.AllowDrop = true;
 			this.grdRateAdjustment.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdRateAdjustment.CellTipsWidth = 0;
 			this.grdRateAdjustment.Location = new System.Drawing.Point(0, 281);
@@ -343,7 +343,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Enabled = false;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(433, 53);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
@@ -352,7 +352,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_2
 			// 
-			this._txtCommonTextBox_2.AllowDrop = true;
+			//this._txtCommonTextBox_2.AllowDrop = true;
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(330, 74);
@@ -366,7 +366,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_3.Text = "Adjustment Code";
 			this._lblCommonLabel_3.ForeColor = System.Drawing.Color.Black;
@@ -378,7 +378,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Enabled = false;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(433, 74);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
@@ -387,20 +387,20 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(208, 217, 208);
 			// = 1;
 			//
 			this.Shape1.Enabled = false;
-			//this.Shape1.FillColor = System.Drawing.Color.Black;
-			//this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(3, 45);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(752, 80);
@@ -433,7 +433,7 @@ namespace Xtreme
 			this.Controls.Add(this._txtCommonTextBox_2);
 			this.Controls.Add(this._lblCommonLabel_3);
 			this.Controls.Add(this._txtDisplayLabel_2);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.Controls.Add(this.Shape1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLRateAdjustment.Icon");

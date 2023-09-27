@@ -88,7 +88,7 @@ namespace Xtreme
 			// 
 			// chkContinuous
 			// 
-			this.chkContinuous.AllowDrop = true;
+			//this.chkContinuous.AllowDrop = true;
 			this.chkContinuous.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkContinuous.BackColor = System.Drawing.Color.White;
 			this.chkContinuous.CausesValidation = true;
@@ -105,11 +105,11 @@ namespace Xtreme
 			this.chkContinuous.Text = "Continuous";
 			this.chkContinuous.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkContinuous.Visible = false;
-			this.chkContinuous.CheckStateChanged += new System.EventHandler(this.chkContinuous_CheckStateChanged);
+			//this.chkContinuous.CheckStateChanged += new System.EventHandler(this.chkContinuous_CheckStateChanged);
 			// 
 			// lblPListNameA
 			// 
-			this.lblPListNameA.AllowDrop = true;
+			//this.lblPListNameA.AllowDrop = true;
 			this.lblPListNameA.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPListNameA.Text = "Name (Arabic)";
 			this.lblPListNameA.Location = new System.Drawing.Point(10, 84);
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// txtAPListName
 			// 
-			this.txtAPListName.AllowDrop = true;
+			//this.txtAPListName.AllowDrop = true;
 			this.txtAPListName.BackColor = System.Drawing.Color.White;
 			this.txtAPListName.ForeColor = System.Drawing.Color.Black;
 			this.txtAPListName.Location = new System.Drawing.Point(94, 82);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// lblDate
 			// 
-			this.lblDate.AllowDrop = true;
+			//this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblDate.Text = "Date";
 			this.lblDate.Location = new System.Drawing.Point(10, 42);
@@ -142,7 +142,7 @@ namespace Xtreme
 			// 
 			// txtLPListName
 			// 
-			this.txtLPListName.AllowDrop = true;
+			//this.txtLPListName.AllowDrop = true;
 			this.txtLPListName.BackColor = System.Drawing.Color.White;
 			this.txtLPListName.ForeColor = System.Drawing.Color.Black;
 			this.txtLPListName.Location = new System.Drawing.Point(94, 61);
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// txtpListNo
 			// 
-			this.txtpListNo.AllowDrop = true;
+			//this.txtpListNo.AllowDrop = true;
 			this.txtpListNo.BackColor = System.Drawing.Color.White;
 			// this.txtpListNo.bolNumericOnly = true;
 			this.txtpListNo.ForeColor = System.Drawing.Color.Black;
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// lblPListNameL
 			// 
-			this.lblPListNameL.AllowDrop = true;
+			//this.lblPListNameL.AllowDrop = true;
 			this.lblPListNameL.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPListNameL.Text = "Name (English)";
 			this.lblPListNameL.Location = new System.Drawing.Point(10, 63);
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// lblPListNo
 			// 
-			this.lblPListNo.AllowDrop = true;
+			//this.lblPListNo.AllowDrop = true;
 			this.lblPListNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPListNo.Text = "Price Code";
 			this.lblPListNo.Location = new System.Drawing.Point(10, 21);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// txtDDate
 			// 
-			this.txtDDate.AllowDrop = true;
+			//this.txtDDate.AllowDrop = true;
 			// this.txtDDate.CheckDateRange = false;
 			this.txtDDate.Location = new System.Drawing.Point(94, 40);
 			// this.txtDDate.MaxDate = 2958465;
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// UserEfectStart
 			// 
-			this.UserEfectStart.AllowDrop = true;
+			//this.UserEfectStart.AllowDrop = true;
 			this.UserEfectStart.BackColor = System.Drawing.SystemColors.Window;
 			this.UserEfectStart.Text = "Effect Start Date";
 			this.UserEfectStart.Location = new System.Drawing.Point(8, 166);
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// txtDEfectStartDate
 			// 
-			this.txtDEfectStartDate.AllowDrop = true;
+			//this.txtDEfectStartDate.AllowDrop = true;
 			this.txtDEfectStartDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDEfectStartDate.CheckDateRange = false;
 			this.txtDEfectStartDate.Enabled = false;
@@ -232,7 +232,7 @@ namespace Xtreme
 			// 
 			// UserEfectEnd
 			// 
-			this.UserEfectEnd.AllowDrop = true;
+			//this.UserEfectEnd.AllowDrop = true;
 			this.UserEfectEnd.BackColor = System.Drawing.SystemColors.Window;
 			this.UserEfectEnd.Text = "Effect End Date";
 			this.UserEfectEnd.Location = new System.Drawing.Point(8, 188);
@@ -243,7 +243,7 @@ namespace Xtreme
 			// 
 			// txtDEfectEndDate
 			// 
-			this.txtDEfectEndDate.AllowDrop = true;
+			//this.txtDEfectEndDate.AllowDrop = true;
 			this.txtDEfectEndDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtDEfectEndDate.CheckDateRange = false;
 			this.txtDEfectEndDate.Enabled = false;
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// txtComment
 			// 
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
 			this.txtComment.Location = new System.Drawing.Point(92, 208);
@@ -272,7 +272,7 @@ namespace Xtreme
 			// 
 			// lblComment
 			// 
-			this.lblComment.AllowDrop = true;
+			//this.lblComment.AllowDrop = true;
 			this.lblComment.BackColor = System.Drawing.SystemColors.Window;
 			this.lblComment.Text = "Comment";
 			this.lblComment.Location = new System.Drawing.Point(8, 210);

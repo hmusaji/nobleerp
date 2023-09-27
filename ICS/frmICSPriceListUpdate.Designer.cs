@@ -53,7 +53,7 @@ namespace Xtreme
 		public C1.Win.C1FlexGrid.C1FlexGrid grdMigrate1;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdMigrate2;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.Label Line2;
 		public System.Windows.Forms.Label Line1;
 		public ShapeHelper Shape1;
@@ -76,7 +76,7 @@ namespace Xtreme
 			this.grdMigrate1 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.grdMigrate2 = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.CommonDialog1 = new AxCommonDialog();
 			this.Line2 = new System.Windows.Forms.Label();
 			this.Line1 = new System.Windows.Forms.Label();
 			this.Shape1 = new ShapeHelper();
@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// frameMain
 			// 
-			this.frameMain.AllowDrop = true;
+			//this.frameMain.AllowDrop = true;
 			this.frameMain.BackColor = System.Drawing.Color.FromArgb(241, 244, 248);
 			this.frameMain.Controls.Add(this.txtTip);
 			this.frameMain.Controls.Add(this.cmdMigrate);
@@ -109,9 +109,9 @@ namespace Xtreme
 			// txtTip
 			// 
 			this.txtTip.AcceptsReturn = true;
-			this.txtTip.AllowDrop = true;
+			//this.txtTip.AllowDrop = true;
 			this.txtTip.BackColor = System.Drawing.SystemColors.Window;
-			this.txtTip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtTip.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtTip.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtTip.Font = new System.Drawing.Font("Arial", 9.75f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.txtTip.ForeColor = System.Drawing.Color.Blue;
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// cmdMigrate
 			// 
-			this.cmdMigrate.AllowDrop = true;
+			//this.cmdMigrate.AllowDrop = true;
 			this.cmdMigrate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdMigrate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdMigrate.Location = new System.Drawing.Point(344, 18);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// cmdVerify
 			// 
-			this.cmdVerify.AllowDrop = true;
+			//this.cmdVerify.AllowDrop = true;
 			this.cmdVerify.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdVerify.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdVerify.Location = new System.Drawing.Point(280, 18);
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// btnLoadGrid
 			// 
-			this.btnLoadGrid.AllowDrop = true;
+			//this.btnLoadGrid.AllowDrop = true;
 			this.btnLoadGrid.BackColor = System.Drawing.SystemColors.Control;
 			this.btnLoadGrid.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnLoadGrid.Location = new System.Drawing.Point(8, 18);
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// btnDeleteLine
 			// 
-			this.btnDeleteLine.AllowDrop = true;
+			//this.btnDeleteLine.AllowDrop = true;
 			this.btnDeleteLine.BackColor = System.Drawing.SystemColors.Control;
 			this.btnDeleteLine.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.btnDeleteLine.Location = new System.Drawing.Point(112, 18);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// grdMigrate1
 			// 
 			this.grdMigrate1.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdMigrate1.AllowDrop = true;
+			//this.grdMigrate1.AllowDrop = true;
 			this.grdMigrate1.AllowEditing = false;
 			this.grdMigrate1.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdMigrate1.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -198,8 +198,8 @@ namespace Xtreme
 			this.grdMigrate1.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdMigrate1.AutoSearchDelay = 2;
 			this.grdMigrate1.BackColor = System.Drawing.Color.White;
-			this.grdMigrate1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
-			this.grdMigrate1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdMigrate1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
+			//this.grdMigrate1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdMigrate1.Cols.Count = 10;
 			this.grdMigrate1.Cols.Fixed = 1;
 			this.grdMigrate1.Cols.Frozen = 0;
@@ -253,13 +253,13 @@ namespace Xtreme
 			this.grdMigrate1.Tree.Column = 0;
 			this.grdMigrate1.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdMigrate1.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdMigrate1.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdMigrate1_AfterEdit);
-			this.grdMigrate1.AfterRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdMigrate1_AfterRowColChange);
+			////this.grdMigrate1.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdMigrate1_AfterEdit);
+			//this.grdMigrate1.AfterRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdMigrate1_AfterRowColChange);
 			// 
 			// grdMigrate2
 			// 
 			this.grdMigrate2.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdMigrate2.AllowDrop = true;
+			//this.grdMigrate2.AllowDrop = true;
 			this.grdMigrate2.AllowEditing = true;
 			this.grdMigrate2.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdMigrate2.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -270,8 +270,8 @@ namespace Xtreme
 			this.grdMigrate2.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdMigrate2.AutoSearchDelay = 5;
 			this.grdMigrate2.BackColor = System.Drawing.SystemColors.Window;
-			this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdMigrate2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdMigrate2.Cols.Count = 10;
 			this.grdMigrate2.Cols.Fixed = 1;
 			this.grdMigrate2.Cols.Frozen = 0;
@@ -326,13 +326,13 @@ namespace Xtreme
 			this.grdMigrate2.Tree.Column = 0;
 			this.grdMigrate2.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdMigrate2.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdMigrate2.AfterResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdMigrate2_AfterResizeColumn);
-			this.grdMigrate2.AfterRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdMigrate2_AfterRowColChange);
-			this.grdMigrate2.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdMigrate2_AfterScroll);
+			//this.grdMigrate2.AfterResizeColumn += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdMigrate2_AfterResizeColumn);
+			//this.grdMigrate2.AfterRowColChange += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdMigrate2_AfterRowColChange);
+			//this.grdMigrate2.AfterScroll += new C1.Win.C1FlexGrid.RangeEventHandler(this.grdMigrate2_AfterScroll);
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.Color.Gray;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(0, 48);
@@ -342,7 +342,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.White;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 48);
@@ -352,13 +352,13 @@ namespace Xtreme
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
 			//
 			this.Shape1.Enabled = false;
-			//this.Shape1.FillColor = System.Drawing.Color.Black;
-			//this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(3, 53);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(690, 409);

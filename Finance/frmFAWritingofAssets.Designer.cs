@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblWriteofDate
 			// 
-			this.lblWriteofDate.AllowDrop = true;
+			//this.lblWriteofDate.AllowDrop = true;
 			this.lblWriteofDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblWriteofDate.Text = "Writeoff Date";
 			this.lblWriteofDate.ForeColor = System.Drawing.Color.Black;
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// lblPurchaseDate
 			// 
-			this.lblPurchaseDate.AllowDrop = true;
+			//this.lblPurchaseDate.AllowDrop = true;
 			this.lblPurchaseDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblPurchaseDate.Text = "Purchase Date";
 			this.lblPurchaseDate.ForeColor = System.Drawing.Color.Black;
@@ -177,7 +177,7 @@ namespace Xtreme
 			// 
 			// lblLastDeprDate
 			// 
-			this.lblLastDeprDate.AllowDrop = true;
+			//this.lblLastDeprDate.AllowDrop = true;
 			this.lblLastDeprDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblLastDeprDate.Text = "Last Depr. Date";
 			this.lblLastDeprDate.ForeColor = System.Drawing.Color.Black;
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// lblLastAdjDate
 			// 
-			this.lblLastAdjDate.AllowDrop = true;
+			//this.lblLastAdjDate.AllowDrop = true;
 			this.lblLastAdjDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblLastAdjDate.Text = "Last Adj. Date";
 			this.lblLastAdjDate.ForeColor = System.Drawing.Color.Black;
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// lblInvoiceValueLC
 			// 
-			this.lblInvoiceValueLC.AllowDrop = true;
+			//this.lblInvoiceValueLC.AllowDrop = true;
 			this.lblInvoiceValueLC.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblInvoiceValueLC.Text = "Invoice Amount";
 			this.lblInvoiceValueLC.ForeColor = System.Drawing.Color.Black;
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// lblWriteofDeprAmount
 			// 
-			this.lblWriteofDeprAmount.AllowDrop = true;
+			//this.lblWriteofDeprAmount.AllowDrop = true;
 			this.lblWriteofDeprAmount.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblWriteofDeprAmount.Text = "Writeoff Depr.  Amount";
 			this.lblWriteofDeprAmount.ForeColor = System.Drawing.Color.Black;
@@ -225,7 +225,7 @@ namespace Xtreme
 			// 
 			// lblWriteofAmount
 			// 
-			this.lblWriteofAmount.AllowDrop = true;
+			//this.lblWriteofAmount.AllowDrop = true;
 			this.lblWriteofAmount.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblWriteofAmount.Text = "Writeoff Amount";
 			this.lblWriteofAmount.ForeColor = System.Drawing.Color.Black;
@@ -237,7 +237,7 @@ namespace Xtreme
 			// 
 			// lblLastWriteOffDate
 			// 
-			this.lblLastWriteOffDate.AllowDrop = true;
+			//this.lblLastWriteOffDate.AllowDrop = true;
 			this.lblLastWriteOffDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblLastWriteOffDate.Text = "Last Writeoff Date";
 			this.lblLastWriteOffDate.ForeColor = System.Drawing.Color.Black;
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// lblAccumDeptAmt
 			// 
-			this.lblAccumDeptAmt.AllowDrop = true;
+			//this.lblAccumDeptAmt.AllowDrop = true;
 			this.lblAccumDeptAmt.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAccumDeptAmt.Text = "Accum Depr Amt";
 			this.lblAccumDeptAmt.ForeColor = System.Drawing.Color.Black;
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// lblSellingAmountFC
 			// 
-			this.lblSellingAmountFC.AllowDrop = true;
+			//this.lblSellingAmountFC.AllowDrop = true;
 			this.lblSellingAmountFC.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSellingAmountFC.Text = "Selling Amount";
 			this.lblSellingAmountFC.ForeColor = System.Drawing.Color.Black;
@@ -273,7 +273,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comments";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// lblAdjustmentValue
 			// 
-			this.lblAdjustmentValue.AllowDrop = true;
+			//this.lblAdjustmentValue.AllowDrop = true;
 			this.lblAdjustmentValue.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAdjustmentValue.Text = "Adjustment Amount";
 			this.lblAdjustmentValue.ForeColor = System.Drawing.Color.Black;
@@ -297,7 +297,7 @@ namespace Xtreme
 			// 
 			// lblWriteoffValue
 			// 
-			this.lblWriteoffValue.AllowDrop = true;
+			//this.lblWriteoffValue.AllowDrop = true;
 			this.lblWriteoffValue.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblWriteoffValue.Text = "Writeoff Amount";
 			this.lblWriteoffValue.ForeColor = System.Drawing.Color.Black;
@@ -309,7 +309,7 @@ namespace Xtreme
 			// 
 			// lblBookValue
 			// 
-			this.lblBookValue.AllowDrop = true;
+			//this.lblBookValue.AllowDrop = true;
 			this.lblBookValue.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblBookValue.Text = "Book Value";
 			this.lblBookValue.ForeColor = System.Drawing.Color.Black;
@@ -321,7 +321,7 @@ namespace Xtreme
 			// 
 			// lblExchangeRate
 			// 
-			this.lblExchangeRate.AllowDrop = true;
+			//this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.ForeColor = System.Drawing.Color.Black;
@@ -333,7 +333,7 @@ namespace Xtreme
 			// 
 			// lblActualWriteoffAmt
 			// 
-			this.lblActualWriteoffAmt.AllowDrop = true;
+			//this.lblActualWriteoffAmt.AllowDrop = true;
 			this.lblActualWriteoffAmt.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblActualWriteoffAmt.Text = "Actual Writeoff Amt";
 			this.lblActualWriteoffAmt.ForeColor = System.Drawing.Color.Black;
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// lblDepreciationAmt
 			// 
-			this.lblDepreciationAmt.AllowDrop = true;
+			//this.lblDepreciationAmt.AllowDrop = true;
 			this.lblDepreciationAmt.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDepreciationAmt.Text = "Depreciation Amt";
 			this.lblDepreciationAmt.ForeColor = System.Drawing.Color.Black;
@@ -357,7 +357,7 @@ namespace Xtreme
 			// 
 			// lblWriteofQuantity
 			// 
-			this.lblWriteofQuantity.AllowDrop = true;
+			//this.lblWriteofQuantity.AllowDrop = true;
 			this.lblWriteofQuantity.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblWriteofQuantity.Text = "Writeoff Quantity";
 			this.lblWriteofQuantity.ForeColor = System.Drawing.Color.Black;
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_2
 			// 
-			this._txtCommonNumber_2.AllowDrop = true;
+			//this._txtCommonNumber_2.AllowDrop = true;
 			this._txtCommonNumber_2.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonNumber_2.DisplayFormat = "########0.000###;;0.000;0.000";
 			this._txtCommonNumber_2.Enabled = false;
@@ -382,12 +382,12 @@ namespace Xtreme
 			this._txtCommonNumber_2.TabIndex = 6;
 			this._txtCommonNumber_2.Text = "0.000";
 			// this._txtCommonNumber_2.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_2.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_2.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_2.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_2.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(131, 320);
@@ -402,7 +402,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_3
 			// 
-			this._txtCommonNumber_3.AllowDrop = true;
+			//this._txtCommonNumber_3.AllowDrop = true;
 			// this._txtCommonNumber_3.DisplayFormat = "########0.000###;;0.000;0.000";
 			// this._txtCommonNumber_3.Format = "###########0.000";
 			this._txtCommonNumber_3.Location = new System.Drawing.Point(131, 298);
@@ -413,12 +413,12 @@ namespace Xtreme
 			this._txtCommonNumber_3.TabIndex = 9;
 			this._txtCommonNumber_3.Text = "0.000";
 			// this._txtCommonNumber_3.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_3.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_3.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_3.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_3.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// _txtCommonNumber_1
 			// 
-			this._txtCommonNumber_1.AllowDrop = true;
+			//this._txtCommonNumber_1.AllowDrop = true;
 			// this._txtCommonNumber_1.DisplayFormat = "########0.000###;;0.000;0.000";
 			this._txtCommonNumber_1.Enabled = false;
 			// this._txtCommonNumber_1.Format = "###########0.000";
@@ -430,12 +430,12 @@ namespace Xtreme
 			this._txtCommonNumber_1.TabIndex = 4;
 			this._txtCommonNumber_1.Text = "0.000";
 			// this._txtCommonNumber_1.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_1.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_1.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_1.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_1.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// lblCustomerAccountCode
 			// 
-			this.lblCustomerAccountCode.AllowDrop = true;
+			//this.lblCustomerAccountCode.AllowDrop = true;
 			this.lblCustomerAccountCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCustomerAccountCode.Text = "Customer Account Code";
 			this.lblCustomerAccountCode.ForeColor = System.Drawing.Color.Black;
@@ -447,7 +447,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_5
 			// 
-			this._txtCommonNumber_5.AllowDrop = true;
+			//this._txtCommonNumber_5.AllowDrop = true;
 			this._txtCommonNumber_5.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonNumber_5.DisplayFormat = "########0.000###;;0.000;0.000";
 			this._txtCommonNumber_5.Enabled = false;
@@ -460,12 +460,12 @@ namespace Xtreme
 			this._txtCommonNumber_5.TabIndex = 7;
 			this._txtCommonNumber_5.Text = "0.000";
 			// this._txtCommonNumber_5.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_5.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_5.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_5.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_5.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// _txtCommonNumber_6
 			// 
-			this._txtCommonNumber_6.AllowDrop = true;
+			//this._txtCommonNumber_6.AllowDrop = true;
 			// this._txtCommonNumber_6.DisplayFormat = "########0.000###;;0.000;0.000";
 			this._txtCommonNumber_6.Enabled = false;
 			// this._txtCommonNumber_6.Format = "###########0.000";
@@ -477,12 +477,12 @@ namespace Xtreme
 			this._txtCommonNumber_6.TabIndex = 10;
 			this._txtCommonNumber_6.Text = "0.000";
 			// this._txtCommonNumber_6.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_6.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_6.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_6.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_6.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// _txtCommonNumber_4
 			// 
-			this._txtCommonNumber_4.AllowDrop = true;
+			//this._txtCommonNumber_4.AllowDrop = true;
 			this._txtCommonNumber_4.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonNumber_4.DisplayFormat = "########0.000###;;0.000;0.000";
 			this._txtCommonNumber_4.Enabled = false;
@@ -495,12 +495,12 @@ namespace Xtreme
 			this._txtCommonNumber_4.TabIndex = 5;
 			this._txtCommonNumber_4.Text = "0.000";
 			// this._txtCommonNumber_4.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_4.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_4.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_4.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_4.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// _txtCommonNumber_0
 			// 
-			this._txtCommonNumber_0.AllowDrop = true;
+			//this._txtCommonNumber_0.AllowDrop = true;
 			this._txtCommonNumber_0.Enabled = false;
 			this._txtCommonNumber_0.Location = new System.Drawing.Point(387, 210);
 			// // = 2147483647;
@@ -509,12 +509,12 @@ namespace Xtreme
 			this._txtCommonNumber_0.Size = new System.Drawing.Size(101, 19);
 			this._txtCommonNumber_0.TabIndex = 3;
 			// this._txtCommonNumber_0.Leave += new System.EventHandler(this.txtCommonNumber_Leave);
-			this._txtCommonNumber_0.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
-			this._txtCommonNumber_0.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
+			//this._txtCommonNumber_0.Validated += new System.EventHandler(this.txtCommonNumber_Validated);
+			//this._txtCommonNumber_0.Validating += new System.ComponentModel.CancelEventHandler(this.txtCommonNumber_Validating);
 			// 
 			// lblAssetCode
 			// 
-			this.lblAssetCode.AllowDrop = true;
+			//this.lblAssetCode.AllowDrop = true;
 			this.lblAssetCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAssetCode.Text = "Asset Code";
 			this.lblAssetCode.ForeColor = System.Drawing.Color.Black;
@@ -526,7 +526,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(131, 64);
@@ -542,7 +542,7 @@ namespace Xtreme
 			// 
 			// txtWriteoffDate
 			// 
-			this.txtWriteoffDate.AllowDrop = true;
+			//this.txtWriteoffDate.AllowDrop = true;
 			this.txtWriteoffDate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtWriteoffDate.CheckDateRange = false;
 			this.txtWriteoffDate.Enabled = false;
@@ -553,11 +553,11 @@ namespace Xtreme
 			this.txtWriteoffDate.Size = new System.Drawing.Size(101, 19);
 			this.txtWriteoffDate.TabIndex = 2;
 			// this.txtWriteoffDate.Text = "15/03/2014";
-			this.txtWriteoffDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtWriteoffDate_Validating);
+			//this.txtWriteoffDate.Validating += new System.ComponentModel.CancelEventHandler(this.txtWriteoffDate_Validating);
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Transaction No";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -569,7 +569,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommon_3.Enabled = false;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -585,7 +585,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(131, 276);
@@ -601,7 +601,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Current Asset Value";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -614,7 +614,7 @@ namespace Xtreme
 			// _txtCommonDisplay_11
 			// 
 			// //this._txtCommonDisplay_11.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_11.AllowDrop = true;
+			//this._txtCommonDisplay_11.AllowDrop = true;
 			this._txtCommonDisplay_11.Location = new System.Drawing.Point(131, 174);
 			this._txtCommonDisplay_11.Name = "_txtCommonDisplay_11";
 			this._txtCommonDisplay_11.Size = new System.Drawing.Size(101, 19);
@@ -622,7 +622,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_10
 			// 
-			this._txtCommonDisplay_10.AllowDrop = true;
+			//this._txtCommonDisplay_10.AllowDrop = true;
 			this._txtCommonDisplay_10.Location = new System.Drawing.Point(235, 276);
 			this._txtCommonDisplay_10.Name = "_txtCommonDisplay_10";
 			this._txtCommonDisplay_10.Size = new System.Drawing.Size(254, 19);
@@ -631,7 +631,7 @@ namespace Xtreme
 			// _txtCommonDisplay_9
 			// 
 			// //this._txtCommonDisplay_9.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_9.AllowDrop = true;
+			//this._txtCommonDisplay_9.AllowDrop = true;
 			this._txtCommonDisplay_9.Location = new System.Drawing.Point(388, 173);
 			this._txtCommonDisplay_9.Name = "_txtCommonDisplay_9";
 			this._txtCommonDisplay_9.Size = new System.Drawing.Size(101, 19);
@@ -640,7 +640,7 @@ namespace Xtreme
 			// _txtCommonDisplay_8
 			// 
 			// //this._txtCommonDisplay_8.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_8.AllowDrop = true;
+			//this._txtCommonDisplay_8.AllowDrop = true;
 			this._txtCommonDisplay_8.Location = new System.Drawing.Point(388, 151);
 			this._txtCommonDisplay_8.Name = "_txtCommonDisplay_8";
 			this._txtCommonDisplay_8.Size = new System.Drawing.Size(101, 19);
@@ -649,7 +649,7 @@ namespace Xtreme
 			// _txtCommonDisplay_7
 			// 
 			// //this._txtCommonDisplay_7.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_7.AllowDrop = true;
+			//this._txtCommonDisplay_7.AllowDrop = true;
 			this._txtCommonDisplay_7.Location = new System.Drawing.Point(388, 129);
 			this._txtCommonDisplay_7.Name = "_txtCommonDisplay_7";
 			this._txtCommonDisplay_7.Size = new System.Drawing.Size(101, 19);
@@ -658,7 +658,7 @@ namespace Xtreme
 			// _txtCommonDisplay_6
 			// 
 			// //this._txtCommonDisplay_6.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_6.AllowDrop = true;
+			//this._txtCommonDisplay_6.AllowDrop = true;
 			this._txtCommonDisplay_6.Location = new System.Drawing.Point(388, 107);
 			this._txtCommonDisplay_6.Name = "_txtCommonDisplay_6";
 			this._txtCommonDisplay_6.Size = new System.Drawing.Size(101, 19);
@@ -667,7 +667,7 @@ namespace Xtreme
 			// _txtCommonDisplay_5
 			// 
 			// //this._txtCommonDisplay_5.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_5.AllowDrop = true;
+			//this._txtCommonDisplay_5.AllowDrop = true;
 			this._txtCommonDisplay_5.Location = new System.Drawing.Point(388, 85);
 			this._txtCommonDisplay_5.Name = "_txtCommonDisplay_5";
 			this._txtCommonDisplay_5.Size = new System.Drawing.Size(101, 19);
@@ -676,7 +676,7 @@ namespace Xtreme
 			// _txtCommonDisplay_4
 			// 
 			// //this._txtCommonDisplay_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_4.AllowDrop = true;
+			//this._txtCommonDisplay_4.AllowDrop = true;
 			this._txtCommonDisplay_4.Location = new System.Drawing.Point(131, 151);
 			this._txtCommonDisplay_4.Name = "_txtCommonDisplay_4";
 			this._txtCommonDisplay_4.Size = new System.Drawing.Size(101, 19);
@@ -685,7 +685,7 @@ namespace Xtreme
 			// _txtCommonDisplay_3
 			// 
 			// //this._txtCommonDisplay_3.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_3.AllowDrop = true;
+			//this._txtCommonDisplay_3.AllowDrop = true;
 			this._txtCommonDisplay_3.Location = new System.Drawing.Point(131, 129);
 			this._txtCommonDisplay_3.Name = "_txtCommonDisplay_3";
 			this._txtCommonDisplay_3.Size = new System.Drawing.Size(101, 19);
@@ -694,7 +694,7 @@ namespace Xtreme
 			// _txtCommonDisplay_2
 			// 
 			// //this._txtCommonDisplay_2.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_2.AllowDrop = true;
+			//this._txtCommonDisplay_2.AllowDrop = true;
 			this._txtCommonDisplay_2.Location = new System.Drawing.Point(131, 107);
 			this._txtCommonDisplay_2.Name = "_txtCommonDisplay_2";
 			this._txtCommonDisplay_2.Size = new System.Drawing.Size(101, 19);
@@ -703,7 +703,7 @@ namespace Xtreme
 			// _txtCommonDisplay_1
 			// 
 			// //this._txtCommonDisplay_1.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_1.AllowDrop = true;
+			//this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(131, 85);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";
 			this._txtCommonDisplay_1.Size = new System.Drawing.Size(101, 19);
@@ -711,7 +711,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(235, 63);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(254, 19);

@@ -92,7 +92,7 @@ namespace Xtreme
 			// cntOuterFrame
 			// 
 			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
-			this.cntOuterFrame.AllowDrop = true;
+			//this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.lblSystemComponents);
 			this.cntOuterFrame.Controls.Add(this.tabUserGroups);
 			this.cntOuterFrame.Controls.Add(this.txtGroupName);
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// lblSystemComponents
 			// 
-			this.lblSystemComponents.AllowDrop = true;
+			//this.lblSystemComponents.AllowDrop = true;
 			this.lblSystemComponents.BackColor = System.Drawing.SystemColors.Window;
 			this.lblSystemComponents.Text = " Rights on System Components ";
 			this.lblSystemComponents.Location = new System.Drawing.Point(12, 68);
@@ -120,7 +120,7 @@ namespace Xtreme
 			// tabUserGroups
 			// 
 			//this.tabUserGroups.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabUserGroups.AllowDrop = true;
+			//this.tabUserGroups.AllowDrop = true;
 			this.tabUserGroups.Controls.Add(this._grdUserGroups_0);
 			this.tabUserGroups.Controls.Add(this._grdUserGroups_1);
 			this.tabUserGroups.Controls.Add(this._grdUserGroups_2);
@@ -135,7 +135,7 @@ namespace Xtreme
 			// _grdUserGroups_0
 			// 
 			this._grdUserGroups_0.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this._grdUserGroups_0.AllowDrop = true;
+			//this._grdUserGroups_0.AllowDrop = true;
 			this._grdUserGroups_0.AllowEditing = false;
 			this._grdUserGroups_0.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this._grdUserGroups_0.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -146,8 +146,8 @@ namespace Xtreme
 			this._grdUserGroups_0.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this._grdUserGroups_0.AutoSearchDelay = 2;
 			this._grdUserGroups_0.BackColor = System.Drawing.SystemColors.Window;
-			this._grdUserGroups_0.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this._grdUserGroups_0.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_0.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_0.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this._grdUserGroups_0.Cols.Count = 6;
 			this._grdUserGroups_0.Cols.Fixed = 1;
 			this._grdUserGroups_0.Cols.Frozen = 0;
@@ -201,15 +201,15 @@ namespace Xtreme
 			this._grdUserGroups_0.Tree.Column = 0;
 			this._grdUserGroups_0.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this._grdUserGroups_0.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this._grdUserGroups_0.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
-			this._grdUserGroups_0.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
-			this._grdUserGroups_0.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
-			this._grdUserGroups_0.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
+			////this._grdUserGroups_0.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
+			////this._grdUserGroups_0.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
+			////this._grdUserGroups_0.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
+			////this._grdUserGroups_0.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
 			// 
 			// _grdUserGroups_1
 			// 
 			this._grdUserGroups_1.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this._grdUserGroups_1.AllowDrop = true;
+			//this._grdUserGroups_1.AllowDrop = true;
 			this._grdUserGroups_1.AllowEditing = false;
 			this._grdUserGroups_1.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this._grdUserGroups_1.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -220,8 +220,8 @@ namespace Xtreme
 			this._grdUserGroups_1.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this._grdUserGroups_1.AutoSearchDelay = 2;
 			this._grdUserGroups_1.BackColor = System.Drawing.SystemColors.Window;
-			this._grdUserGroups_1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this._grdUserGroups_1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_1.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this._grdUserGroups_1.Cols.Count = 10;
 			this._grdUserGroups_1.Cols.Fixed = 1;
 			this._grdUserGroups_1.Cols.Frozen = 0;
@@ -275,15 +275,15 @@ namespace Xtreme
 			this._grdUserGroups_1.Tree.Column = 0;
 			this._grdUserGroups_1.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this._grdUserGroups_1.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this._grdUserGroups_1.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
-			this._grdUserGroups_1.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
-			this._grdUserGroups_1.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
-			this._grdUserGroups_1.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
+			//this._grdUserGroups_1.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
+			//this._grdUserGroups_1.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
+			//this._grdUserGroups_1.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
+			//this._grdUserGroups_1.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
 			// 
 			// _grdUserGroups_2
 			// 
 			this._grdUserGroups_2.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this._grdUserGroups_2.AllowDrop = true;
+			//this._grdUserGroups_2.AllowDrop = true;
 			this._grdUserGroups_2.AllowEditing = false;
 			this._grdUserGroups_2.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this._grdUserGroups_2.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -294,8 +294,8 @@ namespace Xtreme
 			this._grdUserGroups_2.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this._grdUserGroups_2.AutoSearchDelay = 2;
 			this._grdUserGroups_2.BackColor = System.Drawing.SystemColors.Window;
-			this._grdUserGroups_2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this._grdUserGroups_2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_2.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this._grdUserGroups_2.Cols.Count = 10;
 			this._grdUserGroups_2.Cols.Fixed = 1;
 			this._grdUserGroups_2.Cols.Frozen = 0;
@@ -349,15 +349,15 @@ namespace Xtreme
 			this._grdUserGroups_2.Tree.Column = 0;
 			this._grdUserGroups_2.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this._grdUserGroups_2.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this._grdUserGroups_2.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
-			this._grdUserGroups_2.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
-			this._grdUserGroups_2.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
-			this._grdUserGroups_2.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
+			////this._grdUserGroups_2.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
+			////this._grdUserGroups_2.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
+			////this._grdUserGroups_2.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
+			////this._grdUserGroups_2.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
 			// 
 			// _grdUserGroups_3
 			// 
 			this._grdUserGroups_3.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this._grdUserGroups_3.AllowDrop = true;
+			//this._grdUserGroups_3.AllowDrop = true;
 			this._grdUserGroups_3.AllowEditing = false;
 			this._grdUserGroups_3.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this._grdUserGroups_3.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -368,8 +368,8 @@ namespace Xtreme
 			this._grdUserGroups_3.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this._grdUserGroups_3.AutoSearchDelay = 2;
 			this._grdUserGroups_3.BackColor = System.Drawing.SystemColors.Window;
-			this._grdUserGroups_3.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this._grdUserGroups_3.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_3.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_3.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this._grdUserGroups_3.Cols.Count = 10;
 			this._grdUserGroups_3.Cols.Fixed = 1;
 			this._grdUserGroups_3.Cols.Frozen = 0;
@@ -423,15 +423,15 @@ namespace Xtreme
 			this._grdUserGroups_3.Tree.Column = 0;
 			this._grdUserGroups_3.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this._grdUserGroups_3.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this._grdUserGroups_3.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
-			this._grdUserGroups_3.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
-			this._grdUserGroups_3.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
-			this._grdUserGroups_3.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
+			////this._grdUserGroups_3.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
+			////this._grdUserGroups_3.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
+			////this._grdUserGroups_3.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
+			////this._grdUserGroups_3.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
 			// 
 			// _grdUserGroups_4
 			// 
 			this._grdUserGroups_4.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this._grdUserGroups_4.AllowDrop = true;
+			//this._grdUserGroups_4.AllowDrop = true;
 			this._grdUserGroups_4.AllowEditing = false;
 			this._grdUserGroups_4.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this._grdUserGroups_4.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -442,8 +442,8 @@ namespace Xtreme
 			this._grdUserGroups_4.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this._grdUserGroups_4.AutoSearchDelay = 2;
 			this._grdUserGroups_4.BackColor = System.Drawing.SystemColors.Window;
-			this._grdUserGroups_4.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this._grdUserGroups_4.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_4.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this._grdUserGroups_4.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this._grdUserGroups_4.Cols.Count = 10;
 			this._grdUserGroups_4.Cols.Fixed = 1;
 			this._grdUserGroups_4.Cols.Frozen = 0;
@@ -497,14 +497,14 @@ namespace Xtreme
 			this._grdUserGroups_4.Tree.Column = 0;
 			this._grdUserGroups_4.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this._grdUserGroups_4.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this._grdUserGroups_4.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
-			this._grdUserGroups_4.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
-			this._grdUserGroups_4.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
-			this._grdUserGroups_4.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
+			//this._grdUserGroups_4.AfterEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_AfterEdit);
+			//this._grdUserGroups_4.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
+			//this._grdUserGroups_4.DoubleClick += new System.EventHandler(this.grdUserGroups_DoubleClick);
+			//this._grdUserGroups_4.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_StartEdit);
 			// 
 			// txtGroupName
 			// 
-			this.txtGroupName.AllowDrop = true;
+			//this.txtGroupName.AllowDrop = true;
 			this.txtGroupName.BackColor = System.Drawing.Color.White;
 			this.txtGroupName.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupName.Location = new System.Drawing.Point(128, 14);
@@ -516,7 +516,7 @@ namespace Xtreme
 			// 
 			// lblGroupName
 			// 
-			this.lblGroupName.AllowDrop = true;
+			//this.lblGroupName.AllowDrop = true;
 			this.lblGroupName.BackColor = System.Drawing.SystemColors.Window;
 			this.lblGroupName.Text = "Group Name";
 			this.lblGroupName.Location = new System.Drawing.Point(20, 17);
@@ -526,7 +526,7 @@ namespace Xtreme
 			// 
 			// lblBasicGroupName
 			// 
-			this.lblBasicGroupName.AllowDrop = true;
+			//this.lblBasicGroupName.AllowDrop = true;
 			this.lblBasicGroupName.BackColor = System.Drawing.SystemColors.Window;
 			this.lblBasicGroupName.Text = "Use Basic Facility of :";
 			this.lblBasicGroupName.Location = new System.Drawing.Point(20, 37);
@@ -536,11 +536,11 @@ namespace Xtreme
 			// 
 			// txtBasicGroupName
 			// 
-			this.txtBasicGroupName.AllowDrop = true;
+			//this.txtBasicGroupName.AllowDrop = true;
 			this.txtBasicGroupName.BackColor = System.Drawing.Color.White;
 			this.txtBasicGroupName.ForeColor = System.Drawing.Color.Black;
 			this.txtBasicGroupName.Location = new System.Drawing.Point(128, 35);
-			this.txtBasicGroupName.Locked = true;
+			//this.txtBasicGroupName.Locked = true;
 			this.txtBasicGroupName.MaxLength = 50;
 			this.txtBasicGroupName.Name = "txtBasicGroupName";
 			// this.txtBasicGroupName.ShowButton = true;
@@ -551,7 +551,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 74);

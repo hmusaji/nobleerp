@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// cmbMasterList
 			// 
-			this.cmbMasterList.AllowDrop = true;
+			//this.cmbMasterList.AllowDrop = true;
 			this.cmbMasterList.ColumnHeaders = true;
 			this.cmbMasterList.Enabled = true;
 			this.cmbMasterList.Location = new System.Drawing.Point(160, 193);
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// grdComparisionDetails
 			// 
-			this.grdComparisionDetails.AllowDrop = true;
+			//this.grdComparisionDetails.AllowDrop = true;
 			this.grdComparisionDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdComparisionDetails.CellTipsWidth = 0;
 			this.grdComparisionDetails.Location = new System.Drawing.Point(0, 156);
@@ -129,9 +129,9 @@ namespace Xtreme
 			this.grdComparisionDetails.TabIndex = 0;
 			this.grdComparisionDetails.Columns.Add(this.Column_0_grdComparisionDetails);
 			this.grdComparisionDetails.Columns.Add(this.Column_1_grdComparisionDetails);
-			this.grdComparisionDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdComparisionDetails_AfterColUpdate);
-			this.grdComparisionDetails.GotFocus += new System.EventHandler(this.grdComparisionDetails_GotFocus);
-			this.grdComparisionDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdComparisionDetails_RowColChange);
+			//this.grdComparisionDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdComparisionDetails_AfterColUpdate);
+			//this.grdComparisionDetails.GotFocus += new System.EventHandler(this.grdComparisionDetails_GotFocus);
+			//this.grdComparisionDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdComparisionDetails_RowColChange);
 			// 
 			// Column_0_grdComparisionDetails
 			// 
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_21
 			// 
-			this._lblCommonLabel_21.AllowDrop = true;
+			//this._lblCommonLabel_21.AllowDrop = true;
 			this._lblCommonLabel_21.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_21.Text = "Transaction No.";
 			this._lblCommonLabel_21.ForeColor = System.Drawing.Color.Black;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_0.Text = "Comments";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_1.Text = "Transaction Date";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(114, 98);
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			// this.txtVoucherDate.CheckDateRange = false;
 			this.txtVoucherDate.Location = new System.Drawing.Point(114, 77);
 			// this.txtVoucherDate.MaxDate = 2958465;
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// txtTransactionNo
 			// 
-			this.txtTransactionNo.AllowDrop = true;
+			//this.txtTransactionNo.AllowDrop = true;
 			this.txtTransactionNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtTransactionNo.bolNumericOnly = true;
 			this.txtTransactionNo.Enabled = false;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_4.Text = "R e v e n u e";
 			this._lblCommonLabel_4.ForeColor = System.Drawing.Color.White;
@@ -230,7 +230,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommonLabel_2.Text = "C o s t ";
 			this._lblCommonLabel_2.ForeColor = System.Drawing.Color.White;
@@ -241,7 +241,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(380, 136);
@@ -251,13 +251,13 @@ namespace Xtreme
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.Color.FromArgb(224, 180, 171);
 			// = 0;
 			//
 			this.Shape1.Enabled = false;
-			this.Shape1.FillColor = System.Drawing.Color.FromArgb(153, 164, 154);
-			this.Shape1.FillStyle = 0;
+			//this.Shape1.FillColor = System.Drawing.Color.FromArgb(153, 164, 154);
+			//this.Shape1.FillStyle = 0;
 			this.Shape1.Location = new System.Drawing.Point(0, 136);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(758, 21);
@@ -265,9 +265,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(274, 6);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(274, 6);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmICSComparisionSheet
@@ -290,7 +290,7 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommonLabel_2);
 			this.Controls.Add(this.Line1);
 			this.Controls.Add(this.Shape1);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmICSComparisionSheet.Icon");
 			this.KeyPreview = true;

@@ -78,7 +78,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Category  (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
@@ -89,7 +89,7 @@ namespace Xtreme
 			// 
 			// txtCategoryCode
 			// 
-			this.txtCategoryCode.AllowDrop = true;
+			//this.txtCategoryCode.AllowDrop = true;
 			this.txtCategoryCode.BackColor = System.Drawing.Color.White;
 			// this.txtCategoryCode.bolNumericOnly = true;
 			this.txtCategoryCode.ForeColor = System.Drawing.Color.Black;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Category Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Category  (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// txtLCategoryName
 			// 
-			this.txtLCategoryName.AllowDrop = true;
+			//this.txtLCategoryName.AllowDrop = true;
 			this.txtLCategoryName.BackColor = System.Drawing.Color.White;
 			this.txtLCategoryName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCategoryName.Location = new System.Drawing.Point(130, 81);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// txtACategoryName
 			// 
-			this.txtACategoryName.AllowDrop = true;
+			//this.txtACategoryName.AllowDrop = true;
 			this.txtACategoryName.BackColor = System.Drawing.Color.White;
 			this.txtACategoryName.ForeColor = System.Drawing.Color.Black;
 			this.txtACategoryName.Location = new System.Drawing.Point(130, 102);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Category Purpose (Eng)";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// txtLCategoryPurpose
 			// 
-			this.txtLCategoryPurpose.AllowDrop = true;
+			//this.txtLCategoryPurpose.AllowDrop = true;
 			this.txtLCategoryPurpose.BackColor = System.Drawing.Color.White;
 			this.txtLCategoryPurpose.ForeColor = System.Drawing.Color.Black;
 			this.txtLCategoryPurpose.Location = new System.Drawing.Point(130, 126);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// lblPurposeArb
 			// 
-			this.lblPurposeArb.AllowDrop = true;
+			//this.lblPurposeArb.AllowDrop = true;
 			this.lblPurposeArb.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPurposeArb.Text = "Category Purpose (ARB)";
 			this.lblPurposeArb.ForeColor = System.Drawing.Color.Black;
@@ -186,7 +186,7 @@ namespace Xtreme
 			// 
 			// txtACategoryPurpose
 			// 
-			this.txtACategoryPurpose.AllowDrop = true;
+			//this.txtACategoryPurpose.AllowDrop = true;
 			this.txtACategoryPurpose.BackColor = System.Drawing.Color.White;
 			this.txtACategoryPurpose.ForeColor = System.Drawing.Color.Black;
 			this.txtACategoryPurpose.Location = new System.Drawing.Point(130, 180);

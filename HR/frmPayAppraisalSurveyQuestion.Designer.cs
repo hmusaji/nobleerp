@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// txtDlblCategoryName
 			// 
-			this.txtDlblCategoryName.AllowDrop = true;
+			//this.txtDlblCategoryName.AllowDrop = true;
 			this.txtDlblCategoryName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblCategoryName.Enabled = false;
 			this.txtDlblCategoryName.Location = new System.Drawing.Point(267, 111);
@@ -92,9 +92,9 @@ namespace Xtreme
 			// txtAQuestion
 			// 
 			this.txtAQuestion.AcceptsReturn = true;
-			this.txtAQuestion.AllowDrop = true;
+			//this.txtAQuestion.AllowDrop = true;
 			this.txtAQuestion.BackColor = System.Drawing.SystemColors.Window;
-			this.txtAQuestion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtAQuestion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtAQuestion.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtAQuestion.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtAQuestion.Location = new System.Drawing.Point(130, 234);
@@ -108,9 +108,9 @@ namespace Xtreme
 			// txtLQuestion
 			// 
 			this.txtLQuestion.AcceptsReturn = true;
-			this.txtLQuestion.AllowDrop = true;
+			//this.txtLQuestion.AllowDrop = true;
 			this.txtLQuestion.BackColor = System.Drawing.SystemColors.Window;
-			this.txtLQuestion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtLQuestion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtLQuestion.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtLQuestion.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtLQuestion.Location = new System.Drawing.Point(130, 135);
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// txtQuestionCode
 			// 
-			this.txtQuestionCode.AllowDrop = true;
+			//this.txtQuestionCode.AllowDrop = true;
 			this.txtQuestionCode.BackColor = System.Drawing.Color.White;
 			// this.txtQuestionCode.bolNumericOnly = true;
 			this.txtQuestionCode.ForeColor = System.Drawing.Color.Black;
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Question Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// lblPurposeArb
 			// 
-			this.lblPurposeArb.AllowDrop = true;
+			//this.lblPurposeArb.AllowDrop = true;
 			this.lblPurposeArb.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPurposeArb.Text = "Question (ARB)";
 			this.lblPurposeArb.ForeColor = System.Drawing.Color.Black;
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_0
 			// 
-			this._cmbCommon_0.AllowDrop = true;
+			//this._cmbCommon_0.AllowDrop = true;
 			this._cmbCommon_0.Location = new System.Drawing.Point(130, 87);
 			this._cmbCommon_0.Name = "_cmbCommon_0";
 			this._cmbCommon_0.Size = new System.Drawing.Size(137, 21);
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Question Type";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Question (Eng)";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			// txtCategoryCode
 			// 
-			this.txtCategoryCode.AllowDrop = true;
+			//this.txtCategoryCode.AllowDrop = true;
 			this.txtCategoryCode.BackColor = System.Drawing.Color.White;
 			// this.txtCategoryCode.bolNumericOnly = true;
 			this.txtCategoryCode.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Category Code";
 			this.Label2.ForeColor = System.Drawing.Color.Black;

@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// fraVoucherAdjustment
 			// 
-			this.fraVoucherAdjustment.AllowDrop = true;
+			//this.fraVoucherAdjustment.AllowDrop = true;
 			this.fraVoucherAdjustment.Controls.Add(this.cmdOKCancel);
 			this.fraVoucherAdjustment.Controls.Add(this.txtToBeAdjusted);
 			this.fraVoucherAdjustment.Controls.Add(this.grdVoucherDetails);
@@ -111,19 +111,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(474, 208);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 1;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// txtToBeAdjusted
 			// 
-			this.txtToBeAdjusted.AllowDrop = true;
+			//this.txtToBeAdjusted.AllowDrop = true;
 			this.txtToBeAdjusted.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this.txtToBeAdjusted.DisplayFormat = "####0.000###;;0.000;0.000";
 			this.txtToBeAdjusted.Enabled = false;
@@ -138,22 +138,22 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(2, 46);
 			this.grdVoucherDetails.Name = "grdVoucherDetails";
 			this.grdVoucherDetails.RowDivider.Color = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.Size = new System.Drawing.Size(677, 156);
 			this.grdVoucherDetails.TabIndex = 0;
-			this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.BeforeColUpdate += new C1.Win.C1TrueDBGrid.BeforeColUpdateEventHandler(this.grdVoucherDetails_BeforeColUpdate);
+			////this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// this.grdVoucherDetails.Leave += new System.EventHandler(this.grdVoucherDetails_Leave);
 			// 
 			// txtCurrencySymbol
 			// 
-			this.txtCurrencySymbol.AllowDrop = true;
+			//this.txtCurrencySymbol.AllowDrop = true;
 			this.txtCurrencySymbol.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtCurrencySymbol.Enabled = false;
 			this.txtCurrencySymbol.ForeColor = System.Drawing.Color.Black;
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// lblCurrencySymbol
 			// 
-			this.lblCurrencySymbol.AllowDrop = true;
+			//this.lblCurrencySymbol.AllowDrop = true;
 			this.lblCurrencySymbol.BackColor = System.Drawing.Color.Silver;
 			this.lblCurrencySymbol.Text = "Currency :";
 			this.lblCurrencySymbol.ForeColor = System.Drawing.Color.Black;
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// txtLdgrName
 			// 
-			this.txtLdgrName.AllowDrop = true;
+			//this.txtLdgrName.AllowDrop = true;
 			this.txtLdgrName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtLdgrName.Enabled = false;
 			this.txtLdgrName.ForeColor = System.Drawing.Color.Black;
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			// txtLdgrNo
 			// 
-			this.txtLdgrNo.AllowDrop = true;
+			//this.txtLdgrNo.AllowDrop = true;
 			this.txtLdgrNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtLdgrNo.Enabled = false;
 			this.txtLdgrNo.ForeColor = System.Drawing.Color.Black;
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// lblLedgerNo
 			// 
-			this.lblLedgerNo.AllowDrop = true;
+			//this.lblLedgerNo.AllowDrop = true;
 			this.lblLedgerNo.BackColor = System.Drawing.Color.Silver;
 			this.lblLedgerNo.Text = "Ledger Code :";
 			this.lblLedgerNo.ForeColor = System.Drawing.Color.Black;
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.Silver;
 			this.Label3.Text = "Amt to Adjust :";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -227,7 +227,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.Silver;
 			this.Label2.Text = "To be Adjusted :";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -238,7 +238,7 @@ namespace Xtreme
 			// 
 			// txtAmountToAdjust
 			// 
-			this.txtAmountToAdjust.AllowDrop = true;
+			//this.txtAmountToAdjust.AllowDrop = true;
 			this.txtAmountToAdjust.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this.txtAmountToAdjust.DisplayFormat = "####0.000###;;0.000;0.000";
 			this.txtAmountToAdjust.Enabled = false;
@@ -254,7 +254,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.Silver;
 			this.Label1.Text = "Amt Adjusted :";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// txtAmountAdjusted
 			// 
-			this.txtAmountAdjusted.AllowDrop = true;
+			//this.txtAmountAdjusted.AllowDrop = true;
 			this.txtAmountAdjusted.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this.txtAmountAdjusted.DisplayFormat = "####0.000###;;0.000;0.000";
 			this.txtAmountAdjusted.Enabled = false;
@@ -281,10 +281,10 @@ namespace Xtreme
 			// 
 			// lblVoucherWiseAdjustment
 			// 
-			this.lblVoucherWiseAdjustment.AllowDrop = true;
+			//this.lblVoucherWiseAdjustment.AllowDrop = true;
 			this.lblVoucherWiseAdjustment.AutoSize = true;
 			this.lblVoucherWiseAdjustment.BackColor = System.Drawing.Color.Silver;
-			this.lblVoucherWiseAdjustment.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblVoucherWiseAdjustment.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblVoucherWiseAdjustment.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblVoucherWiseAdjustment.ForeColor = System.Drawing.Color.Black;
 			this.lblVoucherWiseAdjustment.Location = new System.Drawing.Point(10, 28);
@@ -296,7 +296,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.Color.White;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(2, 34);
@@ -306,7 +306,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Gray;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(2, 34);

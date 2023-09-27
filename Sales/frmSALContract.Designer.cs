@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// HScroll1
 			// 
-			this.HScroll1.AllowDrop = true;
+			//this.HScroll1.AllowDrop = true;
 			this.HScroll1.CausesValidation = true;
 			this.HScroll1.Enabled = true;
 			this.HScroll1.LargeChange = 1;
@@ -163,13 +163,13 @@ namespace Xtreme
 			this.HScroll1.TabStop = false;
 			// this.HScroll1.Value = 0;
 			this.HScroll1.Visible = true;
-			this.HScroll1.ValueChanged += new System.EventHandler(this.HScroll1_ValueChanged);
+			//this.HScroll1.ValueChanged += new System.EventHandler(this.HScroll1_ValueChanged);
 			// 
 			// Frame2
 			// 
-			this.Frame2.AllowDrop = true;
+			//this.Frame2.AllowDrop = true;
 			this.Frame2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Frame2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame2.Controls.Add(this.GroupBox1);
 			this.Frame2.Controls.Add(this.C1Tab1);
 			this.Frame2.Controls.Add(this.GroupBox2);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// GroupBox1
 			// 
-			this.GroupBox1.AllowDrop = true;
+			//this.GroupBox1.AllowDrop = true;
 			this.GroupBox1.Controls.Add(this.txtVoucherDate);
 			this.GroupBox1.Controls.Add(this.txtAmount);
 			this.GroupBox1.Controls.Add(this.Label_3);
@@ -209,7 +209,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			this.txtVoucherDate.Location = new System.Drawing.Point(108, 16);
 			// this.txtVoucherDate.MaxDate = 2958465;
 			// this.txtVoucherDate.MinDate = -657434;
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// txtAmount
 			// 
-			this.txtAmount.AllowDrop = true;
+			//this.txtAmount.AllowDrop = true;
 			// this.txtAmount.DisplayFormat = "##,##,###.000";
 			// this.txtAmount.Format = "##,##,###.000";
 			this.txtAmount.Location = new System.Drawing.Point(108, 60);
@@ -233,7 +233,7 @@ namespace Xtreme
 			// 
 			// Label_3
 			// 
-			this.Label_3.AllowDrop = true;
+			//this.Label_3.AllowDrop = true;
 			this.Label_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_3.Text = "Amount";
 			this.Label_3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -244,7 +244,7 @@ namespace Xtreme
 			// 
 			// Label_7
 			// 
-			this.Label_7.AllowDrop = true;
+			//this.Label_7.AllowDrop = true;
 			this.Label_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_7.Text = "Sales Date";
 			this.Label_7.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -255,7 +255,7 @@ namespace Xtreme
 			// 
 			// txtDiscount
 			// 
-			this.txtDiscount.AllowDrop = true;
+			//this.txtDiscount.AllowDrop = true;
 			// this.txtDiscount.DisplayFormat = "##,##,###.000";
 			// this.txtDiscount.Format = "##,##,###.000";
 			this.txtDiscount.Location = new System.Drawing.Point(108, 82);
@@ -267,7 +267,7 @@ namespace Xtreme
 			// 
 			// Label1_4
 			// 
-			this.Label1_4.AllowDrop = true;
+			//this.Label1_4.AllowDrop = true;
 			this.Label1_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_4.Text = "Discount";
 			this.Label1_4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -278,7 +278,7 @@ namespace Xtreme
 			// 
 			// Label_2
 			// 
-			this.Label_2.AllowDrop = true;
+			//this.Label_2.AllowDrop = true;
 			this.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_2.Text = "Voucher No";
 			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -289,7 +289,7 @@ namespace Xtreme
 			// 
 			// txtVoucherNo
 			// 
-			this.txtVoucherNo.AllowDrop = true;
+			//this.txtVoucherNo.AllowDrop = true;
 			this.txtVoucherNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this.txtVoucherNo.Enabled = false;
@@ -305,7 +305,7 @@ namespace Xtreme
 			// 
 			// txtNetAmount
 			// 
-			this.txtNetAmount.AllowDrop = true;
+			//this.txtNetAmount.AllowDrop = true;
 			this.txtNetAmount.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtNetAmount.DisplayFormat = "##,##,###.000";
 			this.txtNetAmount.Enabled = false;
@@ -319,7 +319,7 @@ namespace Xtreme
 			// 
 			// Label1_0
 			// 
-			this.Label1_0.AllowDrop = true;
+			//this.Label1_0.AllowDrop = true;
 			this.Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_0.Text = "Net Amount";
 			this.Label1_0.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -331,7 +331,7 @@ namespace Xtreme
 			// C1Tab1
 			// 
 			//this.C1Tab1.Align = C1SizerLib.AlignSettings.asNone;
-			this.C1Tab1.AllowDrop = true;
+			//this.C1Tab1.AllowDrop = true;
 			this.C1Tab1.Controls.Add(this.Frame1);
 			this.C1Tab1.Location = new System.Drawing.Point(8, 166);
 			this.C1Tab1.Name = "C1Tab1";
@@ -342,9 +342,9 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this.grdVoucherDetails);
 			this.Frame1.Controls.Add(this.txtTempDate);
 			this.Frame1.Controls.Add(this.txtComment);
@@ -360,7 +360,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(6, 4);
@@ -370,7 +370,7 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 17;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -384,7 +384,7 @@ namespace Xtreme
 			// 
 			// txtTempDate
 			// 
-			this.txtTempDate.AllowDrop = true;
+			//this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(14, 2);
 			this.txtTempDate.Name = "txtTempDate";
 			//
@@ -395,7 +395,7 @@ namespace Xtreme
 			// 
 			// txtComment
 			// 
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtComment.ForeColor = System.Drawing.Color.Black;
@@ -408,7 +408,7 @@ namespace Xtreme
 			// 
 			// Label1_1
 			// 
-			this.Label1_1.AllowDrop = true;
+			//this.Label1_1.AllowDrop = true;
 			this.Label1_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.Label1_1.Text = "Comments";
 			this.Label1_1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -419,7 +419,7 @@ namespace Xtreme
 			// 
 			// GroupBox2
 			// 
-			this.GroupBox2.AllowDrop = true;
+			//this.GroupBox2.AllowDrop = true;
 			this.GroupBox2.Controls.Add(this.cmdGenerate);
 			this.GroupBox2.Controls.Add(this.txtRemainingAmount);
 			this.GroupBox2.Controls.Add(this.Label1_5);
@@ -439,7 +439,7 @@ namespace Xtreme
 			// 
 			// cmdGenerate
 			// 
-			this.cmdGenerate.AllowDrop = true;
+			//this.cmdGenerate.AllowDrop = true;
 			this.cmdGenerate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdGenerate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdGenerate.Location = new System.Drawing.Point(200, 96);
@@ -454,7 +454,7 @@ namespace Xtreme
 			// 
 			// txtRemainingAmount
 			// 
-			this.txtRemainingAmount.AllowDrop = true;
+			//this.txtRemainingAmount.AllowDrop = true;
 			this.txtRemainingAmount.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtRemainingAmount.DisplayFormat = "##,##,###.000";
 			this.txtRemainingAmount.Enabled = false;
@@ -468,7 +468,7 @@ namespace Xtreme
 			// 
 			// Label1_5
 			// 
-			this.Label1_5.AllowDrop = true;
+			//this.Label1_5.AllowDrop = true;
 			this.Label1_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_5.Text = "Remaining Amount";
 			this.Label1_5.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -479,7 +479,7 @@ namespace Xtreme
 			// 
 			// txtInstallments
 			// 
-			this.txtInstallments.AllowDrop = true;
+			//this.txtInstallments.AllowDrop = true;
 			// this.txtInstallments.DisplayFormat = "##";
 			// this.txtInstallments.Format = "##";
 			this.txtInstallments.Location = new System.Drawing.Point(108, 82);
@@ -490,7 +490,7 @@ namespace Xtreme
 			// 
 			// Label1_2
 			// 
-			this.Label1_2.AllowDrop = true;
+			//this.Label1_2.AllowDrop = true;
 			this.Label1_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_2.Text = "Total Installments";
 			this.Label1_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -501,7 +501,7 @@ namespace Xtreme
 			// 
 			// txtInstallmentStartDate
 			// 
-			this.txtInstallmentStartDate.AllowDrop = true;
+			//this.txtInstallmentStartDate.AllowDrop = true;
 			this.txtInstallmentStartDate.Location = new System.Drawing.Point(108, 60);
 			// this.txtInstallmentStartDate.MaxDate = 2958465;
 			// this.txtInstallmentStartDate.MinDate = -657434;
@@ -513,7 +513,7 @@ namespace Xtreme
 			// 
 			// Label_4
 			// 
-			this.Label_4.AllowDrop = true;
+			//this.Label_4.AllowDrop = true;
 			this.Label_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_4.Text = "Installments From";
 			this.Label_4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -524,7 +524,7 @@ namespace Xtreme
 			// 
 			// txtInstallmentAmount
 			// 
-			this.txtInstallmentAmount.AllowDrop = true;
+			//this.txtInstallmentAmount.AllowDrop = true;
 			// this.txtInstallmentAmount.DisplayFormat = "##,##,###.000";
 			// this.txtInstallmentAmount.Format = "##,##,###.000";
 			this.txtInstallmentAmount.Location = new System.Drawing.Point(108, 104);
@@ -535,7 +535,7 @@ namespace Xtreme
 			// 
 			// Label1_6
 			// 
-			this.Label1_6.AllowDrop = true;
+			//this.Label1_6.AllowDrop = true;
 			this.Label1_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_6.Text = "Installment Amount";
 			this.Label1_6.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -546,7 +546,7 @@ namespace Xtreme
 			// 
 			// txtDownPayment
 			// 
-			this.txtDownPayment.AllowDrop = true;
+			//this.txtDownPayment.AllowDrop = true;
 			// this.txtDownPayment.DisplayFormat = "##,##,###.000";
 			// this.txtDownPayment.Format = "##,##,###.000";
 			this.txtDownPayment.Location = new System.Drawing.Point(108, 16);
@@ -558,7 +558,7 @@ namespace Xtreme
 			// 
 			// Label1_3
 			// 
-			this.Label1_3.AllowDrop = true;
+			//this.Label1_3.AllowDrop = true;
 			this.Label1_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1_3.Text = "Down Payment";
 			this.Label1_3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -569,7 +569,7 @@ namespace Xtreme
 			// 
 			// txtCustomerName
 			// 
-			this.txtCustomerName.AllowDrop = true;
+			//this.txtCustomerName.AllowDrop = true;
 			this.txtCustomerName.Enabled = false;
 			this.txtCustomerName.Location = new System.Drawing.Point(206, 8);
 			this.txtCustomerName.Name = "txtCustomerName";
@@ -579,7 +579,7 @@ namespace Xtreme
 			// 
 			// txtPercentDiscount
 			// 
-			this.txtPercentDiscount.AllowDrop = true;
+			//this.txtPercentDiscount.AllowDrop = true;
 			// this.txtPercentDiscount.DisplayFormat = "#####0.######;;; ";
 			// this.txtPercentDiscount.Format = "#####0.######";
 			this.txtPercentDiscount.Location = new System.Drawing.Point(196, 112);
@@ -593,7 +593,7 @@ namespace Xtreme
 			// 
 			// txtCustomerCode
 			// 
-			this.txtCustomerCode.AllowDrop = true;
+			//this.txtCustomerCode.AllowDrop = true;
 			this.txtCustomerCode.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtCustomerCode.ForeColor = System.Drawing.Color.Black;
@@ -610,7 +610,7 @@ namespace Xtreme
 			// 
 			// Label_1
 			// 
-			this.Label_1.AllowDrop = true;
+			//this.Label_1.AllowDrop = true;
 			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_1.Text = "Contract No";
 			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -622,7 +622,7 @@ namespace Xtreme
 			// 
 			// txtContractNo
 			// 
-			this.txtContractNo.AllowDrop = true;
+			//this.txtContractNo.AllowDrop = true;
 			this.txtContractNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtContractNo.ForeColor = System.Drawing.Color.Black;
@@ -638,7 +638,7 @@ namespace Xtreme
 			// 
 			// Label_0
 			// 
-			this.Label_0.AllowDrop = true;
+			//this.Label_0.AllowDrop = true;
 			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_0.Text = "Customer Name";
 			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -670,7 +670,7 @@ namespace Xtreme
 			// this.Activated += new System.EventHandler(this.frmSALContract_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
+			//this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
 			//this.Resize += new System.EventHandler(this.Form_Resize);
 			//((System.ComponentModel.ISupportInitialize) this.GroupBox1).EndInit();
 			//((System.ComponentModel.ISupportInitialize) this.txtTempDate).EndInit();

@@ -80,7 +80,7 @@ namespace Xtreme
 			// cntOuterFrame
 			// 
 			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asNone;
-			this.cntOuterFrame.AllowDrop = true;
+			//this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.lblLedgerCode);
 			this.cntOuterFrame.Controls.Add(this.txtGroupCode);
 			this.cntOuterFrame.Controls.Add(this.lblGroup);
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// lblLedgerCode
 			// 
-			this.lblLedgerCode.AllowDrop = true;
+			//this.lblLedgerCode.AllowDrop = true;
 			this.lblLedgerCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblLedgerCode.Text = " Rights on Ledger Codes";
 			this.lblLedgerCode.Location = new System.Drawing.Point(12, 42);
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// txtGroupCode
 			// 
-			this.txtGroupCode.AllowDrop = true;
+			//this.txtGroupCode.AllowDrop = true;
 			this.txtGroupCode.BackColor = System.Drawing.Color.White;
 			this.txtGroupCode.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupCode.Location = new System.Drawing.Point(100, 14);
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// lblGroup
 			// 
-			this.lblGroup.AllowDrop = true;
+			//this.lblGroup.AllowDrop = true;
 			this.lblGroup.BackColor = System.Drawing.SystemColors.Window;
 			this.lblGroup.Text = "Group Code";
 			this.lblGroup.Location = new System.Drawing.Point(20, 17);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// grdUserGroups
 			// 
 			this.grdUserGroups.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdUserGroups.AllowDrop = true;
+			//this.grdUserGroups.AllowDrop = true;
 			this.grdUserGroups.AllowEditing = false;
 			this.grdUserGroups.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdUserGroups.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -143,8 +143,8 @@ namespace Xtreme
 			this.grdUserGroups.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdUserGroups.AutoSearchDelay = 2;
 			this.grdUserGroups.BackColor = System.Drawing.SystemColors.Window;
-			this.grdUserGroups.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdUserGroups.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdUserGroups.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdUserGroups.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdUserGroups.Cols.Count = 6;
 			this.grdUserGroups.Cols.Fixed = 1;
 			this.grdUserGroups.Cols.Frozen = 0;
@@ -198,15 +198,15 @@ namespace Xtreme
 			this.grdUserGroups.Tree.Column = 0;
 			this.grdUserGroups.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdUserGroups.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdUserGroups.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
+			//this.grdUserGroups.BeforeEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdUserGroups_BeforeEdit);
 			// this.this.grdUserGroups.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdUserGroups_KeyPress);
-			this.grdUserGroups.KeyPressEdit += new C1.Win.C1FlexGrid.KeyPressEditEventHandler(this.grdUserGroups_KeyPressEdit);
+			//this.grdUserGroups.KeyPressEdit += new C1.Win.C1FlexGrid.KeyPressEditEventHandler(this.grdUserGroups_KeyPressEdit);
 			// 
 			// lblGroupName
 			// 
-			this.lblGroupName.AllowDrop = true;
+			//this.lblGroupName.AllowDrop = true;
 			this.lblGroupName.BackColor = System.Drawing.Color.FromArgb(236, 213, 196);
-			this.lblGroupName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblGroupName.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblGroupName.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblGroupName.Location = new System.Drawing.Point(210, 14);
 			this.lblGroupName.Name = "lblGroupName";
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 48);
@@ -226,9 +226,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmSysLdgrGroupAuthority
@@ -240,7 +240,7 @@ namespace Xtreme
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(609, 339);
 			this.Controls.Add(this.cntOuterFrame);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysLdgrGroupAuthority.Icon");
 			this.KeyPreview = true;

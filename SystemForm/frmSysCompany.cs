@@ -16,10 +16,10 @@ namespace Xtreme
 
 
 		private int mThisFormID = 0;
-		private clsToolbar oThisFormToolBar = null;
+		//$0
 		private object mSearchValue = null;
 		private string mTimeStamp = "";
-		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0;
+		//private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0;
 
 		private const int ctCompanyCode = 0;
 		private const int ctCompanyNameEnglish = 1;

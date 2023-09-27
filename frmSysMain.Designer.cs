@@ -142,28 +142,28 @@ namespace Xtreme
 			// 
 			// PopupControl1
 			// 
-			this.PopupControl1.AllowDrop = true;
+			//this.PopupControl1.AllowDrop = true;
 			this.PopupControl1.Location = new System.Drawing.Point(536, 312);
 			this.PopupControl1.Name = "PopupControl1";
 			
 			// 
 			// imlToolbox
 			// 
-			this.imlToolbox.AllowDrop = true;
+			//this.imlToolbox.AllowDrop = true;
 			this.imlToolbox.Location = new System.Drawing.Point(506, 208);
 			this.imlToolbox.Name = "imlToolbox";
 			
 			// 
 			// imlRibbon
 			// 
-			this.imlRibbon.AllowDrop = true;
+			//this.imlRibbon.AllowDrop = true;
 			this.imlRibbon.Location = new System.Drawing.Point(394, 238);
 			this.imlRibbon.Name = "imlRibbon";
 			
 			// 
 			// imlStandardIcons
 			// 
-			this.imlStandardIcons.AllowDrop = true;
+			//this.imlStandardIcons.AllowDrop = true;
 			this.imlStandardIcons.Location = new System.Drawing.Point(426, 134);
 			this.imlStandardIcons.Name = "imlStandardIcons";
 			

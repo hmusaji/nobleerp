@@ -19,7 +19,7 @@ namespace Xtreme
 		private int mThisFormID = 0;
 		private object mSearchValue = null;
 		private string mTimeStamp = "";
-		private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0;
+		//private SystemVariables.SystemFormModes mCurrentFormMode = (SystemVariables.SystemFormModes) 0;
 		//$0 aProductAssemblyDetails = null;
 		//$0 aProductStockLevels = null;
 		//$0 _aProductSupplierDetails = null;

@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_1
 			// 
-			this._fraCommon_1.AllowDrop = true;
+			//this._fraCommon_1.AllowDrop = true;
 			this._fraCommon_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._fraCommon_1.Controls.Add(this.txtComments);
 			this._fraCommon_1.Controls.Add(this._lblCommon_2);
@@ -144,9 +144,9 @@ namespace Xtreme
 			// txtComments
 			// 
 			this.txtComments.AcceptsReturn = true;
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComments.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComments.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComments.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComments.Location = new System.Drawing.Point(122, 62);
@@ -159,7 +159,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_2.Text = "New Status Code";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_2.bolNumericOnly = true;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -188,7 +188,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_3.Text = "Comments";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -200,7 +200,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_10
 			// 
-			this._lblCommon_10.AllowDrop = true;
+			//this._lblCommon_10.AllowDrop = true;
 			this._lblCommon_10.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_10.Text = "Status Change Date";
 			this._lblCommon_10.ForeColor = System.Drawing.Color.Black;
@@ -212,7 +212,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_3
 			// 
-			this._txtCommonDate_3.AllowDrop = true;
+			//this._txtCommonDate_3.AllowDrop = true;
 			this._txtCommonDate_3.BackColor = System.Drawing.Color.White;
 			// this._txtCommonDate_3.CheckDateRange = false;
 			this._txtCommonDate_3.Location = new System.Drawing.Point(122, 41);
@@ -226,7 +226,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_1
 			// 
-			this._txtCommonDisplay_1.AllowDrop = true;
+			//this._txtCommonDisplay_1.AllowDrop = true;
 			this._txtCommonDisplay_1.Location = new System.Drawing.Point(225, 20);
 			this._txtCommonDisplay_1.Name = "_txtCommonDisplay_1";
 			this._txtCommonDisplay_1.Size = new System.Drawing.Size(201, 19);
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_0
 			// 
-			this._fraCommon_0.AllowDrop = true;
+			//this._fraCommon_0.AllowDrop = true;
 			this._fraCommon_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._fraCommon_0.Controls.Add(this._lblCommon_1);
 			this._fraCommon_0.Controls.Add(this._txtCommon_1);
@@ -268,7 +268,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_1.Text = "Current Status Code";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -280,7 +280,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommon_1.bolNumericOnly = true;
 			this._txtCommon_1.Enabled = false;
@@ -297,7 +297,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(122, 18);
@@ -313,7 +313,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_0.Text = "Contract No";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -325,7 +325,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_5.Text = "Tenant Code";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -337,7 +337,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_6
 			// 
-			this._lblCommon_6.AllowDrop = true;
+			//this._lblCommon_6.AllowDrop = true;
 			this._lblCommon_6.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_6.Text = "Pay. Method Code";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -349,7 +349,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_4.Text = "Contract Amount";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -361,7 +361,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_0
 			// 
-			this._txtCommonDate_0.AllowDrop = true;
+			//this._txtCommonDate_0.AllowDrop = true;
 			this._txtCommonDate_0.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonDate_0.CheckDateRange = false;
 			this._txtCommonDate_0.Enabled = false;
@@ -376,7 +376,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_8.Text = "Signed Date";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
@@ -388,7 +388,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_9
 			// 
-			this._lblCommon_9.AllowDrop = true;
+			//this._lblCommon_9.AllowDrop = true;
 			this._lblCommon_9.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_9.Text = "Ending Date";
 			this._lblCommon_9.ForeColor = System.Drawing.Color.Black;
@@ -400,7 +400,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.Color.FromArgb(224, 230, 237);
 			this._lblCommon_7.Text = "Starting Date";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
@@ -412,7 +412,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_1
 			// 
-			this._txtCommonDate_1.AllowDrop = true;
+			//this._txtCommonDate_1.AllowDrop = true;
 			this._txtCommonDate_1.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonDate_1.CheckDateRange = false;
 			this._txtCommonDate_1.Enabled = false;
@@ -427,7 +427,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDate_2
 			// 
-			this._txtCommonDate_2.AllowDrop = true;
+			//this._txtCommonDate_2.AllowDrop = true;
 			this._txtCommonDate_2.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonDate_2.CheckDateRange = false;
 			this._txtCommonDate_2.Enabled = false;
@@ -442,7 +442,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_0
 			// 
-			this._txtCommonDisplay_0.AllowDrop = true;
+			//this._txtCommonDisplay_0.AllowDrop = true;
 			this._txtCommonDisplay_0.Location = new System.Drawing.Point(225, 39);
 			this._txtCommonDisplay_0.Name = "_txtCommonDisplay_0";
 			this._txtCommonDisplay_0.Size = new System.Drawing.Size(201, 19);
@@ -450,7 +450,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_7
 			// 
-			this._txtCommonDisplay_7.AllowDrop = true;
+			//this._txtCommonDisplay_7.AllowDrop = true;
 			this._txtCommonDisplay_7.Location = new System.Drawing.Point(122, 102);
 			this._txtCommonDisplay_7.Name = "_txtCommonDisplay_7";
 			this._txtCommonDisplay_7.Size = new System.Drawing.Size(101, 19);
@@ -458,7 +458,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_6
 			// 
-			this._txtCommonDisplay_6.AllowDrop = true;
+			//this._txtCommonDisplay_6.AllowDrop = true;
 			this._txtCommonDisplay_6.Location = new System.Drawing.Point(225, 102);
 			this._txtCommonDisplay_6.Name = "_txtCommonDisplay_6";
 			this._txtCommonDisplay_6.Size = new System.Drawing.Size(201, 19);
@@ -466,7 +466,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_5
 			// 
-			this._txtCommonDisplay_5.AllowDrop = true;
+			//this._txtCommonDisplay_5.AllowDrop = true;
 			this._txtCommonDisplay_5.Location = new System.Drawing.Point(122, 123);
 			this._txtCommonDisplay_5.Name = "_txtCommonDisplay_5";
 			this._txtCommonDisplay_5.Size = new System.Drawing.Size(101, 19);
@@ -474,7 +474,7 @@ namespace Xtreme
 			// 
 			// _txtCommonDisplay_3
 			// 
-			this._txtCommonDisplay_3.AllowDrop = true;
+			//this._txtCommonDisplay_3.AllowDrop = true;
 			this._txtCommonDisplay_3.Location = new System.Drawing.Point(225, 123);
 			this._txtCommonDisplay_3.Name = "_txtCommonDisplay_3";
 			this._txtCommonDisplay_3.Size = new System.Drawing.Size(201, 19);
@@ -483,7 +483,7 @@ namespace Xtreme
 			// _txtCommonDisplay_4
 			// 
 			// //this._txtCommonDisplay_4.Alignment = System.Windows.Forms.HorizontalAlignment.Right;
-			this._txtCommonDisplay_4.AllowDrop = true;
+			//this._txtCommonDisplay_4.AllowDrop = true;
 			this._txtCommonDisplay_4.Location = new System.Drawing.Point(122, 60);
 			this._txtCommonDisplay_4.Name = "_txtCommonDisplay_4";
 			this._txtCommonDisplay_4.Size = new System.Drawing.Size(101, 19);

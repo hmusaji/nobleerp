@@ -94,7 +94,7 @@ namespace Xtreme
 			// grdPurchase
 			// 
 			this.grdPurchase.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdPurchase.AllowDrop = true;
+			//this.grdPurchase.AllowDrop = true;
 			this.grdPurchase.AllowEditing = false;
 			this.grdPurchase.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.Columns;
 			this.grdPurchase.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -105,8 +105,8 @@ namespace Xtreme
 			this.grdPurchase.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdPurchase.AutoSearchDelay = 2;
 			this.grdPurchase.BackColor = System.Drawing.SystemColors.Window;
-			this.grdPurchase.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdPurchase.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdPurchase.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdPurchase.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdPurchase.Cols.Count = 1;
 			this.grdPurchase.Cols.Fixed = 0;
 			this.grdPurchase.Cols.Frozen = 0;
@@ -160,12 +160,12 @@ namespace Xtreme
 			this.grdPurchase.Tree.Column = 0;
 			this.grdPurchase.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdPurchase.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdPurchase.DoubleClick += new System.EventHandler(this.grdPurchase_DoubleClick);
+			//this.grdPurchase.DoubleClick += new System.EventHandler(this.grdPurchase_DoubleClick);
 			// 
 			// grdSales
 			// 
 			this.grdSales.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdSales.AllowDrop = true;
+			//this.grdSales.AllowDrop = true;
 			this.grdSales.AllowEditing = false;
 			this.grdSales.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.Columns;
 			this.grdSales.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -176,8 +176,8 @@ namespace Xtreme
 			this.grdSales.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdSales.AutoSearchDelay = 2;
 			this.grdSales.BackColor = System.Drawing.SystemColors.Window;
-			this.grdSales.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdSales.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdSales.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdSales.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdSales.Cols.Count = 1;
 			this.grdSales.Cols.Fixed = 0;
 			this.grdSales.Cols.Frozen = 0;
@@ -231,12 +231,12 @@ namespace Xtreme
 			this.grdSales.Tree.Column = 0;
 			this.grdSales.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdSales.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdSales.DoubleClick += new System.EventHandler(this.grdSales_DoubleClick);
+			//this.grdSales.DoubleClick += new System.EventHandler(this.grdSales_DoubleClick);
 			// 
 			// grdCustomerEnquiry
 			// 
 			this.grdCustomerEnquiry.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdCustomerEnquiry.AllowDrop = true;
+			//this.grdCustomerEnquiry.AllowDrop = true;
 			this.grdCustomerEnquiry.AllowEditing = false;
 			this.grdCustomerEnquiry.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.Columns;
 			this.grdCustomerEnquiry.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -247,8 +247,8 @@ namespace Xtreme
 			this.grdCustomerEnquiry.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdCustomerEnquiry.AutoSearchDelay = 2;
 			this.grdCustomerEnquiry.BackColor = System.Drawing.SystemColors.Window;
-			this.grdCustomerEnquiry.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdCustomerEnquiry.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdCustomerEnquiry.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdCustomerEnquiry.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdCustomerEnquiry.Cols.Count = 1;
 			this.grdCustomerEnquiry.Cols.Fixed = 0;
 			this.grdCustomerEnquiry.Cols.Frozen = 0;
@@ -302,11 +302,11 @@ namespace Xtreme
 			this.grdCustomerEnquiry.Tree.Column = 0;
 			this.grdCustomerEnquiry.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdCustomerEnquiry.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdCustomerEnquiry.DoubleClick += new System.EventHandler(this.grdCustomerEnquiry_DoubleClick);
+			//this.grdCustomerEnquiry.DoubleClick += new System.EventHandler(this.grdCustomerEnquiry_DoubleClick);
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.SystemColors.Control;
 			this.Frame1.Controls.Add(this.cmbYear);
 			this.Frame1.Controls.Add(this.cmdSearch);
@@ -334,7 +334,7 @@ namespace Xtreme
 			// 
 			// cmbYear
 			// 
-			this.cmbYear.AllowDrop = true;
+			//this.cmbYear.AllowDrop = true;
 			this.cmbYear.BackColor = System.Drawing.SystemColors.Window;
 			this.cmbYear.CausesValidation = true;
 			this.cmbYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -352,7 +352,7 @@ namespace Xtreme
 			// 
 			// cmdSearch
 			// 
-			this.cmdSearch.AllowDrop = true;
+			//this.cmdSearch.AllowDrop = true;
 			this.cmdSearch.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdSearch.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdSearch.Location = new System.Drawing.Point(266, 16);
@@ -367,7 +367,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Customer Enquiry Ref. No.";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -378,7 +378,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.SystemColors.Window;
 			this.Label2.Text = "P.O. No.";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -389,7 +389,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.SystemColors.Window;
 			this.Label3.Text = "Sales Inv. No.";
 			this.Label3.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -400,7 +400,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.SystemColors.Window;
 			this.Label4.Text = "Offer";
 			this.Label4.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -411,7 +411,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.SystemColors.Window;
 			this.Label5.Text = "Sales Order";
 			this.Label5.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -422,7 +422,7 @@ namespace Xtreme
 			// 
 			// txtRefNo
 			// 
-			this.txtRefNo.AllowDrop = true;
+			//this.txtRefNo.AllowDrop = true;
 			this.txtRefNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtRefNo.ForeColor = System.Drawing.Color.Black;
@@ -438,7 +438,7 @@ namespace Xtreme
 			// 
 			// txtPONo
 			// 
-			this.txtPONo.AllowDrop = true;
+			//this.txtPONo.AllowDrop = true;
 			this.txtPONo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtPONo.ForeColor = System.Drawing.Color.Black;
@@ -454,7 +454,7 @@ namespace Xtreme
 			// 
 			// txtSalesInvNo
 			// 
-			this.txtSalesInvNo.AllowDrop = true;
+			//this.txtSalesInvNo.AllowDrop = true;
 			this.txtSalesInvNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtSalesInvNo.ForeColor = System.Drawing.Color.Black;
@@ -470,7 +470,7 @@ namespace Xtreme
 			// 
 			// txtOffer
 			// 
-			this.txtOffer.AllowDrop = true;
+			//this.txtOffer.AllowDrop = true;
 			this.txtOffer.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtOffer.ForeColor = System.Drawing.Color.Black;
@@ -486,7 +486,7 @@ namespace Xtreme
 			// 
 			// txtOrder
 			// 
-			this.txtOrder.AllowDrop = true;
+			//this.txtOrder.AllowDrop = true;
 			this.txtOrder.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtOrder.ForeColor = System.Drawing.Color.Black;
@@ -502,7 +502,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.SystemColors.Window;
 			this.Label6.Text = "Year";
 			this.Label6.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -535,7 +535,7 @@ namespace Xtreme
 			this.Text = "BEC Order History";
 			// this.Activated += new System.EventHandler(this.frmICSOrderHistory_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
+			//this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
 			this.Frame1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}

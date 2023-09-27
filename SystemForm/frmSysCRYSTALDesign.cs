@@ -17,12 +17,12 @@ namespace Xtreme
 
 
 
-		public clsAccessAllowed UserAccess = null;
+		//$0
 
 		public DataSet rsMasterRecordset = null;
 		public DataSet rsDetailsRecordset = null;
-		public CRAXDDRT.Application craPrimaryApplication = null;
-		public CRAXDDRT.Report crrPrimaryReport = null;
+		//public CRAXDDRT.Application craPrimaryApplication = null;
+		//public CRAXDDRT.Report crrPrimaryReport = null;
 		public bool mReportDataSourceIsSet = false;
 
 		private int mReportId = 0;

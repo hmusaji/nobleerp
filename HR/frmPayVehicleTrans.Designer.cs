@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// txtNKMPerMonth
 			// 
-			this.txtNKMPerMonth.AllowDrop = true;
+			//this.txtNKMPerMonth.AllowDrop = true;
 			// this.txtNKMPerMonth.DisplayFormat = "####0.000###;;0.000;0.000";
 			this.txtNKMPerMonth.ForeColor = System.Drawing.SystemColors.WindowText;
 			// this.txtNKMPerMonth.Format = "###########0.000";
@@ -103,7 +103,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(254, 52);
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			// this.txtVoucherDate.CheckDateRange = false;
 			this.txtVoucherDate.Location = new System.Drawing.Point(364, 50);
 			// this.txtVoucherDate.MaxDate = 2958465;
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(4, 52);
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// txtVehicleTransNo
 			// 
-			this.txtVehicleTransNo.AllowDrop = true;
+			//this.txtVehicleTransNo.AllowDrop = true;
 			this.txtVehicleTransNo.BackColor = System.Drawing.Color.White;
 			// this.txtVehicleTransNo.bolNumericOnly = true;
 			this.txtVehicleTransNo.ForeColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Vehicle Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(4, 74);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// txtVehicleCode
 			// 
-			this.txtVehicleCode.AllowDrop = true;
+			//this.txtVehicleCode.AllowDrop = true;
 			this.txtVehicleCode.BackColor = System.Drawing.Color.White;
 			this.txtVehicleCode.ForeColor = System.Drawing.Color.Black;
 			this.txtVehicleCode.Location = new System.Drawing.Point(122, 71);
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(4, 163);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(122, 160);
@@ -202,7 +202,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(4, 94);
@@ -213,7 +213,7 @@ namespace Xtreme
 			// 
 			// txtEmpCode
 			// 
-			this.txtEmpCode.AllowDrop = true;
+			//this.txtEmpCode.AllowDrop = true;
 			this.txtEmpCode.BackColor = System.Drawing.Color.White;
 			this.txtEmpCode.ForeColor = System.Drawing.Color.Black;
 			this.txtEmpCode.Location = new System.Drawing.Point(122, 92);
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// txtEmpName
 			// 
-			this.txtEmpName.AllowDrop = true;
+			//this.txtEmpName.AllowDrop = true;
 			this.txtEmpName.Enabled = false;
 			this.txtEmpName.Location = new System.Drawing.Point(225, 92);
 			this.txtEmpName.Name = "txtEmpName";
@@ -238,7 +238,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Employee Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(4, 116);
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// txtEmpCodeNew
 			// 
-			this.txtEmpCodeNew.AllowDrop = true;
+			//this.txtEmpCodeNew.AllowDrop = true;
 			this.txtEmpCodeNew.BackColor = System.Drawing.Color.White;
 			this.txtEmpCodeNew.ForeColor = System.Drawing.Color.Black;
 			this.txtEmpCodeNew.Location = new System.Drawing.Point(122, 114);
@@ -263,7 +263,7 @@ namespace Xtreme
 			// 
 			// txtEmpNameNew
 			// 
-			this.txtEmpNameNew.AllowDrop = true;
+			//this.txtEmpNameNew.AllowDrop = true;
 			this.txtEmpNameNew.Enabled = false;
 			this.txtEmpNameNew.Location = new System.Drawing.Point(225, 114);
 			this.txtEmpNameNew.Name = "txtEmpNameNew";
@@ -273,7 +273,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Kilometer";
 			this.Label1.Location = new System.Drawing.Point(3, 140);

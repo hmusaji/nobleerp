@@ -10,8 +10,8 @@ namespace Xtreme
 		: System.Windows.Forms.Form
 	{
 
-		public clsReportDefinition oReportProperties = null;
-		public clsAccessAllowed UserAccess = null;
+		//public clsReportDefinition oReportProperties = null;
+		////$0
 
 		private int mReportID = 0;
 		private int mRecordCount = 0;

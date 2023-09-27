@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(164, 112);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtTrainingNo
 			// 
-			this.txtTrainingNo.AllowDrop = true;
+			//this.txtTrainingNo.AllowDrop = true;
 			this.txtTrainingNo.BackColor = System.Drawing.Color.White;
 			// this.txtTrainingNo.bolNumericOnly = true;
 			this.txtTrainingNo.ForeColor = System.Drawing.Color.Black;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// lblLReligionName
 			// 
-			this.lblLReligionName.AllowDrop = true;
+			//this.lblLReligionName.AllowDrop = true;
 			this.lblLReligionName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLReligionName.Text = "Training Name (English)";
 			this.lblLReligionName.Location = new System.Drawing.Point(26, 71);
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// txtLTrainingName
 			// 
-			this.txtLTrainingName.AllowDrop = true;
+			//this.txtLTrainingName.AllowDrop = true;
 			this.txtLTrainingName.BackColor = System.Drawing.Color.White;
 			this.txtLTrainingName.ForeColor = System.Drawing.Color.Black;
 			this.txtLTrainingName.Location = new System.Drawing.Point(164, 69);
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// lblAReligionName
 			// 
-			this.lblAReligionName.AllowDrop = true;
+			//this.lblAReligionName.AllowDrop = true;
 			this.lblAReligionName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAReligionName.Text = "Training Name (Arabic)";
 			this.lblAReligionName.Location = new System.Drawing.Point(26, 92);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// txtATrainingName
 			// 
-			this.txtATrainingName.AllowDrop = true;
+			//this.txtATrainingName.AllowDrop = true;
 			this.txtATrainingName.BackColor = System.Drawing.Color.White;
 			this.txtATrainingName.ForeColor = System.Drawing.Color.Black;
 			this.txtATrainingName.Location = new System.Drawing.Point(164, 90);
@@ -152,7 +152,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(26, 112);
@@ -163,7 +163,7 @@ namespace Xtreme
 			// 
 			// lblReligionNo
 			// 
-			this.lblReligionNo.AllowDrop = true;
+			//this.lblReligionNo.AllowDrop = true;
 			this.lblReligionNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblReligionNo.Text = "Training Code";
 			this.lblReligionNo.Location = new System.Drawing.Point(26, 50);

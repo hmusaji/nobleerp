@@ -103,7 +103,7 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.White;
 			this.Frame1.Controls.Add(this.cbToMonth);
 			this.Frame1.Controls.Add(this.cbFromMonth);
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// cbToMonth
 			// 
-			this.cbToMonth.AllowDrop = true;
+			//this.cbToMonth.AllowDrop = true;
 			this.cbToMonth.BackColor = System.Drawing.SystemColors.Window;
 			this.cbToMonth.CausesValidation = true;
 			this.cbToMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// cbFromMonth
 			// 
-			this.cbFromMonth.AllowDrop = true;
+			//this.cbFromMonth.AllowDrop = true;
 			this.cbFromMonth.BackColor = System.Drawing.SystemColors.Window;
 			this.cbFromMonth.CausesValidation = true;
 			this.cbFromMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// cbToYear
 			// 
-			this.cbToYear.AllowDrop = true;
+			//this.cbToYear.AllowDrop = true;
 			this.cbToYear.BackColor = System.Drawing.SystemColors.Window;
 			this.cbToYear.CausesValidation = true;
 			this.cbToYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// cbFromYear
 			// 
-			this.cbFromYear.AllowDrop = true;
+			//this.cbFromYear.AllowDrop = true;
 			this.cbFromYear.BackColor = System.Drawing.SystemColors.Window;
 			this.cbFromYear.CausesValidation = true;
 			this.cbFromYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -202,9 +202,9 @@ namespace Xtreme
 			// 
 			// Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.White;
-			this.Label4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label4.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label4.ForeColor = System.Drawing.Color.Navy;
 			this.Label4.Location = new System.Drawing.Point(142, 42);
@@ -216,9 +216,9 @@ namespace Xtreme
 			// 
 			// Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.White;
-			this.Label3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label3.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label3.ForeColor = System.Drawing.Color.Navy;
 			this.Label3.Location = new System.Drawing.Point(142, 18);
@@ -230,9 +230,9 @@ namespace Xtreme
 			// 
 			// Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.White;
-			this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label2.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label2.ForeColor = System.Drawing.Color.Navy;
 			this.Label2.Location = new System.Drawing.Point(6, 42);
@@ -244,9 +244,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.White;
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.Label1.ForeColor = System.Drawing.Color.Navy;
 			this.Label1.Location = new System.Drawing.Point(6, 18);
@@ -258,7 +258,7 @@ namespace Xtreme
 			// 
 			// lblFromToDate
 			// 
-			this.lblFromToDate.AllowDrop = true;
+			//this.lblFromToDate.AllowDrop = true;
 			this.lblFromToDate.BackColor = System.Drawing.Color.White;
 			// this.lblFromToDate.Text = "lbl";
 			this.lblFromToDate.Location = new System.Drawing.Point(8, 176);
@@ -268,7 +268,7 @@ namespace Xtreme
 			// 
 			// cmdAllocate
 			// 
-			this.cmdAllocate.AllowDrop = true;
+			//this.cmdAllocate.AllowDrop = true;
 			this.cmdAllocate.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdAllocate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdAllocate.Location = new System.Drawing.Point(194, 74);
@@ -283,7 +283,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(6, 202);
@@ -293,7 +293,7 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 2;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -307,7 +307,7 @@ namespace Xtreme
 			// 
 			// txtAnnualBudget
 			// 
-			this.txtAnnualBudget.AllowDrop = true;
+			//this.txtAnnualBudget.AllowDrop = true;
 			// this.txtAnnualBudget.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtAnnualBudget.Format = "###########0.000";
 			this.txtAnnualBudget.Location = new System.Drawing.Point(90, 74);
@@ -320,7 +320,7 @@ namespace Xtreme
 			// 
 			// BudgetLine
 			// 
-			this.BudgetLine.AllowDrop = true;
+			//this.BudgetLine.AllowDrop = true;
 			this.BudgetLine.BackColor = System.Drawing.Color.White;
 			this.BudgetLine.Enabled = true;
 			this.BudgetLine.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -333,7 +333,7 @@ namespace Xtreme
 			// 
 			// lblLedgerNo
 			// 
-			this.lblLedgerNo.AllowDrop = true;
+			//this.lblLedgerNo.AllowDrop = true;
 			this.lblLedgerNo.BackColor = System.Drawing.Color.White;
 			this.lblLedgerNo.Text = "Ledger Code";
 			this.lblLedgerNo.Location = new System.Drawing.Point(8, 48);
@@ -343,7 +343,7 @@ namespace Xtreme
 			// 
 			// txtLdgrNo
 			// 
-			this.txtLdgrNo.AllowDrop = true;
+			//this.txtLdgrNo.AllowDrop = true;
 			this.txtLdgrNo.BackColor = System.Drawing.Color.White;
 			this.txtLdgrNo.ForeColor = System.Drawing.Color.Black;
 			this.txtLdgrNo.Location = new System.Drawing.Point(90, 46);
@@ -358,7 +358,7 @@ namespace Xtreme
 			// 
 			// txtLdgrName
 			// 
-			this.txtLdgrName.AllowDrop = true;
+			//this.txtLdgrName.AllowDrop = true;
 			this.txtLdgrName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtLdgrName.Enabled = false;
 			this.txtLdgrName.ForeColor = System.Drawing.Color.Black;
@@ -371,7 +371,7 @@ namespace Xtreme
 			// 
 			// lblAnnualBudget
 			// 
-			this.lblAnnualBudget.AllowDrop = true;
+			//this.lblAnnualBudget.AllowDrop = true;
 			this.lblAnnualBudget.BackColor = System.Drawing.Color.White;
 			this.lblAnnualBudget.Text = "Annual Budget";
 			this.lblAnnualBudget.Location = new System.Drawing.Point(8, 76);
@@ -381,9 +381,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(124, 8);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			////this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(124, 8);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmGLLedgerBudget
@@ -404,7 +404,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtLdgrNo);
 			this.Controls.Add(this.txtLdgrName);
 			this.Controls.Add(this.lblAnnualBudget);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLLedgerBudget.Icon");
 			this.KeyPreview = true;

@@ -37,8 +37,8 @@ namespace Xtreme
 		//Required by the Windows Form Designer
 		private System.ComponentModel.IContainer components;
 		public System.Windows.Forms.ToolTip ToolTipMain;
-		public AxVSPrinter8Lib.AxVSPrinter vsrReportPreviewer;
-		public AxVSReport8Lib.AxVSReport vsrReportPrinter;
+		//public AxVSPrinter8Lib.AxVSPrinter vsrReportPreviewer;
+		//public AxVSReport8Lib.AxVSReport vsrReportPrinter;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -48,26 +48,26 @@ namespace Xtreme
 			this.components = new System.ComponentModel.Container();
 			//System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSysReportPrint));
 			this.ToolTipMain = new System.Windows.Forms.ToolTip(this.components);
-			this.vsrReportPreviewer = new AxVSPrinter8Lib.AxVSPrinter();
-			this.vsrReportPrinter = new AxVSReport8Lib.AxVSReport();
+			//this.vsrReportPreviewer = new AxVSPrinter8Lib.AxVSPrinter();
+			//this.vsrReportPrinter = new AxVSReport8Lib.AxVSReport();
 			// //((System.ComponentModel.ISupportInitialize) this.vsrReportPreviewer).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.vsrReportPrinter).BeginInit();
 			this.SuspendLayout();
 			// 
 			// vsrReportPreviewer
 			// 
-			this.vsrReportPreviewer.AllowDrop = true;
-			this.vsrReportPreviewer.Location = new System.Drawing.Point(12, 6);
-			this.vsrReportPreviewer.Name = "vsrReportPreviewer";
-			//
-			this.vsrReportPreviewer.Size = new System.Drawing.Size(305, 95);
-			this.vsrReportPreviewer.TabIndex = 0;
+			////this.vsrReportPreviewer.AllowDrop = true;
+			//this.vsrReportPreviewer.Location = new System.Drawing.Point(12, 6);
+			//this.vsrReportPreviewer.Name = "vsrReportPreviewer";
+			////
+			//this.vsrReportPreviewer.Size = new System.Drawing.Size(305, 95);
+			//this.vsrReportPreviewer.TabIndex = 0;
 			// 
 			// vsrReportPrinter
 			// 
-			this.vsrReportPrinter.AllowDrop = true;
-			this.vsrReportPrinter.Location = new System.Drawing.Point(324, 8);
-			this.vsrReportPrinter.Name = "vsrReportPrinter";
+			////this.vsrReportPrinter.AllowDrop = true;
+			//this.vsrReportPrinter.Location = new System.Drawing.Point(324, 8);
+			//this.vsrReportPrinter.Name = "vsrReportPrinter";
 			//
 			// 
 			// frmSysReportPrint
@@ -77,8 +77,8 @@ namespace Xtreme
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(399, 179);
-			this.Controls.Add(this.vsrReportPreviewer);
-			this.Controls.Add(this.vsrReportPrinter);
+			//this.Controls.Add(this.vsrReportPreviewer);
+			//this.Controls.Add(this.vsrReportPrinter);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysReportPrint.Icon");
 			this.KeyPreview = true;
 			this.Location = new System.Drawing.Point(126, 232);

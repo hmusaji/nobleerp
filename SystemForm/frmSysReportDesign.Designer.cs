@@ -56,8 +56,8 @@ namespace Xtreme
 		public System.Windows.Forms.FontDialog cdgCreateFileFont;
 		public System.Windows.Forms.ColorDialog cdgCreateFileColor;
 		public System.Windows.Forms.PrintDialog cdgCreateFilePrint;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog cdgCreateFile;
-		public AxVSPrinter8Lib.AxVSPrinter vspReportPrinter;
+		public AxCommonDialog cdgCreateFile;
+		//public AxVSPrinter8Lib.AxVSPrinter vspReportPrinter;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdReportHeader;
 		public C1.Win.C1FlexGrid.C1FlexGrid grdReportDesign;
 		public Syncfusion.Windows.Forms.Tools.DockingManager DockingPaneManager;
@@ -82,8 +82,8 @@ namespace Xtreme
 			this.cdgCreateFileFont = new System.Windows.Forms.FontDialog();
 			this.cdgCreateFileColor = new System.Windows.Forms.ColorDialog();
 			this.cdgCreateFilePrint = new System.Windows.Forms.PrintDialog();
-			this.cdgCreateFile = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
-			this.vspReportPrinter = new AxVSPrinter8Lib.AxVSPrinter();
+			this.cdgCreateFile = new AxCommonDialog();
+			//this.vspReportPrinter = new AxVSPrinter8Lib.AxVSPrinter();
 			this.grdReportDesign = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.grdReportHeader = new C1.Win.C1FlexGrid.C1FlexGrid();
 			this.DockingPaneManager = new Syncfusion.Windows.Forms.Tools.DockingManager();
@@ -100,9 +100,9 @@ namespace Xtreme
 			// 
 			// FraFormatOptions
 			// 
-			this.FraFormatOptions.AllowDrop = true;
+			//this.FraFormatOptions.AllowDrop = true;
 			this.FraFormatOptions.BackColor = System.Drawing.SystemColors.Control;
-			this.FraFormatOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.FraFormatOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.FraFormatOptions.Controls.Add(this.pnlFormatOptions);
 			this.FraFormatOptions.Enabled = true;
 			this.FraFormatOptions.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// pnlFormatOptions
 			// 
-			this.pnlFormatOptions.AllowDrop = true;
+			//this.pnlFormatOptions.AllowDrop = true;
 			this.pnlFormatOptions.Location = new System.Drawing.Point(0, 0);
 			this.pnlFormatOptions.Name = "pnlFormatOptions";
 			//
@@ -125,9 +125,9 @@ namespace Xtreme
 			// 
 			// FraFields
 			// 
-			this.FraFields.AllowDrop = true;
+			//this.FraFields.AllowDrop = true;
 			this.FraFields.BackColor = System.Drawing.SystemColors.Control;
-			this.FraFields.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.FraFields.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.FraFields.Controls.Add(this.pnlFields);
 			this.FraFields.Enabled = true;
 			this.FraFields.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// pnlFields
 			// 
-			this.pnlFields.AllowDrop = true;
+			//this.pnlFields.AllowDrop = true;
 			this.pnlFields.Location = new System.Drawing.Point(0, 0);
 			this.pnlFields.Name = "pnlFields";
 			//
@@ -150,9 +150,9 @@ namespace Xtreme
 			// 
 			// fraParameter
 			// 
-			this.fraParameter.AllowDrop = true;
+			//this.fraParameter.AllowDrop = true;
 			this.fraParameter.BackColor = System.Drawing.SystemColors.Control;
-			this.fraParameter.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraParameter.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraParameter.Controls.Add(this.pnlParameter);
 			this.fraParameter.Enabled = true;
 			this.fraParameter.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -166,7 +166,7 @@ namespace Xtreme
 			// 
 			// pnlParameter
 			// 
-			this.pnlParameter.AllowDrop = true;
+			//this.pnlParameter.AllowDrop = true;
 			this.pnlParameter.Location = new System.Drawing.Point(0, 0);
 			this.pnlParameter.Name = "pnlParameter";
 			//
@@ -176,9 +176,9 @@ namespace Xtreme
 			// txtText1
 			// 
 			this.txtText1.AcceptsReturn = true;
-			this.txtText1.AllowDrop = true;
+			//this.txtText1.AllowDrop = true;
 			this.txtText1.BackColor = System.Drawing.SystemColors.Window;
-			this.txtText1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtText1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtText1.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtText1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtText1.Location = new System.Drawing.Point(48, 8);
@@ -192,18 +192,18 @@ namespace Xtreme
 			// 
 			// vspReportPrinter
 			// 
-			this.vspReportPrinter.AllowDrop = true;
-			this.vspReportPrinter.Location = new System.Drawing.Point(10, 96);
-			this.vspReportPrinter.Name = "vspReportPrinter";
-			//
-			this.vspReportPrinter.Size = new System.Drawing.Size(581, 121);
-			this.vspReportPrinter.TabIndex = 2;
-			this.vspReportPrinter.Visible = false;
+			////this.vspReportPrinter.AllowDrop = true;
+			//this.vspReportPrinter.Location = new System.Drawing.Point(10, 96);
+			//this.vspReportPrinter.Name = "vspReportPrinter";
+			////
+			//this.vspReportPrinter.Size = new System.Drawing.Size(581, 121);
+			//this.vspReportPrinter.TabIndex = 2;
+			//this.vspReportPrinter.Visible = false;
 			// 
 			// grdReportDesign
 			// 
 			this.grdReportDesign.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdReportDesign.AllowDrop = true;
+			//this.grdReportDesign.AllowDrop = true;
 			this.grdReportDesign.AllowEditing = false;
 			this.grdReportDesign.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdReportDesign.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -214,8 +214,8 @@ namespace Xtreme
 			this.grdReportDesign.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdReportDesign.AutoSearchDelay = 2;
 			this.grdReportDesign.BackColor = System.Drawing.SystemColors.Window;
-			this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
-			this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
+			//this.grdReportDesign.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdReportDesign.Cols.Count = 10;
 			this.grdReportDesign.Cols.Fixed = 0;
 			this.grdReportDesign.Cols.Frozen = 0;
@@ -274,7 +274,7 @@ namespace Xtreme
 			// grdReportHeader
 			// 
 			this.grdReportHeader.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdReportHeader.AllowDrop = true;
+			//this.grdReportHeader.AllowDrop = true;
 			this.grdReportHeader.AllowEditing = false;
 			this.grdReportHeader.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdReportHeader.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -285,8 +285,8 @@ namespace Xtreme
 			this.grdReportHeader.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdReportHeader.AutoSearchDelay = 2;
 			this.grdReportHeader.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
-			this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
-			this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
+			//this.grdReportHeader.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.Fixed3D;
 			this.grdReportHeader.Cols.Count = 10;
 			this.grdReportHeader.Cols.Fixed = 1;
 			this.grdReportHeader.Cols.Frozen = 0;
@@ -343,9 +343,9 @@ namespace Xtreme
 			// 
 			// DockingPaneManager
 			// 
-			this.DockingPaneManager.AllowDrop = true;
-			this.DockingPaneManager.Location = new System.Drawing.Point(34, 420);
-			this.DockingPaneManager.Name = "DockingPaneManager";
+			////this.DockingPaneManager.AllowDrop = true;
+			//this.DockingPaneManager.Location = new System.Drawing.Point(34, 420);
+			//this.DockingPaneManager.Name = "DockingPaneManager";
 			//
 			// 
 			// frmSysReportDesign
@@ -360,9 +360,9 @@ namespace Xtreme
 			this.Controls.Add(this.FraFields);
 			this.Controls.Add(this.fraParameter);
 			this.Controls.Add(this.txtText1);
-			this.Controls.Add(this.vspReportPrinter);
+			//this.Controls.Add(this.vspReportPrinter);
 			this.Controls.Add(this.grdReportDesign);
-			this.Controls.Add(this.DockingPaneManager);
+			//this.Controls.Add(this.DockingPaneManager);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysReportDesign.Icon");
 			this.KeyPreview = true;

@@ -102,7 +102,7 @@ namespace Xtreme
 			// 
 			// txtTempDate
 			// 
-			this.txtTempDate.AllowDrop = true;
+			//this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(24, 172);
 			this.txtTempDate.Name = "txtTempDate";
 			//
@@ -112,7 +112,7 @@ namespace Xtreme
 			// 
 			// cmdShow
 			// 
-			this.cmdShow.AllowDrop = true;
+			//this.cmdShow.AllowDrop = true;
 			this.cmdShow.BackColor = System.Drawing.Color.FromArgb(249, 238, 221);
 			this.cmdShow.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdShow.Location = new System.Drawing.Point(444, 98);
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// txtMaturityDate
 			// 
-			this.txtMaturityDate.AllowDrop = true;
+			//this.txtMaturityDate.AllowDrop = true;
 			// this.txtMaturityDate.CheckDateRange = false;
 			this.txtMaturityDate.Location = new System.Drawing.Point(89, 57);
 			// this.txtMaturityDate.MaxDate = 2958465;
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// label1
 			// 
-			this.label1.AllowDrop = true;
+			//this.label1.AllowDrop = true;
 			this.label1.BackColor = System.Drawing.SystemColors.Window;
 			this.label1.Text = "As On Date:";
 			this.label1.ForeColor = System.Drawing.Color.Black;
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// cntMasterDetails
 			// 
-			this.cntMasterDetails.AllowDrop = true;
+			//this.cntMasterDetails.AllowDrop = true;
 			this.cntMasterDetails.Controls.Add(this.grdVoucherDetails);
 			this.cntMasterDetails.Location = new System.Drawing.Point(2, 148);
 			this.cntMasterDetails.Name = "cntMasterDetails";
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 0);
@@ -171,11 +171,11 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 4;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdVoucherDetails_BeforeColEdit);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// this.this.grdVoucherDetails.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdVoucherDetails_KeyPress);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(27, 171);
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// txtChequeNo
 			// 
-			this.txtChequeNo.AllowDrop = true;
+			//this.txtChequeNo.AllowDrop = true;
 			this.txtChequeNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtChequeNo.ForeColor = System.Drawing.Color.Black;
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// lblChequeNo
 			// 
-			this.lblChequeNo.AllowDrop = true;
+			//this.lblChequeNo.AllowDrop = true;
 			this.lblChequeNo.BackColor = System.Drawing.SystemColors.Window;
 			this.lblChequeNo.Text = "Cheque No";
 			this.lblChequeNo.ForeColor = System.Drawing.Color.Black;
@@ -236,7 +236,7 @@ namespace Xtreme
 			// 
 			// lblBranchCode
 			// 
-			this.lblBranchCode.AllowDrop = true;
+			//this.lblBranchCode.AllowDrop = true;
 			this.lblBranchCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblBranchCode.Text = "Voucher Type";
 			this.lblBranchCode.ForeColor = System.Drawing.Color.Black;
@@ -247,7 +247,7 @@ namespace Xtreme
 			// 
 			// txtVoucherType
 			// 
-			this.txtVoucherType.AllowDrop = true;
+			//this.txtVoucherType.AllowDrop = true;
 			this.txtVoucherType.BackColor = System.Drawing.Color.White;
 			this.txtVoucherType.ForeColor = System.Drawing.Color.Black;
 			this.txtVoucherType.Location = new System.Drawing.Point(89, 80);
@@ -261,7 +261,7 @@ namespace Xtreme
 			// 
 			// txtVoucherName
 			// 
-			this.txtVoucherName.AllowDrop = true;
+			//this.txtVoucherName.AllowDrop = true;
 			this.txtVoucherName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtVoucherName.Enabled = false;
 			this.txtVoucherName.ForeColor = System.Drawing.Color.Black;
@@ -273,16 +273,16 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(0, 139);
@@ -310,7 +310,7 @@ namespace Xtreme
 			this.Controls.Add(this.lblBranchCode);
 			this.Controls.Add(this.txtVoucherType);
 			this.Controls.Add(this.txtVoucherName);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.Controls.Add(this.Line1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmGLPostDatedCheque.Icon");
@@ -322,7 +322,7 @@ namespace Xtreme
 			this.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "Convert Post Dated Cheque ";
-			this.commandButtonHelper1.SetStyle(this.cmdShow, 1);
+			//this.commandButtonHelper1.SetStyle(this.cmdShow, 1);
 			// this.Activated += new System.EventHandler(this.Form_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);

@@ -60,15 +60,15 @@ namespace Xtreme
 			// 
 			// shpBorder
 			// 
-			this.shpBorder.AllowDrop = true;
+			//this.shpBorder.AllowDrop = true;
 			this.shpBorder.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.shpBorder.BorderColor = System.Drawing.Color.Navy;
-			this.shpBorder.BorderStyle = 1;
-			this.shpBorder.BorderWidth = 2;
+			//this.shpBorder.BorderColor = System.Drawing.Color.Navy;
+			//this.shpBorder.BorderStyle = 1;
+			//this.shpBorder.BorderWidth = 2;
 			this.shpBorder.Enabled = false;
-			this.shpBorder.FillColor = System.Drawing.Color.Black;
-			this.shpBorder.FillStyle = 1;
+			//this.shpBorder.FillColor = System.Drawing.Color.Black;
+			//this.shpBorder.FillStyle = 1;
 			this.shpBorder.Location = new System.Drawing.Point(32, 24);
 			this.shpBorder.Name = "shpBorder";
 			this.shpBorder.Size = new System.Drawing.Size(47, 35);
@@ -76,9 +76,9 @@ namespace Xtreme
 			// 
 			// lblLicensedToCompnayName
 			// 
-			this.lblLicensedToCompnayName.AllowDrop = true;
+			//this.lblLicensedToCompnayName.AllowDrop = true;
 			this.lblLicensedToCompnayName.BackColor = System.Drawing.Color.Transparent;
-			this.lblLicensedToCompnayName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblLicensedToCompnayName.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblLicensedToCompnayName.ForeColor = System.Drawing.Color.White;
 			this.lblLicensedToCompnayName.Location = new System.Drawing.Point(126, 192);
 			this.lblLicensedToCompnayName.Name = "lblLicensedToCompnayName";
@@ -90,9 +90,9 @@ namespace Xtreme
 			// 
 			// lblApplicationStatus
 			// 
-			this.lblApplicationStatus.AllowDrop = true;
+			//this.lblApplicationStatus.AllowDrop = true;
 			this.lblApplicationStatus.BackColor = System.Drawing.Color.Transparent;
-			this.lblApplicationStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblApplicationStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblApplicationStatus.ForeColor = System.Drawing.Color.White;
 			this.lblApplicationStatus.Location = new System.Drawing.Point(10, 227);
 			this.lblApplicationStatus.Name = "lblApplicationStatus";
@@ -102,9 +102,9 @@ namespace Xtreme
 			// 
 			// lblCopyright
 			// 
-			this.lblCopyright.AllowDrop = true;
+			//this.lblCopyright.AllowDrop = true;
 			this.lblCopyright.BackColor = System.Drawing.Color.Transparent;
-			this.lblCopyright.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblCopyright.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblCopyright.Font = new System.Drawing.Font("Tahoma", 6.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lblCopyright.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblCopyright.Location = new System.Drawing.Point(6, 258);
@@ -116,8 +116,8 @@ namespace Xtreme
 			// 
 			// Image1
 			// 
-			this.Image1.AllowDrop = true;
-			this.Image1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Image1.AllowDrop = true;
+			//this.Image1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Image1.Enabled = true;
 			//this.Image1.Image = (System.Drawing.Image) resources.GetObject("Image1.Image");
 			this.Image1.Location = new System.Drawing.Point(0, 0);

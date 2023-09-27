@@ -63,7 +63,7 @@ namespace Xtreme
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.lblTransactionType);
 			this.cntMainParameter.Controls.Add(this.cmbTransactionType);
 			this.cntMainParameter.Controls.Add(this.txtToVoucherNo);
@@ -82,7 +82,7 @@ namespace Xtreme
 			// 
 			// lblTransactionType
 			// 
-			this.lblTransactionType.AllowDrop = true;
+			//this.lblTransactionType.AllowDrop = true;
 			this.lblTransactionType.Location = new System.Drawing.Point(8, 24);
 			this.lblTransactionType.Name = "lblTransactionType";
 			this.lblTransactionType.Size = new System.Drawing.Size(83, 13);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// cmbTransactionType
 			// 
-			this.cmbTransactionType.AllowDrop = true;
+			//this.cmbTransactionType.AllowDrop = true;
 			this.cmbTransactionType.Location = new System.Drawing.Point(112, 20);
 			this.cmbTransactionType.Name = "cmbTransactionType";
 			this.cmbTransactionType.Size = new System.Drawing.Size(227, 21);
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// txtToVoucherNo
 			// 
-			this.txtToVoucherNo.AllowDrop = true;
+			//this.txtToVoucherNo.AllowDrop = true;
 			this.txtToVoucherNo.BackColor = System.Drawing.Color.White;
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtToVoucherNo.Location = new System.Drawing.Point(364, 95);
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// txtFromVoucherNo
 			// 
-			this.txtFromVoucherNo.AllowDrop = true;
+			//this.txtFromVoucherNo.AllowDrop = true;
 			this.txtFromVoucherNo.BackColor = System.Drawing.Color.White;
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtFromVoucherNo.Location = new System.Drawing.Point(364, 74);
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.Location = new System.Drawing.Point(8, 98);
 			this.lblToDate.Name = "lblToDate";
 			this.lblToDate.Size = new System.Drawing.Size(38, 13);
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// lblFromDate
 			// 
-			this.lblFromDate.AllowDrop = true;
+			//this.lblFromDate.AllowDrop = true;
 			this.lblFromDate.Location = new System.Drawing.Point(8, 77);
 			this.lblFromDate.Name = "lblFromDate";
 			this.lblFromDate.Size = new System.Drawing.Size(50, 13);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			this.txtFromDate.Location = new System.Drawing.Point(112, 74);
 			// this.txtFromDate.MaxDate = 2958465;
 			// this.txtFromDate.MinDate = -657434;
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			this.txtToDate.Location = new System.Drawing.Point(112, 95);
 			// this.txtToDate.MaxDate = 2958465;
 			// this.txtToDate.MinDate = -657434;
@@ -162,7 +162,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.Location = new System.Drawing.Point(260, 98);
 			this.Label1.Name="Label1";
 			this.Label1.Size = new System.Drawing.Size(70, 13);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.Location = new System.Drawing.Point(260, 77);
 			this.Label2.Name="Label2";
 			this.Label2.Size = new System.Drawing.Size(82, 13);
@@ -178,13 +178,13 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.Location = new System.Drawing.Point(143, 166);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 5;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// frmREBatchPosting
 			// 

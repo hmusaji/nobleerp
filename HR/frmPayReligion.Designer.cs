@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(152, 102);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtReligionNo
 			// 
-			this.txtReligionNo.AllowDrop = true;
+			//this.txtReligionNo.AllowDrop = true;
 			this.txtReligionNo.BackColor = System.Drawing.Color.White;
 			// this.txtReligionNo.bolNumericOnly = true;
 			this.txtReligionNo.ForeColor = System.Drawing.Color.Black;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// lblLReligionName
 			// 
-			this.lblLReligionName.AllowDrop = true;
+			//this.lblLReligionName.AllowDrop = true;
 			this.lblLReligionName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLReligionName.Text = "Religion Name (English)";
 			this.lblLReligionName.Location = new System.Drawing.Point(14, 61);
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// txtLReligionName
 			// 
-			this.txtLReligionName.AllowDrop = true;
+			//this.txtLReligionName.AllowDrop = true;
 			this.txtLReligionName.BackColor = System.Drawing.Color.White;
 			this.txtLReligionName.ForeColor = System.Drawing.Color.Black;
 			this.txtLReligionName.Location = new System.Drawing.Point(152, 59);
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// lblAReligionName
 			// 
-			this.lblAReligionName.AllowDrop = true;
+			//this.lblAReligionName.AllowDrop = true;
 			this.lblAReligionName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAReligionName.Text = "Religion Name (Arabic)";
 			this.lblAReligionName.Location = new System.Drawing.Point(14, 82);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// txtAReligionName
 			// 
-			this.txtAReligionName.AllowDrop = true;
+			//this.txtAReligionName.AllowDrop = true;
 			this.txtAReligionName.BackColor = System.Drawing.Color.White;
 			this.txtAReligionName.ForeColor = System.Drawing.Color.Black;
 			this.txtAReligionName.Location = new System.Drawing.Point(152, 80);
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(14, 102);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// lblReligionNo
 			// 
-			this.lblReligionNo.AllowDrop = true;
+			//this.lblReligionNo.AllowDrop = true;
 			this.lblReligionNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblReligionNo.Text = "Religion Code";
 			this.lblReligionNo.Location = new System.Drawing.Point(14, 40);

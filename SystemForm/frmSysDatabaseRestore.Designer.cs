@@ -50,9 +50,9 @@ namespace Xtreme
 		public System.Windows.Forms.Label Label1;
 		public System.Windows.Forms.Button cmdCancel;
 		public System.Windows.Forms.Button cmdOK;
-		public UpgradeHelpers.Gui.DirListBoxHelper Dir1;
-		public UpgradeHelpers.Gui.FileListBoxHelper File1;
-		public UpgradeHelpers.Gui.DriveListBoxHelper Drive1;
+		public DirListBoxHelper Dir1;
+		public FileListBoxHelper File1;
+		public DriveListBoxHelper Drive1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -67,14 +67,14 @@ namespace Xtreme
 			this.Label1 = new System.Windows.Forms.Label();
 			this.cmdCancel = new System.Windows.Forms.Button();
 			this.cmdOK = new System.Windows.Forms.Button();
-			this.Dir1 = new UpgradeHelpers.Gui.DirListBoxHelper();
-			this.File1 = new UpgradeHelpers.Gui.FileListBoxHelper();
-			this.Drive1 = new UpgradeHelpers.Gui.DriveListBoxHelper();
+			this.Dir1 = new DirListBoxHelper();
+			this.File1 = new FileListBoxHelper();
+			this.Drive1 = new DriveListBoxHelper();
 			this.SuspendLayout();
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.SystemColors.Window;
 			this.Label2.Text = "Restore Database Name";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -85,7 +85,7 @@ namespace Xtreme
 			// 
 			// txtRestoreDBName
 			// 
-			this.txtRestoreDBName.AllowDrop = true;
+			//this.txtRestoreDBName.AllowDrop = true;
 			this.txtRestoreDBName.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtRestoreDBName.ForeColor = System.Drawing.Color.Black;
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "Select the file to Restore:";
 			this.Label1.Location = new System.Drawing.Point(16, 22);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// cmdCancel
 			// 
-			this.cmdCancel.AllowDrop = true;
+			//this.cmdCancel.AllowDrop = true;
 			this.cmdCancel.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdCancel.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdCancel.Location = new System.Drawing.Point(283, 340);
@@ -123,7 +123,7 @@ namespace Xtreme
 			// 
 			// cmdOK
 			// 
-			this.cmdOK.AllowDrop = true;
+			//this.cmdOK.AllowDrop = true;
 			this.cmdOK.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdOK.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdOK.Location = new System.Drawing.Point(170, 340);
@@ -138,58 +138,58 @@ namespace Xtreme
 			// 
 			// Dir1
 			// 
-			this.Dir1.AllowDrop = true;
-			this.Dir1.BackColor = System.Drawing.SystemColors.Window;
-			this.Dir1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.Dir1.CausesValidation = true;
-			this.Dir1.Enabled = true;
-			this.Dir1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.Dir1.Location = new System.Drawing.Point(16, 64);
-			this.Dir1.Name = "Dir1";
-			this.Dir1.Size = new System.Drawing.Size(257, 201);
-			this.Dir1.TabIndex = 2;
-			this.Dir1.TabStop = true;
-			this.Dir1.Visible = true;
-			this.Dir1.PathChange += new System.EventHandler(this.Dir1_PathChange);
-			// 
-			// File1
-			// 
-			this.File1.@System = false;
-			this.File1.AllowDrop = true;
-			this.File1.Archive = true;
-			this.File1.BackColor = System.Drawing.SystemColors.Window;
-			this.File1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.File1.CausesValidation = true;
-			this.File1.Enabled = true;
-			this.File1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.File1.Hidden = false;
-			this.File1.Location = new System.Drawing.Point(273, 62);
-			this.File1.Name = "File1";
-			this.File1.Normal = true;
-			this.File1.Pattern = "*.*";
-			this.File1.ReadOnly = true;
-			this.File1.SelectionMode = System.Windows.Forms.SelectionMode.One;
-			this.File1.Size = new System.Drawing.Size(257, 201);
-			this.File1.TabIndex = 1;
-			this.File1.TabStop = true;
-			this.File1.TopIndex = 0;
-			this.File1.Visible = true;
-			this.File1.SelectedIndexChanged += new System.EventHandler(this.File1_SelectedIndexChanged);
-			// 
-			// Drive1
-			// 
-			this.Drive1.AllowDrop = true;
-			this.Drive1.BackColor = System.Drawing.SystemColors.Window;
-			this.Drive1.CausesValidation = true;
-			this.Drive1.Enabled = true;
-			this.Drive1.ForeColor = System.Drawing.SystemColors.WindowText;
-			this.Drive1.Location = new System.Drawing.Point(16, 42);
-			this.Drive1.Name = "Drive1";
-			this.Drive1.Size = new System.Drawing.Size(257, 21);
-			this.Drive1.TabIndex = 0;
-			this.Drive1.TabStop = true;
-			this.Drive1.Visible = true;
-			this.Drive1.SelectedIndexChanged += new System.EventHandler(this.Drive1_SelectedIndexChanged);
+			////this.Dir1.AllowDrop = true;
+			//this.Dir1.BackColor = System.Drawing.SystemColors.Window;
+			////this.Dir1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.Dir1.CausesValidation = true;
+			//this.Dir1.Enabled = true;
+			//this.Dir1.ForeColor = System.Drawing.SystemColors.WindowText;
+			//this.Dir1.Location = new System.Drawing.Point(16, 64);
+			//this.Dir1.Name = "Dir1";
+			//this.Dir1.Size = new System.Drawing.Size(257, 201);
+			//this.Dir1.TabIndex = 2;
+			//this.Dir1.TabStop = true;
+			//this.Dir1.Visible = true;
+			//this.Dir1.PathChange += new System.EventHandler(this.Dir1_PathChange);
+			//// 
+			//// File1
+			//// 
+			//this.File1.@System = false;
+			////this.File1.AllowDrop = true;
+			//this.File1.Archive = true;
+			//this.File1.BackColor = System.Drawing.SystemColors.Window;
+			////this.File1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.File1.CausesValidation = true;
+			//this.File1.Enabled = true;
+			//this.File1.ForeColor = System.Drawing.SystemColors.WindowText;
+			//this.File1.Hidden = false;
+			//this.File1.Location = new System.Drawing.Point(273, 62);
+			//this.File1.Name = "File1";
+			//this.File1.Normal = true;
+			//this.File1.Pattern = "*.*";
+			//this.File1.ReadOnly = true;
+			//this.File1.SelectionMode = System.Windows.Forms.SelectionMode.One;
+			//this.File1.Size = new System.Drawing.Size(257, 201);
+			//this.File1.TabIndex = 1;
+			//this.File1.TabStop = true;
+			//this.File1.TopIndex = 0;
+			//this.File1.Visible = true;
+			//this.File1.SelectedIndexChanged += new System.EventHandler(this.File1_SelectedIndexChanged);
+			//// 
+			//// Drive1
+			//// 
+			////this.Drive1.AllowDrop = true;
+			//this.Drive1.BackColor = System.Drawing.SystemColors.Window;
+			//this.Drive1.CausesValidation = true;
+			//this.Drive1.Enabled = true;
+			//this.Drive1.ForeColor = System.Drawing.SystemColors.WindowText;
+			//this.Drive1.Location = new System.Drawing.Point(16, 42);
+			//this.Drive1.Name = "Drive1";
+			//this.Drive1.Size = new System.Drawing.Size(257, 21);
+			//this.Drive1.TabIndex = 0;
+			//this.Drive1.TabStop = true;
+			//this.Drive1.Visible = true;
+			//this.Drive1.SelectedIndexChanged += new System.EventHandler(this.Drive1_SelectedIndexChanged);
 			// 
 			// frmSysDatabaseRestore
 			// 
@@ -205,9 +205,9 @@ namespace Xtreme
 			this.Controls.Add(this.Label1);
 			this.Controls.Add(this.cmdCancel);
 			this.Controls.Add(this.cmdOK);
-			this.Controls.Add(this.Dir1);
-			this.Controls.Add(this.File1);
-			this.Controls.Add(this.Drive1);
+			//this.Controls.Add(this.Dir1);
+			//this.Controls.Add(this.File1);
+			//this.Controls.Add(this.Drive1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysDatabaseRestore.Icon");
 			this.Location = new System.Drawing.Point(164, 130);

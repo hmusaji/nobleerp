@@ -98,7 +98,7 @@ namespace Xtreme
 		private System.Windows.Forms.TextBox _txtCommon_15;
 		private System.Windows.Forms.GroupBox _fraCommon_1;
 		public System.Windows.Forms.ColorDialog dlgColorColor;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog dlgColor;
+		public AxCommonDialog dlgColor;
 		private System.Windows.Forms.CheckBox _chkCommon_92;
 		private System.Windows.Forms.Label _txtCommonLabel_6;
 		private System.Windows.Forms.Label _lblCommon_40;
@@ -423,7 +423,7 @@ namespace Xtreme
 			this._txtCommon_15 = new System.Windows.Forms.TextBox();
 			this._fraCommon_10 = new System.Windows.Forms.GroupBox();
 			this.dlgColorColor = new System.Windows.Forms.ColorDialog();
-			this.dlgColor = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.dlgColor = new AxCommonDialog();
 			this._fraCommon_3 = new System.Windows.Forms.GroupBox();
 			this._chkCommon_92 = new System.Windows.Forms.CheckBox();
 			this._txtCommonLabel_6 = new System.Windows.Forms.Label();
@@ -710,7 +710,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_23
 			// 
-			this._fraCommon_23.AllowDrop = true;
+			//this._fraCommon_23.AllowDrop = true;
 			this._fraCommon_23.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._fraCommon_23.Controls.Add(this.UCOkCancel1);
 			this._fraCommon_23.Controls.Add(this.grdVoucherParentDetails);
@@ -727,19 +727,19 @@ namespace Xtreme
 			// 
 			// UCOkCancel1
 			// 
-			this.UCOkCancel1.AllowDrop = true;
+			//this.UCOkCancel1.AllowDrop = true;
 			this.UCOkCancel1.DisplayButton = 0;
 			this.UCOkCancel1.Location = new System.Drawing.Point(122, 120);
 			this.UCOkCancel1.Name = "UCOkCancel1";
 			this.UCOkCancel1.OkCaption = "&Ok";
 			this.UCOkCancel1.Size = new System.Drawing.Size(205, 29);
 			this.UCOkCancel1.TabIndex = 216;
-			this.UCOkCancel1.CancelClick += new UCOkCancel.CancelClickHandler(this.UCOkCancel1_CancelClick);
-			this.UCOkCancel1.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
+			////this.UCOkCancel1.CancelClick += new UCOkCancel.CancelClickHandler(this.UCOkCancel1_CancelClick);
+			////this.UCOkCancel1.OKClick += new UCOkCancel.OKClickHandler(this.UCOkCancel1_OKClick);
 			// 
 			// grdVoucherParentDetails
 			// 
-			this.grdVoucherParentDetails.AllowDrop = true;
+			//this.grdVoucherParentDetails.AllowDrop = true;
 			this.grdVoucherParentDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherParentDetails.CellTipsWidth = 0;
 			this.grdVoucherParentDetails.Location = new System.Drawing.Point(2, 2);
@@ -748,8 +748,8 @@ namespace Xtreme
 			this.grdVoucherParentDetails.Size = new System.Drawing.Size(327, 115);
 			this.grdVoucherParentDetails.TabIndex = 217;
 			this.grdVoucherParentDetails.Columns.Add(this.Column_0_grdVoucherParentDetails);
-			this.grdVoucherParentDetails.GotFocus += new System.EventHandler(this.grdVoucherParentDetails_GotFocus);
-			this.grdVoucherParentDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherParentDetails_RowColChange);
+			////this.grdVoucherParentDetails.GotFocus += new System.EventHandler(this.grdVoucherParentDetails_GotFocus);
+			////this.grdVoucherParentDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherParentDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherParentDetails
 			// 
@@ -758,7 +758,7 @@ namespace Xtreme
 			// 
 			// cmbParentsList
 			// 
-			this.cmbParentsList.AllowDrop = true;
+			//this.cmbParentsList.AllowDrop = true;
 			this.cmbParentsList.ColumnHeaders = true;
 			this.cmbParentsList.Enabled = true;
 			this.cmbParentsList.Location = new System.Drawing.Point(20, 6);
@@ -781,7 +781,7 @@ namespace Xtreme
 			// tabVoucherDetails
 			// 
 			//this.tabVoucherDetails.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabVoucherDetails.AllowDrop = true;
+			//this.tabVoucherDetails.AllowDrop = true;
 			this.tabVoucherDetails.Controls.Add(this._fraCommon_1);
 			this.tabVoucherDetails.Controls.Add(this._fraCommon_10);
 			this.tabVoucherDetails.Controls.Add(this._fraCommon_9);
@@ -799,7 +799,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_1
 			// 
-			this._fraCommon_1.AllowDrop = true;
+			//this._fraCommon_1.AllowDrop = true;
 			this._fraCommon_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_1.Controls.Add(this.cmdParentDetails);
 			this._fraCommon_1.Controls.Add(this._optCommonAffectType_11);
@@ -830,7 +830,7 @@ namespace Xtreme
 			// 
 			// cmdParentDetails
 			// 
-			this.cmdParentDetails.AllowDrop = true;
+			//this.cmdParentDetails.AllowDrop = true;
 			this.cmdParentDetails.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdParentDetails.CausesValidation = false;
 			this.cmdParentDetails.Enabled = false;
@@ -847,7 +847,7 @@ namespace Xtreme
 			// 
 			// _optCommonAffectType_11
 			// 
-			this._optCommonAffectType_11.AllowDrop = true;
+			//this._optCommonAffectType_11.AllowDrop = true;
 			this._optCommonAffectType_11.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_11.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_11.CausesValidation = true;
@@ -864,11 +864,11 @@ namespace Xtreme
 			this._optCommonAffectType_11.Text = "None";
 			this._optCommonAffectType_11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_11.Visible = true;
-			this._optCommonAffectType_11.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			////this._optCommonAffectType_11.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_10
 			// 
-			this._optCommonAffectType_10.AllowDrop = true;
+			//this._optCommonAffectType_10.AllowDrop = true;
 			this._optCommonAffectType_10.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_10.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_10.CausesValidation = true;
@@ -885,11 +885,11 @@ namespace Xtreme
 			this._optCommonAffectType_10.Text = "Show import Linked Voucher on Header";
 			this._optCommonAffectType_10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_10.Visible = true;
-			this._optCommonAffectType_10.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_10.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_9
 			// 
-			this._optCommonAffectType_9.AllowDrop = true;
+			//this._optCommonAffectType_9.AllowDrop = true;
 			this._optCommonAffectType_9.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_9.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_9.CausesValidation = true;
@@ -906,11 +906,11 @@ namespace Xtreme
 			this._optCommonAffectType_9.Text = "Show import Linked Voucher on Detail";
 			this._optCommonAffectType_9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_9.Visible = true;
-			this._optCommonAffectType_9.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_9.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _fraCommon_22
 			// 
-			this._fraCommon_22.AllowDrop = true;
+			//this._fraCommon_22.AllowDrop = true;
 			this._fraCommon_22.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_22.Controls.Add(this._chkCommon_75);
 			this._fraCommon_22.Controls.Add(this._chkCommon_121);
@@ -934,7 +934,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_75
 			// 
-			this._chkCommon_75.AllowDrop = true;
+			//this._chkCommon_75.AllowDrop = true;
 			this._chkCommon_75.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_75.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_75.CausesValidation = true;
@@ -951,11 +951,11 @@ namespace Xtreme
 			this._chkCommon_75.Text = "Preserve Grid Value During Import";
 			this._chkCommon_75.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_75.Visible = true;
-			this._chkCommon_75.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_75.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_121
 			// 
-			this._chkCommon_121.AllowDrop = true;
+			//this._chkCommon_121.AllowDrop = true;
 			this._chkCommon_121.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_121.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_121.CausesValidation = true;
@@ -972,11 +972,11 @@ namespace Xtreme
 			this._chkCommon_121.Text = "Import Non Inventory from Parent Voucher";
 			this._chkCommon_121.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_121.Visible = true;
-			this._chkCommon_121.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_121.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_135
 			// 
-			this._chkCommon_135.AllowDrop = true;
+			//this._chkCommon_135.AllowDrop = true;
 			this._chkCommon_135.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_135.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_135.CausesValidation = true;
@@ -993,11 +993,11 @@ namespace Xtreme
 			this._chkCommon_135.Text = "Overwrite Price";
 			this._chkCommon_135.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_135.Visible = true;
-			this._chkCommon_135.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_135.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_134
 			// 
-			this._chkCommon_134.AllowDrop = true;
+			//this._chkCommon_134.AllowDrop = true;
 			this._chkCommon_134.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_134.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_134.CausesValidation = true;
@@ -1014,11 +1014,11 @@ namespace Xtreme
 			this._chkCommon_134.Text = "Import Cash Credit Information";
 			this._chkCommon_134.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_134.Visible = true;
-			this._chkCommon_134.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_134.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_117
 			// 
-			this._chkCommon_117.AllowDrop = true;
+			//this._chkCommon_117.AllowDrop = true;
 			this._chkCommon_117.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_117.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_117.CausesValidation = true;
@@ -1035,11 +1035,11 @@ namespace Xtreme
 			this._chkCommon_117.Text = "Enable Discount When Linked";
 			this._chkCommon_117.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_117.Visible = true;
-			this._chkCommon_117.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_117.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_118
 			// 
-			this._chkCommon_118.AllowDrop = true;
+			//this._chkCommon_118.AllowDrop = true;
 			this._chkCommon_118.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_118.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_118.CausesValidation = true;
@@ -1056,11 +1056,11 @@ namespace Xtreme
 			this._chkCommon_118.Text = "Enable Amount When Linked";
 			this._chkCommon_118.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_118.Visible = true;
-			this._chkCommon_118.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//////this._chkCommon_118.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_119
 			// 
-			this._chkCommon_119.AllowDrop = true;
+			//this._chkCommon_119.AllowDrop = true;
 			this._chkCommon_119.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_119.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_119.CausesValidation = true;
@@ -1077,11 +1077,11 @@ namespace Xtreme
 			this._chkCommon_119.Text = "Enable Cash/Credit When Linked";
 			this._chkCommon_119.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_119.Visible = true;
-			this._chkCommon_119.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_119.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_116
 			// 
-			this._chkCommon_116.AllowDrop = true;
+			//this._chkCommon_116.AllowDrop = true;
 			this._chkCommon_116.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_116.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_116.CausesValidation = true;
@@ -1098,11 +1098,11 @@ namespace Xtreme
 			this._chkCommon_116.Text = "Enable Rate When Linked";
 			this._chkCommon_116.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_116.Visible = true;
-			this._chkCommon_116.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_116.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_120
 			// 
-			this._chkCommon_120.AllowDrop = true;
+			//this._chkCommon_120.AllowDrop = true;
 			this._chkCommon_120.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_120.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_120.CausesValidation = true;
@@ -1119,11 +1119,11 @@ namespace Xtreme
 			this._chkCommon_120.Text = "Enable Percent Discount When Linked";
 			this._chkCommon_120.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_120.Visible = true;
-			this._chkCommon_120.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			////this._chkCommon_120.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_77
 			// 
-			this._chkCommon_77.AllowDrop = true;
+			//this._chkCommon_77.AllowDrop = true;
 			this._chkCommon_77.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_77.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_77.CausesValidation = true;
@@ -1140,11 +1140,11 @@ namespace Xtreme
 			this._chkCommon_77.Text = "Allow Excess Quantity When Linked";
 			this._chkCommon_77.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_77.Visible = true;
-			this._chkCommon_77.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_77.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_21
 			// 
-			this._fraCommon_21.AllowDrop = true;
+			//this._fraCommon_21.AllowDrop = true;
 			this._fraCommon_21.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_21.Controls.Add(this._chkCommon_82);
 			this._fraCommon_21.Controls.Add(this._chkCommon_80);
@@ -1161,7 +1161,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_82
 			// 
-			this._chkCommon_82.AllowDrop = true;
+			//this._chkCommon_82.AllowDrop = true;
 			this._chkCommon_82.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_82.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_82.CausesValidation = true;
@@ -1178,11 +1178,11 @@ namespace Xtreme
 			this._chkCommon_82.Text = "Allow Direct Transaction";
 			this._chkCommon_82.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_82.Visible = false;
-			this._chkCommon_82.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_82.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_80
 			// 
-			this._chkCommon_80.AllowDrop = true;
+			//this._chkCommon_80.AllowDrop = true;
 			this._chkCommon_80.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_80.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_80.CausesValidation = true;
@@ -1199,11 +1199,11 @@ namespace Xtreme
 			this._chkCommon_80.Text = "Bind To Parent Header Location";
 			this._chkCommon_80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_80.Visible = true;
-			this._chkCommon_80.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_80.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_78
 			// 
-			this._chkCommon_78.AllowDrop = true;
+			//this._chkCommon_78.AllowDrop = true;
 			this._chkCommon_78.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_78.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_78.CausesValidation = true;
@@ -1220,11 +1220,11 @@ namespace Xtreme
 			this._chkCommon_78.Text = "Bind To Parent";
 			this._chkCommon_78.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_78.Visible = true;
-			this._chkCommon_78.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_78.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_81
 			// 
-			this._chkCommon_81.AllowDrop = true;
+			//this._chkCommon_81.AllowDrop = true;
 			this._chkCommon_81.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_81.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_81.CausesValidation = true;
@@ -1241,11 +1241,11 @@ namespace Xtreme
 			this._chkCommon_81.Text = "Enable Auto Generate Linked Voucher for Cash Transaction";
 			this._chkCommon_81.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_81.Visible = true;
-			this._chkCommon_81.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_81.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_79
 			// 
-			this._chkCommon_79.AllowDrop = true;
+			//this._chkCommon_79.AllowDrop = true;
 			this._chkCommon_79.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_79.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_79.CausesValidation = true;
@@ -1262,11 +1262,11 @@ namespace Xtreme
 			this._chkCommon_79.Text = "Auto Generate Linked Voucher All Location";
 			this._chkCommon_79.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_79.Visible = true;
-			this._chkCommon_79.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_79.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_76
 			// 
-			this._chkCommon_76.AllowDrop = true;
+			//this._chkCommon_76.AllowDrop = true;
 			this._chkCommon_76.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_76.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_76.CausesValidation = true;
@@ -1283,11 +1283,11 @@ namespace Xtreme
 			this._chkCommon_76.Text = "Auto Post Stock Generate Linked Voucher Type";
 			this._chkCommon_76.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_76.Visible = true;
-			this._chkCommon_76.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_76.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_74
 			// 
-			this._chkCommon_74.AllowDrop = true;
+			//this._chkCommon_74.AllowDrop = true;
 			this._chkCommon_74.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_74.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_74.CausesValidation = true;
@@ -1304,11 +1304,11 @@ namespace Xtreme
 			this._chkCommon_74.Text = "Auto Generate Linked Voucher";
 			this._chkCommon_74.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_74.Visible = true;
-			this._chkCommon_74.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_74.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_18
 			// 
-			this._fraCommon_18.AllowDrop = true;
+			//this._fraCommon_18.AllowDrop = true;
 			this._fraCommon_18.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_18.Controls.Add(this._lblCommon_18);
 			this._fraCommon_18.Controls.Add(this._lblCommon_19);
@@ -1336,7 +1336,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_18
 			// 
-			this._lblCommon_18.AllowDrop = true;
+			//this._lblCommon_18.AllowDrop = true;
 			this._lblCommon_18.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_18.Text = "ICS Master Table Name";
 			this._lblCommon_18.ForeColor = System.Drawing.Color.Black;
@@ -1347,7 +1347,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_19
 			// 
-			this._lblCommon_19.AllowDrop = true;
+			//this._lblCommon_19.AllowDrop = true;
 			this._lblCommon_19.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_19.Text = "ICS Details Table Name";
 			this._lblCommon_19.ForeColor = System.Drawing.Color.Black;
@@ -1358,7 +1358,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_20
 			// 
-			this._lblCommon_20.AllowDrop = true;
+			//this._lblCommon_20.AllowDrop = true;
 			this._lblCommon_20.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_20.Text = "ICS Parent Masters Table Name";
 			this._lblCommon_20.ForeColor = System.Drawing.Color.Black;
@@ -1369,7 +1369,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_21
 			// 
-			this._lblCommon_21.AllowDrop = true;
+			//this._lblCommon_21.AllowDrop = true;
 			this._lblCommon_21.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_21.Text = "ICS Parent Details Table Name";
 			this._lblCommon_21.ForeColor = System.Drawing.Color.Black;
@@ -1380,7 +1380,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_22
 			// 
-			this._lblCommon_22.AllowDrop = true;
+			//this._lblCommon_22.AllowDrop = true;
 			this._lblCommon_22.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_22.Text = "Parent ICS Voucher Type Code";
 			this._lblCommon_22.ForeColor = System.Drawing.Color.Black;
@@ -1391,7 +1391,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_23
 			// 
-			this._lblCommon_23.AllowDrop = true;
+			//this._lblCommon_23.AllowDrop = true;
 			this._lblCommon_23.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_23.Text = "Child ICS Voucher Type Code";
 			this._lblCommon_23.ForeColor = System.Drawing.Color.Black;
@@ -1402,7 +1402,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_32
 			// 
-			this._txtCommon_32.AllowDrop = true;
+			//this._txtCommon_32.AllowDrop = true;
 			this._txtCommon_32.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_32.bolNumericOnly = true;
 			this._txtCommon_32.ForeColor = System.Drawing.Color.Black;
@@ -1418,7 +1418,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_31
 			// 
-			this._txtCommon_31.AllowDrop = true;
+			//this._txtCommon_31.AllowDrop = true;
 			this._txtCommon_31.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_31.bolNumericOnly = true;
 			this._txtCommon_31.ForeColor = System.Drawing.Color.Black;
@@ -1434,7 +1434,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_11
 			// 
-			this._txtCommonLabel_11.AllowDrop = true;
+			//this._txtCommonLabel_11.AllowDrop = true;
 			this._txtCommonLabel_11.Location = new System.Drawing.Point(218, 100);
 			this._txtCommonLabel_11.Name = "_txtCommonLabel_11";
 			this._txtCommonLabel_11.Size = new System.Drawing.Size(109, 19);
@@ -1442,7 +1442,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_12
 			// 
-			this._txtCommonLabel_12.AllowDrop = true;
+			//this._txtCommonLabel_12.AllowDrop = true;
 			this._txtCommonLabel_12.Location = new System.Drawing.Point(218, 121);
 			this._txtCommonLabel_12.Name = "_txtCommonLabel_12";
 			this._txtCommonLabel_12.Size = new System.Drawing.Size(109, 19);
@@ -1450,7 +1450,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_28
 			// 
-			this._txtCommon_28.AllowDrop = true;
+			//this._txtCommon_28.AllowDrop = true;
 			this._txtCommon_28.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this._txtCommon_28.Enabled = false;
@@ -1467,7 +1467,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_29
 			// 
-			this._txtCommon_29.AllowDrop = true;
+			//this._txtCommon_29.AllowDrop = true;
 			this._txtCommon_29.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this._txtCommon_29.Enabled = false;
@@ -1484,7 +1484,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_30
 			// 
-			this._txtCommon_30.AllowDrop = true;
+			//this._txtCommon_30.AllowDrop = true;
 			this._txtCommon_30.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_30.ForeColor = System.Drawing.Color.Black;
@@ -1500,7 +1500,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_33
 			// 
-			this._txtCommon_33.AllowDrop = true;
+			//this._txtCommon_33.AllowDrop = true;
 			this._txtCommon_33.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_33.ForeColor = System.Drawing.Color.Black;
@@ -1516,7 +1516,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_43
 			// 
-			this._lblCommon_43.AllowDrop = true;
+			//this._lblCommon_43.AllowDrop = true;
 			this._lblCommon_43.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_43.Text = "Dented Stock Generated Linked Voucher";
 			this._lblCommon_43.ForeColor = System.Drawing.Color.Black;
@@ -1527,7 +1527,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_29
 			// 
-			this._txtCommonLabel_29.AllowDrop = true;
+			//this._txtCommonLabel_29.AllowDrop = true;
 			this._txtCommonLabel_29.Location = new System.Drawing.Point(261, 293);
 			this._txtCommonLabel_29.Name = "_txtCommonLabel_29";
 			this._txtCommonLabel_29.Size = new System.Drawing.Size(109, 19);
@@ -1535,7 +1535,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_34
 			// 
-			this._lblCommon_34.AllowDrop = true;
+			//this._lblCommon_34.AllowDrop = true;
 			this._lblCommon_34.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_34.Text = "Linked Assembly Group Adjust Voucher";
 			this._lblCommon_34.ForeColor = System.Drawing.Color.Black;
@@ -1546,7 +1546,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_0
 			// 
-			this._txtCommonLabel_0.AllowDrop = true;
+			//this._txtCommonLabel_0.AllowDrop = true;
 			this._txtCommonLabel_0.Location = new System.Drawing.Point(261, 274);
 			this._txtCommonLabel_0.Name = "_txtCommonLabel_0";
 			this._txtCommonLabel_0.Size = new System.Drawing.Size(109, 19);
@@ -1554,7 +1554,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_17
 			// 
-			this._txtCommon_17.AllowDrop = true;
+			//this._txtCommon_17.AllowDrop = true;
 			this._txtCommon_17.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_17.bolNumericOnly = true;
 			this._txtCommon_17.ForeColor = System.Drawing.Color.Black;
@@ -1570,7 +1570,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_15
 			// 
-			this._txtCommon_15.AllowDrop = true;
+			//this._txtCommon_15.AllowDrop = true;
 			this._txtCommon_15.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_15.bolNumericOnly = true;
 			this._txtCommon_15.ForeColor = System.Drawing.Color.Black;
@@ -1586,7 +1586,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_10
 			// 
-			this._fraCommon_10.AllowDrop = true;
+			//this._fraCommon_10.AllowDrop = true;
 			this._fraCommon_10.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_10.Controls.Add(this._fraCommon_3);
 			this._fraCommon_10.Controls.Add(this._lblCommon_33);
@@ -1624,7 +1624,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_3
 			// 
-			this._fraCommon_3.AllowDrop = true;
+			//this._fraCommon_3.AllowDrop = true;
 			this._fraCommon_3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_3.Controls.Add(this._chkCommon_92);
 			this._fraCommon_3.Controls.Add(this._txtCommonLabel_6);
@@ -1642,7 +1642,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_92
 			// 
-			this._chkCommon_92.AllowDrop = true;
+			//this._chkCommon_92.AllowDrop = true;
 			this._chkCommon_92.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_92.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_92.CausesValidation = true;
@@ -1659,11 +1659,11 @@ namespace Xtreme
 			this._chkCommon_92.Text = "Enable Revision";
 			this._chkCommon_92.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_92.Visible = true;
-			this._chkCommon_92.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_92.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _txtCommonLabel_6
 			// 
-			this._txtCommonLabel_6.AllowDrop = true;
+			//this._txtCommonLabel_6.AllowDrop = true;
 			this._txtCommonLabel_6.Enabled = false;
 			this._txtCommonLabel_6.Location = new System.Drawing.Point(274, 38);
 			this._txtCommonLabel_6.Name = "_txtCommonLabel_6";
@@ -1672,7 +1672,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_40
 			// 
-			this._lblCommon_40.AllowDrop = true;
+			//this._lblCommon_40.AllowDrop = true;
 			this._lblCommon_40.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_40.Text = "Revised History Voucher Type";
 			this._lblCommon_40.ForeColor = System.Drawing.Color.Black;
@@ -1683,7 +1683,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_16
 			// 
-			this._txtCommon_16.AllowDrop = true;
+			//this._txtCommon_16.AllowDrop = true;
 			this._txtCommon_16.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this._txtCommon_16.Enabled = false;
@@ -1702,7 +1702,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_33
 			// 
-			this._lblCommon_33.AllowDrop = true;
+			//this._lblCommon_33.AllowDrop = true;
 			this._lblCommon_33.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_33.Text = "Reference Number Generation Method";
 			this._lblCommon_33.ForeColor = System.Drawing.Color.Black;
@@ -1713,7 +1713,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_2
 			// 
-			this._cmbCommon_2.AllowDrop = true;
+			//this._cmbCommon_2.AllowDrop = true;
 			this._cmbCommon_2.Location = new System.Drawing.Point(216, 82);
 			this._cmbCommon_2.Name = "_cmbCommon_2";
 			this._cmbCommon_2.Size = new System.Drawing.Size(129, 21);
@@ -1721,7 +1721,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_38
 			// 
-			this._lblCommon_38.AllowDrop = true;
+			//this._lblCommon_38.AllowDrop = true;
 			this._lblCommon_38.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_38.Text = "Additional Cash Find Where Clause";
 			this._lblCommon_38.ForeColor = System.Drawing.Color.Black;
@@ -1732,7 +1732,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_39
 			// 
-			this._lblCommon_39.AllowDrop = true;
+			//this._lblCommon_39.AllowDrop = true;
 			this._lblCommon_39.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_39.Text = "Voucher Grid Back Color";
 			this._lblCommon_39.ForeColor = System.Drawing.Color.Black;
@@ -1743,7 +1743,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_41
 			// 
-			this._lblCommon_41.AllowDrop = true;
+			//this._lblCommon_41.AllowDrop = true;
 			this._lblCommon_41.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_41.Text = "Party Name Caption";
 			this._lblCommon_41.ForeColor = System.Drawing.Color.Black;
@@ -1754,7 +1754,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_42
 			// 
-			this._lblCommon_42.AllowDrop = true;
+			//this._lblCommon_42.AllowDrop = true;
 			this._lblCommon_42.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_42.Text = "Party Name Caption (Arabic)";
 			this._lblCommon_42.ForeColor = System.Drawing.Color.Black;
@@ -1765,7 +1765,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_37
 			// 
-			this._lblCommon_37.AllowDrop = true;
+			//this._lblCommon_37.AllowDrop = true;
 			this._lblCommon_37.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_37.Text = "Additional Ledger Find Where Clause";
 			this._lblCommon_37.ForeColor = System.Drawing.Color.Black;
@@ -1776,12 +1776,12 @@ namespace Xtreme
 			// 
 			// _txtCommon_23
 			// 
-			this._txtCommon_23.AllowDrop = true;
+			//this._txtCommon_23.AllowDrop = true;
 			this._txtCommon_23.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_23.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_23.Location = new System.Drawing.Point(216, 127);
-			this._txtCommon_23.Locked = true;
+			//this._txtCommon_23.Locked = true;
 			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtCommon_23.Name = "_txtCommon_23";
 			this._txtCommon_23.Size = new System.Drawing.Size(191, 19);
@@ -1793,12 +1793,12 @@ namespace Xtreme
 			// 
 			// _txtCommon_24
 			// 
-			this._txtCommon_24.AllowDrop = true;
+			//this._txtCommon_24.AllowDrop = true;
 			this._txtCommon_24.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_24.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_24.Location = new System.Drawing.Point(216, 148);
-			this._txtCommon_24.Locked = true;
+			//this._txtCommon_24.Locked = true;
 			// // = (System.Windows.Forms.TextBox.DropDownTypes) 0;
 			this._txtCommon_24.Name = "_txtCommon_24";
 			// this._txtCommon_24.ShowButton = true;
@@ -1811,7 +1811,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_25
 			// 
-			this._txtCommon_25.AllowDrop = true;
+			//this._txtCommon_25.AllowDrop = true;
 			this._txtCommon_25.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_25.ForeColor = System.Drawing.Color.Black;
@@ -1827,7 +1827,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_26
 			// 
-			this._txtCommon_26.AllowDrop = true;
+			//this._txtCommon_26.AllowDrop = true;
 			this._txtCommon_26.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_26.ForeColor = System.Drawing.Color.Black;
@@ -1843,7 +1843,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_27
 			// 
-			this._txtCommon_27.AllowDrop = true;
+			//this._txtCommon_27.AllowDrop = true;
 			this._txtCommon_27.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_27.ForeColor = System.Drawing.Color.Black;
@@ -1859,7 +1859,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_0.Text = "Reference Number Caption";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -1870,7 +1870,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_34
 			// 
-			this._txtCommon_34.AllowDrop = true;
+			//this._txtCommon_34.AllowDrop = true;
 			this._txtCommon_34.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_34.ForeColor = System.Drawing.Color.Black;
@@ -1886,7 +1886,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_35
 			// 
-			this._txtCommon_35.AllowDrop = true;
+			//this._txtCommon_35.AllowDrop = true;
 			this._txtCommon_35.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommon_35.Enabled = false;
 			this._txtCommon_35.ForeColor = System.Drawing.Color.Black;
@@ -1904,7 +1904,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_13
 			// 
-			this._lblCommon_13.AllowDrop = true;
+			//this._lblCommon_13.AllowDrop = true;
 			this._lblCommon_13.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_13.Text = "Form Height Size";
 			this._lblCommon_13.ForeColor = System.Drawing.Color.Black;
@@ -1915,7 +1915,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_11
 			// 
-			this._txtCommon_11.AllowDrop = true;
+			//this._txtCommon_11.AllowDrop = true;
 			this._txtCommon_11.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_11.ForeColor = System.Drawing.Color.Black;
@@ -1931,7 +1931,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_16
 			// 
-			this._lblCommon_16.AllowDrop = true;
+			//this._lblCommon_16.AllowDrop = true;
 			this._lblCommon_16.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_16.Text = "Grid Row Height Size";
 			this._lblCommon_16.ForeColor = System.Drawing.Color.Black;
@@ -1942,7 +1942,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_14
 			// 
-			this._txtCommon_14.AllowDrop = true;
+			//this._txtCommon_14.AllowDrop = true;
 			this._txtCommon_14.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_14.ForeColor = System.Drawing.Color.Black;
@@ -1958,7 +1958,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_31
 			// 
-			this._lblCommon_31.AllowDrop = true;
+			//this._lblCommon_31.AllowDrop = true;
 			this._lblCommon_31.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_31.Text = "Expenses Ldgr Find Where Clause";
 			this._lblCommon_31.ForeColor = System.Drawing.Color.Black;
@@ -1969,7 +1969,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_36
 			// 
-			this._txtCommon_36.AllowDrop = true;
+			//this._txtCommon_36.AllowDrop = true;
 			this._txtCommon_36.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_36.ForeColor = System.Drawing.Color.Black;
@@ -1985,7 +1985,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_45
 			// 
-			this._lblCommon_45.AllowDrop = true;
+			//this._lblCommon_45.AllowDrop = true;
 			this._lblCommon_45.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_45.Text = "Product List Where Clause";
 			this._lblCommon_45.ForeColor = System.Drawing.Color.Black;
@@ -1996,7 +1996,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_37
 			// 
-			this._txtCommon_37.AllowDrop = true;
+			//this._txtCommon_37.AllowDrop = true;
 			this._txtCommon_37.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_37.ForeColor = System.Drawing.Color.Black;
@@ -2012,7 +2012,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_9
 			// 
-			this._fraCommon_9.AllowDrop = true;
+			//this._fraCommon_9.AllowDrop = true;
 			this._fraCommon_9.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_9.Controls.Add(this._fraCommon_20);
 			this._fraCommon_9.Enabled = true;
@@ -2027,7 +2027,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_20
 			// 
-			this._fraCommon_20.AllowDrop = true;
+			//this._fraCommon_20.AllowDrop = true;
 			this._fraCommon_20.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_20.Controls.Add(this._chkCommon_73);
 			this._fraCommon_20.Controls.Add(this._chkCommon_108);
@@ -2051,7 +2051,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_73
 			// 
-			this._chkCommon_73.AllowDrop = true;
+			//this._chkCommon_73.AllowDrop = true;
 			this._chkCommon_73.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_73.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_73.CausesValidation = true;
@@ -2068,11 +2068,11 @@ namespace Xtreme
 			this._chkCommon_73.Text = "Last Transaction Cash Type";
 			this._chkCommon_73.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_73.Visible = true;
-			this._chkCommon_73.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_73.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_108
 			// 
-			this._chkCommon_108.AllowDrop = true;
+			//this._chkCommon_108.AllowDrop = true;
 			this._chkCommon_108.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_108.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_108.CausesValidation = true;
@@ -2089,11 +2089,11 @@ namespace Xtreme
 			this._chkCommon_108.Text = "Restore Last Transaction Settings";
 			this._chkCommon_108.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_108.Visible = true;
-			this._chkCommon_108.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_108.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _txtCommonLabel_17
 			// 
-			this._txtCommonLabel_17.AllowDrop = true;
+			//this._txtCommonLabel_17.AllowDrop = true;
 			this._txtCommonLabel_17.Enabled = false;
 			this._txtCommonLabel_17.Location = new System.Drawing.Point(184, 64);
 			this._txtCommonLabel_17.Name = "_txtCommonLabel_17";
@@ -2102,7 +2102,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_19
 			// 
-			this._txtCommonLabel_19.AllowDrop = true;
+			//this._txtCommonLabel_19.AllowDrop = true;
 			this._txtCommonLabel_19.Enabled = false;
 			this._txtCommonLabel_19.Location = new System.Drawing.Point(184, 138);
 			this._txtCommonLabel_19.Name = "_txtCommonLabel_19";
@@ -2111,7 +2111,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_20
 			// 
-			this._txtCommonLabel_20.AllowDrop = true;
+			//this._txtCommonLabel_20.AllowDrop = true;
 			this._txtCommonLabel_20.Enabled = false;
 			this._txtCommonLabel_20.Location = new System.Drawing.Point(184, 113);
 			this._txtCommonLabel_20.Name = "_txtCommonLabel_20";
@@ -2120,7 +2120,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_22
 			// 
-			this._txtCommonLabel_22.AllowDrop = true;
+			//this._txtCommonLabel_22.AllowDrop = true;
 			this._txtCommonLabel_22.Enabled = false;
 			this._txtCommonLabel_22.Location = new System.Drawing.Point(184, 88);
 			this._txtCommonLabel_22.Name = "_txtCommonLabel_22";
@@ -2129,7 +2129,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_28
 			// 
-			this._lblCommon_28.AllowDrop = true;
+			//this._lblCommon_28.AllowDrop = true;
 			this._lblCommon_28.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_28.Text = "Last Transaction Party Code.";
 			this._lblCommon_28.ForeColor = System.Drawing.Color.Black;
@@ -2140,7 +2140,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_29
 			// 
-			this._lblCommon_29.AllowDrop = true;
+			//this._lblCommon_29.AllowDrop = true;
 			this._lblCommon_29.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_29.Text = "Last Transaction Salesman No.";
 			this._lblCommon_29.ForeColor = System.Drawing.Color.Black;
@@ -2151,7 +2151,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_30
 			// 
-			this._lblCommon_30.AllowDrop = true;
+			//this._lblCommon_30.AllowDrop = true;
 			this._lblCommon_30.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_30.Text = "Last Transaction Location No.";
 			this._lblCommon_30.ForeColor = System.Drawing.Color.Black;
@@ -2162,7 +2162,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_36
 			// 
-			this._lblCommon_36.AllowDrop = true;
+			//this._lblCommon_36.AllowDrop = true;
 			this._lblCommon_36.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_36.Text = "Last Transaction Ledger No.";
 			this._lblCommon_36.ForeColor = System.Drawing.Color.Black;
@@ -2173,7 +2173,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_8
 			// 
-			this._fraCommon_8.AllowDrop = true;
+			//this._fraCommon_8.AllowDrop = true;
 			this._fraCommon_8.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_8.Controls.Add(this._fraCommon_17);
 			this._fraCommon_8.Enabled = true;
@@ -2188,7 +2188,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_17
 			// 
-			this._fraCommon_17.AllowDrop = true;
+			//this._fraCommon_17.AllowDrop = true;
 			this._fraCommon_17.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_17.Controls.Add(this._chkCommon_137);
 			this._fraCommon_17.Controls.Add(this._chkCommon_130);
@@ -2234,7 +2234,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_137
 			// 
-			this._chkCommon_137.AllowDrop = true;
+			//this._chkCommon_137.AllowDrop = true;
 			this._chkCommon_137.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_137.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_137.CausesValidation = true;
@@ -2251,11 +2251,11 @@ namespace Xtreme
 			this._chkCommon_137.Text = "Set Focus To Qty After Name Entered";
 			this._chkCommon_137.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_137.Visible = true;
-			this._chkCommon_137.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_137.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_130
 			// 
-			this._chkCommon_130.AllowDrop = true;
+			//this._chkCommon_130.AllowDrop = true;
 			this._chkCommon_130.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_130.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_130.CausesValidation = true;
@@ -2272,11 +2272,11 @@ namespace Xtreme
 			this._chkCommon_130.Text = "Show Message Maximum Level";
 			this._chkCommon_130.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_130.Visible = true;
-			this._chkCommon_130.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_130.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_129
 			// 
-			this._chkCommon_129.AllowDrop = true;
+			//this._chkCommon_129.AllowDrop = true;
 			this._chkCommon_129.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_129.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_129.CausesValidation = true;
@@ -2293,11 +2293,11 @@ namespace Xtreme
 			this._chkCommon_129.Text = "Show Message Minimum Level";
 			this._chkCommon_129.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_129.Visible = true;
-			this._chkCommon_129.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_129.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_128
 			// 
-			this._chkCommon_128.AllowDrop = true;
+			//this._chkCommon_128.AllowDrop = true;
 			this._chkCommon_128.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_128.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_128.CausesValidation = true;
@@ -2314,11 +2314,11 @@ namespace Xtreme
 			this._chkCommon_128.Text = "Show Message Below Reorder";
 			this._chkCommon_128.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_128.Visible = true;
-			this._chkCommon_128.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_128.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_125
 			// 
-			this._chkCommon_125.AllowDrop = true;
+			//this._chkCommon_125.AllowDrop = true;
 			this._chkCommon_125.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_125.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_125.CausesValidation = true;
@@ -2335,11 +2335,11 @@ namespace Xtreme
 			this._chkCommon_125.Text = "Allow Zero Amount Transaction";
 			this._chkCommon_125.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_125.Visible = true;
-			this._chkCommon_125.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_125.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_35
 			// 
-			this._chkCommon_35.AllowDrop = true;
+			//this._chkCommon_35.AllowDrop = true;
 			this._chkCommon_35.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_35.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_35.CausesValidation = true;
@@ -2356,11 +2356,11 @@ namespace Xtreme
 			this._chkCommon_35.Text = "Enable Auto Fill PreText  With Product Name";
 			this._chkCommon_35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_35.Visible = true;
-			this._chkCommon_35.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_35.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_110
 			// 
-			this._chkCommon_110.AllowDrop = true;
+			//this._chkCommon_110.AllowDrop = true;
 			this._chkCommon_110.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_110.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_110.CausesValidation = true;
@@ -2377,11 +2377,11 @@ namespace Xtreme
 			this._chkCommon_110.Text = "Show Default Location Salesman";
 			this._chkCommon_110.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_110.Visible = true;
-			this._chkCommon_110.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_110.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_109
 			// 
-			this._chkCommon_109.AllowDrop = true;
+			//this._chkCommon_109.AllowDrop = true;
 			this._chkCommon_109.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_109.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_109.CausesValidation = true;
@@ -2398,11 +2398,11 @@ namespace Xtreme
 			this._chkCommon_109.Text = "Show Location Specific Product";
 			this._chkCommon_109.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_109.Visible = true;
-			this._chkCommon_109.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_109.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_107
 			// 
-			this._chkCommon_107.AllowDrop = true;
+			//this._chkCommon_107.AllowDrop = true;
 			this._chkCommon_107.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_107.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_107.CausesValidation = true;
@@ -2419,11 +2419,11 @@ namespace Xtreme
 			this._chkCommon_107.Text = "Display Voucher Number After Save";
 			this._chkCommon_107.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_107.Visible = true;
-			this._chkCommon_107.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_107.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_106
 			// 
-			this._chkCommon_106.AllowDrop = true;
+			//this._chkCommon_106.AllowDrop = true;
 			this._chkCommon_106.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_106.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_106.CausesValidation = true;
@@ -2440,11 +2440,11 @@ namespace Xtreme
 			this._chkCommon_106.Text = "Show Amount Over Rate";
 			this._chkCommon_106.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_106.Visible = true;
-			this._chkCommon_106.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_106.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_105
 			// 
-			this._chkCommon_105.AllowDrop = true;
+			//this._chkCommon_105.AllowDrop = true;
 			this._chkCommon_105.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_105.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_105.CausesValidation = true;
@@ -2461,11 +2461,11 @@ namespace Xtreme
 			this._chkCommon_105.Text = "Set Focus to Newline after Quantity Entered";
 			this._chkCommon_105.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_105.Visible = true;
-			this._chkCommon_105.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_105.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_104
 			// 
-			this._chkCommon_104.AllowDrop = true;
+			//this._chkCommon_104.AllowDrop = true;
 			this._chkCommon_104.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_104.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_104.CausesValidation = true;
@@ -2482,11 +2482,11 @@ namespace Xtreme
 			this._chkCommon_104.Text = "Set Focus to Newline after Barcode Entered";
 			this._chkCommon_104.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_104.Visible = true;
-			this._chkCommon_104.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_104.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_101
 			// 
-			this._chkCommon_101.AllowDrop = true;
+			//this._chkCommon_101.AllowDrop = true;
 			this._chkCommon_101.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_101.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_101.CausesValidation = true;
@@ -2503,11 +2503,11 @@ namespace Xtreme
 			this._chkCommon_101.Text = "Allow to Add new Voucher";
 			this._chkCommon_101.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_101.Visible = true;
-			this._chkCommon_101.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_101.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_100
 			// 
-			this._chkCommon_100.AllowDrop = true;
+			//this._chkCommon_100.AllowDrop = true;
 			this._chkCommon_100.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_100.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_100.CausesValidation = true;
@@ -2524,11 +2524,11 @@ namespace Xtreme
 			this._chkCommon_100.Text = "Allow to Update Voucher";
 			this._chkCommon_100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_100.Visible = true;
-			this._chkCommon_100.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_100.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_99
 			// 
-			this._chkCommon_99.AllowDrop = true;
+			//this._chkCommon_99.AllowDrop = true;
 			this._chkCommon_99.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_99.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_99.CausesValidation = true;
@@ -2545,11 +2545,11 @@ namespace Xtreme
 			this._chkCommon_99.Text = "Allow to Add Serial No when not exists";
 			this._chkCommon_99.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_99.Visible = true;
-			this._chkCommon_99.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_99.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_98
 			// 
-			this._chkCommon_98.AllowDrop = true;
+			//this._chkCommon_98.AllowDrop = true;
 			this._chkCommon_98.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_98.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_98.CausesValidation = true;
@@ -2566,11 +2566,11 @@ namespace Xtreme
 			this._chkCommon_98.Text = "Allow Product Name Alteration";
 			this._chkCommon_98.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_98.Visible = true;
-			this._chkCommon_98.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_98.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_96
 			// 
-			this._chkCommon_96.AllowDrop = true;
+			//this._chkCommon_96.AllowDrop = true;
 			this._chkCommon_96.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_96.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_96.CausesValidation = true;
@@ -2587,11 +2587,11 @@ namespace Xtreme
 			this._chkCommon_96.Text = "Show Message When Negative Stock";
 			this._chkCommon_96.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_96.Visible = true;
-			this._chkCommon_96.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_96.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_91
 			// 
-			this._chkCommon_91.AllowDrop = true;
+			//this._chkCommon_91.AllowDrop = true;
 			this._chkCommon_91.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_91.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_91.CausesValidation = true;
@@ -2608,11 +2608,11 @@ namespace Xtreme
 			this._chkCommon_91.Text = "Enable ICS Voucher Type Final Payment Screen";
 			this._chkCommon_91.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_91.Visible = true;
-			this._chkCommon_91.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_91.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_90
 			// 
-			this._chkCommon_90.AllowDrop = true;
+			//this._chkCommon_90.AllowDrop = true;
 			this._chkCommon_90.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_90.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_90.CausesValidation = true;
@@ -2629,11 +2629,11 @@ namespace Xtreme
 			this._chkCommon_90.Text = "Import External Data";
 			this._chkCommon_90.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_90.Visible = true;
-			this._chkCommon_90.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_90.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_89
 			// 
-			this._chkCommon_89.AllowDrop = true;
+			//this._chkCommon_89.AllowDrop = true;
 			this._chkCommon_89.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_89.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_89.CausesValidation = true;
@@ -2650,11 +2650,11 @@ namespace Xtreme
 			this._chkCommon_89.Text = "Set Focus To Grid After Add New";
 			this._chkCommon_89.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_89.Visible = true;
-			this._chkCommon_89.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_89.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_88
 			// 
-			this._chkCommon_88.AllowDrop = true;
+			//this._chkCommon_88.AllowDrop = true;
 			this._chkCommon_88.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_88.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_88.CausesValidation = true;
@@ -2671,11 +2671,11 @@ namespace Xtreme
 			this._chkCommon_88.Text = "Check Part Number Exists";
 			this._chkCommon_88.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_88.Visible = true;
-			this._chkCommon_88.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_88.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_87
 			// 
-			this._chkCommon_87.AllowDrop = true;
+			//this._chkCommon_87.AllowDrop = true;
 			this._chkCommon_87.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_87.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_87.CausesValidation = true;
@@ -2692,11 +2692,11 @@ namespace Xtreme
 			this._chkCommon_87.Text = "Check Product Name Exists";
 			this._chkCommon_87.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_87.Visible = true;
-			this._chkCommon_87.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_87.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_86
 			// 
-			this._chkCommon_86.AllowDrop = true;
+			//this._chkCommon_86.AllowDrop = true;
 			this._chkCommon_86.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_86.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_86.CausesValidation = true;
@@ -2713,11 +2713,11 @@ namespace Xtreme
 			this._chkCommon_86.Text = "Enable Partial Receipt";
 			this._chkCommon_86.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_86.Visible = true;
-			this._chkCommon_86.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_86.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_84
 			// 
-			this._chkCommon_84.AllowDrop = true;
+			//this._chkCommon_84.AllowDrop = true;
 			this._chkCommon_84.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_84.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_84.CausesValidation = true;
@@ -2734,11 +2734,11 @@ namespace Xtreme
 			this._chkCommon_84.Text = "Enable Additional Voucher Details 2";
 			this._chkCommon_84.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_84.Visible = true;
-			this._chkCommon_84.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_84.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _lblCommon_35
 			// 
-			this._lblCommon_35.AllowDrop = true;
+			//this._lblCommon_35.AllowDrop = true;
 			this._lblCommon_35.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_35.Text = "Default Price Level Priority";
 			this._lblCommon_35.ForeColor = System.Drawing.Color.Black;
@@ -2749,7 +2749,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_1
 			// 
-			this._cmbCommon_1.AllowDrop = true;
+			//this._cmbCommon_1.AllowDrop = true;
 			this._cmbCommon_1.Location = new System.Drawing.Point(364, 181);
 			this._cmbCommon_1.Name = "_cmbCommon_1";
 			this._cmbCommon_1.Size = new System.Drawing.Size(106, 21);
@@ -2757,7 +2757,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_32
 			// 
-			this._lblCommon_32.AllowDrop = true;
+			//this._lblCommon_32.AllowDrop = true;
 			this._lblCommon_32.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_32.Text = "After Save Scriipt";
 			this._lblCommon_32.ForeColor = System.Drawing.Color.Black;
@@ -2768,7 +2768,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_19
 			// 
-			this._txtCommon_19.AllowDrop = true;
+			//this._txtCommon_19.AllowDrop = true;
 			this._txtCommon_19.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_19.ForeColor = System.Drawing.Color.Black;
@@ -2784,7 +2784,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_46
 			// 
-			this._lblCommon_46.AllowDrop = true;
+			//this._lblCommon_46.AllowDrop = true;
 			this._lblCommon_46.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_46.Text = "Default Cash Code";
 			this._lblCommon_46.ForeColor = System.Drawing.Color.Black;
@@ -2795,7 +2795,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_38
 			// 
-			this._txtCommon_38.AllowDrop = true;
+			//this._txtCommon_38.AllowDrop = true;
 			this._txtCommon_38.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_38.ForeColor = System.Drawing.Color.Black;
@@ -2812,7 +2812,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_48
 			// 
-			this._lblCommon_48.AllowDrop = true;
+			//this._lblCommon_48.AllowDrop = true;
 			this._lblCommon_48.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_48.Text = "Default Credit Card Code";
 			this._lblCommon_48.ForeColor = System.Drawing.Color.Black;
@@ -2823,7 +2823,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_40
 			// 
-			this._txtCommon_40.AllowDrop = true;
+			//this._txtCommon_40.AllowDrop = true;
 			this._txtCommon_40.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_40.ForeColor = System.Drawing.Color.Black;
@@ -2840,7 +2840,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_7
 			// 
-			this._fraCommon_7.AllowDrop = true;
+			//this._fraCommon_7.AllowDrop = true;
 			this._fraCommon_7.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_7.Controls.Add(this._fraCommon_15);
 			this._fraCommon_7.Enabled = true;
@@ -2855,7 +2855,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_15
 			// 
-			this._fraCommon_15.AllowDrop = true;
+			//this._fraCommon_15.AllowDrop = true;
 			this._fraCommon_15.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_15.Controls.Add(this._chkCommon_66);
 			this._fraCommon_15.Controls.Add(this._txtCommon_12);
@@ -2886,7 +2886,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_66
 			// 
-			this._chkCommon_66.AllowDrop = true;
+			//this._chkCommon_66.AllowDrop = true;
 			this._chkCommon_66.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_66.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_66.CausesValidation = true;
@@ -2903,11 +2903,11 @@ namespace Xtreme
 			this._chkCommon_66.Text = "Export To Word";
 			this._chkCommon_66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_66.Visible = true;
-			this._chkCommon_66.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_66.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _txtCommon_12
 			// 
-			this._txtCommon_12.AllowDrop = true;
+			//this._txtCommon_12.AllowDrop = true;
 			this._txtCommon_12.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this._txtCommon_12.Enabled = false;
@@ -2924,7 +2924,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_65
 			// 
-			this._chkCommon_65.AllowDrop = true;
+			//this._chkCommon_65.AllowDrop = true;
 			this._chkCommon_65.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_65.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_65.CausesValidation = true;
@@ -2941,11 +2941,11 @@ namespace Xtreme
 			this._chkCommon_65.Text = "Use NumToChar Function";
 			this._chkCommon_65.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_65.Visible = true;
-			this._chkCommon_65.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_65.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_64
 			// 
-			this._chkCommon_64.AllowDrop = true;
+			//this._chkCommon_64.AllowDrop = true;
 			this._chkCommon_64.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_64.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_64.CausesValidation = true;
@@ -2962,11 +2962,11 @@ namespace Xtreme
 			this._chkCommon_64.Text = "Print After Saving";
 			this._chkCommon_64.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_64.Visible = false;
-			this._chkCommon_64.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_64.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_63
 			// 
-			this._chkCommon_63.AllowDrop = true;
+			//this._chkCommon_63.AllowDrop = true;
 			this._chkCommon_63.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_63.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_63.CausesValidation = true;
@@ -2983,11 +2983,11 @@ namespace Xtreme
 			this._chkCommon_63.Text = "Close Window After Print";
 			this._chkCommon_63.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_63.Visible = true;
-			this._chkCommon_63.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_63.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_62
 			// 
-			this._chkCommon_62.AllowDrop = true;
+			//this._chkCommon_62.AllowDrop = true;
 			this._chkCommon_62.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_62.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_62.CausesValidation = true;
@@ -3004,11 +3004,11 @@ namespace Xtreme
 			this._chkCommon_62.Text = "Show Page Setup Window on Initialize";
 			this._chkCommon_62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_62.Visible = true;
-			this._chkCommon_62.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_62.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_61
 			// 
-			this._chkCommon_61.AllowDrop = true;
+			//this._chkCommon_61.AllowDrop = true;
 			this._chkCommon_61.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_61.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_61.CausesValidation = true;
@@ -3025,11 +3025,11 @@ namespace Xtreme
 			this._chkCommon_61.Text = "Show Print Preview on Initialize";
 			this._chkCommon_61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_61.Visible = true;
-			this._chkCommon_61.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_61.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _optCommonQtyEffect_3
 			// 
-			this._optCommonQtyEffect_3.AllowDrop = true;
+			//this._optCommonQtyEffect_3.AllowDrop = true;
 			this._optCommonQtyEffect_3.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonQtyEffect_3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonQtyEffect_3.CausesValidation = true;
@@ -3046,11 +3046,11 @@ namespace Xtreme
 			this._optCommonQtyEffect_3.Text = "Use XML Reports";
 			this._optCommonQtyEffect_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonQtyEffect_3.Visible = true;
-			this._optCommonQtyEffect_3.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
+			//this._optCommonQtyEffect_3.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
 			// 
 			// _optCommonQtyEffect_2
 			// 
-			this._optCommonQtyEffect_2.AllowDrop = true;
+			//this._optCommonQtyEffect_2.AllowDrop = true;
 			this._optCommonQtyEffect_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonQtyEffect_2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonQtyEffect_2.CausesValidation = true;
@@ -3067,11 +3067,11 @@ namespace Xtreme
 			this._optCommonQtyEffect_2.Text = "Use Crystal Reports";
 			this._optCommonQtyEffect_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonQtyEffect_2.Visible = true;
-			this._optCommonQtyEffect_2.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
+			//this._optCommonQtyEffect_2.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
 			// 
 			// _lblCommon_12
 			// 
-			this._lblCommon_12.AllowDrop = true;
+			//this._lblCommon_12.AllowDrop = true;
 			this._lblCommon_12.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_12.Text = "Report ID";
 			this._lblCommon_12.ForeColor = System.Drawing.Color.Black;
@@ -3083,7 +3083,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_10
 			// 
-			this._txtCommon_10.AllowDrop = true;
+			//this._txtCommon_10.AllowDrop = true;
 			this._txtCommon_10.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_10.bolNumericOnly = true;
 			this._txtCommon_10.ForeColor = System.Drawing.Color.Black;
@@ -3100,7 +3100,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_14
 			// 
-			this._lblCommon_14.AllowDrop = true;
+			//this._lblCommon_14.AllowDrop = true;
 			this._lblCommon_14.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_14.Text = "Print Voucher Name";
 			this._lblCommon_14.ForeColor = System.Drawing.Color.Black;
@@ -3111,7 +3111,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_15
 			// 
-			this._lblCommon_15.AllowDrop = true;
+			//this._lblCommon_15.AllowDrop = true;
 			this._lblCommon_15.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_15.Text = "Print Voucher SQL";
 			this._lblCommon_15.ForeColor = System.Drawing.Color.Black;
@@ -3122,7 +3122,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_13
 			// 
-			this._txtCommon_13.AllowDrop = true;
+			//this._txtCommon_13.AllowDrop = true;
 			this._txtCommon_13.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this._txtCommon_13.Enabled = false;
@@ -3139,7 +3139,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_4
 			// 
-			this._txtCommonLabel_4.AllowDrop = true;
+			//this._txtCommonLabel_4.AllowDrop = true;
 			this._txtCommonLabel_4.Location = new System.Drawing.Point(303, 148);
 			this._txtCommonLabel_4.Name = "_txtCommonLabel_4";
 			this._txtCommonLabel_4.Size = new System.Drawing.Size(135, 19);
@@ -3148,7 +3148,7 @@ namespace Xtreme
 			// 
 			// cmbPrintList
 			// 
-			this.cmbPrintList.AllowDrop = true;
+			//this.cmbPrintList.AllowDrop = true;
 			this.cmbPrintList.ColumnHeaders = true;
 			this.cmbPrintList.Enabled = true;
 			this.cmbPrintList.Location = new System.Drawing.Point(94, 216);
@@ -3170,7 +3170,7 @@ namespace Xtreme
 			// 
 			// grdPrintTask
 			// 
-			this.grdPrintTask.AllowDrop = true;
+			//this.grdPrintTask.AllowDrop = true;
 			this.grdPrintTask.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdPrintTask.CellTipsWidth = 0;
 			this.grdPrintTask.Location = new System.Drawing.Point(6, 174);
@@ -3182,10 +3182,10 @@ namespace Xtreme
 			this.grdPrintTask.TabIndex = 240;
 			this.grdPrintTask.Columns.Add(this.Column_0_grdPrintTask);
 			this.grdPrintTask.Columns.Add(this.Column_1_grdPrintTask);
-			this.grdPrintTask.GotFocus += new System.EventHandler(this.grdPrintTask_GotFocus);
-			// this.this.grdPrintTask.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdPrintTask_KeyPress);
-			this.grdPrintTask.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdPrintTask_MouseUp);
-			this.grdPrintTask.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdPrintTask_RowColChange);
+			////this.grdPrintTask.GotFocus += new System.EventHandler(this.grdPrintTask_GotFocus);
+			//// this.this.grdPrintTask.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdPrintTask_KeyPress);
+			////this.grdPrintTask.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdPrintTask_MouseUp);
+			////this.grdPrintTask.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdPrintTask_RowColChange);
 			// 
 			// Column_0_grdPrintTask
 			// 
@@ -3199,7 +3199,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_6
 			// 
-			this._fraCommon_6.AllowDrop = true;
+			//this._fraCommon_6.AllowDrop = true;
 			this._fraCommon_6.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_6.Controls.Add(this._fraCommon_19);
 			this._fraCommon_6.Controls.Add(this._fraCommon_25);
@@ -3219,7 +3219,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_19
 			// 
-			this._fraCommon_19.AllowDrop = true;
+			//this._fraCommon_19.AllowDrop = true;
 			this._fraCommon_19.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_19.Controls.Add(this._lblCommon_24);
 			this._fraCommon_19.Controls.Add(this._lblCommon_25);
@@ -3245,7 +3245,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_24
 			// 
-			this._lblCommon_24.AllowDrop = true;
+			//this._lblCommon_24.AllowDrop = true;
 			this._lblCommon_24.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_24.Text = "GL Voucher Type";
 			this._lblCommon_24.ForeColor = System.Drawing.Color.Black;
@@ -3256,7 +3256,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_25
 			// 
-			this._lblCommon_25.AllowDrop = true;
+			//this._lblCommon_25.AllowDrop = true;
 			this._lblCommon_25.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_25.Text = "GL Reciept Voucher Type";
 			this._lblCommon_25.ForeColor = System.Drawing.Color.Black;
@@ -3267,7 +3267,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_26
 			// 
-			this._lblCommon_26.AllowDrop = true;
+			//this._lblCommon_26.AllowDrop = true;
 			this._lblCommon_26.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_26.Text = "GL Journal Voucher Type";
 			this._lblCommon_26.ForeColor = System.Drawing.Color.Black;
@@ -3278,7 +3278,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_27
 			// 
-			this._lblCommon_27.AllowDrop = true;
+			//this._lblCommon_27.AllowDrop = true;
 			this._lblCommon_27.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_27.Text = "GL Payment Voucher Type";
 			this._lblCommon_27.ForeColor = System.Drawing.Color.Black;
@@ -3289,7 +3289,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_14
 			// 
-			this._txtCommonLabel_14.AllowDrop = true;
+			//this._txtCommonLabel_14.AllowDrop = true;
 			this._txtCommonLabel_14.Location = new System.Drawing.Point(194, 33);
 			this._txtCommonLabel_14.Name = "_txtCommonLabel_14";
 			this._txtCommonLabel_14.Size = new System.Drawing.Size(261, 19);
@@ -3297,7 +3297,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_15
 			// 
-			this._txtCommonLabel_15.AllowDrop = true;
+			//this._txtCommonLabel_15.AllowDrop = true;
 			this._txtCommonLabel_15.Location = new System.Drawing.Point(194, 54);
 			this._txtCommonLabel_15.Name = "_txtCommonLabel_15";
 			this._txtCommonLabel_15.Size = new System.Drawing.Size(261, 19);
@@ -3305,7 +3305,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_16
 			// 
-			this._txtCommonLabel_16.AllowDrop = true;
+			//this._txtCommonLabel_16.AllowDrop = true;
 			this._txtCommonLabel_16.Location = new System.Drawing.Point(194, 75);
 			this._txtCommonLabel_16.Name = "_txtCommonLabel_16";
 			this._txtCommonLabel_16.Size = new System.Drawing.Size(261, 19);
@@ -3313,7 +3313,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_13
 			// 
-			this._txtCommonLabel_13.AllowDrop = true;
+			//this._txtCommonLabel_13.AllowDrop = true;
 			this._txtCommonLabel_13.Location = new System.Drawing.Point(194, 12);
 			this._txtCommonLabel_13.Name = "_txtCommonLabel_13";
 			this._txtCommonLabel_13.Size = new System.Drawing.Size(261, 19);
@@ -3321,7 +3321,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_18
 			// 
-			this._txtCommon_18.AllowDrop = true;
+			//this._txtCommon_18.AllowDrop = true;
 			this._txtCommon_18.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_18.bolNumericOnly = true;
 			this._txtCommon_18.ForeColor = System.Drawing.Color.Black;
@@ -3337,7 +3337,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_20
 			// 
-			this._txtCommon_20.AllowDrop = true;
+			//this._txtCommon_20.AllowDrop = true;
 			this._txtCommon_20.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_20.bolNumericOnly = true;
 			this._txtCommon_20.ForeColor = System.Drawing.Color.Black;
@@ -3353,7 +3353,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_21
 			// 
-			this._txtCommon_21.AllowDrop = true;
+			//this._txtCommon_21.AllowDrop = true;
 			this._txtCommon_21.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_21.bolNumericOnly = true;
 			this._txtCommon_21.ForeColor = System.Drawing.Color.Black;
@@ -3369,7 +3369,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_22
 			// 
-			this._txtCommon_22.AllowDrop = true;
+			//this._txtCommon_22.AllowDrop = true;
 			this._txtCommon_22.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_22.bolNumericOnly = true;
 			this._txtCommon_22.ForeColor = System.Drawing.Color.Black;
@@ -3385,7 +3385,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_25
 			// 
-			this._fraCommon_25.AllowDrop = true;
+			//this._fraCommon_25.AllowDrop = true;
 			this._fraCommon_25.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_25.Controls.Add(this._chkCommon_94);
 			this._fraCommon_25.Controls.Add(this._chkCommon_95);
@@ -3402,7 +3402,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_94
 			// 
-			this._chkCommon_94.AllowDrop = true;
+			//this._chkCommon_94.AllowDrop = true;
 			this._chkCommon_94.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_94.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_94.CausesValidation = true;
@@ -3419,11 +3419,11 @@ namespace Xtreme
 			this._chkCommon_94.Text = "Include Voucher No. in Voucher";
 			this._chkCommon_94.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_94.Visible = true;
-			this._chkCommon_94.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_94.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_95
 			// 
-			this._chkCommon_95.AllowDrop = true;
+			//this._chkCommon_95.AllowDrop = true;
 			this._chkCommon_95.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_95.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_95.CausesValidation = true;
@@ -3440,11 +3440,11 @@ namespace Xtreme
 			this._chkCommon_95.Text = "Include Location in Voucher";
 			this._chkCommon_95.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_95.Visible = true;
-			this._chkCommon_95.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_95.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_97
 			// 
-			this._chkCommon_97.AllowDrop = true;
+			//this._chkCommon_97.AllowDrop = true;
 			this._chkCommon_97.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_97.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_97.CausesValidation = true;
@@ -3461,11 +3461,11 @@ namespace Xtreme
 			this._chkCommon_97.Text = "Include Reference No. in Voucher";
 			this._chkCommon_97.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_97.Visible = true;
-			this._chkCommon_97.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_97.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_127
 			// 
-			this._chkCommon_127.AllowDrop = true;
+			//this._chkCommon_127.AllowDrop = true;
 			this._chkCommon_127.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_127.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_127.CausesValidation = true;
@@ -3482,11 +3482,11 @@ namespace Xtreme
 			this._chkCommon_127.Text = "Show in Batch Posting";
 			this._chkCommon_127.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_127.Visible = true;
-			this._chkCommon_127.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_127.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_60
 			// 
-			this._chkCommon_60.AllowDrop = true;
+			//this._chkCommon_60.AllowDrop = true;
 			this._chkCommon_60.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_60.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_60.CausesValidation = true;
@@ -3503,11 +3503,11 @@ namespace Xtreme
 			this._chkCommon_60.Text = "Allow Online Posting";
 			this._chkCommon_60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_60.Visible = true;
-			this._chkCommon_60.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_60.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_16
 			// 
-			this._fraCommon_16.AllowDrop = true;
+			//this._fraCommon_16.AllowDrop = true;
 			this._fraCommon_16.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_16.Controls.Add(this._chkCommon_59);
 			this._fraCommon_16.Controls.Add(this._chkCommon_58);
@@ -3527,7 +3527,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_59
 			// 
-			this._chkCommon_59.AllowDrop = true;
+			//this._chkCommon_59.AllowDrop = true;
 			this._chkCommon_59.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_59.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_59.CausesValidation = true;
@@ -3544,11 +3544,11 @@ namespace Xtreme
 			this._chkCommon_59.Text = "Stock Qty";
 			this._chkCommon_59.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_59.Visible = true;
-			this._chkCommon_59.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_59.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_58
 			// 
-			this._chkCommon_58.AllowDrop = true;
+			//this._chkCommon_58.AllowDrop = true;
 			this._chkCommon_58.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_58.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_58.CausesValidation = true;
@@ -3565,11 +3565,11 @@ namespace Xtreme
 			this._chkCommon_58.Text = "Cash / Party Balances";
 			this._chkCommon_58.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_58.Visible = true;
-			this._chkCommon_58.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_58.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_57
 			// 
-			this._chkCommon_57.AllowDrop = true;
+			//this._chkCommon_57.AllowDrop = true;
 			this._chkCommon_57.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_57.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_57.CausesValidation = true;
@@ -3586,11 +3586,11 @@ namespace Xtreme
 			this._chkCommon_57.Text = "General Ledger";
 			this._chkCommon_57.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_57.Visible = true;
-			this._chkCommon_57.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_57.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_56
 			// 
-			this._chkCommon_56.AllowDrop = true;
+			//this._chkCommon_56.AllowDrop = true;
 			this._chkCommon_56.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_56.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_56.CausesValidation = true;
@@ -3607,11 +3607,11 @@ namespace Xtreme
 			this._chkCommon_56.Text = "Inventory / Cost of Sales";
 			this._chkCommon_56.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_56.Visible = true;
-			this._chkCommon_56.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_56.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_55
 			// 
-			this._chkCommon_55.AllowDrop = true;
+			//this._chkCommon_55.AllowDrop = true;
 			this._chkCommon_55.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_55.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_55.CausesValidation = true;
@@ -3628,11 +3628,11 @@ namespace Xtreme
 			this._chkCommon_55.Text = "Expenses";
 			this._chkCommon_55.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_55.Visible = true;
-			this._chkCommon_55.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_55.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_54
 			// 
-			this._chkCommon_54.AllowDrop = true;
+			//this._chkCommon_54.AllowDrop = true;
 			this._chkCommon_54.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_54.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_54.CausesValidation = true;
@@ -3649,11 +3649,11 @@ namespace Xtreme
 			this._chkCommon_54.Text = "Transaction Status";
 			this._chkCommon_54.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_54.Visible = true;
-			this._chkCommon_54.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_54.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_14
 			// 
-			this._fraCommon_14.AllowDrop = true;
+			//this._fraCommon_14.AllowDrop = true;
 			this._fraCommon_14.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_14.Controls.Add(this._chkCommon_53);
 			this._fraCommon_14.Controls.Add(this._chkCommon_52);
@@ -3673,7 +3673,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_53
 			// 
-			this._chkCommon_53.AllowDrop = true;
+			//this._chkCommon_53.AllowDrop = true;
 			this._chkCommon_53.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_53.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_53.CausesValidation = true;
@@ -3690,11 +3690,11 @@ namespace Xtreme
 			this._chkCommon_53.Text = "Transaction Status";
 			this._chkCommon_53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_53.Visible = true;
-			this._chkCommon_53.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_53.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_52
 			// 
-			this._chkCommon_52.AllowDrop = true;
+			//this._chkCommon_52.AllowDrop = true;
 			this._chkCommon_52.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_52.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_52.CausesValidation = true;
@@ -3711,11 +3711,11 @@ namespace Xtreme
 			this._chkCommon_52.Text = "Expenses";
 			this._chkCommon_52.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_52.Visible = true;
-			this._chkCommon_52.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_52.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_51
 			// 
-			this._chkCommon_51.AllowDrop = true;
+			//this._chkCommon_51.AllowDrop = true;
 			this._chkCommon_51.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_51.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_51.CausesValidation = true;
@@ -3732,11 +3732,11 @@ namespace Xtreme
 			this._chkCommon_51.Text = "Inventory / Cost of Sales";
 			this._chkCommon_51.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_51.Visible = true;
-			this._chkCommon_51.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_51.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_50
 			// 
-			this._chkCommon_50.AllowDrop = true;
+			//this._chkCommon_50.AllowDrop = true;
 			this._chkCommon_50.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_50.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_50.CausesValidation = true;
@@ -3753,11 +3753,11 @@ namespace Xtreme
 			this._chkCommon_50.Text = "General Ledger";
 			this._chkCommon_50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_50.Visible = true;
-			this._chkCommon_50.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_50.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_49
 			// 
-			this._chkCommon_49.AllowDrop = true;
+			//this._chkCommon_49.AllowDrop = true;
 			this._chkCommon_49.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_49.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_49.CausesValidation = true;
@@ -3774,11 +3774,11 @@ namespace Xtreme
 			this._chkCommon_49.Text = "Cash / Party Balances";
 			this._chkCommon_49.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_49.Visible = true;
-			this._chkCommon_49.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_49.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_48
 			// 
-			this._chkCommon_48.AllowDrop = true;
+			//this._chkCommon_48.AllowDrop = true;
 			this._chkCommon_48.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_48.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_48.CausesValidation = true;
@@ -3795,11 +3795,11 @@ namespace Xtreme
 			this._chkCommon_48.Text = "Stock Qty";
 			this._chkCommon_48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_48.Visible = true;
-			this._chkCommon_48.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_48.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_5
 			// 
-			this._fraCommon_5.AllowDrop = true;
+			//this._fraCommon_5.AllowDrop = true;
 			this._fraCommon_5.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_5.Controls.Add(this._fraCommon_11);
 			this._fraCommon_5.Controls.Add(this._fraCommon_12);
@@ -3816,7 +3816,7 @@ namespace Xtreme
 			// 
 			// _fraCommon_11
 			// 
-			this._fraCommon_11.AllowDrop = true;
+			//this._fraCommon_11.AllowDrop = true;
 			this._fraCommon_11.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_11.Controls.Add(this._chkCommon_133);
 			this._fraCommon_11.Controls.Add(this._chkCommon_123);
@@ -3848,7 +3848,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_133
 			// 
-			this._chkCommon_133.AllowDrop = true;
+			//this._chkCommon_133.AllowDrop = true;
 			this._chkCommon_133.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_133.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_133.CausesValidation = true;
@@ -3865,11 +3865,11 @@ namespace Xtreme
 			this._chkCommon_133.Text = "Enable Cash Credit";
 			this._chkCommon_133.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_133.Visible = true;
-			this._chkCommon_133.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_133.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_123
 			// 
-			this._chkCommon_123.AllowDrop = true;
+			//this._chkCommon_123.AllowDrop = true;
 			this._chkCommon_123.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_123.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_123.CausesValidation = true;
@@ -3886,11 +3886,11 @@ namespace Xtreme
 			this._chkCommon_123.Text = "Show Branch";
 			this._chkCommon_123.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_123.Visible = true;
-			this._chkCommon_123.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_123.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_115
 			// 
-			this._chkCommon_115.AllowDrop = true;
+			//this._chkCommon_115.AllowDrop = true;
 			this._chkCommon_115.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_115.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_115.CausesValidation = true;
@@ -3907,11 +3907,11 @@ namespace Xtreme
 			this._chkCommon_115.Text = "Show Expenses Ldger Code";
 			this._chkCommon_115.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_115.Visible = true;
-			this._chkCommon_115.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_115.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_71
 			// 
-			this._chkCommon_71.AllowDrop = true;
+			//this._chkCommon_71.AllowDrop = true;
 			this._chkCommon_71.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_71.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_71.CausesValidation = true;
@@ -3928,11 +3928,11 @@ namespace Xtreme
 			this._chkCommon_71.Text = "Show Doctor Prescription";
 			this._chkCommon_71.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_71.Visible = true;
-			this._chkCommon_71.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_71.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_114
 			// 
-			this._chkCommon_114.AllowDrop = true;
+			//this._chkCommon_114.AllowDrop = true;
 			this._chkCommon_114.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_114.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_114.CausesValidation = true;
@@ -3949,11 +3949,11 @@ namespace Xtreme
 			this._chkCommon_114.Text = "Show Batch Code";
 			this._chkCommon_114.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_114.Visible = true;
-			this._chkCommon_114.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_114.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_111
 			// 
-			this._chkCommon_111.AllowDrop = true;
+			//this._chkCommon_111.AllowDrop = true;
 			this._chkCommon_111.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_111.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_111.CausesValidation = true;
@@ -3970,11 +3970,11 @@ namespace Xtreme
 			this._chkCommon_111.Text = "Show Party Balance";
 			this._chkCommon_111.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_111.Visible = true;
-			this._chkCommon_111.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_111.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_8
 			// 
-			this._chkCommon_8.AllowDrop = true;
+			//this._chkCommon_8.AllowDrop = true;
 			this._chkCommon_8.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_8.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_8.CausesValidation = true;
@@ -3991,11 +3991,11 @@ namespace Xtreme
 			this._chkCommon_8.Text = "Show Ledger";
 			this._chkCommon_8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_8.Visible = true;
-			this._chkCommon_8.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_8.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_22
 			// 
-			this._chkCommon_22.AllowDrop = true;
+			//this._chkCommon_22.AllowDrop = true;
 			this._chkCommon_22.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_22.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_22.CausesValidation = true;
@@ -4012,11 +4012,11 @@ namespace Xtreme
 			this._chkCommon_22.Text = "Show Location";
 			this._chkCommon_22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_22.Visible = true;
-			this._chkCommon_22.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_22.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_23
 			// 
-			this._chkCommon_23.AllowDrop = true;
+			//this._chkCommon_23.AllowDrop = true;
 			this._chkCommon_23.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_23.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_23.CausesValidation = true;
@@ -4033,11 +4033,11 @@ namespace Xtreme
 			this._chkCommon_23.Text = "Show Cash / Credit";
 			this._chkCommon_23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_23.Visible = true;
-			this._chkCommon_23.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_23.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_26
 			// 
-			this._chkCommon_26.AllowDrop = true;
+			//this._chkCommon_26.AllowDrop = true;
 			this._chkCommon_26.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_26.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_26.CausesValidation = true;
@@ -4054,11 +4054,11 @@ namespace Xtreme
 			this._chkCommon_26.Text = "Show Net Amount";
 			this._chkCommon_26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_26.Visible = true;
-			this._chkCommon_26.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_26.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_27
 			// 
-			this._chkCommon_27.AllowDrop = true;
+			//this._chkCommon_27.AllowDrop = true;
 			this._chkCommon_27.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_27.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_27.CausesValidation = true;
@@ -4075,11 +4075,11 @@ namespace Xtreme
 			this._chkCommon_27.Text = "Show Discount in Percent";
 			this._chkCommon_27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_27.Visible = true;
-			this._chkCommon_27.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_27.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_28
 			// 
-			this._chkCommon_28.AllowDrop = true;
+			//this._chkCommon_28.AllowDrop = true;
 			this._chkCommon_28.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_28.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_28.CausesValidation = true;
@@ -4096,11 +4096,11 @@ namespace Xtreme
 			this._chkCommon_28.Text = "Show Expenses";
 			this._chkCommon_28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_28.Visible = true;
-			this._chkCommon_28.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_28.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_30
 			// 
-			this._chkCommon_30.AllowDrop = true;
+			//this._chkCommon_30.AllowDrop = true;
 			this._chkCommon_30.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_30.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_30.CausesValidation = true;
@@ -4117,11 +4117,11 @@ namespace Xtreme
 			this._chkCommon_30.Text = "Show Salesman";
 			this._chkCommon_30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_30.Visible = true;
-			this._chkCommon_30.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_30.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_31
 			// 
-			this._chkCommon_31.AllowDrop = true;
+			//this._chkCommon_31.AllowDrop = true;
 			this._chkCommon_31.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_31.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_31.CausesValidation = true;
@@ -4138,11 +4138,11 @@ namespace Xtreme
 			this._chkCommon_31.Text = "Show Exchange Rate";
 			this._chkCommon_31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_31.Visible = true;
-			this._chkCommon_31.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_31.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_32
 			// 
-			this._chkCommon_32.AllowDrop = true;
+			//this._chkCommon_32.AllowDrop = true;
 			this._chkCommon_32.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_32.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_32.CausesValidation = true;
@@ -4159,11 +4159,11 @@ namespace Xtreme
 			this._chkCommon_32.Text = "Show Remarks";
 			this._chkCommon_32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_32.Visible = true;
-			this._chkCommon_32.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_32.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_40
 			// 
-			this._chkCommon_40.AllowDrop = true;
+			//this._chkCommon_40.AllowDrop = true;
 			this._chkCommon_40.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_40.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_40.CausesValidation = true;
@@ -4180,11 +4180,11 @@ namespace Xtreme
 			this._chkCommon_40.Text = "Show Addition Voucher Details";
 			this._chkCommon_40.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_40.Visible = true;
-			this._chkCommon_40.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_40.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_67
 			// 
-			this._chkCommon_67.AllowDrop = true;
+			//this._chkCommon_67.AllowDrop = true;
 			this._chkCommon_67.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_67.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_67.CausesValidation = true;
@@ -4201,11 +4201,11 @@ namespace Xtreme
 			this._chkCommon_67.Text = "Show Due Date";
 			this._chkCommon_67.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_67.Visible = true;
-			this._chkCommon_67.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_67.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_70
 			// 
-			this._chkCommon_70.AllowDrop = true;
+			//this._chkCommon_70.AllowDrop = true;
 			this._chkCommon_70.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_70.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_70.CausesValidation = true;
@@ -4222,11 +4222,11 @@ namespace Xtreme
 			this._chkCommon_70.Text = "Show Job Code";
 			this._chkCommon_70.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_70.Visible = true;
-			this._chkCommon_70.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_70.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_12
 			// 
-			this._fraCommon_12.AllowDrop = true;
+			//this._fraCommon_12.AllowDrop = true;
 			this._fraCommon_12.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_12.Controls.Add(this._chkCommon_136);
 			this._fraCommon_12.Controls.Add(this._chkCommon_72);
@@ -4271,7 +4271,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_136
 			// 
-			this._chkCommon_136.AllowDrop = true;
+			//this._chkCommon_136.AllowDrop = true;
 			this._chkCommon_136.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_136.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_136.CausesValidation = true;
@@ -4288,11 +4288,11 @@ namespace Xtreme
 			this._chkCommon_136.Text = "Show Pack Qty";
 			this._chkCommon_136.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_136.Visible = true;
-			this._chkCommon_136.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_136.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_72
 			// 
-			this._chkCommon_72.AllowDrop = true;
+			//this._chkCommon_72.AllowDrop = true;
 			this._chkCommon_72.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_72.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_72.CausesValidation = true;
@@ -4309,11 +4309,11 @@ namespace Xtreme
 			this._chkCommon_72.Text = "Show Product Discount Percent ";
 			this._chkCommon_72.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_72.Visible = true;
-			this._chkCommon_72.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_72.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_12
 			// 
-			this._chkCommon_12.AllowDrop = true;
+			//this._chkCommon_12.AllowDrop = true;
 			this._chkCommon_12.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_12.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_12.CausesValidation = true;
@@ -4330,11 +4330,11 @@ namespace Xtreme
 			this._chkCommon_12.Text = "Show Remarks";
 			this._chkCommon_12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_12.Visible = true;
-			this._chkCommon_12.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_12.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_11
 			// 
-			this._chkCommon_11.AllowDrop = true;
+			//this._chkCommon_11.AllowDrop = true;
 			this._chkCommon_11.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_11.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_11.CausesValidation = true;
@@ -4351,11 +4351,11 @@ namespace Xtreme
 			this._chkCommon_11.Text = "Show Serial No.";
 			this._chkCommon_11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_11.Visible = true;
-			this._chkCommon_11.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_11.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_10
 			// 
-			this._chkCommon_10.AllowDrop = true;
+			//this._chkCommon_10.AllowDrop = true;
 			this._chkCommon_10.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_10.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_10.CausesValidation = true;
@@ -4372,11 +4372,11 @@ namespace Xtreme
 			this._chkCommon_10.Text = "Show Barcode";
 			this._chkCommon_10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_10.Visible = true;
-			this._chkCommon_10.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_10.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_39
 			// 
-			this._chkCommon_39.AllowDrop = true;
+			//this._chkCommon_39.AllowDrop = true;
 			this._chkCommon_39.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_39.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_39.CausesValidation = true;
@@ -4393,11 +4393,11 @@ namespace Xtreme
 			this._chkCommon_39.Text = "Show Product Name";
 			this._chkCommon_39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_39.Visible = true;
-			this._chkCommon_39.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_39.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_38
 			// 
-			this._chkCommon_38.AllowDrop = true;
+			//this._chkCommon_38.AllowDrop = true;
 			this._chkCommon_38.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_38.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_38.CausesValidation = true;
@@ -4414,11 +4414,11 @@ namespace Xtreme
 			this._chkCommon_38.Text = "Show Unit";
 			this._chkCommon_38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_38.Visible = true;
-			this._chkCommon_38.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_38.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_37
 			// 
-			this._chkCommon_37.AllowDrop = true;
+			//this._chkCommon_37.AllowDrop = true;
 			this._chkCommon_37.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_37.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_37.CausesValidation = true;
@@ -4435,11 +4435,11 @@ namespace Xtreme
 			this._chkCommon_37.Text = "Show Qty";
 			this._chkCommon_37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_37.Visible = true;
-			this._chkCommon_37.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_37.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_34
 			// 
-			this._chkCommon_34.AllowDrop = true;
+			//this._chkCommon_34.AllowDrop = true;
 			this._chkCommon_34.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_34.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_34.CausesValidation = true;
@@ -4456,11 +4456,11 @@ namespace Xtreme
 			this._chkCommon_34.Text = "Show Rate";
 			this._chkCommon_34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_34.Visible = true;
-			this._chkCommon_34.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_34.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_33
 			// 
-			this._chkCommon_33.AllowDrop = true;
+			//this._chkCommon_33.AllowDrop = true;
 			this._chkCommon_33.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_33.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_33.CausesValidation = true;
@@ -4477,11 +4477,11 @@ namespace Xtreme
 			this._chkCommon_33.Text = "Show Part No.";
 			this._chkCommon_33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_33.Visible = true;
-			this._chkCommon_33.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_33.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_29
 			// 
-			this._chkCommon_29.AllowDrop = true;
+			//this._chkCommon_29.AllowDrop = true;
 			this._chkCommon_29.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_29.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_29.CausesValidation = true;
@@ -4498,11 +4498,11 @@ namespace Xtreme
 			this._chkCommon_29.Text = "Show Promotion Type";
 			this._chkCommon_29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_29.Visible = true;
-			this._chkCommon_29.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_29.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_25
 			// 
-			this._chkCommon_25.AllowDrop = true;
+			//this._chkCommon_25.AllowDrop = true;
 			this._chkCommon_25.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_25.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_25.CausesValidation = true;
@@ -4519,11 +4519,11 @@ namespace Xtreme
 			this._chkCommon_25.Text = "Show Discount";
 			this._chkCommon_25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_25.Visible = true;
-			this._chkCommon_25.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_25.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_24
 			// 
-			this._chkCommon_24.AllowDrop = true;
+			//this._chkCommon_24.AllowDrop = true;
 			this._chkCommon_24.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_24.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_24.CausesValidation = true;
@@ -4540,11 +4540,11 @@ namespace Xtreme
 			this._chkCommon_24.Text = "Show Line No.";
 			this._chkCommon_24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_24.Visible = true;
-			this._chkCommon_24.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_24.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_15
 			// 
-			this._chkCommon_15.AllowDrop = true;
+			//this._chkCommon_15.AllowDrop = true;
 			this._chkCommon_15.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_15.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_15.CausesValidation = true;
@@ -4561,11 +4561,11 @@ namespace Xtreme
 			this._chkCommon_15.Text = "Show Location";
 			this._chkCommon_15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_15.Visible = true;
-			this._chkCommon_15.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_15.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_9
 			// 
-			this._chkCommon_9.AllowDrop = true;
+			//this._chkCommon_9.AllowDrop = true;
 			this._chkCommon_9.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_9.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_9.CausesValidation = true;
@@ -4582,11 +4582,11 @@ namespace Xtreme
 			this._chkCommon_9.Text = "Show Amount";
 			this._chkCommon_9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_9.Visible = true;
-			this._chkCommon_9.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_9.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_36
 			// 
-			this._chkCommon_36.AllowDrop = true;
+			//this._chkCommon_36.AllowDrop = true;
 			this._chkCommon_36.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_36.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_36.CausesValidation = true;
@@ -4603,11 +4603,11 @@ namespace Xtreme
 			this._chkCommon_36.Text = "Show Remaining Qty";
 			this._chkCommon_36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_36.Visible = true;
-			this._chkCommon_36.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_36.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_85
 			// 
-			this._chkCommon_85.AllowDrop = true;
+			//this._chkCommon_85.AllowDrop = true;
 			this._chkCommon_85.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_85.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_85.CausesValidation = true;
@@ -4624,11 +4624,11 @@ namespace Xtreme
 			this._chkCommon_85.Text = "Show Multiline Post Description";
 			this._chkCommon_85.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_85.Visible = true;
-			this._chkCommon_85.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_85.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_83
 			// 
-			this._chkCommon_83.AllowDrop = true;
+			//this._chkCommon_83.AllowDrop = true;
 			this._chkCommon_83.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_83.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_83.CausesValidation = true;
@@ -4645,11 +4645,11 @@ namespace Xtreme
 			this._chkCommon_83.Text = "Show Multiline Pre Description";
 			this._chkCommon_83.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_83.Visible = true;
-			this._chkCommon_83.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_83.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_132
 			// 
-			this._chkCommon_132.AllowDrop = true;
+			//this._chkCommon_132.AllowDrop = true;
 			this._chkCommon_132.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_132.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_132.CausesValidation = true;
@@ -4666,11 +4666,11 @@ namespace Xtreme
 			this._chkCommon_132.Text = "Show Flex1";
 			this._chkCommon_132.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_132.Visible = true;
-			this._chkCommon_132.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_132.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_126
 			// 
-			this._chkCommon_126.AllowDrop = true;
+			//this._chkCommon_126.AllowDrop = true;
 			this._chkCommon_126.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_126.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_126.CausesValidation = true;
@@ -4687,11 +4687,11 @@ namespace Xtreme
 			this._chkCommon_126.Text = "Show Expiry";
 			this._chkCommon_126.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_126.Visible = true;
-			this._chkCommon_126.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_126.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_103
 			// 
-			this._chkCommon_103.AllowDrop = true;
+			//this._chkCommon_103.AllowDrop = true;
 			this._chkCommon_103.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_103.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_103.CausesValidation = true;
@@ -4708,11 +4708,11 @@ namespace Xtreme
 			this._chkCommon_103.Text = "Show Supplier Tab";
 			this._chkCommon_103.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_103.Visible = true;
-			this._chkCommon_103.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_103.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_20
 			// 
-			this._chkCommon_20.AllowDrop = true;
+			//this._chkCommon_20.AllowDrop = true;
 			this._chkCommon_20.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_20.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_20.CausesValidation = true;
@@ -4729,11 +4729,11 @@ namespace Xtreme
 			this._chkCommon_20.Text = "Show Purchase Price in List";
 			this._chkCommon_20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_20.Visible = true;
-			this._chkCommon_20.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_20.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_113
 			// 
-			this._chkCommon_113.AllowDrop = true;
+			//this._chkCommon_113.AllowDrop = true;
 			this._chkCommon_113.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_113.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_113.CausesValidation = true;
@@ -4750,11 +4750,11 @@ namespace Xtreme
 			this._chkCommon_113.Text = "Show Dented Stock Option";
 			this._chkCommon_113.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_113.Visible = true;
-			this._chkCommon_113.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_113.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_112
 			// 
-			this._chkCommon_112.AllowDrop = true;
+			//this._chkCommon_112.AllowDrop = true;
 			this._chkCommon_112.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_112.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_112.CausesValidation = true;
@@ -4771,11 +4771,11 @@ namespace Xtreme
 			this._chkCommon_112.Text = "Show Non Inventory Product";
 			this._chkCommon_112.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_112.Visible = true;
-			this._chkCommon_112.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_112.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_13
 			// 
-			this._chkCommon_13.AllowDrop = true;
+			//this._chkCommon_13.AllowDrop = true;
 			this._chkCommon_13.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_13.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_13.CausesValidation = true;
@@ -4792,11 +4792,11 @@ namespace Xtreme
 			this._chkCommon_13.Text = "Show Product Group in List";
 			this._chkCommon_13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_13.Visible = true;
-			this._chkCommon_13.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_13.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_14
 			// 
-			this._chkCommon_14.AllowDrop = true;
+			//this._chkCommon_14.AllowDrop = true;
 			this._chkCommon_14.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_14.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_14.CausesValidation = true;
@@ -4813,11 +4813,11 @@ namespace Xtreme
 			this._chkCommon_14.Text = "Show Base Unit in List";
 			this._chkCommon_14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_14.Visible = true;
-			this._chkCommon_14.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_14.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_16
 			// 
-			this._chkCommon_16.AllowDrop = true;
+			//this._chkCommon_16.AllowDrop = true;
 			this._chkCommon_16.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_16.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_16.CausesValidation = true;
@@ -4834,11 +4834,11 @@ namespace Xtreme
 			this._chkCommon_16.Text = "Show Project";
 			this._chkCommon_16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_16.Visible = true;
-			this._chkCommon_16.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_16.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_19
 			// 
-			this._chkCommon_19.AllowDrop = true;
+			//this._chkCommon_19.AllowDrop = true;
 			this._chkCommon_19.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_19.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_19.CausesValidation = true;
@@ -4855,11 +4855,11 @@ namespace Xtreme
 			this._chkCommon_19.Text = "Show Sales Price in List";
 			this._chkCommon_19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_19.Visible = true;
-			this._chkCommon_19.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_19.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_21
 			// 
-			this._chkCommon_21.AllowDrop = true;
+			//this._chkCommon_21.AllowDrop = true;
 			this._chkCommon_21.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_21.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_21.CausesValidation = true;
@@ -4876,11 +4876,11 @@ namespace Xtreme
 			this._chkCommon_21.Text = "Show Product Category in List";
 			this._chkCommon_21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_21.Visible = true;
-			this._chkCommon_21.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_21.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_68
 			// 
-			this._chkCommon_68.AllowDrop = true;
+			//this._chkCommon_68.AllowDrop = true;
 			this._chkCommon_68.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_68.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_68.CausesValidation = true;
@@ -4897,11 +4897,11 @@ namespace Xtreme
 			this._chkCommon_68.Text = "Show Weight";
 			this._chkCommon_68.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_68.Visible = true;
-			this._chkCommon_68.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_68.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_69
 			// 
-			this._chkCommon_69.AllowDrop = true;
+			//this._chkCommon_69.AllowDrop = true;
 			this._chkCommon_69.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_69.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_69.CausesValidation = true;
@@ -4918,11 +4918,11 @@ namespace Xtreme
 			this._chkCommon_69.Text = "Show Rate UOM in List";
 			this._chkCommon_69.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_69.Visible = true;
-			this._chkCommon_69.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_69.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_13
 			// 
-			this._fraCommon_13.AllowDrop = true;
+			//this._fraCommon_13.AllowDrop = true;
 			this._fraCommon_13.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_13.Controls.Add(this._chkCommon_18);
 			this._fraCommon_13.Controls.Add(this._chkCommon_17);
@@ -4945,7 +4945,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_18
 			// 
-			this._chkCommon_18.AllowDrop = true;
+			//this._chkCommon_18.AllowDrop = true;
 			this._chkCommon_18.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_18.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_18.CausesValidation = true;
@@ -4962,11 +4962,11 @@ namespace Xtreme
 			this._chkCommon_18.Text = "Show Base Unit";
 			this._chkCommon_18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_18.Visible = true;
-			this._chkCommon_18.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_18.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_17
 			// 
-			this._chkCommon_17.AllowDrop = true;
+			//this._chkCommon_17.AllowDrop = true;
 			this._chkCommon_17.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_17.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_17.CausesValidation = true;
@@ -4983,11 +4983,11 @@ namespace Xtreme
 			this._chkCommon_17.Text = "Show Stock in Hand";
 			this._chkCommon_17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_17.Visible = true;
-			this._chkCommon_17.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_17.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_41
 			// 
-			this._chkCommon_41.AllowDrop = true;
+			//this._chkCommon_41.AllowDrop = true;
 			this._chkCommon_41.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_41.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_41.CausesValidation = true;
@@ -5004,11 +5004,11 @@ namespace Xtreme
 			this._chkCommon_41.Text = "Show Allocated Stock";
 			this._chkCommon_41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_41.Visible = true;
-			this._chkCommon_41.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_41.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_42
 			// 
-			this._chkCommon_42.AllowDrop = true;
+			//this._chkCommon_42.AllowDrop = true;
 			this._chkCommon_42.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_42.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_42.CausesValidation = true;
@@ -5025,11 +5025,11 @@ namespace Xtreme
 			this._chkCommon_42.Text = "Show Stock Available";
 			this._chkCommon_42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_42.Visible = true;
-			this._chkCommon_42.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_42.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_43
 			// 
-			this._chkCommon_43.AllowDrop = true;
+			//this._chkCommon_43.AllowDrop = true;
 			this._chkCommon_43.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_43.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_43.CausesValidation = true;
@@ -5046,11 +5046,11 @@ namespace Xtreme
 			this._chkCommon_43.Text = "Show Stock in Transit";
 			this._chkCommon_43.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_43.Visible = true;
-			this._chkCommon_43.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_43.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_44
 			// 
-			this._chkCommon_44.AllowDrop = true;
+			//this._chkCommon_44.AllowDrop = true;
 			this._chkCommon_44.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_44.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_44.CausesValidation = true;
@@ -5067,11 +5067,11 @@ namespace Xtreme
 			this._chkCommon_44.Text = "Show Stock on Order";
 			this._chkCommon_44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_44.Visible = true;
-			this._chkCommon_44.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_44.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_45
 			// 
-			this._chkCommon_45.AllowDrop = true;
+			//this._chkCommon_45.AllowDrop = true;
 			this._chkCommon_45.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_45.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_45.CausesValidation = true;
@@ -5088,11 +5088,11 @@ namespace Xtreme
 			this._chkCommon_45.Text = "Show Advanced Booked Stock";
 			this._chkCommon_45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_45.Visible = true;
-			this._chkCommon_45.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_45.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_46
 			// 
-			this._chkCommon_46.AllowDrop = true;
+			//this._chkCommon_46.AllowDrop = true;
 			this._chkCommon_46.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_46.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_46.CausesValidation = true;
@@ -5109,11 +5109,11 @@ namespace Xtreme
 			this._chkCommon_46.Text = "Show Stock Return in Transit";
 			this._chkCommon_46.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_46.Visible = true;
-			this._chkCommon_46.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_46.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_47
 			// 
-			this._chkCommon_47.AllowDrop = true;
+			//this._chkCommon_47.AllowDrop = true;
 			this._chkCommon_47.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_47.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_47.CausesValidation = true;
@@ -5130,11 +5130,11 @@ namespace Xtreme
 			this._chkCommon_47.Text = "Show On Order Stock (Sales)";
 			this._chkCommon_47.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_47.Visible = true;
-			this._chkCommon_47.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_47.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_0
 			// 
-			this._fraCommon_0.AllowDrop = true;
+			//this._fraCommon_0.AllowDrop = true;
 			this._fraCommon_0.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_0.Controls.Add(this._chkCommon_102);
 			this._fraCommon_0.Controls.Add(this._fraCommon_24);
@@ -5168,7 +5168,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_102
 			// 
-			this._chkCommon_102.AllowDrop = true;
+			//this._chkCommon_102.AllowDrop = true;
 			this._chkCommon_102.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_102.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_102.CausesValidation = true;
@@ -5185,11 +5185,11 @@ namespace Xtreme
 			this._chkCommon_102.Text = "Begin with Line Seperator";
 			this._chkCommon_102.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_102.Visible = true;
-			this._chkCommon_102.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_102.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_24
 			// 
-			this._fraCommon_24.AllowDrop = true;
+			//this._fraCommon_24.AllowDrop = true;
 			this._fraCommon_24.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_24.Controls.Add(this._chkCommon_124);
 			this._fraCommon_24.Controls.Add(this._chkCommon_7);
@@ -5207,7 +5207,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_124
 			// 
-			this._chkCommon_124.AllowDrop = true;
+			//this._chkCommon_124.AllowDrop = true;
 			this._chkCommon_124.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_124.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_124.CausesValidation = true;
@@ -5224,11 +5224,11 @@ namespace Xtreme
 			this._chkCommon_124.Text = "Get Max New Voucher No.";
 			this._chkCommon_124.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_124.Visible = true;
-			this._chkCommon_124.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_124.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_7
 			// 
-			this._chkCommon_7.AllowDrop = true;
+			//this._chkCommon_7.AllowDrop = true;
 			this._chkCommon_7.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_7.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_7.CausesValidation = true;
@@ -5245,11 +5245,11 @@ namespace Xtreme
 			this._chkCommon_7.Text = "Auto Generate Voucher No.";
 			this._chkCommon_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_7.Visible = true;
-			this._chkCommon_7.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_7.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _lblCommon_47
 			// 
-			this._lblCommon_47.AllowDrop = true;
+			//this._lblCommon_47.AllowDrop = true;
 			this._lblCommon_47.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_47.Text = "Number Method";
 			this._lblCommon_47.ForeColor = System.Drawing.Color.Black;
@@ -5260,7 +5260,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_39
 			// 
-			this._txtCommon_39.AllowDrop = true;
+			//this._txtCommon_39.AllowDrop = true;
 			this._txtCommon_39.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_39.bolNumericOnly = true;
 			this._txtCommon_39.ForeColor = System.Drawing.Color.Black;
@@ -5275,7 +5275,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_6
 			// 
-			this._chkCommon_6.AllowDrop = true;
+			//this._chkCommon_6.AllowDrop = true;
 			this._chkCommon_6.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_6.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_6.CausesValidation = true;
@@ -5292,11 +5292,11 @@ namespace Xtreme
 			this._chkCommon_6.Text = "Show in Menu";
 			this._chkCommon_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_6.Visible = true;
-			this._chkCommon_6.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_6.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _fraCommon_2
 			// 
-			this._fraCommon_2.AllowDrop = true;
+			//this._fraCommon_2.AllowDrop = true;
 			this._fraCommon_2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_2.Controls.Add(this._chkCommon_131);
 			this._fraCommon_2.Controls.Add(this._chkCommon_122);
@@ -5327,7 +5327,7 @@ namespace Xtreme
 			// 
 			// _chkCommon_131
 			// 
-			this._chkCommon_131.AllowDrop = true;
+			//this._chkCommon_131.AllowDrop = true;
 			this._chkCommon_131.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_131.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_131.CausesValidation = true;
@@ -5344,11 +5344,11 @@ namespace Xtreme
 			this._chkCommon_131.Text = "Generate R/P Voucher";
 			this._chkCommon_131.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_131.Visible = true;
-			this._chkCommon_131.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_131.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_122
 			// 
-			this._chkCommon_122.AllowDrop = true;
+			//this._chkCommon_122.AllowDrop = true;
 			this._chkCommon_122.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_122.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_122.CausesValidation = true;
@@ -5365,11 +5365,11 @@ namespace Xtreme
 			this._chkCommon_122.Text = "Affect GL With Expenses";
 			this._chkCommon_122.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_122.Visible = true;
-			this._chkCommon_122.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_122.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_93
 			// 
-			this._chkCommon_93.AllowDrop = true;
+			//this._chkCommon_93.AllowDrop = true;
 			this._chkCommon_93.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_93.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_93.CausesValidation = true;
@@ -5386,11 +5386,11 @@ namespace Xtreme
 			this._chkCommon_93.Text = "Generate On Multiple Locations";
 			this._chkCommon_93.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_93.Visible = true;
-			this._chkCommon_93.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_93.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_0
 			// 
-			this._chkCommon_0.AllowDrop = true;
+			//this._chkCommon_0.AllowDrop = true;
 			this._chkCommon_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_0.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_0.CausesValidation = true;
@@ -5407,11 +5407,11 @@ namespace Xtreme
 			this._chkCommon_0.Text = "Affect GLS";
 			this._chkCommon_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_0.Visible = true;
-			this._chkCommon_0.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_0.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_1
 			// 
-			this._chkCommon_1.AllowDrop = true;
+			//this._chkCommon_1.AllowDrop = true;
 			this._chkCommon_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_1.CausesValidation = true;
@@ -5428,11 +5428,11 @@ namespace Xtreme
 			this._chkCommon_1.Text = "Affect ICS";
 			this._chkCommon_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_1.Visible = true;
-			this._chkCommon_1.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_1.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_2
 			// 
-			this._chkCommon_2.AllowDrop = true;
+			//this._chkCommon_2.AllowDrop = true;
 			this._chkCommon_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_2.CausesValidation = true;
@@ -5449,11 +5449,11 @@ namespace Xtreme
 			this._chkCommon_2.Text = "Affect Cost";
 			this._chkCommon_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_2.Visible = true;
-			this._chkCommon_2.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_2.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_3
 			// 
-			this._chkCommon_3.AllowDrop = true;
+			//this._chkCommon_3.AllowDrop = true;
 			this._chkCommon_3.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_3.CausesValidation = true;
@@ -5470,11 +5470,11 @@ namespace Xtreme
 			this._chkCommon_3.Text = "Affect Opening Value";
 			this._chkCommon_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_3.Visible = true;
-			this._chkCommon_3.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_3.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _chkCommon_5
 			// 
-			this._chkCommon_5.AllowDrop = true;
+			//this._chkCommon_5.AllowDrop = true;
 			this._chkCommon_5.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_5.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_5.CausesValidation = true;
@@ -5491,11 +5491,11 @@ namespace Xtreme
 			this._chkCommon_5.Text = "Store to Store";
 			this._chkCommon_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_5.Visible = true;
-			this._chkCommon_5.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_5.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _optCommonAffectType_8
 			// 
-			this._optCommonAffectType_8.AllowDrop = true;
+			//this._optCommonAffectType_8.AllowDrop = true;
 			this._optCommonAffectType_8.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_8.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_8.CausesValidation = true;
@@ -5512,11 +5512,11 @@ namespace Xtreme
 			this._optCommonAffectType_8.Text = "None";
 			this._optCommonAffectType_8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_8.Visible = true;
-			this._optCommonAffectType_8.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_8.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_7
 			// 
-			this._optCommonAffectType_7.AllowDrop = true;
+			//this._optCommonAffectType_7.AllowDrop = true;
 			this._optCommonAffectType_7.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_7.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_7.CausesValidation = true;
@@ -5533,11 +5533,11 @@ namespace Xtreme
 			this._optCommonAffectType_7.Text = "Stock On Order (Sales)";
 			this._optCommonAffectType_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_7.Visible = true;
-			this._optCommonAffectType_7.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_7.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_2
 			// 
-			this._optCommonAffectType_2.AllowDrop = true;
+			//this._optCommonAffectType_2.AllowDrop = true;
 			this._optCommonAffectType_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_2.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_2.CausesValidation = true;
@@ -5554,11 +5554,11 @@ namespace Xtreme
 			this._optCommonAffectType_2.Text = "Stock In Transit (Purchase)";
 			this._optCommonAffectType_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_2.Visible = true;
-			this._optCommonAffectType_2.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_2.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_3
 			// 
-			this._optCommonAffectType_3.AllowDrop = true;
+			//this._optCommonAffectType_3.AllowDrop = true;
 			this._optCommonAffectType_3.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_3.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_3.CausesValidation = true;
@@ -5575,11 +5575,11 @@ namespace Xtreme
 			this._optCommonAffectType_3.Text = "Stock On Order (Purchase)";
 			this._optCommonAffectType_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_3.Visible = true;
-			this._optCommonAffectType_3.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_3.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_4
 			// 
-			this._optCommonAffectType_4.AllowDrop = true;
+			//this._optCommonAffectType_4.AllowDrop = true;
 			this._optCommonAffectType_4.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_4.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_4.CausesValidation = true;
@@ -5596,11 +5596,11 @@ namespace Xtreme
 			this._optCommonAffectType_4.Text = "Reserved Stock";
 			this._optCommonAffectType_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_4.Visible = true;
-			this._optCommonAffectType_4.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_4.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_5
 			// 
-			this._optCommonAffectType_5.AllowDrop = true;
+			//this._optCommonAffectType_5.AllowDrop = true;
 			this._optCommonAffectType_5.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_5.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_5.CausesValidation = true;
@@ -5617,11 +5617,11 @@ namespace Xtreme
 			this._optCommonAffectType_5.Text = "Advanced Booked Stock";
 			this._optCommonAffectType_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_5.Visible = true;
-			this._optCommonAffectType_5.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_5.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_6
 			// 
-			this._optCommonAffectType_6.AllowDrop = true;
+			//this._optCommonAffectType_6.AllowDrop = true;
 			this._optCommonAffectType_6.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_6.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_6.CausesValidation = true;
@@ -5638,11 +5638,11 @@ namespace Xtreme
 			this._optCommonAffectType_6.Text = "Stock Return in Transit (Sales)";
 			this._optCommonAffectType_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_6.Visible = true;
-			this._optCommonAffectType_6.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_6.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_1
 			// 
-			this._optCommonAffectType_1.AllowDrop = true;
+			//this._optCommonAffectType_1.AllowDrop = true;
 			this._optCommonAffectType_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_1.CausesValidation = true;
@@ -5659,11 +5659,11 @@ namespace Xtreme
 			this._optCommonAffectType_1.Text = "Allocated Stock (Sales)";
 			this._optCommonAffectType_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_1.Visible = true;
-			this._optCommonAffectType_1.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_1.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _optCommonAffectType_0
 			// 
-			this._optCommonAffectType_0.AllowDrop = true;
+			//this._optCommonAffectType_0.AllowDrop = true;
 			this._optCommonAffectType_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonAffectType_0.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonAffectType_0.CausesValidation = true;
@@ -5680,11 +5680,11 @@ namespace Xtreme
 			this._optCommonAffectType_0.Text = "On Hand Stock";
 			this._optCommonAffectType_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonAffectType_0.Visible = true;
-			this._optCommonAffectType_0.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
+			//this._optCommonAffectType_0.CheckedChanged += new System.EventHandler(this.optCommonAffectType_CheckedChanged);
 			// 
 			// _fraCommon_4
 			// 
-			this._fraCommon_4.AllowDrop = true;
+			//this._fraCommon_4.AllowDrop = true;
 			this._fraCommon_4.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._fraCommon_4.Controls.Add(this._optCommonQtyEffect_1);
 			this._fraCommon_4.Controls.Add(this._optCommonQtyEffect_0);
@@ -5700,7 +5700,7 @@ namespace Xtreme
 			// 
 			// _optCommonQtyEffect_1
 			// 
-			this._optCommonQtyEffect_1.AllowDrop = true;
+			//this._optCommonQtyEffect_1.AllowDrop = true;
 			this._optCommonQtyEffect_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonQtyEffect_1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonQtyEffect_1.CausesValidation = true;
@@ -5717,11 +5717,11 @@ namespace Xtreme
 			this._optCommonQtyEffect_1.Text = "Deduct Stock";
 			this._optCommonQtyEffect_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonQtyEffect_1.Visible = true;
-			this._optCommonQtyEffect_1.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
+			//this._optCommonQtyEffect_1.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
 			// 
 			// _optCommonQtyEffect_0
 			// 
-			this._optCommonQtyEffect_0.AllowDrop = true;
+			//this._optCommonQtyEffect_0.AllowDrop = true;
 			this._optCommonQtyEffect_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optCommonQtyEffect_0.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._optCommonQtyEffect_0.CausesValidation = true;
@@ -5738,11 +5738,11 @@ namespace Xtreme
 			this._optCommonQtyEffect_0.Text = "Increase Stock";
 			this._optCommonQtyEffect_0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._optCommonQtyEffect_0.Visible = true;
-			this._optCommonQtyEffect_0.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
+			//this._optCommonQtyEffect_0.CheckedChanged += new System.EventHandler(this.optCommonQtyEffect_CheckedChanged);
 			// 
 			// _chkCommon_4
 			// 
-			this._chkCommon_4.AllowDrop = true;
+			//this._chkCommon_4.AllowDrop = true;
 			this._chkCommon_4.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._chkCommon_4.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._chkCommon_4.CausesValidation = true;
@@ -5759,11 +5759,11 @@ namespace Xtreme
 			this._chkCommon_4.Text = "Show";
 			this._chkCommon_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this._chkCommon_4.Visible = true;
-			this._chkCommon_4.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
+			//this._chkCommon_4.CheckStateChanged += new System.EventHandler(this.chkCommon_CheckStateChanged);
 			// 
 			// _lblCommon_8
 			// 
-			this._lblCommon_8.AllowDrop = true;
+			//this._lblCommon_8.AllowDrop = true;
 			this._lblCommon_8.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_8.Text = "Parent Type";
 			this._lblCommon_8.ForeColor = System.Drawing.Color.Black;
@@ -5774,7 +5774,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_9
 			// 
-			this._lblCommon_9.AllowDrop = true;
+			//this._lblCommon_9.AllowDrop = true;
 			this._lblCommon_9.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_9.Text = "Module Id";
 			this._lblCommon_9.ForeColor = System.Drawing.Color.Black;
@@ -5785,7 +5785,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_10
 			// 
-			this._lblCommon_10.AllowDrop = true;
+			//this._lblCommon_10.AllowDrop = true;
 			this._lblCommon_10.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_10.Text = "Preference Id";
 			this._lblCommon_10.ForeColor = System.Drawing.Color.Black;
@@ -5796,7 +5796,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_11
 			// 
-			this._lblCommon_11.AllowDrop = true;
+			//this._lblCommon_11.AllowDrop = true;
 			this._lblCommon_11.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_11.Text = "Find Id";
 			this._lblCommon_11.ForeColor = System.Drawing.Color.Black;
@@ -5807,7 +5807,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_1
 			// 
-			this._txtCommonLabel_1.AllowDrop = true;
+			//this._txtCommonLabel_1.AllowDrop = true;
 			this._txtCommonLabel_1.Location = new System.Drawing.Point(193, 35);
 			this._txtCommonLabel_1.Name = "_txtCommonLabel_1";
 			this._txtCommonLabel_1.Size = new System.Drawing.Size(201, 19);
@@ -5815,7 +5815,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_17
 			// 
-			this._lblCommon_17.AllowDrop = true;
+			//this._lblCommon_17.AllowDrop = true;
 			this._lblCommon_17.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this._lblCommon_17.Text = "Document Type";
 			this._lblCommon_17.ForeColor = System.Drawing.Color.Black;
@@ -5826,7 +5826,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_3
 			// 
-			this._txtCommonLabel_3.AllowDrop = true;
+			//this._txtCommonLabel_3.AllowDrop = true;
 			this._txtCommonLabel_3.Location = new System.Drawing.Point(193, 14);
 			this._txtCommonLabel_3.Name = "_txtCommonLabel_3";
 			this._txtCommonLabel_3.Size = new System.Drawing.Size(201, 19);
@@ -5834,7 +5834,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_7
 			// 
-			this._txtCommon_7.AllowDrop = true;
+			//this._txtCommon_7.AllowDrop = true;
 			this._txtCommon_7.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_7.bolNumericOnly = true;
 			this._txtCommon_7.ForeColor = System.Drawing.Color.Black;
@@ -5850,7 +5850,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_8
 			// 
-			this._txtCommon_8.AllowDrop = true;
+			//this._txtCommon_8.AllowDrop = true;
 			this._txtCommon_8.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_8.bolNumericOnly = true;
 			this._txtCommon_8.ForeColor = System.Drawing.Color.Black;
@@ -5866,7 +5866,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_2
 			// 
-			this._txtCommonLabel_2.AllowDrop = true;
+			//this._txtCommonLabel_2.AllowDrop = true;
 			this._txtCommonLabel_2.Location = new System.Drawing.Point(193, 77);
 			this._txtCommonLabel_2.Name = "_txtCommonLabel_2";
 			this._txtCommonLabel_2.Size = new System.Drawing.Size(201, 19);
@@ -5874,7 +5874,7 @@ namespace Xtreme
 			// 
 			// _txtCommonLabel_21
 			// 
-			this._txtCommonLabel_21.AllowDrop = true;
+			//this._txtCommonLabel_21.AllowDrop = true;
 			this._txtCommonLabel_21.Location = new System.Drawing.Point(193, 56);
 			this._txtCommonLabel_21.Name = "_txtCommonLabel_21";
 			this._txtCommonLabel_21.Size = new System.Drawing.Size(201, 19);
@@ -5882,7 +5882,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_6
 			// 
-			this._txtCommon_6.AllowDrop = true;
+			//this._txtCommon_6.AllowDrop = true;
 			this._txtCommon_6.BackColor = System.Drawing.Color.White;
 			// this._txtCommon_6.bolNumericOnly = true;
 			this._txtCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -5898,7 +5898,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_9
 			// 
-			this._txtCommon_9.AllowDrop = true;
+			//this._txtCommon_9.AllowDrop = true;
 			this._txtCommon_9.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_9.ForeColor = System.Drawing.Color.Black;
@@ -5916,7 +5916,7 @@ namespace Xtreme
 			// 
 			// _cmbCommon_0
 			// 
-			this._cmbCommon_0.AllowDrop = true;
+			//this._cmbCommon_0.AllowDrop = true;
 			this._cmbCommon_0.Location = new System.Drawing.Point(488, 184);
 			this._cmbCommon_0.Name = "_cmbCommon_0";
 			this._cmbCommon_0.Size = new System.Drawing.Size(72, 21);
@@ -5924,7 +5924,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(328, 26);
@@ -5939,7 +5939,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(328, 47);
@@ -5955,7 +5955,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -5973,7 +5973,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_1.Text = "Voucher Name (English)";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -5984,7 +5984,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_6
 			// 
-			this._lblCommon_6.AllowDrop = true;
+			//this._lblCommon_6.AllowDrop = true;
 			this._lblCommon_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_6.Text = "Voucher Name (Arabic)";
 			this._lblCommon_6.ForeColor = System.Drawing.Color.Black;
@@ -5995,7 +5995,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_7.Text = "(Total No of Transactions : 0) ";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.FromArgb(126, 126, 126);
@@ -6007,7 +6007,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_2.Text = "Description";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -6018,7 +6018,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_3
 			// 
-			this._txtCommon_3.AllowDrop = true;
+			//this._txtCommon_3.AllowDrop = true;
 			this._txtCommon_3.BackColor = System.Drawing.Color.White;
 			this._txtCommon_3.ForeColor = System.Drawing.Color.White;
 			this._txtCommon_3.Location = new System.Drawing.Point(82, 74);
@@ -6033,7 +6033,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_4
 			// 
-			this._txtCommon_4.AllowDrop = true;
+			//this._txtCommon_4.AllowDrop = true;
 			this._txtCommon_4.BackColor = System.Drawing.Color.White;
 			this._txtCommon_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_4.Location = new System.Drawing.Point(664, 26);
@@ -6048,7 +6048,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_5
 			// 
-			this._txtCommon_5.AllowDrop = true;
+			//this._txtCommon_5.AllowDrop = true;
 			this._txtCommon_5.BackColor = System.Drawing.Color.White;
 			this._txtCommon_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_5.Location = new System.Drawing.Point(664, 47);
@@ -6064,7 +6064,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_4
 			// 
-			this._lblCommon_4.AllowDrop = true;
+			//this._lblCommon_4.AllowDrop = true;
 			this._lblCommon_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_4.Text = "Short Name (English)";
 			this._lblCommon_4.ForeColor = System.Drawing.Color.Black;
@@ -6075,7 +6075,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Short Name (Arabic)";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -6086,7 +6086,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_44
 			// 
-			this._lblCommon_44.AllowDrop = true;
+			//this._lblCommon_44.AllowDrop = true;
 			this._lblCommon_44.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_44.Text = "Voucher Type";
 			this._lblCommon_44.ForeColor = System.Drawing.Color.Black;

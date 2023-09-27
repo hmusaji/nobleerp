@@ -78,7 +78,7 @@ namespace Xtreme
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.txtComment);
 			this.cntMainParameter.Controls.Add(this.txtNatNo);
 			this.cntMainParameter.Controls.Add(this.lblLNatName);
@@ -96,9 +96,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(146, 76);
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// txtNatNo
 			// 
-			this.txtNatNo.AllowDrop = true;
+			//this.txtNatNo.AllowDrop = true;
 			this.txtNatNo.BackColor = System.Drawing.Color.White;
 			// this.txtNatNo.bolNumericOnly = true;
 			this.txtNatNo.ForeColor = System.Drawing.Color.Black;
@@ -127,7 +127,7 @@ namespace Xtreme
 			// 
 			// lblLNatName
 			// 
-			this.lblLNatName.AllowDrop = true;
+			//this.lblLNatName.AllowDrop = true;
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLNatName.Text = "Nationality Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(8, 35);
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// txtLNatName
 			// 
-			this.txtLNatName.AllowDrop = true;
+			//this.txtLNatName.AllowDrop = true;
 			this.txtLNatName.BackColor = System.Drawing.Color.White;
 			this.txtLNatName.ForeColor = System.Drawing.Color.Black;
 			this.txtLNatName.Location = new System.Drawing.Point(146, 33);
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// lblANatName
 			// 
-			this.lblANatName.AllowDrop = true;
+			//this.lblANatName.AllowDrop = true;
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblANatName.Text = "Nationality Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(8, 56);
@@ -161,7 +161,7 @@ namespace Xtreme
 			// 
 			// txtANatName
 			// 
-			this.txtANatName.AllowDrop = true;
+			//this.txtANatName.AllowDrop = true;
 			this.txtANatName.BackColor = System.Drawing.Color.White;
 			this.txtANatName.ForeColor = System.Drawing.Color.Black;
 			this.txtANatName.Location = new System.Drawing.Point(146, 54);
@@ -174,7 +174,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(8, 76);
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// lblNatNo
 			// 
-			this.lblNatNo.AllowDrop = true;
+			//this.lblNatNo.AllowDrop = true;
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblNatNo.Text = "Nationality Code";
 			this.lblNatNo.Location = new System.Drawing.Point(8, 14);

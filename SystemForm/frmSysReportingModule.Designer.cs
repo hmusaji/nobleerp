@@ -73,7 +73,7 @@ namespace Xtreme
 		public System.Windows.Forms.Label lblGroupPrefix;
 		public System.Windows.Forms.TextBox txtGroupSuffix;
 		public System.Windows.Forms.Label lblTabSpaceInTree;
-		public AxXtremeSuiteControls.AxSlider rptLevelSlider;
+		//public AxXtremeSuiteControls.AxSlider rptLevelSlider;
 		public System.Windows.Forms.Panel fraOptions;
 		public System.Windows.Forms.ComboBox cmbReportFilter;
 		public System.Windows.Forms.Label lblToDate;
@@ -102,7 +102,7 @@ namespace Xtreme
 		public System.Windows.Forms.Panel fraLedgerInformation;
 		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabMaster;
 		public System.Windows.Forms.ImageList imlShortcutBarIcons;
-		public UpgradeHelpers.Gui.ListViewHelper listViewHelper1;
+		//public UpgradeHelpers.Gui.ListViewHelper listViewHelper1;
 		//NOTE: The following procedure is required by the Windows Form Designer
 		//It can be modified using the Windows Form Designer.
 		//Do not modify it using the code editor.
@@ -143,7 +143,7 @@ namespace Xtreme
 			this.lblGroupPrefix = new System.Windows.Forms.Label();
 			this.txtGroupSuffix = new System.Windows.Forms.TextBox();
 			this.lblTabSpaceInTree = new System.Windows.Forms.Label();
-			this.rptLevelSlider = new AxXtremeSuiteControls.AxSlider();
+			//this.rptLevelSlider = new AxXtremeSuiteControls.AxSlider();
 			this.cmbReportFilter = new System.Windows.Forms.ComboBox();
 			this.fraDateRange = new System.Windows.Forms.Panel();
 			this.lblToDate = new System.Windows.Forms.Label();
@@ -180,7 +180,7 @@ namespace Xtreme
 			//this.lstReport.SuspendLayout();
 			//this.fraVoucherRange.SuspendLayout();
 			this.SuspendLayout();
-			this.listViewHelper1 = new UpgradeHelpers.Gui.ListViewHelper(this.components);
+			//this.listViewHelper1 = new UpgradeHelpers.Gui.ListViewHelper(this.components);
 			// //((System.ComponentModel.ISupportInitialize) this.listViewHelper1).BeginInit();
 			// 
 			// imlShortcutBarIconsBig
@@ -205,7 +205,7 @@ namespace Xtreme
 			// tabMaster
 			// 
 			//this.tabMaster.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.fraLedgerInformation);
 			this.tabMaster.Location = new System.Drawing.Point(4, 14);
 			this.tabMaster.Name = "tabMaster";
@@ -216,9 +216,9 @@ namespace Xtreme
 			// 
 			// fraLedgerInformation
 			// 
-			this.fraLedgerInformation.AllowDrop = true;
+			//this.fraLedgerInformation.AllowDrop = true;
 			this.fraLedgerInformation.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.fraLedgerInformation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraLedgerInformation.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraLedgerInformation.Controls.Add(this.fraCostCenter);
 			this.fraLedgerInformation.Controls.Add(this.txtFromVoucherNo);
 			this.fraLedgerInformation.Controls.Add(this.fraOptions);
@@ -247,9 +247,9 @@ namespace Xtreme
 			// 
 			// fraCostCenter
 			// 
-			this.fraCostCenter.AllowDrop = true;
+			//this.fraCostCenter.AllowDrop = true;
 			this.fraCostCenter.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.fraCostCenter.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraCostCenter.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraCostCenter.Controls.Add(this.txtAdvanceCostCode);
 			this.fraCostCenter.Controls.Add(this.lblAdvanceCostCode);
 			this.fraCostCenter.Controls.Add(this.txtDCostCenterName);
@@ -264,7 +264,7 @@ namespace Xtreme
 			// 
 			// txtAdvanceCostCode
 			// 
-			this.txtAdvanceCostCode.AllowDrop = true;
+			//this.txtAdvanceCostCode.AllowDrop = true;
 			this.txtAdvanceCostCode.BackColor = System.Drawing.Color.White;
 			this.txtAdvanceCostCode.ForeColor = System.Drawing.Color.Black;
 			this.txtAdvanceCostCode.Location = new System.Drawing.Point(130, 0);
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// lblAdvanceCostCode
 			// 
-			this.lblAdvanceCostCode.AllowDrop = true;
+			//this.lblAdvanceCostCode.AllowDrop = true;
 			this.lblAdvanceCostCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblAdvanceCostCode.Text = "Cost Center Code";
 			this.lblAdvanceCostCode.ForeColor = System.Drawing.Color.Black;
@@ -290,7 +290,7 @@ namespace Xtreme
 			// 
 			// txtDCostCenterName
 			// 
-			this.txtDCostCenterName.AllowDrop = true;
+			//this.txtDCostCenterName.AllowDrop = true;
 			this.txtDCostCenterName.Enabled = false;
 			this.txtDCostCenterName.Location = new System.Drawing.Point(234, 0);
 			this.txtDCostCenterName.Name = "txtDCostCenterName";
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// txtFromVoucherNo
 			// 
-			this.txtFromVoucherNo.AllowDrop = true;
+			//this.txtFromVoucherNo.AllowDrop = true;
 			this.txtFromVoucherNo.BackColor = System.Drawing.Color.White;
 			this.txtFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtFromVoucherNo.Location = new System.Drawing.Point(656, 140);
@@ -312,9 +312,9 @@ namespace Xtreme
 			// 
 			// fraOptions
 			// 
-			this.fraOptions.AllowDrop = true;
+			//this.fraOptions.AllowDrop = true;
 			this.fraOptions.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.fraOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraOptions.Controls.Add(this.chkShowCYOpeningBalance);
 			this.fraOptions.Controls.Add(this.chkShowCYCurrentBalance);
 			this.fraOptions.Controls.Add(this.chkShowCYProfitAndLoss);
@@ -337,7 +337,7 @@ namespace Xtreme
 			this.fraOptions.Controls.Add(this.lblGroupPrefix);
 			this.fraOptions.Controls.Add(this.txtGroupSuffix);
 			this.fraOptions.Controls.Add(this.lblTabSpaceInTree);
-			this.fraOptions.Controls.Add(this.rptLevelSlider);
+			//this.fraOptions.Controls.Add(this.rptLevelSlider);
 			this.fraOptions.Enabled = true;
 			this.fraOptions.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.fraOptions.Location = new System.Drawing.Point(518, 252);
@@ -350,7 +350,7 @@ namespace Xtreme
 			// 
 			// chkShowCYOpeningBalance
 			// 
-			this.chkShowCYOpeningBalance.AllowDrop = true;
+			//this.chkShowCYOpeningBalance.AllowDrop = true;
 			this.chkShowCYOpeningBalance.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowCYOpeningBalance.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowCYOpeningBalance.CausesValidation = true;
@@ -370,7 +370,7 @@ namespace Xtreme
 			// 
 			// chkShowCYCurrentBalance
 			// 
-			this.chkShowCYCurrentBalance.AllowDrop = true;
+			//this.chkShowCYCurrentBalance.AllowDrop = true;
 			this.chkShowCYCurrentBalance.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowCYCurrentBalance.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowCYCurrentBalance.CausesValidation = true;
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// chkShowCYProfitAndLoss
 			// 
-			this.chkShowCYProfitAndLoss.AllowDrop = true;
+			//this.chkShowCYProfitAndLoss.AllowDrop = true;
 			this.chkShowCYProfitAndLoss.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowCYProfitAndLoss.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowCYProfitAndLoss.CausesValidation = true;
@@ -410,7 +410,7 @@ namespace Xtreme
 			// 
 			// chkShowLYOpeningBalance
 			// 
-			this.chkShowLYOpeningBalance.AllowDrop = true;
+			//this.chkShowLYOpeningBalance.AllowDrop = true;
 			this.chkShowLYOpeningBalance.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowLYOpeningBalance.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowLYOpeningBalance.CausesValidation = true;
@@ -430,7 +430,7 @@ namespace Xtreme
 			// 
 			// chkShowLYProfitAndLoss
 			// 
-			this.chkShowLYProfitAndLoss.AllowDrop = true;
+			//this.chkShowLYProfitAndLoss.AllowDrop = true;
 			this.chkShowLYProfitAndLoss.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowLYProfitAndLoss.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowLYProfitAndLoss.CausesValidation = true;
@@ -450,7 +450,7 @@ namespace Xtreme
 			// 
 			// chkShowLYCurrentBalance
 			// 
-			this.chkShowLYCurrentBalance.AllowDrop = true;
+			//this.chkShowLYCurrentBalance.AllowDrop = true;
 			this.chkShowLYCurrentBalance.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowLYCurrentBalance.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowLYCurrentBalance.CausesValidation = true;
@@ -470,7 +470,7 @@ namespace Xtreme
 			// 
 			// chkShowLedgerWithZeroBalance
 			// 
-			this.chkShowLedgerWithZeroBalance.AllowDrop = true;
+			//this.chkShowLedgerWithZeroBalance.AllowDrop = true;
 			this.chkShowLedgerWithZeroBalance.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowLedgerWithZeroBalance.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.chkShowLedgerWithZeroBalance.CausesValidation = true;
@@ -490,7 +490,7 @@ namespace Xtreme
 			// 
 			// txtDAnalysisName2
 			// 
-			this.txtDAnalysisName2.AllowDrop = true;
+			//this.txtDAnalysisName2.AllowDrop = true;
 			this.txtDAnalysisName2.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDAnalysisName2.Enabled = false;
 			this.txtDAnalysisName2.Location = new System.Drawing.Point(242, 43);
@@ -501,7 +501,7 @@ namespace Xtreme
 			// 
 			// txtDAnalysisName1
 			// 
-			this.txtDAnalysisName1.AllowDrop = true;
+			//this.txtDAnalysisName1.AllowDrop = true;
 			this.txtDAnalysisName1.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDAnalysisName1.Enabled = false;
 			this.txtDAnalysisName1.Location = new System.Drawing.Point(242, 22);
@@ -512,7 +512,7 @@ namespace Xtreme
 			// 
 			// txtAnalysisCode2
 			// 
-			this.txtAnalysisCode2.AllowDrop = true;
+			//this.txtAnalysisCode2.AllowDrop = true;
 			this.txtAnalysisCode2.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtAnalysisCode2.ForeColor = System.Drawing.Color.Black;
@@ -528,7 +528,7 @@ namespace Xtreme
 			// 
 			// txtAnalysisCode1
 			// 
-			this.txtAnalysisCode1.AllowDrop = true;
+			//this.txtAnalysisCode1.AllowDrop = true;
 			this.txtAnalysisCode1.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtAnalysisCode1.ForeColor = System.Drawing.Color.Black;
@@ -544,7 +544,7 @@ namespace Xtreme
 			// 
 			// lblAnalysisCode2
 			// 
-			this.lblAnalysisCode2.AllowDrop = true;
+			//this.lblAnalysisCode2.AllowDrop = true;
 			this.lblAnalysisCode2.BackColor = System.Drawing.SystemColors.Window;
 			this.lblAnalysisCode2.Text = "Analysis Code 2";
 			this.lblAnalysisCode2.ForeColor = System.Drawing.Color.Black;
@@ -555,7 +555,7 @@ namespace Xtreme
 			// 
 			// lblAnalysisCode1
 			// 
-			this.lblAnalysisCode1.AllowDrop = true;
+			//this.lblAnalysisCode1.AllowDrop = true;
 			this.lblAnalysisCode1.BackColor = System.Drawing.SystemColors.Window;
 			this.lblAnalysisCode1.Text = "Analysis Code 1";
 			this.lblAnalysisCode1.ForeColor = System.Drawing.Color.Black;
@@ -566,7 +566,7 @@ namespace Xtreme
 			// 
 			// txtProjectCode
 			// 
-			this.txtProjectCode.AllowDrop = true;
+			//this.txtProjectCode.AllowDrop = true;
 			this.txtProjectCode.BackColor = System.Drawing.Color.White;
 			this.txtProjectCode.ForeColor = System.Drawing.Color.Black;
 			this.txtProjectCode.Location = new System.Drawing.Point(138, 1);
@@ -579,7 +579,7 @@ namespace Xtreme
 			// 
 			// lblProjectCode
 			// 
-			this.lblProjectCode.AllowDrop = true;
+			//this.lblProjectCode.AllowDrop = true;
 			this.lblProjectCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblProjectCode.Text = "Project Code";
 			this.lblProjectCode.ForeColor = System.Drawing.Color.Black;
@@ -590,7 +590,7 @@ namespace Xtreme
 			// 
 			// txtDProjectName
 			// 
-			this.txtDProjectName.AllowDrop = true;
+			//this.txtDProjectName.AllowDrop = true;
 			this.txtDProjectName.Enabled = false;
 			this.txtDProjectName.Location = new System.Drawing.Point(242, 0);
 			this.txtDProjectName.Name = "txtDProjectName";
@@ -600,7 +600,7 @@ namespace Xtreme
 			// 
 			// txtTabSpaceInTree
 			// 
-			this.txtTabSpaceInTree.AllowDrop = true;
+			//this.txtTabSpaceInTree.AllowDrop = true;
 			this.txtTabSpaceInTree.Location = new System.Drawing.Point(138, 87);
 			// // = 50;
 			// // = 0;
@@ -610,7 +610,7 @@ namespace Xtreme
 			// 
 			// lblReportLevel
 			// 
-			this.lblReportLevel.AllowDrop = true;
+			//this.lblReportLevel.AllowDrop = true;
 			this.lblReportLevel.BackColor = System.Drawing.SystemColors.Window;
 			this.lblReportLevel.Text = "Report Level";
 			this.lblReportLevel.ForeColor = System.Drawing.Color.Black;
@@ -621,7 +621,7 @@ namespace Xtreme
 			// 
 			// txtGroupPrefix
 			// 
-			this.txtGroupPrefix.AllowDrop = true;
+			//this.txtGroupPrefix.AllowDrop = true;
 			this.txtGroupPrefix.BackColor = System.Drawing.Color.White;
 			this.txtGroupPrefix.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupPrefix.Location = new System.Drawing.Point(138, 66);
@@ -635,7 +635,7 @@ namespace Xtreme
 			// 
 			// lblGroupPrefix
 			// 
-			this.lblGroupPrefix.AllowDrop = true;
+			//this.lblGroupPrefix.AllowDrop = true;
 			this.lblGroupPrefix.BackColor = System.Drawing.SystemColors.Window;
 			this.lblGroupPrefix.Text = "Group Prefix";
 			this.lblGroupPrefix.ForeColor = System.Drawing.Color.Black;
@@ -646,7 +646,7 @@ namespace Xtreme
 			// 
 			// txtGroupSuffix
 			// 
-			this.txtGroupSuffix.AllowDrop = true;
+			//this.txtGroupSuffix.AllowDrop = true;
 			this.txtGroupSuffix.BackColor = System.Drawing.Color.White;
 			this.txtGroupSuffix.ForeColor = System.Drawing.Color.Black;
 			this.txtGroupSuffix.Location = new System.Drawing.Point(190, 65);
@@ -660,7 +660,7 @@ namespace Xtreme
 			// 
 			// lblTabSpaceInTree
 			// 
-			this.lblTabSpaceInTree.AllowDrop = true;
+			//this.lblTabSpaceInTree.AllowDrop = true;
 			this.lblTabSpaceInTree.BackColor = System.Drawing.SystemColors.Window;
 			this.lblTabSpaceInTree.Text = "Tab Space In Tree";
 			this.lblTabSpaceInTree.ForeColor = System.Drawing.Color.Black;
@@ -671,16 +671,16 @@ namespace Xtreme
 			// 
 			// rptLevelSlider
 			// 
-			this.rptLevelSlider.AllowDrop = true;
-			this.rptLevelSlider.Location = new System.Drawing.Point(138, 112);
-			this.rptLevelSlider.Name = "rptLevelSlider";
-			//
-			this.rptLevelSlider.Size = new System.Drawing.Size(303, 33);
-			this.rptLevelSlider.TabIndex = 22;
+			////this.rptLevelSlider.AllowDrop = true;
+			//this.rptLevelSlider.Location = new System.Drawing.Point(138, 112);
+			//this.rptLevelSlider.Name = "rptLevelSlider";
+			////
+			//this.rptLevelSlider.Size = new System.Drawing.Size(303, 33);
+			//this.rptLevelSlider.TabIndex = 22;
 			// 
 			// cmbReportFilter
 			// 
-			this.cmbReportFilter.AllowDrop = true;
+			//this.cmbReportFilter.AllowDrop = true;
 			this.cmbReportFilter.Location = new System.Drawing.Point(656, 140);
 			this.cmbReportFilter.Name = "cmbReportFilter";
 			this.cmbReportFilter.Size = new System.Drawing.Size(103, 21);
@@ -689,9 +689,9 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraDateRange.Controls.Add(this.lblToDate);
 			this.fraDateRange.Controls.Add(this.lblFromDate);
 			this.fraDateRange.Controls.Add(this.txtFromDate);
@@ -707,7 +707,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
 			this.lblToDate.Location = new System.Drawing.Point(0, 26);
@@ -718,7 +718,7 @@ namespace Xtreme
 			// 
 			// lblFromDate
 			// 
-			this.lblFromDate.AllowDrop = true;
+			//this.lblFromDate.AllowDrop = true;
 			this.lblFromDate.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblFromDate.ForeColor = System.Drawing.Color.Black;
 			this.lblFromDate.Location = new System.Drawing.Point(0, 4);
@@ -729,7 +729,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			this.txtFromDate.Location = new System.Drawing.Point(132, 0);
 			// this.txtFromDate.MaxDate = 2958465;
 			// this.txtFromDate.MinDate = -657434;
@@ -741,7 +741,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			this.txtToDate.Location = new System.Drawing.Point(132, 22);
 			// this.txtToDate.MaxDate = 2958465;
 			// this.txtToDate.MinDate = -657434;
@@ -753,9 +753,9 @@ namespace Xtreme
 			// 
 			// lstGroup
 			// 
-			this.lstGroup.AllowDrop = true;
+			//this.lstGroup.AllowDrop = true;
 			this.lstGroup.BackColor = System.Drawing.SystemColors.Window;
-			this.lstGroup.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.lstGroup.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.lstGroup.Font = new System.Drawing.Font("Arial (Arabic)", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lstGroup.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.lstGroup.FullRowSelect = true;
@@ -785,9 +785,9 @@ namespace Xtreme
 			// 
 			// lstReport
 			// 
-			this.lstReport.AllowDrop = true;
+			//this.lstReport.AllowDrop = true;
 			this.lstReport.BackColor = System.Drawing.SystemColors.Window;
-			this.lstReport.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.lstReport.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.lstReport.Font = new System.Drawing.Font("Arial (Arabic)", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.lstReport.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.lstReport.FullRowSelect = true;
@@ -802,7 +802,7 @@ namespace Xtreme
 			this.lstReport.TabIndex = 7;
 			this.lstReport.View = System.Windows.Forms.View.Details;
 			this.lstReport.Columns.Add(this.lstReport_ColumnHeader_1_);
-			this.lstReport.DoubleClick += new System.EventHandler(this.lstReport_DoubleClick);
+			////this.lstReport.DoubleClick += new System.EventHandler(this.lstReport_DoubleClick);
 			// this.this.lstReport.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lstReport_KeyPress);
 			// 
 			// lstReport_ColumnHeader_1_
@@ -812,7 +812,7 @@ namespace Xtreme
 			// 
 			// txtLocationCode
 			// 
-			this.txtLocationCode.AllowDrop = true;
+			//this.txtLocationCode.AllowDrop = true;
 			this.txtLocationCode.BackColor = System.Drawing.Color.White;
 			this.txtLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.txtLocationCode.Location = new System.Drawing.Point(658, 48);
@@ -828,7 +828,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
 			this.lblLocationCode.Location = new System.Drawing.Point(524, 50);
@@ -839,7 +839,7 @@ namespace Xtreme
 			// 
 			// lblMasterCode
 			// 
-			this.lblMasterCode.AllowDrop = true;
+			//this.lblMasterCode.AllowDrop = true;
 			this.lblMasterCode.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
 			this.lblMasterCode.Location = new System.Drawing.Point(522, 8);
@@ -850,7 +850,7 @@ namespace Xtreme
 			// 
 			// txtMasterCode
 			// 
-			this.txtMasterCode.AllowDrop = true;
+			//this.txtMasterCode.AllowDrop = true;
 			this.txtMasterCode.BackColor = System.Drawing.Color.White;
 			this.txtMasterCode.ForeColor = System.Drawing.Color.Black;
 			this.txtMasterCode.Location = new System.Drawing.Point(656, 6);
@@ -866,9 +866,9 @@ namespace Xtreme
 			// 
 			// fraVoucherRange
 			// 
-			this.fraVoucherRange.AllowDrop = true;
+			//this.fraVoucherRange.AllowDrop = true;
 			this.fraVoucherRange.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.fraVoucherRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraVoucherRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraVoucherRange.Controls.Add(this.txtToVoucherNo);
 			this.fraVoucherRange.Controls.Add(this.lblToVoucherNo);
 			this.fraVoucherRange.Controls.Add(this.lblFromVoucherNo);
@@ -883,7 +883,7 @@ namespace Xtreme
 			// 
 			// txtToVoucherNo
 			// 
-			this.txtToVoucherNo.AllowDrop = true;
+			//this.txtToVoucherNo.AllowDrop = true;
 			this.txtToVoucherNo.BackColor = System.Drawing.Color.White;
 			this.txtToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.txtToVoucherNo.Location = new System.Drawing.Point(134, 24);
@@ -896,7 +896,7 @@ namespace Xtreme
 			// 
 			// lblToVoucherNo
 			// 
-			this.lblToVoucherNo.AllowDrop = true;
+			//this.lblToVoucherNo.AllowDrop = true;
 			this.lblToVoucherNo.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblToVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblToVoucherNo.Location = new System.Drawing.Point(2, 26);
@@ -906,7 +906,7 @@ namespace Xtreme
 			// 
 			// lblFromVoucherNo
 			// 
-			this.lblFromVoucherNo.AllowDrop = true;
+			//this.lblFromVoucherNo.AllowDrop = true;
 			this.lblFromVoucherNo.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblFromVoucherNo.ForeColor = System.Drawing.Color.Black;
 			this.lblFromVoucherNo.Location = new System.Drawing.Point(2, 6);
@@ -916,7 +916,7 @@ namespace Xtreme
 			// 
 			// txtCostCenterCode
 			// 
-			this.txtCostCenterCode.AllowDrop = true;
+			//this.txtCostCenterCode.AllowDrop = true;
 			this.txtCostCenterCode.BackColor = System.Drawing.Color.White;
 			this.txtCostCenterCode.ForeColor = System.Drawing.Color.Black;
 			this.txtCostCenterCode.Location = new System.Drawing.Point(656, 186);
@@ -930,7 +930,7 @@ namespace Xtreme
 			// 
 			// lblCostCenterCode
 			// 
-			this.lblCostCenterCode.AllowDrop = true;
+			//this.lblCostCenterCode.AllowDrop = true;
 			this.lblCostCenterCode.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblCostCenterCode.ForeColor = System.Drawing.Color.Black;
 			this.lblCostCenterCode.Location = new System.Drawing.Point(522, 188);
@@ -941,7 +941,7 @@ namespace Xtreme
 			// 
 			// txtLocationName
 			// 
-			this.txtLocationName.AllowDrop = true;
+			//this.txtLocationName.AllowDrop = true;
 			this.txtLocationName.Location = new System.Drawing.Point(522, 69);
 			this.txtLocationName.Name = "txtLocationName";
 			this.txtLocationName.Size = new System.Drawing.Size(235, 19);
@@ -951,7 +951,7 @@ namespace Xtreme
 			// 
 			// txtMasterName
 			// 
-			this.txtMasterName.AllowDrop = true;
+			//this.txtMasterName.AllowDrop = true;
 			this.txtMasterName.Location = new System.Drawing.Point(522, 26);
 			this.txtMasterName.Name = "txtMasterName";
 			this.txtMasterName.Size = new System.Drawing.Size(235, 19);
@@ -961,7 +961,7 @@ namespace Xtreme
 			// 
 			// lblReportFilter
 			// 
-			this.lblReportFilter.AllowDrop = true;
+			//this.lblReportFilter.AllowDrop = true;
 			this.lblReportFilter.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
 			this.lblReportFilter.ForeColor = System.Drawing.Color.Black;
 			this.lblReportFilter.Location = new System.Drawing.Point(524, 142);
@@ -1011,10 +1011,10 @@ namespace Xtreme
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
 			//this.Resize += new System.EventHandler(this.Form_Resize);
-			this.listViewHelper1.SetItemClickMethod(this.lstReport, "lstReport_ItemClick");
-			this.listViewHelper1.SetCorrectEventsBehavior(this.lstReport, true);
-			this.listViewHelper1.SetItemClickMethod(this.lstGroup, "lstGroup_ItemClick");
-			this.listViewHelper1.SetCorrectEventsBehavior(this.lstGroup, true);
+			//this.listViewHelper1.SetItemClickMethod(this.lstReport, "lstReport_ItemClick");
+			//this.listViewHelper1.SetCorrectEventsBehavior(this.lstReport, true);
+			//this.listViewHelper1.SetItemClickMethod(this.lstGroup, "lstGroup_ItemClick");
+			//this.listViewHelper1.SetCorrectEventsBehavior(this.lstGroup, true);
 			//((System.ComponentModel.ISupportInitialize) this.listViewHelper1).EndInit();
 			//((System.ComponentModel.ISupportInitialize) this.rptLevelSlider).EndInit();
 			//((System.ComponentModel.ISupportInitialize) this.tabMaster).EndInit();

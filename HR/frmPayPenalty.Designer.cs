@@ -93,7 +93,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Penalty Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(8, 57);
@@ -104,7 +104,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Penalty Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(8, 78);
@@ -115,7 +115,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Penalty Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(8, 99);
@@ -126,7 +126,7 @@ namespace Xtreme
 			// 
 			// txtPenaltyNo
 			// 
-			this.txtPenaltyNo.AllowDrop = true;
+			//this.txtPenaltyNo.AllowDrop = true;
 			this.txtPenaltyNo.BackColor = System.Drawing.Color.White;
 			// this.txtPenaltyNo.bolNumericOnly = true;
 			this.txtPenaltyNo.ForeColor = System.Drawing.Color.Black;
@@ -142,7 +142,7 @@ namespace Xtreme
 			// 
 			// txtLPenaltyName
 			// 
-			this.txtLPenaltyName.AllowDrop = true;
+			//this.txtLPenaltyName.AllowDrop = true;
 			this.txtLPenaltyName.BackColor = System.Drawing.Color.White;
 			this.txtLPenaltyName.ForeColor = System.Drawing.Color.Black;
 			this.txtLPenaltyName.Location = new System.Drawing.Point(124, 75);
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// txtAPenaltyName
 			// 
-			this.txtAPenaltyName.AllowDrop = true;
+			//this.txtAPenaltyName.AllowDrop = true;
 			this.txtAPenaltyName.BackColor = System.Drawing.Color.White;
 			this.txtAPenaltyName.ForeColor = System.Drawing.Color.Black;
 			this.txtAPenaltyName.Location = new System.Drawing.Point(124, 96);
@@ -167,7 +167,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Bill Code";
 			this.Label1.Location = new System.Drawing.Point(8, 144);
@@ -178,7 +178,7 @@ namespace Xtreme
 			// 
 			// txtBillNo
 			// 
-			this.txtBillNo.AllowDrop = true;
+			//this.txtBillNo.AllowDrop = true;
 			this.txtBillNo.BackColor = System.Drawing.Color.White;
 			// this.txtBillNo.bolNumericOnly = true;
 			this.txtBillNo.ForeColor = System.Drawing.Color.Black;
@@ -195,7 +195,7 @@ namespace Xtreme
 			// 
 			// txtBillCdName
 			// 
-			this.txtBillCdName.AllowDrop = true;
+			//this.txtBillCdName.AllowDrop = true;
 			this.txtBillCdName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtBillCdName.Enabled = false;
 			this.txtBillCdName.Location = new System.Drawing.Point(222, 142);
@@ -206,7 +206,7 @@ namespace Xtreme
 			// grdPenaltySetup
 			// 
 			this.grdPenaltySetup.AllowDelete = true;
-			this.grdPenaltySetup.AllowDrop = true;
+			//this.grdPenaltySetup.AllowDrop = true;
 			this.grdPenaltySetup.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdPenaltySetup.CellTipsWidth = 0;
 			this.grdPenaltySetup.Location = new System.Drawing.Point(6, 180);
@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// lblSystemComponents
 			// 
-			this.lblSystemComponents.AllowDrop = true;
+			//this.lblSystemComponents.AllowDrop = true;
 			this.lblSystemComponents.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSystemComponents.Text = "Penalty Setup";
 			this.lblSystemComponents.Location = new System.Drawing.Point(15, 162);
@@ -239,7 +239,7 @@ namespace Xtreme
 			// 
 			// txtPenaltyGroupCd
 			// 
-			this.txtPenaltyGroupCd.AllowDrop = true;
+			//this.txtPenaltyGroupCd.AllowDrop = true;
 			this.txtPenaltyGroupCd.BackColor = System.Drawing.Color.White;
 			// this.txtPenaltyGroupCd.bolNumericOnly = true;
 			this.txtPenaltyGroupCd.ForeColor = System.Drawing.Color.Black;
@@ -256,7 +256,7 @@ namespace Xtreme
 			// 
 			// txtDlblPenaltyGroupName
 			// 
-			this.txtDlblPenaltyGroupName.AllowDrop = true;
+			//this.txtDlblPenaltyGroupName.AllowDrop = true;
 			this.txtDlblPenaltyGroupName.BackColor = System.Drawing.SystemColors.Window;
 			this.txtDlblPenaltyGroupName.Enabled = false;
 			this.txtDlblPenaltyGroupName.Location = new System.Drawing.Point(222, 120);
@@ -266,7 +266,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Penalty Group Code";
 			this.Label2.Location = new System.Drawing.Point(9, 120);
@@ -276,9 +276,9 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(6, 169);
 			this.Line1.Name = "Line1";

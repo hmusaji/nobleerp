@@ -77,12 +77,12 @@ namespace Xtreme
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_0_cmbFieldList;
 		public C1.Win.C1TrueDBGrid.C1DataColumn Column_1_cmbFieldList;
 		public C1.Win.C1TrueDBGrid.C1TrueDBDropdown cmbFieldList;
-		public AxXtremeSuiteControls.AxUpDown UpDown;
+		public AxUpDown UpDown;
 		public Syncfusion.Windows.Forms.Tools.TabPageAdv tabFields;
 		public Syncfusion.Windows.Forms.Tools.TabControlAdv tabReportOptions;
 		public System.Windows.Forms.FontDialog cdgGetFontWindowFont;
 		public System.Windows.Forms.ColorDialog cdgGetFontWindowColor;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog cdgGetFontWindow;
+		public AxCommonDialog cdgGetFontWindow;
 		public System.Windows.Forms.TextBox txtReportName;
 		private System.Windows.Forms.Label _lblCommon_0;
 		public Syncfusion.WinForms.Input.SfDateTimeEdit txtTempDate;
@@ -141,10 +141,10 @@ namespace Xtreme
 			this.cmbFieldList = new C1.Win.C1TrueDBGrid.C1TrueDBDropdown();
 			this.Column_0_cmbFieldList = new C1.Win.C1TrueDBGrid.C1DataColumn();
 			this.Column_1_cmbFieldList = new C1.Win.C1TrueDBGrid.C1DataColumn();
-			this.UpDown = new AxXtremeSuiteControls.AxUpDown();
+			this.UpDown = new AxUpDown();
 			this.cdgGetFontWindowFont = new System.Windows.Forms.FontDialog();
 			this.cdgGetFontWindowColor = new System.Windows.Forms.ColorDialog();
-			this.cdgGetFontWindow = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.cdgGetFontWindow = new AxCommonDialog();
 			this.txtReportName = new System.Windows.Forms.TextBox();
 			this._lblCommon_0 = new System.Windows.Forms.Label();
 			this.txtTempDate = new Syncfusion.WinForms.Input.SfDateTimeEdit();
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// frmHeader
 			// 
-			this.frmHeader.AllowDrop = true;
+			//this.frmHeader.AllowDrop = true;
 			this.frmHeader.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.frmHeader.Controls.Add(this.chkShowFooter);
 			this.frmHeader.Controls.Add(this.chkRowsInAlternateColor);
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// chkShowFooter
 			// 
-			this.chkShowFooter.AllowDrop = true;
+			//this.chkShowFooter.AllowDrop = true;
 			this.chkShowFooter.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowFooter.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkShowFooter.CausesValidation = true;
@@ -214,7 +214,7 @@ namespace Xtreme
 			// 
 			// chkRowsInAlternateColor
 			// 
-			this.chkRowsInAlternateColor.AllowDrop = true;
+			//this.chkRowsInAlternateColor.AllowDrop = true;
 			this.chkRowsInAlternateColor.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkRowsInAlternateColor.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkRowsInAlternateColor.CausesValidation = true;
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// chkShowHorizontalLine
 			// 
-			this.chkShowHorizontalLine.AllowDrop = true;
+			//this.chkShowHorizontalLine.AllowDrop = true;
 			this.chkShowHorizontalLine.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowHorizontalLine.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkShowHorizontalLine.CausesValidation = true;
@@ -254,7 +254,7 @@ namespace Xtreme
 			// 
 			// chkShowVerticleLine
 			// 
-			this.chkShowVerticleLine.AllowDrop = true;
+			//this.chkShowVerticleLine.AllowDrop = true;
 			this.chkShowVerticleLine.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowVerticleLine.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkShowVerticleLine.CausesValidation = true;
@@ -274,7 +274,7 @@ namespace Xtreme
 			// 
 			// chkShowDoubleReportHeader
 			// 
-			this.chkShowDoubleReportHeader.AllowDrop = true;
+			//this.chkShowDoubleReportHeader.AllowDrop = true;
 			this.chkShowDoubleReportHeader.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowDoubleReportHeader.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkShowDoubleReportHeader.CausesValidation = true;
@@ -294,7 +294,7 @@ namespace Xtreme
 			// 
 			// chkShowDoubleCoumnHeader
 			// 
-			this.chkShowDoubleCoumnHeader.AllowDrop = true;
+			//this.chkShowDoubleCoumnHeader.AllowDrop = true;
 			this.chkShowDoubleCoumnHeader.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowDoubleCoumnHeader.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkShowDoubleCoumnHeader.CausesValidation = true;
@@ -314,7 +314,7 @@ namespace Xtreme
 			// 
 			// tabReportOptions
 			// 
-			this.tabReportOptions.AllowDrop = true;
+			//this.tabReportOptions.AllowDrop = true;
 			this.tabReportOptions.Controls.Add(this.TabControlPage1);
 			this.tabReportOptions.Controls.Add(this.tabFormat);
 			this.tabReportOptions.Controls.Add(this.tabFilters);
@@ -324,11 +324,11 @@ namespace Xtreme
 			//
 			this.tabReportOptions.Size = new System.Drawing.Size(455, 261);
 			this.tabReportOptions.TabIndex = 2;
-			this.tabReportOptions.SelectedChanged += new AxXtremeSuiteControls._DTabControlEvents_SelectedChangedEventHandler(this.tabReportOptions_SelectedChanged);
+			//this.tabReportOptions.SelectedChanged += new AxXtremeSuiteControls._DTabControlEvents_SelectedChangedEventHandler(this.tabReportOptions_SelectedChanged);
 			// 
 			// TabControlPage1
 			// 
-			this.TabControlPage1.AllowDrop = true;
+			//this.TabControlPage1.AllowDrop = true;
 			this.TabControlPage1.Controls.Add(this.cmdItalic);
 			this.TabControlPage1.Controls.Add(this.cmdBold);
 			this.TabControlPage1.Controls.Add(this.cmdColor);
@@ -343,7 +343,7 @@ namespace Xtreme
 			// 
 			// cmdItalic
 			// 
-			this.cmdItalic.AllowDrop = true;
+			//this.cmdItalic.AllowDrop = true;
 			this.cmdItalic.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdItalic.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.cmdItalic.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// cmdBold
 			// 
-			this.cmdBold.AllowDrop = true;
+			//this.cmdBold.AllowDrop = true;
 			this.cmdBold.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdBold.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.cmdBold.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -375,7 +375,7 @@ namespace Xtreme
 			// 
 			// cmdColor
 			// 
-			this.cmdColor.AllowDrop = true;
+			//this.cmdColor.AllowDrop = true;
 			this.cmdColor.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdColor.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdColor.Location = new System.Drawing.Point(106, 4);
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// cmdUnderline
 			// 
-			this.cmdUnderline.AllowDrop = true;
+			//this.cmdUnderline.AllowDrop = true;
 			this.cmdUnderline.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdUnderline.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Underline | System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.cmdUnderline.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -406,19 +406,19 @@ namespace Xtreme
 			// 
 			// rtbFooter
 			// 
-			this.rtbFooter.AllowDrop = true;
-			this.rtbFooter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.rtbFooter.AllowDrop = true;
+			//this.rtbFooter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.rtbFooter.Font = new System.Drawing.Font("Arial", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.rtbFooter.Location = new System.Drawing.Point(2, 28);
 			this.rtbFooter.Name = "rtbFooter";
-			this.rtbFooter.Rtf = resources.GetString("rtbFooter.TextRTF");
+			//this.rtbFooter.Rtf = resources.GetString("rtbFooter.TextRTF");
 			this.rtbFooter.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Both;
 			this.rtbFooter.Size = new System.Drawing.Size(447, 203);
 			this.rtbFooter.TabIndex = 29;
 			// 
 			// tabFormat
 			// 
-			this.tabFormat.AllowDrop = true;
+			//this.tabFormat.AllowDrop = true;
 			this.tabFormat.Controls.Add(this.grdReportFormats);
 			this.tabFormat.Controls.Add(this.cmbFormatList);
 			this.tabFormat.Location = new System.Drawing.Point(-4664, 26);
@@ -430,7 +430,7 @@ namespace Xtreme
 			// 
 			// grdReportFormats
 			// 
-			this.grdReportFormats.AllowDrop = true;
+			//this.grdReportFormats.AllowDrop = true;
 			this.grdReportFormats.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdReportFormats.CellTipsWidth = 0;
 			this.grdReportFormats.Location = new System.Drawing.Point(4, 2);
@@ -440,12 +440,12 @@ namespace Xtreme
 			this.grdReportFormats.TabIndex = 16;
 			this.grdReportFormats.Columns.Add(this.Column_0_grdReportFormats);
 			this.grdReportFormats.Columns.Add(this.Column_1_grdReportFormats);
-			this.grdReportFormats.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportFormats_BeforeColEdit);
-			this.grdReportFormats.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportFormats_BeforeRowColChange);
-			this.grdReportFormats.ButtonClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdReportFormats_ButtonClick);
-			// this.this.grdReportFormats.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdReportFormats_KeyPress);
-			this.grdReportFormats.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportFormats_MouseUp);
-			this.grdReportFormats.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportFormats_RowColChange);
+			////this.grdReportFormats.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportFormats_BeforeColEdit);
+			//this.grdReportFormats.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportFormats_BeforeRowColChange);
+			//this.grdReportFormats.ButtonClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdReportFormats_ButtonClick);
+			//// this.this.grdReportFormats.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdReportFormats_KeyPress);
+			////this.grdReportFormats.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportFormats_MouseUp);
+			////this.grdReportFormats.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportFormats_RowColChange);
 			// 
 			// Column_0_grdReportFormats
 			// 
@@ -459,7 +459,7 @@ namespace Xtreme
 			// 
 			// cmbFormatList
 			// 
-			this.cmbFormatList.AllowDrop = true;
+			//this.cmbFormatList.AllowDrop = true;
 			this.cmbFormatList.ColumnHeaders = true;
 			this.cmbFormatList.Enabled = true;
 			this.cmbFormatList.Location = new System.Drawing.Point(286, 0);
@@ -481,7 +481,7 @@ namespace Xtreme
 			// 
 			// tabFilters
 			// 
-			this.tabFilters.AllowDrop = true;
+			//this.tabFilters.AllowDrop = true;
 			this.tabFilters.Controls.Add(this.fraDateRange);
 			this.tabFilters.Controls.Add(this.grdReportFilters);
 			this.tabFilters.Controls.Add(this.cmbFilterList);
@@ -494,7 +494,7 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.fraDateRange.Controls.Add(this._txtDateRange_0);
 			this.fraDateRange.Controls.Add(this._lblCommon_1);
@@ -512,7 +512,7 @@ namespace Xtreme
 			// 
 			// _txtDateRange_0
 			// 
-			this._txtDateRange_0.AllowDrop = true;
+			//this._txtDateRange_0.AllowDrop = true;
 			this._txtDateRange_0.Location = new System.Drawing.Point(76, 20);
 			// this._txtDateRange_0.MaxDate = 2958465;
 			// this._txtDateRange_0.MinDate = -657434;
@@ -523,7 +523,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this._lblCommon_1.Text = "From Date";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -534,7 +534,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this._lblCommon_2.Text = "To Date";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -545,7 +545,7 @@ namespace Xtreme
 			// 
 			// _txtDateRange_1
 			// 
-			this._txtDateRange_1.AllowDrop = true;
+			//this._txtDateRange_1.AllowDrop = true;
 			this._txtDateRange_1.Location = new System.Drawing.Point(306, 20);
 			// this._txtDateRange_1.MaxDate = 2958465;
 			// this._txtDateRange_1.MinDate = -657434;
@@ -556,7 +556,7 @@ namespace Xtreme
 			// 
 			// grdReportFilters
 			// 
-			this.grdReportFilters.AllowDrop = true;
+			//this.grdReportFilters.AllowDrop = true;
 			this.grdReportFilters.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdReportFilters.CellTipsWidth = 0;
 			this.grdReportFilters.Location = new System.Drawing.Point(8, 58);
@@ -566,8 +566,8 @@ namespace Xtreme
 			this.grdReportFilters.TabIndex = 12;
 			this.grdReportFilters.Columns.Add(this.Column_0_grdReportFilters);
 			this.grdReportFilters.Columns.Add(this.Column_1_grdReportFilters);
-			this.grdReportFilters.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportFilters_BeforeRowColChange);
-			this.grdReportFilters.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportFilters_RowColChange);
+			//this.grdReportFilters.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportFilters_BeforeRowColChange);
+			////this.grdReportFilters.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportFilters_RowColChange);
 			// 
 			// Column_0_grdReportFilters
 			// 
@@ -581,7 +581,7 @@ namespace Xtreme
 			// 
 			// cmbFilterList
 			// 
-			this.cmbFilterList.AllowDrop = true;
+			//this.cmbFilterList.AllowDrop = true;
 			this.cmbFilterList.ColumnHeaders = true;
 			this.cmbFilterList.Enabled = true;
 			this.cmbFilterList.Location = new System.Drawing.Point(294, 58);
@@ -603,7 +603,7 @@ namespace Xtreme
 			// 
 			// tabFields
 			// 
-			this.tabFields.AllowDrop = true;
+			//this.tabFields.AllowDrop = true;
 			this.tabFields.Controls.Add(this.chkShowAll);
 			this.tabFields.Controls.Add(this.chkAdvancedOptions);
 			this.tabFields.Controls.Add(this.grdReportFields);
@@ -617,7 +617,7 @@ namespace Xtreme
 			// 
 			// chkShowAll
 			// 
-			this.chkShowAll.AllowDrop = true;
+			//this.chkShowAll.AllowDrop = true;
 			this.chkShowAll.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkShowAll.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkShowAll.CausesValidation = true;
@@ -634,11 +634,11 @@ namespace Xtreme
 			this.chkShowAll.Text = "Show All";
 			this.chkShowAll.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkShowAll.Visible = true;
-			this.chkShowAll.CheckStateChanged += new System.EventHandler(this.chkShowAll_CheckStateChanged);
+			////this.chkShowAll.CheckStateChanged += new System.EventHandler(this.chkShowAll_CheckStateChanged);
 			// 
 			// chkAdvancedOptions
 			// 
-			this.chkAdvancedOptions.AllowDrop = true;
+			//this.chkAdvancedOptions.AllowDrop = true;
 			this.chkAdvancedOptions.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkAdvancedOptions.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this.chkAdvancedOptions.CausesValidation = true;
@@ -655,11 +655,11 @@ namespace Xtreme
 			this.chkAdvancedOptions.Text = "Enable Advanced O&ptions";
 			this.chkAdvancedOptions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.chkAdvancedOptions.Visible = true;
-			this.chkAdvancedOptions.CheckStateChanged += new System.EventHandler(this.chkAdvancedOptions_CheckStateChanged);
+			////this.chkAdvancedOptions.CheckStateChanged += new System.EventHandler(this.chkAdvancedOptions_CheckStateChanged);
 			// 
 			// grdReportFields
 			// 
-			this.grdReportFields.AllowDrop = true;
+			//this.grdReportFields.AllowDrop = true;
 			this.grdReportFields.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdReportFields.CellTipsWidth = 0;
 			this.grdReportFields.Location = new System.Drawing.Point(4, 22);
@@ -669,11 +669,11 @@ namespace Xtreme
 			this.grdReportFields.TabIndex = 14;
 			this.grdReportFields.Columns.Add(this.Column_0_grdReportFields);
 			this.grdReportFields.Columns.Add(this.Column_1_grdReportFields);
-			this.grdReportFields.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportFields_BeforeColEdit);
-			this.grdReportFields.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportFields_BeforeRowColChange);
-			// this.this.grdReportFields.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdReportFields_KeyPress);
-			this.grdReportFields.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportFields_MouseUp);
-			this.grdReportFields.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportFields_RowColChange);
+			////this.grdReportFields.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportFields_BeforeColEdit);
+			//this.grdReportFields.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportFields_BeforeRowColChange);
+			//// this.this.grdReportFields.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdReportFields_KeyPress);
+			////this.grdReportFields.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportFields_MouseUp);
+			////this.grdReportFields.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportFields_RowColChange);
 			// 
 			// Column_0_grdReportFields
 			// 
@@ -687,7 +687,7 @@ namespace Xtreme
 			// 
 			// cmbFieldList
 			// 
-			this.cmbFieldList.AllowDrop = true;
+			//this.cmbFieldList.AllowDrop = true;
 			this.cmbFieldList.ColumnHeaders = true;
 			this.cmbFieldList.Enabled = true;
 			this.cmbFieldList.Location = new System.Drawing.Point(366, 140);
@@ -709,19 +709,19 @@ namespace Xtreme
 			// 
 			// UpDown
 			// 
-			this.UpDown.AllowDrop = true;
+			//this.UpDown.AllowDrop = true;
 			this.UpDown.Location = new System.Drawing.Point(422, 84);
 			this.UpDown.Name = "UpDown";
 			//
 			this.UpDown.Size = new System.Drawing.Size(26, 49);
 			this.UpDown.TabIndex = 20;
 			this.UpDown.TabStop = false;
-			this.UpDown.DownClick += new System.EventHandler(this.UpDown_DownClick);
-			this.UpDown.UpClick += new System.EventHandler(this.UpDown_UpClick);
+			//this.UpDown.DownClick += new System.EventHandler(this.UpDown_DownClick);
+			//this.UpDown.UpClick += new System.EventHandler(this.UpDown_UpClick);
 			// 
 			// txtReportName
 			// 
-			this.txtReportName.AllowDrop = true;
+			//this.txtReportName.AllowDrop = true;
 			this.txtReportName.BackColor = System.Drawing.Color.White;
 			this.txtReportName.ForeColor = System.Drawing.Color.Black;
 			this.txtReportName.Location = new System.Drawing.Point(82, 48);
@@ -733,7 +733,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.Location = new System.Drawing.Point(234, 44);
 			this._lblCommon_0.Name = "_lblCommon_0";
 			this._lblCommon_0.Size = new System.Drawing.Size(62, 13);
@@ -742,7 +742,7 @@ namespace Xtreme
 			// 
 			// txtTempDate
 			// 
-			this.txtTempDate.AllowDrop = true;
+			//this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(360, 76);
 			this.txtTempDate.Name = "txtTempDate";
 			//
@@ -752,7 +752,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.Color.FromArgb(216, 231, 252);
 			this._lblCommon_3.Text = "Report Name:";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -763,9 +763,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			////this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmSysReportOptions
@@ -782,7 +782,7 @@ namespace Xtreme
 			this.Controls.Add(this._lblCommon_0);
 			this.Controls.Add(this.txtTempDate);
 			this.Controls.Add(this._lblCommon_3);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysReportOptions.Icon");
 			this.KeyPreview = true;

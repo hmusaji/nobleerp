@@ -78,7 +78,7 @@ namespace Xtreme
 			// 
 			// lblUnitNameA
 			// 
-			this.lblUnitNameA.AllowDrop = true;
+			//this.lblUnitNameA.AllowDrop = true;
 			this.lblUnitNameA.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNameA.Text = "Unit Name (Arabic)";
 			this.lblUnitNameA.Location = new System.Drawing.Point(10, 88);
@@ -89,7 +89,7 @@ namespace Xtreme
 			// 
 			// txtAUnitName
 			// 
-			this.txtAUnitName.AllowDrop = true;
+			//this.txtAUnitName.AllowDrop = true;
 			this.txtAUnitName.BackColor = System.Drawing.Color.White;
 			this.txtAUnitName.ForeColor = System.Drawing.Color.Black;
 			this.txtAUnitName.Location = new System.Drawing.Point(112, 86);
@@ -102,7 +102,7 @@ namespace Xtreme
 			// 
 			// lblDecimal
 			// 
-			this.lblDecimal.AllowDrop = true;
+			//this.lblDecimal.AllowDrop = true;
 			this.lblDecimal.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDecimal.Text = "Decimal";
 			this.lblDecimal.Location = new System.Drawing.Point(220, 46);
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// lblSymbol
 			// 
-			this.lblSymbol.AllowDrop = true;
+			//this.lblSymbol.AllowDrop = true;
 			this.lblSymbol.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblSymbol.Text = "Symbol";
 			this.lblSymbol.Location = new System.Drawing.Point(10, 46);
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// txtLUnitName
 			// 
-			this.txtLUnitName.AllowDrop = true;
+			//this.txtLUnitName.AllowDrop = true;
 			this.txtLUnitName.BackColor = System.Drawing.Color.White;
 			this.txtLUnitName.ForeColor = System.Drawing.Color.Black;
 			this.txtLUnitName.Location = new System.Drawing.Point(112, 65);
@@ -137,7 +137,7 @@ namespace Xtreme
 			// 
 			// txtUnitNo
 			// 
-			this.txtUnitNo.AllowDrop = true;
+			//this.txtUnitNo.AllowDrop = true;
 			this.txtUnitNo.BackColor = System.Drawing.Color.White;
 			// this.txtUnitNo.bolNumericOnly = true;
 			this.txtUnitNo.ForeColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblUnitNameL
 			// 
-			this.lblUnitNameL.AllowDrop = true;
+			//this.lblUnitNameL.AllowDrop = true;
 			this.lblUnitNameL.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNameL.Text = "Unit Name (English)";
 			this.lblUnitNameL.Location = new System.Drawing.Point(10, 67);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// lblUnitNo
 			// 
-			this.lblUnitNo.AllowDrop = true;
+			//this.lblUnitNo.AllowDrop = true;
 			this.lblUnitNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblUnitNo.Text = "Unit Code";
 			this.lblUnitNo.Location = new System.Drawing.Point(10, 25);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// txtSymbol
 			// 
-			this.txtSymbol.AllowDrop = true;
+			//this.txtSymbol.AllowDrop = true;
 			this.txtSymbol.BackColor = System.Drawing.Color.White;
 			this.txtSymbol.ForeColor = System.Drawing.Color.Black;
 			this.txtSymbol.Location = new System.Drawing.Point(112, 44);
@@ -187,7 +187,7 @@ namespace Xtreme
 			// 
 			// txtDecimal
 			// 
-			this.txtDecimal.AllowDrop = true;
+			//this.txtDecimal.AllowDrop = true;
 			this.txtDecimal.BackColor = System.Drawing.Color.White;
 			// this.txtDecimal.bolNumericOnly = true;
 			this.txtDecimal.ForeColor = System.Drawing.Color.Black;

@@ -66,7 +66,7 @@ namespace Xtreme
 		private System.Windows.Forms.Label _lblCommon_102;
 		public System.Windows.Forms.Label txtStatucCd;
 		public System.Windows.Forms.OpenFileDialog CommonDialog1Open;
-		public UpgradeStubs.AxMSComDlg_AxCommonDialog CommonDialog1;
+		public AxCommonDialog CommonDialog1;
 		public System.Windows.Forms.Label Line1;
 		public System.Windows.Forms.Label[] lblCommon = new System.Windows.Forms.Label[103];
 		public System.Windows.Forms.Label[] lblCommonLabel = new System.Windows.Forms.Label[1];
@@ -102,7 +102,7 @@ namespace Xtreme
 			this._lblCommon_102 = new System.Windows.Forms.Label();
 			this.txtStatucCd = new System.Windows.Forms.Label();
 			this.CommonDialog1Open = new System.Windows.Forms.OpenFileDialog();
-			this.CommonDialog1 = new UpgradeStubs.AxMSComDlg_AxCommonDialog();
+			this.CommonDialog1 = new AxCommonDialog();
 			this.Line1 = new System.Windows.Forms.Label();
 			// //((System.ComponentModel.ISupportInitialize) this.txtIssueDate).BeginInit();
 			// //((System.ComponentModel.ISupportInitialize) this.txtExpireDate).BeginInit();
@@ -114,7 +114,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_5
 			// 
-			this._txtCommonTextBox_5.AllowDrop = true;
+			//this._txtCommonTextBox_5.AllowDrop = true;
 			this._txtCommonTextBox_5.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this._txtCommonTextBox_5.Enabled = false;
 			this._txtCommonTextBox_5.ForeColor = System.Drawing.Color.Black;
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Employee Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(6, 56);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(205, 54);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
@@ -148,7 +148,7 @@ namespace Xtreme
 			// 
 			// lblSystemComponents
 			// 
-			this.lblSystemComponents.AllowDrop = true;
+			//this.lblSystemComponents.AllowDrop = true;
 			this.lblSystemComponents.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblSystemComponents.Text = "Employee Document Details";
 			this.lblSystemComponents.Location = new System.Drawing.Point(15, 78);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(360, 156);
@@ -180,7 +180,7 @@ namespace Xtreme
 			// 
 			// txtIssueDate
 			// 
-			this.txtIssueDate.AllowDrop = true;
+			//this.txtIssueDate.AllowDrop = true;
 			this.txtIssueDate.Location = new System.Drawing.Point(573, 183);
 			this.txtIssueDate.Name = "txtIssueDate";
 			//
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// txtExpireDate
 			// 
-			this.txtExpireDate.AllowDrop = true;
+			//this.txtExpireDate.AllowDrop = true;
 			this.txtExpireDate.Location = new System.Drawing.Point(573, 156);
 			this.txtExpireDate.Name = "txtExpireDate";
 			//
@@ -200,7 +200,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList1
 			// 
-			this.cmbMastersList1.AllowDrop = true;
+			//this.cmbMastersList1.AllowDrop = true;
 			this.cmbMastersList1.ColumnHeaders = true;
 			this.cmbMastersList1.Enabled = true;
 			this.cmbMastersList1.Location = new System.Drawing.Point(432, 153);
@@ -222,7 +222,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList2
 			// 
-			this.cmbMastersList2.AllowDrop = true;
+			//this.cmbMastersList2.AllowDrop = true;
 			this.cmbMastersList2.ColumnHeaders = true;
 			this.cmbMastersList2.Enabled = true;
 			this.cmbMastersList2.Location = new System.Drawing.Point(489, 153);
@@ -244,7 +244,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(3, 96);
@@ -254,11 +254,11 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 3;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.ButtonClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_ButtonClick);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.ButtonClick += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_ButtonClick);
+			////this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			////this.grdVoucherDetails.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdVoucherDetails_MouseUp);
+			////this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -272,7 +272,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_102
 			// 
-			this._lblCommon_102.AllowDrop = true;
+			//this._lblCommon_102.AllowDrop = true;
 			this._lblCommon_102.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_102.Text = "Status";
 			this._lblCommon_102.Location = new System.Drawing.Point(633, 57);
@@ -283,7 +283,7 @@ namespace Xtreme
 			// 
 			// txtStatucCd
 			// 
-			this.txtStatucCd.AllowDrop = true;
+			//this.txtStatucCd.AllowDrop = true;
 			this.txtStatucCd.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.txtStatucCd.Location = new System.Drawing.Point(680, 54);
 			this.txtStatucCd.Name = "txtStatucCd";
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 84);

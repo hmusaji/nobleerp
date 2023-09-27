@@ -77,7 +77,7 @@ namespace Xtreme
 			// 
 			// frmSearchOptions
 			// 
-			this.frmSearchOptions.AllowDrop = true;
+			//this.frmSearchOptions.AllowDrop = true;
 			this.frmSearchOptions.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.frmSearchOptions.Controls.Add(this._optSearchFromPosition_0);
 			this.frmSearchOptions.Controls.Add(this._optSearchFromPosition_1);
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// _optSearchFromPosition_0
 			// 
-			this._optSearchFromPosition_0.AllowDrop = true;
+			//this._optSearchFromPosition_0.AllowDrop = true;
 			this._optSearchFromPosition_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optSearchFromPosition_0.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._optSearchFromPosition_0.CausesValidation = true;
@@ -116,7 +116,7 @@ namespace Xtreme
 			// 
 			// _optSearchFromPosition_1
 			// 
-			this._optSearchFromPosition_1.AllowDrop = true;
+			//this._optSearchFromPosition_1.AllowDrop = true;
 			this._optSearchFromPosition_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optSearchFromPosition_1.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._optSearchFromPosition_1.CausesValidation = true;
@@ -136,7 +136,7 @@ namespace Xtreme
 			// 
 			// chkMatchExact
 			// 
-			this.chkMatchExact.AllowDrop = true;
+			//this.chkMatchExact.AllowDrop = true;
 			this.chkMatchExact.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkMatchExact.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.chkMatchExact.CausesValidation = true;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// chkMatchCase
 			// 
-			this.chkMatchCase.AllowDrop = true;
+			//this.chkMatchCase.AllowDrop = true;
 			this.chkMatchCase.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkMatchCase.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.chkMatchCase.CausesValidation = true;
@@ -176,7 +176,7 @@ namespace Xtreme
 			// 
 			// grdReportFind
 			// 
-			this.grdReportFind.AllowDrop = true;
+			//this.grdReportFind.AllowDrop = true;
 			this.grdReportFind.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdReportFind.CellTipsWidth = 0;
 			this.grdReportFind.Location = new System.Drawing.Point(14, 62);
@@ -186,9 +186,9 @@ namespace Xtreme
 			this.grdReportFind.TabIndex = 7;
 			this.grdReportFind.Columns.Add(this.Column_0_grdReportFind);
 			this.grdReportFind.Columns.Add(this.Column_1_grdReportFind);
-			this.grdReportFind.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportFind_BeforeColEdit);
+			//this.grdReportFind.BeforeColEdit += new C1.Win.C1TrueDBGrid.BeforeColEditEventHandler(this.grdReportFind_BeforeColEdit);
 			// this.this.grdReportFind.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.grdReportFind_KeyPress);
-			this.grdReportFind.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportFind_MouseUp);
+			//this.grdReportFind.MouseUp += new System.Windows.Forms.MouseEventHandler(this.grdReportFind_MouseUp);
 			// 
 			// Column_0_grdReportFind
 			// 
@@ -202,7 +202,7 @@ namespace Xtreme
 			// 
 			// txtSearchString
 			// 
-			this.txtSearchString.AllowDrop = true;
+			//this.txtSearchString.AllowDrop = true;
 			this.txtSearchString.BackColor = System.Drawing.Color.White;
 			this.txtSearchString.ForeColor = System.Drawing.Color.Black;
 			this.txtSearchString.Location = new System.Drawing.Point(113, 48);
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_0.Text = "Search Expression :";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -227,9 +227,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(0, 0);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmSysReportFind
@@ -243,7 +243,7 @@ namespace Xtreme
 			this.Controls.Add(this.frmSearchOptions);
 			this.Controls.Add(this.txtSearchString);
 			this.Controls.Add(this._lblCommon_0);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmSysReportFind.Icon");
 			this.KeyPreview = true;

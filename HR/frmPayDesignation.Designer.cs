@@ -75,9 +75,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(145, 121);
@@ -90,7 +90,7 @@ namespace Xtreme
 			// 
 			// txtDesgNo
 			// 
-			this.txtDesgNo.AllowDrop = true;
+			//this.txtDesgNo.AllowDrop = true;
 			this.txtDesgNo.BackColor = System.Drawing.Color.White;
 			// this.txtDesgNo.bolNumericOnly = true;
 			this.txtDesgNo.ForeColor = System.Drawing.Color.Black;
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// lblDesgNo
 			// 
-			this.lblDesgNo.AllowDrop = true;
+			//this.lblDesgNo.AllowDrop = true;
 			this.lblDesgNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDesgNo.Text = "Designation Code";
 			this.lblDesgNo.Location = new System.Drawing.Point(9, 59);
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// lblLDesgName
 			// 
-			this.lblLDesgName.AllowDrop = true;
+			//this.lblLDesgName.AllowDrop = true;
 			this.lblLDesgName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLDesgName.Text = "Designation Name (English)";
 			this.lblLDesgName.Location = new System.Drawing.Point(9, 81);
@@ -128,7 +128,7 @@ namespace Xtreme
 			// 
 			// txtLDesgName
 			// 
-			this.txtLDesgName.AllowDrop = true;
+			//this.txtLDesgName.AllowDrop = true;
 			this.txtLDesgName.BackColor = System.Drawing.Color.White;
 			this.txtLDesgName.ForeColor = System.Drawing.Color.Black;
 			this.txtLDesgName.Location = new System.Drawing.Point(145, 78);
@@ -140,7 +140,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Designation Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(9, 102);
@@ -151,7 +151,7 @@ namespace Xtreme
 			// 
 			// txtADesgName
 			// 
-			this.txtADesgName.AllowDrop = true;
+			//this.txtADesgName.AllowDrop = true;
 			this.txtADesgName.BackColor = System.Drawing.Color.White;
 			this.txtADesgName.ForeColor = System.Drawing.Color.Black;
 			this.txtADesgName.Location = new System.Drawing.Point(145, 99);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 121);

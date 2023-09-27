@@ -80,7 +80,7 @@ namespace Xtreme
 			// 
 			// cmbReports
 			// 
-			this.cmbReports.AllowDrop = true;
+			//this.cmbReports.AllowDrop = true;
 			this.cmbReports.BackColor = System.Drawing.SystemColors.Window;
 			this.cmbReports.CausesValidation = true;
 			this.cmbReports.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
@@ -98,7 +98,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this._txtDisplayLabel_0.Enabled = false;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(165, 113);
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Employee Code";
 			this.Label1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label2.Text = "Log For";
 			this.Label2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -132,7 +132,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblToDate.Text = "To Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
@@ -143,7 +143,7 @@ namespace Xtreme
 			// 
 			// lblFromDate
 			// 
-			this.lblFromDate.AllowDrop = true;
+			//this.lblFromDate.AllowDrop = true;
 			this.lblFromDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblFromDate.Text = "From Date";
 			this.lblFromDate.ForeColor = System.Drawing.Color.Black;
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// _txtcommontextbox_0
 			// 
-			this._txtcommontextbox_0.AllowDrop = true;
+			//this._txtcommontextbox_0.AllowDrop = true;
 			this._txtcommontextbox_0.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this._txtcommontextbox_0.ForeColor = System.Drawing.Color.Black;
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			// this.txtFromDate.CheckDateRange = false;
 			this.txtFromDate.Location = new System.Drawing.Point(84, 64);
 			// this.txtFromDate.MaxDate = 2958465;
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			// this.txtToDate.CheckDateRange = false;
 			this.txtToDate.Location = new System.Drawing.Point(84, 85);
 			// this.txtToDate.MaxDate = 2958465;
@@ -197,14 +197,14 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.Location = new System.Drawing.Point(80, 152);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(205, 29);
 			this.cmdOKCancel.TabIndex = 9;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// frmPayLogReport
 			// 

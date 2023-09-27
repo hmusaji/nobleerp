@@ -94,7 +94,7 @@ namespace Xtreme
 			// 
 			// chkCD
 			// 
-			this.chkCD.AllowDrop = true;
+			//this.chkCD.AllowDrop = true;
 			this.chkCD.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkCD.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkCD.CausesValidation = true;
@@ -115,7 +115,7 @@ namespace Xtreme
 			// 
 			// chkPoleDisplay
 			// 
-			this.chkPoleDisplay.AllowDrop = true;
+			//this.chkPoleDisplay.AllowDrop = true;
 			this.chkPoleDisplay.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkPoleDisplay.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkPoleDisplay.CausesValidation = true;
@@ -136,7 +136,7 @@ namespace Xtreme
 			// 
 			// chkFreeze
 			// 
-			this.chkFreeze.AllowDrop = true;
+			//this.chkFreeze.AllowDrop = true;
 			this.chkFreeze.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkFreeze.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkFreeze.CausesValidation = true;
@@ -156,7 +156,7 @@ namespace Xtreme
 			// 
 			// txtCounterNo
 			// 
-			this.txtCounterNo.AllowDrop = true;
+			//this.txtCounterNo.AllowDrop = true;
 			this.txtCounterNo.BackColor = System.Drawing.Color.White;
 			this.txtCounterNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCounterNo.Location = new System.Drawing.Point(127, 15);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Counter Code";
 			this.lblGroupNo.ForeColor = System.Drawing.Color.Black;
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Counter Name (English)";
 			this.lblLGroupName.ForeColor = System.Drawing.Color.Black;
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// txtLCounterName
 			// 
-			this.txtLCounterName.AllowDrop = true;
+			//this.txtLCounterName.AllowDrop = true;
 			this.txtLCounterName.BackColor = System.Drawing.Color.White;
 			this.txtLCounterName.ForeColor = System.Drawing.Color.Black;
 			this.txtLCounterName.Location = new System.Drawing.Point(127, 36);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// lblParentGroup
 			// 
-			this.lblParentGroup.AllowDrop = true;
+			//this.lblParentGroup.AllowDrop = true;
 			this.lblParentGroup.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblParentGroup.Text = "Location Code";
 			this.lblParentGroup.ForeColor = System.Drawing.Color.Black;
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Counter Name (Arabic)";
 			this.lblAGroupName.ForeColor = System.Drawing.Color.Black;
@@ -226,7 +226,7 @@ namespace Xtreme
 			// 
 			// txtACounterName
 			// 
-			this.txtACounterName.AllowDrop = true;
+			//this.txtACounterName.AllowDrop = true;
 			this.txtACounterName.BackColor = System.Drawing.Color.White;
 			this.txtACounterName.ForeColor = System.Drawing.Color.Black;
 			this.txtACounterName.Location = new System.Drawing.Point(127, 57);
@@ -239,7 +239,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Computer Name";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -250,7 +250,7 @@ namespace Xtreme
 			// 
 			// txtLocationNo
 			// 
-			this.txtLocationNo.AllowDrop = true;
+			//this.txtLocationNo.AllowDrop = true;
 			this.txtLocationNo.BackColor = System.Drawing.Color.White;
 			// this.txtLocationNo.bolNumericOnly = true;
 			this.txtLocationNo.ForeColor = System.Drawing.Color.Black;
@@ -266,7 +266,7 @@ namespace Xtreme
 			// 
 			// txtLocationName
 			// 
-			this.txtLocationName.AllowDrop = true;
+			//this.txtLocationName.AllowDrop = true;
 			this.txtLocationName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtLocationName.Enabled = false;
 			this.txtLocationName.ForeColor = System.Drawing.Color.Black;
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// txtComputerName
 			// 
-			this.txtComputerName.AllowDrop = true;
+			//this.txtComputerName.AllowDrop = true;
 			this.txtComputerName.BackColor = System.Drawing.Color.White;
 			this.txtComputerName.ForeColor = System.Drawing.Color.Black;
 			this.txtComputerName.Location = new System.Drawing.Point(127, 99);
@@ -291,7 +291,7 @@ namespace Xtreme
 			// 
 			// lblPolePort
 			// 
-			this.lblPolePort.AllowDrop = true;
+			//this.lblPolePort.AllowDrop = true;
 			this.lblPolePort.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblPolePort.Text = "Port No";
 			this.lblPolePort.ForeColor = System.Drawing.Color.Black;
@@ -302,7 +302,7 @@ namespace Xtreme
 			// 
 			// txtPortNo
 			// 
-			this.txtPortNo.AllowDrop = true;
+			//this.txtPortNo.AllowDrop = true;
 			this.txtPortNo.BackColor = System.Drawing.Color.White;
 			this.txtPortNo.ForeColor = System.Drawing.Color.Black;
 			this.txtPortNo.Location = new System.Drawing.Point(170, 122);
@@ -314,7 +314,7 @@ namespace Xtreme
 			// 
 			// txtCDPortNo
 			// 
-			this.txtCDPortNo.AllowDrop = true;
+			//this.txtCDPortNo.AllowDrop = true;
 			this.txtCDPortNo.BackColor = System.Drawing.Color.White;
 			this.txtCDPortNo.ForeColor = System.Drawing.Color.Black;
 			this.txtCDPortNo.Location = new System.Drawing.Point(170, 146);
@@ -326,7 +326,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Port No";
 			this.Label1.ForeColor = System.Drawing.Color.Black;

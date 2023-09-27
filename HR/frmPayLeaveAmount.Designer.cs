@@ -68,7 +68,7 @@ namespace Xtreme
 			// 
 			// frmLeaveAmount
 			// 
-			this.frmLeaveAmount.AllowDrop = true;
+			//this.frmLeaveAmount.AllowDrop = true;
 			this.frmLeaveAmount.BackColor = System.Drawing.SystemColors.Window;
 			this.frmLeaveAmount.Controls.Add(this.grdLeaveAmountDetails);
 			this.frmLeaveAmount.Enabled = true;
@@ -82,7 +82,7 @@ namespace Xtreme
 			// 
 			// grdLeaveAmountDetails
 			// 
-			this.grdLeaveAmountDetails.AllowDrop = true;
+			//this.grdLeaveAmountDetails.AllowDrop = true;
 			this.grdLeaveAmountDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdLeaveAmountDetails.CellTipsWidth = 0;
 			this.grdLeaveAmountDetails.Location = new System.Drawing.Point(2, 8);
@@ -92,7 +92,7 @@ namespace Xtreme
 			this.grdLeaveAmountDetails.TabIndex = 1;
 			this.grdLeaveAmountDetails.Columns.Add(this.Column_0_grdLeaveAmountDetails);
 			this.grdLeaveAmountDetails.Columns.Add(this.Column_1_grdLeaveAmountDetails);
-			this.grdLeaveAmountDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdLeaveAmountDetails_AfterColUpdate);
+			//this.grdLeaveAmountDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdLeaveAmountDetails_AfterColUpdate);
 			// 
 			// Column_0_grdLeaveAmountDetails
 			// 
@@ -106,7 +106,7 @@ namespace Xtreme
 			// 
 			// _txtCommonNumber_2
 			// 
-			this._txtCommonNumber_2.AllowDrop = true;
+			//this._txtCommonNumber_2.AllowDrop = true;
 			this._txtCommonNumber_2.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonNumber_2.DisplayFormat = "####0.000###;;0.000;0.000";
 			this._txtCommonNumber_2.Enabled = false;
@@ -122,7 +122,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Paid Days";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(6, 10);
@@ -133,15 +133,15 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(154, 252);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 4;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// frmPayLeaveAmount
 			// 

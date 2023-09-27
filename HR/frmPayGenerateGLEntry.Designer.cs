@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// ChkGenerateSeprateJv
 			// 
-			this.ChkGenerateSeprateJv.AllowDrop = true;
+			//this.ChkGenerateSeprateJv.AllowDrop = true;
 			this.ChkGenerateSeprateJv.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.ChkGenerateSeprateJv.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.ChkGenerateSeprateJv.CausesValidation = true;
@@ -125,7 +125,7 @@ namespace Xtreme
 			// 
 			// lblDocDate
 			// 
-			this.lblDocDate.AllowDrop = true;
+			//this.lblDocDate.AllowDrop = true;
 			this.lblDocDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblDocDate.Text = "Document Date";
 			this.lblDocDate.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -136,7 +136,7 @@ namespace Xtreme
 			// 
 			// lblDocType
 			// 
-			this.lblDocType.AllowDrop = true;
+			//this.lblDocType.AllowDrop = true;
 			this.lblDocType.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDocType.Text = "Document Type";
 			this.lblDocType.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -147,7 +147,7 @@ namespace Xtreme
 			// 
 			// Command1
 			// 
-			this.Command1.AllowDrop = true;
+			//this.Command1.AllowDrop = true;
 			this.Command1.BackColor = System.Drawing.SystemColors.Control;
 			this.Command1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Command1.Location = new System.Drawing.Point(188, 42);
@@ -162,7 +162,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(27, 153);
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Payroll Date";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -195,7 +195,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Enabled = false;
@@ -206,8 +206,8 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 8;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -221,7 +221,7 @@ namespace Xtreme
 			// 
 			// txtDPayrollDate
 			// 
-			this.txtDPayrollDate.AllowDrop = true;
+			//this.txtDPayrollDate.AllowDrop = true;
 			// this.txtDPayrollDate.CheckDateRange = false;
 			this.txtDPayrollDate.Location = new System.Drawing.Point(84, 46);
 			// this.txtDPayrollDate.MaxDate = 2958465;
@@ -235,7 +235,7 @@ namespace Xtreme
 			// 
 			// lblExchangeRate
 			// 
-			this.lblExchangeRate.AllowDrop = true;
+			//this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// txtDocType
 			// 
-			this.txtDocType.AllowDrop = true;
+			//this.txtDocType.AllowDrop = true;
 			this.txtDocType.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDocType.ForeColor = System.Drawing.Color.Black;
@@ -260,7 +260,7 @@ namespace Xtreme
 			// 
 			// txtDocDate
 			// 
-			this.txtDocDate.AllowDrop = true;
+			//this.txtDocDate.AllowDrop = true;
 			this.txtDocDate.Location = new System.Drawing.Point(442, 98);
 			// this.txtDocDate.MaxDate = 2958465;
 			// this.txtDocDate.MinDate = -657434;
@@ -273,7 +273,7 @@ namespace Xtreme
 			// 
 			// txtNExchangeRate
 			// 
-			this.txtNExchangeRate.AllowDrop = true;
+			//this.txtNExchangeRate.AllowDrop = true;
 			// this.txtNExchangeRate.DisplayFormat = "####0.00000###;;0.00000;0.00000";
 			this.txtNExchangeRate.ForeColor = System.Drawing.SystemColors.WindowText;
 			// this.txtNExchangeRate.Format = "#########0.00000";
@@ -285,7 +285,7 @@ namespace Xtreme
 			// 
 			// lblDocNo
 			// 
-			this.lblDocNo.AllowDrop = true;
+			//this.lblDocNo.AllowDrop = true;
 			this.lblDocNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblDocNo.Text = "Document No";
 			this.lblDocNo.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -296,7 +296,7 @@ namespace Xtreme
 			// 
 			// txtDocNo
 			// 
-			this.txtDocNo.AllowDrop = true;
+			//this.txtDocNo.AllowDrop = true;
 			this.txtDocNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDocNo.ForeColor = System.Drawing.Color.Black;
@@ -310,7 +310,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_37
 			// 
-			this._lblCommon_37.AllowDrop = true;
+			//this._lblCommon_37.AllowDrop = true;
 			this._lblCommon_37.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_37.Text = "Company Code";
 			this._lblCommon_37.ForeColor = System.Drawing.Color.Black;
@@ -322,7 +322,7 @@ namespace Xtreme
 			// 
 			// txtCompanyName
 			// 
-			this.txtCompanyName.AllowDrop = true;
+			//this.txtCompanyName.AllowDrop = true;
 			this.txtCompanyName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.txtCompanyName.Location = new System.Drawing.Point(186, 75);
 			this.txtCompanyName.Name = "txtCompanyName";
@@ -332,7 +332,7 @@ namespace Xtreme
 			// 
 			// txtCompanyCode
 			// 
-			this.txtCompanyCode.AllowDrop = true;
+			//this.txtCompanyCode.AllowDrop = true;
 			this.txtCompanyCode.BackColor = System.Drawing.Color.White;
 			// this.txtCompanyCode.bolNumericOnly = true;
 			this.txtCompanyCode.ForeColor = System.Drawing.Color.Black;
@@ -349,9 +349,9 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(0, 125);

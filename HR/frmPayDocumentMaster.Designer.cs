@@ -84,7 +84,7 @@ namespace Xtreme
 			// 
 			// txtNotifyPeriod
 			// 
-			this.txtNotifyPeriod.AllowDrop = true;
+			//this.txtNotifyPeriod.AllowDrop = true;
 			this.txtNotifyPeriod.Location = new System.Drawing.Point(142, 141);
 			// // = 0;
 			this.txtNotifyPeriod.Name = "txtNotifyPeriod";
@@ -93,7 +93,7 @@ namespace Xtreme
 			// 
 			// lblACategoryName
 			// 
-			this.lblACategoryName.AllowDrop = true;
+			//this.lblACategoryName.AllowDrop = true;
 			this.lblACategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblACategoryName.Text = "Document Name (Arabic)";
 			this.lblACategoryName.ForeColor = System.Drawing.Color.Black;
@@ -105,7 +105,7 @@ namespace Xtreme
 			// 
 			// txtDocNo
 			// 
-			this.txtDocNo.AllowDrop = true;
+			//this.txtDocNo.AllowDrop = true;
 			this.txtDocNo.BackColor = System.Drawing.Color.White;
 			// this.txtDocNo.bolNumericOnly = true;
 			this.txtDocNo.ForeColor = System.Drawing.Color.Black;
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// lblCategoryNo
 			// 
-			this.lblCategoryNo.AllowDrop = true;
+			//this.lblCategoryNo.AllowDrop = true;
 			this.lblCategoryNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCategoryNo.Text = "Document Code";
 			this.lblCategoryNo.ForeColor = System.Drawing.Color.Black;
@@ -133,7 +133,7 @@ namespace Xtreme
 			// 
 			// lblLCategoryName
 			// 
-			this.lblLCategoryName.AllowDrop = true;
+			//this.lblLCategoryName.AllowDrop = true;
 			this.lblLCategoryName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLCategoryName.Text = "Document Name (English)";
 			this.lblLCategoryName.ForeColor = System.Drawing.Color.Black;
@@ -145,7 +145,7 @@ namespace Xtreme
 			// 
 			// txtLDocName
 			// 
-			this.txtLDocName.AllowDrop = true;
+			//this.txtLDocName.AllowDrop = true;
 			this.txtLDocName.BackColor = System.Drawing.Color.White;
 			this.txtLDocName.ForeColor = System.Drawing.Color.Black;
 			this.txtLDocName.Location = new System.Drawing.Point(142, 78);
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// txtADocName
 			// 
-			this.txtADocName.AllowDrop = true;
+			//this.txtADocName.AllowDrop = true;
 			this.txtADocName.BackColor = System.Drawing.Color.White;
 			this.txtADocName.ForeColor = System.Drawing.Color.Black;
 			this.txtADocName.Location = new System.Drawing.Point(142, 99);
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// txtDocumentTypeName
 			// 
-			this.txtDocumentTypeName.AllowDrop = true;
+			//this.txtDocumentTypeName.AllowDrop = true;
 			this.txtDocumentTypeName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtDocumentTypeName.Enabled = false;
 			this.txtDocumentTypeName.ForeColor = System.Drawing.Color.Black;
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// lblParentCategory
 			// 
-			this.lblParentCategory.AllowDrop = true;
+			//this.lblParentCategory.AllowDrop = true;
 			this.lblParentCategory.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblParentCategory.Text = "Document Type Code";
 			this.lblParentCategory.ForeColor = System.Drawing.Color.Black;
@@ -195,7 +195,7 @@ namespace Xtreme
 			// 
 			// txtDocumentTypeCd
 			// 
-			this.txtDocumentTypeCd.AllowDrop = true;
+			//this.txtDocumentTypeCd.AllowDrop = true;
 			this.txtDocumentTypeCd.BackColor = System.Drawing.Color.White;
 			// this.txtDocumentTypeCd.bolNumericOnly = true;
 			this.txtDocumentTypeCd.ForeColor = System.Drawing.Color.Black;
@@ -211,7 +211,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.ForeColor = System.Drawing.Color.Black;
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(142, 162);
@@ -235,7 +235,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label1.Text = "Notification Period (in days)";
 			this.Label1.ForeColor = System.Drawing.Color.Black;

@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// txtPlatNo
 			// 
-			this.txtPlatNo.AllowDrop = true;
+			//this.txtPlatNo.AllowDrop = true;
 			this.txtPlatNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtPlatNo.ForeColor = System.Drawing.Color.Black;
@@ -154,7 +154,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Vehicle Code";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(8, 73);
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Insurance Company Name";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(8, 284);
@@ -176,7 +176,7 @@ namespace Xtreme
 			// 
 			// txtVehicleCode
 			// 
-			this.txtVehicleCode.AllowDrop = true;
+			//this.txtVehicleCode.AllowDrop = true;
 			this.txtVehicleCode.BackColor = System.Drawing.Color.White;
 			this.txtVehicleCode.ForeColor = System.Drawing.Color.Black;
 			this.txtVehicleCode.Location = new System.Drawing.Point(142, 71);
@@ -190,7 +190,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Employee Code";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(8, 94);
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(8, 115);
@@ -212,7 +212,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Designation Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(8, 136);
@@ -223,7 +223,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label12
 			// 
-			this.Label12.AllowDrop = true;
+			//this.Label12.AllowDrop = true;
 			this.Label12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label12.Text = "Comments";
 			this.Label12.Location = new System.Drawing.Point(8, 347);
@@ -234,7 +234,7 @@ namespace Xtreme
 			// 
 			// txtComments
 			// 
-			this.txtComments.AllowDrop = true;
+			//this.txtComments.AllowDrop = true;
 			this.txtComments.BackColor = System.Drawing.Color.White;
 			this.txtComments.ForeColor = System.Drawing.Color.Black;
 			this.txtComments.Location = new System.Drawing.Point(142, 345);
@@ -246,7 +246,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_18
 			// 
-			this._lblCommonLabel_18.AllowDrop = true;
+			//this._lblCommonLabel_18.AllowDrop = true;
 			this._lblCommonLabel_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_18.Text = "Chasis Number";
 			this._lblCommonLabel_18.Location = new System.Drawing.Point(315, 157);
@@ -257,7 +257,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_19
 			// 
-			this._lblCommonLabel_19.AllowDrop = true;
+			//this._lblCommonLabel_19.AllowDrop = true;
 			this._lblCommonLabel_19.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_19.Text = "Insurance Expire Date";
 			this._lblCommonLabel_19.Location = new System.Drawing.Point(315, 261);
@@ -268,7 +268,7 @@ namespace Xtreme
 			// 
 			// txtInsExpireDate
 			// 
-			this.txtInsExpireDate.AllowDrop = true;
+			//this.txtInsExpireDate.AllowDrop = true;
 			// this.txtInsExpireDate.CheckDateRange = false;
 			this.txtInsExpireDate.Location = new System.Drawing.Point(447, 259);
 			// this.txtInsExpireDate.MaxDate = 2958465;
@@ -281,7 +281,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_20
 			// 
-			this._lblCommonLabel_20.AllowDrop = true;
+			//this._lblCommonLabel_20.AllowDrop = true;
 			this._lblCommonLabel_20.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_20.Text = "Insurance Issue Date";
 			this._lblCommonLabel_20.Location = new System.Drawing.Point(8, 261);
@@ -292,7 +292,7 @@ namespace Xtreme
 			// 
 			// txtInsIssueDate
 			// 
-			this.txtInsIssueDate.AllowDrop = true;
+			//this.txtInsIssueDate.AllowDrop = true;
 			// this.txtInsIssueDate.CheckDateRange = false;
 			this.txtInsIssueDate.Location = new System.Drawing.Point(142, 259);
 			// this.txtInsIssueDate.MaxDate = 2958465;
@@ -305,7 +305,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Make";
 			this._lblCommonLabel_8.Location = new System.Drawing.Point(315, 199);
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// txtEmpCode
 			// 
-			this.txtEmpCode.AllowDrop = true;
+			//this.txtEmpCode.AllowDrop = true;
 			this.txtEmpCode.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtEmpCode.Enabled = false;
 			this.txtEmpCode.ForeColor = System.Drawing.Color.Black;
@@ -332,7 +332,7 @@ namespace Xtreme
 			// 
 			// txtChasisNo
 			// 
-			this.txtChasisNo.AllowDrop = true;
+			//this.txtChasisNo.AllowDrop = true;
 			this.txtChasisNo.BackColor = System.Drawing.Color.White;
 			this.txtChasisNo.ForeColor = System.Drawing.Color.Black;
 			this.txtChasisNo.Location = new System.Drawing.Point(449, 155);
@@ -344,7 +344,7 @@ namespace Xtreme
 			// 
 			// txtModel
 			// 
-			this.txtModel.AllowDrop = true;
+			//this.txtModel.AllowDrop = true;
 			this.txtModel.BackColor = System.Drawing.Color.White;
 			// this.txtModel.bolNumericOnly = true;
 			this.txtModel.ForeColor = System.Drawing.Color.Black;
@@ -357,7 +357,7 @@ namespace Xtreme
 			// 
 			// txtMake
 			// 
-			this.txtMake.AllowDrop = true;
+			//this.txtMake.AllowDrop = true;
 			this.txtMake.BackColor = System.Drawing.Color.White;
 			this.txtMake.ForeColor = System.Drawing.Color.Black;
 			this.txtMake.Location = new System.Drawing.Point(449, 197);
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			// txtInsuranceNumber
 			// 
-			this.txtInsuranceNumber.AllowDrop = true;
+			//this.txtInsuranceNumber.AllowDrop = true;
 			this.txtInsuranceNumber.BackColor = System.Drawing.Color.White;
 			this.txtInsuranceNumber.ForeColor = System.Drawing.Color.Black;
 			this.txtInsuranceNumber.Location = new System.Drawing.Point(142, 239);
@@ -381,7 +381,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_16
 			// 
-			this._lblCommonLabel_16.AllowDrop = true;
+			//this._lblCommonLabel_16.AllowDrop = true;
 			this._lblCommonLabel_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_16.Text = "Description(ENG)";
 			this._lblCommonLabel_16.Location = new System.Drawing.Point(8, 304);
@@ -391,7 +391,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_17
 			// 
-			this._lblCommonLabel_17.AllowDrop = true;
+			//this._lblCommonLabel_17.AllowDrop = true;
 			this._lblCommonLabel_17.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_17.Text = "Engine Number";
 			this._lblCommonLabel_17.Location = new System.Drawing.Point(315, 178);
@@ -402,7 +402,7 @@ namespace Xtreme
 			// 
 			// txtEngineNo
 			// 
-			this.txtEngineNo.AllowDrop = true;
+			//this.txtEngineNo.AllowDrop = true;
 			this.txtEngineNo.BackColor = System.Drawing.Color.White;
 			this.txtEngineNo.ForeColor = System.Drawing.Color.Black;
 			this.txtEngineNo.Location = new System.Drawing.Point(449, 176);
@@ -414,7 +414,7 @@ namespace Xtreme
 			// 
 			// txtDesc
 			// 
-			this.txtDesc.AllowDrop = true;
+			//this.txtDesc.AllowDrop = true;
 			this.txtDesc.BackColor = System.Drawing.Color.White;
 			this.txtDesc.ForeColor = System.Drawing.Color.Black;
 			this.txtDesc.Location = new System.Drawing.Point(142, 302);
@@ -426,7 +426,7 @@ namespace Xtreme
 			// 
 			// txtInsCompName
 			// 
-			this.txtInsCompName.AllowDrop = true;
+			//this.txtInsCompName.AllowDrop = true;
 			this.txtInsCompName.BackColor = System.Drawing.Color.White;
 			this.txtInsCompName.ForeColor = System.Drawing.Color.Black;
 			this.txtInsCompName.Location = new System.Drawing.Point(142, 281);
@@ -438,7 +438,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_10
 			// 
-			this._lblCommonLabel_10.AllowDrop = true;
+			//this._lblCommonLabel_10.AllowDrop = true;
 			this._lblCommonLabel_10.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_10.Text = "Model";
 			this._lblCommonLabel_10.Location = new System.Drawing.Point(8, 179);
@@ -449,7 +449,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_21
 			// 
-			this._lblCommonLabel_21.AllowDrop = true;
+			//this._lblCommonLabel_21.AllowDrop = true;
 			this._lblCommonLabel_21.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_21.Text = "Insurance Number";
 			this._lblCommonLabel_21.Location = new System.Drawing.Point(8, 241);
@@ -460,7 +460,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this._lblCommonLabel_3.Text = "Colour";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(8, 200);
@@ -471,7 +471,7 @@ namespace Xtreme
 			// 
 			// txtColour
 			// 
-			this.txtColour.AllowDrop = true;
+			//this.txtColour.AllowDrop = true;
 			this.txtColour.BackColor = System.Drawing.Color.White;
 			this.txtColour.ForeColor = System.Drawing.Color.Black;
 			this.txtColour.Location = new System.Drawing.Point(142, 197);
@@ -483,7 +483,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_4
 			// 
-			this._lblCommonLabel_4.AllowDrop = true;
+			//this._lblCommonLabel_4.AllowDrop = true;
 			this._lblCommonLabel_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_4.Text = "No Of Passengers";
 			this._lblCommonLabel_4.Location = new System.Drawing.Point(8, 220);
@@ -494,7 +494,7 @@ namespace Xtreme
 			// 
 			// txtNo_Of_Passengers
 			// 
-			this.txtNo_Of_Passengers.AllowDrop = true;
+			//this.txtNo_Of_Passengers.AllowDrop = true;
 			this.txtNo_Of_Passengers.BackColor = System.Drawing.Color.White;
 			this.txtNo_Of_Passengers.ForeColor = System.Drawing.Color.Black;
 			this.txtNo_Of_Passengers.Location = new System.Drawing.Point(142, 218);
@@ -506,7 +506,7 @@ namespace Xtreme
 			// 
 			// txtEmpName
 			// 
-			this.txtEmpName.AllowDrop = true;
+			//this.txtEmpName.AllowDrop = true;
 			this.txtEmpName.Enabled = false;
 			this.txtEmpName.Location = new System.Drawing.Point(245, 92);
 			this.txtEmpName.Name = "txtEmpName";
@@ -515,7 +515,7 @@ namespace Xtreme
 			// 
 			// txtDesName
 			// 
-			this.txtDesName.AllowDrop = true;
+			//this.txtDesName.AllowDrop = true;
 			this.txtDesName.Enabled = false;
 			this.txtDesName.Location = new System.Drawing.Point(245, 134);
 			this.txtDesName.Name = "txtDesName";
@@ -524,7 +524,7 @@ namespace Xtreme
 			// 
 			// txtDesCode
 			// 
-			this.txtDesCode.AllowDrop = true;
+			//this.txtDesCode.AllowDrop = true;
 			this.txtDesCode.Enabled = false;
 			this.txtDesCode.Location = new System.Drawing.Point(142, 134);
 			this.txtDesCode.Name = "txtDesCode";
@@ -533,7 +533,7 @@ namespace Xtreme
 			// 
 			// txtDepName
 			// 
-			this.txtDepName.AllowDrop = true;
+			//this.txtDepName.AllowDrop = true;
 			this.txtDepName.Enabled = false;
 			this.txtDepName.Location = new System.Drawing.Point(245, 112);
 			this.txtDepName.Name = "txtDepName";
@@ -542,7 +542,7 @@ namespace Xtreme
 			// 
 			// txtDepCode
 			// 
-			this.txtDepCode.AllowDrop = true;
+			//this.txtDepCode.AllowDrop = true;
 			this.txtDepCode.Enabled = false;
 			this.txtDepCode.Location = new System.Drawing.Point(142, 113);
 			this.txtDepCode.Name = "txtDepCode";
@@ -551,7 +551,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Plate No";
 			this._lblCommonLabel_9.Location = new System.Drawing.Point(8, 158);
@@ -561,7 +561,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_11
 			// 
-			this._lblCommonLabel_11.AllowDrop = true;
+			//this._lblCommonLabel_11.AllowDrop = true;
 			this._lblCommonLabel_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_11.Text = "Gate Pass No";
 			this._lblCommonLabel_11.Location = new System.Drawing.Point(315, 221);
@@ -571,7 +571,7 @@ namespace Xtreme
 			// 
 			// txtGatePassNo
 			// 
-			this.txtGatePassNo.AllowDrop = true;
+			//this.txtGatePassNo.AllowDrop = true;
 			this.txtGatePassNo.BackColor = System.Drawing.Color.White;
 			this.txtGatePassNo.ForeColor = System.Drawing.Color.Black;
 			this.txtGatePassNo.Location = new System.Drawing.Point(449, 219);
@@ -583,7 +583,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_12
 			// 
-			this._lblCommonLabel_12.AllowDrop = true;
+			//this._lblCommonLabel_12.AllowDrop = true;
 			this._lblCommonLabel_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_12.Text = "Description(ARB)";
 			this._lblCommonLabel_12.Location = new System.Drawing.Point(9, 326);
@@ -593,7 +593,7 @@ namespace Xtreme
 			// 
 			// txtADesc
 			// 
-			this.txtADesc.AllowDrop = true;
+			//this.txtADesc.AllowDrop = true;
 			this.txtADesc.BackColor = System.Drawing.Color.White;
 			this.txtADesc.ForeColor = System.Drawing.Color.Black;
 			this.txtADesc.Location = new System.Drawing.Point(142, 324);

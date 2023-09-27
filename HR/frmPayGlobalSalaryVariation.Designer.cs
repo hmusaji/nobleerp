@@ -118,7 +118,7 @@ namespace Xtreme
 			// 
 			// chkMissingEmpBilling
 			// 
-			this.chkMissingEmpBilling.AllowDrop = true;
+			//this.chkMissingEmpBilling.AllowDrop = true;
 			this.chkMissingEmpBilling.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkMissingEmpBilling.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
 			this.chkMissingEmpBilling.CausesValidation = true;
@@ -138,7 +138,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_113
 			// 
-			this._lblCommon_113.AllowDrop = true;
+			//this._lblCommon_113.AllowDrop = true;
 			this._lblCommon_113.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_113.Text = "Employee Code";
 			this._lblCommon_113.Location = new System.Drawing.Point(2, 69);
@@ -149,7 +149,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Transaction No.";
 			this._lblCommonLabel_5.Location = new System.Drawing.Point(2, 48);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Transaction Date";
 			this._lblCommonLabel_6.Location = new System.Drawing.Point(422, 48);
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// txtTransDate
 			// 
-			this.txtTransDate.AllowDrop = true;
+			//this.txtTransDate.AllowDrop = true;
 			// this.txtTransDate.CheckDateRange = false;
 			this.txtTransDate.Location = new System.Drawing.Point(507, 46);
 			// this.txtTransDate.MaxDate = 2958465;
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_0
 			// 
-			this._txtDisplayLabel_0.AllowDrop = true;
+			//this._txtDisplayLabel_0.AllowDrop = true;
 			this._txtDisplayLabel_0.Location = new System.Drawing.Point(226, 67);
 			this._txtDisplayLabel_0.Name = "_txtDisplayLabel_0";
 			this._txtDisplayLabel_0.Size = new System.Drawing.Size(383, 19);
@@ -193,7 +193,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_0.Text = "Employee Code";
 			this._lblCommon_0.Location = new System.Drawing.Point(2, 90);
@@ -204,7 +204,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Department Code";
 			this._lblCommonLabel_0.Location = new System.Drawing.Point(2, 114);
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_1
 			// 
-			this._txtDisplayLabel_1.AllowDrop = true;
+			//this._txtDisplayLabel_1.AllowDrop = true;
 			this._txtDisplayLabel_1.Location = new System.Drawing.Point(226, 88);
 			this._txtDisplayLabel_1.Name = "_txtDisplayLabel_1";
 			this._txtDisplayLabel_1.Size = new System.Drawing.Size(383, 19);
@@ -224,7 +224,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_2
 			// 
-			this._txtDisplayLabel_2.AllowDrop = true;
+			//this._txtDisplayLabel_2.AllowDrop = true;
 			this._txtDisplayLabel_2.Location = new System.Drawing.Point(226, 110);
 			this._txtDisplayLabel_2.Name = "_txtDisplayLabel_2";
 			this._txtDisplayLabel_2.Size = new System.Drawing.Size(383, 19);
@@ -233,7 +233,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_1
 			// 
-			this._txtCommonTextBox_1.AllowDrop = true;
+			//this._txtCommonTextBox_1.AllowDrop = true;
 			this._txtCommonTextBox_1.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_1.Location = new System.Drawing.Point(118, 67);
@@ -250,7 +250,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_0
 			// 
-			this._txtCommonTextBox_0.AllowDrop = true;
+			//this._txtCommonTextBox_0.AllowDrop = true;
 			this._txtCommonTextBox_0.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this._txtCommonTextBox_0.bolNumericOnly = true;
 			this._txtCommonTextBox_0.Enabled = false;
@@ -269,7 +269,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_2
 			// 
-			this._txtCommonTextBox_2.AllowDrop = true;
+			//this._txtCommonTextBox_2.AllowDrop = true;
 			this._txtCommonTextBox_2.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_2.Location = new System.Drawing.Point(118, 88);
@@ -286,7 +286,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Department Code";
 			this._lblCommonLabel_1.Location = new System.Drawing.Point(2, 136);
@@ -297,7 +297,7 @@ namespace Xtreme
 			// 
 			// _txtDisplayLabel_3
 			// 
-			this._txtDisplayLabel_3.AllowDrop = true;
+			//this._txtDisplayLabel_3.AllowDrop = true;
 			this._txtDisplayLabel_3.Location = new System.Drawing.Point(226, 132);
 			this._txtDisplayLabel_3.Name = "_txtDisplayLabel_3";
 			this._txtDisplayLabel_3.Size = new System.Drawing.Size(383, 19);
@@ -306,7 +306,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_3
 			// 
-			this._txtCommonTextBox_3.AllowDrop = true;
+			//this._txtCommonTextBox_3.AllowDrop = true;
 			this._txtCommonTextBox_3.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_3.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_3.Location = new System.Drawing.Point(118, 110);
@@ -323,7 +323,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_4
 			// 
-			this._txtCommonTextBox_4.AllowDrop = true;
+			//this._txtCommonTextBox_4.AllowDrop = true;
 			this._txtCommonTextBox_4.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_4.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_4.Location = new System.Drawing.Point(118, 132);
@@ -340,7 +340,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(6, 432);
@@ -362,7 +362,7 @@ namespace Xtreme
 			// 
 			// grdBillingDetails
 			// 
-			this.grdBillingDetails.AllowDrop = true;
+			//this.grdBillingDetails.AllowDrop = true;
 			this.grdBillingDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdBillingDetails.CellTipsWidth = 0;
 			this.grdBillingDetails.Location = new System.Drawing.Point(2, 206);
@@ -372,9 +372,9 @@ namespace Xtreme
 			this.grdBillingDetails.TabIndex = 9;
 			this.grdBillingDetails.Columns.Add(this.Column_0_grdBillingDetails);
 			this.grdBillingDetails.Columns.Add(this.Column_1_grdBillingDetails);
-			this.grdBillingDetails.AfterUpdate += new System.EventHandler(this.grdBillingDetails_AfterUpdate);
-			this.grdBillingDetails.GotFocus += new System.EventHandler(this.grdBillingDetails_GotFocus);
-			this.grdBillingDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdBillingDetails_RowColChange);
+			//this.grdBillingDetails.AfterUpdate += new System.EventHandler(this.grdBillingDetails_AfterUpdate);
+			//this.grdBillingDetails.GotFocus += new System.EventHandler(this.grdBillingDetails_GotFocus);
+			//this.grdBillingDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdBillingDetails_RowColChange);
 			// 
 			// Column_0_grdBillingDetails
 			// 
@@ -388,7 +388,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_3
 			// 
-			this._lblCommonLabel_3.AllowDrop = true;
+			//this._lblCommonLabel_3.AllowDrop = true;
 			this._lblCommonLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_3.Text = "Comments";
 			this._lblCommonLabel_3.Location = new System.Drawing.Point(2, 158);
@@ -399,7 +399,7 @@ namespace Xtreme
 			// 
 			// _txtCommonTextBox_5
 			// 
-			this._txtCommonTextBox_5.AllowDrop = true;
+			//this._txtCommonTextBox_5.AllowDrop = true;
 			this._txtCommonTextBox_5.BackColor = System.Drawing.Color.White;
 			this._txtCommonTextBox_5.ForeColor = System.Drawing.Color.Black;
 			this._txtCommonTextBox_5.Location = new System.Drawing.Point(118, 154);
@@ -415,7 +415,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_2
 			// 
-			this._lblCommonLabel_2.AllowDrop = true;
+			//this._lblCommonLabel_2.AllowDrop = true;
 			this._lblCommonLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_2.Text = "Create Missing Employee Billing.";
 			this._lblCommonLabel_2.Location = new System.Drawing.Point(2, 178);
@@ -426,7 +426,7 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line1.Enabled = false;
 			this.Line1.Location = new System.Drawing.Point(0, 200);

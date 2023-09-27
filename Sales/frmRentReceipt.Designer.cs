@@ -96,7 +96,7 @@ namespace Xtreme
 			// C1Tab1
 			// 
 			//this.C1Tab1.Align = C1SizerLib.AlignSettings.asNone;
-			this.C1Tab1.AllowDrop = true;
+			//this.C1Tab1.AllowDrop = true;
 			this.C1Tab1.Controls.Add(this.Frame1);
 			this.C1Tab1.Location = new System.Drawing.Point(4, 94);
 			this.C1Tab1.Name = "C1Tab1";
@@ -107,9 +107,9 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250);
-			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this.cmbMastersList);
 			this.Frame1.Controls.Add(this.grdVoucherDetails);
 			this.Frame1.Controls.Add(this.txtTempDate);
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(8, 16);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(12, 20);
@@ -156,8 +156,8 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 3;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdVoucherDetails_AfterColUpdate);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -171,7 +171,7 @@ namespace Xtreme
 			// 
 			// txtTempDate
 			// 
-			this.txtTempDate.AllowDrop = true;
+			//this.txtTempDate.AllowDrop = true;
 			this.txtTempDate.Location = new System.Drawing.Point(18, 16);
 			this.txtTempDate.Name = "txtTempDate";
 			//
@@ -182,7 +182,7 @@ namespace Xtreme
 			// 
 			// txtDate
 			// 
-			this.txtDate.AllowDrop = true;
+			//this.txtDate.AllowDrop = true;
 			this.txtDate.Location = new System.Drawing.Point(106, 12);
 			// this.txtDate.MaxDate = 2958465;
 			// this.txtDate.MinDate = -657434;
@@ -194,7 +194,7 @@ namespace Xtreme
 			// 
 			// Label_0
 			// 
-			this.Label_0.AllowDrop = true;
+			//this.Label_0.AllowDrop = true;
 			this.Label_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_0.Text = "Date";
 			this.Label_0.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// txtBuildingNo
 			// 
-			this.txtBuildingNo.AllowDrop = true;
+			//this.txtBuildingNo.AllowDrop = true;
 			this.txtBuildingNo.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtBuildingNo.ForeColor = System.Drawing.Color.Black;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// Label_1
 			// 
-			this.Label_1.AllowDrop = true;
+			//this.Label_1.AllowDrop = true;
 			this.Label_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_1.Text = "Building No";
 			this.Label_1.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -230,7 +230,7 @@ namespace Xtreme
 			// 
 			// txtDescription
 			// 
-			this.txtDescription.AllowDrop = true;
+			//this.txtDescription.AllowDrop = true;
 			this.txtDescription.BackColor = System.Drawing.Color.White;
 			// // = false;
 			this.txtDescription.ForeColor = System.Drawing.Color.Black;
@@ -244,7 +244,7 @@ namespace Xtreme
 			// 
 			// Label_2
 			// 
-			this.Label_2.AllowDrop = true;
+			//this.Label_2.AllowDrop = true;
 			this.Label_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.Label_2.Text = "Description";
 			this.Label_2.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -280,7 +280,7 @@ namespace Xtreme
 			// this.Activated += new System.EventHandler(this.frmRentReceipt_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
+			//this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
 			//this.Resize += new System.EventHandler(this.Form_Resize);
 			//((System.ComponentModel.ISupportInitialize) this.txtTempDate).EndInit();
 			//((System.ComponentModel.ISupportInitialize) this.C1Tab1).EndInit();

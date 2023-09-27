@@ -120,7 +120,7 @@ namespace Xtreme
 			// cntOuterFrame
 			// 
 			//this.cntOuterFrame.Align = C1SizerLib.AlignSettings.asFill;
-			this.cntOuterFrame.AllowDrop = true;
+			//this.cntOuterFrame.AllowDrop = true;
 			this.cntOuterFrame.Controls.Add(this.tabReportOptions);
 			this.cntOuterFrame.Controls.Add(this._btnReportOptions_0);
 			this.cntOuterFrame.Controls.Add(this._btnReportOptions_2);
@@ -136,7 +136,7 @@ namespace Xtreme
 			// tabReportOptions
 			// 
 			//this.tabReportOptions.Align = C1SizerLib.AlignSettings.asNone;
-			this.tabReportOptions.AllowDrop = true;
+			//this.tabReportOptions.AllowDrop = true;
 			this.tabReportOptions.Controls.Add(this.Frame1);
 			this.tabReportOptions.Controls.Add(this.fraReportOptions);
 			this.tabReportOptions.Location = new System.Drawing.Point(10, 20);
@@ -147,9 +147,9 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(248, 245, 231);
-			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this.fraReportPrintType);
 			this.Frame1.Enabled = true;
 			this.Frame1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -162,7 +162,7 @@ namespace Xtreme
 			// 
 			// fraReportPrintType
 			// 
-			this.fraReportPrintType.AllowDrop = true;
+			//this.fraReportPrintType.AllowDrop = true;
 			this.fraReportPrintType.BackColor = System.Drawing.Color.FromArgb(248, 245, 231);
 			this.fraReportPrintType.Controls.Add(this._optPrintGraph_2);
 			this.fraReportPrintType.Controls.Add(this._optPrintGraph_1);
@@ -179,7 +179,7 @@ namespace Xtreme
 			// 
 			// _optPrintGraph_2
 			// 
-			this._optPrintGraph_2.AllowDrop = true;
+			//this._optPrintGraph_2.AllowDrop = true;
 			this._optPrintGraph_2.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optPrintGraph_2.BackColor = System.Drawing.Color.FromArgb(248, 245, 231);
 			this._optPrintGraph_2.CausesValidation = true;
@@ -199,7 +199,7 @@ namespace Xtreme
 			// 
 			// _optPrintGraph_1
 			// 
-			this._optPrintGraph_1.AllowDrop = true;
+			//this._optPrintGraph_1.AllowDrop = true;
 			this._optPrintGraph_1.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optPrintGraph_1.BackColor = System.Drawing.Color.FromArgb(248, 245, 231);
 			this._optPrintGraph_1.CausesValidation = true;
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// _optPrintGraph_0
 			// 
-			this._optPrintGraph_0.AllowDrop = true;
+			//this._optPrintGraph_0.AllowDrop = true;
 			this._optPrintGraph_0.Appearance = System.Windows.Forms.Appearance.Normal;
 			this._optPrintGraph_0.BackColor = System.Drawing.Color.FromArgb(248, 245, 231);
 			this._optPrintGraph_0.CausesValidation = true;
@@ -239,9 +239,9 @@ namespace Xtreme
 			// 
 			// fraReportOptions
 			// 
-			this.fraReportOptions.AllowDrop = true;
+			//this.fraReportOptions.AllowDrop = true;
 			this.fraReportOptions.BackColor = System.Drawing.Color.FromArgb(248, 245, 231);
-			this.fraReportOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraReportOptions.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraReportOptions.Controls.Add(this.grdReportOptions);
 			this.fraReportOptions.Controls.Add(this._lblCommon_0);
 			this.fraReportOptions.Controls.Add(this._txtDateRange_0);
@@ -262,7 +262,7 @@ namespace Xtreme
 			// 
 			// grdReportOptions
 			// 
-			this.grdReportOptions.AllowDrop = true;
+			//this.grdReportOptions.AllowDrop = true;
 			this.grdReportOptions.BackColor = System.Drawing.Color.FromArgb(236, 233, 216);
 			this.grdReportOptions.CellTipsWidth = 0;
 			this.grdReportOptions.Location = new System.Drawing.Point(112, 106);
@@ -272,8 +272,8 @@ namespace Xtreme
 			this.grdReportOptions.TabIndex = 4;
 			this.grdReportOptions.Columns.Add(this.Column_0_grdReportOptions);
 			this.grdReportOptions.Columns.Add(this.Column_1_grdReportOptions);
-			this.grdReportOptions.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportOptions_BeforeRowColChange);
-			this.grdReportOptions.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportOptions_RowColChange);
+			//this.grdReportOptions.BeforeRowColChange += new C1.Win.C1TrueDBGrid.CancelEventHandler(this.grdReportOptions_BeforeRowColChange);
+			////this.grdReportOptions.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdReportOptions_RowColChange);
 			// 
 			// Column_0_grdReportOptions
 			// 
@@ -287,7 +287,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_0
 			// 
-			this._lblCommon_0.AllowDrop = true;
+			//this._lblCommon_0.AllowDrop = true;
 			this._lblCommon_0.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_0.Text = " Date Range ";
 			this._lblCommon_0.ForeColor = System.Drawing.Color.Black;
@@ -298,7 +298,7 @@ namespace Xtreme
 			// 
 			// _txtDateRange_0
 			// 
-			this._txtDateRange_0.AllowDrop = true;
+			//this._txtDateRange_0.AllowDrop = true;
 			// this._txtDateRange_0.CheckDateRange = false;
 			this._txtDateRange_0.Location = new System.Drawing.Point(84, 39);
 			// this._txtDateRange_0.MaxDate = 2958465;
@@ -311,7 +311,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_1
 			// 
-			this._lblCommon_1.AllowDrop = true;
+			//this._lblCommon_1.AllowDrop = true;
 			this._lblCommon_1.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_1.Text = "From Date";
 			this._lblCommon_1.ForeColor = System.Drawing.Color.Black;
@@ -322,7 +322,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_2
 			// 
-			this._lblCommon_2.AllowDrop = true;
+			//this._lblCommon_2.AllowDrop = true;
 			this._lblCommon_2.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_2.Text = "To Date";
 			this._lblCommon_2.ForeColor = System.Drawing.Color.Black;
@@ -333,7 +333,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_3
 			// 
-			this._lblCommon_3.AllowDrop = true;
+			//this._lblCommon_3.AllowDrop = true;
 			this._lblCommon_3.BackColor = System.Drawing.SystemColors.Window;
 			this._lblCommon_3.Text = "Filter Range:";
 			this._lblCommon_3.ForeColor = System.Drawing.Color.Black;
@@ -344,7 +344,7 @@ namespace Xtreme
 			// 
 			// _txtDateRange_1
 			// 
-			this._txtDateRange_1.AllowDrop = true;
+			//this._txtDateRange_1.AllowDrop = true;
 			// this._txtDateRange_1.CheckDateRange = false;
 			this._txtDateRange_1.Location = new System.Drawing.Point(314, 39);
 			// this._txtDateRange_1.MaxDate = 2958465;
@@ -357,7 +357,7 @@ namespace Xtreme
 			// 
 			// cmbSearchList
 			// 
-			this.cmbSearchList.AllowDrop = true;
+			//this.cmbSearchList.AllowDrop = true;
 			this.cmbSearchList.ColumnHeaders = true;
 			this.cmbSearchList.Enabled = true;
 			this.cmbSearchList.Location = new System.Drawing.Point(18, 106);
@@ -379,14 +379,14 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(146, 92, 39);
 			// = 0;
-			this.fraDateRange.BorderColor = System.Drawing.Color.FromArgb(146, 92, 39);
-			this.fraDateRange.BorderStyle = 1;
+			////this.fraDateRange.BorderColor = System.Drawing.Color.FromArgb(146, 92, 39);
+			////this.fraDateRange.BorderStyle = 1;
 			this.fraDateRange.Enabled = false;
-			this.fraDateRange.FillColor = System.Drawing.Color.Navy;
-			this.fraDateRange.FillStyle = 1;
+			////this.fraDateRange.FillColor = System.Drawing.Color.Navy;
+			////this.fraDateRange.FillStyle = 1;
 			this.fraDateRange.Location = new System.Drawing.Point(10, 22);
 			this.fraDateRange.Name = "fraDateRange";
 			this.fraDateRange.Size = new System.Drawing.Size(427, 49);
@@ -394,46 +394,46 @@ namespace Xtreme
 			// 
 			// _btnReportOptions_0
 			// 
-			this._btnReportOptions_0.AllowDrop = true;
+			//this._btnReportOptions_0.AllowDrop = true;
 			this._btnReportOptions_0.Location = new System.Drawing.Point(505, 219);
 			this._btnReportOptions_0.Name = "_btnReportOptions_0";
 			//
 			this._btnReportOptions_0.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_0.TabIndex = 5;
-			//this._btnReportOptions_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
+			////this._btnReportOptions_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
 			//// this._btnReportOptions_0.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);
 			// 
 			// _btnReportOptions_2
 			// 
-			this._btnReportOptions_2.AllowDrop = true;
+			//this._btnReportOptions_2.AllowDrop = true;
 			this._btnReportOptions_2.Location = new System.Drawing.Point(505, 269);
 			this._btnReportOptions_2.Name = "_btnReportOptions_2";
 			//
 			this._btnReportOptions_2.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_2.TabIndex = 7;
-			this._btnReportOptions_2.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
+			////this._btnReportOptions_2.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
 			//// this._btnReportOptions_2.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);
 			// 
 			// _btnReportOptions_1
 			// 
-			this._btnReportOptions_1.AllowDrop = true;
+			//this._btnReportOptions_1.AllowDrop = true;
 			this._btnReportOptions_1.Location = new System.Drawing.Point(505, 244);
 			this._btnReportOptions_1.Name = "_btnReportOptions_1";
 			//
 			this._btnReportOptions_1.Size = new System.Drawing.Size(69, 24);
 			this._btnReportOptions_1.TabIndex = 6;
-			//this._btnReportOptions_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
+			////this._btnReportOptions_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.btnReportOptions_AccessKeyPress);
 			//// this._btnReportOptions_1.ClickEvent += new System.EventHandler(this.btnReportOptions_ClickEvent);
 			// 
 			// _cntButtons_0
 			// 
-			this._cntButtons_0.AllowDrop = true;
+			//this._cntButtons_0.AllowDrop = true;
 			this._cntButtons_0.BackColor = System.Drawing.Color.FromArgb(64, 64, 0);
 			// = 1;
-			this._cntButtons_0.BorderStyle = 0;
+			////this._cntButtons_0.BorderStyle = 0;
 			this._cntButtons_0.Enabled = false;
-			this._cntButtons_0.FillColor = System.Drawing.Color.Black;
-			this._cntButtons_0.FillStyle = 1;
+			////this._cntButtons_0.FillColor = System.Drawing.Color.Black;
+			////this._cntButtons_0.FillStyle = 1;
 			this._cntButtons_0.Location = new System.Drawing.Point(504, 218);
 			this._cntButtons_0.Name = "_cntButtons_0";
 			this._cntButtons_0.Size = new System.Drawing.Size(72, 78);

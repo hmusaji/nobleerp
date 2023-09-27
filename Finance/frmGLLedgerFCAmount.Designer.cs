@@ -72,7 +72,7 @@ namespace Xtreme
 			// 
 			// fraLedgerAmountDetails
 			// 
-			this.fraLedgerAmountDetails.AllowDrop = true;
+			//this.fraLedgerAmountDetails.AllowDrop = true;
 			this.fraLedgerAmountDetails.Controls.Add(this.txtFCAmount);
 			this.fraLedgerAmountDetails.Controls.Add(this.picOkCancel);
 			this.fraLedgerAmountDetails.Controls.Add(this.lblExchangeRate);
@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// txtFCAmount
 			// 
-			this.txtFCAmount.AllowDrop = true;
+			//this.txtFCAmount.AllowDrop = true;
 			// this.txtFCAmount.DisplayFormat = "###,###,##0.000;;0.000;0.000";
 			// this.txtFCAmount.Format = "##########0.000";
 			this.txtFCAmount.Location = new System.Drawing.Point(92, 39);
@@ -99,9 +99,9 @@ namespace Xtreme
 			// 
 			// picOkCancel
 			// 
-			this.picOkCancel.AllowDrop = true;
+			//this.picOkCancel.AllowDrop = true;
 			this.picOkCancel.BackColor = System.Drawing.Color.Navy;
-			this.picOkCancel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.picOkCancel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.picOkCancel.CausesValidation = true;
 			this.picOkCancel.Controls.Add(this._cmdOkCancel_1);
 			this.picOkCancel.Controls.Add(this._cmdOkCancel_0);
@@ -116,31 +116,31 @@ namespace Xtreme
 			// 
 			// _cmdOkCancel_1
 			// 
-			this._cmdOkCancel_1.AllowDrop = true;
+			//this._cmdOkCancel_1.AllowDrop = true;
 			this._cmdOkCancel_1.Location = new System.Drawing.Point(69, 0);
 			this._cmdOkCancel_1.Name = "_cmdOkCancel_1";
 			//
 			this._cmdOkCancel_1.Size = new System.Drawing.Size(67, 24);
 			this._cmdOkCancel_1.TabIndex = 3;
-			this._cmdOkCancel_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdOkCancel_AccessKeyPress);
+			//this._cmdOkCancel_1.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdOkCancel_AccessKeyPress);
 			//// this._cmdOkCancel_1.ClickEvent += new System.EventHandler(this.cmdOkCancel_ClickEvent);
-			this._cmdOkCancel_1.KeyDownEvent += new AxSmartNetButtonProject.__SmartNetButton_KeyDownEventHandler(this.cmdOkCancel_KeyDownEvent);
+			//this._cmdOkCancel_1.KeyDownEvent += new AxSmartNetButtonProject.__SmartNetButton_KeyDownEventHandler(this.cmdOkCancel_KeyDownEvent);
 			// 
 			// _cmdOkCancel_0
 			// 
-			this._cmdOkCancel_0.AllowDrop = true;
+			//this._cmdOkCancel_0.AllowDrop = true;
 			this._cmdOkCancel_0.Location = new System.Drawing.Point(0, 0);
 			this._cmdOkCancel_0.Name = "_cmdOkCancel_0";
 			//
 			this._cmdOkCancel_0.Size = new System.Drawing.Size(67, 24);
 			this._cmdOkCancel_0.TabIndex = 2;
-			this._cmdOkCancel_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdOkCancel_AccessKeyPress);
+			//this._cmdOkCancel_0.AccessKeyPress += new AxSmartNetButtonProject.__SmartNetButton_AccessKeyPressEventHandler(this.cmdOkCancel_AccessKeyPress);
 			//// this._cmdOkCancel_0.ClickEvent += new System.EventHandler(this.cmdOkCancel_ClickEvent);
-			this._cmdOkCancel_0.KeyDownEvent += new AxSmartNetButtonProject.__SmartNetButton_KeyDownEventHandler(this.cmdOkCancel_KeyDownEvent);
+			//this._cmdOkCancel_0.KeyDownEvent += new AxSmartNetButtonProject.__SmartNetButton_KeyDownEventHandler(this.cmdOkCancel_KeyDownEvent);
 			// 
 			// lblExchangeRate
 			// 
-			this.lblExchangeRate.AllowDrop = true;
+			//this.lblExchangeRate.AllowDrop = true;
 			this.lblExchangeRate.BackColor = System.Drawing.Color.FromArgb(209, 218, 188);
 			// this.lblExchangeRate.Text = "Exchange Rate";
 			this.lblExchangeRate.Location = new System.Drawing.Point(10, 21);
@@ -150,7 +150,7 @@ namespace Xtreme
 			// 
 			// lblAmount
 			// 
-			this.lblAmount.AllowDrop = true;
+			//this.lblAmount.AllowDrop = true;
 			this.lblAmount.BackColor = System.Drawing.Color.FromArgb(209, 218, 188);
 			this.lblAmount.Text = "Amount";
 			this.lblAmount.Location = new System.Drawing.Point(10, 42);
@@ -160,7 +160,7 @@ namespace Xtreme
 			// 
 			// txtExchangeRate
 			// 
-			this.txtExchangeRate.AllowDrop = true;
+			//this.txtExchangeRate.AllowDrop = true;
 			// this.txtExchangeRate.DisplayFormat = "####0.0000000###;;0.000;0.000";
 			// this.txtExchangeRate.Format = "####0.000######";
 			this.txtExchangeRate.Location = new System.Drawing.Point(92, 18);

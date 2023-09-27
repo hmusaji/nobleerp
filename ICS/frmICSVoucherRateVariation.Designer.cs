@@ -98,19 +98,19 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(135, 198);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 6;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.fraDateRange);
 			this.cntMainParameter.Controls.Add(this.Frame1);
 			this.cntMainParameter.Controls.Add(this.txtProductCd);
@@ -127,9 +127,9 @@ namespace Xtreme
 			// 
 			// fraDateRange
 			// 
-			this.fraDateRange.AllowDrop = true;
+			//this.fraDateRange.AllowDrop = true;
 			this.fraDateRange.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
-			this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraDateRange.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraDateRange.Controls.Add(this.lblToDate);
 			this.fraDateRange.Controls.Add(this.txtToDate);
 			this.fraDateRange.Controls.Add(this.txtFromDate);
@@ -146,7 +146,7 @@ namespace Xtreme
 			// 
 			// lblToDate
 			// 
-			this.lblToDate.AllowDrop = true;
+			//this.lblToDate.AllowDrop = true;
 			this.lblToDate.BackColor = System.Drawing.SystemColors.Window;
 			// this.lblToDate.Text = "To Date";
 			this.lblToDate.ForeColor = System.Drawing.Color.Black;
@@ -157,7 +157,7 @@ namespace Xtreme
 			// 
 			// txtToDate
 			// 
-			this.txtToDate.AllowDrop = true;
+			//this.txtToDate.AllowDrop = true;
 			// this.txtToDate.CheckDateRange = false;
 			this.txtToDate.Location = new System.Drawing.Point(85, 33);
 			// this.txtToDate.MaxDate = 2958465;
@@ -170,7 +170,7 @@ namespace Xtreme
 			// 
 			// txtFromDate
 			// 
-			this.txtFromDate.AllowDrop = true;
+			//this.txtFromDate.AllowDrop = true;
 			// this.txtFromDate.CheckDateRange = false;
 			this.txtFromDate.Location = new System.Drawing.Point(85, 12);
 			// this.txtFromDate.MaxDate = 2958465;
@@ -183,7 +183,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.SystemColors.Window;
 			this.Label1.Text = "From Date";
 			this.Label1.ForeColor = System.Drawing.Color.Black;
@@ -195,9 +195,9 @@ namespace Xtreme
 			// 
 			// Frame1
 			// 
-			this.Frame1.AllowDrop = true;
+			//this.Frame1.AllowDrop = true;
 			this.Frame1.BackColor = System.Drawing.Color.FromArgb(241, 242, 234);
-			this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Frame1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Frame1.Controls.Add(this.txtCurrentRate);
 			this.Frame1.Controls.Add(this.Label2);
 			this.Frame1.Controls.Add(this.Label3);
@@ -214,7 +214,7 @@ namespace Xtreme
 			// 
 			// txtCurrentRate
 			// 
-			this.txtCurrentRate.AllowDrop = true;
+			//this.txtCurrentRate.AllowDrop = true;
 			this.txtCurrentRate.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			// this.txtCurrentRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			this.txtCurrentRate.Enabled = false;
@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label2
 			// 
-			this.Label2.AllowDrop = true;
+			//this.Label2.AllowDrop = true;
 			this.Label2.BackColor = System.Drawing.SystemColors.Window;
 			this.Label2.Text = "New Rate";
 			this.Label2.ForeColor = System.Drawing.Color.Black;
@@ -240,7 +240,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.SystemColors.Window;
 			this.Label3.Text = "Current Rate";
 			this.Label3.ForeColor = System.Drawing.Color.Black;
@@ -252,7 +252,7 @@ namespace Xtreme
 			// 
 			// txtNewRate
 			// 
-			this.txtNewRate.AllowDrop = true;
+			//this.txtNewRate.AllowDrop = true;
 			// this.txtNewRate.DisplayFormat = "####0.000###;;0.000;0.000";
 			// this.txtNewRate.Format = "###########0.000";
 			this.txtNewRate.Location = new System.Drawing.Point(90, 30);
@@ -265,7 +265,7 @@ namespace Xtreme
 			// 
 			// txtProductCd
 			// 
-			this.txtProductCd.AllowDrop = true;
+			//this.txtProductCd.AllowDrop = true;
 			this.txtProductCd.BackColor = System.Drawing.Color.White;
 			this.txtProductCd.ForeColor = System.Drawing.Color.Black;
 			this.txtProductCd.Location = new System.Drawing.Point(101, 32);
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// txtLedgerCd
 			// 
-			this.txtLedgerCd.AllowDrop = true;
+			//this.txtLedgerCd.AllowDrop = true;
 			this.txtLedgerCd.BackColor = System.Drawing.Color.White;
 			this.txtLedgerCd.ForeColor = System.Drawing.Color.Black;
 			this.txtLedgerCd.Location = new System.Drawing.Point(101, 11);
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblLocationCode.Text = "Product Code";
 			this.lblLocationCode.ForeColor = System.Drawing.Color.Black;
@@ -305,7 +305,7 @@ namespace Xtreme
 			// 
 			// lblMasterCode
 			// 
-			this.lblMasterCode.AllowDrop = true;
+			//this.lblMasterCode.AllowDrop = true;
 			this.lblMasterCode.BackColor = System.Drawing.SystemColors.Window;
 			this.lblMasterCode.Text = "Ledger Name";
 			this.lblMasterCode.ForeColor = System.Drawing.Color.Black;
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// txtProductName
 			// 
-			this.txtProductName.AllowDrop = true;
+			//this.txtProductName.AllowDrop = true;
 			this.txtProductName.Location = new System.Drawing.Point(204, 32);
 			this.txtProductName.Name = "txtProductName";
 			this.txtProductName.Size = new System.Drawing.Size(201, 19);
@@ -324,7 +324,7 @@ namespace Xtreme
 			// 
 			// txtLedgerName
 			// 
-			this.txtLedgerName.AllowDrop = true;
+			//this.txtLedgerName.AllowDrop = true;
 			this.txtLedgerName.Location = new System.Drawing.Point(204, 11);
 			this.txtLedgerName.Name = "txtLedgerName";
 			this.txtLedgerName.Size = new System.Drawing.Size(201, 19);

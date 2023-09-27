@@ -41,7 +41,7 @@ namespace Xtreme
 		private string mFindDataSourceGroupBySQL = "";
 		private string mFindDataSourceOrderBySQL = "";
 
-		private clsToolbar oThisFormToolBar = null;
+		////$0
 		//--whether to allow or disallow user to add / open find master
 		public bool mRestrictAccessToMasterFromFind = false;
 
@@ -67,7 +67,7 @@ namespace Xtreme
 		private const int mFixedRow = 0;
 		private const string mColumnPrefix = "Column";
 
-		public XtremeCommandBars.StatusBar UCStatusBar = null;
+		//public XtremeCommandBars.StatusBar UCStatusBar = null;
 		public frmSysFindDesign()
 {
 InitializeComponent();

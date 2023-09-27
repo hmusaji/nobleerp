@@ -92,7 +92,7 @@ namespace Xtreme
 			// 
 			// frmGLLink
 			// 
-			this.frmGLLink.AllowDrop = true;
+			//this.frmGLLink.AllowDrop = true;
 			this.frmGLLink.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.frmGLLink.Controls.Add(this.cmdEmpGL);
 			this.frmGLLink.Controls.Add(this.cmdUpdateEmpGLLink);
@@ -109,7 +109,7 @@ namespace Xtreme
 			// 
 			// cmdEmpGL
 			// 
-			this.cmdEmpGL.AllowDrop = true;
+			//this.cmdEmpGL.AllowDrop = true;
 			this.cmdEmpGL.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdEmpGL.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdEmpGL.Location = new System.Drawing.Point(249, 9);
@@ -124,7 +124,7 @@ namespace Xtreme
 			// 
 			// cmdUpdateEmpGLLink
 			// 
-			this.cmdUpdateEmpGLLink.AllowDrop = true;
+			//this.cmdUpdateEmpGLLink.AllowDrop = true;
 			this.cmdUpdateEmpGLLink.BackColor = System.Drawing.SystemColors.Control;
 			this.cmdUpdateEmpGLLink.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.cmdUpdateEmpGLLink.Location = new System.Drawing.Point(150, 9);
@@ -139,7 +139,7 @@ namespace Xtreme
 			// 
 			// Line2
 			// 
-			this.Line2.AllowDrop = true;
+			//this.Line2.AllowDrop = true;
 			this.Line2.BackColor = System.Drawing.SystemColors.WindowText;
 			this.Line2.Enabled = false;
 			this.Line2.Location = new System.Drawing.Point(133, 6);
@@ -149,9 +149,9 @@ namespace Xtreme
 			// 
 			// Label1
 			// 
-			this.Label1.AllowDrop = true;
+			//this.Label1.AllowDrop = true;
 			this.Label1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Label1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Label1.Location = new System.Drawing.Point(21, 16);
 			this.Label1.Name = "Label1";
@@ -162,7 +162,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(27, 141);
@@ -184,7 +184,7 @@ namespace Xtreme
 			// 
 			// txtEmpCode
 			// 
-			this.txtEmpCode.AllowDrop = true;
+			//this.txtEmpCode.AllowDrop = true;
 			this.txtEmpCode.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtEmpCode.Enabled = false;
 			this.txtEmpCode.ForeColor = System.Drawing.Color.Black;
@@ -197,7 +197,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_5
 			// 
-			this._lblCommon_5.AllowDrop = true;
+			//this._lblCommon_5.AllowDrop = true;
 			this._lblCommon_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_5.Text = "Billing Code";
 			this._lblCommon_5.ForeColor = System.Drawing.Color.Black;
@@ -209,7 +209,7 @@ namespace Xtreme
 			// 
 			// txtEmpName
 			// 
-			this.txtEmpName.AllowDrop = true;
+			//this.txtEmpName.AllowDrop = true;
 			this.txtEmpName.Location = new System.Drawing.Point(196, 54);
 			this.txtEmpName.Name = "txtEmpName";
 			this.txtEmpName.Size = new System.Drawing.Size(312, 19);
@@ -217,7 +217,7 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Enabled = false;
@@ -228,8 +228,8 @@ namespace Xtreme
 			this.grdVoucherDetails.TabIndex = 4;
 			this.grdVoucherDetails.Columns.Add(this.Column_0_grdVoucherDetails);
 			this.grdVoucherDetails.Columns.Add(this.Column_1_grdVoucherDetails);
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
-			this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
+			//this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			//this.grdVoucherDetails.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdVoucherDetails_RowColChange);
 			// 
 			// Column_0_grdVoucherDetails
 			// 
@@ -243,9 +243,9 @@ namespace Xtreme
 			// 
 			// Line1
 			// 
-			this.Line1.AllowDrop = true;
+			//this.Line1.AllowDrop = true;
 			this.Line1.BackColor = System.Drawing.Color.Red;
-			this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.Line1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Line1.Enabled = false;
 			this.Line1.ForeColor = System.Drawing.Color.Black;
 			this.Line1.Location = new System.Drawing.Point(3, 83);

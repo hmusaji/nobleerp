@@ -153,9 +153,9 @@ namespace Xtreme
 			// 
 			// frameBottom
 			// 
-			this.frameBottom.AllowDrop = true;
+			//this.frameBottom.AllowDrop = true;
 			this.frameBottom.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.frameBottom.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.frameBottom.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.frameBottom.Controls.Add(this.txtRemark);
 			this.frameBottom.Controls.Add(this._lblCommonLabel_9);
 			this.frameBottom.Controls.Add(this._lblCommonLabel_8);
@@ -172,7 +172,7 @@ namespace Xtreme
 			// 
 			// txtRemark
 			// 
-			this.txtRemark.AllowDrop = true;
+			//this.txtRemark.AllowDrop = true;
 			this.txtRemark.BackColor = System.Drawing.Color.White;
 			this.txtRemark.ForeColor = System.Drawing.Color.Black;
 			this.txtRemark.Location = new System.Drawing.Point(61, 34);
@@ -185,7 +185,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_9
 			// 
-			this._lblCommonLabel_9.AllowDrop = true;
+			//this._lblCommonLabel_9.AllowDrop = true;
 			this._lblCommonLabel_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_9.Text = "Narration";
 			this._lblCommonLabel_9.ForeColor = System.Drawing.Color.Black;
@@ -196,7 +196,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_8
 			// 
-			this._lblCommonLabel_8.AllowDrop = true;
+			//this._lblCommonLabel_8.AllowDrop = true;
 			this._lblCommonLabel_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_8.Text = "Salesman";
 			this._lblCommonLabel_8.ForeColor = System.Drawing.Color.Black;
@@ -208,7 +208,7 @@ namespace Xtreme
 			// 
 			// txtSalesman
 			// 
-			this.txtSalesman.AllowDrop = true;
+			//this.txtSalesman.AllowDrop = true;
 			this.txtSalesman.BackColor = System.Drawing.Color.White;
 			// this.txtSalesman.bolNumericOnly = true;
 			this.txtSalesman.ForeColor = System.Drawing.Color.Black;
@@ -225,7 +225,7 @@ namespace Xtreme
 			// 
 			// txtSmanDisplayLabel
 			// 
-			this.txtSmanDisplayLabel.AllowDrop = true;
+			//this.txtSmanDisplayLabel.AllowDrop = true;
 			this.txtSmanDisplayLabel.Location = new System.Drawing.Point(164, 10);
 			this.txtSmanDisplayLabel.Name = "txtSmanDisplayLabel";
 			this.txtSmanDisplayLabel.Size = new System.Drawing.Size(199, 19);
@@ -233,9 +233,9 @@ namespace Xtreme
 			// 
 			// fraTransactionHeader
 			// 
-			this.fraTransactionHeader.AllowDrop = true;
+			//this.fraTransactionHeader.AllowDrop = true;
 			this.fraTransactionHeader.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.fraTransactionHeader.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.fraTransactionHeader.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.fraTransactionHeader.Controls.Add(this.txtVoucherDate);
 			this.fraTransactionHeader.Controls.Add(this.txtLocation);
 			this.fraTransactionHeader.Controls.Add(this._lblCommonLabel_5);
@@ -263,7 +263,7 @@ namespace Xtreme
 			// 
 			// txtVoucherDate
 			// 
-			this.txtVoucherDate.AllowDrop = true;
+			//this.txtVoucherDate.AllowDrop = true;
 			// this.txtVoucherDate.CheckDateRange = false;
 			this.txtVoucherDate.Location = new System.Drawing.Point(86, 58);
 			// this.txtVoucherDate.MaxDate = 2958465;
@@ -276,7 +276,7 @@ namespace Xtreme
 			// 
 			// txtLocation
 			// 
-			this.txtLocation.AllowDrop = true;
+			//this.txtLocation.AllowDrop = true;
 			this.txtLocation.BackColor = System.Drawing.Color.White;
 			// this.txtLocation.bolNumericOnly = true;
 			this.txtLocation.ForeColor = System.Drawing.Color.Black;
@@ -293,7 +293,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_5
 			// 
-			this._lblCommonLabel_5.AllowDrop = true;
+			//this._lblCommonLabel_5.AllowDrop = true;
 			this._lblCommonLabel_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_5.Text = "Voucher No.";
 			this._lblCommonLabel_5.ForeColor = System.Drawing.Color.Black;
@@ -305,7 +305,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_6
 			// 
-			this._lblCommonLabel_6.AllowDrop = true;
+			//this._lblCommonLabel_6.AllowDrop = true;
 			this._lblCommonLabel_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_6.Text = "Voucher Date";
 			this._lblCommonLabel_6.ForeColor = System.Drawing.Color.Black;
@@ -317,7 +317,7 @@ namespace Xtreme
 			// 
 			// txtVoucherNo
 			// 
-			this.txtVoucherNo.AllowDrop = true;
+			//this.txtVoucherNo.AllowDrop = true;
 			this.txtVoucherNo.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// this.txtVoucherNo.bolNumericOnly = true;
 			this.txtVoucherNo.Enabled = false;
@@ -332,7 +332,7 @@ namespace Xtreme
 			// 
 			// txtLocDisplayLabel
 			// 
-			this.txtLocDisplayLabel.AllowDrop = true;
+			//this.txtLocDisplayLabel.AllowDrop = true;
 			this.txtLocDisplayLabel.Location = new System.Drawing.Point(192, 14);
 			this.txtLocDisplayLabel.Name = "txtLocDisplayLabel";
 			this.txtLocDisplayLabel.Size = new System.Drawing.Size(275, 19);
@@ -340,7 +340,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_0
 			// 
-			this._lblCommonLabel_0.AllowDrop = true;
+			//this._lblCommonLabel_0.AllowDrop = true;
 			this._lblCommonLabel_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_0.Text = "Customer";
 			this._lblCommonLabel_0.ForeColor = System.Drawing.Color.Black;
@@ -352,7 +352,7 @@ namespace Xtreme
 			// 
 			// txtLdgrCode
 			// 
-			this.txtLdgrCode.AllowDrop = true;
+			//this.txtLdgrCode.AllowDrop = true;
 			this.txtLdgrCode.BackColor = System.Drawing.Color.White;
 			// this.txtLdgrCode.bolNumericOnly = true;
 			this.txtLdgrCode.ForeColor = System.Drawing.Color.Black;
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			// txtLedgerName
 			// 
-			this.txtLedgerName.AllowDrop = true;
+			//this.txtLedgerName.AllowDrop = true;
 			this.txtLedgerName.Location = new System.Drawing.Point(190, 80);
 			this.txtLedgerName.Name = "txtLedgerName";
 			this.txtLedgerName.Size = new System.Drawing.Size(275, 19);
@@ -377,7 +377,7 @@ namespace Xtreme
 			// 
 			// _lblSource_1
 			// 
-			this._lblSource_1.AllowDrop = true;
+			//this._lblSource_1.AllowDrop = true;
 			this._lblSource_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblSource_1.Text = "Source";
 			this._lblSource_1.ForeColor = System.Drawing.Color.Black;
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// txtSourceVoucherType
 			// 
-			this.txtSourceVoucherType.AllowDrop = true;
+			//this.txtSourceVoucherType.AllowDrop = true;
 			this.txtSourceVoucherType.BackColor = System.Drawing.Color.White;
 			// this.txtSourceVoucherType.bolNumericOnly = true;
 			this.txtSourceVoucherType.ForeColor = System.Drawing.Color.Black;
@@ -407,7 +407,7 @@ namespace Xtreme
 			// 
 			// _lblSourceVoucherType_1
 			// 
-			this._lblSourceVoucherType_1.AllowDrop = true;
+			//this._lblSourceVoucherType_1.AllowDrop = true;
 			this._lblSourceVoucherType_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblSourceVoucherType_1.Text = "Voucher Type";
 			this._lblSourceVoucherType_1.ForeColor = System.Drawing.Color.Black;
@@ -420,7 +420,7 @@ namespace Xtreme
 			// 
 			// _lblVoucherNo_1
 			// 
-			this._lblVoucherNo_1.AllowDrop = true;
+			//this._lblVoucherNo_1.AllowDrop = true;
 			this._lblVoucherNo_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblVoucherNo_1.Text = "Voucher No.";
 			this._lblVoucherNo_1.ForeColor = System.Drawing.Color.Black;
@@ -433,7 +433,7 @@ namespace Xtreme
 			// 
 			// txtSourceVoucherNo
 			// 
-			this.txtSourceVoucherNo.AllowDrop = true;
+			//this.txtSourceVoucherNo.AllowDrop = true;
 			this.txtSourceVoucherNo.BackColor = System.Drawing.Color.White;
 			// this.txtSourceVoucherNo.bolNumericOnly = true;
 			this.txtSourceVoucherNo.ForeColor = System.Drawing.Color.Black;
@@ -448,7 +448,7 @@ namespace Xtreme
 			// 
 			// _lblCommonLabel_1
 			// 
-			this._lblCommonLabel_1.AllowDrop = true;
+			//this._lblCommonLabel_1.AllowDrop = true;
 			this._lblCommonLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommonLabel_1.Text = "Location";
 			this._lblCommonLabel_1.ForeColor = System.Drawing.Color.Black;
@@ -460,13 +460,13 @@ namespace Xtreme
 			// 
 			// Shape
 			// 
-			this.Shape.AllowDrop = true;
+			//this.Shape.AllowDrop = true;
 			this.Shape.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
-			this.Shape.BorderStyle = 1;
+			//this.Shape.BorderStyle = 1;
 			this.Shape.Enabled = false;
-			this.Shape.FillColor = System.Drawing.Color.Black;
-			this.Shape.FillStyle = 1;
+			//this.Shape.FillColor = System.Drawing.Color.Black;
+			//this.Shape.FillStyle = 1;
 			this.Shape.Location = new System.Drawing.Point(478, 42);
 			this.Shape.Name = "Shape";
 			this.Shape.Size = new System.Drawing.Size(209, 57);
@@ -474,7 +474,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.TabControlPage2);
 			this.tabMaster.Controls.Add(this.TabControlPage1);
 			this.tabMaster.Location = new System.Drawing.Point(6, 148);
@@ -485,7 +485,7 @@ namespace Xtreme
 			// 
 			// TabControlPage2
 			// 
-			this.TabControlPage2.AllowDrop = true;
+			//this.TabControlPage2.AllowDrop = true;
 			this.TabControlPage2.Controls.Add(this.grdProductOut);
 			this.TabControlPage2.Controls.Add(this.cmbMastersListOut);
 			this.TabControlPage2.Location = new System.Drawing.Point(-4664, 26);
@@ -499,7 +499,7 @@ namespace Xtreme
 			// 
 			this.grdProductOut.AllowAddNew = true;
 			this.grdProductOut.AllowDelete = true;
-			this.grdProductOut.AllowDrop = true;
+			//this.grdProductOut.AllowDrop = true;
 			this.grdProductOut.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdProductOut.CellTipsWidth = 0;
 			this.grdProductOut.Location = new System.Drawing.Point(2, 4);
@@ -509,9 +509,9 @@ namespace Xtreme
 			this.grdProductOut.TabIndex = 27;
 			this.grdProductOut.Columns.Add(this.Column_0_grdProductOut);
 			this.grdProductOut.Columns.Add(this.Column_1_grdProductOut);
-			this.grdProductOut.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdProductOut_AfterColUpdate);
-			this.grdProductOut.GotFocus += new System.EventHandler(this.grdProductOut_GotFocus);
-			this.grdProductOut.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdProductOut_RowColChange);
+			//this.grdProductOut.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdProductOut_AfterColUpdate);
+			//this.grdProductOut.GotFocus += new System.EventHandler(this.grdProductOut_GotFocus);
+			//this.grdProductOut.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdProductOut_RowColChange);
 			// 
 			// Column_0_grdProductOut
 			// 
@@ -525,7 +525,7 @@ namespace Xtreme
 			// 
 			// cmbMastersListOut
 			// 
-			this.cmbMastersListOut.AllowDrop = true;
+			//this.cmbMastersListOut.AllowDrop = true;
 			this.cmbMastersListOut.ColumnHeaders = true;
 			this.cmbMastersListOut.Enabled = true;
 			this.cmbMastersListOut.Location = new System.Drawing.Point(24, 118);
@@ -547,7 +547,7 @@ namespace Xtreme
 			// 
 			// TabControlPage1
 			// 
-			this.TabControlPage1.AllowDrop = true;
+			//this.TabControlPage1.AllowDrop = true;
 			this.TabControlPage1.Controls.Add(this.grdProductIn);
 			this.TabControlPage1.Controls.Add(this.cmbMastersList);
 			this.TabControlPage1.Location = new System.Drawing.Point(2, 26);
@@ -560,7 +560,7 @@ namespace Xtreme
 			// 
 			this.grdProductIn.AllowAddNew = true;
 			this.grdProductIn.AllowDelete = true;
-			this.grdProductIn.AllowDrop = true;
+			//this.grdProductIn.AllowDrop = true;
 			this.grdProductIn.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdProductIn.CellTipsWidth = 0;
 			this.grdProductIn.Location = new System.Drawing.Point(2, 4);
@@ -570,9 +570,9 @@ namespace Xtreme
 			this.grdProductIn.TabIndex = 25;
 			this.grdProductIn.Columns.Add(this.Column_0_grdProductIn);
 			this.grdProductIn.Columns.Add(this.Column_1_grdProductIn);
-			this.grdProductIn.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdProductIn_AfterColUpdate);
-			this.grdProductIn.GotFocus += new System.EventHandler(this.grdProductIn_GotFocus);
-			this.grdProductIn.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdProductIn_RowColChange);
+			//this.grdProductIn.AfterColUpdate += new C1.Win.C1TrueDBGrid.ColEventHandler(this.grdProductIn_AfterColUpdate);
+			//this.grdProductIn.GotFocus += new System.EventHandler(this.grdProductIn_GotFocus);
+			//this.grdProductIn.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdProductIn_RowColChange);
 			// 
 			// Column_0_grdProductIn
 			// 
@@ -586,7 +586,7 @@ namespace Xtreme
 			// 
 			// cmbMastersList
 			// 
-			this.cmbMastersList.AllowDrop = true;
+			//this.cmbMastersList.AllowDrop = true;
 			this.cmbMastersList.ColumnHeaders = true;
 			this.cmbMastersList.Enabled = true;
 			this.cmbMastersList.Location = new System.Drawing.Point(34, 124);
@@ -608,9 +608,9 @@ namespace Xtreme
 			// 
 			// CommandBars
 			// 
-			this.CommandBars.AllowDrop = true;
-			this.CommandBars.Location = new System.Drawing.Point(792, 2);
-			this.CommandBars.Name = "CommandBars";
+			////this.CommandBars.AllowDrop = true;
+			//this.CommandBars.Location = new System.Drawing.Point(792, 2);
+			//this.CommandBars.Name = "CommandBars";
 			//
 			// 
 			// frmICSExcessShortage
@@ -624,7 +624,7 @@ namespace Xtreme
 			this.Controls.Add(this.frameBottom);
 			this.Controls.Add(this.fraTransactionHeader);
 			this.Controls.Add(this.tabMaster);
-			this.Controls.Add(this.CommandBars);
+			//this.Controls.Add(this.CommandBars);
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmICSExcessShortage.Icon");
 			this.KeyPreview = true;
 			this.Location = new System.Drawing.Point(109, 180);

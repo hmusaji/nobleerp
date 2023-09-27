@@ -66,7 +66,7 @@ namespace Xtreme
 			// 
 			// txtBudgetCode
 			// 
-			this.txtBudgetCode.AllowDrop = true;
+			//this.txtBudgetCode.AllowDrop = true;
 			this.txtBudgetCode.BackColor = System.Drawing.Color.White;
 			// this.txtBudgetCode.bolNumericOnly = true;
 			this.txtBudgetCode.ForeColor = System.Drawing.Color.Black;
@@ -81,7 +81,7 @@ namespace Xtreme
 			// 
 			// lblBudgetCode
 			// 
-			this.lblBudgetCode.AllowDrop = true;
+			//this.lblBudgetCode.AllowDrop = true;
 			this.lblBudgetCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblBudgetCode.Text = "Budget Code";
 			this.lblBudgetCode.Location = new System.Drawing.Point(14, 78);
@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// txtDBudgetName
 			// 
-			this.txtDBudgetName.AllowDrop = true;
+			//this.txtDBudgetName.AllowDrop = true;
 			this.txtDBudgetName.Location = new System.Drawing.Point(245, 76);
 			this.txtDBudgetName.Name = "txtDBudgetName";
 			this.txtDBudgetName.Size = new System.Drawing.Size(239, 19);
@@ -100,9 +100,9 @@ namespace Xtreme
 			// 
 			// tcbSystemForm
 			// 
-			this.tcbSystemForm.AllowDrop = true;
-			this.tcbSystemForm.Location = new System.Drawing.Point(126, 6);
-			this.tcbSystemForm.Name = "tcbSystemForm";
+			//this.tcbSystemForm.AllowDrop = true;
+			//this.tcbSystemForm.Location = new System.Drawing.Point(126, 6);
+			//this.tcbSystemForm.Name = "tcbSystemForm";
 			//
 			// 
 			// frmPayBudgetCategory
@@ -116,7 +116,7 @@ namespace Xtreme
 			this.Controls.Add(this.txtBudgetCode);
 			this.Controls.Add(this.lblBudgetCode);
 			this.Controls.Add(this.txtDBudgetName);
-			this.Controls.Add(this.tcbSystemForm);
+			//this.Controls.Add(this.tcbSystemForm);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			//this.Icon = (System.Drawing.Icon) resources.GetObject("frmPayBudgetCategory.Icon");
 			this.KeyPreview = true;

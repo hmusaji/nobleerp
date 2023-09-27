@@ -88,9 +88,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(145, 143);
@@ -103,7 +103,7 @@ namespace Xtreme
 			// 
 			// txtDeptNo
 			// 
-			this.txtDeptNo.AllowDrop = true;
+			//this.txtDeptNo.AllowDrop = true;
 			this.txtDeptNo.BackColor = System.Drawing.Color.White;
 			// this.txtDeptNo.bolNumericOnly = true;
 			this.txtDeptNo.ForeColor = System.Drawing.Color.Black;
@@ -119,7 +119,7 @@ namespace Xtreme
 			// 
 			// lblGroupNo
 			// 
-			this.lblGroupNo.AllowDrop = true;
+			//this.lblGroupNo.AllowDrop = true;
 			this.lblGroupNo.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblGroupNo.Text = "Department Code";
 			this.lblGroupNo.Location = new System.Drawing.Point(9, 59);
@@ -130,7 +130,7 @@ namespace Xtreme
 			// 
 			// lblLGroupName
 			// 
-			this.lblLGroupName.AllowDrop = true;
+			//this.lblLGroupName.AllowDrop = true;
 			this.lblLGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLGroupName.Text = "Department Name (English)";
 			this.lblLGroupName.Location = new System.Drawing.Point(9, 81);
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// txtLDeptName
 			// 
-			this.txtLDeptName.AllowDrop = true;
+			//this.txtLDeptName.AllowDrop = true;
 			this.txtLDeptName.BackColor = System.Drawing.Color.White;
 			this.txtLDeptName.ForeColor = System.Drawing.Color.Black;
 			this.txtLDeptName.Location = new System.Drawing.Point(145, 78);
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// lblParentGroup
 			// 
-			this.lblParentGroup.AllowDrop = true;
+			//this.lblParentGroup.AllowDrop = true;
 			this.lblParentGroup.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblParentGroup.Text = "Under Department";
 			this.lblParentGroup.Location = new System.Drawing.Point(9, 123);
@@ -164,7 +164,7 @@ namespace Xtreme
 			// 
 			// lblAGroupName
 			// 
-			this.lblAGroupName.AllowDrop = true;
+			//this.lblAGroupName.AllowDrop = true;
 			this.lblAGroupName.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblAGroupName.Text = "Department Name (Arabic)";
 			this.lblAGroupName.Location = new System.Drawing.Point(9, 102);
@@ -175,7 +175,7 @@ namespace Xtreme
 			// 
 			// txtADeptName
 			// 
-			this.txtADeptName.AllowDrop = true;
+			//this.txtADeptName.AllowDrop = true;
 			this.txtADeptName.BackColor = System.Drawing.Color.White;
 			this.txtADeptName.ForeColor = System.Drawing.Color.Black;
 			this.txtADeptName.Location = new System.Drawing.Point(145, 99);
@@ -188,7 +188,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(9, 143);
@@ -199,7 +199,7 @@ namespace Xtreme
 			// 
 			// txtParentDeptNo
 			// 
-			this.txtParentDeptNo.AllowDrop = true;
+			//this.txtParentDeptNo.AllowDrop = true;
 			this.txtParentDeptNo.BackColor = System.Drawing.Color.White;
 			// this.txtParentDeptNo.bolNumericOnly = true;
 			this.txtParentDeptNo.ForeColor = System.Drawing.Color.Black;
@@ -215,7 +215,7 @@ namespace Xtreme
 			// 
 			// txtParentDeptName
 			// 
-			this.txtParentDeptName.AllowDrop = true;
+			//this.txtParentDeptName.AllowDrop = true;
 			this.txtParentDeptName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtParentDeptName.Enabled = false;
 			this.txtParentDeptName.ForeColor = System.Drawing.Color.Black;
@@ -228,7 +228,7 @@ namespace Xtreme
 			// 
 			// txtDlblAppTemplateName
 			// 
-			this.txtDlblAppTemplateName.AllowDrop = true;
+			//this.txtDlblAppTemplateName.AllowDrop = true;
 			this.txtDlblAppTemplateName.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
 			this.txtDlblAppTemplateName.Enabled = false;
 			this.txtDlblAppTemplateName.Location = new System.Drawing.Point(248, 201);
@@ -238,7 +238,7 @@ namespace Xtreme
 			// 
 			// txtApprovalTemplate
 			// 
-			this.txtApprovalTemplate.AllowDrop = true;
+			//this.txtApprovalTemplate.AllowDrop = true;
 			this.txtApprovalTemplate.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			// // = false;
 			this.txtApprovalTemplate.Enabled = false;
@@ -255,7 +255,7 @@ namespace Xtreme
 			// 
 			// _lblApprovalTemplate_28
 			// 
-			this._lblApprovalTemplate_28.AllowDrop = true;
+			//this._lblApprovalTemplate_28.AllowDrop = true;
 			this._lblApprovalTemplate_28.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblApprovalTemplate_28.Text = "Approval Template";
 			this._lblApprovalTemplate_28.Location = new System.Drawing.Point(9, 204);

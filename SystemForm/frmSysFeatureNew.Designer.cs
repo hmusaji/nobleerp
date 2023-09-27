@@ -63,9 +63,9 @@ namespace Xtreme
 			// txtRemarks
 			// 
 			this.txtRemarks.AcceptsReturn = true;
-			this.txtRemarks.AllowDrop = true;
+			//this.txtRemarks.AllowDrop = true;
 			this.txtRemarks.BackColor = System.Drawing.SystemColors.Window;
-			this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtRemarks.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtRemarks.Font = new System.Drawing.Font("Arial", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 178);
 			this.txtRemarks.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -82,7 +82,7 @@ namespace Xtreme
 			// grdFeature
 			// 
 			this.grdFeature.AllowDragging = C1.Win.C1FlexGrid.AllowDraggingEnum.None;
-			this.grdFeature.AllowDrop = true;
+			//this.grdFeature.AllowDrop = true;
 			this.grdFeature.AllowEditing = true;
 			this.grdFeature.AllowFreezing = C1.Win.C1FlexGrid.AllowFreezingEnum.None;
 			this.grdFeature.AllowMerging = C1.Win.C1FlexGrid.AllowMergingEnum.None;
@@ -93,8 +93,8 @@ namespace Xtreme
 			this.grdFeature.AutoSearch = C1.Win.C1FlexGrid.AutoSearchEnum.None;
 			this.grdFeature.AutoSearchDelay = 4;
 			this.grdFeature.BackColor = System.Drawing.SystemColors.Window;
-			this.grdFeature.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
-			this.grdFeature.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
+			//this.grdFeature.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.FixedSingle;
+			//this.grdFeature.BorderStyle = C1.Win.C1FlexGrid.Util.BaseControls.BorderStyleEnum.None;
 			this.grdFeature.Cols.Count = 10;
 			this.grdFeature.Cols.Fixed = 1;
 			this.grdFeature.Cols.Frozen = 0;
@@ -149,7 +149,7 @@ namespace Xtreme
 			this.grdFeature.Tree.Column = 0;
 			this.grdFeature.Tree.LineColor = System.Drawing.SystemColors.ControlDark;
 			this.grdFeature.Tree.Style = C1.Win.C1FlexGrid.TreeStyleFlags.None;
-			this.grdFeature.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdFeature_StartEdit);
+			//this.grdFeature.StartEdit += new C1.Win.C1FlexGrid.RowColEventHandler(this.grdFeature_StartEdit);
 			// 
 			// frmSysFeatureNew
 			// 

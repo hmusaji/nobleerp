@@ -95,9 +95,9 @@ namespace Xtreme
 			// 
 			// picFormToolbar
 			// 
-			this.picFormToolbar.AllowDrop = true;
+			//this.picFormToolbar.AllowDrop = true;
 			this.picFormToolbar.BackColor = System.Drawing.SystemColors.Control;
-			this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.picFormToolbar.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.picFormToolbar.CausesValidation = true;
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_0);
 			this.picFormToolbar.Controls.Add(this._btnFormToolBar_1);
@@ -117,7 +117,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_0
 			// 
-			this._btnFormToolBar_0.AllowDrop = true;
+			//this._btnFormToolBar_0.AllowDrop = true;
 			this._btnFormToolBar_0.Location = new System.Drawing.Point(2, 2);
 			this._btnFormToolBar_0.Name = "_btnFormToolBar_0";
 			//
@@ -129,7 +129,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_1
 			// 
-			this._btnFormToolBar_1.AllowDrop = true;
+			//this._btnFormToolBar_1.AllowDrop = true;
 			this._btnFormToolBar_1.Location = new System.Drawing.Point(53, 2);
 			this._btnFormToolBar_1.Name = "_btnFormToolBar_1";
 			//
@@ -141,7 +141,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_5
 			// 
-			this._btnFormToolBar_5.AllowDrop = true;
+			//this._btnFormToolBar_5.AllowDrop = true;
 			this._btnFormToolBar_5.Location = new System.Drawing.Point(257, 2);
 			this._btnFormToolBar_5.Name = "_btnFormToolBar_5";
 			//
@@ -153,7 +153,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_2
 			// 
-			this._btnFormToolBar_2.AllowDrop = true;
+			//this._btnFormToolBar_2.AllowDrop = true;
 			this._btnFormToolBar_2.Location = new System.Drawing.Point(104, 2);
 			this._btnFormToolBar_2.Name = "_btnFormToolBar_2";
 			//
@@ -165,7 +165,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_3
 			// 
-			this._btnFormToolBar_3.AllowDrop = true;
+			//this._btnFormToolBar_3.AllowDrop = true;
 			this._btnFormToolBar_3.Location = new System.Drawing.Point(155, 2);
 			this._btnFormToolBar_3.Name = "_btnFormToolBar_3";
 			//
@@ -177,7 +177,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_6
 			// 
-			this._btnFormToolBar_6.AllowDrop = true;
+			//this._btnFormToolBar_6.AllowDrop = true;
 			this._btnFormToolBar_6.Location = new System.Drawing.Point(320, 2);
 			this._btnFormToolBar_6.Name = "_btnFormToolBar_6";
 			//
@@ -189,7 +189,7 @@ namespace Xtreme
 			// 
 			// _btnFormToolBar_4
 			// 
-			this._btnFormToolBar_4.AllowDrop = true;
+			//this._btnFormToolBar_4.AllowDrop = true;
 			this._btnFormToolBar_4.Location = new System.Drawing.Point(206, 2);
 			this._btnFormToolBar_4.Name = "_btnFormToolBar_4";
 			//
@@ -201,7 +201,7 @@ namespace Xtreme
 			// 
 			// cntMainParameter
 			// 
-			this.cntMainParameter.AllowDrop = true;
+			//this.cntMainParameter.AllowDrop = true;
 			this.cntMainParameter.Controls.Add(this.TextBox2);
 			this.cntMainParameter.Controls.Add(this.TextBox1);
 			this.cntMainParameter.Controls.Add(this.ComboBox1);
@@ -231,7 +231,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox2
 			// 
-			this.TextBox2.AllowDrop = true;
+			//this.TextBox2.AllowDrop = true;
 			this.TextBox2.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox2.Location = new System.Drawing.Point(136, 164);
@@ -243,7 +243,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox1
 			// 
-			this.TextBox1.AllowDrop = true;
+			//this.TextBox1.AllowDrop = true;
 			this.TextBox1.Location = new System.Drawing.Point(150, 110);
 			// = 2147483647;
 			// = 0;
@@ -253,7 +253,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.ComboBox1
 			// 
-			this.ComboBox1.AllowDrop = true;
+			//this.ComboBox1.AllowDrop = true;
 			this.ComboBox1.Location = new System.Drawing.Point(146, 78);
 			this.ComboBox1.Name="ComboBox1";
 			this.ComboBox1.Size = new System.Drawing.Size(115, 21);
@@ -262,9 +262,9 @@ namespace Xtreme
 			// txtComment
 			// 
 			this.txtComment.AcceptsReturn = true;
-			this.txtComment.AllowDrop = true;
+			//this.txtComment.AllowDrop = true;
 			this.txtComment.BackColor = System.Drawing.SystemColors.Window;
-			this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			//this.txtComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtComment.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtComment.Location = new System.Drawing.Point(146, 196);
@@ -277,7 +277,7 @@ namespace Xtreme
 			// 
 			// txtGradeNo
 			// 
-			this.txtGradeNo.AllowDrop = true;
+			//this.txtGradeNo.AllowDrop = true;
 			this.txtGradeNo.BackColor = System.Drawing.Color.White;
 			// this.txtGradeNo.bolNumericOnly = true;
 			this.txtGradeNo.Location = new System.Drawing.Point(146, 12);
@@ -292,7 +292,7 @@ namespace Xtreme
 			// 
 			// lblLNatName
 			// 
-			this.lblLNatName.AllowDrop = true;
+			//this.lblLNatName.AllowDrop = true;
 			this.lblLNatName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblLNatName.Text = "Grade Name (English)";
 			this.lblLNatName.Location = new System.Drawing.Point(8, 35);
@@ -302,7 +302,7 @@ namespace Xtreme
 			// 
 			// txtLGradeName
 			// 
-			this.txtLGradeName.AllowDrop = true;
+			//this.txtLGradeName.AllowDrop = true;
 			this.txtLGradeName.BackColor = System.Drawing.Color.White;
 			this.txtLGradeName.Location = new System.Drawing.Point(146, 33);
 			this.txtLGradeName.MaxLength = 50;
@@ -313,7 +313,7 @@ namespace Xtreme
 			// 
 			// lblANatName
 			// 
-			this.lblANatName.AllowDrop = true;
+			//this.lblANatName.AllowDrop = true;
 			this.lblANatName.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblANatName.Text = "Grade Name (Arabic)";
 			this.lblANatName.Location = new System.Drawing.Point(8, 56);
@@ -323,7 +323,7 @@ namespace Xtreme
 			// 
 			// txtAGradeName
 			// 
-			this.txtAGradeName.AllowDrop = true;
+			//this.txtAGradeName.AllowDrop = true;
 			this.txtAGradeName.BackColor = System.Drawing.Color.White;
 			this.txtAGradeName.Location = new System.Drawing.Point(146, 54);
 			// // = true;
@@ -335,7 +335,7 @@ namespace Xtreme
 			// 
 			// lblComments
 			// 
-			this.lblComments.AllowDrop = true;
+			//this.lblComments.AllowDrop = true;
 			this.lblComments.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblComments.Text = "Comment";
 			this.lblComments.Location = new System.Drawing.Point(8, 196);
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// lblNatNo
 			// 
-			this.lblNatNo.AllowDrop = true;
+			//this.lblNatNo.AllowDrop = true;
 			this.lblNatNo.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.lblNatNo.Text = "Grade Code";
 			this.lblNatNo.Location = new System.Drawing.Point(8, 14);
@@ -355,7 +355,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label3
 			// 
-			this.Label3.AllowDrop = true;
+			//this.Label3.AllowDrop = true;
 			this.Label3.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label3.Text = "Grade Name (Arabic)";
 			this.Label3.Location = new System.Drawing.Point(272, 172);
@@ -365,7 +365,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label4
 			// 
-			this.Label4.AllowDrop = true;
+			//this.Label4.AllowDrop = true;
 			this.Label4.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label4.Text = "Grade Name (Arabic)";
 			this.Label4.Location = new System.Drawing.Point(14, 164);
@@ -375,7 +375,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label5
 			// 
-			this.Label5.AllowDrop = true;
+			//this.Label5.AllowDrop = true;
 			this.Label5.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label5.Text = "Grade Name (Arabic)";
 			this.Label5.Location = new System.Drawing.Point(268, 142);
@@ -385,7 +385,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label6
 			// 
-			this.Label6.AllowDrop = true;
+			//this.Label6.AllowDrop = true;
 			this.Label6.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label6.Text = "Grade Name (Arabic)";
 			this.Label6.Location = new System.Drawing.Point(266, 82);
@@ -395,7 +395,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label7
 			// 
-			this.Label7.AllowDrop = true;
+			//this.Label7.AllowDrop = true;
 			this.Label7.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label7.Text = "Grade Name (Arabic)";
 			this.Label7.Location = new System.Drawing.Point(262, 116);
@@ -405,7 +405,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label8
 			// 
-			this.Label8.AllowDrop = true;
+			//this.Label8.AllowDrop = true;
 			this.Label8.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label8.Text = "Grade Name (Arabic)";
 			this.Label8.Location = new System.Drawing.Point(4, 138);
@@ -415,7 +415,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.Label9
 			// 
-			this.Label9.AllowDrop = true;
+			//this.Label9.AllowDrop = true;
 			this.Label9.BackColor = System.Drawing.Color.FromArgb(237, 231, 235);
 			this.Label9.Text = "Grade Name (Arabic)";
 			this.Label9.Location = new System.Drawing.Point(12, 114);
@@ -425,7 +425,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox1
 			// 
-			this.TextBox1.AllowDrop = true;
+			//this.TextBox1.AllowDrop = true;
 			this.TextBox1.BackColor = System.Drawing.Color.White;
 			this.TextBox1.Location = new System.Drawing.Point(382, 80);
 			// = true;
@@ -437,7 +437,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox3
 			// 
-			this.TextBox3.AllowDrop = true;
+			//this.TextBox3.AllowDrop = true;
 			this.TextBox3.Location = new System.Drawing.Point(382, 138);
 			// = 2147483647;
 			// = 0;
@@ -447,7 +447,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox4
 			// 
-			this.TextBox4.AllowDrop = true;
+			//this.TextBox4.AllowDrop = true;
 			this.TextBox4.Location = new System.Drawing.Point(380, 112);
 			// = 2147483647;
 			// = 0;
@@ -457,7 +457,7 @@ namespace Xtreme
 			// 
 			// System.Windows.Forms.TextBox5
 			// 
-			this.TextBox5.AllowDrop = true;
+			//this.TextBox5.AllowDrop = true;
 			this.TextBox5.Location = new System.Drawing.Point(150, 134);
 			// = 2147483647;
 			// = 0;

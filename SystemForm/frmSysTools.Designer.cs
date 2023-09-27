@@ -124,9 +124,9 @@ namespace Xtreme
 			// 
 			// panelNotes
 			// 
-			this.panelNotes.AllowDrop = true;
+			//this.panelNotes.AllowDrop = true;
 			this.panelNotes.BackColor = System.Drawing.SystemColors.Control;
-			this.panelNotes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.panelNotes.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.panelNotes.CausesValidation = true;
 			this.panelNotes.Controls.Add(this.Text1);
 			this.panelNotes.Controls.Add(this.Image);
@@ -142,9 +142,9 @@ namespace Xtreme
 			// Text1
 			// 
 			this.Text1.AcceptsReturn = true;
-			this.Text1.AllowDrop = true;
+			//this.Text1.AllowDrop = true;
 			this.Text1.BackColor = System.Drawing.Color.FromArgb(255, 246, 150);
-			this.Text1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Text1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Text1.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.Text1.Font = new System.Drawing.Font("Viner Hand ITC", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.Text1.ForeColor = System.Drawing.Color.Black;
@@ -158,8 +158,8 @@ namespace Xtreme
 			// 
 			// Image
 			// 
-			this.Image.AllowDrop = true;
-			this.Image.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.Image.AllowDrop = true;
+			//this.Image.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.Image.Enabled = true;
 			//this.Image.Image = (System.Drawing.Image) resources.GetObject("Image.Image");
 			this.Image.Location = new System.Drawing.Point(2, 0);
@@ -170,9 +170,9 @@ namespace Xtreme
 			// 
 			// panelCalculator
 			// 
-			this.panelCalculator.AllowDrop = true;
+			//this.panelCalculator.AllowDrop = true;
 			this.panelCalculator.BackColor = System.Drawing.SystemColors.Control;
-			this.panelCalculator.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.panelCalculator.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.panelCalculator.CausesValidation = true;
 			this.panelCalculator.Controls.Add(this._cmdCalc_0);
 			this.panelCalculator.Controls.Add(this._cmdCalc_1);
@@ -209,7 +209,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_0
 			// 
-			this._cmdCalc_0.AllowDrop = true;
+			//this._cmdCalc_0.AllowDrop = true;
 			this._cmdCalc_0.Location = new System.Drawing.Point(2, 42);
 			this._cmdCalc_0.Name = "_cmdCalc_0";
 			////
@@ -219,7 +219,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_1
 			// 
-			this._cmdCalc_1.AllowDrop = true;
+			//this._cmdCalc_1.AllowDrop = true;
 			this._cmdCalc_1.Location = new System.Drawing.Point(38, 42);
 			this._cmdCalc_1.Name = "_cmdCalc_1";
 			////
@@ -229,7 +229,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_2
 			// 
-			this._cmdCalc_2.AllowDrop = true;
+			//this._cmdCalc_2.AllowDrop = true;
 			this._cmdCalc_2.Location = new System.Drawing.Point(74, 42);
 			this._cmdCalc_2.Name = "_cmdCalc_2";
 			////
@@ -239,7 +239,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_3
 			// 
-			this._cmdCalc_3.AllowDrop = true;
+			//this._cmdCalc_3.AllowDrop = true;
 			this._cmdCalc_3.Location = new System.Drawing.Point(2, 72);
 			this._cmdCalc_3.Name = "_cmdCalc_3";
 			////
@@ -249,7 +249,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_4
 			// 
-			this._cmdCalc_4.AllowDrop = true;
+			//this._cmdCalc_4.AllowDrop = true;
 			this._cmdCalc_4.Location = new System.Drawing.Point(38, 72);
 			this._cmdCalc_4.Name = "_cmdCalc_4";
 			////
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_5
 			// 
-			this._cmdCalc_5.AllowDrop = true;
+			//this._cmdCalc_5.AllowDrop = true;
 			this._cmdCalc_5.Location = new System.Drawing.Point(74, 72);
 			this._cmdCalc_5.Name = "_cmdCalc_5";
 			////
@@ -269,7 +269,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_8
 			// 
-			this._cmdCalc_8.AllowDrop = true;
+			//this._cmdCalc_8.AllowDrop = true;
 			this._cmdCalc_8.Location = new System.Drawing.Point(2, 102);
 			this._cmdCalc_8.Name = "_cmdCalc_8";
 			////
@@ -279,7 +279,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_9
 			// 
-			this._cmdCalc_9.AllowDrop = true;
+			//this._cmdCalc_9.AllowDrop = true;
 			this._cmdCalc_9.Location = new System.Drawing.Point(38, 102);
 			this._cmdCalc_9.Name = "_cmdCalc_9";
 			////
@@ -289,7 +289,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_29
 			// 
-			this._cmdCalc_29.AllowDrop = true;
+			//this._cmdCalc_29.AllowDrop = true;
 			this._cmdCalc_29.Location = new System.Drawing.Point(74, 102);
 			this._cmdCalc_29.Name = "_cmdCalc_29";
 			////
@@ -299,7 +299,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_13
 			// 
-			this._cmdCalc_13.AllowDrop = true;
+			//this._cmdCalc_13.AllowDrop = true;
 			this._cmdCalc_13.Location = new System.Drawing.Point(2, 132);
 			this._cmdCalc_13.Name = "_cmdCalc_13";
 			////
@@ -309,7 +309,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_14
 			// 
-			this._cmdCalc_14.AllowDrop = true;
+			//this._cmdCalc_14.AllowDrop = true;
 			this._cmdCalc_14.Location = new System.Drawing.Point(38, 132);
 			this._cmdCalc_14.Name = "_cmdCalc_14";
 			////
@@ -319,7 +319,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_15
 			// 
-			this._cmdCalc_15.AllowDrop = true;
+			//this._cmdCalc_15.AllowDrop = true;
 			this._cmdCalc_15.Location = new System.Drawing.Point(74, 132);
 			this._cmdCalc_15.Name = "_cmdCalc_15";
 			////
@@ -329,7 +329,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_18
 			// 
-			this._cmdCalc_18.AllowDrop = true;
+			//this._cmdCalc_18.AllowDrop = true;
 			this._cmdCalc_18.Location = new System.Drawing.Point(2, 162);
 			this._cmdCalc_18.Name = "_cmdCalc_18";
 			////
@@ -339,7 +339,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_19
 			// 
-			this._cmdCalc_19.AllowDrop = true;
+			//this._cmdCalc_19.AllowDrop = true;
 			this._cmdCalc_19.Location = new System.Drawing.Point(110, 42);
 			this._cmdCalc_19.Name = "_cmdCalc_19";
 			////
@@ -349,7 +349,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_7
 			// 
-			this._cmdCalc_7.AllowDrop = true;
+			//this._cmdCalc_7.AllowDrop = true;
 			this._cmdCalc_7.Location = new System.Drawing.Point(146, 42);
 			this._cmdCalc_7.Name = "_cmdCalc_7";
 			////
@@ -359,7 +359,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_20
 			// 
-			this._cmdCalc_20.AllowDrop = true;
+			//this._cmdCalc_20.AllowDrop = true;
 			this._cmdCalc_20.Location = new System.Drawing.Point(74, 162);
 			this._cmdCalc_20.Name = "_cmdCalc_20";
 			////
@@ -369,7 +369,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_21
 			// 
-			this._cmdCalc_21.AllowDrop = true;
+			//this._cmdCalc_21.AllowDrop = true;
 			this._cmdCalc_21.Location = new System.Drawing.Point(110, 162);
 			this._cmdCalc_21.Name = "_cmdCalc_21";
 			////
@@ -379,7 +379,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_6
 			// 
-			this._cmdCalc_6.AllowDrop = true;
+			//this._cmdCalc_6.AllowDrop = true;
 			this._cmdCalc_6.Location = new System.Drawing.Point(110, 72);
 			this._cmdCalc_6.Name = "_cmdCalc_6";
 			////
@@ -389,7 +389,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_12
 			// 
-			this._cmdCalc_12.AllowDrop = true;
+			//this._cmdCalc_12.AllowDrop = true;
 			this._cmdCalc_12.Location = new System.Drawing.Point(146, 72);
 			this._cmdCalc_12.Name = "_cmdCalc_12";
 			////
@@ -399,7 +399,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_11
 			// 
-			this._cmdCalc_11.AllowDrop = true;
+			//this._cmdCalc_11.AllowDrop = true;
 			this._cmdCalc_11.Location = new System.Drawing.Point(110, 102);
 			this._cmdCalc_11.Name = "_cmdCalc_11";
 			////
@@ -409,7 +409,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_16
 			// 
-			this._cmdCalc_16.AllowDrop = true;
+			//this._cmdCalc_16.AllowDrop = true;
 			this._cmdCalc_16.Location = new System.Drawing.Point(110, 132);
 			this._cmdCalc_16.Name = "_cmdCalc_16";
 			////
@@ -419,7 +419,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_17
 			// 
-			this._cmdCalc_17.AllowDrop = true;
+			//this._cmdCalc_17.AllowDrop = true;
 			this._cmdCalc_17.Location = new System.Drawing.Point(146, 102);
 			this._cmdCalc_17.Name = "_cmdCalc_17";
 			////
@@ -429,7 +429,7 @@ namespace Xtreme
 			// 
 			// _cmdCalc_22
 			// 
-			this._cmdCalc_22.AllowDrop = true;
+			//this._cmdCalc_22.AllowDrop = true;
 			this._cmdCalc_22.Location = new System.Drawing.Point(146, 132);
 			this._cmdCalc_22.Name = "_cmdCalc_22";
 			////
@@ -439,9 +439,9 @@ namespace Xtreme
 			// 
 			// lblDisplay
 			// 
-			this.lblDisplay.AllowDrop = true;
+			//this.lblDisplay.AllowDrop = true;
 			this.lblDisplay.BackColor = System.Drawing.Color.White;
-			this.lblDisplay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.lblDisplay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.lblDisplay.Font = new System.Drawing.Font("Consolas", 15.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
 			this.lblDisplay.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblDisplay.Location = new System.Drawing.Point(2, 4);
@@ -454,9 +454,9 @@ namespace Xtreme
 			// 
 			// panelCalender
 			// 
-			this.panelCalender.AllowDrop = true;
+			//this.panelCalender.AllowDrop = true;
 			this.panelCalender.BackColor = System.Drawing.SystemColors.Control;
-			this.panelCalender.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.panelCalender.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.panelCalender.CausesValidation = true;
 			this.panelCalender.Controls.Add(this.ctlCalender);
 			this.panelCalender.Dock = System.Windows.Forms.DockStyle.None;
@@ -470,7 +470,7 @@ namespace Xtreme
 			// 
 			// ctlCalender
 			// 
-			this.ctlCalender.AllowDrop = true;
+			//this.ctlCalender.AllowDrop = true;
 			this.ctlCalender.Location = new System.Drawing.Point(2, 0);
 			this.ctlCalender.Name = "ctlCalender";
 			
@@ -497,7 +497,7 @@ namespace Xtreme
 			// this.Activated += new System.EventHandler(this.frmSysTools_Activated);
 			// this.Closed += new System.EventHandler(this.Form_Closed);
 			// this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
-			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
+			//this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_KeyPress);
 			//this.Resize += new System.EventHandler(this.Form_Resize);
 			//((System.ComponentModel.ISupportInitialize) this._cmdCalc_0).EndInit();
 			//((System.ComponentModel.ISupportInitialize) this._cmdCalc_1).EndInit();

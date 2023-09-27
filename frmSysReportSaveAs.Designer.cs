@@ -60,20 +60,20 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(107, 81);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Save";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 2;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// txtArabicName
 			// 
 			// //this.txtArabicName.Alignment = 1;
-			this.txtArabicName.AllowDrop = true;
+			//this.txtArabicName.AllowDrop = true;
 			this.txtArabicName.BackColor = System.Drawing.Color.White;
 			this.txtArabicName.ForeColor = System.Drawing.Color.Black;
 			this.txtArabicName.Location = new System.Drawing.Point(104, 39);
@@ -86,7 +86,7 @@ namespace Xtreme
 			// 
 			// lblLocationCode
 			// 
-			this.lblLocationCode.AllowDrop = true;
+			//this.lblLocationCode.AllowDrop = true;
 			this.lblLocationCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblLocationCode.Text = "Arabic Name";
 			this.lblLocationCode.Location = new System.Drawing.Point(8, 42);
@@ -96,7 +96,7 @@ namespace Xtreme
 			// 
 			// txtEngName
 			// 
-			this.txtEngName.AllowDrop = true;
+			//this.txtEngName.AllowDrop = true;
 			this.txtEngName.BackColor = System.Drawing.Color.White;
 			this.txtEngName.ForeColor = System.Drawing.Color.Black;
 			this.txtEngName.Location = new System.Drawing.Point(102, 16);
@@ -108,7 +108,7 @@ namespace Xtreme
 			// 
 			// lblCompanyCode
 			// 
-			this.lblCompanyCode.AllowDrop = true;
+			//this.lblCompanyCode.AllowDrop = true;
 			this.lblCompanyCode.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblCompanyCode.Text = "English Name";
 			this.lblCompanyCode.Location = new System.Drawing.Point(8, 19);

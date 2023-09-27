@@ -91,7 +91,7 @@ namespace Xtreme
 			// 
 			// chkFreeze
 			// 
-			this.chkFreeze.AllowDrop = true;
+			//this.chkFreeze.AllowDrop = true;
 			this.chkFreeze.Appearance = System.Windows.Forms.Appearance.Normal;
 			this.chkFreeze.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.chkFreeze.CausesValidation = true;
@@ -111,7 +111,7 @@ namespace Xtreme
 			// 
 			// tabMaster
 			// 
-			this.tabMaster.AllowDrop = true;
+			//this.tabMaster.AllowDrop = true;
 			this.tabMaster.Controls.Add(this.tabFGeneral);
 			this.tabMaster.Location = new System.Drawing.Point(6, 128);
 			this.tabMaster.Name = "tabMaster";
@@ -121,7 +121,7 @@ namespace Xtreme
 			// 
 			// tabFGeneral
 			// 
-			this.tabFGeneral.AllowDrop = true;
+			//this.tabFGeneral.AllowDrop = true;
 			this.tabFGeneral.Controls.Add(this.grdVoucherDetails);
 			this.tabFGeneral.Location = new System.Drawing.Point(2, 28);
 			this.tabFGeneral.Name = "tabFGeneral";
@@ -131,20 +131,20 @@ namespace Xtreme
 			// 
 			// grdVoucherDetails
 			// 
-			this.grdVoucherDetails.AllowDrop = true;
+			//this.grdVoucherDetails.AllowDrop = true;
 			this.grdVoucherDetails.BackColor = System.Drawing.Color.Silver;
-			this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.grdVoucherDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.grdVoucherDetails.CellTipsWidth = 0;
 			this.grdVoucherDetails.Location = new System.Drawing.Point(0, 2);
 			this.grdVoucherDetails.Name = "grdVoucherDetails";
 			this.grdVoucherDetails.RowDivider.Color = System.Drawing.Color.Silver;
 			this.grdVoucherDetails.Size = new System.Drawing.Size(861, 204);
 			this.grdVoucherDetails.TabIndex = 2;
-			this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
+			////this.grdVoucherDetails.GotFocus += new System.EventHandler(this.grdVoucherDetails_GotFocus);
 			// 
 			// _txtCommon_0
 			// 
-			this._txtCommon_0.AllowDrop = true;
+			//this._txtCommon_0.AllowDrop = true;
 			this._txtCommon_0.BackColor = System.Drawing.Color.White;
 			this._txtCommon_0.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_0.Location = new System.Drawing.Point(166, 28);
@@ -158,7 +158,7 @@ namespace Xtreme
 			// 
 			// _lblDisplayLabel_2
 			// 
-			this._lblDisplayLabel_2.AllowDrop = true;
+			//this._lblDisplayLabel_2.AllowDrop = true;
 			this._lblDisplayLabel_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblDisplayLabel_2.Text = "Activity Name (English)";
 			this._lblDisplayLabel_2.ForeColor = System.Drawing.Color.Black;
@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_1
 			// 
-			this._txtCommon_1.AllowDrop = true;
+			//this._txtCommon_1.AllowDrop = true;
 			this._txtCommon_1.BackColor = System.Drawing.Color.White;
 			this._txtCommon_1.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_1.Location = new System.Drawing.Point(166, 50);
@@ -181,7 +181,7 @@ namespace Xtreme
 			// 
 			// _lblDisplayLabel_3
 			// 
-			this._lblDisplayLabel_3.AllowDrop = true;
+			//this._lblDisplayLabel_3.AllowDrop = true;
 			this._lblDisplayLabel_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblDisplayLabel_3.Text = "Activity Name (Arabic)";
 			this._lblDisplayLabel_3.ForeColor = System.Drawing.Color.Black;
@@ -192,7 +192,7 @@ namespace Xtreme
 			// 
 			// _txtCommon_2
 			// 
-			this._txtCommon_2.AllowDrop = true;
+			//this._txtCommon_2.AllowDrop = true;
 			this._txtCommon_2.BackColor = System.Drawing.Color.White;
 			this._txtCommon_2.ForeColor = System.Drawing.Color.Black;
 			this._txtCommon_2.Location = new System.Drawing.Point(166, 72);
@@ -205,7 +205,7 @@ namespace Xtreme
 			// 
 			// _lblDisplayLabel_1
 			// 
-			this._lblDisplayLabel_1.AllowDrop = true;
+			//this._lblDisplayLabel_1.AllowDrop = true;
 			this._lblDisplayLabel_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblDisplayLabel_1.Text = "Activity Code";
 			this._lblDisplayLabel_1.ForeColor = System.Drawing.Color.Black;
@@ -216,7 +216,7 @@ namespace Xtreme
 			// 
 			// _lblCommon_7
 			// 
-			this._lblCommon_7.AllowDrop = true;
+			//this._lblCommon_7.AllowDrop = true;
 			this._lblCommon_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this._lblCommon_7.Text = "Activity Type";
 			this._lblCommon_7.ForeColor = System.Drawing.Color.Black;
@@ -227,7 +227,7 @@ namespace Xtreme
 			// 
 			// txtActivityType
 			// 
-			this.txtActivityType.AllowDrop = true;
+			//this.txtActivityType.AllowDrop = true;
 			this.txtActivityType.BackColor = System.Drawing.Color.White;
 			// this.txtActivityType.bolNumericOnly = true;
 			this.txtActivityType.ForeColor = System.Drawing.Color.Black;
@@ -242,7 +242,7 @@ namespace Xtreme
 			// 
 			// txtActivityTypeName
 			// 
-			this.txtActivityTypeName.AllowDrop = true;
+			//this.txtActivityTypeName.AllowDrop = true;
 			this.txtActivityTypeName.Location = new System.Drawing.Point(270, 94);
 			this.txtActivityTypeName.Name = "txtActivityTypeName";
 			this.txtActivityTypeName.Size = new System.Drawing.Size(201, 19);

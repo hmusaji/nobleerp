@@ -169,7 +169,7 @@ namespace Xtreme
 			// 
 			// cmbParentsList
 			// 
-			this.cmbParentsList.AllowDrop = true;
+			//this.cmbParentsList.AllowDrop = true;
 			this.cmbParentsList.ColumnHeaders = true;
 			this.cmbParentsList.Enabled = true;
 			this.cmbParentsList.Location = new System.Drawing.Point(222, 396);
@@ -191,7 +191,7 @@ namespace Xtreme
 			// 
 			// TextBox1_0
 			// 
-			this.TextBox1_0.AllowDrop = true;
+			//this.TextBox1_0.AllowDrop = true;
 			this.TextBox1_0.Enabled = false;
 			this.TextBox1_0.Location = new System.Drawing.Point(92, 496);
 			this.TextBox1_0.Name = "TextBox1_0";
@@ -202,7 +202,7 @@ namespace Xtreme
 			// 
 			this.grdLC.AllowAddNew = true;
 			this.grdLC.AllowDelete = true;
-			this.grdLC.AllowDrop = true;
+			//this.grdLC.AllowDrop = true;
 			this.grdLC.BackColor = System.Drawing.Color.FromArgb(212, 208, 200);
 			this.grdLC.CellTipsWidth = 0;
 			this.grdLC.Location = new System.Drawing.Point(8, 342);
@@ -212,8 +212,8 @@ namespace Xtreme
 			this.grdLC.TabIndex = 37;
 			this.grdLC.Columns.Add(this.Column_0_grdLC);
 			this.grdLC.Columns.Add(this.Column_1_grdLC);
-			//this.grdLC.GotFocus += new System.EventHandler(this.grdLC_GotFocus);
-			//this.grdLC.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLC_RowColChange);
+			////this.grdLC.GotFocus += new System.EventHandler(this.grdLC_GotFocus);
+			////this.grdLC.RowColChange += new C1.Win.C1TrueDBGrid.RowColChangeEventHandler(this.grdLC_RowColChange);
 			// 
 			// Column_0_grdLC
 			// 
@@ -228,9 +228,9 @@ namespace Xtreme
 			// txtNotes
 			// 
 			this.txtNotes.AcceptsReturn = true;
-			this.txtNotes.AllowDrop = true;
+			//this.txtNotes.AllowDrop = true;
 			this.txtNotes.BackColor = System.Drawing.SystemColors.Window;
-			this.txtNotes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtNotes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtNotes.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtNotes.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtNotes.Location = new System.Drawing.Point(86, 272);
@@ -244,9 +244,9 @@ namespace Xtreme
 			// txtGoods
 			// 
 			this.txtGoods.AcceptsReturn = true;
-			this.txtGoods.AllowDrop = true;
+			//this.txtGoods.AllowDrop = true;
 			this.txtGoods.BackColor = System.Drawing.SystemColors.Window;
-			this.txtGoods.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			//this.txtGoods.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.txtGoods.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.txtGoods.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.txtGoods.Location = new System.Drawing.Point(86, 58);
@@ -259,7 +259,7 @@ namespace Xtreme
 			// 
 			// TextBox_0
 			// 
-			this.TextBox_0.AllowDrop = true;
+			//this.TextBox_0.AllowDrop = true;
 			this.TextBox_0.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_0.ForeColor = System.Drawing.Color.Black;
@@ -274,7 +274,7 @@ namespace Xtreme
 			// 
 			// txtDateOfCredit
 			// 
-			this.txtDateOfCredit.AllowDrop = true;
+			//this.txtDateOfCredit.AllowDrop = true;
 			this.txtDateOfCredit.Location = new System.Drawing.Point(86, 12);
 			// this.txtDateOfCredit.MaxDate = 2958465;
 			// this.txtDateOfCredit.MinDate = -657434;
@@ -287,7 +287,7 @@ namespace Xtreme
 			// 
 			// txtExpiryDate
 			// 
-			this.txtExpiryDate.AllowDrop = true;
+			//this.txtExpiryDate.AllowDrop = true;
 			this.txtExpiryDate.Location = new System.Drawing.Point(86, 34);
 			// this.txtExpiryDate.MaxDate = 2958465;
 			// this.txtExpiryDate.MinDate = -657434;
@@ -300,7 +300,7 @@ namespace Xtreme
 			// 
 			// TextBox_1
 			// 
-			this.TextBox_1.AllowDrop = true;
+			//this.TextBox_1.AllowDrop = true;
 			this.TextBox_1.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_1.ForeColor = System.Drawing.Color.Black;
@@ -316,7 +316,7 @@ namespace Xtreme
 			// 
 			// txtSupplierName
 			// 
-			this.txtSupplierName.AllowDrop = true;
+			//this.txtSupplierName.AllowDrop = true;
 			this.txtSupplierName.BackColor = System.Drawing.Color.FromArgb(239, 239, 239);
 			this.txtSupplierName.Enabled = false;
 			this.txtSupplierName.ForeColor = System.Drawing.Color.Black;
@@ -330,7 +330,7 @@ namespace Xtreme
 			// 
 			// TextBox_2
 			// 
-			this.TextBox_2.AllowDrop = true;
+			//this.TextBox_2.AllowDrop = true;
 			this.TextBox_2.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_2.ForeColor = System.Drawing.Color.Black;
@@ -345,7 +345,7 @@ namespace Xtreme
 			// 
 			// TextBox_3
 			// 
-			this.TextBox_3.AllowDrop = true;
+			//this.TextBox_3.AllowDrop = true;
 			this.TextBox_3.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_3.ForeColor = System.Drawing.Color.Black;
@@ -360,7 +360,7 @@ namespace Xtreme
 			// 
 			// TextBox_4
 			// 
-			this.TextBox_4.AllowDrop = true;
+			//this.TextBox_4.AllowDrop = true;
 			this.TextBox_4.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_4.ForeColor = System.Drawing.Color.Black;
@@ -375,7 +375,7 @@ namespace Xtreme
 			// 
 			// TextBox_5
 			// 
-			this.TextBox_5.AllowDrop = true;
+			//this.TextBox_5.AllowDrop = true;
 			this.TextBox_5.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_5.ForeColor = System.Drawing.Color.Black;
@@ -390,7 +390,7 @@ namespace Xtreme
 			// 
 			// TextBox_6
 			// 
-			this.TextBox_6.AllowDrop = true;
+			//this.TextBox_6.AllowDrop = true;
 			this.TextBox_6.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_6.ForeColor = System.Drawing.Color.Black;
@@ -406,7 +406,7 @@ namespace Xtreme
 			// 
 			// TextBox_7
 			// 
-			this.TextBox_7.AllowDrop = true;
+			//this.TextBox_7.AllowDrop = true;
 			this.TextBox_7.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_7.ForeColor = System.Drawing.Color.Black;
@@ -421,7 +421,7 @@ namespace Xtreme
 			// 
 			// TextBox_8
 			// 
-			this.TextBox_8.AllowDrop = true;
+			//this.TextBox_8.AllowDrop = true;
 			this.TextBox_8.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_8.ForeColor = System.Drawing.Color.Black;
@@ -436,7 +436,7 @@ namespace Xtreme
 			// 
 			// txtPolicyDate
 			// 
-			this.txtPolicyDate.AllowDrop = true;
+			//this.txtPolicyDate.AllowDrop = true;
 			this.txtPolicyDate.Location = new System.Drawing.Point(86, 226);
 			// this.txtPolicyDate.MaxDate = 2958465;
 			// this.txtPolicyDate.MinDate = -657434;
@@ -449,7 +449,7 @@ namespace Xtreme
 			// 
 			// txtArrivalDate
 			// 
-			this.txtArrivalDate.AllowDrop = true;
+			//this.txtArrivalDate.AllowDrop = true;
 			this.txtArrivalDate.Location = new System.Drawing.Point(86, 248);
 			// this.txtArrivalDate.MaxDate = 2958465;
 			// this.txtArrivalDate.MinDate = -657434;
@@ -462,7 +462,7 @@ namespace Xtreme
 			// 
 			// txtAmendment1
 			// 
-			this.txtAmendment1.AllowDrop = true;
+			//this.txtAmendment1.AllowDrop = true;
 			this.txtAmendment1.Location = new System.Drawing.Point(286, 226);
 			// this.txtAmendment1.MaxDate = 2958465;
 			// this.txtAmendment1.MinDate = -657434;
@@ -475,7 +475,7 @@ namespace Xtreme
 			// 
 			// txtAmendment2
 			// 
-			this.txtAmendment2.AllowDrop = true;
+			//this.txtAmendment2.AllowDrop = true;
 			this.txtAmendment2.Location = new System.Drawing.Point(386, 226);
 			// this.txtAmendment2.MaxDate = 2958465;
 			// this.txtAmendment2.MinDate = -657434;
@@ -488,7 +488,7 @@ namespace Xtreme
 			// 
 			// txtAmendment3
 			// 
-			this.txtAmendment3.AllowDrop = true;
+			//this.txtAmendment3.AllowDrop = true;
 			this.txtAmendment3.Location = new System.Drawing.Point(486, 226);
 			// this.txtAmendment3.MaxDate = 2958465;
 			// this.txtAmendment3.MinDate = -657434;
@@ -501,7 +501,7 @@ namespace Xtreme
 			// 
 			// TextBox_9
 			// 
-			this.TextBox_9.AllowDrop = true;
+			//this.TextBox_9.AllowDrop = true;
 			this.TextBox_9.BackColor = System.Drawing.Color.White;
 			// = false;
 			this.TextBox_9.ForeColor = System.Drawing.Color.Black;
@@ -516,7 +516,7 @@ namespace Xtreme
 			// 
 			// TextBox1_1
 			// 
-			this.TextBox1_1.AllowDrop = true;
+			//this.TextBox1_1.AllowDrop = true;
 			this.TextBox1_1.Enabled = false;
 			this.TextBox1_1.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.TextBox1_1.Location = new System.Drawing.Point(92, 518);
@@ -526,7 +526,7 @@ namespace Xtreme
 			// 
 			// TextBox1_2
 			// 
-			this.TextBox1_2.AllowDrop = true;
+			//this.TextBox1_2.AllowDrop = true;
 			this.TextBox1_2.Enabled = false;
 			this.TextBox1_2.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.TextBox1_2.Location = new System.Drawing.Point(92, 540);
@@ -536,7 +536,7 @@ namespace Xtreme
 			// 
 			// TextBox1_3
 			// 
-			this.TextBox1_3.AllowDrop = true;
+			//this.TextBox1_3.AllowDrop = true;
 			this.TextBox1_3.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.TextBox1_3.Location = new System.Drawing.Point(472, 496);
 			this.TextBox1_3.Name = "TextBox1_3";
@@ -545,7 +545,7 @@ namespace Xtreme
 			// 
 			// TextBox1_4
 			// 
-			this.TextBox1_4.AllowDrop = true;
+			//this.TextBox1_4.AllowDrop = true;
 			this.TextBox1_4.ForeColor = System.Drawing.SystemColors.WindowText;
 			this.TextBox1_4.Location = new System.Drawing.Point(472, 518);
 			this.TextBox1_4.Name = "TextBox1_4";
@@ -554,9 +554,9 @@ namespace Xtreme
 			// 
 			// _Label1_19
 			// 
-			this._Label1_19.AllowDrop = true;
+			//this._Label1_19.AllowDrop = true;
 			this._Label1_19.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_19.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_19.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_19.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_19.Location = new System.Drawing.Point(388, 520);
 			this._Label1_19.Name = "_Label1_19";
@@ -567,9 +567,9 @@ namespace Xtreme
 			// 
 			// _Label1_18
 			// 
-			this._Label1_18.AllowDrop = true;
+			//this._Label1_18.AllowDrop = true;
 			this._Label1_18.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_18.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_18.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_18.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_18.Location = new System.Drawing.Point(388, 498);
 			this._Label1_18.Name = "_Label1_18";
@@ -580,9 +580,9 @@ namespace Xtreme
 			// 
 			// _Label1_17
 			// 
-			this._Label1_17.AllowDrop = true;
+			//this._Label1_17.AllowDrop = true;
 			this._Label1_17.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_17.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_17.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_17.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_17.Location = new System.Drawing.Point(8, 542);
 			this._Label1_17.Name = "_Label1_17";
@@ -593,9 +593,9 @@ namespace Xtreme
 			// 
 			// _Label1_16
 			// 
-			this._Label1_16.AllowDrop = true;
+			//this._Label1_16.AllowDrop = true;
 			this._Label1_16.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_16.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_16.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_16.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_16.Location = new System.Drawing.Point(8, 520);
 			this._Label1_16.Name = "_Label1_16";
@@ -606,9 +606,9 @@ namespace Xtreme
 			// 
 			// _Label1_15
 			// 
-			this._Label1_15.AllowDrop = true;
+			//this._Label1_15.AllowDrop = true;
 			this._Label1_15.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_15.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_15.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_15.Location = new System.Drawing.Point(8, 498);
 			this._Label1_15.Name = "_Label1_15";
@@ -619,9 +619,9 @@ namespace Xtreme
 			// 
 			// _Label1_14
 			// 
-			this._Label1_14.AllowDrop = true;
+			//this._Label1_14.AllowDrop = true;
 			this._Label1_14.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_14.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_14.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_14.Location = new System.Drawing.Point(10, 270);
 			this._Label1_14.Name = "_Label1_14";
@@ -632,9 +632,9 @@ namespace Xtreme
 			// 
 			// _Label1_13
 			// 
-			this._Label1_13.AllowDrop = true;
+			//this._Label1_13.AllowDrop = true;
 			this._Label1_13.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_13.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_13.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_13.Location = new System.Drawing.Point(210, 250);
 			this._Label1_13.Name = "_Label1_13";
@@ -645,9 +645,9 @@ namespace Xtreme
 			// 
 			// _Label1_12
 			// 
-			this._Label1_12.AllowDrop = true;
+			//this._Label1_12.AllowDrop = true;
 			this._Label1_12.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_12.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_12.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_12.Location = new System.Drawing.Point(210, 228);
 			this._Label1_12.Name = "_Label1_12";
@@ -658,9 +658,9 @@ namespace Xtreme
 			// 
 			// _Label1_11
 			// 
-			this._Label1_11.AllowDrop = true;
+			//this._Label1_11.AllowDrop = true;
 			this._Label1_11.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_11.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_11.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_11.Location = new System.Drawing.Point(10, 250);
 			this._Label1_11.Name = "_Label1_11";
@@ -671,9 +671,9 @@ namespace Xtreme
 			// 
 			// _Label1_10
 			// 
-			this._Label1_10.AllowDrop = true;
+			//this._Label1_10.AllowDrop = true;
 			this._Label1_10.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_10.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_10.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_10.Location = new System.Drawing.Point(10, 228);
 			this._Label1_10.Name = "_Label1_10";
@@ -684,9 +684,9 @@ namespace Xtreme
 			// 
 			// _Label1_9
 			// 
-			this._Label1_9.AllowDrop = true;
+			//this._Label1_9.AllowDrop = true;
 			this._Label1_9.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_9.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_9.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_9.Location = new System.Drawing.Point(210, 206);
 			this._Label1_9.Name = "_Label1_9";
@@ -697,9 +697,9 @@ namespace Xtreme
 			// 
 			// _Label1_8
 			// 
-			this._Label1_8.AllowDrop = true;
+			//this._Label1_8.AllowDrop = true;
 			this._Label1_8.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_8.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_8.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_8.Location = new System.Drawing.Point(10, 206);
 			this._Label1_8.Name = "_Label1_8";
@@ -710,9 +710,9 @@ namespace Xtreme
 			// 
 			// _Label1_7
 			// 
-			this._Label1_7.AllowDrop = true;
+			//this._Label1_7.AllowDrop = true;
 			this._Label1_7.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_7.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_7.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_7.Location = new System.Drawing.Point(210, 184);
 			this._Label1_7.Name = "_Label1_7";
@@ -723,9 +723,9 @@ namespace Xtreme
 			// 
 			// _Label1_6
 			// 
-			this._Label1_6.AllowDrop = true;
+			//this._Label1_6.AllowDrop = true;
 			this._Label1_6.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_6.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_6.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_6.Location = new System.Drawing.Point(10, 184);
 			this._Label1_6.Name = "_Label1_6";
@@ -736,9 +736,9 @@ namespace Xtreme
 			// 
 			// _Label1_5
 			// 
-			this._Label1_5.AllowDrop = true;
+			//this._Label1_5.AllowDrop = true;
 			this._Label1_5.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_5.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_5.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_5.Location = new System.Drawing.Point(10, 162);
 			this._Label1_5.Name = "_Label1_5";
@@ -749,9 +749,9 @@ namespace Xtreme
 			// 
 			// _Label1_4
 			// 
-			this._Label1_4.AllowDrop = true;
+			//this._Label1_4.AllowDrop = true;
 			this._Label1_4.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_4.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_4.Location = new System.Drawing.Point(4, 140);
 			this._Label1_4.Name = "_Label1_4";
@@ -762,9 +762,9 @@ namespace Xtreme
 			// 
 			// _Label1_3
 			// 
-			this._Label1_3.AllowDrop = true;
+			//this._Label1_3.AllowDrop = true;
 			this._Label1_3.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_3.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_3.Location = new System.Drawing.Point(10, 118);
 			this._Label1_3.Name = "_Label1_3";
@@ -775,9 +775,9 @@ namespace Xtreme
 			// 
 			// _Label1_2
 			// 
-			this._Label1_2.AllowDrop = true;
+			//this._Label1_2.AllowDrop = true;
 			this._Label1_2.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_2.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_2.Location = new System.Drawing.Point(10, 58);
 			this._Label1_2.Name = "_Label1_2";
@@ -788,9 +788,9 @@ namespace Xtreme
 			// 
 			// _Label1_1
 			// 
-			this._Label1_1.AllowDrop = true;
+			//this._Label1_1.AllowDrop = true;
 			this._Label1_1.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_1.Location = new System.Drawing.Point(200, 36);
 			this._Label1_1.Name = "_Label1_1";
@@ -801,9 +801,9 @@ namespace Xtreme
 			// 
 			// _Label1_0
 			// 
-			this._Label1_0.AllowDrop = true;
+			//this._Label1_0.AllowDrop = true;
 			this._Label1_0.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this._Label1_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this._Label1_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this._Label1_0.ForeColor = System.Drawing.SystemColors.ControlText;
 			this._Label1_0.Location = new System.Drawing.Point(200, 16);
 			this._Label1_0.Name = "_Label1_0";
@@ -814,9 +814,9 @@ namespace Xtreme
 			// 
 			// lblExpDate
 			// 
-			this.lblExpDate.AllowDrop = true;
+			//this.lblExpDate.AllowDrop = true;
 			this.lblExpDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblExpDate.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblExpDate.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblExpDate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblExpDate.Location = new System.Drawing.Point(10, 36);
 			this.lblExpDate.Name = "lblExpDate";
@@ -827,9 +827,9 @@ namespace Xtreme
 			// 
 			// lblDate
 			// 
-			this.lblDate.AllowDrop = true;
+			//this.lblDate.AllowDrop = true;
 			this.lblDate.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
-			this.lblDate.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			//this.lblDate.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.lblDate.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.lblDate.Location = new System.Drawing.Point(10, 14);
 			this.lblDate.Name = "lblDate";

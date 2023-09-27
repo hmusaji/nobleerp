@@ -59,7 +59,7 @@ namespace Xtreme
 			// 
 			// fraPosting
 			// 
-			this.fraPosting.AllowDrop = true;
+			//this.fraPosting.AllowDrop = true;
 			this.fraPosting.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.fraPosting.Controls.Add(this.lblApprove);
 			this.fraPosting.Enabled = true;
@@ -73,7 +73,7 @@ namespace Xtreme
 			// 
 			// lblApprove
 			// 
-			this.lblApprove.AllowDrop = true;
+			//this.lblApprove.AllowDrop = true;
 			this.lblApprove.BackColor = System.Drawing.Color.FromArgb(220, 226, 231);
 			this.lblApprove.Text = "Do You Want To Post?";
 			this.lblApprove.Location = new System.Drawing.Point(36, 38);
@@ -83,25 +83,25 @@ namespace Xtreme
 			// 
 			// cmdOKCancel
 			// 
-			this.cmdOKCancel.AllowDrop = true;
+			//this.cmdOKCancel.AllowDrop = true;
 			this.cmdOKCancel.DisplayButton = 0;
 			this.cmdOKCancel.Location = new System.Drawing.Point(26, 118);
 			this.cmdOKCancel.Name = "cmdOKCancel";
 			this.cmdOKCancel.OkCaption = "&Ok";
 			this.cmdOKCancel.Size = new System.Drawing.Size(206, 31);
 			this.cmdOKCancel.TabIndex = 0;
-			//this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
-			//this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
+			////this.cmdOKCancel.CancelClick += new UCOkCancel.CancelClickHandler(this.cmdOKCancel_CancelClick);
+			////this.cmdOKCancel.OKClick += new UCOkCancel.OKClickHandler(this.cmdOKCancel_OKClick);
 			// 
 			// Shape1
 			// 
-			this.Shape1.AllowDrop = true;
+			//this.Shape1.AllowDrop = true;
 			this.Shape1.BackColor = System.Drawing.SystemColors.Window;
 			// = 0;
 			//
 			this.Shape1.Enabled = false;
-			//this.Shape1.FillColor = System.Drawing.Color.Black;
-			//this.Shape1.FillStyle = 1;
+			////this.Shape1.FillColor = System.Drawing.Color.Black;
+			////this.Shape1.FillStyle = 1;
 			this.Shape1.Location = new System.Drawing.Point(0, 0);
 			this.Shape1.Name = "Shape1";
 			this.Shape1.Size = new System.Drawing.Size(261, 157);
