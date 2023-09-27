@@ -1699,6 +1699,7 @@
     <Compile Include="SystemForm\repParametersWindow.Designer.cs">
       <DependentUpon>repParametersWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemVariables.cs" />
     <Compile Include="test.cs">
       <SubType>Form</SubType>
     </Compile>
