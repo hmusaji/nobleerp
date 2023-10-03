@@ -350,8 +350,9 @@ namespace Xtreme
             ((System.ComponentModel.ISupportInitialize)(this.mnuSystemMenu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+            InitializecmbLanguage();
 
-		}
+        }
 		// 
 		void InitializecmbLanguage()
 		{

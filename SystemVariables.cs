@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Xtreme
 {
-    internal static class SystemVariables
+    public static class SystemVariables
     {
 
 

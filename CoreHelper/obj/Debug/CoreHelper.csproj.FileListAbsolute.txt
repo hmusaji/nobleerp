@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\GitHub\nobleerp1\CoreHelper\bin\Debug\CoreHelper.dll
+C:\Users\HP\Documents\GitHub\nobleerp1\CoreHelper\bin\Debug\CoreHelper.pdb
+C:\Users\HP\Documents\GitHub\nobleerp1\CoreHelper\obj\Debug\CoreHelper.csprojAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\nobleerp1\CoreHelper\obj\Debug\CoreHelper.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\nobleerp1\CoreHelper\obj\Debug\CoreHelper.dll
+C:\Users\HP\Documents\GitHub\nobleerp1\CoreHelper\obj\Debug\CoreHelper.pdb

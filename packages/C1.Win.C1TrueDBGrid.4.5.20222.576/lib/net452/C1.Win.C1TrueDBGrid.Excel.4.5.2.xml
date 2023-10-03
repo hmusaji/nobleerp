@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.Win.C1TrueDBGrid.Excel.4.5.2</name>
+    </assembly>
+    <members>
+        <member name="F:C1.Util.Licensing.VersionConst.VerString">
+            <summary>
+            WinForms version string representation (4 dot-delimited numbers).
+            </summary>
+        </member>
+        <member name="F:C1.Util.Licensing.VersionConst.VersionStr">
+            <summary>
+            Same as <see cref="F:C1.Util.Licensing.VersionConst.VerString"/>.
+            </summary>
+        </member>
+        <member name="T:C1.Util.Licensing.AssemblyNames">
+            <summary>
+            Specifies assembly name parts, used by AssemblyCommonInfo to generate actual assembly names.
+            </summary>
+        </member>
+        <member name="T:C1.Win.C1TrueDBGrid.Excel.Extensions">
+            <summary>
+            Extensions class for C1TrueDbGrid
+            </summary>
+        </member>
+        <member name="M:C1.Win.C1TrueDBGrid.Excel.Extensions.SaveExcel(C1.Win.C1TrueDBGrid.C1TrueDBGrid,System.String,System.String,System.Drawing.Printing.PrinterSettings,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Provides export to Microsoft Excel file.
+            </summary>
+            <param name="grid"><see cref="T:C1.Win.C1TrueDBGrid.C1TrueDBGrid"/> instance that will be exported.</param>
+            <param name="fileName">Name of the file to save, including the path.</param>
+            <param name="sheetName">Name of the sheet to add to the Excel workbook.</param>
+            <param name="ps"><see cref="T:System.Drawing.Printing.PrinterSettings"/> to use when saving the file.</param>
+            <param name="includeHiddenColumns">Indicates whether hidden columns should be included in the export.</param>
+            <param name="includeGridCaption">Indicates whether the Caption of the <see cref="T:C1.Win.C1TrueDBGrid.C1TrueDBGrid"/> instance should be included in the export.</param>
+            <param name="useTranslatedValues">Indicates whether to use the data value translation using the <see cref="T:C1.Win.C1TrueDBGrid.ValueItem"/> matching.</param>
+        </member>
+        <member name="M:C1.Win.C1TrueDBGrid.Excel.Extensions.LoadExcel(C1.Win.C1TrueDBGrid.C1TrueDBGrid,System.String,System.String,System.Boolean)">
+            <summary>
+            Provides import from Microsoft Excel file.
+            </summary>
+            <param name="grid"><see cref="T:C1.Win.C1TrueDBGrid.C1TrueDBGrid"/> instance that will be exported.</param>
+            <param name="fileName">Name of the file to load, including the path.</param>
+            <param name="sheetName">Name of the sheet to load from the Excel workbook.</param>
+            <param name="useTranslatedValues">Indicates whether to use the data value translation using the <see cref="T:C1.Win.C1TrueDBGrid.ValueItem"/> matching.</param>
+        </member>
+    </members>
+</doc>

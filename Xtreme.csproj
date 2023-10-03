@@ -57,6 +57,7 @@
     <Reference Include="C1.Win.C1TrueDBGrid.Excel.4.5.2, Version=4.5.20222.576, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL">
       <HintPath>..\packages\C1.Win.C1TrueDBGrid.4.5.20222.576\lib\net452\C1.Win.C1TrueDBGrid.Excel.4.5.2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Syncfusion.Core.WinForms, Version=22.1460.34.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="Syncfusion.Grid.Base, Version=22.1460.34.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="Syncfusion.Grid.Windows, Version=22.1460.34.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
@@ -67,6 +68,7 @@
     <Reference Include="Syncfusion.Tools.Base, Version=22.1460.34.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="Syncfusion.Tools.Windows, Version=22.1460.34.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
@@ -122,6 +124,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyHelper.cs" />
+    <Compile Include="DateTimeHelper.cs" />
     <Compile Include="Finance\frmARAPAutoAdjustVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1390,6 +1394,7 @@
     <Compile Include="RealEstate\frmRETenantCharges.Designer.cs">
       <DependentUpon>frmRETenantCharges.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReflectionHelper.cs" />
     <Compile Include="Sales\frmRentReceipt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1417,6 +1422,9 @@
     <Compile Include="ShapeHelper.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="SharpHelper.cs" />
+    <Compile Include="StringsHelper.cs" />
+    <Compile Include="SystemCombo.cs" />
     <Compile Include="SystemForm\frmSysAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1699,6 +1707,7 @@
     <Compile Include="SystemForm\repParametersWindow.Designer.cs">
       <DependentUpon>repParametersWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemProcedure2.cs" />
     <Compile Include="SystemVariables.cs" />
     <Compile Include="test.cs">
       <SubType>Form</SubType>
@@ -2536,6 +2545,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CoreHelper\CoreHelper.csproj">
+      <Project>{D38796EF-4899-4612-9E8A-0F7EC2D7E941}</Project>
+      <Name>CoreHelper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
