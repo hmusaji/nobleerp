@@ -26,9 +26,17 @@ namespace Xtreme
 
         private void frmSysLogin_Load(object sender, EventArgs e)
         {
+            InitializecmbLanguage();
             Form_Load();
+           
         }
-        
+
+        void InitializecmbLanguage()
+        {
+            this.cmbLanguage = new System.Windows.Forms.ComboBox[1];
+            this.cmbLanguage[0] = _cmbLanguage_0;
+        }
+
         private void Form_Load()
         {
             bool mCompanyShowHideSetting = false;
@@ -264,176 +272,164 @@ namespace Xtreme
                 txtPassword.Enabled = true;
             }
         }
-
+        
         private void btnLogin_ClickEvent(Object eventSender, EventArgs eventArgs)
         {
-            //int mReturnedErrorNo = 0;
-            //bool mUserIsAdmin = false;
-            //object mReturnValue = null;
-            //Form frmClose = null;
-            //int Cnt = 0;
-            //int mLoginCompany = 0;
-            ////**--to display the HourGlass
-            //clsHourGlass clsHour = new clsHourGlass();
-
-            //try
-            //{
-
-
-            //    Cnt = 0;
-            //    foreach (Form frmCloseIterator in Application.OpenForms)
-            //    {
-            //        frmClose = frmCloseIterator;
-            //        if (frmClose.Name != "frmSysLogin")
-            //        {
-            //            Cnt = 1;
-            //        }
-            //        frmClose = default(Form);
-            //    }
-
-            //    if (Cnt > 0)
-            //    {
-            //        MessageBox.Show("Please Close Application Before Switching User", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        return;
-            //    }
-
-            //    if (!VerifyValidSystemUser())
-            //    {
-            //        MessageBox.Show("Error : Denied access, Invalid User Information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        txtUserID.Focus();
-            //        return;
-            //    }
-
-            //    if (cmbCompany.Visible && (SystemProcedure2.IsItEmpty(cmbCompany.Text, SystemVariables.DataType.StringType) || SystemProcedure2.IsItEmpty(Convert.ToString(cmbCompany.Tag), SystemVariables.DataType.StringType)))
-            //    {
-            //        MessageBox.Show("Error : Enter Company Information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        cmbCompany.Focus();
-            //        return;
-            //    }
-
-            //    if (txtLocationNo.Visible && (SystemProcedure2.IsItEmpty(txtLocationNo.Text, SystemVariables.DataType.NumberType) || SystemProcedure2.IsItEmpty(Convert.ToString(txtLocationNo.Tag), SystemVariables.DataType.NumberType)))
-            //    {
-            //        MessageBox.Show("Error : Enter Location Information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        txtLocationNo.Focus();
-            //        return;
-            //    }
-
-            //    //--**check whether user is admin
-            //    //UPGRADE_ISSUE: (2064) ADODB.Recordset method rsUsersList.MoveFirst was not upgraded. More Information: https://docs.mobilize.net/vbuc/ewis#2064
-            //    rsUsersList.MoveFirst();
-            //    //rsUsersList.Find("user_id = '" + txtUserID.Text.Trim() + "'");
-            //    if (rsUsersList.Tables[0].Rows.Count != 0)
-            //    {
-            //        //UPGRADE_WARNING: (2077) Change the default 0 index in the Rows property with the correct one. More Information: https://docs.mobilize.net/vbuc/ewis#2077
-            //        mUserIsAdmin = Convert.ToDouble(rsUsersList.Tables[0].Rows[0]["group_cd"]) == SystemConstants.gDefaultAdminGroupCode;
-            //    }
-            //    else
-            //    {
-            //        mUserIsAdmin = false;
-            //    }
-
-            //    if (cmbCompany.Visible)
-            //    {
-            //        //mLoginCompany = cmbCompany.GetItemData(cmbCompany.ListIndex);
-            //    }
-            //    else
-            //    {
-            //        mLoginCompany = 1;
-            //    }
-            //    int tempRefParam = Convert.ToInt32(Conversion.Val(Convert.ToString(txtLocationNo.Tag)));
-            //    bool tempRefParam2 = txtLocationNo.Visible;
-            //    mReturnedErrorNo = SystemProcedure.CheckUserValidity(1, mLoginCompany, txtUserID.Text.Trim(), txtPassword.Text.Trim(), ref tempRefParam, mUserIsAdmin, false, ref tempRefParam2);
-
-            //    //'Desc: To check for valid POS Counter
-            //    //UPGRADE_WARNING: (1068) GetMasterCode() of type Variant is being forced to Scalar. More Information: https://docs.mobilize.net/vbuc/ewis#1068
-            //    mReturnValue = ReflectionHelper.GetPrimitiveValue(SystemProcedure2.GetMasterCode("select Preference_value from SM_Preferences where preference_name ='enable_pos_counter'"));
-            //    string mSQL = "";
-            //    if (ReflectionHelper.GetPrimitiveValue<bool>(mReturnValue))
-            //    {
-
-            //        mSQL = "select pos_counter_cd  from ics_pos_counter ";
-            //        mSQL = mSQL + " where pos_computer_name = '" + SystemProcedure.GetComputerNamePOS().ToLower() + "' and locat_cd = " + SystemVariables.gLoggedInUserLocationCode.ToString() + " and freeze = 0";
-            //        //UPGRADE_WARNING: (1068) GetMasterCode() of type Variant is being forced to Scalar. More Information: https://docs.mobilize.net/vbuc/ewis#1068
-            //        mReturnValue = ReflectionHelper.GetPrimitiveValue(SystemProcedure2.GetMasterCode(mSQL));
-            //        //UPGRADE_WARNING: (1049) Use of Null/IsNull() detected. More Information: https://docs.mobilize.net/vbuc/ewis#1049
-            //        if (Convert.IsDBNull(mReturnValue))
-            //        {
-            //            SystemVariables.gPOSCounterCode = 0;
-            //        }
-            //        else
-            //        {
-            //            //UPGRADE_WARNING: (1068) mReturnValue of type Variant is being forced to int. More Information: https://docs.mobilize.net/vbuc/ewis#1068
-            //            SystemVariables.gPOSCounterCode = ReflectionHelper.GetPrimitiveValue<int>(mReturnValue);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        SystemVariables.gPOSCounterCode = 0;
-            //    }
+            int mReturnedErrorNo = 0;
+            bool mUserIsAdmin = false;
+            object mReturnValue = null;
+            Form frmClose = null;
+            int Cnt = 0;
+            int mLoginCompany = 0;
+            //**--to display the HourGlass
+          
+            try
+            {
 
 
-            //    if (mReturnedErrorNo == 0)
-            //    {
-            //        LastButtonClicked = System.Windows.Forms.DialogResult.OK;
-            //        if (!SystemVariables.gXtremeAdminLoggedIn)
-            //        {
-            //            if (chkSaveUser.CheckState == CheckState.Checked)
-            //            {
-            //                InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "UserID", txtUserID.Text);
-            //            }
-            //            if (chkSavePassword.CheckState == CheckState.Checked)
-            //            {
-            //                InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "Password", txtPassword.Text);
-            //            }
-            //            //''''''''''''''''''''''''''''''''''''''''''''''''''''''
-            //            // InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "CompanyNo", cmbCompany.ListIndex.ToString());
-            //            //InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "LocatNo", txtLocationNo.Text);
-            //        }
-            //        if (cmbLanguage[0].Visible)
-            //        {
-            //            //if (cmbLanguage[0].GetItemData(cmbLanguage[0].ListIndex) == 77)
-            //            //{
-            //            //    SystemVariables.gPreferedLanguage = SystemVariables.Language.English;
-            //            //}
-            //            //else
-            //            //{
-            //            //    SystemVariables.gPreferedLanguage = SystemVariables.Language.Arabic;
-            //            //}
-            //        }
+                Cnt = 0;
+                foreach (Form frmCloseIterator in Application.OpenForms)
+                {
+                    frmClose = frmCloseIterator;
+                    if (frmClose.Name != "frmSysLogin")
+                    {
+                        Cnt = 1;
+                    }
+                    frmClose = default(Form);
+                }
 
-            //        SystemProcedure.OpenApplication();
-            //        this.Close();
-            //        return;
-            //    }
-            //    else if (mReturnedErrorNo == 1)
-            //    {
-            //        MessageBox.Show("Error: Denied access, invalid user information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    }
-            //    else if (mReturnedErrorNo == 2)
-            //    {
-            //        MessageBox.Show("Error: invalid company information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        return;
-            //    }
-            //    else if (mReturnedErrorNo == 3)
-            //    {
-            //        MessageBox.Show("Error: Denied access to the specified company", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        return;
-            //    }
-            //    else if (mReturnedErrorNo == 4)
-            //    {
-            //        MessageBox.Show("Error: Denied access to the specified location!!!" + "\r" + "\r" +
-            //                        "You can not login in the Head Office / Primary Branch location" + "\r" +
-            //                        "from a POS / Remote Location in offline mode!!!", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        return;
-            //    }
-            //}
-            //catch (System.Exception excep)
-            //{
+                if (Cnt > 0)
+                {
+                    MessageBox.Show("Please Close Application Before Switching User", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                if (cmbCompany.Visible==true && TypeParser.ParseInt(cmbCompany.SelectedValue)==0)
+                {
+                    MessageBox.Show("Error : Enter Company Information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    cmbCompany.Focus();
+                    return;
+                }
+
+                //if (txtLocationNo.Visible && TypeParser.ParseInt(txtLocationNo.SelectedValue) == 0)
+                //{
+                //    MessageBox.Show("Error : Enter Location Information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    txtLocationNo.Focus();
+                //    return;
+                //}
+
+                if (rsUsersList.Tables[0].Rows.Count != 0)
+                {
+                    mUserIsAdmin = Convert.ToDouble(rsUsersList.Tables[0].Rows[0]["group_cd"]) == SystemConstants.gDefaultAdminGroupCode;
+                }
+                else
+                {
+                    mUserIsAdmin = false;
+                }
+
+                if (cmbCompany.Visible)
+                {
+                    mLoginCompany = TypeParser.ParseInt(cmbCompany.SelectedValue);
+                }
+                else
+                {
+                    mLoginCompany = 1;
+                }
+                int tempRefParam = TypeParser.ParseInt(string.IsNullOrEmpty(txtLocationNo.Tag+"")?"1": txtLocationNo.Tag);
+                bool tempRefParam2 = txtLocationNo.Visible;
+                mReturnedErrorNo = SystemProcedure.CheckUserValidity(1, mLoginCompany, txtUserID.Text.Trim(), txtPassword.Text.Trim(), ref tempRefParam, mUserIsAdmin, false, ref tempRefParam2);
+
+                //'Desc: To check for valid POS Counter
+                //UPGRADE_WARNING: (1068) GetMasterCode() of type Variant is being forced to Scalar. More Information: https://docs.mobilize.net/vbuc/ewis#1068
+                mReturnValue = ReflectionHelper.GetPrimitiveValue(SystemProcedure2.GetMasterCode("select Preference_value from SM_Preferences where preference_name ='enable_pos_counter'"));
+                string mSQL = "";
+                if (ReflectionHelper.GetPrimitiveValue<bool>(mReturnValue))
+                {
+
+                    mSQL = "select pos_counter_cd  from ics_pos_counter ";
+                    mSQL = mSQL + " where pos_computer_name = '" + SystemProcedure.GetComputerNamePOS().ToLower() + "' and locat_cd = " + SystemVariables.gLoggedInUserLocationCode.ToString() + " and freeze = 0";
+                    //UPGRADE_WARNING: (1068) GetMasterCode() of type Variant is being forced to Scalar. More Information: https://docs.mobilize.net/vbuc/ewis#1068
+                    mReturnValue = ReflectionHelper.GetPrimitiveValue(SystemProcedure2.GetMasterCode(mSQL));
+                    //UPGRADE_WARNING: (1049) Use of Null/IsNull() detected. More Information: https://docs.mobilize.net/vbuc/ewis#1049
+                    if (Convert.IsDBNull(mReturnValue))
+                    {
+                        SystemVariables.gPOSCounterCode = 0;
+                    }
+                    else
+                    {
+                        //UPGRADE_WARNING: (1068) mReturnValue of type Variant is being forced to int. More Information: https://docs.mobilize.net/vbuc/ewis#1068
+                        SystemVariables.gPOSCounterCode = ReflectionHelper.GetPrimitiveValue<int>(mReturnValue);
+                    }
+                }
+                else
+                {
+                    SystemVariables.gPOSCounterCode = 0;
+                }
 
 
-            //    MessageBox.Show(excep.Message, AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    SystemProcedure.CloseApplication(true);
-            //}
+                if (mReturnedErrorNo == 0)
+                {
+                    LastButtonClicked = System.Windows.Forms.DialogResult.OK;
+                    if (!SystemVariables.gXtremeAdminLoggedIn)
+                    {
+                        if (chkSaveUser.CheckState == CheckState.Checked)
+                        {
+                            InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "UserID", txtUserID.Text);
+                        }
+                        if (chkSavePassword.CheckState == CheckState.Checked)
+                        {
+                            InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "Password", txtPassword.Text);
+                        }
+                        //''''''''''''''''''''''''''''''''''''''''''''''''''''''
+                        // InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "CompanyNo", cmbCompany.ListIndex.ToString());
+                        //InteractionHelper.SaveSettingRegistryKey("Innova", "Settings", "LocatNo", txtLocationNo.Text);
+                    }
+                    if (cmbLanguage[0].Visible)
+                    {
+                        //if (cmbLanguage[0].GetItemData(cmbLanguage[0].ListIndex) == 77)
+                        //{
+                        //    SystemVariables.gPreferedLanguage = SystemVariables.Language.English;
+                        //}
+                        //else
+                        //{
+                        //    SystemVariables.gPreferedLanguage = SystemVariables.Language.Arabic;
+                        //}
+                    }
+
+                    frmSysMain frm = new frmSysMain();
+                    frm.Show();
+                    //this.Close();
+                    return;
+                }
+                else if (mReturnedErrorNo == 1)
+                {
+                    MessageBox.Show("Error: Denied access, invalid user information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else if (mReturnedErrorNo == 2)
+                {
+                    MessageBox.Show("Error: invalid company information", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                else if (mReturnedErrorNo == 3)
+                {
+                    MessageBox.Show("Error: Denied access to the specified company", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                else if (mReturnedErrorNo == 4)
+                {
+                    MessageBox.Show("Error: Denied access to the specified location!!!" + "\r" + "\r" +
+                                    "You can not login in the Head Office / Primary Branch location" + "\r" +
+                                    "from a POS / Remote Location in offline mode!!!", AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+            catch (System.Exception excep)
+            {
+
+
+                MessageBox.Show(excep.Message, AssemblyHelper.GetTitle(System.Reflection.Assembly.GetExecutingAssembly()), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
 
 
         }

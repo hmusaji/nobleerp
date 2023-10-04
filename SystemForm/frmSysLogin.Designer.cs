@@ -21,7 +21,7 @@ namespace Xtreme
 		public System.Windows.Forms.Button cmdVerify;
 		public System.Windows.Forms.TextBox txtPassword;
 		public System.Windows.Forms.TextBox txtUserID;
-		public System.Windows.Forms.TextBox txtLocationNo;
+		public System.Windows.Forms.ComboBox txtLocationNo;
 		public System.Windows.Forms.Label txtLocationName;
 		private System.Windows.Forms.ComboBox _cmbLanguage_0;
 		public System.Windows.Forms.Button btnExit;
@@ -54,7 +54,7 @@ namespace Xtreme
             this.cmdVerify = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUserID = new System.Windows.Forms.TextBox();
-            this.txtLocationNo = new System.Windows.Forms.TextBox();
+            this.txtLocationNo = new System.Windows.Forms.ComboBox();
             this.txtLocationName = new System.Windows.Forms.Label();
             this._cmbLanguage_0 = new System.Windows.Forms.ComboBox();
             this.btnExit = new System.Windows.Forms.Button();
@@ -84,6 +84,8 @@ namespace Xtreme
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(79, 33);
             this.btnLogin.TabIndex = 5;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_ClickEvent);
             // 
             // chkSaveUser
             // 
@@ -174,6 +176,7 @@ namespace Xtreme
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(79, 33);
             this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Exit";
             // 
             // cmbCompany
             // 
@@ -350,15 +353,10 @@ namespace Xtreme
             ((System.ComponentModel.ISupportInitialize)(this.mnuSystemMenu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-            InitializecmbLanguage();
 
         }
 		// 
-		void InitializecmbLanguage()
-		{
-			this.cmbLanguage = new System.Windows.Forms.ComboBox[1];
-			this.cmbLanguage[0] = _cmbLanguage_0;
-		}
+		
 		#endregion
 	}
 }//ENDSHERE

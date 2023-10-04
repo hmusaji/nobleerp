@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyHelper.cs" />
+    <Compile Include="clsAccessAllowed.cs" />
     <Compile Include="DateTimeHelper.cs" />
     <Compile Include="Finance\frmARAPAutoAdjustVoucher.cs">
       <SubType>Form</SubType>
@@ -1425,6 +1426,7 @@
     <Compile Include="SharpHelper.cs" />
     <Compile Include="StringsHelper.cs" />
     <Compile Include="SystemCombo.cs" />
+    <Compile Include="SystemConstants.cs" />
     <Compile Include="SystemForm\frmSysAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1707,6 +1709,7 @@
     <Compile Include="SystemForm\repParametersWindow.Designer.cs">
       <DependentUpon>repParametersWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemProcedure.cs" />
     <Compile Include="SystemProcedure2.cs" />
     <Compile Include="SystemVariables.cs" />
     <Compile Include="test.cs">
